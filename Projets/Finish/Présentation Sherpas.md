@@ -1,0 +1,3 @@
+Actuellement en études d'informatique, je n'ai pas attendu ce moment pour m'intéresser à ce domaine. Cela fait maintenant 8 ans que je m'intéresse à tout ce qui touche par l'informatique et plus particulièrement par la programmation. Je suis actuellement en train de développer une application mobile nécessitant des connaissances avancées en programmation donc je pense pouvoir vous apporter beaucoup dans vos études dans tout ce qui touche les domaine de l'informatique mais également des mathématiques. Voici mes différents résultats :
+- 14 en spécialité Mathématiques
+- 

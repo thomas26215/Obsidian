@@ -1,0 +1,364 @@
+{
+  "main": {
+    "id": "898dcf6e67737a0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "fef5e015a6eaedb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a19353c5582e18f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4b76224615f8698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/SAE2.04/Contraintes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22667a57bfad8652",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Oral communication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c98770f2949bc5ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efb332d9b6ee6641",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "096395ba389728af",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1fe3a6d742f85dc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f98532d0b999dc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d02a027293bc57a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "883d239ddc28720f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26930f4f00436aea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "9d9abe3d10c97f30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "personne moral",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee551dcfadc225ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5110321044922
+  },
+  "right": {
+    "id": "8c4f70df493ebba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f585d7813b0463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0b625bc74dc987f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "66e587d48df7a77c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d342e80f9fb8668",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "35e933e1cc640cce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md"
+              }
+            }
+          },
+          {
+            "id": "ceb83811872d7ba4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.00155925155925,
+                  "lineSizeMultiplier": 1.77577962577963,
+                  "collapse-forces": true,
+                  "centerStrength": 0.529106029106029,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 140,
+                  "scale": 0.4448358383478256,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "44c10021f5f438fa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "807d069a5bfee8c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a107db2f9f54918d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md"
+              }
+            }
+          },
+          {
+            "id": "f9a1b88061f762b3",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "1fe3a6d742f85dc1",
+  "lastOpenFiles": [
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
+    "Anglais.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+    "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition de la notion de droit.md",
+    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit objectif.md",
+    "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
+    "Projets/En cours/SAE2.04/Contraintes.md",
+    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
+    "Projets/En cours/SAE2.04",
+    "Permanent/Cours/Cours/Semestre 2/Administration de premier niveau - droits.md",
+    "Permanent/Cours/Cours/Semestre 2/Untitled.md",
+    "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
+    "Projets/En cours/Oral communication.md",
+    "Permanent/Cours/Cours/Semestre 2/Droit.md",
+    "Permanent/Cours/Cours/Semestre 2/Gestion de projet - Introduction.md",
+    "Projets/En cours/P2.01.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+    "Permanent/Cours/Cours/Semestre 2/Pile.md",
+    "Permanent/Cours/Cours/Semestre 2/SQL pour explorer et analyser.md",
+    "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
+    "Permanent/Mathématiques/Signe somme.md",
+    "Permanent/Mathématiques/Règles de calculs simple.md",
+    "Permanent/Autre/L'implication.md",
+    "Suites et récurrences Info 1.pdf",
+    "etape2_venouilt.pdf",
+    "Permanent/Mathématiques",
+    "Images/Pasted image 20231115165807.jpg",
+    "Images/Pasted image 20231113090322.png",
+    "Images/Pasted image 20231113084937.png",
+    "Images/Pasted image 20231016164036.png",
+    "Images/Pasted image 20231016165912.png",
+    "Images/Pasted image 20230720210053.png",
+    "Images/page d'or dev perso.pdf",
+    "Images/Lien hypertext.png",
+    "Images/mise en page d'une page web.png",
+    "Images/exemple marging padding.png",
+    "Images/Différences block-inline HTML.png",
+    "Images",
+    "To Learn",
+    "Templates",
+    "Temp/Dossier 6",
+    "Temp/Dossier 5",
+    "Projets/En cours/Application mobile de sport/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
+    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
+    "Untitled 14.canvas",
+    "Untitled 13.canvas",
+    "Untitled 12.canvas",
+    "Untitled 11.canvas",
+    "Untitled 10.canvas",
+    "Untitled 9.canvas"
+  ]
+}

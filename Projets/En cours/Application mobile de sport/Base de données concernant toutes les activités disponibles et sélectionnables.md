@@ -1,0 +1,10 @@
+- Une liste de tous les exercices disponibles, triés par nom, ou par catégorie, ou par nombre d'utilisations dans une séance
+- Des catégories qui pourra contenir plusieurs exercices, ou un seul
+- Un exercice contiendra des données comme le nombre de fois où il est utilisé dans un exercice, une image pour identifier rapidement quel exercice c'est précisemment, la partie du corps visée, une description de l'exercice. (Contiendra également l'historique mais lié à une autre base de données). Contidendra le maximum de charge, le maximum de répétitions, le maximum 1RM, et le nombre totale de répétitions ainsi que le volume total, mais certaines donnée liée à base de données de statistiques
+- Une catégorie *récent* qui contiendra les derniers exercices utilisés. Cette catégorie est triéée indépendemment des autres
+- Une catégorie *Created* qui contiendra les exercices crées par l'utilisateur
+- La base de données contenant les noms des exercices pourra éventuellement être reliée à une base de donnée de statistiques qui suivra l'évolution du sportif pour chaque exercice
+- Pouvoir mettre des filtres pour poids du corps, nécessite une machine... pour un exercice
+- La possibilité à l'utilisateur de créer un exercice
+- La possibilité à l'utilisateur de rechercher un exercice
+- La possibilité de mettre un filtre pour cibler une partie du corps

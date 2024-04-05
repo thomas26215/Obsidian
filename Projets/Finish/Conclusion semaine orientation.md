@@ -1,0 +1,8 @@
+VENOUIL Thomas
+
+Je choisi le parcours A car cela fait longtemps que j'aime la programmation. Je programme tous les jours et j'y prend du plaisir, que ce soir à l'école ou bien chez moi. La parcours A m'a donc semblé un choix pertinent.
+
+Tout d'abord, la présentation des différents parcours ne m'a pas particulièrement interessé, étant donné que je m'étais déjà renseigné sur les parcours et sur ce qu'ils proposent, notamment grâce aux portes ouvertes ... Cependant, je pense que ça peut être pertinent pour les élèves qui ne se sont pas énormément renseignés. J'ai cependant apprécié l'intervention des anciens élèves, car cela nous a permis d'avoir un vrai retour sur ce qu'ils ont vécu, ainsi que la possibilité de leur poser des questions, ce qui nous a permis d'obtenir certaines réponses que l'on ne peut pas forcément trouver sur le Web.  J'ai aussi aimé l'intervention des deux personnes qui ont développés leur application de sport ainsi que les personnes en entreprise car ça nous montre différentes possibilités d'évolution à la suite de la formation et cela nous permet d'avoir une meilleure vision sur ce que l'on peut faire. La présentation des formations à l'étranger m'a un peu plus ennuyé ; Je trouvai cela trop long et pas assez entrainant contrairement à la présentation de l'amée, qui était plus énergétique et plus dynamique. Malgré le fait que la cybersécurité ne me passionne pas trop, j'ai aimé la présentation du DGSI grâce aux parallèles aux films qu'il a fait.
+
+
+En conclusion, j'ai globalement apprécié cette semaine d'orientation, notamment quand les présentations étaient dynamiques. Cependant, j'ai trouvé un peu ennuyant les longues présentations et les présentations moins dynamiques.

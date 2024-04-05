@@ -1,0 +1,12 @@
+---
+MOOC: "[[Autre]]"
+Sujet: Systèmes d'exploitation
+Type: Reseau
+tags:
+  - status_finish
+  - note_permanent
+---
+**Stockage en réseau** :
+Le terme général est NAS (Network Attached Storage). C'est un serveur de fichiers. Il y a des clients et des protocoles principaux :
+- NFS (Network File System)
+- SMB (Serveur Message Block)

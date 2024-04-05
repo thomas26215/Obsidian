@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"7afbbdaa30198d11","type":"text","text":"Début","x":-520,"y":-120,"width":200,"height":60,"color":"1"},
+		{"id":"51c2b716f4229234","x":-515,"y":53,"width":190,"height":60,"color":"2","type":"text","text":"Récupérer éléments variables"},
+		{"id":"a6c8ad1e0e04bdce","x":-546,"y":388,"width":250,"height":60,"type":"text","text":"Traitement automatique"},
+		{"id":"f1275620a73fed6a","x":-546,"y":273,"width":250,"height":50,"type":"text","text":""},
+		{"id":"2259f698e7eae1a1","x":-546,"y":268,"width":250,"height":60,"type":"text","text":"h >"},
+		{"id":"f6da48c48b743a32","x":-546,"y":495,"width":250,"height":60,"type":"text","text":"Edition paie"}
+	],
+	"edges":[
+		{"id":"00d3f84648e33e3d","fromNode":"7afbbdaa30198d11","fromSide":"bottom","toNode":"51c2b716f4229234","toSide":"top"},
+		{"id":"243e30ee1701706f","fromNode":"51c2b716f4229234","fromSide":"right","toNode":"7afbbdaa30198d11","toSide":"right","label":"Non"},
+		{"id":"81ca754a874c5f7e","fromNode":"51c2b716f4229234","fromSide":"bottom","toNode":"2259f698e7eae1a1","toSide":"top","label":"Oui"},
+		{"id":"abc7a24a7aad73fe","fromNode":"2259f698e7eae1a1","fromSide":"bottom","toNode":"a6c8ad1e0e04bdce","toSide":"top","label":"Oui"},
+		{"id":"5468e352dc82b334","fromNode":"2259f698e7eae1a1","fromSide":"bottom","toNode":"f1275620a73fed6a","toSide":"right","label":"Non"},
+		{"id":"e8d664f2628dacc4","fromNode":"a6c8ad1e0e04bdce","fromSide":"bottom","toNode":"f6da48c48b743a32","toSide":"top"}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"18f93eef48ffb9ab","x":-920,"y":80,"width":280,"height":200,"color":"1","type":"text","text":"**Contraintes d'intégrité**\n- Trier par nom, catégorie ou par nombre d'utilisations par séance\n- \n"},
+		{"id":"1cf2a82fa40664ef","x":-260,"y":80,"width":250,"height":150,"type":"text","text":"**Catégories**\nid_exercice"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"370eaa3ab35cdae7","x":-73,"y":288,"width":250,"height":60,"type":"text","text":"Critcité"},
+		{"id":"a58890c1f07f56ee","x":258,"y":288,"width":250,"height":60,"type":"text","text":"Stratégie de mitigation"},
+		{"id":"d4ae9e5de29dc854","x":577,"y":268,"width":250,"height":101,"type":"text","text":"Acceptation, Evitement, Protection, Réserves, Transfert"},
+		{"id":"a07f4fbe2d4f5aa5","x":577,"y":504,"width":250,"height":60,"type":"text","text":"Suivi des risques"},
+		{"id":"bf76141ad2190f4e","x":49,"y":504,"width":250,"height":60,"type":"text","text":"Identifier risques"},
+		{"id":"5a87d8d87fd5bba6","x":-73,"y":124,"width":250,"height":60,"type":"text","text":"Identifier risques induits par contraintes"},
+		{"id":"291db0616951a928","x":-381,"y":124,"width":250,"height":60,"type":"text","text":"Identifier contraintes"},
+		{"id":"dba5a7044629f409","x":133,"y":-104,"width":250,"height":60,"type":"text","text":"Identifier contraintes induites par mitigation des risques"}
+	],
+	"edges":[
+		{"id":"d4d2adee4ceb949e","fromNode":"dba5a7044629f409","fromSide":"left","toNode":"291db0616951a928","toSide":"top"},
+		{"id":"e3c41f16a12ce271","fromNode":"291db0616951a928","fromSide":"right","toNode":"5a87d8d87fd5bba6","toSide":"left"},
+		{"id":"fb96495f1d446614","fromNode":"5a87d8d87fd5bba6","fromSide":"bottom","toNode":"370eaa3ab35cdae7","toSide":"top"},
+		{"id":"4e90a1e3b8bd1b45","fromNode":"370eaa3ab35cdae7","fromSide":"right","toNode":"a58890c1f07f56ee","toSide":"left"},
+		{"id":"eb6a84a665ba4b47","fromNode":"bf76141ad2190f4e","fromSide":"top","toNode":"370eaa3ab35cdae7","toSide":"bottom"},
+		{"id":"1cead4d44ce33d02","fromNode":"a58890c1f07f56ee","fromSide":"right","toNode":"d4ae9e5de29dc854","toSide":"left"},
+		{"id":"06033afb0902f97b","fromNode":"d4ae9e5de29dc854","fromSide":"bottom","toNode":"a07f4fbe2d4f5aa5","toSide":"top"},
+		{"id":"a0c92f267294fe34","fromNode":"a07f4fbe2d4f5aa5","fromSide":"left","toNode":"bf76141ad2190f4e","toSide":"right"},
+		{"id":"a3fa4312d67f447f","fromNode":"d4ae9e5de29dc854","fromSide":"top","toNode":"dba5a7044629f409","toSide":"right"}
+	]
+}

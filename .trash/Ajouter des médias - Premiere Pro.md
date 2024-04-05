@@ -1,0 +1,4 @@
+La première étape pour pouvoir monter une vidéo, c'est déja de récupérer les vidéos ! Pour faire ceci, il suffit de faire un glisser déposer de votre média depuis votre explorateur de fichiers vers l'onglet **Projets** de Première Pro :
+![[Capture d’écran 2023-06-16 215244.jpg|375]]
+Une fois la vidéo importée, il est possible de ne pas importer la vidéo en entière vers la timeline (qui sert à monter). Prenons en exemple le fait que j'ai record 3h de vidéos et que je ne souhaite garder que 40min pour le montage (car trop lourd sinon), il est tout à fait possible de le faire depuis ce pannel.
+> Il faut faire **double-click** sur la vidéo, et on a la vidéo qui s'affiche sur le panneau **Source**

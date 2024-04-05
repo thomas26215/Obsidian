@@ -1,0 +1,143 @@
+{
+  "main": {
+    "id": "898dcf6e67737a0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf9e12c9d0328a65",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ATerminer/Deep Work.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d02a027293bc57a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "883d239ddc28720f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26930f4f00436aea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9d9abe3d10c97f30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#INDEXtag:#INDEX",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1aa5852f89180ca8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c4f70df493ebba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f585d7813b0463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0b625bc74dc987f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ATerminer/Deep Work.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "66e587d48df7a77c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ATerminer/Deep Work.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d342e80f9fb8668",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f87b42a199bb4c20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ATerminer/Deep Work.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "cf9e12c9d0328a65",
+  "lastOpenFiles": [
+    "ATerminer/Deep Work.md",
+    "SousArchive/Logiciels.md",
+    "SousArchive/Web.md",
+    "SousArchive/Mobile.md",
+    "SousArchive/Launcher.md",
+    "SousArchive/Videos.md",
+    "SousArchive/Livres.md",
+    "2023-05-16.md",
+    "SousArchive/Kotlin.md",
+    "SousArchive/Java.md"
+  ]
+}

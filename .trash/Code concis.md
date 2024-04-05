@@ -1,0 +1,1 @@
+programmeur est plus rapide à écrire le code. De plus, ça permet de rendre le code plus lisible et plus facile à maintenir. ⇒ Augmentation productivité → Améliore efficacité entreprises

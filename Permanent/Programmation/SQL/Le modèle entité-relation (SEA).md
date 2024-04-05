@@ -1,0 +1,7 @@
+---
+MOOC: "[[Programmation]]"
+Langage: SQL
+Type: SEA - SLR
+tags:
+---
+Le modèle Entité-Association (SEA) est comme un plan que l'on utilise pour concevoir une base de données. C'est comme une carte qui représentant les objets du monde réel, sauf qu'on utilise des symboles et des formes pour montrer quelles infos sont importantes et comment elles sont liées. On l'utilise ainsi pour concevoir les bases de données en définissant les [[Une entité|entités]], [[Une propriété|propriétés]] et [[Une association|association]] en respectant [[Les règles de gestion|des règles de gestion]] pour s'assurer que tout se passe bien et que tout est en ordre. Attention à bien [[Une occurrence d'identité|différencier entité - occurence d'identité]] ⇔ association - occurence d'association. Il existe également [[Les cardinalités entre relations et associations|des cardinalités]] ainsi que des [[Les contraintes d'intégrité|contraintes d'intégrité]]. [[La normalisation d'une base de données|La normalisation]] est importante pour garantir que la base de données est cohérente et fiable, en éliminant les informations redondantes ou dépendantes d'autres informations. En utilisant le SEA, on peut créer une représentation claire et précise du monde réel dans une base de données pour faciliter la gestion des informations.

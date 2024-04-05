@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:MOOC  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:Permanent  ",
+      "color": {
+        "a": 1,
+        "rgb": 5685831
+      }
+    },
+    {
+      "query": "path:Inbox",
+      "color": {
+        "a": 1,
+        "rgb": 13810994
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.76701030927835,
+  "lineSizeMultiplier": 2.29742268041237,
+  "collapse-forces": false,
+  "centerStrength": 0.314432989690722,
+  "repelStrength": 8.35051546391753,
+  "linkStrength": 0.309278350515464,
+  "linkDistance": 180,
+  "scale": 0.08317427835927574,
+  "close": true
+}
