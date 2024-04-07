@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
+                "file": "Projets/Finish/Oral anglais.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Oral communication.md",
+                "file": "Projets/Finish/Oral communication.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "file": "Projets/Finish/Oral anglais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "file": "Projets/Finish/Oral anglais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md"
+                "file": "Projets/Finish/Oral anglais.md"
               }
             }
           },
@@ -216,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "file": "Projets/Finish/Oral anglais.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -271,7 +270,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md"
+                "file": "Projets/Finish/Oral anglais.md"
               }
             }
           },
@@ -302,38 +301,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1fe3a6d742f85dc1",
+  "active": "26930f4f00436aea",
   "lastOpenFiles": [
+    "Projets/Finish/Oral communication.md",
+    "Projets/En cours/P2.01.md",
+    "Projets/En cours/Projet Voltaire.md",
+    "Anglais.md",
+    "Etape 2 SAE 1.4.pdf",
+    "Capture d’écran 2022-09-07 163532.png",
+    "Chiffrement - définition.md",
+    "etape2_venouilt.pdf",
+    "Images/Pasted image 20231214162842.png",
+    "Untitled.md",
+    "Suites et récurrences Info 1.pdf",
+    "Untitled 1.md",
+    "Permanent/Programmation/SQL/Une occurrence d'identité.md",
+    "Permanent/Autre/Redirection vers un autre processus.md",
+    "redirection vers une autre processus.md",
+    "Permanent/Programmation/SQL/La normalisation d'une base de données.md",
+    "Permanent/Programmation/SQL/Définition - Instance d'une base de données.md",
+    "Permanent/Programmation/SQL/Les cardinalités entre relations et associations.md",
+    "Permanent/Programmation/SQL/Une propriété.md",
+    "Permanent/Programmation/SQL/Définition - Clé candidate.md",
+    "Permanent/Programmation/SQL/Définition - Clé primaire.md",
+    "Permanent/Programmation/SQL/Le modèle entité-relation (SEA).md",
+    "Permanent/Programmation/SQL/Définition - relation.md",
+    "Permanent/Programmation/SQL/Une entité.md",
+    "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
+    "Permanent/Cours/Cours/Semestre 2/Pile.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
-    "Anglais.md",
     "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
-    "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
     "Permanent/Cours/Cours/Semestre 2/Définition de la notion de droit.md",
     "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
-    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
-    "Permanent/Cours/Cours/Semestre 2/Les sources du droit objectif.md",
-    "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
-    "Projets/En cours/SAE2.04/Contraintes.md",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Projets/En cours/SAE2.04",
-    "Permanent/Cours/Cours/Semestre 2/Administration de premier niveau - droits.md",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.md",
-    "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
-    "Projets/En cours/Oral communication.md",
-    "Permanent/Cours/Cours/Semestre 2/Droit.md",
-    "Permanent/Cours/Cours/Semestre 2/Gestion de projet - Introduction.md",
-    "Projets/En cours/P2.01.md",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-    "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
-    "Permanent/Cours/Cours/Semestre 2/Pile.md",
-    "Permanent/Cours/Cours/Semestre 2/SQL pour explorer et analyser.md",
-    "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
-    "Permanent/Mathématiques/Signe somme.md",
-    "Permanent/Mathématiques/Règles de calculs simple.md",
-    "Permanent/Autre/L'implication.md",
-    "Suites et récurrences Info 1.pdf",
-    "etape2_venouilt.pdf",
     "Permanent/Mathématiques",
     "Images/Pasted image 20231115165807.jpg",
     "Images/Pasted image 20231113090322.png",
@@ -344,13 +346,10 @@
     "Images/page d'or dev perso.pdf",
     "Images/Lien hypertext.png",
     "Images/mise en page d'une page web.png",
-    "Images/exemple marging padding.png",
-    "Images/Différences block-inline HTML.png",
     "Images",
     "To Learn",
     "Templates",
     "Temp/Dossier 6",
-    "Temp/Dossier 5",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",

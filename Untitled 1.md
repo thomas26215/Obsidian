@@ -1,1 +1,0 @@
-ERP métier : un ERP qui est destiné à un secteur cible ou à un marché cible
