@@ -45,3 +45,5 @@ Tous les droits subjectifs sont transmissible pour cause de mort. Les héritiers
 - *Fructus* = Droit d'en tirer les fruits naturels ou civils
 - *ABUSUS* = Droit de modifier mon droit ou de le céder
 ⇒ **USUS + FRUCTUS + ABUSUS = DROIT DE PROPRIETE**
+
+[Vocabulaire](https://quizlet.com/fr-fr/fiches-de-memorisation/principes-de-droit-francais-899143439)

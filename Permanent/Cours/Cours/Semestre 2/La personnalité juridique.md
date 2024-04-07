@@ -24,3 +24,5 @@ présemption :
 Responsabilité pénale : Un fait ne peut être punit dans le domaine que si il est prévu par la loi. C'est celui qui a commit l'infraction qui est poursuivit. Pas toujours poursuivable en matière de déli (poursuivit que si un texte est prévu).
 Complice mêmes sanctions que pour auteur principale. Complice impliqué que si on trouve auteur principale.
 Pas d'infraction pas de peine
+
+[Vocabulaire](https://quizlet.com/fr-fr/fiches-de-memorisation/principes-de-droit-francais-899143439)

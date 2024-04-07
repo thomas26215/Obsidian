@@ -144,6 +144,9 @@ Pour l'émission d'une trame :
 4. A la fin du dernier bit émis, attente d'un délai SIFS (plus court que le DIFS)
 5. Réception de l’acquittement au bout du délai SIFS : si l’acquittement n’arrive pas, la station détecte qu’il y a eu collision
 
+
+[Vocabulaire](https://quizlet.com/fr/900090733/protocole-arp-flash-cards/?funnelUUID=2d60dcbf-0a28-42b3-b5f6-a42c3de055a7)
+
 --- 
 **Questions :**
 1. Qu'est-ce qu'un réseau ?

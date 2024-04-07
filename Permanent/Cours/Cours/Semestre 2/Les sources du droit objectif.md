@@ -96,3 +96,6 @@ C'est l'ensemble des décisions judiciaires rendus par les tribunaux servant de 
 # Le droit négocié
 Accords conclus entre organismes représentatifs de la branche ou du secteur d'activité.
 Conventions collectives tendent à préciser l'application des règles de droit subjectif
+
+
+[Vocabulaire](https://quizlet.com/fr-fr/fiches-de-memorisation/principes-de-droit-francais-899143439)

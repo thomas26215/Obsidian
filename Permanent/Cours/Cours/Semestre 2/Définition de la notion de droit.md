@@ -49,6 +49,8 @@ Ce sont les droits individuels, ils correspondent aux pérogatives dont peuvet s
 On appelle **sujet de droit** tout être susceptibre d'être titulaire de droits et d'obligations. Les sujets de droit ont la personnalité juridiqu. On les oppose aux **objets de droit** qui sont des objets sur lesquels portent les droits
 **Les droits fondamentaux** sont des droits reconnus et sancitonnés par application du droit objetcif, qui ne sont accordés qu'aux sujets de droit.
 
+[Vocabulaire](https://quizlet.com/fr-fr/fiches-de-memorisation/principes-de-droit-francais-899143439)
+
 ---
 **Questions**
 1. Notion de droit

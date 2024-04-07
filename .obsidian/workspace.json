@@ -4,99 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fef5e015a6eaedb1",
+        "id": "8476df96b16009af",
         "type": "tabs",
         "children": [
           {
-            "id": "a19353c5582e18f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/Finish/Oral anglais.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4b76224615f8698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/SAE2.04/Contraintes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22667a57bfad8652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/Finish/Oral communication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c98770f2949bc5ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efb332d9b6ee6641",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "096395ba389728af",
+            "id": "4ca766b126ae02f8",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
-            }
-          },
-          {
-            "id": "1fe3a6d742f85dc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f98532d0b999dc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -165,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/Finish/Oral anglais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/Finish/Oral anglais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projets/Finish/Oral anglais.md"
-              }
+              "state": {}
             }
           },
           {
@@ -215,7 +127,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/Finish/Oral anglais.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,9 +180,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Projets/Finish/Oral anglais.md"
-              }
+              "state": {}
             }
           },
           {
@@ -301,8 +210,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "26930f4f00436aea",
+  "active": "4ca766b126ae02f8",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "MOOC/Big MOCS/Sport.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
+    "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition de la notion de droit.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit objectif.md",
+    "Projets/Finish/Oral anglais.md",
     "Projets/Finish/Oral communication.md",
     "Projets/En cours/P2.01.md",
     "Projets/En cours/Projet Voltaire.md",
@@ -325,15 +243,6 @@
     "Permanent/Programmation/SQL/Définition - Clé candidate.md",
     "Permanent/Programmation/SQL/Définition - Clé primaire.md",
     "Permanent/Programmation/SQL/Le modèle entité-relation (SEA).md",
-    "Permanent/Programmation/SQL/Définition - relation.md",
-    "Permanent/Programmation/SQL/Une entité.md",
-    "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
-    "Permanent/Cours/Cours/Semestre 2/Pile.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition de la notion de droit.md",
-    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Projets/En cours/SAE2.04",
     "Permanent/Mathématiques",
