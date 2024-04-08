@@ -51,7 +51,6 @@ Learned: false
 > [!tip] Principe de neutralité
 > - **Au pénal :** Procédure inquisitoire (charge de la preuve aux magistrats et doivent instruire à charge et à décharge)
 > - **Au civil :** Procédure accusatoire (charge de la preuve aux parties)
-id1{Some text}
 
 
 **Principe de Compétence**
