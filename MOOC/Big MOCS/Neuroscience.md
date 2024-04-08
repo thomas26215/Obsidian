@@ -1,3 +1,3 @@
 ```dataview
-TABLE Categorie from "Permanent" flatten Categorie where MOOC="Neuroscience" sort Categorie asc
+TABLE Categorie from "Permanent/Neuroscience" flatten Categorie sort Categorie asc
 ```

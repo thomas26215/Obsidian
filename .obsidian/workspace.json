@@ -11,8 +11,12 @@
             "id": "4ca766b126ae02f8",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md"
+              }
             }
           },
           {
@@ -127,6 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -180,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md"
+              }
             }
           },
           {
@@ -212,37 +223,37 @@
   },
   "active": "4ca766b126ae02f8",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "MOOC/Big MOCS/Productivite.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
     "MOOC/Big MOCS/Cours.md",
+    "MOOC/Big MOCS/Autre.md",
+    "MOOC/Little MOCS/Prise de parole orale.md",
+    "MOOC/Little MOCS/L'argent.md",
+    "MOOC/Big MOCS/Langues.md",
+    "MOOC/Little MOCS/Mathématiques.md",
+    "MOOC/Big MOCS/Memorisation.md",
+    "MOOC/Big MOCS/Medias.md",
+    "MOOC/Big MOCS/Neuroscience.md",
+    "Permanent/Autre/La raison qui nous empêche de parler en public.md",
+    "MOOC/Little MOCS/Raspberry Pi.md",
+    "Untitled.md",
+    "Anglais.md",
+    "Etape 2 SAE 1.4.pdf",
+    "etape2_venouilt.pdf",
+    "Les bases du Raspberry Pi.md",
+    "Les différents types de Rasberry Pi.md",
+    "Installation du système d'exploitation sur un Raspberry Pi.md",
+    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "MOOC/Big MOCS/Sport.md",
     "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
     "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition de la notion de droit.md",
-    "Permanent/Cours/Cours/Semestre 2/Les sources du droit objectif.md",
-    "Projets/Finish/Oral anglais.md",
-    "Projets/Finish/Oral communication.md",
-    "Projets/En cours/P2.01.md",
-    "Projets/En cours/Projet Voltaire.md",
-    "Anglais.md",
-    "Etape 2 SAE 1.4.pdf",
     "Capture d’écran 2022-09-07 163532.png",
-    "Chiffrement - définition.md",
-    "etape2_venouilt.pdf",
     "Images/Pasted image 20231214162842.png",
-    "Untitled.md",
     "Suites et récurrences Info 1.pdf",
-    "Untitled 1.md",
-    "Permanent/Programmation/SQL/Une occurrence d'identité.md",
-    "Permanent/Autre/Redirection vers un autre processus.md",
-    "redirection vers une autre processus.md",
-    "Permanent/Programmation/SQL/La normalisation d'une base de données.md",
-    "Permanent/Programmation/SQL/Définition - Instance d'une base de données.md",
-    "Permanent/Programmation/SQL/Les cardinalités entre relations et associations.md",
-    "Permanent/Programmation/SQL/Une propriété.md",
-    "Permanent/Programmation/SQL/Définition - Clé candidate.md",
-    "Permanent/Programmation/SQL/Définition - Clé primaire.md",
-    "Permanent/Programmation/SQL/Le modèle entité-relation (SEA).md",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Projets/En cours/SAE2.04",
     "Permanent/Mathématiques",

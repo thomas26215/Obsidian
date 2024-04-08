@@ -1,3 +1,12 @@
+---
+MOOC: "[[Cours]]"
+Ressource: "R2.11 : Introduction générale au droit"
+Cours: "Cours 6 : Les principes d'organisation"
+Date: 
+tags: 
+Complete: false
+Learned: false
+---
 **Action en justice**
 Introduction :
 - Moyen pour le titulaire d'un droit subjectif contesté de faire reconnaitre son droit en justice
