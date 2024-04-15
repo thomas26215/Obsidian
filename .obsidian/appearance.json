@@ -1,11 +1,11 @@
 {
-  "accentColor": "#361111",
+  "accentColor": "#9a9cb1",
   "cssTheme": "Blue Topaz",
   "showViewHeader": true,
   "theme": "moonstone",
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "baseFontSize": 17,
+  "baseFontSize": 14,
   "baseFontSizeAction": true,
   "nativeMenus": false
 }
