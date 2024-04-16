@@ -54,9 +54,53 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55edee299f01ecc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e64ff44d87e561f",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "46eab50a148b7d45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "199f51fe44517680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "5eb4512ba1a3d136",
@@ -140,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md"
               }
             }
           },
@@ -190,7 +234,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -245,7 +289,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md"
               }
             }
           },
@@ -276,12 +320,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9328a14a99ac4b6c",
+  "active": "3e64ff44d87e561f",
   "lastOpenFiles": [
-    "Permanent/Langues/Le superlatif.md",
-    "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
     "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+    "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
     "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+    "Permanent/Langues/Le superlatif.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/SQL pour explorer et analyser.md",
     "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
