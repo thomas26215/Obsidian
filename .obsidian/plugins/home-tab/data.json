@@ -24,8 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Projets/En cours/Untitled.md",
-      "timestamp": 1713508417995
+      "filepath": "MOOC/Little MOCS/Git - Github - Gitlab.md",
+      "timestamp": 1713528989569
+    },
+    {
+      "filepath": "Permanent/Programmation/Faire ses premiers commit.md",
+      "timestamp": 1713528985022
+    },
+    {
+      "filepath": "MOOC/Big MOCS/Programmation.md",
+      "timestamp": 1713528977686
     },
     {
       "filepath": "Permanent/Cours/Cours/Semestre 2/Pile.md",
@@ -34,14 +42,6 @@
     {
       "filepath": "MOOC/Big MOCS/Cours.md",
       "timestamp": 1713375675728
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 1/Codage assembleur.md",
-      "timestamp": 1713375659064
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
-      "timestamp": 1713300298328
     }
   ],
   "starredFileStore": [],

@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "8f7de7208fbf4d92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ecef481d399651c8",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Mega SAE maths.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Mega SAE maths.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/Mega SAE maths.md"
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md"
               }
             }
           },
@@ -268,7 +280,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Mega SAE maths.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -323,7 +335,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/Mega SAE maths.md"
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md"
               }
             }
           },
@@ -340,8 +352,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -355,8 +366,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a1d3e4326b8c978c",
+  "active": "8f7de7208fbf4d92",
   "lastOpenFiles": [
+    "Permanent/Programmation/Faire ses premiers commit.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Projets/En cours/Mega SAE maths.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 1/Codage assembleur.md",
@@ -383,9 +397,6 @@
     "Permanent/Langues",
     "Permanent/Untitled",
     "Projets/En cours/P2.01.md",
-    "Projets/Finish/S1.01/Rapport anglais.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Inbox/Untitled 1.md",
     "Projets/En cours/SAE2.04/Untitled",
     "Etape 2 SAE 1.4.pdf",
     "etape2_venouilt.pdf",
