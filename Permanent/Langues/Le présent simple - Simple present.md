@@ -1,22 +1,22 @@
 ---
 MOOC: "[[Langues]]"
 Langue: Anglais
-Categorie: Temps
+Categorie: Grammaire
 tags:
 ---
 On utilise le présent simple pour de nombreux cas :
-1. Le présent d'habitude
-   **Exemple :** I run <mark style="background: #FF5582A6;">on</mark> Mondays
-2. Présent de vérité générale
-   **Exemples :**
-	- Earth is a planet
-	- Cat is an animal
-	- I love chocolate
-3. Le présent de narration ou de description
-   **Exemple :** The house is tall and blue
-4. Pour décrire ce que je vois.
+1. **Le présent d'habitude**
+   ⇒ <mark style="background: #BBFABBA6;">I run</mark> <mark style="background: #FF5582A6;">on</mark> <mark style="background: #BBFABBA6;">Mondays</mark>
+2. **Présent de vérité générale**
+   ⇒ 
+	- <mark style="background: #BBFABBA6;">Earth is a planet<mark style="background: #BBFABBA6;"></mark></mark>
+	- <mark style="background: #BBFABBA6;">Cat is an animal</mark>
+	- <mark style="background: #BBFABBA6;">I love chocolate</mark>
+3. **Le présent de narration ou de description**
+   ⇒ <mark style="background: #BBFABBA6;">The house is tall and blue</mark>
+4. **Pour décrire ce que je vois.**
    → Je le dis comme je le vois mais je ne fais pas de commentaires (**Neutralité**)
-   **Exemple :** The number 7 shoots
+   ⇒ <mark style="background: #BBFABBA6;">The number 7 shoots</mark>
 
 > [!tip] Les verbes qui sont obligatoirement au présent simple
 > - Verbe d’Etat : be, become
@@ -31,6 +31,11 @@ On utilise le présent simple pour de nombreux cas :
 > ⇒ A l'interrogative : **Does + He + fin** (*Does he drive ?*)
 > ⇒ A la négative : **He + doesn't + Vb infinitif** (*He doesn't drive*)
 
+---
+**Questions :**  
+1. Donner les quatre utilisations du présent simple
+2. Les types de verbes obligatoirement à la troisième personne ?
+3. Conjugaison à la 3e personne ?
 ---
 **Links :**
 [[Le présent progressif - Present Be-ing]]
