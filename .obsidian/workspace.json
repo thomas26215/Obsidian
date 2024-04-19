@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "91b08cb792e88a2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9328a14a99ac4b6c",
             "type": "leaf",
             "state": {
@@ -68,20 +56,84 @@
             }
           },
           {
-            "id": "3e64ff44d87e561f",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
             "id": "46eab50a148b7d45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
+                "file": "MOOC/Big MOCS/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dd0d8c9b9c1b098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7737e7e07a568f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Pile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1d3e4326b8c978c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Mega SAE maths.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecef481d399651c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - SELECT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "329dcc5a7dd44d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 1/Modélisation des données.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d30833e024a54712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 1/Implémentation du schéma relationnel - CREATE.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,25 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
-      },
-      {
-        "id": "5eb4512ba1a3d136",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8d228d35223c7faf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -184,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+                "file": "Projets/En cours/Mega SAE maths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+                "file": "Projets/En cours/Mega SAE maths.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md"
+                "file": "Projets/En cours/Mega SAE maths.md"
               }
             }
           },
@@ -234,7 +268,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+                "file": "Projets/En cours/Mega SAE maths.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -289,7 +323,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md"
+                "file": "Projets/En cours/Mega SAE maths.md"
               }
             }
           },
@@ -306,7 +340,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,13 +355,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3e64ff44d87e561f",
+  "active": "a1d3e4326b8c978c",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+    "Projets/En cours/Mega SAE maths.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 1/Codage assembleur.md",
+    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - SELECT.md",
+    "Permanent/Cours/Cours/Semestre 1/Modélisation des données.md",
+    "Permanent/Cours/Cours/Semestre 1/Implémentation du schéma relationnel - CREATE.md",
     "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
     "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
+    "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
+    "Anglais.md",
+    "Untitled.md",
+    "Pasted image 20240408162257.png",
     "Permanent/Langues/Le superlatif.md",
-    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/SQL pour explorer et analyser.md",
     "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
     "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
@@ -343,15 +386,7 @@
     "Projets/Finish/S1.01/Rapport anglais.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Inbox/Untitled 1.md",
-    "Pasted image 20240408162257.png",
-    "Projets/En cours/SAE2.04/Contraintes.md",
-    "Projets/En cours/SAE2.04/Compte-rendu.md",
     "Projets/En cours/SAE2.04/Untitled",
-    "MOOC/Big MOCS/Programmation.md",
-    "MOOC/Big MOCS/Productivite.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
-    "MOOC/Big MOCS/Autre.md",
     "Etape 2 SAE 1.4.pdf",
     "etape2_venouilt.pdf",
     "Capture d’écran 2022-09-07 163532.png",
