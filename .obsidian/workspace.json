@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md",
+                "file": "Permanent/Langues/Le comparatif.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,6 +50,24 @@
               "type": "markdown",
               "state": {
                 "file": "Permanent/Langues/Le présent progressif - Present Be-ing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "725a28a5577d0b30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e634bafb90380cd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Langues/Le superlatif.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md",
+                "file": "Permanent/Langues/Le comparatif.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md",
+                "file": "Permanent/Langues/Le comparatif.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md"
+                "file": "Permanent/Langues/Le comparatif.md"
               }
             }
           },
@@ -171,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md",
+                "file": "Permanent/Langues/Le comparatif.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +244,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Langues/Le superlatif.md"
+                "file": "Permanent/Langues/Le comparatif.md"
               }
             }
           },
@@ -259,9 +277,10 @@
   },
   "active": "255573299bfe9287",
   "lastOpenFiles": [
+    "Permanent/Langues/Le superlatif.md",
+    "Permanent/Langues/Le comparatif.md",
     "Permanent/Langues/Le présent progressif - Present Be-ing.md",
     "Permanent/Langues/Past Simple - Preterit.md",
-    "Permanent/Langues/Le superlatif.md",
     "Permanent/Langues/Le présent simple - Simple present.md",
     "Untitled 1.md",
     "MOOC/Big MOCS/Langues.md",
@@ -285,7 +304,6 @@
     "Permanent/Cours/Cours/Semestre 2/SQL pour explorer et analyser.md",
     "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
     "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
-    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
     "Permanent/Langues",
     "Permanent/Untitled",
     "Projets/En cours/SAE2.04/Untitled",
