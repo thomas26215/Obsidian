@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md",
-                "mode": "source",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md"
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md"
               }
             }
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md",
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +239,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Langues/Le présent simple - Simple present.md"
+                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md"
               }
             }
           },
@@ -256,7 +256,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,8 +274,8 @@
   "active": "a55956d41d6bd65e",
   "lastOpenFiles": [
     "Permanent/Programmation/Remote.md",
-    "Permanent/Langues/Le présent simple - Simple present.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Permanent/Langues/Le présent simple - Simple present.md",
     "Permanent/Programmation/Le remisage.md",
     "Permanent/Langues/La voix passive.md",
     "Permanent/Langues/Le comparatif.md",
@@ -297,7 +298,6 @@
     "Permanent/Cours/Cours/Semestre 1/Implémentation du schéma relationnel - CREATE.md",
     "Permanent/Cours/Cours/Semestre 2/SQL augmenté - Triggers.md",
     "Permanent/Cours/Cours/Semestre 2/Création d'un trigger SQL.md",
-    "Permanent/Cours/Cours/Semestre 2/Fiche résumée SQL.md",
     "Pasted image 20240408162257.png",
     "Permanent/Langues",
     "Permanent/Untitled",
