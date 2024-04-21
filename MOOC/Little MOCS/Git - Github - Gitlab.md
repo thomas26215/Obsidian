@@ -3,6 +3,7 @@
 [[Revenir en arrière]]
 [[Les branches]]
 [[Manipuler l'historique]]
+[[Le remisage]]
 # Github
 
 # Gitlab
