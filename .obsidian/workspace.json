@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "790e6085f6d08597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Langues/Le futur simple.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f1e0036e760b4386",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5110321044922
+    "width": 298.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
+                "file": "Permanent/Langues/Le futur simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
+                "file": "Permanent/Langues/Le futur simple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md"
+                "file": "Permanent/Langues/Le futur simple.md"
               }
             }
           },
@@ -147,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
+                "file": "Permanent/Langues/Le futur simple.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -202,7 +216,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md"
+                "file": "Permanent/Langues/Le futur simple.md"
               }
             }
           },
@@ -234,8 +248,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e9b69d0d7ef1773b",
+  "active": "790e6085f6d08597",
   "lastOpenFiles": [
+    "MOOC/Little MOCS/Les différents temps de l'anglais.md",
+    "Permanent/Langues/Le futur simple.md",
     "Permanent/Langues/Past perfect.md",
     "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
     "Permanent/Langues/Le présent progressif - Present Be-ing.md",
@@ -261,8 +277,6 @@
     "MOOC/Big MOCS/Programmation.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 1/Codage assembleur.md",
-    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - SELECT.md",
-    "Permanent/Cours/Cours/Semestre 1/Modélisation des données.md",
     "Pasted image 20240408162257.png",
     "Permanent/Langues",
     "Permanent/Untitled",

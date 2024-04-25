@@ -24,6 +24,14 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Permanent/Langues/Le futur simple.md",
+      "timestamp": 1714036655335
+    },
+    {
+      "filepath": "MOOC/Little MOCS/Les différents temps de l'anglais.md",
+      "timestamp": 1714036652274
+    },
+    {
       "filepath": "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
       "timestamp": 1714000400599
     },
@@ -34,14 +42,6 @@
     {
       "filepath": "Permanent/Langues/Le présent progressif - Present Be-ing.md",
       "timestamp": 1714000364554
-    },
-    {
-      "filepath": "Permanent/Programmation/Le remisage.md",
-      "timestamp": 1713999442948
-    },
-    {
-      "filepath": "Permanent/Langues/La voix passive.md",
-      "timestamp": 1713999341342
     }
   ],
   "starredFileStore": [],
