@@ -1,3 +1,9 @@
+---
+MOOC: "[[Langues]]"
+Langue: Anglais
+Categorie: Grammaire
+tags:
+---
 Le présent simple est le présent français qui devient futur en anglais. On l'utilise quand le français se réfère à des intentions ou attitudes envers autrui
 On peut employer ***Will*** ou ***Shall*** :
 1. **Pour exprimer une menace ou un promesse**
