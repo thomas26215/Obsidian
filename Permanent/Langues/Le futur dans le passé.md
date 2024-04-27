@@ -1,0 +1,1 @@
+Emploie de la même structure que pour parler du  [[Le futur simple]]
