@@ -11,10 +11,10 @@ tags:
 Etat initial avant lancement :
 - Processus : terminal, shell
 - Plomberie initiale entre terminale et shell
-	- **Connexions** : clavier -> terminal -> shell
-	- **Connexions** : Shell -> terminale -> écran
+	- **Connexions** : clavier → terminal → shell
+	- **Connexions** : Shell → terminale → écran
 Etat après lancement logiciel en avant-plan :
 - Processus : terminal, shell, logiciel
 - Plomberie après lancement :
-	- **Connexions** : clavier -> terminal -> logiciel
-	- **Connexions** : logiciel -> terminale -> écran
+	- **Connexions** : clavier → terminal → logiciel
+	- **Connexions** : logiciel → terminale → écran

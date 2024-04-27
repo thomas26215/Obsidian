@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Production est une activité économique socialement organisée pour créer biens et des services qui s'échangent sur le marché à partir de facteurs de production. L'activité doit être déclarée. Elle doit aussi créer des biens et des services s'échangent sur un marché ou être sur le résultat d'un travail rénuméré
 

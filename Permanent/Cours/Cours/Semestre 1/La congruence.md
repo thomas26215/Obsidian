@@ -1,3 +1,12 @@
+---
+MOOC: "[[Cours]]"
+Ressource: "R2.09 : Mathématiques"
+Cours: 
+Date: 
+tags: 
+Complete: false
+Learned: false
+---
 # Le principe de congruence
 ## La base
 $a\equiv b(mod\space n)$ ⇔ $a=b+nk, k\in\Z$ et $q$ quelconque

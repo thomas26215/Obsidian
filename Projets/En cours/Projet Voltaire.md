@@ -132,9 +132,45 @@ Le participe passé conjugué avec *avoir* est suivi d'un infinitif :
 - **Si le COD ne fait pas l'action exprimée par l'infinitif**, on n'accorde pas. Exemple : *La pièce que j'ai vu jouer*
   ⇒ On peut remplacer par *J'ai vu jouer la pièce* Et non pas <mark style="background: #FF5582A6;">J'ai vu la pièce jouer</mark>
 
+# Questions
+---
+1. Hormi ou hormis ? Parmis ou parmis ?
+2. Quand peut on utilise *voire*
+3. Quand doit on mettre deux n ou un seul ?
+4. Dilemme ou dilemne ?
+5. Diagnostic ou diagnostique ?
+6. Quand peut on utilise <mark style="background: #FF5582A6;">Quoique</mark> ?
+7. Le verbe <mark style="background: #FF5582A6;">devoir</mark>
+8. Le participe passé de <mark style="background: #FF5582A6;">inclure</mark>
+9. <mark style="background: #FF5582A6;">Un espèce de</mark> ou <mark style="background: #FF5582A6;">Une espèce de</mark> ?
+10. Par quoi peut on remplacer <mark style="background: #FF5582A6;">Censé</mark> ? 
+11. Quand ne peut on pas mettre de tréma sur un i ?
+12. Le verbe <mark style="background: #FF5582A6;">Inclure</mark>
+13. <mark style="background: #FF5582A6;">Rémunéré</mark> ou <mark style="background: #FF5582A6;">Renuméré</mark>
+14. Futur simple de finir et conditionnel de finir
+15. Donner la règle associée
+16. <mark style="background: #FF5582A6;">-gable</mark> ou <mark style="background: #FF5582A6;">-guable</mark> ?
+17. <mark style="background: #FF5582A6;">Soi-disant</mark> invariable ?
+18. Dérive de<mark style="background: #FF5582A6;"> A compte</mark> ?
+19. Accorde-t'on les adjectifs de couleur ?
+20. <mark style="background: #FF5582A6;">Différend</mark> ou <mark style="background: #FF5582A6;">Différent</mark> ?
+21. Quand écrit on **Faisant** ? **Fabriquant** ?
+22. **14 heure** ou **14 heures** ?
+23. Que signifie **A l'instar de** ?
+24. **Vingts** ou **Vingt** ?
+25. Comment écrire les jours et les mois de la semaine ?
+26. Que faut il utiliser si notion de mouvement ?
+27. Quand faut il mettre une majuscule à Dieu ?
+28. Que signifie s'avérer ?
+29. Bimestriel ? Bimensuel ?
+30. Par quoi peut être remplacé **Après que + infinitif** ?
+31. Quand faut-il mettre la négation **n'** ?
+32. Règle pour **tout**
+33. Que mettre après **après que** ?
+34. Que fait si le participe passé conjugué est suivi d'un infinitif ?
 # Orthotypographie
 
-# Niveau 1
+## Niveau 1
 
 Après *:*, on ne mets jamais de majuscule
 
@@ -142,19 +178,70 @@ Espace entre nombre et *%* : *2,8 %*
 
 Dates en chiffres Romains
 
- # Questions
+En abrégé, on écrit pas num 7 mais $n^o$ 7
+
+après deux points, on met une majuscule pour :
+- Une énumération
+- Une cause
+- Une citation
+- Un propos rapporté
+- Un titre, une dénomiation
+
+On met un masucule après guilemets entrant
+
 ---
-1. Doit on écrire *hormis* ou *hormi* ?
-2. Quand peut-on écrire *voire* ?
-3. *-onnel* ou *-onel* ? *-onnal* ou *-onal* ?
-4. Doit on écrire *parmi* ou *parmis* ?
-5. Quand utilise-t'on *quoique* ? Et *quoi que* ?
-6. Ecrire correctement ce mot : *du* à toutes les formes possibles
-7. Quel est le participe passé de inclure ?
-8. .... espèce de
-9. Ecrit-on censé ou sensé ?
-10. théine ou théïne ?
-11. Donner les explications pour inclus. De même pour reclus.
-12. Conjugaison de *finir* au **futur simple** et au **conditionnel**
-13. Si je `1`, je `2` Quelle forme utiliser pour le `2` si `1` est au présent ? et si `1` est au futur ? Donner un exemple
-14. *-gable* ou *-guable* ?
+
+## Niveau 2
+Pas d'espace pour majuscules entrantes et fermantes ⇒ (phrase) et non ( phrase )
+
+Abrévation de Madame, Mademoiselle sont $M^{me}$ et $M^{lle}$
+
+Abrévation de kilogrammes est kg. Invariable
+
+Nota Benne s'écrit N.B.
+
+---
+
+## Niveau 3
+Pour les énumérations numérotées d'un chiffre ou d'une lettre majuscule suivi d'un point, on mets une majuscule après le numéro de l'énumération
+⇒ ***A. L**es crimes ; **B. L**es délits ; **C. L**es contraventions*
+Pour une liste, les parties sont séparées par des points virgules, commencent par et l'énumérotation finit par un point
+
+Ne pas utiliser deux points deux fois dans la même phrase sauf si un des deux introduit une citation ou s'il en fait partie
+
+Si l'auteur est cté à l'intérieur de citations, il ne faut pas couper par de nouveaux guillemets
+⇒ *"Venez me voir demain **, a dit l'avocat.** Nous en reparlerons demain*
+
+---
+
+## Niveau 4
+
+On écrit *Paix* avec une majuscule
+
+Majuscule et nom dans titre d'oeuvre
+1. <mark style="background: #FF5582A6;">Si titre commence par article définit (le, la, les, l'), majuscule à cet article et au premier</mark>
+2. <mark style="background: #BBFABBA6;">Pas de majuscule à adjectif suivant nom</mark>
+3. <mark style="background: #FFB86CA6;">Pas de majuscule au nom si article pas définit ou si titre est une phrase (Une Vie ou Les héros sont fatigués)</mark>
+4. <mark style="background: #D2B3FFA6;">Si pas d'article, seul premier mot prend majuscule</mark>
+5. <mark style="background: #ADCCFFA6;">Les deux termes des titres composés prennent la capitale si même valeur (Le Rouge et le Noir)</mark>
+⇒ <mark style="background: #D2B3FFA6;">Le soleil se lève aussi</mark>
+⇒ <mark style="background: #D2B3FFA6;">On ne badine pas avec l'amour</mark>
+⇒ <mark style="background: #FF5582A6;">Le</mark> Petit <mark style="background: #FFB86CA6;">Chaperon</mark> <mark style="background: #BBFABBA6;">rouge</mark>
+
+Mettre un titre d'oeuvre en italique
+
+---
+# Niveau 5
+*Quiz* et non *Quizz*
+
+*Session* pour le fait d'assister, *Cession* pour le fait de céder
+
+Participe passé = *fatiguant* et adjectif = *fatigant*
+
+Mille prend pluriels. Donc 10 *miles*
+
+Nombre, quantité = invariables
+
+On utilise cote pour une notation, classement 
+
+ 
