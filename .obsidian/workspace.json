@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "c37074a2441467fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Autre/Le schéma d'un logiciel exécuté dans une terminal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8d65163b6656bee",
+            "id": "790e6085f6d08597",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,13 +32,13 @@
             }
           },
           {
-            "id": "790e6085f6d08597",
+            "id": "465cbc6bcaf133c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Langues/Le futur dans le passé.md",
-                "mode": "source",
+                "file": "Projets/En cours/Projet Voltaire.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,6 +57,37 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "cfcdb9890a2b251c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fb11afbdb43ebf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "181aa054f55b8cbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Projet Voltaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "COMMANDE",
+                "query": "personne moral",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5110321044922,
-    "collapsed": true
+    "width": 298.5110321044922
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -208,7 +226,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.25418389990171114,
+                  "scale": 0.20312186162572382,
                   "close": true
                 }
               }
@@ -257,7 +275,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,35 +290,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d8d65163b6656bee",
+  "active": "465cbc6bcaf133c8",
   "lastOpenFiles": [
-    "Permanent/Autre/La documentation d'un logiciel sous linux.md",
-    "Permanent/Programmation/SQL/Le modèle entité-relation (SEA).md",
-    "Permanent/Programmation/Java/Le langage Java.md",
-    "Permanent/Autre/Les interfaces graphiques.md",
-    "Permanent/Neuroscience/Définition - Procrastination.md",
-    "Permanent/Autre/Les métacaractères (jokers, wildcards).md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-    "Permanent/Autre/Le cycle de vie d'une entreprise.md",
-    "Permanent/Cours/Cours/Semestre 1/Virgule fixe.md",
-    "Permanent/Programmation/SQL/Les fonctionnalités d'un SGBD.md",
-    "Permanent/Cours/Cours/Semestre 1/Développement d'interfaces Web.md",
-    "Permanent/Cours/Cours/Semestre 1/Codage assembleur.md",
+    "Projets/En cours/Projet Voltaire.md",
+    "Permanent/Cours/Cours/Semestre 1/Les fonctions de production.md",
+    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
-    "Permanent/Cours/Cours/Semestre 1/Les formulaires HTML.md",
-    "Projets/En cours/Application mobile de sport/Base de données concernant toutes les activités disponibles et sélectionnables.md",
-    "Permanent/Cours/Cours/Semestre 1/La congruence.md",
-    "Permanent/Cours/Cours/Semestre 1/Les éléments.md",
     "Permanent/Autre/Scripts shell.md",
-    "Permanent/Cours/Cours/Semestre 1/Droits d'accès, liens symboliques, scripts, compléments de shell.md",
-    "Permanent/Autre/Fournir une variable à un script shell.md",
-    "Permanent/Autre/Les entrées cachées.md",
-    "Permanent/Autre/IBEE (Indicateur de bien-être économique).md",
-    "Permanent/Autre/Les fonctions supports d'une entreprise.md",
-    "Permanent/Autre/Les fonctions principales d'une entreprise.md",
-    "Permanent/Autre/Une pression sur les ressource naturelles dût à une inégalité entre les pays.md",
+    "Permanent/Langues/Le futur dans le passé.md",
+    "Permanent/Langues/Le futur simple.md",
+    "Projets/En cours/P2.01.md",
+    "MOOC/Little MOCS/Les différents temps de l'anglais.md",
+    "Permanent/Langues/Past perfect.md",
+    "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
+    "Permanent/Langues/Le présent progressif - Present Be-ing.md",
+    "Permanent/Programmation/Le remisage.md",
+    "Permanent/Langues/La voix passive.md",
+    "MOOC/Little MOCS/Créer un plugin Minecraft.md",
+    "Permanent/Programmation/Java/Minecraft/Les bases pour créer un plugin.md",
     "Permanent/Programmation/Java/Minecraft",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Permanent/Programmation/Remote.md",
+    "Permanent/Langues/Le présent simple - Simple present.md",
+    "Permanent/Langues/Le comparatif.md",
+    "Projets/Finish/Présentation Sherpas.md",
+    "Permanent/Programmation/Manipuler l'historique.md",
+    "Permanent/Programmation/Les branches.md",
+    "Permanent/Langues/Le superlatif.md",
+    "Permanent/Langues/Past Simple - Preterit.md",
     "Pasted image 20240408162257.png",
     "Permanent/Langues",
     "Permanent/Untitled",
