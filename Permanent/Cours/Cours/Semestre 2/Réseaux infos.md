@@ -144,7 +144,6 @@ Pour l'émission d'une trame :
 4. A la fin du dernier bit émis, attente d'un délai SIFS (plus court que le DIFS)
 5. Réception de l’acquittement au bout du délai SIFS : si l’acquittement n’arrive pas, la station détecte qu’il y a eu collision
 
-
 [Vocabulaire](https://quizlet.com/fr/900090733/protocole-arp-flash-cards/?funnelUUID=2d60dcbf-0a28-42b3-b5f6-a42c3de055a7)
 
 --- 
@@ -161,3 +160,10 @@ Pour l'émission d'une trame :
 10. Les adressages dans les réseaux
 11. Qu'est ce qu'un commutateur ? Un réseau local ? Un routeur ? Un AREA Network ?
 12. Donner les normes de famille Ethernet
+# Exercices
+Exo 1 et 2
+[[td réseau.pdf]]
+Correction :
+
+[[rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg]]
+[[rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg]]

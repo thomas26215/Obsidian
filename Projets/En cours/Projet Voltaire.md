@@ -240,8 +240,52 @@ Participe passé = *fatiguant* et adjectif = *fatigant*
 
 Mille prend pluriels. Donc 10 *miles*
 
-Nombre, quantité = invariables
+Nombre, quantité = invariables si non précédé d'un article
 
-On utilise cote pour une notation, classement 
+On utilise cote pour une notation, classement
 
- 
+*Discussion*, *percussion*, *discussion*
+
+*suffocant* et non *suffoquant*
+
+*Il vaut mieux* ⇒ Valoir (indique une préférence)
+*Il faut mieux* ⇒ Indique une meilleure manière de faire les choses (il faut mieux vous comporter)
+
+*Raisonner* ⇒ Faire usage de sa réflexion
+*Résonner* ⇒ Renvoie un son
+
+congé s'accorde sauf dans la locution *en congé* De même pour la locution *en vacance*
+
+Pour savoir entre convaincant et convainquant, il faut mettre au féminin. Si l'adjectif conserve son sens, alors c'est convaincant
+Pareil pour *fabricant* - *fabriquant*, *suffocant* - *suffoquant* ...
+
+---
+## Niveau 2
+
+Fois ⇒ Mot singulier (il était un fois, chaque fois)
+Foie ⇒ L'organe
+Foi ⇒ La croyance
+
+*suggestion* ⇒ une idée
+*sujétion* ⇒ Un état de dépendance, d'asservissement
+
+*Une décade* ⇒ Une période dix jours
+*Une décennie* ⇒ Une période de dix ans
+
+*scénette* n'existe pas. Le vrai mot est *saynète*
+
+*Agoniser* ⇒ Etre sur le point de mourir. Verbe du permier groupe
+*Agonir de* ⇒ Accabler de. Verbe du deuxième groupe
+
+*Sceptique* ⇒ Perplexe
+*Septique* ⇒ Provoque l'infection, qui est infecté
+
+*Collision* ⇒ Rencontre violente entre deux corps en mouvement
+*Collusion* ⇒ Entente malhonnête entre deux parties aux dépens d'une troisième. Peut être remplacé par désaccord
+
+On n'écrit *aborigène* et non pas *arborigène*. Le mot ne vient pas du mot **arbre** !
+
+Les composés de « faire » (« **contrefaire** », « **défaire** », « **refaire** », « **satisfaire** ») se conjuguent comme ce dernier.  
+On doit donc dire « **vous contrefaites** » et « **vous satisfaites** ».
+
+

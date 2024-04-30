@@ -82,3 +82,49 @@ MIN(Na, MSS, W)
 > Contrôle d'erreur : numérotation des octets, aquittement des octets reçus ..
 
 
+
+# Echange à l'ouverture d'une connexion
+**Flag SYN** = Mise en place connexion
+**AW** = Window
+**MSS** = Maximum Size Segment. Taille maximum à envoyer
+
+# Echanges à la fermeture de connexion
+Après une demande **Fin**, les tampons sont vidés puis la connexion est arrêtée
+
+# Numéro de séquence
+**Sn** → Numéro du premier octet du segment transmis (compris entre 0 et $0^{32})$. Implanté comme un entier non signé
+$S_{n+1}=(S_n+len)mod\space2^{32}$ 
+
+<mark style="background: #BBFABBA6;">Exemple</mark> : Un client avec
+- Sn=4 294 966 996 (xFFFFFED4)
+- Le client envoie envoie 400 octets
+- Le esrveur reçoit le segment et renvoie un ack 
+→ Quel sera le numéro An ?
+
+$A_n=S_{n+1}=(S_n+len)mod2^{32}$
+$A_n=4 294 966 996+400mod2^{32}$
+...
+
+## Numéro de séquence intial
+Plusieurs connexions TCP ayant les mêmes sources et destinations peuvent co-exister
+→ Les numéros de séquence ne doivent pas être les mêmes !
+→ Choix pseudo aléatoire du numéro de séquence initial **Initial Sequence Number (ISN)**
+*ISN = M + F(localip, localport, remoteip, remoteport, secretkey)*
+
+## Evolution des numéros de séquence à  l'ouverture
+Si le drapeau SYN n'est pas présent, l'émétteur devrait recevoir $ACK=(Sn+len)mod2^{32}$
+Si le drapeau SYN est présent, l'émetteur devrait recevoir $ACK=(Sn+1)mod2^{32}$
+
+# Contrôle de congestion
+La congestion d'un réseau infrmatique est la condition dans laquelle une augmentation du trafic (flux) provoque un ralentissement global de celui-ci
+TCP utilise 4 algorithmes : *slow start, congestion avoidance, fast retransmit et fast recovery*
+
+## Fenêtre de congestion et de retransmission
+⇒ Indique le nombre N de segments de taille MSS pouvant être envoyés en une seule fois
+2 fenêtres dans une connexion TCP (**AW** et **CW**) et le minimum des deux détermine la quantité envoyée
+Un ACK peut acquitter plusieurs segments. Si un ACK n'arrive pas au bout d'un certain temps $T_{max}, le segment est retransmis
+$T_{max} = $RTO^a$ souvent égal à deux fois le RTT (calculé tout au long de la connexion)
+
+## Slow start and congestion avoidance
+Comment calculer **CW** ?
+Lors de détextion congestion, connexion redémarre lentement puis la taille N de la fenêtre de congestion croît rapidement

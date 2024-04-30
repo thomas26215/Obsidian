@@ -12,7 +12,7 @@ Pour pouvoir effectuer le remisage, li faut exécuter la commande `git stash`. C
 - `git stash save nom` : Ajout d'une sauvegarde en stash avec un nom
 - `git stash list` : voir les éléments sauvegardées en mémoire
 - `git stash apply` : appliquer les changements en mémoire du dernier élément stash
-- `git stash appli nom` : appliquer les changement d'un élément stash en particulier
+- `git stash apply nom` : appliquer les changement d'un élément stash en particulier
 - `git stash drop` : supprimer le dernier élément stocké dans le stash
   `git stash pop` : Applique les changement d'un élément stash puis le supprime par derrière
 - `git stash show stash@(numero)` : Affiche les informations d'une sauvegarde
