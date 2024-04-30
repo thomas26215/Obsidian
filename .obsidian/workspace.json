@@ -93,8 +93,12 @@
             "id": "e481337f7d97b70a",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Projet Voltaire.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -164,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+                "file": "Projets/En cours/Projet Voltaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+                "file": "Projets/En cours/Projet Voltaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md"
+                "file": "Projets/En cours/Projet Voltaire.md"
               }
             }
           },
@@ -214,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+                "file": "Projets/En cours/Projet Voltaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,7 +273,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md"
+                "file": "Projets/En cours/Projet Voltaire.md"
               }
             }
           },

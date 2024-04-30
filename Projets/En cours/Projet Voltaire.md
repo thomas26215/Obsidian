@@ -293,4 +293,27 @@ On n'écrit *aborigène* et non pas *arborigène*. Le mot ne vient pas du mot **
 Les composés de « faire » (« **contrefaire** », « **défaire** », « **refaire** », « **satisfaire** ») se conjuguent comme ce dernier.  
 On doit donc dire « **vous contrefaites** » et « **vous satisfaites** ».
 
+---
+## Niveau 3
 
+*Céans* ⇒ Adverbe qui ne se dit plus que par plaisanteries  pour signifier "ici", "en tout lieu"
+*Séant* ⇒ Convenable, Décent
+*Seyant* ⇒ Vêtement qui avantage la personne
+
+*Conjoncture* peut être remplacé par **Situation**
+*Conjecture* peut être remplacé par **Hypothèse**
+Seul le verbe conjecturer existe
+
+*Aréopage* désignant une assemblée de gens particulièrement compétents dans un domaine donné
+
+On écrit *Obnubilé* et non pas *Obnibuler*
+
+*Accro* fait référence à une dépendance tandis que *accroc* signifie une déchirure, une difficulté
+
+*Fomenter* ⇒ Susciter, entretenir. Pas de r avant le m. Pas formenter
+
+L'adjectif *pénitentiaire* conserve la même forme au masculin et au féminin et s'écrit avec un t à la fin
+Ne pas confondre avec le nom *pénitencier*
+
+*somptueux* ⇒ fastueux, magnifique
+*somptuaire* ⇒ relatif aux dépenses et, particulièrement, visant à limiter les dépenses
