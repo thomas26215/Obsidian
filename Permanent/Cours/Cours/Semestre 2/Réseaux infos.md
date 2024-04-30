@@ -8,7 +8,7 @@ Complete: false
 Learned: false
 ---
 1 réseau est un ensemble d'équipements reliés entre eux qui s'échangent des informations. On peut distinguer plusieurs types de réseaux : des réseaux routiers, des réseaux postiers ..
-Une définition générale est qu'un réseau est une ensemble de composants et de communications interconnectés représenté par des noeuds et des liens
+Une définition générale est qu'un réseau est une ensemble de composants et de communications interconnectés représenté par des nœuds et des liens
 
 En Informatique on peut distinguer :
 - Les noeuds
@@ -54,6 +54,10 @@ Pour rendre la communication entre PCs possible, ce problème a ététd divisé 
 | Tram            | 2 - Liaison      |
 | Bit             | 1 - Physique                 |
 
+Modèle TCP/IP
+
+![[Pasted image 20240430234433.png]]
+
 Couches du modèle TCP/IP :
 
 | Couche | Sous-problème | Implanté dans | Protocoles |
@@ -63,7 +67,8 @@ Couches du modèle TCP/IP :
 | Réseau | Trouver les chemin pour chaque paquet de données à envoyer entre deux machines de réseaux locaux différents | Système d'exploitation | IP |
 | Liaison de données | Gérer l'accès a médium | Carte réseau | Ethernet, WiFi ... |
 | Physique | Taduire l'information binaire en ondes électromagnétiques sur le lien physique | Carte réseau | Ethernet, WiFi ... |
-
+**Encapsulation :**
+![[Pasted image 20240430234535.png]]
 **Adressage dans les réseaux :**
 ⇒ Adresse au niveau application : identifiants utilisés par les applications : adresse e-mail, URL ...
 ⇒ Adresse au niveau transport : numéro de port TCP/UDP pour identifier le processus : port 80
@@ -106,7 +111,22 @@ Chaque CIR est identifié par une adresse MAC allouée par le fabriquant de la c
 Le CIR d'une station émet  et reçoit des trames
 - En mode Unicast : 1 émetteur et 1 destinataire
 - En mode Broadcast : 1 vers toutes les stations
-Pour accédes à toutes les machines réseau : `FF:FF:FF:FF:FF:FF`
+Pour accéder à toutes les machines réseau : `FF:FF:FF:FF:FF:FF`
+
+**Format des trames Ethernet**
+
+| Préambule | Addresse MAC destination | Adresse MAC source | Type trame / longueur | Informations            | FCS      |
+| --------- | ------------------------ | ------------------ | --------------------- | ----------------------- | -------- |
+| 8 octets  | 6 octets                 | 6 octets           | 2 octets              | entre 46 et 1500 octets | 4 octets |
+<mark style="background: #FF5582A6;">0800 2087 b044</mark> <mark style="background: #BBFABBA6;">0800 1108 c063</mark> <mark style="background: #ADCCFFA6;">0800</mark> 4500
+5244 1411 v485 c785 e785 55f5 22c5 44d4
+2225 2224 1102 1114 5551 ..
+
+<mark style="background: #FF5582A6;">Adresse MAC destination</mark>
+<mark style="background: #BBFABBA6;">Adresse MAC source</mark>
+<mark style="background: #ADCCFFA6;">Type trame</mark>
+(Préambule et code de détection d'erreur FCS non affiché)
+
 
 Le CSMA est la technique de contrôle d'accès au support physique des réseaux internet
 - **Emission** : Chaque station écoute en permanence si le bus est occupé
