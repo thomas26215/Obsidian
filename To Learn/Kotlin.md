@@ -2,10 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: Kotlin
 Type: General
-tags:
-  - "#note_permanent"
-  - status_finish
-  - status_toLearn
+tags: []
 ---
 # Histoire
 

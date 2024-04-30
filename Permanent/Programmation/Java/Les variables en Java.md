@@ -15,4 +15,4 @@ int number = 1;
 ```
 > Ne pas oublier `;`
 
-Etant donnée que Java est un langage de programmation [[statiquement typé]], il est strictement impossible de changer le type d'une variable, contrairement à Python par exemple
+Etant donnée que Java est un langage de programmation [[langage statiquement typés|statiquement typé]], il est strictement impossible de changer le type d'une variable, contrairement à Python par exemple

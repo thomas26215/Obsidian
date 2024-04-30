@@ -100,9 +100,55 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a24280109f221b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/General/Interpréteur.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25010f64fd145953",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Java/Les variables en Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bad3325368d73702",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Learn/Kotlin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7ee8b70ac79e0b4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Inbox/td réseau.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -168,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Projet Voltaire.md",
+                "file": "Inbox/td réseau.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Projet Voltaire.md",
+                "file": "Inbox/td réseau.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/Projet Voltaire.md"
+                "file": "Inbox/td réseau.pdf"
               }
             }
           },
@@ -218,7 +264,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Projet Voltaire.md",
+                "file": "Inbox/td réseau.pdf",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +272,7 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
-                  "showTags": true,
+                  "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
@@ -241,7 +287,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.2541838999017113,
+                  "scale": 0.11335298149989914,
                   "close": true
                 }
               }
@@ -273,7 +319,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/Projet Voltaire.md"
+                "file": "Inbox/td réseau.pdf"
               }
             }
           },
@@ -304,20 +350,33 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e481337f7d97b70a",
+  "active": "d7ee8b70ac79e0b4",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "Permanent/Programmation/General/Interpréteur.md",
+    "To Learn/Kotlin.md",
+    "Ressources/Autre/langage statiquement typés.md",
+    "Permanent/Programmation/Java/Les variables en Java.md",
+    "Permanent/Programmation/General/langage dynamiquement typés.md",
+    "Permanent/Programmation/General/Bytecode.md",
+    "langage.md",
+    "stat.md",
+    "statiquement typé.md",
+    "Ressources/Autre/Compilateur.md",
+    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+    "Ressources/Ressource 3/La sérotonine.md",
+    "Projets/En cours/P2.01.md",
+    "Projets/En cours/Projet Voltaire.md",
+    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
     "Nouveau Document texte.txt",
     "tatus",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
     "Untitled 1.md",
     "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.md",
     "Inbox/td réseau.pdf",
-    "Projets/En cours/Projet Voltaire.md",
     "Temp/Dossier 2/Retour à la ligne de nos éléments flexbox.md",
     "Images/Pasted image 20240408162257.png",
     "Untitled.md",
@@ -325,18 +384,6 @@
     "Projets/Finish/Oral anglais.md",
     "Permanent/Programmation/General/Expression - Programmation.md",
     "Permanent/Autre/Les conventions d'écriture pour écrire une commande.md",
-    "Permanent/Autre/IBEE (Indicateur de bien-être économique).md",
-    "Permanent/Langues/Past perfect.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Permanent/Programmation/Le remisage.md",
-    "Permanent/Programmation/Revenir en arrière.md",
-    "Permanent/Medias/Formations/La mise en page d'un site Web - Flexbox.md",
-    "Temp/Dossier 2/Le principe du Flexbox.md",
-    "Permanent/Langues/Le futur dans le passé.md",
-    "Permanent/Autre/La documentation d'un logiciel sous linux.md",
-    "Permanent/Programmation/SQL/Le modèle entité-relation (SEA).md",
-    "Permanent/Programmation/Java/Le langage Java.md",
-    "Permanent/Autre/Les interfaces graphiques.md",
     "Permanent/Programmation/Java/Minecraft",
     "Permanent/Langues",
     "Permanent/Untitled",
@@ -347,7 +394,6 @@
     "Images/Pasted image 20231214162842.png",
     "Suites et récurrences Info 1.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Projets/En cours/SAE2.04",
     "Images/Pasted image 20231115165807.jpg",
     "Images/Pasted image 20231113090322.png",
     "Images/Pasted image 20231113084937.png",

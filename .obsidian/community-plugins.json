@@ -12,5 +12,7 @@
   "oz-image-plugin",
   "periodic-notes",
   "symbols-prettifier",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-pandoc",
+  "obsidian-git"
 ]
