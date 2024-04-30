@@ -68,6 +68,8 @@ Si je *peux*, je viendr*ai* - **On utilise le futur si le mot *si* est suivit d'
 
 On termine par -gable sauf distinguable
 
+On met lorsqu' quand il y a une apostrophe. Lorsque sinon
+
 
 ---
 ## Niveau 8
@@ -94,7 +96,9 @@ A l'instar de = Comme, à la manière de, à l'exemple de
 
 vingts si suivi d'aucun autre nombre. vingt sinon
 
-Les jours de la semaine, les mois sont des noms communs. Ils s'écrivent avec une minuscule
+Les jours de la semaine, les mois sont des noms communs. Ils s'écrivent avec une minuscule et prennent un -s si au pluriel
+
+On écrit en l'occurrence. Prends toujours de r et de c
 
 Le soir même si non précédé d'un pp. Moi-même si précédé d'un pp
 
@@ -156,18 +160,19 @@ Le participe passé conjugué avec *avoir* est suivi d'un infinitif :
 20. <mark style="background: #FF5582A6;">Différend</mark> ou <mark style="background: #FF5582A6;">Différent</mark> ?
 21. Quand écrit on **Faisant** ? **Fabriquant** ?
 22. **14 heure** ou **14 heures** ?
-23. Que signifie **A l'instar de** ?
-24. **Vingts** ou **Vingt** ?
-25. Comment écrire les jours et les mois de la semaine ?
-26. Que faut il utiliser si notion de mouvement ?
-27. Quand faut il mettre une majuscule à Dieu ?
-28. Que signifie s'avérer ?
-29. Bimestriel ? Bimensuel ?
-30. Par quoi peut être remplacé **Après que + infinitif** ?
-31. Quand faut-il mettre la négation **n'** ?
-32. Règle pour **tout**
-33. Que mettre après **après que** ?
-34. Que fait si le participe passé conjugué est suivi d'un infinitif ?
+23. En l'occurence ou en l'occurrence ?
+24. Que signifie **A l'instar de** ?
+25. **Vingts** ou **Vingt** ?
+26. Comment écrire les jours et les mois de la semaine ?
+27. Que faut il utiliser si notion de mouvement ?
+28. Quand faut il mettre une majuscule à Dieu ?
+29. Que signifie s'avérer ?
+30. Bimestriel ? Bimensuel ?
+31. Par quoi peut être remplacé **Après que + infinitif** ?
+32. Quand faut-il mettre la négation **n'** ?
+33. Règle pour **tout**
+34. Que mettre après **après que** ?
+35. Que fait si le participe passé conjugué est suivi d'un infinitif ?
 # Orthotypographie
 
 ## Niveau 1
