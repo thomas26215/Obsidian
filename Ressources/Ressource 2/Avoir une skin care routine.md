@@ -1,12 +1,8 @@
 ---
-MOOC: Autre
+MOOC: "[[Autre]]"
 Sujet: Apparence
 Type: Ressource
 ---
-MOOC : [[Autre]]
-Status : #status_writing 
-Type de note : #note_ressource 
-
 Le fait d'avoir une skin care routine permet d'avoir un meilleur visage. Il existe de nombreux produits, de nombreuses méthodes pour avoir une skin care routine, mais, d'après [[Comment Glow Up rapidement|Loann LV]] afin d'avoir 80% des résultats, il suffit de faire trois choses assez simple :
 ## 1. Crème pour le visage
 La première étape pour avoir un joli visage de manière rapide  est d'acheter une crème pour le visage. Deux personnes n'auront pas forcément la même crème. En effet, il existe plusieurs types de peau. Il faut donc acheter une crème en fonction de noter type de peau :

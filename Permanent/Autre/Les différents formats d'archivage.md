@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Archivage
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Pour l'archivage de fichiers, il existe de nombreux formats libres, tels que ZIP, TAR (TAR+GZIP, TAR+BZIP2, TAR+XZ, TAR+ZTSD) ou bien 7ZIP qui sont des logiciels libres, multi-OS et qui garantissant la pérennité des données. Cependant, il existe aussi des formats propriétaires ou bien non-documentés. Ces formats sont souvent liés à un logiciels propriétaire, généralement mono-OS, et ne garantissent pas la pérennité des données.
 

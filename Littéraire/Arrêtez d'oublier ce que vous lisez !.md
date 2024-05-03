@@ -5,9 +5,7 @@ Numero:
 Categorie: Prise de note
 Auteur: Eliott Meunier
 Lien: 
-tags:
-  - status_writing
-  - status_reading
+tags: []
 ---
 Location 496
 # Préface par Bruno Marion

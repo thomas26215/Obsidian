@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Voici les différentes étapes de production :
 

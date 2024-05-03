@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Le PIB (produit intérieur brut) représente la valeur totale des biens et services produits par un pays sur une période donnée, généralement une année ou un trimestre. Il est la somme des dépenses de consommation, des investissements, des dépenses publiques et des exportations nettes d'un pays.
 

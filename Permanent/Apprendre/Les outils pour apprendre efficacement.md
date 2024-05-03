@@ -3,10 +3,6 @@ MOOC: "[[Memorisation]]"
 Categorie: Apprendre
 Type: Ressource
 ---
-MOOC : [[Memorisation]]
-Status : #status_toLearn 
-Type de note : #note_permanent 
-
 Pour l'apprentissage (anglais, histoire ...), il existe plusieurs méthodes :
 - **Quizlet** : généralement pour le vocabulaire dans les langues
 - [[La méthode de la feuille blanche]]

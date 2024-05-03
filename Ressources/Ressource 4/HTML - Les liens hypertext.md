@@ -1,7 +1,3 @@
-MOOC : [[Programmation]]
-Status : #status_writing
-Type de note : #note_inbox
-
 Il est possible de créer un lien vers une autre page grâce à la balise `<a>` (*anchor*). Il faut par la suite rajouter l'attribut `href=""`. Entre les guillemets est le lien vers la page (Interne ou externe). Il faut ensuite refermer la balise.
 ⇒ Entre les deux balises entrantes et fermantes, il faut écrire le texte affiché quand l'utilisateur cliquera sur le lien:
 **Exemple** :

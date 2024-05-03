@@ -2,9 +2,7 @@
 MOOC: "[[Langues]]"
 Langue: Chinois
 Categorie: Construire une phrase
-tags:
-  - note_ressource
-  - status_writing
+tags: []
 ---
 Une phrase en Chinois se construit de la même manière qu'en français : Sujet + Verbe + Complément.
 Exemple pour la phrase *Je mange des pommes* (我吃苹果) :

@@ -1,8 +1,8 @@
 ---
-Auteurs : Kaizen Lane
-Type : NewsLetter
-Genre : productivite
-tags : avancements/newsletters/toPractice newsletters/productivite/visualisation
+Auteurs: Kaizen Lane
+Type: NewsLetter
+Genre: productivite
+tags: []
 ---
 Admettons j'ai le flemme demain de mettre mes chaussures de sports pour aller courir.
 

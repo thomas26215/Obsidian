@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: Java
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 ```Java
 //On définit la classe

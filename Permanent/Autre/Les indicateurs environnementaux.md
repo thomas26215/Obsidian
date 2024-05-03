@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Developpement durable
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 - L'empreinte écologique est un indicateur qui mesure la surface de la planète dont une population a besoin pour satisfaire sa consommation et absorber les déchets générés.
 - L'indice de richesse globale intègre au PIB d'un pays son patrimoine écologique pour apprécier la durabilité de sa croissance.

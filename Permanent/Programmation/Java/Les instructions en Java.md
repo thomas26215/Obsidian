@@ -2,9 +2,7 @@
 MOOC: Programmation
 Langage: Java
 Type: Concret
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 cf [[Instruction]]
 

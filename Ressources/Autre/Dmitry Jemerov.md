@@ -1,7 +1,7 @@
 ---
-Type de ressource : programmation
-Langage : Kotlin
-tags : programmation/Kotlin/cultureG
+Type de ressource: programmation
+Langage: Kotlin
+tags: []
 ---
 Ingénieur en informatique russe - Kotlin
 Né en Russie, diplômé de l'Université d'Etat de St-Pétersbourg, étudié dans informatique

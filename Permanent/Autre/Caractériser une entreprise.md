@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 une organisation est composé d'hommes et de femmes possédant des moyens qui ont pour objectif de produire des biens et des services afin de vendre et donc faire du profit.
 Il y a des dirigeants qui orientent les activités pour dégager des éxédants et des profits afin d'investir dans de nouveaux instruments nécessaires qui sont nécessaires pour pérenniser les activités.

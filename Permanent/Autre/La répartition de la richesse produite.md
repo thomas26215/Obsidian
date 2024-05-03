@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un pays produit de la richesse ([[PIB]]). Celle-ci est réparti d'une certaine manière :
 - Environ deux tiers de la richesse produite sont utilisés pour rémunérer le travail des salariés et des personnes qui travaillent à leur compte.

@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 - **Ajustement mutuel** : la simple communication informelle et le contrôle local
 - **Supervision directe** : supérieur contrôle subordonné

@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un shell est un interpréteur qui réalise une interface entre l'utilisateur et le système d'exploitation permettant de gérer le système de fichiers, de lancer des processus .. C'est aussi un langage de programmation qui permet d'écrire des programmes plus ou moins complexes allant de l'enchaînement automatiques de commandes sous linux à de véritables programmes structurés
 

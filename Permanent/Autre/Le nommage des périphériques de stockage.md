@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Stockage
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il y a des noms utilisés par les logiciels de manipulation des disques et partitions. Le répertoire `/dev/` contient les pseudos-fichiers représentant les disques et les partitions. On parle de *périphérique bloc*. Les périphériques SATA et USB sont `/dev/sda`, `/dev/sdb` ... Périphériques NVMe : `nvme0n1` ... Partitions : `sda1` ...
 

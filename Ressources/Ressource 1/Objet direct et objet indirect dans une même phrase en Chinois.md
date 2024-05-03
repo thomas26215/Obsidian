@@ -2,9 +2,7 @@
 MOOC: "[[Langues]]"
 Langue: Chinois
 Categorie: Construire une phrase
-tags:
-  - note_ressource
-  - status_writing
+tags: []
 ---
 En Chinois, si il y a un objet direct (Qui ? Quoi ?) et un objet indirect (A qui ? A quoi ? De qui ? De quoi ?) dans un même phrase, **l'objet indirect sera placé en premier**
 Exemple pour la phrase *Je t'enseigne le Chinois* (我教中文) :

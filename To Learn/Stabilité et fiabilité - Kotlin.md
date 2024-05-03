@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: General
 Type: 
-tags:
-  - "#note_permanent"
-  - status_finish
+tags: []
 ---
 Kotlin, bien que descendant de Java et reposant sur la JVM, offre une fiabilité et une stabilité accrues en comparaison avec Java, grâce à plusieurs caractéristiques distinctives :
 - [[Gestion des valeurs nulles (Null Safety)]] : Kotlin intègre des mécanismes pour gérer les références nulles, réduisant ainsi les erreurs courantes liées aux pointeurs nuls.

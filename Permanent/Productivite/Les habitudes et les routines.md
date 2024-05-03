@@ -2,14 +2,8 @@
 MOOC: "[[Productivite]]"
 Categorie: Habitudes
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
-MOOC : [[Productivite]]
-Status : #status_finish
-Type de note : #note_permanent
-
 Certaines personnes considèrent les routines comme quelque chose d'ennuyeux, quelque chose de répétitif. Cependant, les routines permettent de déléguer notre cerveau de certaines tâches gourmandes en énergie mais qui sont des décisions qui peuvent être prises sans réfléchir, de manière automatique
 
 **Chaque journée, on prend des milliers de micro-décisions**. Si on réfléchissit clairement à chaque micro-décision que l'on prend, on prendrait des heures à sorir de chez-soi. Sans prendre explicitement ces micro-décisions, nous allons beaucoup plus vite dans nos action (rien que le fait de devoir marcher), et nous sommes beaucoup moins fatigués

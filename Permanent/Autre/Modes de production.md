@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La fonction étude a pour vocation la mise au point de produits nouveaux et l'amélioration des produits existants, en vue de leur production par l'entreprise
 Ses rôles : Innovation dans les procédés, Préparation technique du travail, Amélioration des postes de travail, Mise à jour des données scientifiques

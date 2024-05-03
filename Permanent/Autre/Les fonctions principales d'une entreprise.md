@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_cours
+tags: []
 ---
 Une fonction principale dans une entreprise est une fonction qui rentre directement dans le cycle de l'entreprise et dans le cycle du produit. Il doit créer de la valeur au produit final (Arbre → Planche → Meuble. A chaque fois, mm prix mais transformé donc prix de valeur). Ce que va payer le client, ce n'est pas le produit mais la transformation.
 ⇒ **A noter que le marketing augmente la valeur d'un produit (Marque)**

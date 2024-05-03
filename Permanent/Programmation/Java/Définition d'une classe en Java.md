@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: Java
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 A comprendre : [[Définition d'une classe]]
 - Une classe en Java est définie avec le mot-clé class suivi du nom de la classe.

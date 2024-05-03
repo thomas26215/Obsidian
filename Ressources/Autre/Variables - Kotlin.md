@@ -1,7 +1,7 @@
 ---
-Type de ressource : programmation
-Langage : Kotlin
-tags : programmation/Kotlin/concret
+Type de ressource: programmation
+Langage: Kotlin
+tags: []
 ---
 Les variables Kotlin sont assez différentes de celles de Java
 En effet, En Java, nous avons l'habitude de déclarer nos variables comme ceci :

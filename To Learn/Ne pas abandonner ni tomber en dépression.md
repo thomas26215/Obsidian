@@ -4,9 +4,7 @@ Type: NewsLetter
 Categorie: Productivite
 Auteur: Hermione
 Lien: https://hermione.co/depression-en-pass/
-tags:
-  - "#status_finish"
-  - note_permanent
+tags: []
 ---
 **1 - [[Éviter les attentes irréalistes]]**
 **2 - [[Bien-être physique par l'exercice et les pauses]]**

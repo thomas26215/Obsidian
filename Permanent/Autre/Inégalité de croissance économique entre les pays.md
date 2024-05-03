@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La croissance économique n'est pas homogène. En effet, les pays ne s'enrichissent pas de la même manière :
 - Les pays émergents ont le plus profité de la croissance et se sont beaucoup enrichis, notamment la Chine avec une croissance de 4% et l'Inde avec une croissance de 6%.

@@ -2,9 +2,7 @@
 MOOC: Programmation
 Langage: Java
 Type: Cours
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 
 Fichier `HelloWorld.java`

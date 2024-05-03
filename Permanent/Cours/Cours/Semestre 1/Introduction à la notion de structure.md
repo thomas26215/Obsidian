@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.08 : Gestion des ressources"
 Cours: "Cours 2 : Introduction à la notion de structure"
 Date: 2023-09-19
-tags:
-  - note_cours
-  - status_toLearn
+tags: []
 Complete: true
 Learned: true
 ---

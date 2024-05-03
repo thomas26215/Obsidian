@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La croissance économique correspond à l'augmentation soutenue et durable de la production d'un pays. Elle a un impact sur la structure professionnelle et sociale, ainsi que sur le système de valeurs de la société. Cette croissance peut être mesurée à l'aide de l'indicateur économique appelé le [[PIB]] (produit intérieur brut). Ce dernier est d'ailleurs le principale agrégat mesurant l'activité économique selon l'INSEE
 

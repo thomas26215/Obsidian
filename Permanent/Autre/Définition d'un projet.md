@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - note_permanent
-  - status_finish
+tags: []
 ---
 Il existe plusieurs variables pour un projet :
 - Les spécifications techniques (cahier des charges)

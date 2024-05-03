@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Plusieurs utilisateurs peuvent utiliser le système simultanémet. Un utilisateur peut lancer plusieurs logiciels en même temps. L'éxecution d'un logiciel donne naissance à un tâche ou processus qui est donc un programme en train de s'éxecuter. C'est une entité dont le noyeau Linux contrôle l'état, de la vie à la mort
 - **Système à temps partagé** : Le processus est partagé entre plusieurs processus concurrents

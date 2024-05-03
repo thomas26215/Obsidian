@@ -1,10 +1,10 @@
 ---
-Auteurs : Eliott Meunier
-Titre originale : Comment RETENIR tout ce qu'on LIT ? (méthode complète)
-Type : Video
-Sources : https://www.youtube.com/watch?v=Jbn2rIUlHac
-Genre : productivite
-tags : avancements/video/ToReformulate video/productivite/lecture 
+Auteurs: Eliott Meunier
+Titre originale: Comment RETENIR tout ce qu'on LIT ? (méthode complète)
+Type: Video
+Sources: https://www.youtube.com/watch?v=Jbn2rIUlHac
+Genre: productivite
+tags: []
 ---
 
 

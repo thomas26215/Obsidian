@@ -3,10 +3,6 @@ MOOC: "[[Neuroscience]]"
 Categorie: Anatomie et physiologie neuronale
 Type: Ressource
 ---
-[[Neuroscience]]
-Status : #status_toWrite
-Type de note : #note_permanent
-
 Notre cerveau est composé de neurones qui vont transmettre deux types de signaux :
 - Des signaux électriques. Ils sont véhiculés le long de branches appelés axone puis vont être convertits en signaux chimiques. Ceux-ci sont très rapides  et sont utilisés afin de transmettre des infos à court terme dans le cerveau
 - Des signaux chimiques. Ils sont sous la forme de neurotransmetteurs. Ils seront ensuite reçus par d'autres neurones qui déclenchera la réaction de nouveaux signaux électriques dans ces neurones afin de continuer la communication entre eux. Ces signaux agissent en se fixant dans les dendrites des neuronnes récepteurs. Les neurotransmetteurs les plus courants sont [[La dopamine]], la sérotonine, [[Acétylcholine|l'acétylcholine]], la noradrénaline et le GABA

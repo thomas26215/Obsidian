@@ -1,10 +1,9 @@
 ---
-tags : avancements/book/toRead
-Status : to read
-Auteur : Darius Foroux
-Référence : https://www.amazon.fr/Do-Today-Procrastination-Productivity-Meaningful-ebook/dp/B07DRP1Q5W
-Type de source : livre
-tags : livre/productivite/distractions livre/productivite/repos livre/productivite/distractions livre/productivite/procrastination
+tags: []
+Status: to read
+Auteur: Darius Foroux
+Référence: https://www.amazon.fr/Do-Today-Procrastination-Productivity-Meaningful-ebook/dp/B07DRP1Q5W
+Type de source: livre
 ---
 [[Les distractions ne suppriment pas les responsabilités]]
 Il existe une manière simple de battre la procrastination : [[Les habitudes et les routines]]

@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un organigramme est la représentation shématique et formalisée des relations qui exitent entre les membres d'une entreprise. La division verticale représente le niveau de hiérarchie ou d'autorité alors que la division horizontale représente juste les différents métiers au sein du niveau de hiérarchie.
 Cela permet la clarification de la répartition des responsabilités, la formalisation des rattachements hiérarchiques, la valorisation de la structure formelle, un moyen d'information externe pour le client ... Il y a cependant quelques limites : les relations informelles n'y apparaissent pas, les relations verticales sont privilégiées et peut susciter des rivalités interpersonnelles et interservices

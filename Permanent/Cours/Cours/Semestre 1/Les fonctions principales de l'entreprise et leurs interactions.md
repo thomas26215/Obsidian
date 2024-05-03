@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.08 : Gestion des ressources"
 Cours: "Cours 3 : Les fonctions principales de l'entreprise et leurs interactions"
 Date: 2023-09-26
-tags:
-  - status_toLearn
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

@@ -1,7 +1,7 @@
 ---
-Type de ressource : programmation
-Langage : Kotlin
-tags : programmation/Kotlin/cultureG
+Type de ressource: programmation
+Langage: Kotlin
+tags: []
 ---
 Entreprise de développement de logiciels - République tchèque
 Connue pour [[Outil de développement intégré]] (IntellJ IDEA, PhpStorm, PyCharm ...)

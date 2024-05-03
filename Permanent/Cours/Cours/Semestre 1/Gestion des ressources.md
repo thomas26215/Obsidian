@@ -4,9 +4,7 @@ Ressource: "R1.08 : Gestion des ressources"
 Cours: "Cours 1 : Caractériser une entreprise"
 Date: 2023-09-15
 Description: Découvrir les organisations et comprendre leur transformation digitale
-tags:
-  - status_finish
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

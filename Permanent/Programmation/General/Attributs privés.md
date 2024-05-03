@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: General
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 - Pour protéger les données dans une classe, il faut définir les attributs de la classe comme étant private (accessible uniquement depuis la classe).
 - En définissant les attributs comme étant private, ils ne sont accessibles qu'à l'intérieur de la classe.

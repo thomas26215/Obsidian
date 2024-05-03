@@ -2,9 +2,7 @@
 MOOC: "[[Productivite]]"
 Categorie: Habitudes
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il existe de nombreuses habitudes afin de garder sa motivation et de réduire le risque de tomber dans une addiction - et augmente les chances de sortir d'une addiction :
 - **Avoir suffisament de sommeil** : En effet, il joue un rôle important dans la régulation des fonctions cérébrales car c'est dans le sommeil que se regénèrent les cellules nerveuses. De plus, lorsque-l'on dort, le cerveau tri et mémorise les informations qu'il a acquis dans la journée. Par exemple il est très stupide de réviser la veille pour un contrôle jusqu'à 3h du mat en sacrifiant son sommeil pour deux raisons :

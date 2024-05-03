@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8476df96b16009af",
+        "id": "a832452886ddd47d",
         "type": "tabs",
         "children": [
           {
-            "id": "6878282449f4aec0",
+            "id": "7c513506f55f3f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "COMMANDE",
-                "matchingCase": false,
+                "query": "tag:#note_cours",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md"
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md"
               }
             }
           },
@@ -135,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -158,7 +159,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.08085190031897367,
+                  "scale": 0.24490989943494781,
                   "close": true
                 }
               }
@@ -190,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md"
+                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md"
               }
             }
           },
@@ -203,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -221,40 +222,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6878282449f4aec0",
+  "active": "7c513506f55f3f03",
   "lastOpenFiles": [
+    "Permanent/Neuroscience/Le rôle de la dopamine dans la mise en place des habitudes et des addictions.md",
+    "Ressources/Ressource 1/Objet direct et objet indirect dans une même phrase en Chinois.md",
+    "Ressources/Ressource 1/Construire une phrase affirmative simple en chinois.md",
+    "Ressources/Autre/Comment Glow Up rapidement.md",
+    "To Learn/Bien-être physique par l'exercice et les pauses.md",
+    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
+    "Ressources/Ressource 2/Avoir une skin care routine.md",
+    "Ressources/Autre/Comment lire + de livres.md",
+    "Permanent/Cours/Cours/Semestre 1/Redirection - Filtres.md",
+    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - SELECT.md",
+    "Permanent/Cours/Cours/Semestre 1/Gestion de fichiers et de processus.md",
+    "Ressources/Autre/JetBrains.md",
+    "Ressources/Autre/Dmitry Jemerov.md",
+    "Permanent/Cours/Cours/Semestre 1/Les fonctions principales de l'entreprise et leurs interactions.md",
+    "Permanent/Autre/Les entreprises du numérique.md",
+    "Permanent/Cours/Cours/Semestre 1/Introduction à la notion de structure.md",
+    "Ressources/Autre/Variables - Kotlin.md",
+    "Ressources/Autre/Les classes - Kotlin.md",
+    "Ressources/Autre/Fonctions - Kotlin.md",
+    "Permanent/Cours/Cours/Semestre 1/Note taking technics.md",
+    "Permanent/Cours/TD/Semestre 1/Comment est générée la richesse et pourquoi s'en préoccuper.md",
+    "Ressources/Autre/Notre environnement influence notre esprit.md",
+    "Templates/Template Mathématiques.md",
+    "Templates/Template productivité.md",
+    "Ressources/Autre/La méthode pour mieux dormir.md",
+    "To Learn/L'efficacité par la concentration - Inutile de travailler trop longtemps.md",
+    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Pasted image 20240430234535.png",
     "Pasted image 20240430234433.png",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-    "MOOC/Big MOCS/Cours.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Langues/Past Continuous - Past progressive - Preterit continu - Preterit progressif - Long past.md",
-    "Permanent/Autre/Le schéma d'un logiciel exécuté dans une terminal.md",
-    "Projets/En cours/Projet Voltaire.md",
-    "Permanent/Programmation/Les branches.md",
-    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Permanent/Programmation/General/Interpréteur.md",
-    "Permanent/Programmation/Java/Les variables en Java.md",
-    "To Learn/Kotlin.md",
     "Inbox/td réseau.pdf",
-    "Ressources/Autre/langage statiquement typés.md",
-    "Permanent/Programmation/General/langage dynamiquement typés.md",
-    "Permanent/Programmation/General/Bytecode.md",
-    "langage.md",
-    "stat.md",
-    "statiquement typé.md",
-    "Ressources/Autre/Compilateur.md",
-    "Ressources/Ressource 3/La sérotonine.md",
-    "Projets/En cours/P2.01.md",
-    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - Cours 1.md",
     "Nouveau Document texte.txt",
     "tatus",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Untitled 1.md",
-    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.md",
     "Images/Pasted image 20240408162257.png",
     "Permanent/Programmation/Java/Minecraft",
     "Permanent/Langues",
@@ -269,7 +271,6 @@
     "Images/Pasted image 20231115165807.jpg",
     "Images/Pasted image 20231113090322.png",
     "Images/Pasted image 20231113084937.png",
-    "Images/Pasted image 20231016164036.png",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",

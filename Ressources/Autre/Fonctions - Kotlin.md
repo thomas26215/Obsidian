@@ -1,7 +1,7 @@
 ---
-Type de ressource : programmation
-Langage : Kotlin
-tags : programmation/Kotlin/concret
+Type de ressource: programmation
+Langage: Kotlin
+tags: []
 ---
 Voici une fonction toute simple :
 ```Kotlin

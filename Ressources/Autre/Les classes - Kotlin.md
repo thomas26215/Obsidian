@@ -1,7 +1,7 @@
 ---
-Type de ressource : Programmation
-Langage : Kotlin
-tags : programmation/Kotlin/concret
+Type de ressource: Programmation
+Langage: Kotlin
+tags: []
 ---
 ### Les bases
 Contrairement à Java (voir [[Kotlin]]), il est très long et très répétitif de créer le [[Constructeur - Programmation|constructeur]]. En effet, le constructeur qui ne sert qu'à initialiser les attributs s'écrirait de cette manière en Java :

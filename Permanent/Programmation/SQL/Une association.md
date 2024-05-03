@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: SQL
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Une **association** sert à décrire une connexion entre différentes choses. Ca revient au même principe que de dire *qui est le meilleur ami de qui*. Une association a :
 - **Un nom** : C'est simplement le nom de la connexion, comme *Amis* ou *Famille*. Ca représent quel type de connexion

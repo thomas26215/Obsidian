@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.11 : Bases de la communication"
 Cours: Cours 1
 Date: 2023-09-18
-tags:
-  - status_finish
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

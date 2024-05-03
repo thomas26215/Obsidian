@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.04 : Introduction aux systèmes d'exploitation\ret à leur fonctionnement"
 Cours: "Cours 1 : Introduction, OS, Interfaces graphiques, Shell"
 Date: 2023-09-15
-tags:
-  - note_cours
-  - status_finish
+tags: []
 Complete: true
 Learned: true
 ---

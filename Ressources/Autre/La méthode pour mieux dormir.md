@@ -5,10 +5,6 @@ Categorie: Productivite
 Auteur: 
 Lien:
 ---
-MOOC : [[Medias]]
-Status : #status_writing 
-Type de note : #note_inbox 
-
 Tout d'abord, pourquoi est-il important de dormir ? Connaître ses bénéfices nous donnera envie d'appliquer les conseils afin de l'améliorer. En fait, il faut considérer le sommeil comme un jeu vidéo : Dans un jeu vidéo, il existe des stats, des tricks, des techniques ... Et en fait, le sommeil peut carrément être considéré comme un code de triche. Cela donne énormément d'avantage par rapport aux autres personnes. En effet, un bon sommeil nous permet d'avoir de meilleures compétences cognitives, une meilleure apparences physique, un meilleure capacité à construire des muscles et la capacité de se concentrer quelque soit la circonstance.
 Cependant, aujourd'hui, tout le monde a un sommeil éclaté. Ainsi, avoir un meilleur sommeil nous permet d'avoir cette longueur d'avance par rapport aux autres personnes qui eux ne privilégient pas un sommeil de qualité
 

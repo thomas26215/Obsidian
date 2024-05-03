@@ -3,8 +3,7 @@ MOOC: "[[TD]]"
 Ressource: "R1.09 : Economie durable et numérique"
 Cours: "TD 2 : Comment est générée la richesse et pourquoi s'en préoccuper ?"
 Date: 2023-09-19
-tags:
-  - note_tp
+tags: []
 ---
 https://chamilo.iut2.univ-grenoble-alpes.fr/courses/INFO1AR109/document/TD-Economie-durable-et-numerique/TD-2-Comment-est-generee-la-richesse.pdf?cidReq=INFO1AR109&id_session=0&gidReq=0&gradebook=0&origin=
 

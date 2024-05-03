@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: SQL
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il existe plusieurs types d'utilisateurs d'un SGBD :
 - **Administrateur** : Il est chargé de la gestion de l'ensemble des utilisateurs, de leurs droit d'accès au données et des ressources

@@ -2,9 +2,7 @@
 MOOC: "[[Productivite]]"
 Categorie: Sport
 Type: 
-tags:
-  - note_ressource
-  - status_writing
+tags: []
 ---
 Il est essentiel de pratiquer une activité physique régulière pour garder un certain bien-être mental. En effet, cet état d'activité va augmenter notre niveau de [[La sérotonine|sérotonine]], ce qui va booster notre mood et notre focus. Egalement, on sait que la sérotonine est liée à la régulation de l'humeur et du sommeil.
 >**Ainsi, pour des activités sédentaires, il faut prendre des pauses régulièrement (généralement après une session de deep focus)**

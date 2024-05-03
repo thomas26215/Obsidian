@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Linux
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un fichier est une suite d'octets représentant un texte, un programme exécutable ...
 Un répertoire ou dossiers contient des fichiers et/ou des répertoires

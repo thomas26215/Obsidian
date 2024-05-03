@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Linux
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La redirection de flux de données est un concept dans les systèmes d'exploitations qui permet de rediriger la sortie de la commande vers un autre fichier ou programme plutôt que de l'afficher à l'écran. Il existe plusieurs types de redirection :
 

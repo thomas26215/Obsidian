@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Le processus achat est un ensemble des rôles allant de l'identification du besoin jusqu'à la signature du contrat
 

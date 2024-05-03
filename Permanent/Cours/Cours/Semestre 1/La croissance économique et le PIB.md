@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.09 : Economie durable et numérique"
 Cours: "Cours 2 : La croissance économique et le PIB"
 Date: 2023-09-20
-tags:
-  - status_finish
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

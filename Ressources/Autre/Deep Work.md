@@ -1,9 +1,12 @@
 ---
-tags : avancements/book/writing, livre/productivite
-Status : writing
-Auteur : Cal Newport
-Référence : 
-Type de source : livre
+MOOC: "[[Medias]]"
+Type: Livre
+FullName: Deep Work
+Numero: 
+Categorie: Productivite, Programmation
+Auteur: Cal Newport
+Lien: 
+tags:
 ---
 ## Partie 1 : Le concept
 ## Partie 2 : Les règles

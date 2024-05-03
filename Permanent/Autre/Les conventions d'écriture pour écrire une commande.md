@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 ## Conventions pour spécifier une commande
 

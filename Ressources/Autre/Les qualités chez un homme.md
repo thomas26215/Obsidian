@@ -1,8 +1,8 @@
 ---
-Auteurs : mrDreamax
-Type : NewsLetter
-Genre : productivite
-tags : avancements/newsletters/longDate newsletters/productivite/selfImprovement
+Auteurs: mrDreamax
+Type: NewsLetter
+Genre: productivite
+tags: []
 ---
 ⇒ Intelligence = Mémorisation + intelligence
 

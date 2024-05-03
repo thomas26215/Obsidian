@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un agent économique est une personne de la vie de tous les jours. Celle-ci peut être soit physique (individu), soit morale (qui a les même droit et obligations, mais qui n'est pas matérialisée : administration publique, personne autonome) qui prend des décisions économiques.
 Il faut savoir qu'une entreprise doit avoir une comptabilité privée alors que l'Etat doit en avoir une publique

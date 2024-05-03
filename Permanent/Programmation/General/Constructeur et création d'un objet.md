@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: General
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 - Avant de pouvoir utiliser un objet, il faut d'abord construire la classe.
 - Chaque classe possède un ou plusieurs constructeurs, qui sont des fonctions publiques portant le nom de la classe.

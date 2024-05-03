@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: processus
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 ## Entrée et sortie standard d'un processus
 

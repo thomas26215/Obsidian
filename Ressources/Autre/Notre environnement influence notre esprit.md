@@ -1,8 +1,8 @@
 ---
-Auteurs : mrDreamax
-Type : NewsLetter
-Genre : productivite
-tags : avancements/newsletters/toPractice newsletters/productivite/organisation
+Auteurs: mrDreamax
+Type: NewsLetter
+Genre: productivite
+tags: []
 ---
 
 Le livre *[[A monk’s guide to a clean house and mind]]* nous montre à quel point nous permet de mieux travailler :
