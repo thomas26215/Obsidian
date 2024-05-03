@@ -2,9 +2,7 @@
 MOOC: "[[Productivite]]"
 Categorie: Cours
 Type: Erreurs
-tags:
-  - "#status_writing"
-  - note_inbox
+tags: []
 ---
 Une méthode pour bien anticiper ses examens est d'imaginer le pire. Il faut s'imaginer rater ses examens. Ainsi, cela nous incite à prendre du recul et à se demander pourquoi est-ce qu'on raterait :
 - Manque d'organisation

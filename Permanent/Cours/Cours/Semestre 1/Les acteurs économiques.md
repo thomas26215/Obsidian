@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.09 : Economie durable et numérique"
 Cours: "Cours 1 : Les acteurs économiques"
 Date: 2023-09-13
-tags:
-  - status_finish
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

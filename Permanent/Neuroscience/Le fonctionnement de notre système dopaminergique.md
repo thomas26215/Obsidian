@@ -3,10 +3,6 @@ MOOC: "[[Neuroscience]]"
 Categorie: Dopamine
 Type: Ressource
 ---
-[[Neuroscience]]
-Status : #status_toLearn 
-Type de note : #note_permanent 
-
 Notre système dopaminergique fonctionne avec :
 - **Un niveau de base** : La concentration que l'on a au repos, en l'absence de stimuli
 - **Des pics de dopamine** : Augmentation temporaire de notre niveau de base de dopamine provoqué par certains comportements, substances ou expériences

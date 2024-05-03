@@ -2,10 +2,7 @@
 MOOC: "[[Productivite]]"
 Categorie: Organisation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
-  - status_toLearn
+tags: []
 ---
 ⇒ **Mieux rangé = mieux concentré**
 En effet, une chambre mal rangée va nous laisser sous le nez des objets qui peuvent capter fortement l'attention de notre esprit. Visuellement, une chambre mieux rangée nous permet d'être moins distrait

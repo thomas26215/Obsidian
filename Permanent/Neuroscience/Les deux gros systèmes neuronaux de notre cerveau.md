@@ -3,10 +3,6 @@ MOOC: "[[Neuroscience]]"
 Categorie: Concentration
 Type: Ressource
 ---
-[[Neuroscience]]
-Status : #status_finish 
-Type de note : #note_permanent 
-
 Il existe deux gros systèmes neuronaux dans notre cerveau :
 - **Réseau de mode par défaut** : Actif quand on est dans un état de repos
 - **Réseau de l'attache** : Quand on est sur une tâche spécifique qui demande notre attention

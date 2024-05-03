@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Un shell est un interpréteur de commandes qui est l'intermédiaire entre l'utilisateur et l'OS. On peut y rentrer des commandes pour piloter l'interface système comme les ficheirs, le processus, le réseau, les périphériques ...
 

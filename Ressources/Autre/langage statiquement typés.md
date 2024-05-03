@@ -3,10 +3,6 @@ MOOC: Programmation
 Langage: Abstrait
 Type: Permanent
 ---
-MOOC : [[Programmation]]
-Status : #status_finish 
-Type de note : #note_permanent 
-
 Les variables doivent déclarées explicitement. Contrairement au [[langage dynamiquement typés]], les types de variables ne peuvent pas être modifiées avec leur déclaration
 De plus, les types de variables sont vérifiées au moment de la compilation
 

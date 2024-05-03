@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Stockage
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il y a plusieurs types d'interface pour les machines personnelles :
 - **SATA** : Pour HDD et anciens SSD

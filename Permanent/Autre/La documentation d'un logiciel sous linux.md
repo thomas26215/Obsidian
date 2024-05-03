@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: Linux
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 # Documentation du logiciel
 - Documentation intégrée au logiciel

@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: SQL
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 **Les cardinalités** sont des règles qui indiquent combien de fois certaines choses peuvent être reliées entre elles. Les cardinalités sont représentées par un couple de valeurs : **(min, max)**.
 1. **min** : Cette valeur peut être 0, 1 ou n (indéfini) et cela indique combien d'occurences de l'entité peuvent être liées à l'association au minimum

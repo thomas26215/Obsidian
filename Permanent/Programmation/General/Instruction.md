@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: General
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Une instruction est un bloc de code qui ne retourne aucune valeur
 **Exemple** : `var username = "Thomas"` est une instruction

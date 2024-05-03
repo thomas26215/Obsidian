@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: terminal
-tags:
-  - "#status_finish"
-  - "#note_permanent"
+tags: []
 ---
 ## Schéma d'un logiciel exécuté dans un terminal
 

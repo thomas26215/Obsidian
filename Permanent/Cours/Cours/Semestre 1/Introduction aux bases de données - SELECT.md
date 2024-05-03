@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.05 : Introduction aux bases de données et SQL"
 Cours: "Cours 2 : Introduction aux bases de données - SELECT"
 Date: 2023-09-19
-tags:
-  - status_toReformulate
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

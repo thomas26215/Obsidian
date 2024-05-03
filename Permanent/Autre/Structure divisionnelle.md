@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il existe plusieurs divisions dans une structure divisionnelle. Chaque division est autonome et les décisions sont décentralisées. Il existe des critères principaux de divisions : produit, clientèle, zone géographique. Elles sont généralement quand une entreprise s'accroît et dont les produits et les marchés se diversifient (Exemples, plusieurs magasins se créent pour une entreprise de vêtements. Ainsi, chaque magasin va + ou - se gérer). Chaque division a sa responsabilité. On peut voir chaque division comme une mini-entreprise.
 Ca peut être très coûteux : 3 achats ...

@@ -1,8 +1,8 @@
 ---
-Auteurs : mrDreamax
-Type : NewsLetter
-Genre : productivite
-tags : avancements/newsletters/ToPractice newsletters/productivite/rush newsletters/favorite
+Auteurs: mrDreamax
+Type: NewsLetter
+Genre: productivite
+tags: []
 ---
 Le but de ce défi est de s'améliorer en un laps de tps très réduit.
 30 jours, c'est assez court mais suffisant pour instaurer une nouvelle habitude ou bien pour en supprimer une. Avec ce défi, il est possible de faire le ménage de ses habitudes.

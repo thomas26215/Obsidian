@@ -3,11 +3,7 @@ MOOC: "[[Neuroscience]]"
 Categorie: Dopamine
 Type: Ressource
 ---
-[[Neuroscience]]
-Status : #status_toLearn 
-Type de note : #note_permanent
-
-Il faut d'abord savoir qu'il existe [[Les deux principaux types de signaux dans le cerveau|deux principaux types de signaux]] dans notre cerveau : les signaux électrique et les signaux chimiques
+Il faut d'abord savoir qu'il existe deux principaux types de signaux dans notre cerveau : les signaux électrique et les signaux chimiques
 
 ⇒ **Le dopamine n'est pas, au niveau du système de récompense, un neurotransmetteur, mais un neuromodulateur**. Ainsi, il n'aura pas un effet direct, tel que l'acétylcholine ou la noradrénaline, mais un effet indiret. Par exemple : elle aura une implication dans la régulation dans la sensation du plaisir, dans la régulation de la motivation et de l'effort associé à certaines tâches, dans la régulation de la prise de décisions et dans la consolidation de nouvelles connaissances après un apprentissage
 → De manière plus complète, la dopamine est considérée comme un **neurotransmetteur** quand elle est libérée des neuronnes afin d'effectuer la transmission synaptique vers d'autres neuronnes qui lui sont liées. Elle agit donc comme un messager chimique transmettant un signal d'un neuronne à l'autre. Au contraire, elle est considérée comme un neuromodulateur quand elle se lie à des récepteurs sur les neuronnes cibles afin de moduler l'activité de ces derniers. Cela va donc modifier l'activité de ces neuronnes cibles indirectement en régulant leur sensibilité à d'autres neurotransmetteurs ou en modulant l'activité synaptique

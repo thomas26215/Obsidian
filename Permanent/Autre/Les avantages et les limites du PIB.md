@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 - L'avantage du PIB est qu'il permet d'éviter les doubles comptages et de mettre en évidence les sources de création de valeur, telles que les industries à faible valeur ajoutée et les industries à forte valeur ajoutée.
 - Les limites du PIB sont qu'il ne prend pas en compte les externalités négatives engendrées par la production économique, telles que la pollution, le bénévolat, le travail domestique et les activités interdites par la loi.

@@ -3,10 +3,6 @@ MOOC: "[[Memorisation]]"
 Categorie: Oubli
 Type: Ressource
 ---
-[[Memorisation]]
-Status : #status_toLearn 
-Type de note : #note_permanent
-
 Chaque information et chaque connaissance que nous acquérons est susceptible d'être oubliée au fil du temps, car notre cerveau fait un tri entre les informations qu'il mémorise et celles qu'il oublie. Cela a été prouvé par la "courbe de l'oubli", une courbe qui montre que plus le temps passe, moins nous sommes capables de nous rappeler l'information apprise.
 
 Cependant, il existe une méthode efficace pour contrer ce phénomène : la répétition espacée. Cette méthode, baptisée ainsi par Hermann Ebbinghaus, consiste à revoir les connaissances apprises régulièrement, mais à des intervalles espacés dans le temps. Ebbinghaus a découvert que sans cette méthode, après 4 jours, nous ne retenons plus que 20% de l'information, et après un mois, seulement 5%. La répétition espacée permet ainsi de garder en mémoire les connaissances tout au long de notre vie.

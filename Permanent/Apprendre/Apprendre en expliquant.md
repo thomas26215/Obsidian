@@ -3,11 +3,6 @@ MOOC: "[[Memorisation]]"
 Categorie: Apprendre
 Type: Ressource
 ---
-MOOC : [[Memorisation]]
-Status : #status_finish  
-Type de note : #note_permanent
-
-
 Le principe est simple, il faut réussir à expliquer la notion à un enfant de 8 ans ou à une personne qui n'a aucune connaissance sur le sujet
 
 La technique Feymann, crée par le physicien [[Richard Feymann]], consiste à reformuler et expliquer avec des mots très simples afin de pouvoir identifier où l'on galère

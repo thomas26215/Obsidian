@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: General
 Type: Abstrait
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Ce sont les instructions exécutées par la machine. Généralement exprimées sous forme binaire ou hexadécimale, représentant opérations très basiques et spécifiques du matériel
 Comprises + exécutées par processeur.

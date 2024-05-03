@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: SQL
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La [[Notion de clause|clause]] `WHERE` permet de filtrer le résultat. En effet, pour qu'un n-uplet fasse partit du résultat, il faut qu'il vérifie la clause `WHERE`.
 → Il peut utiliser des opérateurs logiques (`AND`, `OR`, `NOT`)

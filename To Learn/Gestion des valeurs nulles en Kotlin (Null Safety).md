@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: Kotlin
 Type: 
-tags:
-  - note_permanent
-  - status_finish
+tags: []
 ---
 Kotlin, un langage moderne basé sur la [[JVM]], propose une approche plus sûre pour la [[Gestion des valeurs nulles (Null Safety)|gestion des valeurs nulles]]. Par défaut, les variables en Kotlin ne peuvent pas contenir de valeurs `null`, réduisant ainsi considérablement le risque de `NullPointerExceptions`. Pour indiquer explicitement qu'une variable peut être nulle, il suffit d'ajouter un point d'interrogation (`?`) après le type de données :
 ```Kotlin

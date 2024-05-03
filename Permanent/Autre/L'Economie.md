@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 L'économie est défini comme la production, la consommation, la répartition des revenus et les échanges. Cela équivaut à la lutte contre la rareté.
 On peut étudier l'économie à partir des [[Les agents économiques|acteur économiques]] (épargner, consommer ou investir), du fonctionnement des marchés, des rapports de force et d'exploitation et des flux de biens et de monnaie

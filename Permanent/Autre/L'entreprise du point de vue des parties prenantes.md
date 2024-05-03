@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Il existe différentes parties-prenantes qui voient l'entreprise de différentes manières :
 - Pour le **proprio**, c'est un patrimoine potentiel à conserver, un investissement long terme, une source de richesse, un risque qu'ils peuvent prendre leur faisant potentiellement perdre de l'argent et du temps et un bien collectif

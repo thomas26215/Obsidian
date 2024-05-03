@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.04 : Introduction aux systèmes d'exploitation\ret à leur fonctionnement"
 Cours: "Cours 3 : Redirections / Filtres"
 Date: 2023-09-25
-tags:
-  - status_toReformulate
-  - note_cours
+tags: []
 Complete: true
 Learned: true
 ---

@@ -3,8 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.10b : Anglais technique"
 Cours: "Cours 1 : Symbols and note taking technics"
 Date: 2023-11-17
-tags:
-  - note_taking
+tags: []
 Complete: false
 Learned: false
 ---

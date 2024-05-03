@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Developpement durable
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 Complete: true
 Learned: true
 ---

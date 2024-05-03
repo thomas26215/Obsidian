@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 C'est un croisement des missions de l'ensemble des moyens communs auxquels elles recourent. Le salarié est donc confronté à un double commandement exercé par un responsable fonctionnel et un responable de produit. Ca permet une mise en oeuvre dans une entreprise qui utilise des moyens identiques
 Le but de cette structure est d'être assez flexible mais c'est quand même assez moins clair pour les salariés

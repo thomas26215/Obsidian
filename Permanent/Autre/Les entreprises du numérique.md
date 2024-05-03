@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - note_cours
-  - status_toLearn
+tags: []
 ---
 ## Les ESN (Entreprises de services numériques)
 Ancien nom = SSII (Société de services en ingénierie informatique)

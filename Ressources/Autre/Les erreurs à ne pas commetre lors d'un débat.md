@@ -1,7 +1,7 @@
 ---
-Type : Ressource
-Genre : productivite
-tags : discussion/debat
+Type: Ressource
+Genre: productivite
+tags: []
 ---
 - **Ne pas débattre sur un sujet que l'on ne maîtrise pas** : <mark style="background: #BBFABBA6;">Exemple : tout le monde à son avis sur nucléaire ; mais combien savent réellement comment marche fission atomique à émissions neutron ?</mark>
   ⇒ **Le silence vaut mieux que des paroles maladroites**

@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Economie
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 L'IDH est un indicateur qui fait la moyenne du [[Calcul du PIB habitant|PIB par habitant]], du niveau d'instruction et de l'espérance de vie à la naissance. Il est calculé chaque année et permet une indication bien plus précises que le [[PIB]] des conditions de vie des habitants.
 

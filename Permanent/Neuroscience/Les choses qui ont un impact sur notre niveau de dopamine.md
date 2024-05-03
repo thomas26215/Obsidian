@@ -3,12 +3,7 @@ MOOC: "[[Neuroscience]]"
 Categorie: Dopamine
 Type: Permanent
 ---
-
-[[Neuroscience]]
-Status : #status_finish 
-Type de note : #note_permanent 
-
-Après avoir compris comment fonctionne [[Le fonctionnement de notre système dopaminergique|notre système dopaminergique]], il faut maintenant savoir ce qui le fait réduire.
+Après avoir compris comment fonctionne notre système dopaminergique, il faut maintenant savoir ce qui le fait réduire.
 Tout d'abord, il y a certaines tâches qui sont dans **l'attente d'une récompense**. Càd que j'ai un premier pic de dopamine, par exemple en pensant à cette chose puis je vais attendre de réaliser cette chose, par exemple, si cette chose que j'ai pensée se réalise. Ainsi, il y a **deux pics qui se suivent** : 
 - Le premier, dans l'attente
 - Le deuxième dans la réalisation

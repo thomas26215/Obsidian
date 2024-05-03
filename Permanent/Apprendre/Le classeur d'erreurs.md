@@ -3,10 +3,6 @@ MOOC: "[[Memorisation]]"
 Categorie: Erreurs
 Type: Ressource
 ---
-MOOC : [[Memorisation]]
-Status : #status_toLearn 
-Type de note : #note_permanent
-
 Chaque DS, chaque exercice que nous faisons est accompagné de fautes. Et c'est normal ! Cependant, ce qui n'est pas normal, c'est de ne pas apprendre de ses erreurs.
 C'est pourquoi il est nécessaire de se créer un classeur d'erreurs afin d'y noter les fautes **méthodologiques** que l'on fait
 ⇒ On l'utilise pour noter toute l'intelligence du programme, tout ce qu'on aurait pas pensé par nous-même

@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Systèmes d'exploitation
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Différences entre gestionnaire de fichiers et compositeur :
 - Gestionnaire de fichiers :

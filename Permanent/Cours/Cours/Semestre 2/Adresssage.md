@@ -12,7 +12,7 @@ Learned: false
 - **Adressage direct :** La valeur est rangée dans un registre
   ⇒ NEG *%D1*
 - **Adressage absolu :** On connaît à l'avance l'adresse de la donnée qu'on manipule
-  ⇒ MOVE.W *#0xFFFF*
+  ⇒ MOVE.W *# 0xFFFF*
 - **Adressage indirect :** Comme pour adressage absolu mais la value d'adresse est contenue dans un registre d'adresse
   ⇒ MOVE.W *(%A1)*, %D0 - D0.W = MEM(%A1)
 - **Adressage indirect avec déplacement :** Même principe que pour adressage indirect mais on raoute un déplacement. Le déplacement peut être positif ou négatif. Ainsi, on ne prendra pas directement la valeur associée à l'adresse mais on prendra la valeur %A1 + x

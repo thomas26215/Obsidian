@@ -5,10 +5,6 @@ Categorie: Productivite, Programmation
 Auteur: 
 Lien:
 ---
-MOOC : [[Medias]]
-Status : #status_writing 
-Type de note : #note_ressource 
-
 Lorsqu'on pense glow up, on pense souvent à une amélioration physique. Ce dernier est certes important, mais ce n'est pas le seul aspect à développer. En effet il est aussi nécessaire de développer son mental et son intelligence afin d'effectuer un VRAI Glow Up.
 Afin d'effectuer ce glow up, il est tout à fait possible d'utiliser la technique dite *Monk's mode* présentée dans la vidéo du Youtuber **Timaho** appelée *[Comment glow up dans sa vie (Monk Mode)](https://www.youtube.com/watch?v=Me9Yta_On-I)*. Il existe également une autre méthode du moine, s'enfermer quelques mois dans sa chambre, supprimer les distractions, limiter au maximum les interactions sociales et tryhard au maximum le travail.
 

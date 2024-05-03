@@ -3,9 +3,7 @@ MOOC: "[[Cours]]"
 Ressource: "R1.04 : Introduction aux systèmes d'exploitation\ret à leur fonctionnement"
 Cours: "Cours 5 : Droits d'accès, liens symboliques, scripts, compléments de shell"
 Date: 2023-10-09
-tags:
-  - status_toLearn
-  - note_permanent
+tags: []
 Complete: false
 Learned: false
 ---

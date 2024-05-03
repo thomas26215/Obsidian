@@ -2,9 +2,7 @@
 MOOC: "[[Autre]]"
 Sujet: Entreprise
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Toute entreprise a besoin de répartir, de coordonner et de contrôler ses activités. Pour cela, ils créent une structure qui est la matérialisation d'une organisation, d'une façon de gérer l'entreprise. Une structure est donc l'architecture générale d'une entreprise et est généralement représentée par un organigramme
 

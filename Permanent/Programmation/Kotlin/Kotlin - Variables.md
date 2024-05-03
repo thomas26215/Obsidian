@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: Kotlin
 Type: Lesson
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 Les variables Kotlin sont assez différentes de celles de Java
 En effet, En Java, nous avons l'habitude de déclarer nos variables comme ceci :

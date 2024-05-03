@@ -2,9 +2,7 @@
 MOOC: "[[Programmation]]"
 Langage: SQL
 Type: 
-tags:
-  - status_finish
-  - note_permanent
+tags: []
 ---
 La [[Notion de clause|clause]] `ORDER BY` permet de classer le réultat de la clause `WHERE` :
 - Par ordre alphabétique - ascendant : `ASC`
