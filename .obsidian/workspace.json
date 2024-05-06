@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+                "file": "MOOC/Big MOCS/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f0043c171e1840b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9002c08627645b77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6d45d51de8f74fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0516932a9967e362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -48,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#note_cours",
+                "query": "tag:#ajouter",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md"
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md"
               }
             }
           },
@@ -136,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -191,7 +239,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md"
+                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md"
               }
             }
           },
@@ -219,11 +267,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c513506f55f3f03",
+  "active": "0516932a9967e362",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
+    "MOOC/Big MOCS/Cours.md",
+    "cours_3.pdf",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+    "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
+    "Untitled 2.md",
+    "Excalidraw",
     "Permanent/Neuroscience/Le rôle de la dopamine dans la mise en place des habitudes et des addictions.md",
     "Ressources/Ressource 1/Objet direct et objet indirect dans une même phrase en Chinois.md",
     "Ressources/Ressource 1/Construire une phrase affirmative simple en chinois.md",
@@ -240,16 +301,6 @@
     "Permanent/Cours/Cours/Semestre 1/Les fonctions principales de l'entreprise et leurs interactions.md",
     "Permanent/Autre/Les entreprises du numérique.md",
     "Permanent/Cours/Cours/Semestre 1/Introduction à la notion de structure.md",
-    "Ressources/Autre/Variables - Kotlin.md",
-    "Ressources/Autre/Les classes - Kotlin.md",
-    "Ressources/Autre/Fonctions - Kotlin.md",
-    "Permanent/Cours/Cours/Semestre 1/Note taking technics.md",
-    "Permanent/Cours/TD/Semestre 1/Comment est générée la richesse et pourquoi s'en préoccuper.md",
-    "Ressources/Autre/Notre environnement influence notre esprit.md",
-    "Templates/Template Mathématiques.md",
-    "Templates/Template productivité.md",
-    "Ressources/Autre/La méthode pour mieux dormir.md",
-    "To Learn/L'efficacité par la concentration - Inutile de travailler trop longtemps.md",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Pasted image 20240430234535.png",
     "Pasted image 20240430234433.png",
@@ -263,10 +314,8 @@
     "Permanent/Untitled",
     "Projets/En cours/SAE2.04/Untitled",
     "Etape 2 SAE 1.4.pdf",
-    "etape2_venouilt.pdf",
     "Capture d’écran 2022-09-07 163532.png",
     "Images/Pasted image 20231214162842.png",
-    "Suites et récurrences Info 1.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Images/Pasted image 20231115165807.jpg",
     "Images/Pasted image 20231113090322.png",
