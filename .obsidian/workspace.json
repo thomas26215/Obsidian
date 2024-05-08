@@ -8,67 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c513506f55f3f03",
+            "id": "b11894a1a41bee8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8f0043c171e1840b",
+            "id": "4b28f39323354325",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9002c08627645b77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6d45d51de8f74fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0516932a9967e362",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -134,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md"
               }
             }
           },
@@ -184,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -239,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md"
               }
             }
           },
@@ -271,9 +231,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0516932a9967e362",
+  "active": "b11894a1a41bee8b",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+    "Permanent/Cours/Cours/Semestre 2/R2.10a.md",
+    "Projets/En cours/Mega SAE/Sans titre.md",
+    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
+    "Permanent/Cours/Cours/Semestre 1/Les acteurs économiques.md",
+    "Permanent/Cours/Cours/Semestre 1/Les bases de la communication.md",
+    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md",
+    "Permanent/Autre/Les agents économiques.md",
+    "Projets/En cours/Mega SAE/Présentation.md",
+    "Projets/En cours/Mega SAE/Untitled.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
+    "Projets/En cours/Mega SAE",
     "MOOC/Big MOCS/Cours.md",
     "cours_3.pdf",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
@@ -282,7 +253,6 @@
     "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
     "Untitled 2.md",
     "Excalidraw",
     "Permanent/Neuroscience/Le rôle de la dopamine dans la mise en place des habitudes et des addictions.md",
@@ -292,15 +262,6 @@
     "To Learn/Bien-être physique par l'exercice et les pauses.md",
     "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
     "Ressources/Ressource 2/Avoir une skin care routine.md",
-    "Ressources/Autre/Comment lire + de livres.md",
-    "Permanent/Cours/Cours/Semestre 1/Redirection - Filtres.md",
-    "Permanent/Cours/Cours/Semestre 1/Introduction aux bases de données - SELECT.md",
-    "Permanent/Cours/Cours/Semestre 1/Gestion de fichiers et de processus.md",
-    "Ressources/Autre/JetBrains.md",
-    "Ressources/Autre/Dmitry Jemerov.md",
-    "Permanent/Cours/Cours/Semestre 1/Les fonctions principales de l'entreprise et leurs interactions.md",
-    "Permanent/Autre/Les entreprises du numérique.md",
-    "Permanent/Cours/Cours/Semestre 1/Introduction à la notion de structure.md",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Pasted image 20240430234535.png",
     "Pasted image 20240430234433.png",
@@ -313,7 +274,6 @@
     "Permanent/Langues",
     "Permanent/Untitled",
     "Projets/En cours/SAE2.04/Untitled",
-    "Etape 2 SAE 1.4.pdf",
     "Capture d’écran 2022-09-07 163532.png",
     "Images/Pasted image 20231214162842.png",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
