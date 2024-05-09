@@ -78,3 +78,59 @@ Procédure en deux ou trois temps :
 # Les juridiction pénales
 Pour bien comprendre, tenir compte aussi de la classification tripartie des infractions et de la distinction entre juridictions d'instruction et de jugement
 Selon principe de légalité des infractions et des peines, principe d'application stricte et non-extensive, ensemble des agissements pouvant faire objet de poursuites au pénale est décrit dans les textes, de même que les peines encourues
+Un magistrat ne peut pas décider de poursuivre agissements n'étant pas qualifiés d'infraction pénales dans les textes. Ne peut pas requalifier si celle-ci non prévue dans les codes. Ne peut pas prononcer de perines non prévues dans les codes pour le type d'infraction poursuivie ⇒ Principe de légalité des infractions et des peines
+
+# Les juridictions de jugement
+## Le tribunal de police
+Juge infractions les moins graves : contraventions. Statut à juge unique. Statue en premier et dernier ressortpour contraventinos de 1e à 4e classe. Présence d'un avocat non obligatore
+
+## Tribunal correctionnel
+Tribunal correctionnel saisi dans le cas de la commission de délits. Statut à 3 magistrats. Ses décisions sont toutes susceptibles de faire objet d'un appel devant la chambre correctionnelle de la cour d'appel. Présence d'un avocat requise si infraction passible de 5 ans d'emprisonnement
+
+## La cour d'Assises
+Jurdictino compétente pour juger personnes accusées d'avoir commis crime. Infractions pénales les plus graves (assassinat, empoissonement, viol, vol avec arme ...). Punies de + 10 ans d'emprisonnement  : peines supérieures alors qualifiées de réclusion criminelle.
+3 magistrats professionnels (1 président et 2 assesseurs) et d'un jury composé de 9 (en première instance) ou 12 (en appel) jurés
+
+## Tableau
+| Juridiction répressives               | Tribunal de police                  | Tribunal correctionnel                  | Cours d'assises                                   |
+| ------------------------------------- | ----------------------------------- | --------------------------------------- | ------------------------------------------------- |
+| Compétences d'attribution             | Contraventions                      | Délits                                  | Crimes                                            |
+| Compétence territoriale               | Lieu de réalisation de l'infraction | -                                       | -                                                 |
+| Formation et organisation du tribunal | Juridiction à juge unique           | Collégialité                            | Collégialité + jury populaire                     |
+| Sanctions                             | Amende (Jusqu'à 3750 euros)         | Amende et emprisonnement jusqu'à 10 ans | Amendes et réclusion criminelle d'au moins 10 ans |
+# La compétence territoriale
+Quand on a définie la compétence d'attribution, il faut savoir à quel endroit se réunira le tribunal
+⇒ **Pénale :** Dépend du lieu de réalisation de l'infraction
+⇒ **Civile :** Le tribunal sera celui du lieu du domicile du défendeur. Exceptions :
+- **Litige immobiler :** Localisation du bien immobiler
+- **Resonsabilité civile :** Lieu du fait dédommageable
+- **Contrat :** Lieu d'exécution du contrat
+- **Litige individuel de droit de travail :** celui du lieu du travail effectif
+
+# La cour d'appel et la cour de cassation
+## Cour d'appel
+35 en France. Juridiction de droit commun du second degré.
+⇒ **Compétence :** Statue sur les appels interjectes contre les décisions rendues par les juridictions du premier ordre situées dans son ressort. Il y aura un effet suspensif, dévolutif et un effet d'évocation
+Application du principe de collégialité. Divisée en chambres spécialisées (civiles, commerciales, sociale et correctionnelle)
+La chambre statue sur les appels formés des décisions du TI ou TGI, la chambre sociale des décisions du conseil des Prud'homomes, la chambre commerciale des décisions du tribunal de police et du tribunal correctionnel
+Elle n'est pas compétente pour statuer des appels formés contre les décisions de la cour d'Assises en matière criminelle. C'est la Cour d'Assises d'appel qui sera compétente
+
+⇒ Rend arrêts confirmatif et infirmatif
+
+## Cour de cassation
+1 siégeant à Paris. Au sommet des juridictions de l'ordre judiciaire. Divisée en chambres spécialisées (6 chambres)
+⇒ **Compétence :** Ensemble des jugements rendus au dernier ressort par toutes les juridictions civiles ou pénales de l'ordre judiciaire. Ne rejuge pas l'affaire, faits laissés à l'appréciation souveraine des juges du fond. C'est un juge de droit, vérifie application de la règle de droit pas les autres juridictions
+Effet du pourvoi en cassation : pas d'effet suspensif, décisions de la cour précédente ont donc force exécutoire
+Rend les arrêts de cassation ou de rejet
+Contr$ole légalité des décisions juridirectionnelles en vérifiant que les règles de droit ont été correctement appliquées. Double fonction : disciplinaire et juridirectionnelle
+Peut aussi être saisie par juges de fond pour donner avis sur une quesition de droit nouvelle présentant une difficulté sérieuse et se posant dans de nombreux litiges
+
+# Procédure extra-judiciaire de règlement des litiges
+Il est possible en matière civile pour les parties au litige de privilégier un règlement extra-judiciaire, càd de ne pas recourir à  la justice
+- L'arbitrage
+- La médiation
+
+## L'arbitrage
+Peut se faire par l'insertion d'une Clause compromissoire dans le contrat ou par Compromis après apparition du litige
+- Clause compromissoire : clause que parties ont introduites dans leur contrat par laquelle ils décident par avance et avant la naissance de tout litige entre eux, qu'en cas de différend ils s'engagent à la soumettre à un ou plusieurs arbitres
+- Compromis d'arbitrage : convention d'arbitrage : convention d'arbitrage conclue après naissance d'un différend

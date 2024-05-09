@@ -20,14 +20,15 @@
             }
           },
           {
-            "id": "4b28f39323354325",
+            "id": "5b32ea1e27f51983",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,7 +233,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b11894a1a41bee8b",
+  "active": "5b32ea1e27f51983",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
     "Permanent/Cours/Cours/Semestre 2/R2.10a.md",
