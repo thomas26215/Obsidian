@@ -18,8 +18,53 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e24bb1ce7905b865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a36f6caadbc06ec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8235bd8dea3307bf",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ce9de31d98ec7e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -85,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
+                "file": "Projets/En cours/Mega SAE/Graphes.md"
               }
             }
           },
@@ -135,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,12 +236,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
+                "file": "Projets/En cours/Mega SAE/Graphes.md"
               }
             }
           },
           {
-            "id": "f9a1b88061f762b3",
+            "id": "9f1eb66672861b15",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -203,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -223,8 +269,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbdb880096bdeb62",
+  "active": "a36f6caadbc06ec2",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
+    "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
+    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Projets/En cours/P2.01.md",
@@ -253,11 +304,6 @@
     "Permanent/Cours/TD/Semestre 2/Les systèmes d'informations.md",
     "Permanent/Cours/TD/Semestre 2/Externalisation informatique.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-    "Permanent/Cours/TD/Semestre 2/Droit.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
-    "Permanent/Cours/Cours/Semestre 2/R2.10a.md",
-    "Projets/En cours/Mega SAE/Sans titre.md",
     "Projets/En cours/Mega SAE",
     "Excalidraw",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
