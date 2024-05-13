@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,8 +47,12 @@
             "id": "8235bd8dea3307bf",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -93,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ajouter",
+                "query": "Présentation générale de la justice en France",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,12 +114,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -131,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md"
               }
             }
           },
@@ -181,7 +185,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -236,7 +240,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md"
               }
             }
           },
@@ -271,16 +275,21 @@
   },
   "active": "a36f6caadbc06ec2",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+    "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
     "Untitled 2.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
+    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
+    "Permanent/Cours/Cours/Semestre 1/Untitled.md",
+    "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
+    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
     "Projets/En cours/Mega SAE/Graphes.md",
     "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Projets/En cours/P2.01.md",
-    "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
-    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
     "stat.md",
     "statiquement typé.md",
     "Untitled 1.md",
@@ -299,11 +308,6 @@
     "Permanent/Cours/TD/Semestre 2/TD1(2).md",
     "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
     "Permanent/Cours/TD/Semestre 2/TD 1 - Informations, données, connaissances.md",
-    "Permanent/Cours/TD/Semestre 2/SQL TP5.md",
-    "Permanent/Cours/TD/Semestre 2/Objets définis par requête.md",
-    "Permanent/Cours/TD/Semestre 2/Les systèmes d'informations.md",
-    "Permanent/Cours/TD/Semestre 2/Externalisation informatique.md",
-    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
     "Projets/En cours/Mega SAE",
     "Excalidraw",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",

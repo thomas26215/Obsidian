@@ -134,3 +134,37 @@ Il est possible en matière civile pour les parties au litige de privilégier un
 Peut se faire par l'insertion d'une Clause compromissoire dans le contrat ou par Compromis après apparition du litige
 - Clause compromissoire : clause que parties ont introduites dans leur contrat par laquelle ils décident par avance et avant la naissance de tout litige entre eux, qu'en cas de différend ils s'engagent à la soumettre à un ou plusieurs arbitres
 - Compromis d'arbitrage : convention d'arbitrage : convention d'arbitrage conclue après naissance d'un différend
+
+
+---
+**Les présomptions :**
+- Conséquences que la loi tire d'un fait connuà un fait inconnu
+- Entrainent un renversement de la charge de la preuve
+- Peuvent être simples, mixtes ou irréfrogables
+
+>[!tip]
+>Charge de la preuve + Objet de la preuve + Procédés de preuve = Administration de preuve
+
+- Charge de la preuve
+	- Au civil : Procédure accusatoire : charge de la preuve au demandeur
+	- Au pénal  : Procédure inquisitoire : charge de la preuve au magistrat
+- Objet de la preuve : Preuve du droit objectif (Acte juridique, Fait juridique)
+- Procédés
+	- Par écrit : Acte authentique, Acte sous-seing privé
+	- Autres : témoignage, Aveu, Serment
+
+
+**Comment ?** Cas général :
+- Cas géénrale
+	- Fait juridique et infractions pénales → preuve par tout moyen
+	- Acte juridique → par écrit > 1500euros par tout moyen < 1500euros
+- Exceptions à l'écrit
+	- Commencement de preuves par écrit
+	- Impossibilité matérielle ou morale de se procurer un écrit → preuve par tout moyen
+	- Liberté de reuve en matière commerciale
+
+
+Autorité de la chose jugée
+- Possibilité de recourir à la force publique pour contraindre la partie condamnée à éxecuter le jugement
+Force exécutoire
+- Principe selon lequel on ne peut remettre en question un point sur lequel un juge est statué
