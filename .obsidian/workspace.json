@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a832452886ddd47d",
+        "id": "45d5d6394c958e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "b11894a1a41bee8b",
+            "id": "cbdb880096bdeb62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "5b32ea1e27f51983",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
               }
             }
           },
@@ -145,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -200,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
               }
             }
           },
@@ -233,45 +223,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5b32ea1e27f51983",
+  "active": "cbdb880096bdeb62",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+    "Projets/En cours/P2.01.md",
+    "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
+    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
+    "stat.md",
+    "statiquement typé.md",
+    "Untitled 1.md",
+    "cours_3.pdf",
+    "Images/mise en page d'une page web.png",
+    "Images/Pasted image 20240408162257.png",
+    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
+    "Pasted image 20240430234535.png",
+    "Pasted image 20240430234433.png",
+    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
+    "Untitled.md",
+    "Permanent/Cours/TD/Semestre 2/Untitled.md",
+    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 2/Triggers et vues.md",
+    "Permanent/Cours/TD/Semestre 2/TD1(2).md",
+    "Permanent/Cours/TD/Semestre 2/TD Utilisateurs et droits.md",
+    "Permanent/Cours/TD/Semestre 2/TD 1 - Informations, données, connaissances.md",
+    "Permanent/Cours/TD/Semestre 2/SQL TP5.md",
+    "Permanent/Cours/TD/Semestre 2/Objets définis par requête.md",
+    "Permanent/Cours/TD/Semestre 2/Les systèmes d'informations.md",
+    "Permanent/Cours/TD/Semestre 2/Externalisation informatique.md",
+    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Permanent/Cours/TD/Semestre 2/Droit.md",
+    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
     "Permanent/Cours/Cours/Semestre 2/R2.10a.md",
     "Projets/En cours/Mega SAE/Sans titre.md",
-    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
-    "Permanent/Cours/Cours/Semestre 1/Les acteurs économiques.md",
-    "Permanent/Cours/Cours/Semestre 1/Les bases de la communication.md",
-    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md",
-    "Permanent/Autre/Les agents économiques.md",
-    "Projets/En cours/Mega SAE/Présentation.md",
-    "Projets/En cours/Mega SAE/Untitled.md",
-    "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Projets/En cours/Mega SAE",
-    "MOOC/Big MOCS/Cours.md",
-    "cours_3.pdf",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
-    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
-    "Untitled 2.md",
     "Excalidraw",
-    "Permanent/Neuroscience/Le rôle de la dopamine dans la mise en place des habitudes et des addictions.md",
-    "Ressources/Ressource 1/Objet direct et objet indirect dans une même phrase en Chinois.md",
-    "Ressources/Ressource 1/Construire une phrase affirmative simple en chinois.md",
-    "Ressources/Autre/Comment Glow Up rapidement.md",
-    "To Learn/Bien-être physique par l'exercice et les pauses.md",
-    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
-    "Ressources/Ressource 2/Avoir une skin care routine.md",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "Pasted image 20240430234535.png",
-    "Pasted image 20240430234433.png",
     "Inbox/td réseau.pdf",
     "Nouveau Document texte.txt",
     "tatus",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "Images/Pasted image 20240408162257.png",
     "Permanent/Programmation/Java/Minecraft",
     "Permanent/Langues",
     "Permanent/Untitled",
@@ -281,10 +273,8 @@
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Images/Pasted image 20231115165807.jpg",
     "Images/Pasted image 20231113090322.png",
-    "Images/Pasted image 20231113084937.png",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Untitled 14.canvas",
     "Untitled 13.canvas",
     "Untitled 12.canvas",

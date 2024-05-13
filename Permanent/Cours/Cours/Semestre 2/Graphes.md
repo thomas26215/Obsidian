@@ -1,6 +1,6 @@
 ---
 MOOC: "[[Cours]]"
-Ressource: "R2.09 : Mathématiques"
+Ressource: "R2.07 : Mathématiques"
 Cours: Graphes
 Date: 
 tags: 
