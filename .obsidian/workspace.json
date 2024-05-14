@@ -71,8 +71,12 @@
             "id": "76beb3dc5be91dd9",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -150,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -200,7 +204,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,7 +259,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -288,41 +292,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbdb880096bdeb62",
+  "active": "76beb3dc5be91dd9",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Permanent/Cours/Cours/Semestre 2/VLAN.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
-    "Untitled 2.md",
-    "Pasted image 20240514084631.png",
     "MOOC/Big MOCS/Cours.md",
+    "Untitled 1.md",
+    "statiquement typé.md",
+    "stat.md",
+    "Untitled.md",
+    "cours_3.pdf",
+    "Pasted image 20240514084631.png",
+    "Untitled 2.md",
+    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Partie 2 suite.md",
+    "Partie 1.md",
+    "Partie 1 en remplaçant 24 par 25.md",
+    "Partie 32.md",
+    "Exercice 2.md",
+    "Partie 33.md",
+    "Partie 12.md",
+    "Partie 4.md",
+    "Partie 3.md",
+    "Partie 2.md",
+    "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
     "Permanent/Programmation/SQL/Définition - Donnée.md",
     "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
-    "Permanent/Cours/Cours/Semestre 2/La personnalité juridique.md",
-    "Permanent/Cours/Cours/Semestre 2/Droit judiciaire.md",
-    "Permanent/Cours/Cours/Semestre 1/Untitled.md",
-    "Permanent/Cours/Cours/Semestre 2/Les principes d'organisation.md",
-    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
-    "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
-    "Projets/En cours/P2.01.md",
-    "stat.md",
-    "statiquement typé.md",
-    "Untitled 1.md",
-    "cours_3.pdf",
     "Images/mise en page d'une page web.png",
     "Images/Pasted image 20240408162257.png",
-    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
     "Pasted image 20240430234535.png",
     "Pasted image 20240430234433.png",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "Untitled.md",
-    "Permanent/Cours/TD/Semestre 2/Untitled.md",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Mega SAE",
     "Excalidraw",

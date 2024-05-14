@@ -80,3 +80,74 @@ bit a bit : $0010000110000000 = 33.128$
 1. Il envoie à tout le monde
 2. Il l'envoie à P1 et il ajoute P3
 3. Il y a au moins un commutateur derrière
+
+
+# Exo 6
+1. Les stations E et F recevront la trame (fait partie du même VLAN)
+2. 
+
+| Destination  | Gateway      | GenMask         | Iface |
+| ------------ | ------------ | --------------- | ----- |
+| 194.199.20.0 | 0.0.0.0      | 255.255.255.128 | eth0  |
+| 0.0.0.0      | 194.199.20.1 | 0.0.0.0         | eth0  |
+
+3. 
+
+| Destionation | GateWay | GenMask         | Iface |
+| ------------ | ------- | --------------- | ----- |
+| 192.168.1.14 | 0.0.0.0 | 255.255.255.128 | VLAN1 |
+| 192.168.1.21 | 0.0.0.0 | 255.255.255.128 | VLAN2 |
+| 192.168.1.11 | 0.0.0.0 | 255.255.255.168 | VLAN3 |
+|              |         |                 |       |
+4. .
+
+| Adresse MAC | Port |
+| ----------- | ---- |
+| @A          | P1   |
+| @X          | P2   |
+| @Y          | P3   |
+| @Z          | P3   |
+| @B          | P4   |
+| @A          | P4   |
+| a0:..:cf    | P7   |
+5. .
+	1. La station envoie le paquet au comm COM_1 qui contient 
+
+6. .
+	1. Ne peut pas envoyer directement donc envoie tram au routeur . Adresse MAC destination contenant tram est adresse MAC du comm et donc comm agit comme routeur
+
+
+## Exercice 2
+### Partie 1
+1. Réduire le nombre d'équipements, coût, maintenance, sécurité (partinonement au même endroit)
+
+
+### Partie 2
+1. .
+
+| Destination | Gateway    | Genmask       | Iface |
+| ----------- | ---------- | ------------- | ----- |
+| 144.19.2.0  | 0.0.0.0    | 255.255.255.0 | eth0  |
+| 0.0.0.0     | 144.19.2.1 | 0.0.0.0       | eth0  |
+2. .
+
+| Destination | MAC |
+| ----------- | --- |
+| @A          | P1  |
+| @X          | P2  |
+| @Y          | P3  |
+| @B          | P13 |
+| @C          | P14 |
+| @D          | P15 |
+| @R2         | P13 |
+
+4. .
+
+| 144.19.2.0 | 0.0.0.0       | 255.255.255.0 | VLAN1 |
+| ---------- | ------------- | ------------- | ----- |
+| 142.18.3.0 | 0.0.0.0       | 255.255.255.0 | VLAN2 |
+| 0.0.0.0    | 142.255.255.0 | 0.0.0.0       | VLAN2 |
+## Partie 3
+1. Ce sera la première ligne de la table de routage de A qui sera appliqué
+2. a0:..:cc
+3. Cela sera le Commutation
