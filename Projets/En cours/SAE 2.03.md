@@ -2,8 +2,8 @@
 ## Préparation de l'image ISO
 
 ### Téléchargement et vérification de l'image ISO
-- L'image ISO et les fichiers permettant de <mark style="background: #FFB86CA6;">vérifier son intégrité</mark> sont disponibles ici`https://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/`
-- Pour noter cas, l'image ISO est déjà téléchargée et trouve dans le répertoire `/usr/local/images-ISO/`. Vérifier son intégrité avec la commande suivante :
+- L'image ISO et les fichiers permettant de <mark style="background: #FFB86CA6;">vérifier son intégrité</mark> sont disponibles ici `https://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/`
+- Dans notre cas, l'image ISO est déjà téléchargée et se trouve dans le répertoire `/usr/local/images-ISO/`. Vérifier son intégrité avec la commande suivante en comparant visuellement les deux traces (elles doivent être les mêmes) :
 ```Shell
 sha512sum /usr/local/images-ISO/image-iso.iso
 ```
@@ -47,7 +47,7 @@ Les paramètres nécessaires sont déjà configurés dans ce fichier.
 	- _Install GRUB_ : Yes
 	- _Device for boot loader_ : `/dev/sda`  
 
-⇒ Cela étant fait la machine virtuelle se lance. **Il faut maintenant éteindre la machine avant de pourvoir passer à l'étape suivant !** Il faut pour cela se loger sur le compte root (==Identifiant = Hostname et Mdp = Password==) et exécuter la commande `# poweroff` pour éteindre proprement la machine.
+⇒ Cela étant fait la machine virtuelle se lance. **Il faut maintenant éteindre la machine avant de pourvoir passer à l'étape suivante !** Il faut pour cela se logger sur le compte root (==Identifiant = Hostname et Mdp = Password==) et exécuter la commande `# poweroff` pour éteindre proprement la machine.
  
 >[!info]
 >A partir de maintenant, c'est cette commande (`# poweroff`) qu'il faut utiliser pour éteindre la machine virtuelle
@@ -57,7 +57,8 @@ Les paramètres nécessaires sont déjà configurés dans ce fichier.
 ```Shell
 S2.03-déplace-image-disque-sur-erebus4
 ```
-
+>[!info]
+>On peut aussi déplacer l'image disque sur une clé USB si l'on souhaite accéder à la machine virtuelle depuis plusieurs machines. Pour cela, il faut directement chercher cette image dans la clé USB
 ## Vérification du serveur Debian
 - Il faut maintenant exécuter la commande qui suit pour lancer la machine virtuelle :
 ```Shell
@@ -79,7 +80,7 @@ apt install apache2
 service apache2 start
 ```
 > [!Warning]
-> Il faut déjà être **utilisateur root** pour avoir toutes les permissions, notamment celle d'installer un logiciel : `sudo -i` ou `su -i`
+> Il faut déjà être **utilisateur root** pour avoir toutes les permissions, notamment celle d'installer un logiciel : `sudo -i` ou `su`
 - Exécuter la commande suivante pour vérifier que le logiciel est bien installé :
 ```Shell
 systemctl status apache2
@@ -88,7 +89,7 @@ systemctl status apache2
 ```Shell
 systemctl start apache2
 ```
-- Bien qu'il n'est pas possible d'afficher une page Web graphiquement (nous avons installé la machine virtuelle uniquement pour les lignes de commande). Il est cependant possible de se connecter  au serveur Apache avec la commande `telnet` et en entrant la chaîne de charactère `HEAD/HTTP/1.0` suivit de deux retours à la ligne :
+- Il n'est pas possible d'afficher une page Web graphiquement (nous avons installé la machine virtuelle uniquement pour les lignes de commande). Il est cependant possible de se connecter  au serveur Apache avec la commande `telnet` et en entrant la chaîne de charactère `HEAD/HTTP/1.0` suivit de deux retours à la ligne :
 ```Shell
 telnet localhost 80 #Il faut taper
 Trying ::1...
@@ -119,3 +120,76 @@ su - postgres
 psql -l
 ```
 
+Il est maintenant possible de faires quelques tâches simples, en se connectant à la machine virtuelle depuis ce même shell tournant sur la machine virtuelle (Commande `psql`) :
+1. **Créer un utilisateur avec comme nom votre login :** `CREATE USER votre_login WITH password = 'xxx'`
+2. **Créer une base dont le propriétaire est votre utilisateur :**
+```SQL
+CREATE DATABASE ma_base WITH OWNER = votre_nom_uga;
+```
+3. **Créer une table simple dans la base de données :**
+```SQL
+\c ma_base
+```
+4. **Créer une table :**
+```SQL
+CREATE TABLE ma_table (
+    id SERIAL PRIMARY KEY,
+    nom VARCHAR(100),
+    age INT
+);
+```
+5. **Insérer quelques lignes :**
+```SQL
+INSERT INTO ma_table (nom, age) VALUES ('Alice', 30);
+INSERT INTO ma_table (nom, age) VALUES ('Bob', 25);
+INSERT INTO ma_table (nom, age) VALUES ('Charlie', 35);
+```
+
+- Il faut maintenant modifier certains fichiers pour que cette base PostgreSQL soit accessible par une machine Linux. Pour se faire :
+	1. **Modifier `postgresql.conf` :**
+	   ⇒ Rechercher dans la catégorie *CONNECTIONS AND AUTHENTICATION* et décommenter la ligne `listen_addresses = '*'`
+	2. **Modifier `nano /etc/postgresql/15/main/pg_hba.conf` :**
+	   ⇒ Dans la catégorie *#IPv4 remote connections:*, ajouter la règle suivante : `host  all all 0.0.0.0/0 scram-sha-256`
+	3. Il faut maintenant repasser en **root** et relancer le serveur :
+```sh
+service postgresql restart
+```
+
+- On peut maintenant lister le contenu de la table `pg_shadow` pour vérifier que les mots de passe sont bien hâches avec **SHA-256** :
+```SQL
+\c postgres
+SELECT usename, passwd FROM pg_shadow;
+```
+
+## Installer PHP
+- Installer PHP en exécutant les commandes suivantes tout en étant `root`
+```sh
+apt install php-common libapache2-mod-php php-cli
+/etc/init.d/apache2 start
+```
+>[!info] `/etc/init.d/apache2 start` sert à lancer Apache quand il est installé et `/etc/init.d/apache2 stop` sert à l'arrêter
+
+- Pour tester l'installation, placer un fichier `info.php` dans le répertoire `var/www/html/` (Commande `touch` possible ⇒ `touch var/www/html/info.php`) puis rentrer le code suivant :
+```PHP
+<?php
+phpinfo();
+phpinfo(INFO_MODULES);
+?>
+```
+- Maintenant, revener sur votre machine hôte puis, dans votre navigateur Web, rentrez le lien suivant : `http://localhost:8080/info.php`. Normalement, une page contenant les caractéristiques principales de votre installation PHP devrait apparaître
+
+## Installer PhpPgAdmin
+-  Installer PhpPgAdmin en exécutant la commande suivante tout en étant `root` :
+```sh
+apt -y install phppgadmin php-pgsql
+```
+-  Il faut maintenant modifier certains fichiers :
+1. **Modifier `etc/phppgadmin/config.inc.pgp`**
+   ⇒ Dans la catégorie *Only allow connections from localhost*, enlever `Require local` et remplacer par `Require all granted`
+2. **Modifier `/usr/share/phppgadmin/classes/database/Connections.php` :**
+   ⇒ A la ligne 79, *ajouter PostgresSQL 15* : `cas '15' : return 'Postgres':break;` remplaçant la ligne `cas '14' : return 'Postgres':break;`
+- Relancer Apache2 pour appliquer les modifications :
+```sh
+systemctl reload apache2
+```
+- Ouvrir une page internet et rentrer le lien `http://localhost/phppgadmin/`

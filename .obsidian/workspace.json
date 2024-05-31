@@ -4,43 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8005ec0fbf94a301",
+        "id": "5cfd221c4ca64f10",
         "type": "tabs",
         "children": [
           {
-            "id": "277d26cc197a50dc",
+            "id": "afec84fd3962adf9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Pub projet 2.md"
-              }
-            }
-          },
-          {
-            "id": "a7b27950b980912d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-31 08.55.20.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "5e1d8750ca8ed1bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Acceptation",
+                "query": "complexité",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,7 +129,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,9 +182,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Projets/En cours/Mega SAE/Graphes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -223,14 +192,21 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "ae156f7290499699",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 397.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,11 +221,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e1d8750ca8ed1bd",
+  "active": "ae156f7290499699",
   "lastOpenFiles": [
-    "Pasted image 20240531102434.png",
     "Excalidraw/Pub projet 2.md",
     "Excalidraw/Drawing 2024-05-31 08.55.20.excalidraw.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
+    "Projets/En cours/SAE 2.03.md",
+    "Permanent/Cours/Cours/Semestre 1/Evaluation du coût d'un alrogithme.md",
+    "Pasted image 20240531102434.png",
     "Untitled 6.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Permanent/Cours/Cours/Semestre 2/Ergonomie des interfaces.md",
@@ -260,7 +239,6 @@
     "Untitled 5.md",
     "Pasted image 20240529020745.png",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Projets/En cours/SAE 2.03.md",
     "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/TD/Semestre 2/TD IHM.md",
@@ -280,13 +258,11 @@
     "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Gestion de projet - Plannification.md",
-    "Excalidraw/Pub projet.md",
     "Pasted Image 20240524092919_408.png",
     "Permanent/Programmation/JavaFX",
     "Pasted image 20240515235815.png",
     "cours_3.pdf",
     "Pasted image 20240514084631.png",
-    "Images/mise en page d'une page web.png",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Mega SAE",
     "Excalidraw",

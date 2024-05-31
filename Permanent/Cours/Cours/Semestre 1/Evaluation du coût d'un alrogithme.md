@@ -26,7 +26,7 @@ Il existe 3 types de classe de complexité :
 - **Classe $n^2$** : Deux boules imbriquées
 
 On note :
-- $O$ le pire des cas
+- $O$ le meilleur des cas
 - $\Omega$ Le pire des cas
 - $\Theta$ Quand l'alrgorithme a une même classe de coput dans le pire et dans le meilleur des cas
 
