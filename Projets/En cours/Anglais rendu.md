@@ -1,0 +1,1 @@
+⇒ **Coloors :** J'ai déja assisté à certaines conférences dont ce sujet faisait partie de celle-ci. Indirectement, nous pouvons penser que cela n'a pas trop d'impact, mais il est vrai que les couleurs, que ce soit au niveau des marques, ou bien dans la vie de tous les jours, influencent beaucoup nos perceptions de la chose.

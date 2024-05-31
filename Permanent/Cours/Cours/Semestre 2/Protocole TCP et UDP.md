@@ -1,3 +1,12 @@
+---
+MOOC: "[[Cours]]"
+Ressource: 
+Cours: 
+Date: 
+tags: 
+Complete: false
+Learned: false
+---
 # Le niveau transport
 **Schéma**
 
@@ -12,7 +21,7 @@ Le but est le transport des datagrammes ou des flots d'octets entre un processus
 - Numéro de processussystème ne convient pas car PID local et dépend du sys utillisé
 - **Numéro de port :** Champs sur 16 bits de l'en-tête TCP et UDP
 
-Un port est un vealeur sur 16 bits identifiant une conenxion avec processus sur une station
+Un port est une valeur sur 16 bits identifiant une conenxion avec processus sur une station
 ⇒ De 0 à 1023 = ports système. Privilège admin pour  utiliser
 - 22 : SSH
 - 25 : SMTP
@@ -35,8 +44,8 @@ Analogie postale
 → Transmission ou réception des paquets dans un ordre non contranit → adapté aux application en tps réel où la latence peut être un prblm
 
 Adapté pour :
-- ..
-- ..
+- protocoles basés sur transaction (DHCP, NTP)
+- cas où la correction d'erreur en tps réel n'est pas nécessaire (Jeux vidéo, conférence ...)
 
 2 propriétés en plus que IP :
 1. Numéros de ports pour distinguer diff connexions
@@ -65,8 +74,20 @@ Réalisation du mode flot :
 
 **Contrôle de flux :** TCP fournit un moyen au destinataire de contrôle le débit des données envoyées par la source pour que l'émetteur n'émette pas trop vite par rapport au récepteur
 **Contrôle de congestion :**
-- Pertes interprétées ..
+- Pertes interprétées comme signal de congestion de flux dans le réseaux
+- L'émetteur réagit en diminuant le débit de transmission
+**Sn** : Sequence number : n° du premier octet contenu dans le champ info (n° dans le lot de données d'émission).
+**An** : Acknowledge number : n° du prochain octet attendu dans le lot de données reçues, acquitte les octets de n° inférieurs.
+**AW** : Advertised receive Window : fenêtre de réception (notée ici W).
+**H.lg : Header Length** : longueur de l'en-tête, en mots de 32 bits (si pas d'option, H.lg=5).
+**Control (Flags) :** <0, 0, URG, ACK, PSH, RST, SYN, FIN>
+ ▶ SYN : demande d'ouverture de connexion (O).
+ ▶ FIN : demande de fermeture de connexion (F).
+ ▶ ACK : le paquet acquitte des données ou une demande O/F.
+ ▶ PSH : le segment contient des données qui peuvent être délivrées à l'application.
+**Checksum** : même calcul que pour l'UDP.
 
+![[Pasted image 20240528013351.png]]
 
 
 - App dépose données dans tampon émission : flot d'émission, ordre dans lequel tampon sera celui de la transmission
@@ -82,12 +103,19 @@ MIN(Na, MSS, W)
 > Contrôle d'erreur : numérotation des octets, aquittement des octets reçus ..
 
 
-
+**An =** Numéro du prochain octet à recevoir
+**Sn =** Prochain numéro d'octet attendu
+**W =** Place disponible à la réception, récepteur indique combien d'octets il peut encore recevoir
+**Flags**
+ → **ACK :** Le paquet acquiette des données
+ → **PSH :** Le segment contient des données qui peuvent être délivrées à l'application
+ → **SYN :** Mise en place de la connexion
+⇒ **Les paquets Sn, An et W** dans chaque segment
 # Echange à l'ouverture d'une connexion
 **Flag SYN** = Mise en place connexion
 **AW** = Window
 **MSS** = Maximum Size Segment. Taille maximum à envoyer
-
+Initialisation de An, Sn et AW de chaque côté de la connexion
 # Echanges à la fermeture de connexion
 Après une demande **Fin**, les tampons sont vidés puis la connexion est arrêtée
 

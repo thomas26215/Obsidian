@@ -1,4 +1,4 @@
-Comité d'organisation
+**Comité d'organisation :**
 
 | Tâche                                     | Durée |     | Successeurs |
 | ----------------------------------------- | ----- | --- | ----------- |
@@ -7,7 +7,7 @@ Comité d'organisation
 | C - Choisir menus et repas                | 1     |     | E           |
 | D -Trouver lieu banquet soirée sociale    | 2     |     | E, J        |
 | E - Fixer prix                            | 0     |     | H           |
-Comité de programme
+**Comité de programme :**
 
 |                                                                   |                             |     |      |
 | ----------------------------------------------------------------- | --------------------------- | --- | ---- |
@@ -19,3 +19,7 @@ Comité de programme
 | K - Homgénéiser formes articles                                   | 4                           |     | L    |
 | L - Impression des Proccedings                                    | 6 (+1 semaine avant la fin) |     |      |
 |                                                                   |                             |     |      |
+![[Pasted image 20240531102434.png]]
+
+3. Le projet doit être entrepris au plus tard 3 semaines après le début du projet si l'on souhaite que celui-ci soit terminé au bout de 32 semaines.
+4. Afin de calculer la marge, il faut calculer la date au plus tôt du lancement du projet moins la date au plus tard du lancement du projet. Sachant que la date au plus tôt est d'une semaine, on peut facilement calculer la marge : 3-1 = 2. Nous avons donc deux semaines de marge.

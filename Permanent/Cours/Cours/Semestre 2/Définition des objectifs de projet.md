@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Cours]]"
-Ressource: 
-Cours: 
+Ressource: "R2.10b : Gestion de projet"
+Cours: Cours 2
 Date: 
 tags: 
 Complete: false

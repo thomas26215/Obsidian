@@ -26,11 +26,26 @@ La possibilité pour toute personne d'obtenir une deuxième décision de justice
 > Oblige la mise en place d'une organisation de la  justice à plusieurs niveaux : 2 degrés de juridiction appelés aussi juges de fond (tribunaux de première instance et cours d'appel de deuxième instance) et un 3e niveau (n'étant pas 1 3e degré car ne travaillant pas sur le fond de l'affaire)
 
 ## Les voies de recours
-**Voies de recours ordinaires :** Effet dévolutif (ensemble de l'affaire sera rejugée) et suspensif (première décision rendue ne sera pas applicable). Ce sont l'appel et l'opposition
-**Voies de recours extraordinaires :** Ne peuvent être ouvertes qu'en vertu d'un texte et après épuisement des voies de recours ordinaries et sont la tierce opposition, le recours en révision et le pourvoir en cassation
+- **Voies de recours ordinaires :** Effet dévolutif (ensemble de l'affaire sera rejugée) et suspensif (première décision rendue ne sera pas applicable). Ce sont l'appel et l'opposition
+- **Voies de recours extraordinaires :** Ne peuvent être ouvertes qu'en vertu d'un texte et après épuisement des voies de recours ordinaries et sont la tierce opposition, le recours en révision et le pourvoir en cassation
 
-## Vocabulaire
-Opposition, appel, Recours en révision, Pourvoi en cassation
+![[Pasted image 20240515235815.png]]
+### L'appel
+C'est la voie de recours par laquelle une partie demande à une juridiction supérieure (la cours d'appel) la réexaminsation d'une décision rendue par une juridiction de premier degré
+La cours d'appel peut confirmer ou infirmer la décition initiale
+**⇒ Impossible si litige évalué à moins de 4000 euros ou pour contraventions de première à quatrième classe**
+
+### L'opposition
+Voie de recours permettant à une partie jugée par défaut de demander à la même juridiction de réexaminer sa décision
+
+### Pourvoi en cassation
+Voie de recours devant la cour de cassation, visant à vérifier si le droit a été correctement appliqué par les juridictions inférieures. Ne porte pas sur les faits mais uniquement sur le droit
+
+### Recours en révision
+C'est une voie de recours permettant de rejuger une affaire en raison de la découverte de faits nouveaux ou d'éléments qui auraient pu conduit à une décision différente
+
+### Recours en tierce opposition
+Permet à un tiers, qui n'a pas été partie au procès mais dont les droits sont affectés par la décisions rendue, de demander la révision de cette décision
 
 # L'action en justice
 Première étape de procédure judiciaire est action en justice ⇒ **Point de procès sans action**
@@ -118,7 +133,7 @@ Elle n'est pas compétente pour statuer des appels formés contre les décisions
 ⇒ Rend arrêts confirmatif et infirmatif
 
 ## Cour de cassation
-1 siégeant à Paris. Au sommet des juridictions de l'ordre judiciaire. Divisée en chambres spécialisées (6 chambres)
+1 siégeant à Paris. Au sommet des juridictions de l'ordre judiciaire. Divisée en chambres spécialisées (6 chambres) 
 ⇒ **Compétence :** Ensemble des jugements rendus au dernier ressort par toutes les juridictions civiles ou pénales de l'ordre judiciaire. Ne rejuge pas l'affaire, faits laissés à l'appréciation souveraine des juges du fond. C'est un juge de droit, vérifie application de la règle de droit pas les autres juridictions
 Effet du pourvoi en cassation : pas d'effet suspensif, décisions de la cour précédente ont donc force exécutoire
 Rend les arrêts de cassation ou de rejet

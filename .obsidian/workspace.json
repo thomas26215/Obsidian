@@ -4,91 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "45d5d6394c958e2d",
+        "id": "8005ec0fbf94a301",
         "type": "tabs",
         "children": [
           {
-            "id": "cbdb880096bdeb62",
+            "id": "277d26cc197a50dc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Pub projet 2.md"
+              }
+            }
+          },
+          {
+            "id": "a7b27950b980912d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-31 08.55.20.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "5e1d8750ca8ed1bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "e24bb1ce7905b865",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a36f6caadbc06ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20a644c8c817d2b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/SQL/Définition - Donnée.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8235bd8dea3307bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76beb3dc5be91dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ce9de31d98ec7e1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Présentation générale de la justice en France",
+                "query": "Acceptation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -154,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
+                "file": "Projets/En cours/Mega SAE/Graphes.md"
               }
             }
           },
@@ -204,11 +157,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -227,7 +180,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.24490989943494781,
+                  "scale": 0.32200894783636785,
                   "close": true
                 }
               }
@@ -259,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
+                "file": "Projets/En cours/Mega SAE/Graphes.md"
               }
             }
           },
@@ -272,11 +225,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 355.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -292,55 +245,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76beb3dc5be91dd9",
+  "active": "5e1d8750ca8ed1bd",
   "lastOpenFiles": [
+    "Pasted image 20240531102434.png",
+    "Excalidraw/Pub projet 2.md",
+    "Excalidraw/Drawing 2024-05-31 08.55.20.excalidraw.md",
+    "Untitled 6.md",
+    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Permanent/Cours/Cours/Semestre 2/Ergonomie des interfaces.md",
+    "Projets/En cours/Anglais rendu.md",
     "MOOC/Big MOCS/Cours.md",
-    "Untitled 1.md",
-    "statiquement typé.md",
-    "stat.md",
-    "Untitled.md",
+    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
+    "Untitled 5.md",
+    "Pasted image 20240529020745.png",
+    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+    "Projets/En cours/SAE 2.03.md",
+    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+    "Permanent/Cours/TD/Semestre 2/TD IHM.md",
+    "Excalidraw/Drawing 2024-05-28 08.43.55.excalidraw.md",
+    "Excalidraw/IHM Conception d'interfaces 1.md",
+    "Untitled 4.md",
+    "Pasted image 20240528013351.png",
+    "backdrop2.png",
+    "backdrop2.svg",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
+    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
+    "Inbox/td réseau.pdf",
+    "Permanent/Cours/Cours/Semestre 2/Gestion de projet - Introduction.md",
+    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+    "Permanent/Cours/Cours/Semestre 2/Activité de la gestion de projets - phase 1 - Le cadrage.md",
+    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
+    "Permanent/Cours/Cours/Semestre 2/Gestion de projet - Plannification.md",
+    "Excalidraw/Pub projet.md",
+    "Pasted Image 20240524092919_408.png",
+    "Permanent/Programmation/JavaFX",
+    "Pasted image 20240515235815.png",
     "cours_3.pdf",
     "Pasted image 20240514084631.png",
-    "Untitled 2.md",
-    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-    "Partie 2 suite.md",
-    "Partie 1.md",
-    "Partie 1 en remplaçant 24 par 25.md",
-    "Partie 32.md",
-    "Exercice 2.md",
-    "Partie 33.md",
-    "Partie 12.md",
-    "Partie 4.md",
-    "Partie 3.md",
-    "Partie 2.md",
-    "Permanent/Cours/Cours/Semestre 2/VLAN.md",
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition de l'organisation du projet.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
-    "Permanent/Cours/TD/Semestre 2/Droit judiciaire.md",
-    "Permanent/Programmation/SQL/Définition - Donnée.md",
-    "Permanent/Cours/Cours/Semestre 2/Environnement judiciaire.md",
     "Images/mise en page d'une page web.png",
-    "Images/Pasted image 20240408162257.png",
-    "Pasted image 20240430234535.png",
-    "Pasted image 20240430234433.png",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Mega SAE",
     "Excalidraw",
-    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "Inbox/td réseau.pdf",
     "Nouveau Document texte.txt",
     "tatus",
     "Permanent/Programmation/Java/Minecraft",
     "Permanent/Langues",
     "Permanent/Untitled",
-    "Projets/En cours/SAE2.04/Untitled",
-    "Capture d’écran 2022-09-07 163532.png",
-    "Images/Pasted image 20231214162842.png",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Images/Pasted image 20231115165807.jpg",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
     "Untitled 14.canvas",

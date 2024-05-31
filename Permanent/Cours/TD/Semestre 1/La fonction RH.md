@@ -1,9 +1,9 @@
 ---
-MOOC: "[[TD]]"
+MOOC: "[[Charges, produits, compte de résultat]]"
 Ressource: "R1.08 : Gestion des ressources"
 Cours: "TD 2 : La fonction RH"
 Date: 2023-10-04
-tags:
+tags: 
 ---
 1. Les cotisations sociales servent pour le droit commun (s'appelle également cotisations de droit communs). Elles servent notamment pour la retraite + sécurité sociale ...
 

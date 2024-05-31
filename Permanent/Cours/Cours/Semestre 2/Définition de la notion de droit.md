@@ -31,7 +31,7 @@ Elle est est caractérisée par :
 
 La limitation territoriale de l'application de la règle de droit est une caractéristique importante qui signifie que la règle de droit n'est contraignante que pour le territoire et / ou les ressortissants d'un Etat spécifique. Cela pose problème lors de litiges tranfrontaliers car plusieurs règles de droit peuvent être compétentes. Deux solutions :
 1. Accords internationaux
-2. Demander exequatur du jugement (Procédure permettant à un Etat de demander à un autre de transformer le jugement initial en une décision exécutoire conforme à son environnement juridique)
+2. Demander exequatur du jugement (Prendre en compte le sens général du premier jugement mais en le rendant conforme à l'environnement juridique de destination)
 
 # La notion d'Etat
 - Une population
@@ -42,12 +42,22 @@ La limitation territoriale de l'application de la règle de droit est une caract
 **La nation** : regroupement de personnes au regard d'un sentiment d'appartenance commun relevant d'éléments comme leur histoire, leur langue ... communes
 
 # La souveraineté
-Principe de l'autorité suprême ou le droit absolu d'exercer une autorité sur un territoire géographiquement délimité ou sur une population. 
+Principe de l'autorité suprême ou le droit absolu d'exercer une autorité sur un territoire géographiquement délimité ou sur une population.
+
+# Modalités d'exercice de la souveraineté
+- **Souverainté nationale :** Exercice pouvoirs par intermédiaire de représentants ⇒ Souveraineté appartient à Nation, entité collective abstraite
+- **Souveraineté populaire :** Exercice pouvoir par peuple ⇒ Souveraineté appartient au peuple et chaque citoyen en détient une part
+
+Démocraties basées sur **principe de séparation pouvoirs :**
+- **régime présidentiel :** Application du principe stricte
+- **régime parlementaire :** Application du principe souple
 
 # Caractéristiques du droit objectif
 Ce sont les droits individuels, ils correspondent aux pérogatives dont peuvet se prévaloir les sujets de droit
 On appelle **sujet de droit** tout être susceptibre d'être titulaire de droits et d'obligations. Les sujets de droit ont la personnalité juridiqu. On les oppose aux **objets de droit** qui sont des objets sur lesquels portent les droits
 **Les droits fondamentaux** sont des droits reconnus et sancitonnés par application du droit objetcif, qui ne sont accordés qu'aux sujets de droit.
+
+
 
 [Vocabulaire](https://quizlet.com/fr-fr/fiches-de-memorisation/principes-de-droit-francais-899143439)
 

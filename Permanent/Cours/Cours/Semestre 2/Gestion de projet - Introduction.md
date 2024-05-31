@@ -34,6 +34,7 @@ Marqué par l'irréversibilité et l'unicité
 - **Besoins fonctionnels** : Ce qui conduit à la création de l'interface. Ce qui l'utilisateur peut faire. *Exemple* : Bouton payer est besoin fonctionnel
 - **Besoins non fonctionnels** : Ce que l'utilisateur ne voit pas. Ce qui demande un travail technique mais qui est masqué. *Exemple* :Quand l'utilisateur paye, sécurité de transaction.
 
+Un projet est :
 - Un produit et un processus
 - Un ensemble d'actions
 - avec Affectation de ressources diverses
@@ -43,8 +44,13 @@ Marqué par l'irréversibilité et l'unicité
 - Cash-flow négatif
 - Finalisé par des objectifs qualitatifs et quantitatifs
 
-**Projet produit** : Mise au point d'un produit qui fera encuite l'objet d'une production ou distribution de masse
+**Efficacité → Efficience**
+- Efficacité = Capacité à atteindre les objectifs
+- Efficience = Capacité à atteindre objectifs de délai en minimisant consommation de ressources
+
+**Projet produit** : Mise au point d'un produit qui fera ensuite l'objet d'une production ou distribution de masse
 **Projet ouvrage** : Obtenir le résultat considéré pour lui-même, destiné à un client unique
+
 ## L'utilité de la gestion de projet
 Dans les grandes entreprises puis partout. Egalement, on le constate en Informatique
 - Les projets n'atteignent pas souvent leurs objectifs (Dépassement délai, Explosion budget, Qualité su produit finit insuffisant)

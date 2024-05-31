@@ -1,9 +1,9 @@
 ---
-MOOC: "[[TD]]"
+MOOC: "[[Charges, produits, compte de résultat]]"
 Ressource: "R1.08 : Gestion des ressources"
 Cours: "TD 1 : Fonctionnement des entreprises"
 Date: 
-tags:
+tags: 
 ---
 # SAGE  Un éditeur de logiciels de Gestion
 2. SAGE est un éditeur de logiciels (ESN)

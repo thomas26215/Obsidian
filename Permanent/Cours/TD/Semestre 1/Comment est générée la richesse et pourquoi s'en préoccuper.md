@@ -1,5 +1,5 @@
 ---
-MOOC: "[[TD]]"
+MOOC: "[[Charges, produits, compte de résultat]]"
 Ressource: "R1.09 : Economie durable et numérique"
 Cours: "TD 2 : Comment est générée la richesse et pourquoi s'en préoccuper ?"
 Date: 2023-09-19

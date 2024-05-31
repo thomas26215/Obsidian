@@ -19,7 +19,7 @@ Afin de récupérer des informations, je peux effectuer la commande `git pull or
 Cela peut être plus propre de faire un rebase, car ca met d'abord le commit du dépôt distant puis le mien. Les gens préfèrent cette manière car cela évite d'avoir des dizaines de commits se nommant `merge`. Pour que cela le fasse automatiquement, je peux éxecuter la commande `git congif --global branch.autosetuprebase always`
 
 >[!tip] Pull puis push
->Si des modifications ont déjà été faites sur le dépôt distant, et qu'il est donc *en avance* par rapport à ce que j'ai fait, je doit d'abord faire **pull** et ensuite je peux faire le **push**. Sinon, cela ma génèrera une erreur
+>Si des modifications ont déjà été faites sur le dépôt distant, et qu'il est donc *en avance* par rapport à ce que j'ai fait, je doit d'abord faire **pull**, régler les conflits, et ensuite je peux faire le **push**. Sinon, cela ma génèrera une erreur
 
 
 

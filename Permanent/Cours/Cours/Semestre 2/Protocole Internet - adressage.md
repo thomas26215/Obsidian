@@ -74,4 +74,12 @@ Dans l'inter-réseau Internet, la sélection d'un chemin partant de la source ve
 
 Un routeur IP, c'est un équipement connecté à plusieurs réseaux IP qui permet l'acheminement des paquets d'une réseau à l'autr. Il possède une adresse logique pour chacun des routeurs auquel il est connecté et une adresse physique dans chacun des réseaux auquel il est connecté
 
+**Table de routage :**
 
+| Destination  | Gateway       | Genmask       | Iface |
+| ------------ | ------------- | ------------- | ----- |
+| 192.168.10.0 | 0.0.0.0       | 255.255.255.0 | eth0  |
+| 192.166.60.0 | 0.0.0.0       | 255.255.255.0 | eth1  |
+| 0.0.0.0      | 192.168.10.35 | 0.0.0.0       | eth0  |
+- **Destination et GenMask** : pour identifier le réseau auquel appartient la machine destinataire du paquet. Si Destination = 0.0.0.0 alors il s’agit de la route par défaut.
+- **GateWay et Iface** : déterminer vers quelle direction et quelle trame envoyer : vers un routeur (Gateway) ou vers le destinataire final si Gateway est vide (noté 0.0.0.0 ou noté *)

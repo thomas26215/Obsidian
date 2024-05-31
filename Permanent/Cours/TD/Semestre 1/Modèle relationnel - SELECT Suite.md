@@ -1,5 +1,5 @@
 ---
-MOOC: "[[TD]]"
+MOOC: "[[Charges, produits, compte de résultat]]"
 Ressource: "R1.05 : Introduction aux bases de données et SQL"
 Cours: "TD 2 : Modèle relationnel - SELECT Suite"
 Date: 2023-09-25

@@ -41,7 +41,7 @@ Constitué des règles de droit international et des lois organiques
 - **Lois organiques :** ont pour rôle de compléter la constitution en précisant les modalités d'organisation et de fonctionnement des pouvoir polithique
 - **Traités internationaux :** engagements entre Etats souverains. Pour avoir force obligatoire sur le territoire national, ils doivent être ratifiés par le Parlement et faire l'objet d'une vérification de constitutionnalité par le conseil constitutionnel
 
-**Les droit européens :**
+**Les textes européens :**
 - Les traités
 - Les règlements : acte à portée générale directement et intégralement applicables dans tous les Etats membres après leur publication eu JOCE
 - Les directives : actes à portée génréale imposant aux Etats le but à atteindre dans un délai donné mais leur laissant le choix des moyens et la forme des transpositions de la directive
@@ -49,9 +49,8 @@ Constitué des règles de droit international et des lois organiques
 
 # Bloc de légalité
 Inclut la loi ordinaire, le règlement autonome, les ordonnances et la loi référendaire
-- **Les règlements autonome** : interviennent dans les domaines non-réservcés à la loi et ont la même force que la loi
-- **Les ordonnances**
-- **La loi référendaire**
+- **Les règlements autonome** : Domaines non-réservés à loi
+- **Les ordonnances** : 
 - **La loi ordinaire**
 
 **Principe de non-rétroactivité d'une loi :** Après son entrée en vigueur, la loi ne joue que pour l'avenir. Nul ne peut être punit pour un acte qu'il aurait fait avant application de la loi
