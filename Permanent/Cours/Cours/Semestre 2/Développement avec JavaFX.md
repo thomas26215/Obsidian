@@ -98,25 +98,22 @@ celsius = kelvin - 273.15
 fahrenheit = 32 + 1.8*celcius
 ```
 
-Séparer le code logique applicative du code Interface utilisateur.
-Séparer
-- Les préoccupations
-- Les expertises
 
+# Programmation d'une IHM
 Séparation du code :
 - Noyeau fonctionnel
-	- Logique
+	- Logique de l'application
 	- Modèle
 - Interface utilisateur
 	- Affichage des éléments graphique
 	- Traitement entrées utilisateurs
 	- Réaction aux évènements
 
-**Modularité :**
-- **Compréhension modulaire** : Chaquem odule doit pouvoir être réalisé et compris par un programmeur d'une façon relativement indépendante des autres
-- **Continuité modulaire** : Impaact d'une modification dans un modul doit être réduit à un minimum de modules
-- **Protection modulaire** : Effet 
-
+# Modularité
+Chaque module doit pouvoir être réalisé et compris par un programmeur d'une façon relativement indépendante des autres (Méthode Feyman)
+- **Continuité modulaire** : Impact d'une modification dans un modul doit être réduit à un minimum de modules
+- **Protection modulaire** : Effet  d'une erreur se produisant dans unmodule doit être réduit à un minimum de modules
+- **Réutilisation :** Un module doit être conçu de façon à favoriser sa réutilisation dans d'autres applications
 - **Minimiser nombre d'interconnexions** pour minimiser effets de propagation à d'autres classes
 - **Couplage faible** ⇒ Eviter variables globales et limiter paramètres dans fonction publique
 - **Masque info** Seules fonctions publiques

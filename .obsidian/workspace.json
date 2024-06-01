@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
               }
             }
           },
@@ -257,12 +257,14 @@
   },
   "active": "cb06d3bfec54fb00",
   "lastOpenFiles": [
+    "Richard Feymann.md",
+    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec applications IHM.md",
     "Untitled 1.md",
     "Untitled 7.md",
     "Pasted image 20240601142253.png",
-    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Projets/En cours/Mega SAE maths.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
@@ -283,8 +285,6 @@
     "Untitled 6.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Permanent/Cours/Cours/Semestre 2/Ergonomie des interfaces.md",
-    "Projets/En cours/Anglais rendu.md",
-    "Permanent/Cours/Cours/Semestre 2/Untitled 1.md",
     "Pasted image 20240529020745.png",
     "Pasted image 20240528013351.png",
     "backdrop2.png",
