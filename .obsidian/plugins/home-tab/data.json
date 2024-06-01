@@ -25,7 +25,11 @@
   "recentFilesStore": [
     {
       "filepath": "Projets/En cours/Anglais rendu.md",
-      "timestamp": 1717267691353
+      "timestamp": 1717268081445
+    },
+    {
+      "filepath": "Untitled 7.md",
+      "timestamp": 1717268080291
     },
     {
       "filepath": "Projets/En cours/SAE 2.03.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Projets/En cours/Mega SAE/Untitled.md",
       "timestamp": 1717267683913
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
-      "timestamp": 1717255905849
     }
   ],
   "starredFileStore": [],
