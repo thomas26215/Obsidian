@@ -80,3 +80,34 @@ While long-scrolling websites offer many benefits such as increased engagement, 
 - **Back Arrow**: A button, usually represented by a left-pointing arrow, that takes you to the previous page you visited.
 - **Instructions**: Text or graphical content providing guidance on how to use a feature or complete a task on the website.
 
+# 
+#### Space
+
+- **Importance**: Space is crucial in design, affecting flow and readability.
+- **Modern Use**: Designers now utilize more open space, larger gaps between text lines, and overall increased spacing compared to a decade ago.
+- **Consistency**: Consistent spacing for similar elements is vital. The spacing between lines in a paragraph and around images should be uniform.
+- **Focal Points**: White space can highlight important elements, making them appear larger and more significant.
+- **Definition**: Space isn't always white; it refers to any area without elements, which can include colored backgrounds or textures.
+- **Implementation**: Start with key elements like navigation menus and ensure consistent spacing between items to enhance clarity and focus.
+
+#### Simple Navigation
+
+- **Simplicity**: Navigation should be easy to identify and use, avoiding complexity.
+- **Menu Items**: Limit menu items to 5-10 to prevent overwhelming users.
+- **Tools**: Include tools like directional arrows for easier navigation, especially on sites with features like parallax scrolling.
+- **User Experience**: Effective navigation helps users understand their location on the site, find their way back, and receive directions.
+- **Implementation**: Use simple navigation as a framework. Ensure users know their site position, can return home easily, and navigate intuitively.
+
+#### Call to Action (CTA)
+
+- **Purpose**: Websites often aim to prompt an action, such as making a sale, providing information, or collecting contact details.
+- **Design**: CTAs should be clear and strong. Determine the website's goal and design it to guide users toward the desired action using color, contrast, and space.
+- **Examples**: For an app download, place a prominent button leading to the App Store. For signups, place forms in prime locations, making them easy and quick to fill out.
+- **Implementation**: Make CTAs obvious and place them in visible areas. Use contrasting colors and clear instructions (e.g., Buy Now, Join, Download, Sign Up Free).
+
+#### Style for Buttons
+
+- **Recognition**: Buttons should be easily recognizable regardless of their purpose or location.
+- **Consistency**: Maintain a consistent shape, design, and feel for all buttons.
+- **Design Task**: Creating a unique set of buttons can be challenging, especially for sites with many clickable items.
+- **Implementation**: Develop a unique button set for your site, ensuring they are easily identifiable and consistent in design.
