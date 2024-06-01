@@ -119,3 +119,46 @@ Chaque module doit pouvoir être réalisé et compris par un programmeur d'une f
 - **Masque info** Seules fonctions publiques
 - **Cohérence interne forte** : Assure une fonction unique relevant du problème
 - **Taille cohérente** (< 1000 lignes)
+
+# Architecture en couches
+L'architecture en couches vise à structurer le logiciel en niveaux d'abstraction, où chaque niveau réalise une fonction spécifique en s'appuyant sur les niveaux inférieurs.
+
+## Exemple de couches dans une application interactive :
+
+- **Interface Homme-Machine (IHM)** : Interagit avec l'utilisateur.
+- **Application** : Traite les fonctions logicielles.
+- **Utilitaire** : Gère les objets métier.
+- **Noyau** : Fournit des services techniques élémentaires et l'accès aux données.
+
+#### Avantages :
+
+1. **Séparation des préoccupations** : Les services de bas niveau ne sont pas mélangés avec la logique de l'application.
+2. **Réduction de la complexité** : Les détails sont cachés dans les niveaux inférieurs.
+3. **Maintenance facilitée** : Les modifications dans une couche n'affectent pas les autres.
+4. **Réutilisation** : Les couches basses peuvent être utilisées dans plusieurs applications.
+
+#### Inconvénients :
+
+1. **Performance** : Traverser toutes les couches pour accéder aux fonctions de bas niveau peut être lent.
+2. **Modularité difficile** : La modularité peut être compromise.
+3. **Dépendances** : Les dépendances entre le noyau fonctionnel et l'interface peuvent rendre les modifications complexes.
+
+## Modèles d'Architecture de systèmes interactifs :
+
+### Seeheim (1983)
+- **Présentation** : Interprète les actions de l'utilisateur et génère les sorties.
+- **Contrôleur de dialogue** : Gère le séquencement de l'interaction.
+- **Interface du noyau fonctionnel** : Adapte les entrées et sorties entre l'utilisateur et le noyau fonctionnel.
+### ARCH (1992)
+- **Adaptateur du domaine** : Gère les tâches spécifiques au domaine nécessaires pour l'utilisateur.
+- **Composant d'interaction** : Inclut les widgets et la communication avec les périphériques.
+- **Contrôleur de dialogue** : Maintient la consistance des vues et séquence les tâches.
+- **Composant de présentation** : Sert de médiateur entre l'interaction et le contrôleur de dialogue.
+- **Noyau fonctionnel** : Partie non interactive de l'application.
+
+# Modèle de référence MVC
+- Le modèle est le noyeau fonctionnel de l'agent. Il peut représenter. Il peut représetner des données brutes ou des objets ayant un comportement complexe. Notifie les vues qui lui sont associées à chaque fois que son état se trouve modifié par noyeau de l'application ou pas ses contrôleurs
+- Vue maintient une représentation du modèle perceptible par l'utilisateur, qu'elle met à jour à chaque changement d'état du modèle. Généralement constituée d'objets graphiques
+- Contrôleur reçoit et interprète évènements utilisateurs, en les répercutant sur le modèle ou la vue
+
+![[Pasted image 20240601145431.png]]
