@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
-                "mode": "preview",
+                "file": "Projets/En cours/Anglais rendu.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
+                "file": "Projets/En cours/Anglais rendu.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md"
+                "file": "Projets/En cours/Anglais rendu.md"
               }
             }
           },
@@ -257,12 +257,15 @@
   },
   "active": "cb06d3bfec54fb00",
   "lastOpenFiles": [
-    "Pasted image 20240601145431.png",
-    "Richard Feymann.md",
+    "Projets/En cours/SAE 2.03.md",
+    "Projets/En cours/P2.01.md",
+    "Projets/En cours/Mega SAE/Untitled.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec applications IHM.md",
+    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
+    "Pasted image 20240601145431.png",
+    "Richard Feymann.md",
     "Untitled 1.md",
     "Untitled 7.md",
     "Pasted image 20240601142253.png",
@@ -273,7 +276,6 @@
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-    "Projets/En cours/SAE 2.03.md",
     "Temp/Dossier 6/La structure du code HTML.md",
     "Ressources/Ressource 3/La dopamine.md",
     "TD02 IHM.md",
@@ -284,7 +286,6 @@
     "Permanent/Cours/Cours/Semestre 1/Evaluation du coût d'un alrogithme.md",
     "Pasted image 20240531102434.png",
     "Untitled 6.md",
-    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Pasted image 20240529020745.png",
     "Pasted image 20240528013351.png",
     "backdrop2.png",
@@ -295,7 +296,6 @@
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Pasted Image 20240524092919_408.png",
     "Permanent/Programmation/JavaFX",
-    "Pasted image 20240515235815.png",
     "cours_3.pdf",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Mega SAE",
