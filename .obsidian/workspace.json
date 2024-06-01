@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "e118545591bb07b3",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "56151bbd95b55717",
             "type": "leaf",
             "state": {
@@ -44,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -255,7 +263,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cb06d3bfec54fb00",
+  "active": "e118545591bb07b3",
   "lastOpenFiles": [
     "Untitled 7.md",
     "Projets/En cours/Anglais rendu.md",
