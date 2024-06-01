@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Cours]]"
 Ressource: "R2.02 : IHM"
-Cours: "Cours 1 : Conception et évaluation d'interfaces"
+Cours: "Cours 2 : Conception et évaluation d'interfaces"
 Date: 
 tags: 
 Complete: false
