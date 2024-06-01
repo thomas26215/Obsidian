@@ -57,3 +57,26 @@ Le guide des émotions des couleurs est utile pour comprendre l'impact des coule
 ## Conclusion:
 While long-scrolling websites offer many benefits such as increased engagement, user control, and mobile friendliness, they also present challenges in SEO, content organization, and cross-browser compatibility. Balancing these pros and cons is essential for creating an effective long-scrolling website.
 
+# Labels
+- **Refresh**: A button or icon, typically a circular arrow, that reloads the current webpage.
+- **Tab**: A label or button at the top of the browser window that allows you to switch between multiple open webpages within the same window.
+- **New Tab**: A button, usually represented by a "+" sign, that opens a new tab in the browser.
+- **Minimize**: A button, usually represented by a dash or underscore, that minimizes the browser window to the taskbar.
+- **Maximize**: A button, usually represented by a square or overlapping squares, that enlarges the browser window to fill the screen.
+- **Close**: A button, usually represented by an "X", that closes the browser window or tab.
+- **URL**: The address bar where you can enter or view the web address of the current page.
+- **Settings Menu**: An icon, often represented by three vertical dots or a gear, that opens the browser’s settings and options menu.
+- **Icons**: Small graphical symbols that represent functions or content (like a home icon, a bookmark icon, etc.).
+- **Scroll Bar**: A vertical or horizontal bar on the side or bottom of the window that allows you to scroll through the content of a webpage.
+- **Text Area**: A box where you can enter text, such as a comment box or a form field.
+- **Link**: Clickable text or image that directs you to another webpage or section within the same page.
+- **Footer Menu**: A menu located at the bottom of the webpage containing links to other sections of the site or external resources.
+- **Address Bar**: Same as URL.
+- **Submit Button**: A button that, when clicked, sends the entered data (like in a form) to the server.
+- **Check Box**: A small box that can be clicked to select or deselect an option.
+- **Accordion Button**: A button that, when clicked, expands or collapses content in an accordion-style menu.
+- **Navigation Menu**: A menu that provides links to different sections or pages of the website.
+- **Bookmark Bar**: A toolbar below the address bar where you can save and access your favorite websites.
+- **Back Arrow**: A button, usually represented by a left-pointing arrow, that takes you to the previous page you visited.
+- **Instructions**: Text or graphical content providing guidance on how to use a feature or complete a task on the website.
+
