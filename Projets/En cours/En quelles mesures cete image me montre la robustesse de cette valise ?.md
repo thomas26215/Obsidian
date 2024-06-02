@@ -13,4 +13,11 @@ Ainsi, les personnes décidèrent de prendre ce moment en photo afin de démontr
 - Valise : Semble moderne et élégante - Couleur mettalique + forme arrondie sur les bords.
 - Texte : **Unbelievable tough** ⇒ Incroyablement dur. Mis en gras pour montrer aspect far du produit. Aspect le plus important est mis en avant, rappelant au consommateur de la résistance incroyable du produit
 - Logo + produit : Dans le coin en rectangle. Assez discret pour garder le focus de l'attention sur le produit (la valise résistante) mais tout de même présent pour que les consommateurs identifient la marque du produit
-- 
+
+
+Couleurs :
+- Bleu grisâtre : liberté mais reste professionel
+- Bleu metalique : techologie
+- Marron taureau : contraste avec valise
+-> Saleté, impureté, violence
+- Texte noir : Bonne lisibilité pour être bien vu

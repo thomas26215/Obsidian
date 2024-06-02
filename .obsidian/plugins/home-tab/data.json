@@ -25,7 +25,15 @@
   "recentFilesStore": [
     {
       "filepath": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
-      "timestamp": 1717347088435
+      "timestamp": 1717347473606
+    },
+    {
+      "filepath": "Excalidraw/Pub projet 2.md",
+      "timestamp": 1717347466181
+    },
+    {
+      "filepath": "Excalidraw/Pub projet.md",
+      "timestamp": 1717347461485
     },
     {
       "filepath": "Projets/En cours/SAE 2.03.md",
@@ -34,14 +42,6 @@
     {
       "filepath": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
       "timestamp": 1717347082399
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-      "timestamp": 1717347080379
-    },
-    {
-      "filepath": "MOOC/Big MOCS/Cours.md",
-      "timestamp": 1717331573087
     }
   ],
   "starredFileStore": [],

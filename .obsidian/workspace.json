@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "afec84fd3962adf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOOC/Little MOCS/Git - Github - Gitlab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb06d3bfec54fb00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Anglais rendu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e118545591bb07b3",
             "type": "leaf",
             "state": {
@@ -44,19 +20,26 @@
             }
           },
           {
-            "id": "56151bbd95b55717",
+            "id": "b574a7107f21aff5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Untitled 7.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Pub projet 2.md"
+              }
+            }
+          },
+          {
+            "id": "177aeb1c59ccd4ca",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Pub projet.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -252,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,6 +254,9 @@
   },
   "active": "e118545591bb07b3",
   "lastOpenFiles": [
+    "Excalidraw/Pub projet 2.md",
+    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Excalidraw/Pub projet.md",
     "Projets/En cours/SAE 2.03.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
@@ -294,9 +282,6 @@
     "Ressources/Ressource 3/La dopamine.md",
     "TD02 IHM.md",
     "Permanent/Programmation/Faire ses premiers commit.md",
-    "Excalidraw/Pub projet 2.md",
-    "Excalidraw/Drawing 2024-05-31 08.55.20.excalidraw.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
     "Pasted image 20240531102434.png",
     "Pasted image 20240529020745.png",
     "Pasted image 20240528013351.png",
