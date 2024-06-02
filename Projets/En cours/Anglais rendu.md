@@ -59,7 +59,7 @@ The color emotion guide is useful for understanding the impact of colors on bran
 ## Conclusion:
 While long-scrolling websites offer many benefits such as increased engagement, user control, and mobile friendliness, they also present challenges in SEO, content organization, and cross-browser compatibility. Balancing these pros and cons is essential for creating an effective long-scrolling website.
 
-# Labels
+# Elements of a webpage
 - **Refresh**: A button or icon, typically a circular arrow, that reloads the current webpage.
 - **Tab**: A label or button at the top of the browser window that allows you to switch between multiple open webpages within the same window.
 - **New Tab**: A button, usually represented by a "+" sign, that opens a new tab in the browser.
@@ -82,7 +82,7 @@ While long-scrolling websites offer many benefits such as increased engagement, 
 - **Back Arrow**: A button, usually represented by a left-pointing arrow, that takes you to the previous page you visited.
 - **Instructions**: Text or graphical content providing guidance on how to use a feature or complete a task on the website.
 
-# 
+# 4 importants aspects of website design
 #### Space
 
 - **Importance**: Space is crucial in design, affecting flow and readability.
@@ -114,7 +114,7 @@ While long-scrolling websites offer many benefits such as increased engagement, 
 - **Design Task**: Creating a unique set of buttons can be challenging, especially for sites with many clickable items.
 - **Implementation**: Develop a unique button set for your site, ensuring they are easily identifiable and consistent in design.
 
-# Homepage design
+# Above/Below the fold
 Based on the provided information, here's a breakdown of elements that should be above or below the fold on a homepage:
 
 **Above the fold :**
