@@ -20,12 +20,22 @@
             }
           },
           {
+            "id": "07ff019e759f9a55",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "b574a7107f21aff5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Pub projet 2.md"
+                "file": "Projets/En cours/Anglais rendu.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -39,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md"
+                "file": "Projets/En cours/Anglais rendu.md"
               }
             }
           },
@@ -156,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+                "file": "Projets/En cours/Anglais rendu.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -211,7 +221,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md"
+                "file": "Projets/En cours/Anglais rendu.md"
               }
             }
           },
@@ -252,10 +262,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e118545591bb07b3",
+  "active": "b574a7107f21aff5",
   "lastOpenFiles": [
-    "Excalidraw/Pub projet 2.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Excalidraw/Pub projet 2.md",
     "Excalidraw/Pub projet.md",
     "Projets/En cours/SAE 2.03.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",

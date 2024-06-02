@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Projets/En cours/Anglais rendu.md",
+      "timestamp": 1717362741191
+    },
+    {
       "filepath": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
-      "timestamp": 1717347473606
+      "timestamp": 1717362740771
     },
     {
       "filepath": "Excalidraw/Pub projet 2.md",
-      "timestamp": 1717347466181
+      "timestamp": 1717362733385
     },
     {
       "filepath": "Excalidraw/Pub projet.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Projets/En cours/SAE 2.03.md",
       "timestamp": 1717347082659
-    },
-    {
-      "filepath": "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
-      "timestamp": 1717347082399
     }
   ],
   "starredFileStore": [],

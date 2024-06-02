@@ -1,21 +1,23 @@
-# Couleurs
-## Accord :
+# Colors
 
-**Les associations de couleurs sont généralement correctes :**
-- **Bleu :** Perçu comme digne de confiance et fiable, utilisé par des entreprises comme Facebook et IBM.
-- **Rouge :** Symbolise l'excitation et l'urgence, attirant rapidement l'attention.
-- **Vert :** Associé à la nature et à la santé, utilisé par des marques comme Starbucks et Tropicana.
+## Agreement:
 
-## Désaccord :
+**Color associations are generally correct:**
 
-**Les couleurs peuvent être perçues différemment selon les cultures :**
-- Par exemple, le jaune peut signifier le courage dans certaines cultures, au lieu de la prudence ou du bonheur.
-**L'effet des couleurs peut varier selon les personnes :**
-- Le gris peut sembler calme et équilibré pour certains, mais terne et peu inspirant pour d'autres.
+- **Blue:** Perceived as trustworthy and reliable, used by companies like Facebook and IBM.
+- **Red:** Symbolizes excitement and urgency, quickly attracting attention.
+- **Green:** Associated with nature and health, used by brands like Starbucks and Tropicana.
 
-## Conclusion :
+## Disagreement:
 
-Le guide des émotions des couleurs est utile pour comprendre l'impact des couleurs sur la perception des marques. Cependant, il faut aussi tenir compte des différences culturelles et des perceptions individuelles lorsqu'on utilise ces principes en marketing.
+**Colors can be perceived differently depending on the culture:**
+
+- For example, yellow can signify courage in some cultures instead of caution or happiness. **The effect of colors can vary depending on the individual:**
+- Gray can seem calm and balanced to some, but dull and uninspiring to others.
+
+## Conclusion:
+
+The color emotion guide is useful for understanding the impact of colors on brand perception. However, it is also important to consider cultural differences and individual perceptions when using these principles in marketing.
 
 # Long scrolling websites
 
