@@ -70,7 +70,14 @@ S2.03-lance-machine-virtuelle
 
 
 ## Redirection des ports et accès par SSH
-// Compéter
+Certaines redirections de port ont été mises en place afin de pouvoir accéder aux serveurs tourant sur notre machine Linux depuis des clients sur notre machine Linux :
+
+| Service réseau | Port de la VM | Port sur la station Linux | Exemple d'utilisation depuis la station Linux |
+| -------------- | ------------- | ------------------------- | --------------------------------------------- |
+| SSH            | 22            | 2222                      | $ ssh toto@localhost -p 2222                  |
+| HTTP           | 80            | 8080                      | URL: http://localhost:8080/                   |
+| HTTPS          | 443           | 4443                      | URL: https://localhost:4443/                  |
+| PostgreSQL     | 5432          | 5432                      | $ psql -h localhost -U postgres postgres      |
 
 # Installation de logiciels
 ## Apache
