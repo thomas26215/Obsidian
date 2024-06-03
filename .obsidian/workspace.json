@@ -11,8 +11,12 @@
             "id": "fc7aa649142fb57e",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
+              }
             }
           },
           {
@@ -127,6 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -180,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
+              }
             }
           },
           {
@@ -222,8 +233,9 @@
   },
   "active": "fc7aa649142fb57e",
   "lastOpenFiles": [
-    "Excalidraw/Pub projet.md",
+    "MOOC/Big MOCS/Cours.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Excalidraw/Pub projet.md",
     "Projets/En cours/SAE 2.03.md",
     "Projets/En cours/Mega SAE maths.md",
     "Projets/En cours/P2.01.md",
@@ -231,7 +243,6 @@
     "Excalidraw/Pub projet 2.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
     "Untitled 7.md",

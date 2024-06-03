@@ -56,4 +56,21 @@ En prenant ce graphe :
 	- <mark style="background: #FF5582A6;">Chemin élémentaire</mark> ⇒ Sommets distincts
 	- <mark style="background: #FF5582A6;">Circuit</mark> ⇒ Chemin élémentaire de même extrémités terminales
 - <mark style="background: #BBFABBA6;">Chaîne</mark> = Arc sans sens
-   
+
+
+# Algorithe de Warshall
+Il est utilisé pour trouver la fermeture transitive d'un graphe orienté. Cela signifie qu'il détermine si un chemin existe entre deux noeuds pour tous les paires de noeurs dans le graphe
+
+## Monoïde
+Structure algébrique $(E,\oplus)$ défini pas :
+- **Opération binaire interne :** Pour tous $(x, y \in E)$, $(x \oplus y\in E)$
+- **Associativité :** Pour tous $(x, y, z\in E), (x\oplus(y\oplus z)=(x\oplus y)\oplus z)$
+- **Elément neutre :** Il existe un élément $(e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$
+
+Il existe aussi des monoïdes abéliens, qui sont des monoïdes où l'opération est commutative, càd que pour tout $(x,y\in E),(x\oplus y=y \oplus x)$
+
+## Application dans les graphes
+Pour appliquer le concept de [[Monoïde|monoïde]] dans les graphes, on utilise les ensembles de opérations suivants :
+- $(E)$ : ensemble des chemins possibles
+- $(\oplus)$ : peut représenter la composition d'un chemin
+- $(e)$ : représente le chemin de longueur nulle ou le chemin qui ne change rien
