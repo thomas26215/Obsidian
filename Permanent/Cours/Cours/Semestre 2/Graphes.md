@@ -100,4 +100,13 @@ $e=0$
 3. $\otimes$ sert à calculer la valuation d'un chemin, et pour choisir le meilleur chemin, on va additionner les valeurs, donc on choisit +
 
 ## Remplir le graphe pour déterminer le plus court chemin
-Pour déterminer le plus court chemin d'un graphe, il faut tout d'abord définir le dioïde ([[]])
+Pour déterminer le plus court chemin d'un graphe, il faut tout d'abord définir le dioïde ([[Graphes#Exemple pour définir un monoïde pour un graphe|Exemple de définition]])
+Ensuite il y plusieurs étapes :
+### Initialisation
+La matrice initiale $G_0$ correspond à la matrice d'adjacence aux arcs du graphe
+
+ ### Relaxation des distances
+ Pour chaque étapes $G_x$, $x$ définit par la taille de la matrice carré, Il y a plusieurs étapes :
+ - Remplir la colonne $x$ de la matrice en recopiant la colonne $x$ de la matrice $G_{x-1}$ 
+ - Pour chaque ligne de la colonne remplie, si la valeur est $\infty$, recopier la ligne de la matrice précédante
+ - Enfin, pour les éléments vides, il faut recopier la valeur D[i][j]=min(D[i][j],D[i][k]+D[k][j])
