@@ -87,4 +87,11 @@ Structure algébrique $(E, \oplus$, $\otimes$), $E$ un ensemble non-vide et $\op
 >- $\oplus$ permet de choisir le meilleur chemin
 >- $\otimes$ sert à calculer la valuation d'un chemin
 ### Exemple pour définir un monoïde pour un graphe
-Pour un graphe, je souhaïte calculer le plus court chemin. Voici comment définir le dioïde 
+Pour un graphe, je souhaite calculer le plus court chemin. Voici comment définir le dioïde :
+⇒ $(R^+U\{+\infty\},MIN,+$)
+1. Domaine de définition, un graphe est définit dans $R^+$ et on aura aussi besoin de $\infty$
+2. $\oplus$ permet de choisir le meilleur chemin, et on souhaite le chemin le plus court, ainsi on définit par MIN
+3. $\otimes$ sert à calculer la valuation d'un chemin, et pour choisir le meilleur chemin, on va additionner les valeurs, donc on choisit +
+
+
+   
