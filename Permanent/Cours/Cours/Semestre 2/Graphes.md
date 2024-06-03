@@ -62,7 +62,7 @@ En prenant ce graphe :
 Il est utilisé pour trouver la fermeture transitive d'un graphe orienté. Cela signifie qu'il détermine si un chemin existe entre deux noeuds pour tous les paires de noeurs dans le graphe
 
 ## Monoïde
-Structure algébrique $(E,\oplus)$ défini pas :
+Structure algébrique $(E,\oplus)$ défini par :
 - **Opération binaire interne :** Pour tous $(x, y \in E)$, $(x \oplus y\in E)$
 - **Associativité :** Pour tous $(x, y, z\in E), (x\oplus(y\oplus z)=(x\oplus y)\oplus z)$
 - **Elément neutre :** Il existe un élément $(e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$
@@ -74,3 +74,11 @@ Pour appliquer le concept de [[Monoïde|monoïde]] dans les graphes, on utilise 
 - $(E)$ : ensemble des chemins possibles
 - $(\oplus)$ : peut représenter la composition d'un chemin
 - $(e)$ : représente le chemin de longueur nulle ou le chemin qui ne change rien
+
+## Dioïde
+Structure algébrique $(E, $\oplus$, $\otimes$) définir par :
+- $E$ un ensemble non-vide
+- $(E,\oplus)$ un monoïde abélien (On note $z$ son élement neutre)
+- $(E,\otimes$) un monoïde abélien (On note $e$ son élement neutre)
+- $\otimes$ est distributive à $\oplus$
+- $\oplus$ est absorbant à $\otimes$ ⇒ $\forall x\in E, z\otimes x=x\otimes z=z$ 
