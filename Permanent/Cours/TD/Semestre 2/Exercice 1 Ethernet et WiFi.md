@@ -226,3 +226,4 @@ bit a bit : $0010000110000000 = 33.128$
 			1. 0xC6FA
 			2. 0x0050
 ## Partie 2
+1. C'est adresse MAC serveur qu'on veut
