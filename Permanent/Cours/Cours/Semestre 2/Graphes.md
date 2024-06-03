@@ -76,7 +76,7 @@ Pour appliquer le concept de [[Monoïde|monoïde]] dans les graphes, on utilise 
 - $(e)$ : représente le chemin de longueur nulle ou le chemin qui ne change rien
 
 ## Dioïde
-Structure algébrique $(E, $\oplus$, $\otimes$) définir par :
+Structure algébrique $(E, $\oplus$, $\otimes$), $E$ un ensemble non-vide et $\oplus$ et $\otimes$ deux lois, définit par :
 - $E$ un ensemble non-vide
 - $(E,\oplus)$ un monoïde abélien (On note $z$ son élement neutre)
 - $(E,\otimes$) un monoïde abélien (On note $e$ son élement neutre)
