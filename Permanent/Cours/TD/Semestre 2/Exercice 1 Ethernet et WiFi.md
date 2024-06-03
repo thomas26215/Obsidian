@@ -156,6 +156,9 @@ bit a bit : $0010000110000000 = 33.128$
 
 ---
 ---
+
+---
+
 # Exo 4
 ## Partie 2
 1. Port source = 12345
@@ -217,5 +220,9 @@ bit a bit : $0010000110000000 = 33.128$
 			2. <mark style="background: #FF5582A6;">08 00 4e 33 5b 00</mark>
 			3. <mark style="background: #BBFABBA6;">08 00</mark>
 		2. Niveau réseau
-			1. 
-	   
+			1. L'adresse IP du serveur (en hexadécimal et en notation décimale pointée) est: `C1:37:33:83` (hexadécimal) / `193.55.51.131` (notation décimale pointée).
+			2. L'adresse IP du navigateur (en hexadécimal et en notation décimale pointée) est: `C1:37:33:99` (hexadécimal) / `193.55.51.153` (notation décimale pointée).
+		3. Niveau transport
+			1. 0xC6FA
+			2. 0x0050
+## Partie 2
