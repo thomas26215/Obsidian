@@ -173,10 +173,13 @@ bit a bit : $0010000110000000 = 33.128$
    **FIN =** FIN
 
 ## Partie 3
-1. Principe d'envoi de données
+1. **Principe d'envoi de données**
 	1. An = 1010
 	2. Aucune donnée n'est contenue dans le champs de données de l'acquittement
-2. Principe du segmentation de données
+2. **Principe du segmentation de données**
 	1. Non car la taille maximale d'un segment est limité par la valeur du MSS. Si la taille du segment à envoyer dépasse le MSS, alors le segment sera découpé en plusieurs segments
 	2. Il faudrait envoyer 3 segments TCP successifs, car chaque segment aurait une taille maximale de 1000 octets
-	3. 
+3. **Principe de fonctionnement du contrôle de flux**
+	1. Aw indique la quantité d'octets que le récepteur est prêt à recevoir sans encombrer son tampon de réception
+	2. Si Aw, ça signifie que le récepteur n'est pas prêt à recevoir de nouveaux octetset que l'émetteur' doit suspendre l'envoi de données
+	3. L'émetteur détermine le nombre maximum d'octets de données qu'il peut envoyer dans un segment TCP en prenant le minimum entre le MSS et la valeur de AW. Cela garantit que les données envoyées peuvent être toutes reçues par le récepteur sans dépasser sa capacité de réception.
