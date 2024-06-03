@@ -4,53 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5cfd221c4ca64f10",
+        "id": "ba489d1bf2614dcb",
         "type": "tabs",
         "children": [
           {
-            "id": "e118545591bb07b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07ff019e759f9a55",
+            "id": "fc7aa649142fb57e",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
             }
-          },
-          {
-            "id": "b574a7107f21aff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "177aeb1c59ccd4ca",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Pub projet.md"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,7 +127,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -220,9 +180,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -262,15 +220,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b574a7107f21aff5",
+  "active": "fc7aa649142fb57e",
   "lastOpenFiles": [
+    "Excalidraw/Pub projet.md",
+    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Projets/En cours/SAE 2.03.md",
     "Projets/En cours/Mega SAE maths.md",
     "Projets/En cours/P2.01.md",
-    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Projets/En cours/Anglais rendu.md",
     "Excalidraw/Pub projet 2.md",
-    "Excalidraw/Pub projet.md",
-    "Projets/En cours/SAE 2.03.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "MOOC/Big MOCS/Cours.md",
