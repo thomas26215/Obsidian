@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-                "mode": "source",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
               }
             }
           },
@@ -234,8 +234,8 @@
   "active": "fc7aa649142fb57e",
   "lastOpenFiles": [
     "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",

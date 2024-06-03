@@ -83,7 +83,7 @@ bit a bit : $0010000110000000 = 33.128$
 
 
 # Exo 6
-1. Les stations E et F recevront la trame (fait partie du même VLAN)
+1. Les² stations E et F recevront la trame (fait partie du même VLAN)
 2. 
 
 | Destination  | Gateway      | GenMask         | Iface |
