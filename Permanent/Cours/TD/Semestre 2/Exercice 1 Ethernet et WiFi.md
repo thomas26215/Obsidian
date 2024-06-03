@@ -185,3 +185,14 @@ bit a bit : $0010000110000000 = 33.128$
 	3. L'émetteur détermine le nombre maximum d'octets de données qu'il peut envoyer dans un segment TCP en prenant le minimum entre le MSS et la valeur de AW. Cela garantit que les données envoyées peuvent être toutes reçues par le récepteur sans dépasser sa capacité de réception.
 	5. L'envoie des 1000 derniers octets ne peut pas être effectué immédiatement, car le récepteur a atteint sa capacité maximale de réception et a un AW de 0. L'émetteur doit attendre que le récepteur libère de l'espace dans son tampon de réception en consommant des données avant de pouvoir envoyer ces 1000 octets.
 	6. Cette situation évoluera lorsque l'application côté serveur commencera à consommer des données du tampon de réception. Cela augmentera la valeur de AW, permettant à l'émetteur d'envoyer les données en attente dans son tampon d'émission. Une fois que le récepteur aura consommé suffisamment de données pour libérer de l'espace dans son tampon de réception, il enverra des ACK avec un AW approprié pour permettre à l'émetteur de continuer à envoyer des données.
+
+## Partie 4
+1. Port source = 12345
+   Port destination = 8765
+   Sn = 0
+   An = 0
+   Header len = 24 octets
+   Drapeau = Syn
+   Fenêtre = 50ko
+   ...
+2. 
