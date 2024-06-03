@@ -106,7 +106,10 @@ Ensuite il y plusieurs étapes :
 La matrice initiale $G_0$ correspond à la matrice d'adjacence aux arcs du graphe
 
  ### Relaxation des distances
- Pour chaque étapes $G_x$, $x$ définit par la taille de la matrice carré, Il y a plusieurs étapes :
- - Remplir la colonne $x$ de la matrice en recopiant la colonne $x$ de la matrice $G_{x-1}$ 
- - Pour chaque ligne de la colonne remplie, si la valeur est $\infty$, recopier la ligne de la matrice précédante
- - Enfin, pour les éléments vides, il faut recopier la valeur D[i][j]=min(D[i][j],D[i][k]+D[k][j])
+Maintenant, passons à l'étape de relaxation des distances. À chaque étape $G_x$, où $x$ est déterminé par la taille de la matrice carrée, nous faisons ce qui suit :
+
+- Tout d'abord, nous remplissons la colonne $x$ de la matrice en copiant simplement la colonne $x$ de la matrice précédente, $G_{x-1}$.
+- Ensuite, pour chaque ligne de cette colonne que nous venons de remplir, si la valeur dans cette cellule est $\infty$ (ce qui signifie qu'il n'y a pas de lien direct entre les nœuds), alors nous recopions simplement la ligne de la matrice précédente.
+- Enfin, pour les cellules vides (c'est-à-dire les cellules pour lesquelles nous n'avons pas encore de valeur), nous regardons la valeur $D[i][j]$ (la distance entre les nœuds $i$ et $j$). Nous la mettons à jour en prenant le minimum entre sa valeur actuelle et la somme des distances entre $i$ et $k$ et entre $k$ et $j$, où $k$ est un autre nœud du graphe.
+
+C'est ainsi que l'algorithme de Warshall fonctionne pour trouver les chemins les plus courts entre tous les nœuds d'un graphe.
