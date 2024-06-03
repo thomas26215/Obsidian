@@ -63,6 +63,7 @@ Il est utilisé pour trouver la fermeture transitive d'un graphe orienté. Cela 
 
 ## Monoïde
 Structure algébrique $(E,\oplus)$ défini par :
+- **$\oplus$ est un loi interne**
 - **Opération binaire interne :** Pour tous $(x, y \in E)$, $(x \oplus y\in E)$
 - **Associativité :** Pour tous $(x, y, z\in E), (x\oplus(y\oplus z)=(x\oplus y)\oplus z)$
 - **Elément neutre :** Il existe un élément $(e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$
