@@ -66,7 +66,11 @@ Structure algébrique $(E,\oplus)$ défini par :
 - **$\oplus$ est un loi interne**
 - **Opération binaire interne :** $\forall(x, y \in E)$, $(x \oplus y\in E)$
 - **Associativité :** Pour tous $(x, y, z\in E^3), (x\oplus(y\oplus z)=(x\oplus y)\oplus z) ⇒ x\oplus y\oplus z$
-- **Elément neutre :** Il existe un élément $(\forall e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$
+- **Elément neutre :** Il existe un élément $(\forall e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$. En gros, c'est un élément qui n'agit sur rien
+*Exemple* : Elément neutre de + est 0 car $x+0=0$
+
+
+
 
 Il existe aussi des monoïdes abéliens, qui sont des monoïdes où l'opération est commutative, càd que pour tout $(x,y\in E),(x\oplus y=y \oplus x)$
 
@@ -89,6 +93,8 @@ Structure algébrique $(E, \oplus$, $\otimes$), $E$ un ensemble non-vide et $\op
 ### Exemple pour définir un monoïde pour un graphe
 Pour un graphe, je souhaite calculer le plus court chemin. Voici comment définir le dioïde :
 ⇒ $(R^+U\{+\infty\},MIN,+$)
+$z=+\infty$
+$e=0$
 1. Domaine de définition, un graphe est définit dans $R^+$ et on aura aussi besoin de $\infty$
 2. $\oplus$ permet de choisir le meilleur chemin, et on souhaite le chemin le plus court, ainsi on définit par MIN
 3. $\otimes$ sert à calculer la valuation d'un chemin, et pour choisir le meilleur chemin, on va additionner les valeurs, donc on choisit +
