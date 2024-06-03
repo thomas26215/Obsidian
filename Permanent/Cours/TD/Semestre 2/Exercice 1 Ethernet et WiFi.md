@@ -176,4 +176,7 @@ bit a bit : $0010000110000000 = 33.128$
 1. Principe d'envoi de données
 	1. An = 1010
 	2. Aucune donnée n'est contenue dans le champs de données de l'acquittement
+2. Principe du segmentation de données
+	1. Non car la taille maximale d'un segment est limité par la valeur du MSS. Si la taille du segment à envoyer dépasse le MSS, alors le segment sera découpé en plusieurs segments
+	2. Il faudrait envoyer 3 segments TCP successifs, car chaque segment aurait une taille maximale de 1000 octets
 	3. 
