@@ -83,3 +83,8 @@ Structure algébrique $(E, \oplus$, $\otimes$), $E$ un ensemble non-vide et $\op
 - $(E,\otimes$) un monoïde abélien (On note $e$ son élement neutre)
 - $\otimes$ est distributive à $\oplus$
 - $\oplus$ est absorbant à $\otimes$ ⇒ $\forall x\in E, z\otimes x=x\otimes z=z$ 
+>[!info] Que signifient $\oplus$ et $\otimes$ ?
+>- $\oplus$ permet de choisir le meilleur chemin
+>- $\otimes$ sert à calculer la valuation d'un chemin
+### Exemple pour définir un monoïde pour un graphe
+Pour un graphe, je souhaïte calculer le plus court chemin. Voici comment définir le dioïde 
