@@ -155,6 +155,7 @@ bit a bit : $0010000110000000 = 33.128$
 
 
 ---
+---
 # Exo 4
 ## Partie 2
 1. Port source = 12345
@@ -195,4 +196,13 @@ bit a bit : $0010000110000000 = 33.128$
    Drapeau = Syn
    Fenêtre = 50ko
    ...
-2. 
+3. Le délai RTT est le temps qu'il faut pour qu'un segment TCP soit envoyé du client au serveur et que l'accusé réception correspondant revienne au client. Ce délai sera mis à jour grâce à l'estimation du RTT par le client et le serveur, ce qui permettra d'ajuster le délai de temporisation pour les retransmissions de segments en cas de perte
+4. 1460 octets
+## Partie 5
+# Exo 5
+## Partie 1
+1. **Analyse d'une trame**
+	1. 0000 08 00 4e 33 5b 00 08 00 20 87 b0 44 08 00 45 00
+	   0010 00 7f 1c dd 40 00 40 06 34 11 c1 37 33 83 c1 37
+	   0020 33 99 c6 fa 00 50 cc 5e 19 88 d6 da 37 a5 50 18
+	   0030 c5 f8 0f b4 00 00 47 45 54 20 2f 69 6e 64 65 78
