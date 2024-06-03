@@ -202,12 +202,20 @@ bit a bit : $0010000110000000 = 33.128$
 # Exo 5
 ## Partie 1
 1. **Analyse d'une trame**
-	1. 0000 <mark style="background: #FF5582A6;">08 00 4e 33 5b 00</mark> <mark style="background: #FFB86CA6;">08 00 20 87 b0</mark> <mark style="background: #BBFABBA6;">44 08</mark> <mark style="background: #D2B3FFA6;">00 45 00</mark>
-	   0010 00 7f 1c dd 40 00 40 06 34 11 c1 37 33 83 c1 37
-	   0020 33 99 c6 fa 00 50 cc 5e 19 88 d6 da 37 a5 50 18
-	   0030 c5 f8 0f b4 00 00 47 45 54 20 2f 69 6e 64 65 78
+	1. 0000 <mark style="background: #FF5582A6;">08 00 4e 33 5b 00</mark> <mark style="background: #FFB86CA6;">08 00 20 87 b0 44</mark> <mark style="background: #BBFABBA6;">08 00</mark> <mark style="background: #D2B3FFA6;">45 00</mark>
+	   0010 <mark style="background: #D2B3FFA6;">00 7f 1c dd 40 00 40 06 34 11 c1 37 33 83 c1 37</mark>
+	   0020 <mark style="background: #D2B3FFA6;">33 99</mark> <mark style="background: #CACFD9A6;">c6 fa 00 50 cc 5e 19 88 d6 da 37 a5 50 18</mark>
+	   0030 <mark style="background: #CACFD9A6;">c5 f8 0f b4 00 00</mark> 47 45 54 20 2f 69 6e 64 65 78
 	   <mark style="background: #FF5582A6;">Destination</mark>
 	   <mark style="background: #FFB86CA6;">source</mark>
 	   <mark style="background: #BBFABBA6;">EtherType</mark>
-	   
+	   <mark style="background: #D2B3FFA6;">IP</mark>
+	   <mark style="background: #CACFD9A6;">TCP</mark>
+	2. **Identification des champs**
+		1. Niveau liaison
+			1. <mark style="background: #FFB86CA6;">08 00 20 87 b0 44</mark>
+			2. <mark style="background: #FF5582A6;">08 00 4e 33 5b 00</mark>
+			3. <mark style="background: #BBFABBA6;">08 00</mark>
+		2. Niveau réseau
+			1. 
 	   
