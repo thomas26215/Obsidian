@@ -227,3 +227,10 @@ bit a bit : $0010000110000000 = 33.128$
 			2. 0x0050
 ## Partie 2
 1. C'est adresse MAC serveur qu'on veut
+   IP = 192.168.0.17
+   Port = 55062
+2. **Cours**
+3. Ouverture = 43 56 57
+   Echange = 58 59 60 61
+   Terminaison = 62 63 64 65
+4. Taille de message trame 60 : 944 - 66 = 878. Sinon, on regarde la diff de taille WIndow
