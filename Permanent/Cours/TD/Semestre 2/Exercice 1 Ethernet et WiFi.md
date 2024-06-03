@@ -151,3 +151,29 @@ bit a bit : $0010000110000000 = 33.128$
 1. Ce sera la première ligne de la table de routage de A qui sera appliqué
 2. a0:..:cc
 3. Cela sera le Commutation
+
+
+
+---
+# Exo 4
+## Partie 2
+1. Port source = 12345
+   Port destination = 8888
+   Sn = 0
+   An = 0
+   Header len = 24 octets
+   Drapeau = Syn
+   Fenêtre = 4000
+2. MSS = Maximum segmentation size. C'est la taille maximale d'un octet TCP que la machine peut recevoir
+3. Mes trois grandes phases sont :
+	1. SYN, SYN-ACK, ACK
+	2. Echange de données
+	3. Fermeture de connexion : Fin, ACK, FIN, ACK
+4. **Début =** SYN
+   **FIN =** FIN
+
+## Partie 3
+1. Principe d'envoi de données
+	1. An = 1010
+	2. Aucune donnée n'est contenue dans le champs de données de l'acquittement
+	3. 

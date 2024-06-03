@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -234,6 +234,18 @@
   "active": "fc7aa649142fb57e",
   "lastOpenFiles": [
     "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
+    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
+    "Inbox/td réseau.pdf",
+    "Permanent/Cours/Cours/Semestre 2/Développement avec applications IHM.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
+    "MOOC/Big MOCS/Autre.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Excalidraw/Pub projet.md",
     "Projets/En cours/SAE 2.03.md",
@@ -242,33 +254,21 @@
     "Projets/En cours/Anglais rendu.md",
     "Excalidraw/Pub projet 2.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
     "Untitled 7.md",
     "Projets/En cours/Mega SAE/Untitled.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
-    "Permanent/Cours/Cours/Semestre 2/Développement avec applications IHM.md",
     "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
     "Pasted image 20240601145431.png",
     "Richard Feymann.md",
     "Untitled 1.md",
     "Pasted image 20240601142253.png",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "Temp/Dossier 6/La structure du code HTML.md",
-    "Ressources/Ressource 3/La dopamine.md",
-    "TD02 IHM.md",
-    "Permanent/Programmation/Faire ses premiers commit.md",
     "Pasted image 20240531102434.png",
     "Pasted image 20240529020745.png",
     "Pasted image 20240528013351.png",
     "backdrop2.png",
     "backdrop2.svg",
-    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Pasted Image 20240524092919_408.png",
     "Permanent/Programmation/JavaFX",
