@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md"
               }
             }
           },
@@ -257,17 +257,21 @@
   },
   "active": "8bc4a448f453f8a2",
   "lastOpenFiles": [
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+    "Projets/En cours/SAE 2.03.md",
+    "backdrop2.png",
+    "Excalidraw/Drawing 2024-06-04 11.50.32.excalidraw.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
     "phppgadmin.png",
     "pg_shadow.png",
     "liste bases.png",
     "Interrogation SQL depuis machine virtuelle.png",
     "Permanent/Programmation/Le remisage.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
@@ -279,7 +283,6 @@
     "MOOC/Big MOCS/Autre.md",
     "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Excalidraw/Pub projet.md",
-    "Projets/En cours/SAE 2.03.md",
     "Projets/En cours/Mega SAE maths.md",
     "Projets/En cours/P2.01.md",
     "Projets/En cours/Anglais rendu.md",
@@ -288,12 +291,9 @@
     "Untitled 7.md",
     "Projets/En cours/Mega SAE/Untitled.md",
     "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
-    "Permanent/Cours/Cours/Semestre 2/Conception et evaluation d'interfaces.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",
-    "Pasted image 20240529020745.png",
-    "Pasted image 20240528013351.png",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
     "cours_3.pdf",
