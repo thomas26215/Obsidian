@@ -76,55 +76,7 @@ bit a bit : $0010000110000000 = 33.128$
 | Nombre de stations possible dans le réseau | 62 stations possibles sur le réseau | 126 stations possibles sur le réseau |
 | 192.168.2.193 dans le réseau ?             |                                     | Oui car 128 <= 193 <= 255            |
 
-# Exo 3
-1. Il envoie à tout le monde
-2. Il l'envoie à P1 et il ajoute P3
-3. Il y a au moins un commutateur derrière
 
-
-# Exo 6
-1. Les² stations E et F recevront la trame (fait partie du même VLAN)
-2. 
-
-| Destination  | Gateway      | GenMask         | Iface |
-| ------------ | ------------ | --------------- | ----- |
-| 194.199.20.0 | 0.0.0.0      | 255.255.255.128 | eth0  |
-| 0.0.0.0      | 194.199.20.1 | 0.0.0.0         | eth0  |
-
-3. 
-
-| Destionation | GateWay | GenMask         | Iface |
-| ------------ | ------- | --------------- | ----- |
-| 192.168.1.14 | 0.0.0.0 | 255.255.255.128 | VLAN1 |
-| 192.168.1.21 | 0.0.0.0 | 255.255.255.128 | VLAN2 |
-| 192.168.1.11 | 0.0.0.0 | 255.255.255.168 | VLAN3 |
-|              |         |                 |       |
-4. .
-
-| Adresse MAC | Port |
-| ----------- | ---- |
-| @A          | P1   |
-| @X          | P2   |
-| @Y          | P3   |
-| @Z          | P3   |
-| @B          | P4   |
-| @A          | P4   |
-| a0:..:cf    | P7   |
-5. .
-	1. La station envoie le paquet au comm COM_1 qui contient 
-
-6. .
-	1. Ne peut pas envoyer directement donc envoie tram au routeur . Adresse MAC destination contenant tram est adresse MAC du comm et donc comm agit comme routeur
-
-
-
-
-
-
----
----
-
----
 
 # Exo 4
 ## Partie 2
@@ -169,6 +121,51 @@ bit a bit : $0010000110000000 = 33.128$
 3. Le délai RTT est le temps qu'il faut pour qu'un segment TCP soit envoyé du client au serveur et que l'accusé réception correspondant revienne au client. Ce délai sera mis à jour grâce à l'estimation du RTT par le client et le serveur, ce qui permettra d'ajuster le délai de temporisation pour les retransmissions de segments en cas de perte
 4. 1460 octets
 ## Partie 5
+# Exo 6
+1. Les² stations E et F recevront la trame (fait partie du même VLAN)
+2. 
+
+| Destination  | Gateway      | GenMask         | Iface |
+| ------------ | ------------ | --------------- | ----- |
+| 194.199.20.0 | 0.0.0.0      | 255.255.255.128 | eth0  |
+| 0.0.0.0      | 194.199.20.1 | 0.0.0.0         | eth0  |
+
+3. 
+
+| Destionation | GateWay | GenMask         | Iface |
+| ------------ | ------- | --------------- | ----- |
+| 192.168.1.14 | 0.0.0.0 | 255.255.255.128 | VLAN1 |
+| 192.168.1.21 | 0.0.0.0 | 255.255.255.128 | VLAN2 |
+| 192.168.1.11 | 0.0.0.0 | 255.255.255.168 | VLAN3 |
+|              |         |                 |       |
+4. .
+
+| Adresse MAC | Port |
+| ----------- | ---- |
+| @A          | P1   |
+| @X          | P2   |
+| @Y          | P3   |
+| @Z          | P3   |
+| @B          | P4   |
+| @A          | P4   |
+| a0:..:cf    | P7   |
+5. .
+	1. La station envoie le paquet au comm COM_1 qui contient 
+
+6. .
+	1. Ne peut pas envoyer directement donc envoie tram au routeur . Adresse MAC destination contenant tram est adresse MAC du comm et donc comm agit comme routeur
+
+
+
+
+
+
+---
+---
+
+---
+
+
 # Exo 5
 ## Partie 1
 1. **Analyse d'une trame**
