@@ -70,7 +70,7 @@ S2.03-lance-machine-virtuelle
 ```sh
 ping google.com
 ```
-- Il est également possible de vérifier la présence ou l'abscence de Xorg avec la commande `dpkg -l | grep xorg`. L'abscence ici est essentiellement dût au fait que nous sommes sans interface graphique et que Xorg permet justement aux utilisateurs de disposer d'une interface graphique
+- Il est également possible de vérifier la présence ou l'abscence de Xorg avec la commande `dpkg -l | grep xorg`. L'abscence ici est essentiellement dût au fait que nous sommes sans interface graphique et que Xorg permet justement aux utilisateurs de disposer d'une interface graphique. Ainsi, ce logiciel ne nous est d'aucune utilité
 
 
 ## Redirection des ports et accès par SSH
@@ -161,6 +161,9 @@ INSERT INTO ma_table (nom, age) VALUES ('Bob', 25);
 INSERT INTO ma_table (nom, age) VALUES ('Charlie', 35);
 ```
 
+- Effectuer une requête pour vérifier que les uplets ont bient été ajoutés
+![[Interrogation SQL depuis machine virtuelle.png]]
+
 - Il faut maintenant modifier certains fichiers pour que cette base PostgreSQL soit accessible par une machine Linux. Pour se faire :
 	1. **Modifier `postgresql.conf` :**
 	   ⇒ Rechercher dans la catégorie *CONNECTIONS AND AUTHENTICATION* et décommenter la ligne `listen_addresses = '*'`
@@ -171,14 +174,22 @@ INSERT INTO ma_table (nom, age) VALUES ('Charlie', 35);
 service postgresql restart
 ```
 
-- 
-
-- On peut maintenant lister le contenu de la table `pg_shadow` pour vérifier que les mots de passe sont bien hâches avec **SHA-256** :
-```SQL
-\c postgres
-SELECT usename, passwd FROM pg_shadow;
+- On peut maintenant se connecter à la base SQL depuis la station Linux hébergeant la machine virtuelle :
+```sh
+psql -h localhost ma_base -U votre_nom_UGA
 ```
 
+- Dans la machine virtuelle, afficher de nouveau la liste des bases :
+```SQL
+psql -l
+```
+![[liste bases.png]]
+
+- On peut maintenant lister le contenu de la table `pg_shadow` pour vérifier que les mots de passe sont bien hâches avec **SHA-256**. Pour cela, sur la machine virtuelle, se connecter en postgres et exécuter la commande suivante  :
+```SQL
+SELECT * FROM pg_shadow;
+```
+![[pg_shadow.png]]
 ## Installer PHP
 - Installer PHP en exécutant les commandes suivantes tout en étant `root`
 ```sh
@@ -211,3 +222,5 @@ apt -y install phppgadmin php-pgsql
 systemctl reload apache2
 ```
 - Ouvrir une page internet et rentrer le lien `http://localhost/phppgadmin/`
+- Une fois sur la page, se connecter avec les identifiants crées pour votre user (Crées dans la partie installation de PostgresSQL) puis afficher la tables pour `ma_base` :
+![[phppgadmin.png]]
