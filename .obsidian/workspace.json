@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "d3de56ef9871ea1c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-05 00.32.10.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "91f8d621ffb342fd",
             "type": "leaf",
             "state": {
@@ -289,7 +299,10 @@
   "active": "8bc4a448f453f8a2",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
+    "Excalidraw/Drawing 2024-06-05 00.32.10.excalidraw.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Projets/En cours/Mega SAE/IHM.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
@@ -297,8 +310,6 @@
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
-    "Projets/En cours/Mega SAE/IHM.md",
     "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
     "Permanent/Programmation/JavaFX/Importer des éléments de base.md",
     "Projets/En cours/SAE 2.03.md",
@@ -321,7 +332,6 @@
     "Projets/En cours/Mega SAE maths.md",
     "Projets/En cours/P2.01.md",
     "Projets/En cours/Anglais rendu.md",
-    "Excalidraw/Pub projet 2.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",

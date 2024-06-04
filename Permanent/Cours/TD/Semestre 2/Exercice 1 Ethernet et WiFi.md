@@ -117,40 +117,7 @@ bit a bit : $0010000110000000 = 33.128$
 	1. Ne peut pas envoyer directement donc envoie tram au routeur . Adresse MAC destination contenant tram est adresse MAC du comm et donc comm agit comme routeur
 
 
-## Exercice 2
-### Partie 1
-1. Réduire le nombre d'équipements, coût, maintenance, sécurité (partinonement au même endroit)
 
-
-### Partie 2
-1. .
-
-| Destination | Gateway    | Genmask       | Iface |
-| ----------- | ---------- | ------------- | ----- |
-| 144.19.2.0  | 0.0.0.0    | 255.255.255.0 | eth0  |
-| 0.0.0.0     | 144.19.2.1 | 0.0.0.0       | eth0  |
-2. .
-
-| Destination | MAC |
-| ----------- | --- |
-| @A          | P1  |
-| @X          | P2  |
-| @Y          | P3  |
-| @B          | P13 |
-| @C          | P14 |
-| @D          | P15 |
-| @R2         | P13 |
-
-4. .
-
-| 144.19.2.0 | 0.0.0.0       | 255.255.255.0 | VLAN1 |
-| ---------- | ------------- | ------------- | ----- |
-| 142.18.3.0 | 0.0.0.0       | 255.255.255.0 | VLAN2 |
-| 0.0.0.0    | 142.255.255.0 | 0.0.0.0       | VLAN2 |
-## Partie 3
-1. Ce sera la première ligne de la table de routage de A qui sera appliqué
-2. a0:..:cc
-3. Cela sera le Commutation
 
 
 
@@ -236,6 +203,7 @@ bit a bit : $0010000110000000 = 33.128$
 4. Taille de message trame 60 : 944 - 66 = 878. Sinon, on regarde la diff de taille WIndow
 
 # Exo 6
+## Partie 1
 1. Toutes les stations dans le même VLAN recevront la trame de diffusion. Z appartient au réseau 192.168.1.0/24 donc les stations qui vont recevoir la trame sont 
 	- F (192.168.1.14)
 	- E(192.168.1.21)
@@ -245,3 +213,45 @@ bit a bit : $0010000110000000 = 33.128$
 | ------------ | ------------ | --------------- | ----- |
 | 194.199.20.0 | 0.0.0.0      | 255.255.255.128 | eth0  |
 | 0.0.0.0      | 194.199.20.1 | 0.0.0.0         | eth0  |
+3. 
+
+| Destination  | Gateway | Genmask         | Iface |
+| ------------ | ------- | --------------- | ----- |
+| 194.199.20.0 | 0.0.0.0 | 255.255.255.128 | WLAN2 |
+| 192.168.0.0  | 0.0.0.0 | 255.255.255.0   | WLAN1 |
+| 192.168.1.0  | 0.0.0.0 | 255.255.255.0   | WLAN3 |
+4. 
+
+| Adresse MAC | Port |
+| ----------- | ---- |
+| @A          | P1   |
+| @X          | P2   |
+| @Y          | P2   |
+| @Z          | P3   |
+| @B          | P4   |
+| @C          | P4   |
+5. Ne peut pas envoyer directement donc route par défaut donc trame ethernet vers le routeur qui renvoie une trame vers la destination, ici B
+
+## Partie 2
+1. **Intérêt**
+	1. Simplification de la gestion, réduction des coûts, amélioration des performances
+	   On peut aussi changer les ports plus facilement et + de sécurité
+	2. [[Drawing 2024-06-05 00.32.10.excalidraw]]
+	3. Il y a deux inter-réseaux car 2 VLANS
+	   - Réseau Ethernet connecté à COM/ROUT via les ports P1, P2, P3, et P4 (anciennement COM_1).
+	   - Réseau Ethernet connecté à COM/ROUT via les ports P11, P12, P13, P14, et P15 (anciennement COM_2).
+	4. Trois réseaux IP distincts
+2. .
+	1. x
+
+| Destination | Gateway    | Genmask       | Iface |
+| ----------- | ---------- | ------------- | ----- |
+| 144.19.2.0  | 0.0.0.0    | 255.255.255.0 | eth0  |
+| 0.0.0.0     | 144.19.2.1 | 0.0.0.0       | eth0  |
+Facile pour reste
+
+3. **Etude du fonctionnement de COM/ROUT (uniquement pour petit 1)**
+	1. C'est la première ligne car A et Y sont dans le même VLAN
+	2. L'adresse MAC destination de la trame envoyée par A sera a0:..:cc
+	3. La commutation car A et Y sont dans le même VLAN
+	4. 1 seule trame est nécessaire 
