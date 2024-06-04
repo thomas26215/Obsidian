@@ -74,7 +74,7 @@ ping google.com
 
 
 ## Redirection des ports et accès par SSH
-Certaines redirections de port ont été mises en place afin de pouvoir accéder aux serveurs tourant sur notre machine Linux depuis des clients sur notre machine Linux :
+Certaines redirections de port ont été mises en place afin de pouvoir accéder aux serveurs tournant sur notre machine virtuelle depuis des clients sur notre machine Linux :
 
 | Service réseau | Port de la VM | Port sur la station Linux | Exemple d'utilisation depuis la station Linux |
 | -------------- | ------------- | ------------------------- | --------------------------------------------- |
@@ -82,16 +82,21 @@ Certaines redirections de port ont été mises en place afin de pouvoir accéder
 | HTTP           | 80            | 8080                      | URL: http://localhost:8080/                   |
 | HTTPS          | 443           | 4443                      | URL: https://localhost:4443/                  |
 | PostgreSQL     | 5432          | 5432                      | $ psql -h localhost -U postgres postgres      |
+- Pour tester si tout fonctionne, il faut accéder au compte utilisateur simple de la machine virtuelle par SSH. Ensuite, il faut passer au compte root (`su` et avec comme mot de passe le mot de passe root) puis installer un paquet Debian, par exemple, micro :
+```sh
+apt-get update
+apt-get install micro
+```
 
 # Installation de logiciels
+>[!warning] Privilèges root
+>Pour la majorité des commandes qui suivent, il est nécessaire d'avoir tous les droits, notamment pour l'installation de logiciels. Pour pouvoir passer en root, exécuter la commande : `su`. Pour les commandes ne nécessitant pas de privilèges root, un `$` sera placé devant la commande
 ## Apache
 - Installer Apache2 en lançant les commandes suivantes :
 ```Shell
 apt install apache2
 service apache2 start
 ```
-> [!Warning]
-> Il faut déjà être **utilisateur root** pour avoir toutes les permissions, notamment celle d'installer un logiciel : `sudo -i` ou `su`
 - Exécuter la commande suivante pour vérifier que le logiciel est bien installé :
 ```Shell
 systemctl status apache2
@@ -102,11 +107,11 @@ systemctl start apache2
 ```
 - Il n'est pas possible d'afficher une page Web graphiquement (nous avons installé la machine virtuelle uniquement pour les lignes de commande). Il est cependant possible de se connecter  au serveur Apache avec la commande `telnet` et en entrant la chaîne de charactère `HEAD/HTTP/1.0` suivit de deux retours à la ligne :
 ```Shell
-telnet localhost 80 #Il faut taper
+$ telnet localhost 80 #Il faut taper
 Trying ::1...
 Connected to localhost.
 Escape character is '^]'.
-HEAD / HTTP/1.0 #Il faut taper
+$ HEAD / HTTP/1.0 #Il faut taper
 
 HTTP/1.1 200 OK
 [...]
@@ -122,7 +127,7 @@ http://localhost:8080
 ```Shell
 apt install postgresql
 ```
-- Pour vérifier l'installation du logiciel, se connecter en `root` et exécuter la commande suivant :
+- Pour vérifier l'installation du logiciel, se connecter sur le compte postgres :
 ```Shell
 su - postgres
 ```
@@ -131,7 +136,7 @@ su - postgres
 psql -l
 ```
 
-Il est maintenant possible de faires quelques tâches simples, en se connectant à la machine virtuelle depuis ce même shell tournant sur la machine virtuelle (Commande `psql`) :
+Il est maintenant possible de faires quelques tâches simples, en se connectant localement au serveur postgreSQL (Commande `psql`) :
 1. **Créer un utilisateur avec comme nom votre login :** `CREATE USER votre_login WITH password = 'xxx'`
 2. **Créer une base dont le propriétaire est votre utilisateur :**
 ```SQL
