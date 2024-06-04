@@ -234,3 +234,14 @@ bit a bit : $0010000110000000 = 33.128$
    Echange = 58 59 60 61
    Terminaison = 62 63 64 65
 4. Taille de message trame 60 : 944 - 66 = 878. Sinon, on regarde la diff de taille WIndow
+
+# Exo 6
+1. Toutes les stations dans le même VLAN recevront la trame de diffusion. Z appartient au réseau 192.168.1.0/24 donc les stations qui vont recevoir la trame sont 
+	- F (192.168.1.14)
+	- E(192.168.1.21)
+2. 
+
+| Destination  | Gateway      | Genmask         | Iface |
+| ------------ | ------------ | --------------- | ----- |
+| 194.199.20.0 | 0.0.0.0      | 255.255.255.128 | eth0  |
+| 0.0.0.0      | 194.199.20.1 | 0.0.0.0         | eth0  |
