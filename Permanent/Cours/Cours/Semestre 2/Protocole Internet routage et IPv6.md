@@ -21,6 +21,7 @@ Routage IP : Lorsqu'un paquet IP arrive dans un routeur, il est retransmis soit 
 **Calcul de correspondance :** <mark style="background: #FF5582A6;">Si (adrIP-dest & Genmask) == adrDestination, alors Trouve</mark>
 
 **Longest Match Routing Rule** : Si une adresse destination peut répondre à plusieurs réseaux connus d'une routeur, alors c'est le plus grans nombre de bits qui est choisi
+**Organisation de la table de routage** : Les tables sont triées par ordre décroissant de préfixe  pour que dès qu'un réseau est trouvé, pas la peine de chercher plus loin étant donné que les autres réseaux ont un préfixe plus petit
 
 **Le TTL** (TIme To Live) : Durée de vie des paquets IP (Champs spécifique dans le paquet). Initialisé avec une certaine valeur, décrémenté pour chaque passage d'un routeur et meurt arrivé à 0.
 ⇒ **Utilité :** Les paquets perdus
@@ -28,6 +29,8 @@ Routage IP : Lorsqu'un paquet IP arrive dans un routeur, il est retransmis soit 
 2 classes d'algorithme de routage :
 - Fixe (routage statique)
 - Adaptatifs (routage dnyamique) ⇒ S'adapte en fonction de topologie et à celle du traffice automatique
+
+**Principe de RIP :** Chaque routeur comunique ses routes aux routeurs voisins, la meilleure route d'un routeur à un réseau IP étant celui ayant le minimum de sauts. Chaque routeur conserve l'adresse du routeur voisin dont la route est la plus courte. Routes diffusées toutes les 30 secondes à l'adresse multicast 224.0.0.9
 
 Protocole Internet (IP) : IPv6 : IPv6 est la dernière version du Protocole Internet. Contrairement à IPv4, qui utilise des adresses sur 32 bits, IPv6 utilise des adresses sur 128 bits, offrant ainsi un espace d'adressage beaucoup plus large.
 
