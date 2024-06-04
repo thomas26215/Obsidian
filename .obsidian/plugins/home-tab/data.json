@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Permanent/Programmation/JavaFX/Untitled.md",
+      "filepath": "Projets/En cours/Mega SAE/Untitled 1.md",
+      "timestamp": 1717504497862
+    },
+    {
+      "filepath": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
       "timestamp": 1717501503150
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "backdrop2.png",
       "timestamp": 1717494674176
-    },
-    {
-      "filepath": "Excalidraw/Drawing 2024-06-04 11.50.32.excalidraw.md",
-      "timestamp": 1717494643134
     }
   ],
   "starredFileStore": [],

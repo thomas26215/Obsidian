@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
-                "mode": "source",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 203.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md"
+                "file": "Projets/En cours/Mega SAE/IHM.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md"
+                "file": "Projets/En cours/Mega SAE/IHM.md"
               }
             }
           },
@@ -247,8 +247,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,6 +269,7 @@
   "active": "d752f5c3b82b05b7",
   "lastOpenFiles": [
     "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+    "Projets/En cours/Mega SAE/IHM.md",
     "Permanent/Programmation/JavaFX/Importer des éléments de base.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
@@ -302,7 +302,6 @@
     "Projets/En cours/Anglais rendu.md",
     "Excalidraw/Pub projet 2.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
-    "Untitled 7.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",
