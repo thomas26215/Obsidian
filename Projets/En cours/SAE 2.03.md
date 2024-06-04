@@ -10,7 +10,6 @@ sha512sum /usr/local/images-ISO/image-iso.iso
 
 ## Installation de Debian
 ### Lancer l'installation de Debian
-    
 - Démarrez la machine virtuelle en amorçant sur l'image ISO d'installation :
 ```Shell
 S2.03-lance-installation
@@ -23,8 +22,7 @@ nano /users/info/pub/bin/S2.03-commun
 	
 Les paramètres nécessaires sont déjà configurés dans ce fichier.
 ### Suivez la procédure d'installation standard
-    
-- Il faut maintienant suivre la procédure classique pour installer le système
+- Il faut maintenant suivre la procédure classique pour installer le système
 
 >[!Warning]
 >Il faut installer Debian sans interface graphique. **C'est le choix le plus crucial !**
@@ -58,7 +56,7 @@ Les paramètres nécessaires sont déjà configurés dans ce fichier.
 S2.03-déplace-image-disque-sur-erebus4
 ```
 >[!info]
->On peut aussi déplacer l'image disque sur une clé USB si l'on souhaite accéder à la machine virtuelle depuis plusieurs machines. Pour cela, il faut directement chercher cette image dans la clé USB
+>Il est possible de transférer une image ISO sur une clé USB, ce qui permet d'y accéder depuis n'importe quelle station équipée d'un port USB. Cela rend l'image portable et utilisable partout. Il suffit d'utiliser un outil pour rendre la clé USB bootable avec l'image ISO. Vous pouvez ensuite démarrer l'ordinateur depuis la clé USB pour accéder à l'image.
 ## Vérification du serveur Debian
 - Il faut maintenant exécuter la commande qui suit pour lancer la machine virtuelle :
 ```Shell
@@ -67,6 +65,12 @@ S2.03-lance-machine-virtuelle
 
 >[!warning]
 >Attention à bien retenir cette commande car vous l'utiliserez chaque fois que vous voudrez lancer la machine virtuelle
+- Pour vérifier que la fonctionnalité de la machine virtuelle, on peut exécuter la commande `ip a` ou `ip config` pour afficher les caractéristiques réseaux de la machine. Il suffit maintenant de vérifier que la machine est connectée au réseau
+- Pour vérifier si la machine est connecté à l'extérieur, il sufft de vérifier qu'elle peut envoyer des paquets vers d'autres sites en utilisant la commande `ping`. Voici un exemple :
+```sh
+ping google.com
+```
+- Il est également possible de vérifier la présence ou l'abscence de Xorg avec la commande `dpkg -l | grep xorg`. L'abscence ici est essentiellement dût au fait que nous sommes sans interface graphique et que Xorg permet justement aux utilisateurs de disposer d'une interface graphique
 
 
 ## Redirection des ports et accès par SSH
@@ -133,7 +137,7 @@ Il est maintenant possible de faires quelques tâches simples, en se connectant 
 ```SQL
 CREATE DATABASE ma_base WITH OWNER = votre_nom_uga;
 ```
-3. **Créer une table simple dans la base de données :**
+3. **Pour créer une table simple dans ma base de données, il faut que je me place dans cette base :**
 ```SQL
 \c ma_base
 ```
