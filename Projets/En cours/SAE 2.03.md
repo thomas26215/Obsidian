@@ -202,7 +202,7 @@ phpinfo(INFO_MODULES);
 apt -y install phppgadmin php-pgsql
 ```
 -  Il faut maintenant modifier certains fichiers :
-1. **Modifier `etc/phppgadmin/config.inc.pgp`**
+1. **Modifier `etc/apache2/conf-enabled/phppgadmin.conf`**
    ⇒ Dans la catégorie *Only allow connections from localhost*, enlever `Require local` et remplacer par `Require all granted`
 2. **Modifier `/usr/share/phppgadmin/classes/database/Connections.php` :**
    ⇒ A la ligne 79, *ajouter PostgresSQL 15* : `cas '15' : return 'Postgres':break;` remplaçant la ligne `cas '14' : return 'Postgres':break;`
