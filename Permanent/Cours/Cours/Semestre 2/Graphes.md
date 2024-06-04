@@ -86,10 +86,34 @@ Structure algébrique $(E, \oplus$, $\otimes$), $E$ un ensemble non-vide et $\op
 - $(E,\oplus)$ un monoïde abélien (On note $z$ son élement neutre)
 - $(E,\otimes$) un monoïde abélien (On note $e$ son élement neutre)
 - $\otimes$ est distributive à $\oplus$
-- $\oplus$ est absorbant à $\otimes$ ⇒ $\forall x\in E, z\otimes x=x\otimes z=z$ 
+
 >[!info] Que signifient $\oplus$ et $\otimes$ ?
 >- $\oplus$ permet de choisir le meilleur chemin
 >- $\otimes$ sert à calculer la valuation d'un chemin
+
+#### Théorème
+Soit $(E, \oplus, \otimes)$ un dioïde :
+- $e$ est absorbant pour $\oplus$ si la propriété d'absorption est vérifiée ([[#Réciproque Propriété d'absorption 1]])
+- Si la propriété s'absorption est vérifiée, alors $\oplus$ est item potent ($\forall x\in E, x\oplus x = x$) ([[#Preuve de l'idem potent|preuve]])
+- Si $e$ est absorbant pour $\oplus$ alors $\oplus$ est idem potent
+
+#### Preuve de l'idem potent
+$\forall(x,y)\in E^2,x\oplus x\otimes y=x$ (Propriété d'absorption)
+1. On suppose que $e$ est absorbant pour $\oplus$ : $\forall x\in E, x\oplus e=e$ 
+   $\forall(x,y)\in E^2, x\oplus x \otimes y = x\otimes e\oplus x \otimes y=x\otimes(e\oplus y)=x\otimes e=x$
+
+#### Réciproque Propriété d'absorption 1
+On suppose ($P$) : $\forall(x,y)\in E^2, x\oplus x\otimes y=x ⇒ \forall y\in E, e\oplus e\otimes y=e ⇒ \forall y\in E, e\oplus y=e$
+**Conclusion :** P ⇒ $e$ absorbant pour $P$
+
+
+#### Preuve
+On suppose ($P$) : $\forall(x,y)\in E^2, x\oplus x\otimes y=x ⇒ \forall x\in E, x\oplus x\otimes e=x ⇒ x\oplus x$ ⇒ $\oplus$ est idem potent
+**Conclusion :** P ⇒ $e$ absorbant pour $P$
+
+### Preuve
+On suppose ($P$) : $\forall(x,y)\in E^2, x\oplus x\otimes y=x ⇒ \forall y\in E, e\oplus e\otimes y=e ⇒ \forall y\in E, e\oplus y=e$
+
 ### Exemple pour définir un monoïde pour un graphe
 Pour un graphe, je souhaite calculer le plus court chemin. Voici comment définir le dioïde :
 ⇒ $(R^+U\{+\infty\},MIN,+$)
@@ -113,3 +137,22 @@ Maintenant, passons à l'étape de relaxation des distances. À chaque étape $G
 - Enfin, pour les cellules vides (c'est-à-dire les cellules pour lesquelles nous n'avons pas encore de valeur), nous regardons la valeur $D[i][j]$ (la distance entre les nœuds $i$ et $j$). Nous la mettons à jour en prenant le minimum entre sa valeur actuelle et la somme des distances entre $i$ et $k$ et entre $k$ et $j$, où $k$ est un autre nœud du graphe.
 
 C'est ainsi que l'algorithme de Warshall fonctionne pour trouver les chemins les plus courts entre tous les nœuds d'un graphe.
+
+
+
+# Les différents algorithmes :
+Algo Warshall : gloabal
+Algo Ford-Belman : Local : (fixé l'origine)
+
+## Algo Ford-Belman
+Soit $G=(S,A,v)$ un graphe simple valuée dans le dioïde $(E, \oplus, \otimes)$
+Soit $M$ la matrice d'incidence aux sommets
+Soit $k\in\mathbb{N}^*$, $M^k=M\otimes M\otimes...\otimes M=\Pi^k_{i=1}M$
+$N^k=\sum^k_{i=1}M^i=+M^2+...+M^k$ (Pour rappel, $M^*=\sum^\infty_{k=1}M^k$)
+**Propriété :** 
+1. $n_{ij}^k$ représente la valuation d'un meilleur chemin d'origine $i$ et d'extrémité $j$ ayant au plus $k$ arcs
+2. $\oplus$ idem potent ⇒ $N^{(k)}=N^{(k-1)}\otimes(I\oplus M)$ 
+
+<mark style="background: #FF5582A6;">Algorithme de Ford-Belman :</mark>
+$L^{(k)}=L^{(k-1)}\otimes(I\oplus M)$ où $L^{(k)}$ est la ligne de $N{'k}$ correspond au sommet origine choisit
+Arrêt en stabilisation $L^{(k)}=L^{(k-1)}$ 

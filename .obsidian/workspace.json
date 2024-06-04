@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,6 +44,14 @@
             }
           },
           {
+            "id": "bb6d68e4cd37656b",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "29d855d67f6ccd5b",
             "type": "leaf",
             "state": {
@@ -56,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Mega SAE/IHM.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Mega SAE/IHM.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/Mega SAE/IHM.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
               }
             }
           },
@@ -172,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Mega SAE/IHM.md",
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +235,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/Mega SAE/IHM.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
               }
             }
           },
@@ -266,17 +274,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d752f5c3b82b05b7",
+  "active": "8bc4a448f453f8a2",
   "lastOpenFiles": [
-    "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
-    "Projets/En cours/Mega SAE/IHM.md",
-    "Permanent/Programmation/JavaFX/Importer des éléments de base.md",
+    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
+    "Projets/En cours/Mega SAE/IHM.md",
+    "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+    "Permanent/Programmation/JavaFX/Importer des éléments de base.md",
     "Projets/En cours/SAE 2.03.md",
     "backdrop2.png",
     "Excalidraw/Drawing 2024-06-04 11.50.32.excalidraw.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
     "phppgadmin.png",
     "pg_shadow.png",
     "liste bases.png",
@@ -285,7 +295,6 @@
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
     "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
@@ -301,7 +310,6 @@
     "Projets/En cours/P2.01.md",
     "Projets/En cours/Anglais rendu.md",
     "Excalidraw/Pub projet 2.md",
-    "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",
