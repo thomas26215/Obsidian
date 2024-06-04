@@ -121,7 +121,8 @@ $z=+\infty$
 $e=0$
 1. Domaine de définition, un graphe est définit dans $R^+$ et on aura aussi besoin de $\infty$
 2. $\oplus$ permet de choisir le meilleur chemin, et on souhaite le chemin le plus court, ainsi on définit par MIN
-3. $\otimes$ sert à calculer la valuation d'un chemin, et pour choisir le meilleur chemin, on va additionner les valeurs, donc on choisit +
+3. 
+4. $\otimes$ sert à calculer la valuation d'un chemin, et pour choisir le meilleur chemin, on va additionner les valeurs, donc on choisit +-
 
 ## Remplir le graphe pour déterminer le plus court chemin
 Pour déterminer le plus court chemin d'un graphe, il faut tout d'abord définir le dioïde ([[Graphes#Exemple pour définir un monoïde pour un graphe|Exemple de définition]])
