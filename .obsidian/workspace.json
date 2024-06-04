@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "d752f5c3b82b05b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "29d855d67f6ccd5b",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md"
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md"
               }
             }
           },
@@ -160,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md"
+                "file": "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md"
               }
             }
           },
@@ -255,8 +267,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8bc4a448f453f8a2",
+  "active": "d752f5c3b82b05b7",
   "lastOpenFiles": [
+    "Permanent/Programmation/JavaFX/Création d'un Morpion avec FXML.md",
+    "Permanent/Programmation/JavaFX/Importer des éléments de base.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
     "Projets/En cours/SAE 2.03.md",
@@ -289,8 +303,6 @@
     "Excalidraw/Pub projet 2.md",
     "Permanent/Cours/TD/Serveur Apache PHP - Protocole HTTP.md",
     "Untitled 7.md",
-    "Projets/En cours/Mega SAE/Untitled.md",
-    "Permanent/Cours/Cours/Semestre 2/Développement avec JavaFX.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",
