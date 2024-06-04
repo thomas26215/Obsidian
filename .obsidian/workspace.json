@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -227,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,7 +243,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc7aa649142fb57e",
+  "active": "ae156f7290499699",
   "lastOpenFiles": [
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",

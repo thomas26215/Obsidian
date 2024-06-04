@@ -35,6 +35,9 @@ Routage IP : Lorsqu'un paquet IP arrive dans un routeur, il est retransmis soit 
 Protocole Internet (IP) : IPv6 : IPv6 est la dernière version du Protocole Internet. Contrairement à IPv4, qui utilise des adresses sur 32 bits, IPv6 utilise des adresses sur 128 bits, offrant ainsi un espace d'adressage beaucoup plus large.
 
 Notation des adresses IPv6 : Les adresses IPv6 sont généralement représentées sous forme de huit groupes de quatre chiffres hexadécimaux, séparés par des deux-points. Les adresses IPv6 sont utilisées pour l'unicast, l'anycast et le multicast.
+- **Unicast :** Identifiant pour une interface unique
+- **Anycast :** Identifiant pour un ensemble d'interfaces. Un paquet envoyé à une adresser anycast est livré à l'une des interfaces identifiées par ces adresse
+- **Multicast :** Identifiant pour un ensemble d'interfaces. Un paquet envoyé à une adresse multicast est livré à toutes les interfaces identifiées par ces adresse
 
 Types d'adresses IPv6 : Les types d'adresses IPv6 comprennent les adresses unicast (global unicast, unique local unicast, link-local unicast), anycast et multicast, chacune ayant des utilisations spécifiques.
 
