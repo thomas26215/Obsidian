@@ -171,6 +171,8 @@ INSERT INTO ma_table (nom, age) VALUES ('Charlie', 35);
 service postgresql restart
 ```
 
+- 
+
 - On peut maintenant lister le contenu de la table `pg_shadow` pour vérifier que les mots de passe sont bien hâches avec **SHA-256** :
 ```SQL
 \c postgres
