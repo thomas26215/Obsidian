@@ -1,7 +1,7 @@
 **Persona 1**
 
 Nom : Marie Dupont
-Age : 63 ans
+Age : 65 ans
 Status familiale : Mariée, mère de deux enfants
 Travail : Retraité
 Localisation : Petite ville françcaise
