@@ -8,19 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e915104f48c1700",
+            "id": "2eabc4ca08f1aed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2eabc4ca08f1aed1",
+            "id": "0a1ed6930fa6525a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Mega SAE/Graphes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1615f67ffa4c48c",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+                "staged": false,
+                "hash": "8787c9d7a18f97d585d9e13de2301cfb33341434"
+              }
+            }
+          },
+          {
+            "id": "c2c5a6ca36910fdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +168,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -202,9 +221,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -228,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 450.5
+    "width": 837.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,21 +260,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2eabc4ca08f1aed1",
+  "active": "a1615f67ffa4c48c",
   "lastOpenFiles": [
-    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+    "Projets/En cours/Mega SAE/Graphes.md",
     "Projets/En cours/Mega SAE/IHM.md",
+    "Projets/Finish/SAE2.04/Compte-rendu.md",
+    "Projets/Finish/Anglais rendu.md",
+    "Projets/Finish/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
+    "Projets/Finish/Mega SAE maths.md",
+    "Projets/En cours/P2.01.md",
+    "Projets/En cours/Projet Voltaire.md",
+    "Permanent/Programmation/Faire ses premiers commit.md",
+    "MOOC/Big MOCS/Cours.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Projets/En cours/SAE 2.03.md",
-    "Projets/En cours/P2.01.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
     "Excalidraw/Drawing 2024-06-05 00.32.10.excalidraw.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes.md",
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
     "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
@@ -273,12 +296,6 @@
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Inbox/td réseau.pdf",
-    "Permanent/Cours/Cours/Semestre 2/Développement avec applications IHM.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Projets/En cours/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
-    "Excalidraw/Pub projet.md",
-    "Projets/En cours/Mega SAE maths.md",
-    "Projets/En cours/Anglais rendu.md",
     "Pasted image 20240601145431.png",
     "Pasted image 20240601142253.png",
     "Pasted image 20240531102434.png",
