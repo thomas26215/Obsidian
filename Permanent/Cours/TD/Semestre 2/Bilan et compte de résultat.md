@@ -7,6 +7,8 @@ tags:
 Complete: false
 Learned: false
 ---
+## Exercice 2
+
 **Compte de résultat**
 *Débit → Charges d'exploitation*
 Achats de machandises = 234 080
@@ -20,5 +22,22 @@ Charges sociales = 36 025
 Dotations aux amortissements et provi =  35 700
 Autres charges
 
+*Charges exceptionnelles* = 3 400
 
-*Crédit → Produits d'exploitationsP*
+
+*Produits d'exception*
+Vente de marchandises = 484 879
+Production vendue = 1 612
+Sous total A - Montant du CA =
+Production stockée =
+Production immobilisée = 
+Subventions d'exploitation =
+Reprises/prov et transferts de charges =
+Autres produits = 
+
+
+
+**Modèle de bilan** : [[Drawing 2024-06-05 16.15.21.excalidraw]]
+
+## Exercice 2
+
