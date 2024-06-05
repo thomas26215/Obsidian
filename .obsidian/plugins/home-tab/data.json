@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Projets/En cours/Mega SAE/IHM.md",
-      "timestamp": 1717570599071
+      "filepath": "Permanent/Cours/Cours/Semestre 2/Graphes.md",
+      "timestamp": 1717573322104
     },
     {
       "filepath": "MOOC/Big MOCS/Cours.md",
-      "timestamp": 1717570595279
+      "timestamp": 1717573313750
+    },
+    {
+      "filepath": "Projets/En cours/Mega SAE/IHM.md",
+      "timestamp": 1717570599071
     },
     {
       "filepath": "Permanent/Programmation/Faire ses premiers commit.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "MOOC/Little MOCS/Git - Github - Gitlab.md",
       "timestamp": 1717569356210
-    },
-    {
-      "filepath": "Projets/En cours/SAE 2.03.md",
-      "timestamp": 1717567640952
     }
   ],
   "starredFileStore": [],
