@@ -37,7 +37,7 @@
 **Motivations** :
 
 - Créer un événement pour rassembler les gens
-- Réaliser des bénéfices sur l'événement (Association, Comité, pour des œuvres caritatives...)
+- Réaliser des bénéfices sur l'événement (pour l'association de tricôt)
 
 **Besoin technologique** :
 
@@ -88,7 +88,7 @@
 **Motivations** :
 
 - Créer un événement pour rassembler les gens
-- Réaliser des bénéfices sur l'événement (Association, Comité, pour des œuvres caritatives...)
+- Réaliser des bénéfices sur l'événement pour fournir des bénéfices au Maire
 
 **Besoin technologique** :
 
@@ -137,7 +137,7 @@
 **Motivations** :
 
 - Créer des événements communautaires pour renforcer les liens sociaux
-- Réaliser des bénéfices pour des associations, comités ou œuvres caritatives
+- Réaliser des bénéfices pour des associations, comités ou œuvres caritatives (pour l'association de pétanque)
 
 **Besoin technologique** :
 
