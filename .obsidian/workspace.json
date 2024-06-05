@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2eabc4ca08f1aed1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Mega SAE/IHM.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md"
+                "file": "Projets/En cours/Mega SAE/IHM.md"
               }
             }
           },
@@ -135,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md",
+                "file": "Projets/En cours/Mega SAE/IHM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/Faire ses premiers commit.md"
+                "file": "Projets/En cours/Mega SAE/IHM.md"
               }
             }
           },
@@ -230,10 +243,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8e915104f48c1700",
+  "active": "2eabc4ca08f1aed1",
   "lastOpenFiles": [
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "MOOC/Big MOCS/Cours.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Projets/En cours/Mega SAE/IHM.md",
     "Projets/En cours/SAE 2.03.md",
     "Projets/En cours/P2.01.md",
