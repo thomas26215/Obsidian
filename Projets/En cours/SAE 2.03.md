@@ -18,18 +18,18 @@ S2.03-lance-installation
 ### Paramètres de lancements
 
 
-- To check and modify Qemu/KVM settings, open the file `S2.03-commun` :
+- To check and modify Qemu/KVM settings, open the file `S2.03-commun`:
 ```Shell
 nano /users/info/pub/bin/S2.03-commun
 ```
 
-1. **Image path declaration** :
+1. **Image path declaration**:
 ```ssh
 image_locale="/donnees/TP-infobut/Debian-S2.03-$LOGNAME.img"
 image_nfs="/users/Stockage-HDD/images-kvm/S2.03/images/Debian-S2.03-$LOGNAME.img"
 ```
     
-2. **Image existence case management** :
+2. **Image existence case management**:
     
 	- If both images exist (local and NFS), the script displays an error message and stops.
 	- If no image exists, it creates a new 4 GB local image.
@@ -54,17 +54,17 @@ fi
 ```
 
     
-3. **Disk configuration for QEMU** :
+3. **Disk configuration for QEMU**:
 ```ssh
 drive="format=raw,file=$image,discard=unmap
 ```
     
-4. **ISO path declaration** :
+4. **ISO path declaration**:
 ```ssh
 iso=$(ls /usr/local/images-ISO/debian-*-netinst.iso)
 ```
     
-5. **(Commented) Launch of QEMU** :
+5. **(Commented) Launch of QEMU**:
 
 ```ssh
 # qemu-system-x86_64 -drive $drive -cdrom $iso -boot d -m 2G
@@ -76,7 +76,7 @@ The script checks and creates the required disk image, chooses between a local i
 - Now follow the standard procedure to install the system
 
 >[!Warning]
->You need to install Debian without a graphical interface. **This is the most crucial choice !**
+>You need to install Debian without a graphical interface. **This is the most crucial choice !**. In fact, we won't be using a graphical interface for the whole process, as our aim is to create a virtual machine that runs solely on command lines.
 
 
 - Here are the steps to follow [If nothing is specified, leave it as is]:
@@ -106,33 +106,33 @@ The script checks and creates the required disk image, chooses between a local i
 ⇒ The virtual machine is now launched. **Now it's time to shut down the machine before moving on to the next step!** To do this, log on to the root account and run the command `# poweroff` to shut down the machine cleanly.
  
 >[!info]
->A partir de maintenant, c'est cette commande (`# poweroff`) qu'il faut utiliser pour éteindre la machine virtuelle
+>From now on, use this command (`# poweroff`) to shut down the virtual machine
 
 ### Déplacement de l'image disque sur le serveur
-- Utiliser la commande suivante pour déplacer l'image disque sur le serveur erebus4. Ce sera utile pour utliiser la machine virtuelle plus facilement
+- Use the following command to move the disk image to the erebus4 server. This will make it easier to use the virtual machine
 ```Shell
 S2.03-déplace-image-disque-sur-erebus4
 ```
 >[!info]
->Il est possible de transférer une image ISO sur une clé USB, ce qui permet d'y accéder depuis n'importe quelle station équipée d'un port USB. Cela rend l'image portable et utilisable partout. Il suffit d'utiliser un outil pour rendre la clé USB bootable avec l'image ISO. Vous pouvez ensuite démarrer l'ordinateur depuis la clé USB pour accéder à l'image.
+>An ISO image can be transferred to a USB stick, enabling access from any workstation with a USB port. This makes the image portable and usable anywhere. Simply use a tool to make the USB key bootable with the ISO image. You can then boot the computer from the USB key to access the image.
 ## Vérification du serveur Debian
-- Il faut maintenant exécuter la commande qui suit pour lancer la machine virtuelle :
+- The following command must now be executed to start the virtual machine:
 ```Shell
 S2.03-lance-machine-virtuelle
 ```
 
 >[!warning]
->Attention à bien retenir cette commande car vous l'utiliserez chaque fois que vous voudrez lancer la machine virtuelle
-- Pour vérifier que la fonctionnalité de la machine virtuelle, on peut exécuter la commande `ip a` ou `ip config` pour afficher les caractéristiques réseaux de la machine. Il suffit maintenant de vérifier que la machine est connectée au réseau
-- Pour vérifier si la machine est connecté à l'extérieur, il sufft de vérifier qu'elle peut envoyer des paquets vers d'autres sites en utilisant la commande `ping`. Voici un exemple :
+>Make sure you remember this command, as you'll be using it every time you want to launch the virtual machine.
+- To check the virtual machine's functionality, you can run the `ip a` command to display the machine's network characteristics. Now we just need to check that the machine is connected to the network
+- To check that the machine is connected to the outside world, simply check that it can send packets to other sites using the `ping` command. Here's an example:
 ```sh
 ping google.com
 ```
-- Il est également possible de vérifier la présence ou l'abscence de Xorg avec la commande `dpkg -l | grep xorg`. L'abscence ici est essentiellement dût au fait que nous sommes sans interface graphique et que Xorg permet justement aux utilisateurs de disposer d'une interface graphique. Ainsi, ce logiciel ne nous est d'aucune utilité
+- It is also possible to check the presence or absence of Xorg with the command `dpkg -l | grep xorg`. The absence here is essentially due to the fact that we are without a graphical interface, and Xorg provides users with a graphical interface. As a result, this software is of no use to us.
 
 
 ## Redirection des ports et accès par SSH
-Certaines redirections de port ont été mises en place afin de pouvoir accéder aux serveurs tournant sur notre machine virtuelle depuis des clients sur notre machine Linux :
+Some port redirections have been set up in order to access servers running on our virtual machine from clients on our Linux machine:
 
 | Service réseau | Port de la VM | Port sur la station Linux | Exemple d'utilisation depuis la station Linux |
 | -------------- | ------------- | ------------------------- | --------------------------------------------- |
@@ -140,7 +140,7 @@ Certaines redirections de port ont été mises en place afin de pouvoir accéder
 | HTTP           | 80            | 8080                      | URL: http://localhost:8080/                   |
 | HTTPS          | 443           | 4443                      | URL: https://localhost:4443/                  |
 | PostgreSQL     | 5432          | 5432                      | $ psql -h localhost -U postgres postgres      |
-- Pour tester si tout fonctionne, il faut accéder au compte utilisateur simple de la machine virtuelle par SSH. Ensuite, il faut passer au compte root (`su` et avec comme mot de passe le mot de passe root) puis installer un paquet Debian, par exemple, micro :
+- To test whether everything is working, you need to access the virtual machine's simple user account via SSH. Then switch to the root account (`su` and with the root password) and install a Debian package, e.g. micro:
 ```sh
 apt-get update
 apt-get install micro
@@ -148,35 +148,37 @@ apt-get install micro
 
 
 
-- Avant de continuer, il peut être intéressant d'examiner les informations concernant les systèmes de fichiers et les périphériques de stockage, y compris leurs emplacements, leurs points de montage dans l'arborescence de fichiers, leurs options de montage, et d'autres paramètres. La commande est :
+- Before proceeding, it may be worthwhile to examine information about file systems and storage devices, including their locations, mount points in the file tree, mount options, and other parameters. The command is:
 ```ssh
 /etc/fstab
 ```
 ![[Pasted image 20240606105709.png]]
 
-Avant de passer à l'installation des logiciels,  afficher l'état actuel du service `ssh` :
+Before proceeding with software installation, display the current status of the `ssh` service:
 ```ssh
 systemctl status ssh
 ```
 ![[Pasted image 20240606110456.png]]
 # Installation de logiciels
->[!warning] Privilèges root
->Pour la majorité des commandes qui suivent, il est nécessaire d'avoir tous les droits, notamment pour l'installation de logiciels. Pour pouvoir passer en root, exécuter la commande : `su`. Pour les commandes ne nécessitant pas de privilèges root, un `$` sera placé devant la commande
+>[!warning] Root privileges
+>Most of the commands below require full root privileges, especially for software installation. To become root, execute the command: `su`. For commands not requiring root privileges, a `$` will be placed in front of the command.
+
+⇒ By the way, vous avez besoin d'avoir votre machine virtuelle de lancée (**Recall command to start virtual machine:** `S2-03-lance-machine-virtuelle)
 ## Apache
-- Installer Apache2 en lançant les commandes suivantes :
+- Install Apache2 with the following commands:
 ```Shell
 apt install apache2
 service apache2 start
 ```
-- Exécuter la commande suivante pour vérifier que le logiciel est bien installé :
+- Run the following command to check that the software has been installed correctly:
 ```Shell
 systemctl status apache2
 ```
-- Si par malheur Apache n'a pas démarré :
+- If by chance Apache has not started:
 ```Shell
 systemctl start apache2
 ```
-- Il n'est pas possible d'afficher une page Web graphiquement (nous avons installé la machine virtuelle uniquement pour les lignes de commande). Il est cependant possible de se connecter  au serveur Apache avec la commande `telnet` et en entrant la chaîne de charactère `HEAD/HTTP/1.0` suivit de deux retours à la ligne :
+- It's not possible to display a Web page graphically (we've installed the virtual machine for command-line use only). However, it is possible to connect to the Apache server with the command `telnet` and enter the string `HEAD/HTTP/1.0` followed by two carriage returns:
 ```Shell
 $ telnet localhost 80 #Il faut taper
 Trying ::1...
@@ -188,40 +190,40 @@ HTTP/1.1 200 OK
 [...]
 ```
 
-- On peut également afficher la page Web sur la machine hôte. Pour cela, il faut rediriger un port de la machine hôte (`8080` par exemple) au port 80 (port par défaut des serveurs Web) sur la machine virtuelle. Il suffit maintenant de se connecter à l'URL suivante sur la machine hôte :
+- You can also display the Web page on the host machine.To do this, redirect a port on the host machine (e.g. `8080`) to port 80 (the default port for Web servers) on the virtual machine. Now simply connect to the following URL on the host machine:
 ```Link
 http://localhost:8080
 ```
-- Avant de passer à l'étape suivant, afficher l'état actuel du service :
+- Before proceeding to the next step, display the current service status:
 ```ssh
 systemctl status apache2
 ```
 ![[Pasted image 20240606110112.png]]
 ## PostgreSql
-- Installer PostgreSql en exécutant la commande :
+- Install PostgreSql by running the command :
 ```Shell
 apt install postgresql
 ```
-- Pour vérifier l'installation du logiciel, se connecter sur le compte postgres :
+- To check that the software has been installed, connect to the postgres account:
 ```Shell
 su - postgres
 ```
-- Pour faire appraître les bases de données par défaut, exécuter la commande :
+- To display the default databases, run the command :
 ```Shell
 psql -l
 ```
 
-Il est maintenant possible de faires quelques tâches simples, en se connectant localement au serveur postgreSQL (Commande `psql`) :
-1. **Créer un utilisateur avec comme nom votre login :** `CREATE USER votre_login WITH password = 'xxx'`
-2. **Créer une base dont le propriétaire est votre utilisateur :**
+It is now possible to perform a few simple tasks, by connecting locally to the postgreSQL server (Command `psql`) :
+1. **Create a user with your login name:** `CREATE USER your_login WITH password = 'xxx'`.
+2. **Create a database whose owner is your user:**
 ```SQL
 CREATE DATABASE ma_base WITH OWNER = votre_nom_uga;
 ```
-3. **Pour créer une table simple dans ma base de données, il faut que je me place dans cette base :**
+3. **To create a simple table in my database, I need to place myself in that database:**
 ```SQL
 \c ma_base
 ```
-4. **Créer une table :**
+4. **Create a table:**
 ```SQL
 CREATE TABLE ma_table (
     id SERIAL PRIMARY KEY,
@@ -229,78 +231,90 @@ CREATE TABLE ma_table (
     age INT
 );
 ```
-5. **Insérer quelques lignes :**
+5. **Insert a few lines:**
 ```SQL
 INSERT INTO ma_table (nom, age) VALUES ('Alice', 30);
 INSERT INTO ma_table (nom, age) VALUES ('Bob', 25);
 INSERT INTO ma_table (nom, age) VALUES ('Charlie', 35);
 ```
 
-- Effectuer une requête pour vérifier que les uplets ont bient été ajoutés
+- Run a query to check that uplets have been added soon
 ![[Interrogation SQL depuis machine virtuelle.png]]
 
-- Il faut maintenant modifier certains fichiers pour que cette base PostgreSQL soit accessible par une machine Linux. Pour se faire :
-	1. **Modifier `postgresql.conf` :**
-	   ⇒ Rechercher dans la catégorie *CONNECTIONS AND AUTHENTICATION* et décommenter la ligne `listen_addresses = '*'`
-	2. **Modifier `nano /etc/postgresql/15/main/pg_hba.conf` :**
-	   ⇒ Dans la catégorie *#IPv4 remote connections:*, ajouter la règle suivante : `host  all all 0.0.0.0/0 scram-sha-256`
-	3. Il faut maintenant repasser en **root** et relancer le serveur :
+- We now need to modify certain files so that this PostgreSQL database can be accessed by a Linux machine. To do this :
+	1. **Edit ` postgresql.conf` :**
+	   ⇒ Search in the category *CONNECTIONS AND AUTHENTICATION* and uncomment the line `listen_addresses = '*'`.
+	2. **Edit `nano /etc/postgresql/15/main/pg_hba.conf` :**
+	   ⇒ In the *#IPv4 remote connections:* category, add the following rule: `host all all 0.0.0.0/0 scram-sha-256`.
+	3. Now you need to switch back to **root** and restart the server:
 ```sh
 service postgresql restart
 ```
 
-- On peut maintenant se connecter à la base SQL depuis la station Linux hébergeant la machine virtuelle :
+- We can now connect to the SQL database from the Linux station hosting the virtual machine:
 ```sh
 psql -h localhost ma_base -U votre_nom_UGA
 ```
 
-- Dans la machine virtuelle, afficher de nouveau la liste des bases :
+- In the virtual machine, display the list of databases again:
 ```SQL
 psql -l
 ```
 ![[liste bases.png]]
 
-- On peut maintenant lister le contenu de la table `pg_shadow` pour vérifier que les mots de passe sont bien hâches avec **SHA-256**. Pour cela, sur la machine virtuelle, se connecter en postgres et exécuter la commande suivante  :
+- We can now list the contents of the `pg_shadow` table to check that the passwords are indeed hashed with **SHA-256**. To do this, on the virtual machine, connect to postgres and run the following command:
 ```SQL
 SELECT * FROM pg_shadow;
 ```
 ![[pg_shadow.png]]
-- Avant de passer à l'étape suivant, afficher l'état actuel du service :
+- Before proceeding to the next step, display the current service status:
 ```ssh
 systemctl status postgres
 ```
 ![[Pasted image 20240606110319.png]]
 ## Installer PHP
-- Installer PHP en exécutant les commandes suivantes tout en étant `root`
+- Install PHP by executing the following commands while `root`.
 ```sh
 apt install php-common libapache2-mod-php php-cli
 /etc/init.d/apache2 start
 ```
->[!info] `/etc/init.d/apache2 start` sert à lancer Apache quand il est installé et `/etc/init.d/apache2 stop` sert à l'arrêter
+>[!info] `/etc/init.d/apache2 start` is used to start Apache when it is installed, and `/etc/init.d/apache2 stop` is used to stop it.
 
-- Pour tester l'installation, placer un fichier `info.php` dans le répertoire `var/www/html/` (Commande `touch` possible ⇒ `touch var/www/html/info.php`) puis rentrer le code suivant :
+- To test the installation, place an `info.php` file in the `var/www/html/` directory (Command `touch` possible ⇒ `touch var/www/html/info.php`) then enter the following code:
 ```PHP
 <?php
 phpinfo();
 phpinfo(INFO_MODULES);
 ?>
 ```
-- Maintenant, revener sur votre machine hôte puis, dans votre navigateur Web, rentrez le lien suivant : `http://localhost:8080/info.php`. Normalement, une page contenant les caractéristiques principales de votre installation PHP devrait apparaître
+- Now return to your host machine and, in your web browser, enter the following link: `http://localhost:8080/info.php`. Normally, a page containing the main features of your PHP installation should appear
 
+![[Pasted image 20240606135933.png]]
 ## Installer PhpPgAdmin
--  Installer PhpPgAdmin en exécutant la commande suivante tout en étant `root` :
+-  Install PhpPgAdmin by executing the following command while `root` :
 ```sh
 apt -y install phppgadmin php-pgsql
 ```
--  Il faut maintenant modifier certains fichiers :
-1. **Modifier `etc/apache2/conf-enabled/phppgadmin.conf`**
-   ⇒ Dans la catégorie *Only allow connections from localhost*, enlever `Require local` et remplacer par `Require all granted`
-2. **Modifier `/usr/share/phppgadmin/classes/database/Connections.php` :**
-   ⇒ A la ligne 79, *ajouter PostgresSQL 15* : `cas '15' : return 'Postgres':break;` remplaçant la ligne `cas '14' : return 'Postgres':break;`
-- Relancer Apache2 pour appliquer les modifications :
+- Some files now need to be modified:
+1. **Edit `etc/apache2/conf-enabled/phppgadmin.conf`**.
+   ⇒ In the *Only allow connections from localhost* category, remove `Require local` and replace with `Require all granted`.
+2. **Edit `/usr/share/phppgadmin/classes/database/Connections.php` :**
+   ⇒ On line 79, *add PostgresSQL 15*: `case '15': return 'Postgres':break;` replacing line `case '14': return 'Postgres':break;`
+- Restart Apache2 to apply changes:
 ```sh
 systemctl reload apache2
 ```
-- Ouvrir une page internet et rentrer le lien `http://localhost/phppgadmin/`
-- Une fois sur la page, se connecter avec les identifiants crées pour votre user (Crées dans la partie installation de PostgresSQL) puis afficher la tables pour `ma_base` :
+- Open a web page and enter the link `http://localhost/phppgadmin/`.
+- Once you're on the page, log in with the credentials you created for your user (created in the PostgresSQL installation section), then display the tables for `my_base` :
 ![[phppgadmin.png]]
+
+# Transférer un fichier de la machine hôte à la machine virtuelle
+- Sur votre machine virtuelle, effectuer les commandes suivantes :
+```ssh
+/sbin/blkid
+scp -Crp loginUGA@transit.iut2.univ-grenoble-alpes.fr:/users/info/etu1a/loginUGA/Downloads/page_sae_S2.03.php /var/www/html
+```
+
+⇒ Cela permet de transférer un fichier dpuis votre machine hôte vers votre machine virtuelle
+
+![[Pasted image 20240606144416.png]]

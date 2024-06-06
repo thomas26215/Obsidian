@@ -103,7 +103,7 @@ $N^k=\sum^k_{i=1}M^i=M+M^2+...+M^k$ (Pour rappel, $M^*=\sum^\infty_{k=1}M^k$)
 
 
 ## Algo Warshall + plus court chemin
-Pour déterminer le plus court chemin d'un graphe, il faut tout d'abord définir le dioïde ([[Graphes#Exemple pour définir un monoïde pour un graphe|Exemple de définition]]) 
+Pour déterminer le plus court chemin d'un graphe, il faut tout d'abord définir le dioïde ([[Projets/En cours/Mega SAE/Graphes#Exemple pour définir un monoïde pour un graphe|Exemple de définition]]) 
 Ensuite il y plusieurs étapes :
 ### Initialisation
 La matrice initiale $G_0$ correspond à la matrice d'adjacence aux arcs du graphe
