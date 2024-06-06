@@ -2,50 +2,108 @@
 ## Préparation de l'image ISO
 
 ### Téléchargement et vérification de l'image ISO
-- L'image ISO et les fichiers permettant de <mark style="background: #FFB86CA6;">vérifier son intégrité</mark> sont disponibles ici `https://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/`
-- Dans notre cas, l'image ISO est déjà téléchargée et se trouve dans le répertoire `/usr/local/images-ISO/`. Vérifier son intégrité avec la commande suivante en comparant visuellement les deux traces (elles doivent être les mêmes) :
+- The ISO image and files for <mark style="background: #FFB86CA6;">verifying its integrity</mark> are available here `https://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/`
+- In our case, the ISO image has already been downloaded and is located in the `/usr/local/images-ISO/` directory. Check its integrity with the following command, visually comparing the two traces (they must be the same):
+
 ```Shell
 sha512sum /usr/local/images-ISO/image-iso.iso
 ```
 
 ## Installation de Debian
 ### Lancer l'installation de Debian
-- Démarrez la machine virtuelle en amorçant sur l'image ISO d'installation :
+- Boot the virtual machine on the installation ISO image:
 ```Shell
 S2.03-lance-installation
 ```
-	
-- Pour vérifier et modifier les paramètres de Qemu/KVM, ouvrez le fichier `S2.03-commun` :
+### Paramètres de lancements
+
+
+- To check and modify Qemu/KVM settings, open the file `S2.03-commun` :
 ```Shell
 nano /users/info/pub/bin/S2.03-commun
 ```
-	
-Les paramètres nécessaires sont déjà configurés dans ce fichier.
-### Suivez la procédure d'installation standard
-- Il faut maintenant suivre la procédure classique pour installer le système
+
+1. **Image path declaration** :
+```ssh
+image_locale="/donnees/TP-infobut/Debian-S2.03-$LOGNAME.img"
+image_nfs="/users/Stockage-HDD/images-kvm/S2.03/images/Debian-S2.03-$LOGNAME.img"
+```
+    
+2. **Image existence case management** :
+    
+	- If both images exist (local and NFS), the script displays an error message and stops.
+	- If no image exists, it creates a new 4 GB local image.
+	- If an image exists on the NFS server, it is used.
+	- If an image exists locally, it is used.
+
+```ssh
+if [ -e "$image_nfs" ] && [ -e "$image_locale" ]; then
+	echo "Situation anormale: Vous avez une image locale et une autre sur erebus4"
+	exit
+elif [ ! -e "$image_nfs" ] && [ ! -e "$image_locale" ]; then
+	echo "Création d'une image disque locale ..."
+	qemu-img create "$image_locale" 4G
+	sync
+	echo "Fini."
+fi
+if [ -e "$image_nfs" ]; then
+	image="$image_nfs"
+elif [ -e "$image_locale" ]; then
+	image="$image_locale"
+fi
+```
+
+    
+3. **Disk configuration for QEMU** :
+```ssh
+drive="format=raw,file=$image,discard=unmap
+```
+    
+4. **ISO path declaration** :
+```ssh
+iso=$(ls /usr/local/images-ISO/debian-*-netinst.iso)
+```
+    
+5. **(Commented) Launch of QEMU** :
+
+```ssh
+# qemu-system-x86_64 -drive $drive -cdrom $iso -boot d -m 2G
+```
+
+The script checks and creates the required disk image, chooses between a local image or one on NFS, configures the disk for QEMU, and prepares the ISO path for launching the virtual machine.
+
+### Follow the standard installation procedure
+- Now follow the standard procedure to install the system
 
 >[!Warning]
->Il faut installer Debian sans interface graphique. **C'est le choix le plus crucial !**
+>You need to install Debian without a graphical interface. **This is the most crucial choice !**
 
-- Voici les différentes étapes à réalise [Si rien n'est précisé, ne changez rien] :
 
-	- _Language_ : English
-	- _Location_ : other/Europe/France
-	- _Locales_ : United States, en_US.UTF-8
-	- _Keyboard_ : French
-	- **Hostname** : utilisez server-"VOTRE_LOGIN_UGA"
-	- **Root Password** : un mot de passe simple est conseillé, par exemple "root". Dans ce contexte, cela ne pose pas de problème de sécurité. Cocher la case "Show Password" pour être sûr que le mot de passe saisi est bien celui que vous voulez.
-	- _User Account_ - **Full Name** : votre nom complet, par exemple "Jean Toto"
-	- **User Name** : saisir votre nom de login UGA
-	- **User Password** : saisir un mot de passe simple, par exemple "etu". Cocher la case "Show Password" pour être sûr que le mot de passe saisi est bien celui que vous voulez.
+- Here are the steps to follow [If nothing is specified, leave it as is]:
+
+	- _Language_ : English
+	- _Location_ : other/Europe/France
+	- _Locales_ : United States, en_US.UTF-8
+	- _Keyboard_ : French
+	- **Hostname**: use server-"VOTRE_LOGIN_UGA
+	- **Root Password**: a simple password is recommended, e.g. “root”. In this context, this poses no security problem. Check the “Show Password” box to be sure that the password you enter is the one you want.
+	- _User Account_ - **Full Name**: your full name, e.g. “Jean Toto”.
+	- **User Name**: enter your UGA login name.
+
+![[Capture2.png]]
+- 
+	- **User Password** : enter a simple password, e.g. “etu”. Check the “Show Password” box to make sure you've entered the right password.
 	- _Partition disks_ : Guided - use entire disk
 	- _Partition disks_ : All files in one partition
 	- _Partition disks_ : Yes
-	- _Software Selection_ : vérifier que "Debian desktop" n'est pas coché et que "ssh server" est coché
+	- _Software Selection_ : check that “Debian desktop” is unchecked and that “ssh server” is checked
+
+![[Capture3.png]]
+- 
 	- _Install GRUB_ : Yes
 	- _Device for boot loader_ : `/dev/sda`  
 
-⇒ Cela étant fait la machine virtuelle se lance. **Il faut maintenant éteindre la machine avant de pourvoir passer à l'étape suivante !** Il faut pour cela se logger sur le compte root (==Identifiant = Hostname et Mdp = Password==) et exécuter la commande `# poweroff` pour éteindre proprement la machine.
+⇒ The virtual machine is now launched. **Now it's time to shut down the machine before moving on to the next step!** To do this, log on to the root account and run the command `# poweroff` to shut down the machine cleanly.
  
 >[!info]
 >A partir de maintenant, c'est cette commande (`# poweroff`) qu'il faut utiliser pour éteindre la machine virtuelle
@@ -88,6 +146,19 @@ apt-get update
 apt-get install micro
 ```
 
+
+
+- Avant de continuer, il peut être intéressant d'examiner les informations concernant les systèmes de fichiers et les périphériques de stockage, y compris leurs emplacements, leurs points de montage dans l'arborescence de fichiers, leurs options de montage, et d'autres paramètres. La commande est :
+```ssh
+/etc/fstab
+```
+![[Pasted image 20240606105709.png]]
+
+Avant de passer à l'installation des logiciels,  afficher l'état actuel du service `ssh` :
+```ssh
+systemctl status ssh
+```
+![[Pasted image 20240606110456.png]]
 # Installation de logiciels
 >[!warning] Privilèges root
 >Pour la majorité des commandes qui suivent, il est nécessaire d'avoir tous les droits, notamment pour l'installation de logiciels. Pour pouvoir passer en root, exécuter la commande : `su`. Pour les commandes ne nécessitant pas de privilèges root, un `$` sera placé devant la commande
@@ -121,7 +192,11 @@ HTTP/1.1 200 OK
 ```Link
 http://localhost:8080
 ```
-
+- Avant de passer à l'étape suivant, afficher l'état actuel du service :
+```ssh
+systemctl status apache2
+```
+![[Pasted image 20240606110112.png]]
 ## PostgreSql
 - Installer PostgreSql en exécutant la commande :
 ```Shell
@@ -190,6 +265,11 @@ psql -l
 SELECT * FROM pg_shadow;
 ```
 ![[pg_shadow.png]]
+- Avant de passer à l'étape suivant, afficher l'état actuel du service :
+```ssh
+systemctl status postgres
+```
+![[Pasted image 20240606110319.png]]
 ## Installer PHP
 - Installer PHP en exécutant les commandes suivantes tout en étant `root`
 ```sh

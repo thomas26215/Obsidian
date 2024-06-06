@@ -33,8 +33,12 @@
             "id": "ac0752cbe8f8dcf4",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projets/Finish/Grand oral maths.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -50,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 9.md",
+                "file": "Projets/Finish/Grand oral maths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 9.md",
+                "file": "Projets/Finish/Grand oral maths.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 9.md"
+                "file": "Projets/Finish/Grand oral maths.md"
               }
             }
           },
@@ -166,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 9.md",
+                "file": "Projets/Finish/Grand oral maths.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,7 +225,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Untitled 9.md"
+                "file": "Projets/Finish/Grand oral maths.md"
               }
             }
           },
@@ -262,8 +266,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "35eecb7262cfaf73",
+  "active": "ac0752cbe8f8dcf4",
   "lastOpenFiles": [
+    "Projets/Finish/Grand oral NSI - Kotlin.md",
+    "Projets/Statistiques.md",
+    "Projets/En cours/SAE 2.03.md",
+    "Pasted image 20240606110456.png",
+    "Pasted image 20240606110346.png",
+    "Pasted image 20240606110319.png",
+    "MOOC/Little MOCS/Prise de parole orale.md",
+    "Pasted image 20240606110112.png",
+    "Pasted image 20240606105709.png",
+    "Capture3.png",
+    "Capture2.png",
     "Untitled 9.md",
     "Excalidraw/Drawing 2024-06-05 16.15.21.excalidraw.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
@@ -284,23 +299,12 @@
     "Projets/En cours/Projet Voltaire.md",
     "Permanent/Programmation/Faire ses premiers commit.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Projets/En cours/SAE 2.03.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
     "Excalidraw/Drawing 2024-06-05 00.32.10.excalidraw.md",
-    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "backdrop2.png",
     "phppgadmin.png",
     "pg_shadow.png",
-    "liste bases.png",
-    "Interrogation SQL depuis machine virtuelle.png",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Inbox/td réseau.pdf",
-    "Pasted image 20240601145431.png",
-    "Pasted image 20240601142253.png",
-    "Pasted image 20240531102434.png",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
     "cours_3.pdf",
