@@ -1,0 +1,13 @@
+J'ai choisi le parcours A pour de nombreuses raisons. Tout d'abord, la programmation me passionne. J'ai découvert ce domaine en classe de 6e avec Scratch, puis j'ai continué à explorer en apprenant Python en 3e et Java en Terminale. J'adore apprendre par moi-même, et c'est ainsi que j'ai approfondi mes connaissances en Java et en Python.
+
+Mon expérience en codage est déjà solide. En Terminale, j'ai réalisé une application mobile en utilisant Java avec l'IDE Android Studio. Ce projet m'a permis de me familiariser avec le développement Android, notamment le système d'activité, les vues et le cycle de vie d'une application. En parallèle, j'ai découvert JavaFX et FXML lors de ma première année de BUT, ce qui m'a motivé à développer un petit jeu 2D en utilisant ces bibliothèques.
+
+Je consacre une grande partie de mon temps libre à coder, que ce soit le matin, le soir ou parfois même la nuit. La programmation est pour moi une véritable passion et un moyen d'expression. Mon objectif ultime est de devenir développeur, et je suis déterminé à y parvenir, quelles que soient les difficultés.
+
+Cependant, je suis bien conscient qu'il me reste encore beaucoup à apprendre. Les cours du BUT en informatique offrent une richesse de connaissances et de compétences que je suis impatient d'acquérir. Je sais que je n'ai pas encore toutes les réponses et que chaque jour est une opportunité d'approfondir mes connaissances et d'améliorer mes compétences. Je reste humble face à l'ampleur du domaine et enthousiaste à l'idée de tout ce qu'il me reste à découvrir.
+
+Au-delà de mes projets personnels, je suis toujours à l'affût des nouvelles technologies et des tendances dans le domaine du développement. J'aime participer à des forums de développeurs et suivre des tutoriels en ligne pour en apprendre toujours plus. Ces activités me permettent de rester à jour et d'élargir constamment mes compétences.
+
+J'aime aussi apprendre en utilisant des plateformes d'apprentissage comme france.ioi, Codingame, ou CodeCombat. J'ai également participé à de nombreuses reprises au concours Algorea, où j'ai atteint le troisième tour en utilisant Python lorsque j'étais en classe de seconde.
+
+Choisir ce parcours me semble être la suite logique de mon engagement et de ma passion pour la programmation. Je sais qu'il me reste de nombreuses compétences à apprendre et je suis convaincu que cette formation me donnera les outils et les connaissances nécessaires pour exceller dans ce domaine et réaliser mon rêve de devenir développeur.

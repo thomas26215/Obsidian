@@ -4,64 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9ae32bc78e6a22eb",
+        "id": "5d9350d463aaac3b",
         "type": "tabs",
         "children": [
           {
-            "id": "aa5363e50e712e1f",
+            "id": "3d6d47468189d889",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Projets/En cours/Choix de parcours.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c4d1a5debe909379",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-05 16.15.21.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "ac0752cbe8f8dcf4",
+            "id": "dbbd1495ec41df1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/Finish/Grand oral maths.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "806519c954ae3fa2",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "35eecb7262cfaf73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "complexité",
+                "query": "202.0.64",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -127,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -177,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md",
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -232,7 +204,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/SAE 2.03.md"
+                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md"
               }
             }
           },
@@ -273,18 +245,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aa5363e50e712e1f",
+  "active": "9d9abe3d10c97f30",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Projets/En cours/Choix de parcours.md",
+    "Projets/En cours/Projet Voltaire.md",
+    "Projets/Finish/Statistiques.md",
+    "Projets/Finish/SAE 2.03.md",
+    "Projets/Finish/P2.01.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+    "Projets/Finish/Grand oral maths.md",
+    "Excalidraw/Drawing 2024-06-05 16.15.21.excalidraw.md",
     "Pasted image 20240606144416.png",
     "Pasted image 20240606144404.png",
     "Pasted image 20240606135933.png",
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-    "Projets/Finish/Grand oral maths.md",
     "Permanent/Cours/Cours/Semestre 2/Graphes.md",
-    "Projets/En cours/SAE 2.03.md",
-    "Excalidraw/Drawing 2024-06-05 16.15.21.excalidraw.md",
     "Projets/Finish/Grand oral NSI - Kotlin.md",
-    "Projets/Statistiques.md",
     "Pasted image 20240606110456.png",
     "Pasted image 20240606110346.png",
     "Pasted image 20240606110319.png",
@@ -293,7 +270,6 @@
     "Pasted image 20240606105709.png",
     "Capture3.png",
     "Capture2.png",
-    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
     "Untitled 8.md",
     "Permanent/Cours/TD/Semestre 2/TD1(2).md",
@@ -306,11 +282,7 @@
     "Projets/Finish/Anglais rendu.md",
     "Projets/Finish/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Projets/Finish/Mega SAE maths.md",
-    "Projets/En cours/P2.01.md",
-    "Projets/En cours/Projet Voltaire.md",
     "Permanent/Programmation/Faire ses premiers commit.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "backdrop2.png",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
