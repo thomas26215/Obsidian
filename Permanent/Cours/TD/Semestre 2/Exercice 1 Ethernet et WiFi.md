@@ -83,6 +83,7 @@ bit a bit : $0010000110000000 = 33.128$
 
 
 # Exo 4
+
 ## Partie 2
 1. Port source = 12345
    Port destination = 8888

@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d6d47468189d889",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Choix de parcours.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dbbd1495ec41df1a",
             "type": "leaf",
             "state": {
@@ -30,9 +18,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a0674b4d38f117b0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "7e6ddc09ac093c9d",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,11 +249,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9d9abe3d10c97f30",
+  "active": "dbbd1495ec41df1a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Projets/Finish/Choix de parcours.md",
     "MOOC/Big MOCS/Cours.md",
-    "Projets/En cours/Choix de parcours.md",
     "Projets/En cours/Projet Voltaire.md",
     "Projets/Finish/Statistiques.md",
     "Projets/Finish/SAE 2.03.md",
@@ -282,7 +287,6 @@
     "Projets/Finish/Anglais rendu.md",
     "Projets/Finish/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
     "Projets/Finish/Mega SAE maths.md",
-    "Permanent/Programmation/Faire ses premiers commit.md",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
