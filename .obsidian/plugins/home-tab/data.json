@@ -24,8 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+      "timestamp": 1717772079254
+    },
+    {
       "filepath": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-      "timestamp": 1717740312093
+      "timestamp": 1717767215633
     },
     {
       "filepath": "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "MOOC/Big MOCS/Cours.md",
       "timestamp": 1717688381453
-    },
-    {
-      "filepath": "Projets/En cours/Projet Voltaire.md",
-      "timestamp": 1717683945944
     }
   ],
   "starredFileStore": [],
