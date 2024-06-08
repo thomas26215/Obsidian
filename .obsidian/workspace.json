@@ -23,9 +23,11 @@
             "id": "a0674b4d38f117b0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md"
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -40,9 +42,27 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5a543a9c1f6d3e95",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
+              }
+            }
+          },
+          {
+            "id": "13aba2fcf8f0df1f",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,12 +274,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7e6ddc09ac093c9d",
+  "active": "a0674b4d38f117b0",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-    "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
-    "Projets/Finish/Choix de parcours.md",
     "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
+    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
+    "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
+    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
+    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
+    "Projets/Finish/Choix de parcours.md",
     "Projets/En cours/Projet Voltaire.md",
     "Projets/Finish/Statistiques.md",
     "Projets/Finish/SAE 2.03.md",
@@ -278,8 +305,6 @@
     "MOOC/Little MOCS/Prise de parole orale.md",
     "Pasted image 20240606110112.png",
     "Pasted image 20240606105709.png",
-    "Capture3.png",
-    "Capture2.png",
     "Permanent/Cours/TD/Semestre 2/Bilan et compte de résultat.md",
     "Untitled 8.md",
     "Permanent/Cours/TD/Semestre 2/TD1(2).md",
@@ -287,11 +312,6 @@
     "Permanent/Cours/TD/Semestre 2/TD IHM.md",
     "Permanent/Cours/TD/Semestre 2/Les systèmes d'informations.md",
     "Projets/En cours/Mega SAE/IHM.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
-    "Projets/Finish/SAE2.04/Compte-rendu.md",
-    "Projets/Finish/Anglais rendu.md",
-    "Projets/Finish/En quelles mesures cete image me montre la robustesse de cette valise ?.md",
-    "Projets/Finish/Mega SAE maths.md",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",

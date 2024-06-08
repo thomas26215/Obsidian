@@ -59,7 +59,7 @@ Non fiable
 - Pas de gestion de duplication ou perte données
 - Pas de garantie que tous paquets parvenus à destination
 
-# TPC
+# TCP
 C'est une couche logicielle masquant aux applis contraintes du réseau
 Service de transport fiable en mode flot d'octet
 
