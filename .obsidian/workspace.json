@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "f560aa028335ce5e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
             "id": "7e6ddc09ac093c9d",
             "type": "leaf",
             "state": {
@@ -57,12 +67,16 @@
             "id": "13aba2fcf8f0df1f",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Collections Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -128,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Collections Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Collections Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+                "file": "Collections Java.md"
               }
             }
           },
@@ -178,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Collections Java.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -233,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+                "file": "Collections Java.md"
               }
             }
           },
@@ -274,8 +288,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a0674b4d38f117b0",
+  "active": "13aba2fcf8f0df1f",
   "lastOpenFiles": [
+    "Projets/En cours/Mega SAE/Graphes.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+    "Collections Java.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
@@ -291,7 +308,6 @@
     "Projets/Finish/Statistiques.md",
     "Projets/Finish/SAE 2.03.md",
     "Projets/Finish/P2.01.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Projets/Finish/Grand oral maths.md",
     "Excalidraw/Drawing 2024-06-05 16.15.21.excalidraw.md",
     "Pasted image 20240606144416.png",
@@ -310,8 +326,6 @@
     "Permanent/Cours/TD/Semestre 2/TD1(2).md",
     "Permanent/Cours/TD/Semestre 2/IHM - Ergonomie des interfaces.md",
     "Permanent/Cours/TD/Semestre 2/TD IHM.md",
-    "Permanent/Cours/TD/Semestre 2/Les systèmes d'informations.md",
-    "Projets/En cours/Mega SAE/IHM.md",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",

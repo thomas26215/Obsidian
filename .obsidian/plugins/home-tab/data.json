@@ -24,8 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Collections Java.md",
+      "timestamp": 1717942608819
+    },
+    {
+      "filepath": "Projets/En cours/Mega SAE/Graphes.md",
+      "timestamp": 1717942608433
+    },
+    {
       "filepath": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-      "timestamp": 1717857379383
+      "timestamp": 1717941355254
     },
     {
       "filepath": "MOOC/Big MOCS/Cours.md",
@@ -34,14 +42,6 @@
     {
       "filepath": "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
       "timestamp": 1717854690904
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-      "timestamp": 1717854684120
-    },
-    {
-      "filepath": "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
-      "timestamp": 1717853738239
     }
   ],
   "starredFileStore": [],
