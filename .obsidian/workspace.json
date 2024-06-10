@@ -103,8 +103,12 @@
             "id": "381f70fbfd8a0405",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -185,6 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,6 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +228,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+              }
             }
           },
           {
@@ -231,6 +239,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -284,7 +293,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+              }
             }
           },
           {

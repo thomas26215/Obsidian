@@ -7,13 +7,12 @@ tags:
 Complete: false
 Learned: false
 ---
-
 # Concepts algébriques
 ## Monoïdes
 Structure algébrique $(E,\oplus)$ défini par :
 - **$\oplus$ est un loi interne :** Une opération binaire définie sur une ensemble, qui prend deux éléments de cet ensemble et qui renvoie un autre élément de cet ensemble.    *Exemple :* Addition sur les entiers → $\forall a,b\in\mathbb{R}, a+b\in\mathbb{R}$
 - **Associativité :** $(\forall x, y, z\in E^3), (x\oplus(y\oplus z)=(x\oplus y)\oplus z) ⇒ x\oplus y\oplus z$
-- **Elément neutre :** Il existe un élément $(e\in E)$ tel que pour tout $(x\in E),(x\oplus e=e \oplus x=x)$. En gros, c'est un élément qui n'agit sur rien
+- **Elément neutre :** Il existe un élément $(e\in E)$ tel que  $\forall(x\in E),(x\oplus e=e \oplus x=x)$. En gros, c'est un élément qui n'agit sur rien
   *Exemple* : Elément neutre de + est 0 car $x+0=0$
 
 >[!info]
@@ -73,17 +72,17 @@ Algo Warshall : gloabal
 Algo Ford-Belman : Local : (fixé l'origine)
 
 ## Algo Ford-Belman
+Il faut définir un dioïde (Exemple : D = $(\mathbb{R}_+, min, +$)) pour calculer le plus court chemin ($+$ qui permet de calculer la valeur des arcs pour un chemin et $min$ qui permet de récupérer le plus petit chemin possible d'un point  vers un autre)
 Soit $G=(S,A,v)$ un graphe simple valuée dans le dioïde $(E, \oplus, \otimes)$
 Soit $M$ la matrice d'incidence aux sommets
-Soit $k\in\mathbb{N}^*$, $M^k=M\otimes M\otimes...\otimes M=\Pi^k_{i=1}M$
 $N^k=\sum^k_{i=1}M^i=M+M^2+...+M^k$ (Pour rappel, $M^*=\sum^\infty_{k=1}M^k$)
 **Propriété :** 
 1. $n_{ij}^k$ représente la valuation d'un meilleur chemin d'origine $i$ et d'extrémité $j$ ayant au plus $k$ arcs
-2. $\oplus$ idem potent ⇒ $N^{(k)}=N^{(k-1)}\otimes(I\oplus M)$ 
+2. Sachant que $\oplus$ est idem potent ⇒ $N^{(k)}=N^{(k-1)}\otimes(I\oplus M)$ 
 
 <mark style="background: #FF5582A6;">Algorithme :</mark>
 1. **Initialisation**
-   $L^{(0)}=I\otimes M$ où I est la matrice identité
+   $L^{(0)}=I\oplus M$ où $I$ est la matrice identité
 2. **Itérations**
    $L^{(k)}=L^{(k-1)}\otimes(I\oplus M)$ où $L^{(k)}$ est la ligne de $N{'k}$ correspond au sommet origine choisit
 3. **Arrêt**
