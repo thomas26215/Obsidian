@@ -100,6 +100,14 @@
             }
           },
           {
+            "id": "381f70fbfd8a0405",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "bba4326243afe150",
             "type": "leaf",
             "state": {
@@ -110,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -177,7 +185,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +201,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,9 +222,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md"
-              }
+              "state": {}
             }
           },
           {
@@ -227,7 +231,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,9 +284,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md"
-              }
+              "state": {}
             }
           },
           {
@@ -323,8 +324,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf3869cd43d68204",
+  "active": "381f70fbfd8a0405",
   "lastOpenFiles": [
+    "Permanent/Autre/Caractériser une entreprise.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Charges, produits, compte de résultat.md",
     "Permanent/Cours/TD/Semestre 2/Untitled.md",
@@ -353,7 +355,6 @@
     "Projets/En cours/Projet Voltaire.md",
     "Projets/Finish/Statistiques.md",
     "Projets/Finish/SAE 2.03.md",
-    "Projets/Finish/P2.01.md",
     "Pasted image 20240606144416.png",
     "Pasted image 20240606144404.png",
     "Pasted image 20240606135933.png",
