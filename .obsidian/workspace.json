@@ -112,6 +112,26 @@
             }
           },
           {
+            "id": "ad09967eacb05137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9a11efde2d5a36c",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "bba4326243afe150",
             "type": "leaf",
             "state": {
@@ -122,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -151,7 +171,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "activité",
+                "query": "dopa$",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,7 +209,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +225,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,9 +246,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -239,7 +255,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,9 +308,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -335,8 +348,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "381f70fbfd8a0405",
+  "active": "d9a11efde2d5a36c",
   "lastOpenFiles": [
+    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
+    "Permanent/Neuroscience/Le fonctionnement de la dopamine.md",
+    "Ressources/Ressource 3/Les effets de la dopamine.md",
+    "Ressources/Ressource 3/La dopamine.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Permanent/Autre/Caractériser une entreprise.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Charges, produits, compte de résultat.md",
@@ -352,7 +370,6 @@
     "Littéraire/La règle d'or pour avoir de l'impact.md",
     "Collections Java.md",
     "Projets/En cours/Mega SAE/Graphes.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
     "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
@@ -362,10 +379,6 @@
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-    "Projets/Finish/Choix de parcours.md",
-    "Projets/En cours/Projet Voltaire.md",
-    "Projets/Finish/Statistiques.md",
-    "Projets/Finish/SAE 2.03.md",
     "Pasted image 20240606144416.png",
     "Pasted image 20240606144404.png",
     "Pasted image 20240606135933.png",
