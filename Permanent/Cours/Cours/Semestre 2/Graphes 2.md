@@ -29,7 +29,7 @@ Structure algébrique $(E, \oplus$, $\otimes$), $E$ un ensemble non-vide et $\op
 - $(E,\oplus)$ un monoïde abélien (On note $z$ son élement neutre)
 - $(E,\otimes$) un monoïde abélien (On note $e$ son élement neutre)
 - $\otimes$ est **distributive** à $\oplus$
-- $z$ est **absorbant** à $\otimes$ ⇒ $\forall x\in E, z\otimes x=x\otimes z=z$
+- $z$ est **absorbant** à $\opu$lus $\forall x\in E, z\otimes x=x\otimes z=z$
 - **Idempotent** : si $\forall x\in\mathbb{D},x\oplus x=x$
 - **Propriété d'absorption** : Pour les opérations $\oplus$ et $\otimes$, l'opération $\otimes$ respecte certaines règles d'absorption par rapport à $\oplus$
 
