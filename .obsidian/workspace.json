@@ -13,21 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Permanent/Programmation/Java/Les exceptions en Java.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "954bb328652f956d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Les loggers Java.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ad643442529825ae",
+            "id": "dd359db9581933b1",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Comparator et Comparable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61030a81005ef886",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test unitaires en Java.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Test unitaires en Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Test unitaires en Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+                "file": "Test unitaires en Java.md"
               }
             }
           },
@@ -143,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+                "file": "Test unitaires en Java.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -198,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md"
+                "file": "Test unitaires en Java.md"
               }
             }
           },
@@ -239,48 +268,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e14fac8690f8da8e",
+  "active": "61030a81005ef886",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-    "Projets/En cours/Mega SAE/Graphes.md",
-    "Daily note/2024-06-10.md",
-    "Daily note/2024-06-11.md",
-    "Daily note/2023-12-18.md",
-    "Excalidraw/Drawing 2024-06-10 23.50.02.excalidraw.md",
-    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
-    "Permanent/Neuroscience/Le fonctionnement de la dopamine.md",
-    "Ressources/Ressource 3/Les effets de la dopamine.md",
-    "Ressources/Ressource 3/La dopamine.md",
-    "Permanent/Autre/Caractériser une entreprise.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/TD/Semestre 2/Charges, produits, compte de résultat.md",
-    "Permanent/Cours/TD/Semestre 2/Untitled.md",
-    "Permanent/Cours/TD/Semestre 2/Le compte de résultat.md",
-    "Littéraire/Untitled.md",
-    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
-    "Excalidraw/Ma journée idéale.md",
-    "Untitled 9.md",
-    "Pasted image 20240609195607.png",
-    "Littéraire/Comment vivre de sa créativité en 2024.md",
-    "Littéraire/La seule qualité à développer pour impacter.md",
-    "Littéraire/La règle d'or pour avoir de l'impact.md",
+    "Test unitaires en Java.md",
+    "Comparator et Comparable.md",
     "Collections Java.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
-    "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
-    "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
-    "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "Pasted image 20240606144416.png",
-    "Pasted image 20240606144404.png",
-    "Pasted image 20240606135933.png",
-    "Pasted image 20240606110456.png",
-    "Pasted image 20240606110346.png",
-    "Pasted image 20240606110319.png",
-    "Pasted image 20240606110112.png",
+    "Permanent/Programmation/Java/Les exceptions en Java.md",
+    "Permanent/Programmation/Java/Création de ses propres exceptions.md",
+    "Permanent/Programmation/Java/Gestion des exceptions en Java.md",
+    "Permanent/Programmation/Java/La hiérarchie des exceptions.md",
+    "Permanent/Programmation/Java/Les types d'exceptions.md",
+    "Les loggers Java.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "Permanent/Programmation/General/Définition - Algorithme.md",
+    "Permanent/Programmation/JavaFX/Associer une action du FXML au Controller.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Untitled 9.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+    "Richard Feymann.md",
+    "Untitled 5.md",
+    "Untitled 7.md",
+    "Untitled 6.md",
+    "Untitled 4.md",
+    "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
+    "stat.md",
+    "statiquement typé.md",
+    "Untitled 1.md",
+    "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
+    "Images/cours_3.pdf",
+    "Images/Pasted image 20240528013351.png",
+    "Images/Pasted image 20240606144416.png",
+    "Images/Capture2.png",
+    "Untitled 8.md",
+    "Gestion de projet - Notion de contrainte et de risques.md",
+    "TD02 IHM.md",
+    "Images/Pasted image 20240609195607.png",
+    "Images/Pasted image 20240606144404.png",
+    "Images/Pasted image 20240606135933.png",
+    "Images/Pasted image 20240606110456.png",
+    "Images/Pasted image 20240606110346.png",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
-    "cours_3.pdf",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Mega SAE",
     "Excalidraw",
