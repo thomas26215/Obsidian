@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad643442529825ae",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -233,10 +241,10 @@
   },
   "active": "e14fac8690f8da8e",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Projets/En cours/Mega SAE/Graphes.md",
     "Daily note/2024-06-10.md",
     "Daily note/2024-06-11.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Daily note/2023-12-18.md",
     "Excalidraw/Drawing 2024-06-10 23.50.02.excalidraw.md",
     "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
