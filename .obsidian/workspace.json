@@ -4,145 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5d9350d463aaac3b",
+        "id": "32cf2ecb32a8f285",
         "type": "tabs",
         "children": [
           {
-            "id": "dbbd1495ec41df1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0674b4d38f117b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f560aa028335ce5e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "7e6ddc09ac093c9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a543a9c1f6d3e95",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.2"
-              }
-            }
-          },
-          {
-            "id": "13aba2fcf8f0df1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Collections Java.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff14ac50c5195133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Littéraire/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf3869cd43d68204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Autre/Caractériser une entreprise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "381f70fbfd8a0405",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad09967eacb05137",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9a11efde2d5a36c",
+            "id": "e14fac8690f8da8e",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
             }
-          },
-          {
-            "id": "bba4326243afe150",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Ma journée idéale.md"
-              }
-            }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -348,13 +220,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9a11efde2d5a36c",
+  "active": "e14fac8690f8da8e",
   "lastOpenFiles": [
+    "Daily note/2024-06-10.md",
+    "Daily note/2024-06-11.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+    "Daily note/2023-12-18.md",
+    "Excalidraw/Drawing 2024-06-10 23.50.02.excalidraw.md",
     "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
     "Permanent/Neuroscience/Le fonctionnement de la dopamine.md",
     "Ressources/Ressource 3/Les effets de la dopamine.md",
     "Ressources/Ressource 3/La dopamine.md",
-    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
     "Permanent/Autre/Caractériser une entreprise.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TD/Semestre 2/Charges, produits, compte de résultat.md",
@@ -373,12 +249,8 @@
     "Permanent/Cours/Cours/Semestre 2/Protocole TCP et UDP.md",
     "Permanent/Cours/Cours/Semestre 2/HTTP et DHCP.md",
     "Excalidraw/Drawing 2024-06-06 23.24.56.excalidraw.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
     "rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
-    "Permanent/Cours/TD/Semestre 2/Exercice 1 Ethernet et WiFi.md",
     "Pasted image 20240606144416.png",
     "Pasted image 20240606144404.png",
     "Pasted image 20240606135933.png",
