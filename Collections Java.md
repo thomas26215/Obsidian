@@ -62,9 +62,53 @@ HashMap<Integer, String> map = new HashMap<>();
 HashMap<Integer, String> mapWithCapacity = new HashMap<>(50);
 ```
 
-⇒ Définit une structure de données qui stocke des valeurs de paires clé-valeur
+⇒ Définit une structure de données qui stocke des valeurs de paires clé-valeur. C'est un implémentation de l'interface `Map`
 
 Voici les différentes fonctions :
 - `map.put(clé, valeur);`
 - `map.get(clé);` ⇒ Renvoie la valeur de la clé
 - `map.remove(clé)` ⇒ Supprime la clé avec la paire
+- `map.containsKey(cle)` ⇒ Vérification de la présence d'une clé
+- `map.containsValue(value)` ⇒ Vérification de la présence d'une valeur
+
+Il est possible de parcourir la HashMap :
+
+```java
+/*
+ * Solution 1 : par les clés
+ */
+for (String key : map.keySet()) {
+	System.out.println("Key: " + key + ", Value: " + map.get(key));
+}
+/*
+ * Solution 2 : par les valeurs
+ */
+for (Integer value : map.values()) {
+    System.out.println("Value: " + value);
+}
+/*
+ * Solution 3 : Par les entrées (clé-valeur)
+ */
+for (Map.Entry<String, Integer> entry : map.entrySet()) {
+	System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+}
+```
+
+
+D'autres méthodes courantes :
+- `.size();` ⇒ Récupérer la taille du `HashMap`
+- `.isEmpty();` ⇒ Vérifie si champs vide
+- `.clear();` ⇒ Supprime toutes les entrées
+- `.putAll(Map<? extends K, ? extends V> m);`
+
+
+# TreeSet
+Un TreeSet est une structure de données permettant de stocker des éléments uniques dans un ordre trié.
+
+## Création d'un TreeSet
+Pour créer un TreeSet, on peut utiliser le constructeur par défaut ou bien spécifier un comparateur pour un ordre personnalisé :
+```Java
+public class Main {
+	public static void main(String[] args) {
+	// Création d'un TreeSet avec ordre naturel TreeSet<String> set = new TreeSet<>(); // Avec un comparateur personnalisé TreeSet<String> setWithComparator = new TreeSet<>((s1, s2) -> s2.compareTo(s1)); // Ordre décroissant } }
+```
