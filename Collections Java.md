@@ -110,5 +110,36 @@ Pour créer un TreeSet, on peut utiliser le constructeur par défaut ou bien sp�
 ```Java
 public class Main {
 	public static void main(String[] args) {
-	// Création d'un TreeSet avec ordre naturel TreeSet<String> set = new TreeSet<>(); // Avec un comparateur personnalisé TreeSet<String> setWithComparator = new TreeSet<>((s1, s2) -> s2.compareTo(s1)); // Ordre décroissant } }
+	// Création d'un TreeSet avec ordre naturel
+	TreeSet<String> set = new TreeSet<>();
+	// Avec un comparateur personnalisé
+	TreeSet<String> setWithComparator = new TreeSet<>((s1, s2) -> s2.compareTo(s1)); // Ordre décroissant
+	}
+}
+```
+
+Pour redéfinir l'ordre naturel, il faut utiliser l'[[Interface Comparable]] et si l'on souhaite définir un ordre différent de l'ordre naturel, utiliser l'[[L'interface Comparator]]
+
+Voici les différentes méthodes  :
+- `add` ⇒ Ajouter un élément
+- `remove` ⇒ Supprimer un élément
+
+
+Parcourir les éléments du TreeSet
+```java
+public class Main {
+	public static void main(String[] args)
+		{ TreeSet<String> set = new TreeSet<>();
+		set.add("apple");
+		set.add("banana");
+		set.add("cherry"); // Parcours avec une boucle for-each
+		for (String fruit : set){
+			System.out.println("Fruit: " + fruit);
+		} // Parcours avec un itérateur
+		Iterator<String> iterator = set.iterator();
+		while (iterator.hasNext()){
+			System.out.println("Fruit: " + iterator.next());
+		}
+	}
+}
 ```
