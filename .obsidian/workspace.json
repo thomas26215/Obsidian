@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Programmation.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "mode": "preview",
                 "source": false
               }
@@ -54,9 +54,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89deff251e8a040b",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "La structure d'un commentaire JavaDoc.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "La structure d'un commentaire JavaDoc.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "La structure d'un commentaire JavaDoc.md"
+                "file": "MOOC/Big MOCS/Cours.md"
               }
             }
           },
@@ -172,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "La structure d'un commentaire JavaDoc.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +235,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "La structure d'un commentaire JavaDoc.md"
+                "file": "MOOC/Big MOCS/Cours.md"
               }
             }
           },
@@ -268,10 +276,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33177fca2b8bbb76",
+  "active": "e2367a780d41486d",
   "lastOpenFiles": [
-    "La structure d'un commentaire JavaDoc.md",
     "MOOC/Big MOCS/Programmation.md",
+    "La structure d'un commentaire JavaDoc.md",
     "Permanent/Programmation/Java/Comparator et Comparable.md",
     "Permanent/Programmation/Java/Les exceptions en Java.md",
     "Permanent/Programmation/Java/Test unitaires en Java.md",
