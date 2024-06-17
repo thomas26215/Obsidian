@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Programmation/Java/L'interface Comparator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -59,8 +59,12 @@
             "id": "89deff251e8a040b",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -130,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md"
+                "file": "Permanent/Programmation/Java/Les loggers Java.md"
               }
             }
           },
@@ -180,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -235,7 +239,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md"
+                "file": "Permanent/Programmation/Java/Les loggers Java.md"
               }
             }
           },
@@ -276,8 +280,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e2367a780d41486d",
+  "active": "89deff251e8a040b",
   "lastOpenFiles": [
+    "Collections Java.md",
+    "Java - fonctions utiles.md",
+    "Permanent/Programmation/Java/L'interface Comparator.md",
+    "MOOC/Big MOCS/Cours.md",
     "MOOC/Big MOCS/Programmation.md",
     "La structure d'un commentaire JavaDoc.md",
     "Permanent/Programmation/Java/Comparator et Comparable.md",
@@ -286,9 +294,6 @@
     "Permanent/Programmation/Java/Tests unitaires avec JUnit5.md",
     "Permanent/Programmation/Java/Les loggers Java.md",
     "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
-    "Collections Java.md",
-    "Java - fonctions utiles.md",
-    "Permanent/Programmation/Java/L'interface Comparator.md",
     "Permanent/Programmation/Java/Interface Comparable.md",
     "Permanent/Programmation/Java/Utilisation de CompareTo.md",
     "Permanent/Programmation/Java/Solution 2 pour implémenter le Comparator.md",
@@ -304,7 +309,6 @@
     "Permanent/Programmation/Git/Faire ses premiers commit.md",
     "Permanent/Programmation/Git",
     "Permanent/Programmation/Git.md",
-    "Permanent/Programmation/Java/Création de ses propres exceptions.md",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Images/cours_3.pdf",

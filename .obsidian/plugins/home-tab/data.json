@@ -1,0 +1,54 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "custom",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showStarredFiles": false,
+  "showRecentFiles": true,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "Permanent/Programmation/Java/Les loggers Java.md",
+      "timestamp": 1718609178659
+    },
+    {
+      "filepath": "Collections Java.md",
+      "timestamp": 1718556389663
+    },
+    {
+      "filepath": "Java - fonctions utiles.md",
+      "timestamp": 1718556388791
+    },
+    {
+      "filepath": "Permanent/Programmation/Java/L'interface Comparator.md",
+      "timestamp": 1718556379090
+    },
+    {
+      "filepath": "MOOC/Big MOCS/Cours.md",
+      "timestamp": 1718554135691
+    }
+  ],
+  "starredFileStore": [],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": true,
+  "closePreviousSessionTabs": false,
+  "omnisearch": false,
+  "fontColor": "#b9274c"
+}
