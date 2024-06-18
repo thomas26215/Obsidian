@@ -78,9 +78,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b2e9623f832a2b87",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md"
-              }
+              "state": {}
             }
           },
           {
@@ -196,7 +200,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -250,9 +253,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md"
-              }
+              "state": {}
             }
           },
           {
@@ -292,11 +293,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b8ca9b84589fb2fc",
+  "active": "b2e9623f832a2b87",
   "lastOpenFiles": [
+    "Permanent/Programmation/Java/Les loggers Java.md",
     "Permanent/Programmation/Java/Créer un Logger.md",
     "Permanent/Programmation/Java/Utiliser un Logger.md",
-    "Permanent/Programmation/Java/Les loggers Java.md",
     "Collections Java.md",
     "Java - fonctions utiles.md",
     "Permanent/Programmation/Java/L'interface Comparator.md",
