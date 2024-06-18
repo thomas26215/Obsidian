@@ -154,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+              }
             }
           },
           {
@@ -200,6 +204,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -253,7 +258,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+              }
             }
           },
           {
