@@ -71,8 +71,12 @@
             "id": "b8ca9b84589fb2fc",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -142,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md"
+              }
             }
           },
           {
@@ -188,6 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,7 +250,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Les loggers Java.md"
+              }
             }
           },
           {
@@ -261,7 +272,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -283,6 +294,8 @@
   },
   "active": "b8ca9b84589fb2fc",
   "lastOpenFiles": [
+    "Permanent/Programmation/Java/Créer un Logger.md",
+    "Permanent/Programmation/Java/Utiliser un Logger.md",
     "Permanent/Programmation/Java/Les loggers Java.md",
     "Collections Java.md",
     "Java - fonctions utiles.md",
@@ -303,8 +316,6 @@
     "Permanent/Programmation/Java/Configurer l'affichage du Logger.md",
     "Permanent/Programmation/Java/Un exemple de classe en Java.md",
     "Permanent/Programmation/Java/Modifier le niveau d'un Logger.md",
-    "Permanent/Programmation/Java/Créer un Logger.md",
-    "Permanent/Programmation/Java/Utiliser un Logger.md",
     "Permanent/Programmation/Java/Les différentes assertions et utilisations.md",
     "Permanent/Programmation/Java/Structure du code d'un test JUnit5.md",
     "Permanent/Programmation/Git/Faire ses premiers commit.md",
