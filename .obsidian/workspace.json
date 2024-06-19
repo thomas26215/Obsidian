@@ -104,6 +104,14 @@
             }
           },
           {
+            "id": "522174d180c3ab5a",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "4b85010243df4bf2",
             "type": "leaf",
             "state": {
@@ -116,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -182,7 +190,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A finir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +206,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A finir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +227,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "A finir.md"
-              }
+              "state": {}
             }
           },
           {
@@ -232,7 +236,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "A finir.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,9 +289,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "A finir.md"
-              }
+              "state": {}
             }
           },
           {
@@ -328,10 +329,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4fa55486d4bae15",
+  "active": "522174d180c3ab5a",
   "lastOpenFiles": [
-    "Untitled.md",
     "A finir.md",
+    "Untitled.md",
     "Permanent/Programmation/SQL/Définition - relation.md",
     "Permanent/Programmation/Java/Les loggers Java.md",
     "Permanent/Programmation/Java/Créer un Logger.md",
