@@ -83,12 +83,40 @@
             "id": "b2e9623f832a2b87",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/SQL/Définition - relation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4fa55486d4bae15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A finir.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b85010243df4bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -154,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "A finir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "A finir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+                "file": "A finir.md"
               }
             }
           },
@@ -204,7 +232,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "A finir.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -259,7 +287,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+                "file": "A finir.md"
               }
             }
           },
@@ -300,8 +328,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2e9623f832a2b87",
+  "active": "d4fa55486d4bae15",
   "lastOpenFiles": [
+    "Untitled.md",
+    "A finir.md",
+    "Permanent/Programmation/SQL/Définition - relation.md",
     "Permanent/Programmation/Java/Les loggers Java.md",
     "Permanent/Programmation/Java/Créer un Logger.md",
     "Permanent/Programmation/Java/Utiliser un Logger.md",
@@ -325,10 +356,7 @@
     "Permanent/Programmation/Java/Un exemple de classe en Java.md",
     "Permanent/Programmation/Java/Modifier le niveau d'un Logger.md",
     "Permanent/Programmation/Java/Les différentes assertions et utilisations.md",
-    "Permanent/Programmation/Java/Structure du code d'un test JUnit5.md",
-    "Permanent/Programmation/Git/Faire ses premiers commit.md",
     "Permanent/Programmation/Git",
-    "Permanent/Programmation/Git.md",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
     "Images/cours_3.pdf",
