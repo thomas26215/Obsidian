@@ -104,14 +104,6 @@
             }
           },
           {
-            "id": "522174d180c3ab5a",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
             "id": "4b85010243df4bf2",
             "type": "leaf",
             "state": {
@@ -124,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -190,6 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "A finir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,6 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "A finir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +221,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "A finir.md"
+              }
             }
           },
           {
@@ -236,6 +232,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "A finir.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -289,7 +286,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "A finir.md"
+              }
             }
           },
           {
@@ -329,7 +328,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "522174d180c3ab5a",
+  "active": "d4fa55486d4bae15",
   "lastOpenFiles": [
     "A finir.md",
     "Untitled.md",
