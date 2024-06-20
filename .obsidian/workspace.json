@@ -116,6 +116,14 @@
             }
           },
           {
+            "id": "aab74e28d5c1fad7",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
             "id": "4b85010243df4bf2",
             "type": "leaf",
             "state": {
@@ -178,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
