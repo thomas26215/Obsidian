@@ -107,8 +107,12 @@
             "id": "064c469745ac785c",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -190,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md"
               }
             }
           },
@@ -240,7 +244,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -295,7 +299,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md"
+                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md"
               }
             }
           },
@@ -338,6 +342,7 @@
   },
   "active": "064c469745ac785c",
   "lastOpenFiles": [
+    "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
     "A finir.md",
     "Untitled.md",
     "Permanent/Programmation/SQL/Définition - relation.md",
@@ -363,7 +368,6 @@
     "Permanent/Programmation/Java/Configurer l'affichage du Logger.md",
     "Permanent/Programmation/Java/Un exemple de classe en Java.md",
     "Permanent/Programmation/Java/Modifier le niveau d'un Logger.md",
-    "Permanent/Programmation/Java/Les différentes assertions et utilisations.md",
     "Permanent/Programmation/Git",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
