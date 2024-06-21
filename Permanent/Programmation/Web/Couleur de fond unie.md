@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 Pour appliquer une couleur de fond unique à une page Web, il faut utiliser la propriété CSS `background-color`. Cette approche est similaire à la [[Ajouter de la couleur sur un texte CSS|coloration d'un texte]], mais la balise appropriée à cibler est `<body>` pour affecter l'ensemble de la page :
 
 ```CSS

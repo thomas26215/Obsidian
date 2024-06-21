@@ -1,6 +1,6 @@
 # Toutes catégories
 ```dataview
-TABLE Type, Auteur, Categorie, FullName, Numero FROM "Permanent/Medias" SORT Type ASC, Auteur ASC, Type ASC, Numero ASC
+TABLE Type, Auteur, Categorie, FullName as "Nom formation", Numero FROM "Permanent/Medias" SORT Type ASC, Categorie ASC, FullName ASC, Numero ASC
 ```
 # Vidéos
 

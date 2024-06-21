@@ -4,139 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "8498c27e20d480c4",
+        "id": "448ce655a71f4b40",
         "type": "tabs",
         "children": [
           {
-            "id": "0eeda24a99e08274",
+            "id": "67813332fd095646",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
+                "file": "Daily note/2024-06-22.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c7ca7a9365a70bcf",
+            "id": "598bb939d3e66db1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java - fonctions utiles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2367a780d41486d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/Java/L'interface Comparator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33177fca2b8bbb76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "La structure d'un commentaire JavaDoc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89deff251e8a040b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8ca9b84589fb2fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/Java/Les loggers Java.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2e9623f832a2b87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/SQL/Définition - relation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4fa55486d4bae15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A finir.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "064c469745ac785c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aab74e28d5c1fad7",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "4b85010243df4bf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Ressources/Ressource 4/HTML - Les liens hypertext.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
+                "file": "Daily note/2024-06-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
+                "file": "Daily note/2024-06-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md"
+                "file": "Daily note/2024-06-22.md"
               }
             }
           },
@@ -253,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
+                "file": "Daily note/2024-06-22.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -276,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.32200894783636785,
+                  "scale": 0.3890844378403741,
                   "close": true
                 }
               }
@@ -308,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md"
+                "file": "Daily note/2024-06-22.md"
               }
             }
           },
@@ -333,7 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 837.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -349,34 +244,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "064c469745ac785c",
+  "active": "67813332fd095646",
   "lastOpenFiles": [
-    "Projets/En cours/Mega SAE/Fil rouge oral Demonstration.md",
-    "A finir.md",
-    "Untitled.md",
-    "Permanent/Programmation/SQL/Définition - relation.md",
-    "Permanent/Programmation/Java/Les loggers Java.md",
-    "Permanent/Programmation/Java/Créer un Logger.md",
-    "Permanent/Programmation/Java/Utiliser un Logger.md",
-    "Collections Java.md",
-    "Java - fonctions utiles.md",
-    "Permanent/Programmation/Java/L'interface Comparator.md",
-    "MOOC/Big MOCS/Cours.md",
+    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
+    "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
+    "Ressources/Ressource 4/Créer un lien vers une autre page.md",
+    "Daily note/2024-06-22.md",
+    "Ressources/Ressource 3/La dopamine.md",
+    "Ressources/Ressource 3/Découper une tâche.md",
+    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
+    "Ressources/Ressource 2/Crème pour le visage.md",
+    "Ressources/Ressource 2/Avoir une skin care routine.md",
+    "Ressources/Ressource 1/Construire une interrogative en Chinois.md",
+    "Ressources/Ressource 1/Objet direct et objet indirect dans une même phrase en Chinois.md",
+    "Ressources/Ressource 1/Le charactère 给 (gěi).md",
+    "Ressources/Ressource 1/La méthode pour construire une phrase en Chinois.md",
+    "Ressources/Autre/Deep Work.md",
+    "Temp/Diviser les colonnes d'un tableau sur pc.md",
+    "Permanent/Programmation/Java/Tri à bulles amélioré en Java.md",
+    "Permanent/Programmation/Java/Tri à bulle.md",
+    "Permanent/Programmation/Java/Tri par sélection.md",
+    "Permanent/Programmation/Java/Tri par insertion.md",
+    "Permanent/Programmation/Java/Tri insertion en Java.md",
     "MOOC/Big MOCS/Programmation.md",
-    "La structure d'un commentaire JavaDoc.md",
-    "Permanent/Programmation/Java/Comparator et Comparable.md",
-    "Permanent/Programmation/Java/Les exceptions en Java.md",
-    "Permanent/Programmation/Java/Test unitaires en Java.md",
-    "Permanent/Programmation/Java/Tests unitaires avec JUnit5.md",
-    "Permanent/Programmation/Java/Solution 1 pour implémenter le Comparator.md",
-    "Permanent/Programmation/Java/Interface Comparable.md",
-    "Permanent/Programmation/Java/Utilisation de CompareTo.md",
-    "Permanent/Programmation/Java/Solution 2 pour implémenter le Comparator.md",
-    "Permanent/Programmation/Java/Que doit retourner la méthode compareTo.md",
-    "Daily note/2024-06-11.md",
-    "Permanent/Programmation/Java/Configurer l'affichage du Logger.md",
-    "Permanent/Programmation/Java/Un exemple de classe en Java.md",
-    "Permanent/Programmation/Java/Modifier le niveau d'un Logger.md",
+    "Permanent/Programmation/Java/Outillage d'une fonction.md",
+    "Permanent/Programmation/Java/Algorithme Java tri à bulle.md",
+    "Permanent/Programmation/Java/Outillage d'une procédure.md",
+    "Permanent/Cours/Cours/Semestre 1/Vecteurs, tri + outillage.md",
+    "Temp/Le critères de l'activité.md",
     "Permanent/Programmation/Git",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
@@ -393,7 +288,7 @@
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Projets/En cours/Mega SAE",
+    "Projets/Finish/Mega SAE",
     "Excalidraw",
     "Nouveau Document texte.txt",
     "tatus",

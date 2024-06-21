@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 La propriété pour modifier la couleur d'un texte est `color` :
 ```css
 h1{

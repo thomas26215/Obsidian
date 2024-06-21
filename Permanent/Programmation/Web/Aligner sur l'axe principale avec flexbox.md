@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 Il est tout à fait possible d'aligner sur l'axe principale avec la propriété `justify-content` :
 - `flex-start` : Aligne au début
 - `flex-end` : Aligne à la fin

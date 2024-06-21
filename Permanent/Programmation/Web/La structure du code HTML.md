@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: HTML
+tags:
+---
 ```HTML
 <!DOCTYPE html>
 <html>

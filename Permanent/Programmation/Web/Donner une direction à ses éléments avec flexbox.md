@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 D'après la note [[Le principe du Flexbox]], on remarque, que l'attribut `flex` va automatiquement agencer les blocs sur une même ligne. Cependant, il est possible de modifier cela grâce à la propriété `flex-direction` avec l'une des valeurs suivantes :
 - `row` : Organisés sur une ligne
 - `column` : Organisés sur une colonne

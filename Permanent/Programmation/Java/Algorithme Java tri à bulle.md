@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Java
+Type: Algorithmes de tri
+tags:
+---
 **Code en une fonction :**
 ```Java
 public static void triBulles(ArrayList<Integer> v){

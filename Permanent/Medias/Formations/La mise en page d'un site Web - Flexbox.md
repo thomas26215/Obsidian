@@ -3,7 +3,7 @@ MOOC: "[[Medias]]"
 Type: Formation
 FullName: Créez votre site web avec HTML5 et CSS3
 Numero: "16"
-Categorie: Productivite, Programmation
+Categorie: Programmation
 Auteur: Mathieu Nebra, Alexia Toulmet
 Lien: https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061384-faites-votre-mise-en-page-avec-flexbox
 tags:

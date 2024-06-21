@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 Pour pouvoir aligner sur l'axe secondaire, il faut utiliser la propriété `align-item`. Voici plusieurs valeurs :
 - `stretch` : Les éléments sont étirés sur tout l'axe
 - `flex-start` : Les éléments sont alignés au début

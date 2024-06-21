@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Java
+Type: Outillage
+tags:
+---
 L'outillage d'une fonction est le fait de compte le nombre de comparaisons qu'il y a..
 **Exemple :**
 ```Java

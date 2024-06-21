@@ -1,3 +1,9 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Web
+Type: CSS
+tags:
+---
 En CSS, on pourrait comparer le flexbox au fait de ranger des cartons : ⇒ Dans un page Web, il peut y avoir plusieurs conteneurs (= cartons) et dans chacuns de ceux-ci peuvent y être placés plusieurs éléments
 Tout d'abord, un conteneur est une balise qui peut renfermer d'autres balises. Les conteneurs les plus connus sont les balises `<div>` et `<span>` :
 

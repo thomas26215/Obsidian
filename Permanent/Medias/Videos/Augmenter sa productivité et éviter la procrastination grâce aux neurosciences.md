@@ -3,7 +3,7 @@ MOOC: "[[Medias]]"
 Type: Video
 FullName: 
 Numero: 
-Categorie: Productivite, Programmation
+Categorie: Neurosciences
 Auteur: Antoine Blanco
 Lien: https://www.youtube.com/watch?v=X8FUZkNUygg
 tags:
