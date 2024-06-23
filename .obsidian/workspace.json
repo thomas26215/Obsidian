@@ -23,8 +23,12 @@
             "id": "99f7cbda6bcfb965",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Git/Les branches.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -107,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily note/2024-06-22.md",
+                "file": "Permanent/Programmation/Git/Les branches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily note/2024-06-22.md",
+                "file": "Permanent/Programmation/Git/Les branches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily note/2024-06-22.md"
+                "file": "Permanent/Programmation/Git/Les branches.md"
               }
             }
           },
@@ -157,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily note/2024-06-22.md",
+                "file": "Permanent/Programmation/Git/Les branches.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -180,7 +184,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.3890844378403741,
+                  "scale": 0.0078125,
                   "close": true
                 }
               }
@@ -212,7 +216,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Daily note/2024-06-22.md"
+                "file": "Permanent/Programmation/Git/Les branches.md"
               }
             }
           },
@@ -233,12 +237,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 922.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,10 +256,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99f7cbda6bcfb965",
+  "active": "ae156f7290499699",
   "lastOpenFiles": [
-    "Daily note/2024-06-22.md",
     "Ressources/Ressource 4/HTML - Les liens hypertext.md",
+    "Daily note/2024-06-22.md",
     "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
     "Ressources/Ressource 4/Créer un lien vers une autre page.md",
     "Ressources/Ressource 3/La dopamine.md",
