@@ -8,37 +8,65 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:Projets  ",
+      "color": {
+        "a": 1,
+        "rgb": 13533223
+      }
+    },
+    {
+      "query": "path:Permanent/Mathématiques  ",
+      "color": {
+        "a": 1,
+        "rgb": 6443744
+      }
+    },
+    {
+      "query": "path:Permanent/Langues  ",
+      "color": {
+        "a": 1,
+        "rgb": 13425995
+      }
+    },
+    {
+      "query": "path:Permanent/Cours  ",
+      "color": {
+        "a": 1,
+        "rgb": 13194393
+      }
+    },
+    {
+      "query": "path:Permanent/Programmation  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
       "query": "path:MOOC  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 11548214
       }
     },
     {
-      "query": "path:Permanent  ",
+      "query": "path:Inbox  ",
       "color": {
         "a": 1,
-        "rgb": 5685831
-      }
-    },
-    {
-      "query": "path:Inbox",
-      "color": {
-        "a": 1,
-        "rgb": 13810994
+        "rgb": 1531433
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -0.7,
-  "nodeSizeMultiplier": 1.76701030927835,
+  "nodeSizeMultiplier": 1.61848958333333,
   "lineSizeMultiplier": 2.29742268041237,
   "collapse-forces": false,
-  "centerStrength": 0.314432989690722,
-  "repelStrength": 8.35051546391753,
+  "centerStrength": 0.325520833333333,
+  "repelStrength": 7.34375,
   "linkStrength": 0.309278350515464,
   "linkDistance": 180,
-  "scale": 0.07058167567046499,
-  "close": true
+  "scale": 0.10515946535159164,
+  "close": false
 }

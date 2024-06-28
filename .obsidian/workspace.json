@@ -4,55 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "448ce655a71f4b40",
+        "id": "31b9c1fb01e6b023",
         "type": "tabs",
         "children": [
           {
-            "id": "67813332fd095646",
+            "id": "6ec3161c0795db72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily note/2024-06-22.md",
+                "file": "Projets/Finish/P2.01.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "99f7cbda6bcfb965",
+            "id": "190b4544d9032540",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md",
+                "file": "Temp/Exemple d'un tableau CSS en divisant les colonnes.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d616a47013ae822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b9799aecbb8eb72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aérer les éléments d'un tableau CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "598bb939d3e66db1",
+            "id": "92e7d74b230552d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ressources/Ressource 4/HTML - Les liens hypertext.md",
+                "file": "Créer un tableau en CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b25ff65c26d06921",
+            "id": "2f31e08f7ec3c595",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Les valeurs pour un tableau CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e94ca2770407a3a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Définir la largeur d'un élément d'un tableau CSS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5,
-    "collapsed": true
+    "width": 203.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -119,6 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md"
+              }
             }
           },
           {
@@ -165,6 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -187,7 +231,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.0078125,
+                  "scale": 0.26148504069124406,
                   "close": true
                 }
               }
@@ -218,7 +262,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md"
+              }
             }
           },
           {
@@ -238,11 +284,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 922.5
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,34 +303,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b25ff65c26d06921",
+  "active": "7d616a47013ae822",
   "lastOpenFiles": [
+    "Littéraire/Dossier 1/Les modèles de boîtes.md",
+    "Permanent/Medias/Formations/CSS - Des tableaux visuels avec les Grids !.md",
+    "A finir.md",
+    "Modifier la taille des lignes et des colonnes d'un tableau CSS.md",
+    "Pasted image 20240628214641.png",
+    "Aérer les éléments d'un tableau CSS.md",
+    "Créer un tableau en CSS.md",
+    "Les valeurs pour un tableau CSS.md",
+    "Définir la largeur d'un élément d'un tableau CSS.md",
+    "Temp/Exemple d'un tableau CSS en divisant les colonnes.md",
+    "Projets/Finish/S1.056/Tableau à remplir.md",
+    "Littéraire/Dossier 1/Adapter le site en fonction des appareils en HTML.md",
+    "Inbox/Se filmer.md",
+    "Inbox/Etre relaché.md",
+    "Projets/Finish/P2.01.md",
+    "Ressources/Ressource 3/La dopamine.md",
+    "Ressources/Ressource 3/Les effets de la dopamine.md",
+    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
     "Daily note/2024-06-22.md",
+    "Permanent/Programmation/Git/Les branches.md",
     "Ressources/Ressource 4/HTML - Les liens hypertext.md",
+    "Ressources/Autre/La physique quantique.md",
+    "Ressources/Autre/Ordinateur quantique.md",
     "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
     "Ressources/Ressource 4/Créer un lien vers une autre page.md",
-    "Ressources/Ressource 3/La dopamine.md",
     "Ressources/Ressource 3/Découper une tâche.md",
-    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
     "Ressources/Ressource 2/Crème pour le visage.md",
-    "Ressources/Ressource 2/Avoir une skin care routine.md",
-    "Ressources/Ressource 1/Construire une interrogative en Chinois.md",
-    "Ressources/Ressource 1/Objet direct et objet indirect dans une même phrase en Chinois.md",
-    "Ressources/Ressource 1/Le charactère 给 (gěi).md",
-    "Ressources/Ressource 1/La méthode pour construire une phrase en Chinois.md",
-    "Ressources/Autre/Deep Work.md",
-    "Temp/Diviser les colonnes d'un tableau sur pc.md",
-    "Permanent/Programmation/Java/Tri à bulles amélioré en Java.md",
-    "Permanent/Programmation/Java/Tri à bulle.md",
-    "Permanent/Programmation/Java/Tri par sélection.md",
-    "Permanent/Programmation/Java/Tri par insertion.md",
-    "Permanent/Programmation/Java/Tri insertion en Java.md",
-    "MOOC/Big MOCS/Programmation.md",
-    "Permanent/Programmation/Java/Outillage d'une fonction.md",
-    "Permanent/Programmation/Java/Algorithme Java tri à bulle.md",
-    "Permanent/Programmation/Java/Outillage d'une procédure.md",
-    "Permanent/Cours/Cours/Semestre 1/Vecteurs, tri + outillage.md",
-    "Temp/Le critères de l'activité.md",
     "Permanent/Programmation/Git",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
@@ -296,7 +343,6 @@
     "Images/Pasted image 20240606144404.png",
     "Images/Pasted image 20240606135933.png",
     "Images/Pasted image 20240606110456.png",
-    "Images/Pasted image 20240606110346.png",
     "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Programmation/JavaFX",
