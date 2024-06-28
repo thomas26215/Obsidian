@@ -42,9 +42,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b25ff65c26d06921",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +156,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,7 +165,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,9 +218,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Programmation/Git/Les branches.md"
-              }
+              "state": {}
             }
           },
           {
@@ -256,10 +257,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae156f7290499699",
+  "active": "b25ff65c26d06921",
   "lastOpenFiles": [
-    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
     "Daily note/2024-06-22.md",
+    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
     "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
     "Ressources/Ressource 4/Créer un lien vers une autre page.md",
     "Ressources/Ressource 3/La dopamine.md",
