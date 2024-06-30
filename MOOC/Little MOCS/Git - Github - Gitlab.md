@@ -5,7 +5,4 @@
 [[Manipuler l'historique]]
 [[Le remisage]]
 [[Remote]]
-# Github
-
-# Gitlab
 

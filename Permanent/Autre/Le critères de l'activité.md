@@ -1,3 +1,9 @@
+---
+MOOC: "[[Autre]]"
+Sujet: Entreprise
+Type: 
+tags:
+---
 Il existe des nomenclatures communes pour définir une entreprise. Elles sont utilisées pour réaliser des études, analyser ou bien décider.
 
 **Du plus générale au plus précis**

@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "31b9c1fb01e6b023",
+        "id": "7e9744397ae05108",
         "type": "tabs",
         "children": [
           {
-            "id": "6ec3161c0795db72",
+            "id": "cc313ef93bf17deb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/Finish/P2.01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "190b4544d9032540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp/Exemple d'un tableau CSS en divisant les colonnes.md",
+                "file": "To Learn/Collaboration et soutien social.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d616a47013ae822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b9799aecbb8eb72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aérer les éléments d'un tableau CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92e7d74b230552d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Créer un tableau en CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f31e08f7ec3c595",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Les valeurs pour un tableau CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e94ca2770407a3a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Définir la largeur d'un élément d'un tableau CSS.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
+                "file": "To Learn/Collaboration et soutien social.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
+                "file": "To Learn/Collaboration et soutien social.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md"
+                "file": "To Learn/Collaboration et soutien social.md"
               }
             }
           },
@@ -208,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md",
+                "file": "To Learn/Collaboration et soutien social.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,8 +148,8 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
+                  "collapse-display": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1.00155925155925,
                   "lineSizeMultiplier": 1.77577962577963,
@@ -231,7 +158,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.26148504069124406,
+                  "scale": 0.2830117891842702,
                   "close": true
                 }
               }
@@ -263,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Littéraire/Dossier 1/WEB - Comprendre et utiliser le CSS.md"
+                "file": "To Learn/Collaboration et soutien social.md"
               }
             }
           },
@@ -303,35 +230,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7d616a47013ae822",
+  "active": "cc313ef93bf17deb",
   "lastOpenFiles": [
-    "Littéraire/Dossier 1/Les modèles de boîtes.md",
+    "To Learn/Bien-être physique par l'exercice et les pauses.md",
+    "To Learn/Éviter les attentes irréalistes.md",
+    "Permanent/Autre/Le critères de l'activité.md",
+    "Permanent/Autre/L'approche historique d'une entreprise.md",
+    "Permanent/Programmation/Web/Exemple d'un tableau CSS en divisant les colonnes.md",
+    "Templates/Template Cours.md",
     "Permanent/Medias/Formations/CSS - Des tableaux visuels avec les Grids !.md",
-    "A finir.md",
-    "Modifier la taille des lignes et des colonnes d'un tableau CSS.md",
-    "Pasted image 20240628214641.png",
-    "Aérer les éléments d'un tableau CSS.md",
-    "Créer un tableau en CSS.md",
-    "Les valeurs pour un tableau CSS.md",
-    "Définir la largeur d'un élément d'un tableau CSS.md",
-    "Temp/Exemple d'un tableau CSS en divisant les colonnes.md",
-    "Projets/Finish/S1.056/Tableau à remplir.md",
-    "Littéraire/Dossier 1/Adapter le site en fonction des appareils en HTML.md",
-    "Inbox/Se filmer.md",
-    "Inbox/Etre relaché.md",
+    "Collections Java.md",
+    "Permanent/Programmation/Java/Exemple complet de commentaires JavaDoc.md",
+    "Permanent/Programmation/Java/Structure d'un Commentaire Javadoc.md",
+    "Permanent/Programmation/Java/Commentaires Javadoc.md",
+    "Permanent/Programmation/Java/Commentaires multi-lignes.md",
+    "Permanent/Programmation/Java/Commentaires sur une seule ligne.md",
+    "Permanent/Programmation/Java/La structure d'un commentaire JavaDoc.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "Permanent/Programmation/Web/Définir la largeur d'un élément d'un tableau CSS.md",
+    "Permanent/Programmation/Web/Les valeurs pour un tableau CSS.md",
+    "Permanent/Programmation/Web/Créer un tableau en CSS.md",
+    "Permanent/Programmation/Web/Aérer les éléments d'un tableau CSS.md",
+    "Permanent/Programmation/Git/Manipuler l'historique.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Projets/Finish/P2.01.md",
-    "Ressources/Ressource 3/La dopamine.md",
-    "Ressources/Ressource 3/Les effets de la dopamine.md",
-    "Permanent/Neuroscience/Le fonctionnement de notre système dopaminergique.md",
-    "Daily note/2024-06-22.md",
-    "Permanent/Programmation/Git/Les branches.md",
-    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
-    "Ressources/Autre/La physique quantique.md",
-    "Ressources/Autre/Ordinateur quantique.md",
-    "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
-    "Ressources/Ressource 4/Créer un lien vers une autre page.md",
-    "Ressources/Ressource 3/Découper une tâche.md",
-    "Ressources/Ressource 2/Crème pour le visage.md",
+    "Inbox/Acétylcholine.md",
+    "Java - fonctions utiles.md",
+    "Untitled.md",
+    "Pasted image 20240628214641.png",
+    "Permanent/Programmation/Web/Modifier la taille des lignes et des colonnes d'un tableau CSS.md",
     "Permanent/Programmation/Git",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
