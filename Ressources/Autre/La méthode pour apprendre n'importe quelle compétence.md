@@ -1,3 +1,7 @@
+La méthode  [[Blocking Strategy]] peut aider pour l'apprentissage d'une compétence, mais n'est pas toujours la plus efficace.
+
+
+---
 Généralement, on entend souvent : *Practice make perfect*. Sauf que cela n'est pas totalement vrai. En effet, cette méthode n'est pas la plus efficace pour apprendre les concepts. En effet, cette méthode, s'appelant la **Blocking strategy** consiste à essayer beaucoup jusqu'à arriver avant de passer à autre chose. Cette technique est efficace uniquement pour des activités pratiques : planter des clous, faire du bâtiment ... afin de rendre le geste presque automatique. Cependant, cette méthode n'est pas efficace quand il s'agit de connaissances théoriques ; La première raison est qu'il est difficile de rester concentré sur une connaissance de nombreux jours de suite. La deuxième, c'est qu'au bout d'un moment, le cerveau oublie. En effet, le cerveau ne se souvient pas de tout et oublie quand une connaissance n'est plus utilisée.
 C'est pourquoi intervient la méthode appelée **intervalling**. Cette méthode consiste à apprendre pas sauts et bonds ; En effet, cette méthode consiste à *apprendre le premier jour, puis de revenir le jour suivant, puis deux jours après, puis quatre jours après, puis sept jours après ...* Plus la connaissances est vue, plus on attend avant de la revoir (sauf si il y a des difficultés à se la remémorer, dans ce cas là, on met moins de temps) (cf [[La répétition espacée|La répétition espacée]]]). Cela permet d'éviter les deux principale 
 
