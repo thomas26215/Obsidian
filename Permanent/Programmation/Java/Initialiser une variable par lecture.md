@@ -8,7 +8,7 @@ La première chose à faire est d'initialiser ce lecteur :
 ```Java
 Scanner lecteur = new Scanner(System.in);
 ```
-Maintenant, il est possible de demander une valeur une valeur à l'utilisateur. Attention, la synthaxe ne sera pas la même en fonction des types de variables. Il faut mettre `variable = lecteur.nextType();` suivit de `lecteur.nextLine();`. Voici le tableau des différentes valeurs
+Maintenant, il est possible de demander une valeur à l'utilisateur. Attention, la synthaxe ne sera pas la même en fonction des types de variables. Il faut mettre `variable = lecteur.nextType();` suivit de `lecteur.nextLine();`. Voici le tableau des différentes valeurs
 **Exemple** :
 ```Java
 int age;

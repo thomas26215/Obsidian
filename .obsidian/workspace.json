@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2ae334d11b20696d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOOC/Big MOCS/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dopa$",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Learn/Collaboration et soutien social.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To Learn/Collaboration et soutien social.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Learn/Collaboration et soutien social.md"
+                "file": "MOOC/Big MOCS/Cours.md"
               }
             }
           },
@@ -135,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To Learn/Collaboration et soutien social.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "To Learn/Collaboration et soutien social.md"
+                "file": "MOOC/Big MOCS/Cours.md"
               }
             }
           },
@@ -230,8 +243,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc313ef93bf17deb",
+  "active": "2ae334d11b20696d",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 1/Initiation au développement.md",
+    "Permanent/Programmation/Java/Afficher dans la console en Java.md",
+    "Permanent/Programmation/Java/Initialiser une variable par lecture.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+    "Cours/R1.02/cm4.pdf",
+    "Cours/R1.01/R1-01-—-Cours-05---Partie-3---recherche-séquentielle-non-triée.pdf",
+    "Cours/R1.09/COURS-1-Les-acteurs-economiques.pdf",
+    "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
+    "Cours/R1.01/R1-01-—-Cours-03---notion-de-classe.pdf",
+    "Cours/R2.11/listes-termes-1.pdf",
+    "Cours/R2.11/Regimes-probatoires-et-effets-des-jugements.pdf",
+    "Cours/R2.11/R2.11-fiche-de-cours-2-personnalite-juridique.pdf",
+    "Cours/R2.11/R2.11-fiche-de-cours-1-sources-du-droit.pdf",
+    "Cours/R2.11/R2-11-liste-des-termes-partie-2.pdf",
+    "To Learn/Collaboration et soutien social.md",
     "To Learn/Bien-être physique par l'exercice et les pauses.md",
     "To Learn/Éviter les attentes irréalistes.md",
     "Permanent/Autre/Le critères de l'activité.md",
@@ -252,17 +281,9 @@
     "Permanent/Programmation/Web/Créer un tableau en CSS.md",
     "Permanent/Programmation/Web/Aérer les éléments d'un tableau CSS.md",
     "Permanent/Programmation/Git/Manipuler l'historique.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Projets/Finish/P2.01.md",
-    "Inbox/Acétylcholine.md",
-    "Java - fonctions utiles.md",
-    "Untitled.md",
     "Pasted image 20240628214641.png",
-    "Permanent/Programmation/Web/Modifier la taille des lignes et des colonnes d'un tableau CSS.md",
-    "Permanent/Programmation/Git",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
-    "Images/cours_3.pdf",
     "Images/Pasted image 20240528013351.png",
     "Images/Pasted image 20240606144416.png",
     "Images/Capture2.png",
@@ -270,16 +291,8 @@
     "Images/Pasted image 20240606144404.png",
     "Images/Pasted image 20240606135933.png",
     "Images/Pasted image 20240606110456.png",
-    "Inbox/td réseau.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Programmation/JavaFX",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Projets/Finish/Mega SAE",
-    "Excalidraw",
-    "Nouveau Document texte.txt",
-    "tatus",
-    "Permanent/Programmation/Java/Minecraft",
-    "Permanent/Langues",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
     "Untitled 14.canvas",

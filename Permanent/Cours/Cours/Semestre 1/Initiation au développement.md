@@ -3,9 +3,9 @@ MOOC: "[[Cours]]"
 Ressource: "R1.01 : Initiation au développement"
 Cours: "Cours 1 : Premières bases"
 Date: 2023-09-15
-tags: []
+tags: 
 Complete: true
-Learned: true
+Learned: false
 ---
 Définitions vues : [[Définition - Algorithme]], [[Définition - Programmation]], [[Instruction]] + [[Les variables en Java]]
 [[Le langage Java]] + [[La base d'un programme Java|Les bases d'un programme Java]]
