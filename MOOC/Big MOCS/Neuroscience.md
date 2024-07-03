@@ -1,3 +1,3 @@
 ```dataview
-TABLE Categorie from "Permanent/Neuroscience" flatten Categorie sort Categorie asc
+TABLE Categorie, Type from "Permanent/Neuroscience" flatten Categorie sort Categorie asc
 ```

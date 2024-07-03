@@ -11,6 +11,6 @@ Ainsi, ces deux types de signaux sont essentiels pour les communications entre n
 
 ---
 #ajouter 
-- + de détails sur signaux électriques
-- + de détails sur signaux chimiques
+- plus de détails sur signaux électriques
+- plus de détails sur signaux chimiques
 - shéma ?

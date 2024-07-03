@@ -4,49 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "25d5d4ddda485678",
+        "id": "c5fea323e7286c41",
         "type": "tabs",
         "children": [
           {
-            "id": "662d864ea15883e9",
+            "id": "547547d46bbdcc0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
+                "file": "Permanent/Neuroscience/Augmenter les niveaux d'endorphines.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ddc0c772c5adc3f",
+            "id": "b3b443146575e55b",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "markdown",
+              "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75df6fe0719a608a",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
               "state": {}
             }
           },
           {
-            "id": "e02242f13e46bb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Switch between 2 FXML Scenes using JavaFX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebe6d1fc2aade760",
+            "id": "f23bdcc60830d26a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Permanent/Apprendre/La répétition espacée.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -118,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md"
+              }
             }
           },
           {
@@ -164,6 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -186,7 +191,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.22720702837370135,
+                  "scale": 0.320962116000651,
                   "close": true
                 }
               }
@@ -217,7 +222,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md"
+              }
             }
           },
           {
@@ -256,35 +263,72 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ddc0c772c5adc3f",
+  "floating": {
+    "id": "d528640a81f0d2b3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2830c2ad657e8e33",
+        "type": "window",
+        "children": [
+          {
+            "id": "31edea55e07a500f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "970184d3bdeeb51c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1001,
+        "y": 15,
+        "width": 600,
+        "height": 945,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "b3b443146575e55b",
   "lastOpenFiles": [
+    "Blocking Strategy.md",
+    "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
+    "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
+    "Permanent/Apprendre/La répétition espacée.md",
+    "Permanent/Neuroscience/Augmenter les niveaux d'endorphines.md",
+    "Switch between 2 FXML Scenes using JavaFX.md",
+    "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
+    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
+    "Ressources/Ressource 4/Créer un lien vers une autre page.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Autre/La croissance économique.md",
+    "MOOC/Big MOCS/Autre.md",
+    "MOOC/Big MOCS/Langues.md",
+    "Permanent/Langues/Le futur dans le passé.md",
+    "Permanent/Langues/Le superlatif.md",
+    "MOOC/Big MOCS/Neuroscience.md",
+    "Permanent/Neuroscience/Les deux principaux types de signaux dans le cerveau.md",
+    "Permanent/Neuroscience/Les endorphines.md",
     "Permanent/Neuroscience/Les effets de la dopamine.md",
     "Permanent/Medias/Videos/Savoir être focus.md",
     "Permanent/Neuroscience/Augmenter les niveaux d'ocytocine.md",
     "Permanent/Neuroscience/L'ocytocine.md",
-    "Permanent/Neuroscience/Les endorphines.md",
     "Ressources/Ressource 1/Demander le nom d'une personne.md",
     "Ressources/Ressource 1/Construire une phrase affirmative simple en chinois.md",
     "Permanent/Neuroscience/Maintenir notre niveau de sérotonine.md",
     "Permanent/Neuroscience/Découper une tâche.md",
-    "Permanent/Neuroscience/La dopamine.md",
-    "Permanent/Neuroscience/La sérotonine.md",
-    "Augmenter les niveaux d'endorphines.md",
-    "Ressources/Autre/La méthode pour mieux dormir.md",
-    "Ressources/Autre/propriété de roi.md",
-    "Ressources/Autre/La visualisation de demain.md",
-    "Ressources/Autre/La structure d'une page Web.md",
-    "Permanent/Medias/NewsLetters/Le défi des 30 jours.md",
     "Permanent/Medias/NewsLetters",
-    "Permanent/Medias/Untitled.md",
-    "Permanent/Medias/NewsLeter.md",
-    "Ressources/Autre/Le Titanic.md",
-    "Permanent/Programmation/General/Compilateur.md",
-    "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
-    "Ressources/Autre/Deep Work.md",
-    "Blocking Strategy.md",
-    "Switch between 2 FXML Scenes using JavaFX.md",
-    "Ressources/Autre/Les 3 neurotransmetteurs qui nous permettent de nous concentrer.md",
     "Adrénaline ",
     "Permanent/Personnes",
     "Cours/R1.02/cm4.pdf",
