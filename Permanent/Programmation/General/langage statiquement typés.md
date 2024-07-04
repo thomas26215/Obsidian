@@ -1,9 +1,10 @@
 ---
-MOOC: Programmation
-Langage: Abstrait
-Type: Permanent
+MOOC: "[[Programmation]]"
+Langage: General
+Type: Abstrait
+tags:
 ---
-Les variables doivent déclarées explicitement. Contrairement au [[langage dynamiquement typés]], les types de variables ne peuvent pas être modifiées avec leur déclaration
+Les variables doivent être déclarées explicitement. Contrairement au [[langage dynamiquement typés]], les types de variables ne peuvent pas être modifiées avec leur déclaration
 De plus, les types de variables sont vérifiées au moment de la compilation
 
 **Avantages** : Les types de variables sont vérifiées lors de la compilation et signale tout erreur de type. Cela peut aider les potentielles incohérences de type dès le stade de compilation, réduisant ainsi erreurs potentielles pendant l'exécution. De +, mieux pour la documentation

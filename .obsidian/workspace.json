@@ -4,55 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c5fea323e7286c41",
+        "id": "d96fef651c281a17",
         "type": "tabs",
         "children": [
           {
-            "id": "547547d46bbdcc0a",
+            "id": "a9972fc1b59e48ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Neuroscience/Augmenter les niveaux d'endorphines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3b443146575e55b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75df6fe0719a608a",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
+              "type": "graph",
               "state": {}
             }
           },
           {
-            "id": "f23bdcc60830d26a",
+            "id": "86d5f24546ab83b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Apprendre/La répétition espacée.md",
-                "mode": "preview",
+                "file": "Ressources/Autre/L'optimisation d'un langage.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
+                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
+                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md"
+                "file": "Ressources/Autre/L'optimisation d'un langage.md"
               }
             }
           },
@@ -168,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
+                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -191,7 +167,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.320962116000651,
+                  "scale": 0.16967153497702828,
                   "close": true
                 }
               }
@@ -223,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md"
+                "file": "Ressources/Autre/L'optimisation d'un langage.md"
               }
             }
           },
@@ -248,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,7 +236,9 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "publish:Publish changes...": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "floating": {
@@ -300,34 +278,37 @@
       }
     ]
   },
-  "active": "b3b443146575e55b",
+  "active": "86d5f24546ab83b6",
   "lastOpenFiles": [
-    "Blocking Strategy.md",
-    "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
-    "Pourquoi utiliser la répétition espacée et non pas le Blocking strategy.md",
-    "Permanent/Apprendre/La répétition espacée.md",
-    "Permanent/Neuroscience/Augmenter les niveaux d'endorphines.md",
-    "Switch between 2 FXML Scenes using JavaFX.md",
-    "Ressources/Ressource 4/Créer une ancre sur une page Web.md",
-    "Ressources/Ressource 4/HTML - Les liens hypertext.md",
-    "Ressources/Ressource 4/Créer un lien vers une autre page.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Autre/La croissance économique.md",
+    "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
+    "Permanent/Neuroscience/Les 3 neurotransmetteurs qui nous permettent de nous concentrer.md",
+    "Permanent/Neuroscience/La dopamine.md",
+    "Adrénaline - Epinéphrine.md",
+    "Ressources/Autre/Les classes - Kotlin.md",
+    "Ressources/Autre/Variables - Kotlin.md",
+    "Ressources/Autre/Les radicaux chinois.md",
+    "Pasted image 20240704155931.png",
+    "Permanent/Programmation/General/Fonctions lambda.md",
+    "Permanent/Autre/Le chiffrement RSA.md",
+    "Permanent/Autre/Algorithme de la clé RSA.md",
+    "Permanent/Autre/Craquer une clé RSA.md",
     "MOOC/Big MOCS/Autre.md",
-    "MOOC/Big MOCS/Langues.md",
-    "Permanent/Langues/Le futur dans le passé.md",
-    "Permanent/Langues/Le superlatif.md",
-    "MOOC/Big MOCS/Neuroscience.md",
-    "Permanent/Neuroscience/Les deux principaux types de signaux dans le cerveau.md",
-    "Permanent/Neuroscience/Les endorphines.md",
-    "Permanent/Neuroscience/Les effets de la dopamine.md",
-    "Permanent/Medias/Videos/Savoir être focus.md",
-    "Permanent/Neuroscience/Augmenter les niveaux d'ocytocine.md",
-    "Permanent/Neuroscience/L'ocytocine.md",
-    "Ressources/Ressource 1/Demander le nom d'une personne.md",
-    "Ressources/Ressource 1/Construire une phrase affirmative simple en chinois.md",
-    "Permanent/Neuroscience/Maintenir notre niveau de sérotonine.md",
-    "Permanent/Neuroscience/Découper une tâche.md",
+    "Permanent/Autre/La physique quantique.md",
+    "Permanent/Autre/Le nommage des périphériques de stockage.md",
+    "Permanent/Autre/Ordinateur quantique.md",
+    "Projets/Finish/Grand oral maths.md",
+    "Ressources/Autre/Les qualités chez un homme.md",
+    "Mémorisation.md",
+    "Permanent/Programmation/General/langage statiquement typés.md",
+    "Ressources/Autre/Le processus pour développer une app mobile.md",
+    "Permanent/Programmation/General/langage dynamiquement typés.md",
+    "To Learn/Kotlin.md",
+    "Ressources/Autre/La structure d'une page Web.md",
+    "Ressources/Autre/propriété de roi.md",
+    "Ressources/Autre/La méthode pour mieux dormir.md",
+    "Ressources/Autre/La visualisation de demain.md",
+    "Recording 20240704145318.webm",
+    "Recording 20240704145303.webm",
     "Permanent/Medias/NewsLetters",
     "Adrénaline ",
     "Permanent/Personnes",
@@ -336,8 +317,6 @@
     "Cours/R1.09/COURS-1-Les-acteurs-economiques.pdf",
     "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
     "Cours/R1.01/R1-01-—-Cours-03---notion-de-classe.pdf",
-    "Cours/R2.11/listes-termes-1.pdf",
-    "Cours/R2.11/Regimes-probatoires-et-effets-des-jugements.pdf",
     "Pasted image 20240628214641.png",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
@@ -347,7 +326,6 @@
     "Images/Pasted image 20240609195607.png",
     "Images/Pasted image 20240606144404.png",
     "Images/Pasted image 20240606135933.png",
-    "Images/Pasted image 20240606110456.png",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
