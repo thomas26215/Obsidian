@@ -26,9 +26,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f6ee7c2b508b861",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,7 +148,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -198,9 +201,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md"
-              }
+              "state": {}
             }
           },
           {
@@ -278,8 +279,9 @@
       }
     ]
   },
-  "active": "86d5f24546ab83b6",
+  "active": "1f6ee7c2b508b861",
   "lastOpenFiles": [
+    "Ressources/Autre/L'optimisation d'un langage.md",
     "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
     "Permanent/Neuroscience/Les 3 neurotransmetteurs qui nous permettent de nous concentrer.md",
     "Permanent/Neuroscience/La dopamine.md",
@@ -306,7 +308,6 @@
     "Ressources/Autre/La structure d'une page Web.md",
     "Ressources/Autre/propriété de roi.md",
     "Ressources/Autre/La méthode pour mieux dormir.md",
-    "Ressources/Autre/La visualisation de demain.md",
     "Recording 20240704145318.webm",
     "Recording 20240704145303.webm",
     "Permanent/Medias/NewsLetters",
