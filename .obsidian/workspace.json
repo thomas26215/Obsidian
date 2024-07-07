@@ -35,8 +35,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,7 +147,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,9 +200,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md"
-              }
+              "state": {}
             }
           },
           {
@@ -278,7 +270,7 @@
         ],
         "direction": "vertical",
         "x": 1001,
-        "y": 15,
+        "y": 45,
         "width": 600,
         "height": 945,
         "maximize": true,
@@ -286,8 +278,9 @@
       }
     ]
   },
-  "active": "970184d3bdeeb51c",
+  "active": "a9972fc1b59e48ea",
   "lastOpenFiles": [
+    "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
     "Ressources/Autre/L'optimisation d'un langage.md",
     "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
     "Permanent/Neuroscience/Les 3 neurotransmetteurs qui nous permettent de nous concentrer.md",
@@ -314,7 +307,6 @@
     "To Learn/Kotlin.md",
     "Ressources/Autre/La structure d'une page Web.md",
     "Ressources/Autre/propriété de roi.md",
-    "Ressources/Autre/La méthode pour mieux dormir.md",
     "Recording 20240704145318.webm",
     "Recording 20240704145303.webm",
     "Permanent/Medias/NewsLetters",
