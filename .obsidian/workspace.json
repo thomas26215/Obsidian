@@ -52,6 +52,16 @@
               "type": "home-tab-view",
               "state": {}
             }
+          },
+          {
+            "id": "9781982b00276138",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
 <<<<<<< HEAD
@@ -265,10 +275,14 @@
     }
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "active": "9781982b00276138",
 =======
   "active": "3449b833c52c52a0",
 >>>>>>> dac3f90 (vault backup: 15-07-2024 19:39:15, 2 (M .obsidian/plugins/home-tab/data.json .obsidian/workspace.json))
+=======
+  "active": "9781982b00276138",
+>>>>>>> 5fbea38 (vault backup: 19-07-2024 09:37:31, 2 (M .obsidian/plugins/obsidian-git/data.json .obsidian/workspace.json))
   "lastOpenFiles": [
     "Untitled.md",
     "Permanent/Programmation/C/Les mots-clés du langage C.md",
