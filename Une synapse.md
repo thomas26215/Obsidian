@@ -1,0 +1,1 @@
+Une synapse est une communication entre deux neuronnes
