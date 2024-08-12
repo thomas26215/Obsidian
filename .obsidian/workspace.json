@@ -4,71 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d96fef651c281a17",
+        "id": "9913d008c5d29915",
         "type": "tabs",
         "children": [
           {
-            "id": "a9972fc1b59e48ea",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "86d5f24546ab83b6",
+            "id": "3449b833c52c52a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ressources/Autre/L'optimisation d'un langage.md",
-                "mode": "source",
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "3449b833c52c52a0",
+            "id": "16998271f98995cd",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
-            }
-          },
-          {
-            "id": "9781982b00276138",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
-            "id": "3449b833c52c52a0",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "9781982b00276138",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
             }
           }
         ],
-<<<<<<< HEAD
-        "currentTab": 2
-=======
-        "currentTab": 4
->>>>>>> dac3f90 (vault backup: 15-07-2024 19:39:15, 2 (M .obsidian/plugins/home-tab/data.json .obsidian/workspace.json))
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -134,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md"
+              }
             }
           },
           {
@@ -180,6 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -202,7 +168,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.16967153497702828,
+                  "scale": 0.17550248105316874,
                   "close": true
                 }
               }
@@ -233,7 +199,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/Java/Outillage d'une procédure.md"
+              }
             }
           },
           {
@@ -257,7 +225,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 266.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,22 +243,27 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "active": "9781982b00276138",
-=======
-  "active": "3449b833c52c52a0",
->>>>>>> dac3f90 (vault backup: 15-07-2024 19:39:15, 2 (M .obsidian/plugins/home-tab/data.json .obsidian/workspace.json))
-=======
-  "active": "9781982b00276138",
->>>>>>> 5fbea38 (vault backup: 19-07-2024 09:37:31, 2 (M .obsidian/plugins/obsidian-git/data.json .obsidian/workspace.json))
+  "active": "16998271f98995cd",
   "lastOpenFiles": [
+    "Permanent/Programmation/Java/Afficher dans la console en Java.md",
+    "Permanent/Programmation/Java/Outillage d'une procédure.md",
+    "Fonctions.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Programmation/Java/Les conditions en Java.md",
+    "Permanent/Programmation/General/Définition - Notion de condition.md",
+    "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
+    "Permanent/Programmation/General/Définition - Instruction d'itération.md",
+    "Permanent/Programmation/General/Définition - Expression Booléenne.md",
+    "Permanent/Programmation/General/Expression - Programmation.md",
+    "Permanent/Cours/Cours/Semestre 1/Initiation au développement.md",
+    "Permanent/Programmation/Java/Afficher dans la console en Java (print et println).md",
+    "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
+    "Ressources/Autre/L'optimisation d'un langage.md",
     "Untitled.md",
     "Permanent/Programmation/C/Les mots-clés du langage C.md",
     "Permanent/Programmation/C",
     "Les commentaires.md",
     "Ressources/Autre/La méthode pour apprendre n'importe quelle compétence.md",
-    "Ressources/Autre/L'optimisation d'un langage.md",
     "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
     "Permanent/Neuroscience/Les 3 neurotransmetteurs qui nous permettent de nous concentrer.md",
     "Permanent/Neuroscience/La dopamine.md",
@@ -300,17 +274,6 @@
     "Pasted image 20240704155931.png",
     "Permanent/Programmation/General/Fonctions lambda.md",
     "Permanent/Autre/Le chiffrement RSA.md",
-    "Permanent/Autre/Algorithme de la clé RSA.md",
-    "Permanent/Autre/Craquer une clé RSA.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Autre/La physique quantique.md",
-    "Permanent/Autre/Le nommage des périphériques de stockage.md",
-    "Permanent/Autre/Ordinateur quantique.md",
-    "Projets/Finish/Grand oral maths.md",
-    "Ressources/Autre/Les qualités chez un homme.md",
-    "Mémorisation.md",
-    "Permanent/Programmation/General/langage statiquement typés.md",
-    "Ressources/Autre/Le processus pour développer une app mobile.md",
     "Recording 20240704145318.webm",
     "Recording 20240704145303.webm",
     "Permanent/Medias/NewsLetters",
@@ -319,7 +282,6 @@
     "Cours/R1.02/cm4.pdf",
     "Cours/R1.01/R1-01-—-Cours-05---Partie-3---recherche-séquentielle-non-triée.pdf",
     "Cours/R1.09/COURS-1-Les-acteurs-economiques.pdf",
-    "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
     "Pasted image 20240628214641.png",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
