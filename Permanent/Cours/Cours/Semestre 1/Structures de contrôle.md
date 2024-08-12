@@ -1,9 +1,9 @@
 ---
 MOOC: "[[Cours]]"
 Ressource: "R1.01 : Initiation au développement"
-Cours: 
+Cours: "Cours 2 : Strutures de contrôle"
 Date: 2023-09-18
-tags: []
+tags: 
 Complete: true
 Learned: true
 ---
