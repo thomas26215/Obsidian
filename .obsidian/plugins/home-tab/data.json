@@ -24,12 +24,21 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+<<<<<<< HEAD
       "filepath": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
       "timestamp": 1723463018268
     },
     {
       "filepath": "Permanent/Cours/Cours/Semestre 1/Initiation au développement.md",
       "timestamp": 1723462847366
+=======
+      "filepath": "Les pointeurs - C.md",
+      "timestamp": 1724706596631
+    },
+    {
+      "filepath": "Permanent/Programmation/SQL/Les règles de gestion.md",
+      "timestamp": 1724706538532
+>>>>>>> 7f89efd (.)
     }
   ],
   "starredFileStore": [],
