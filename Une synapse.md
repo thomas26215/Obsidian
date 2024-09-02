@@ -1,1 +1,3 @@
-Une synapse est une communication entre deux neuronnes
+Un synapse est une zone de contact qui permet la transmission d'informations entre entre deux neurones ou entre une neurone et une autre cellule. Deux types de synapses :
+- **Chimique :** La plus fréquente → Utilisation de neurotranmetteurs pour transmettre des signaux. Des neurotranmetteurs sont libérés dans l'espace synaptiqueet se lient à des récepteurs sur la membrane du neuronne suivant. Cela entraîne une excitation ou une inhibition de ce neuronne
+- **Eléctrique :** Permet une transmission directe entre deux neuronnes via des jonctions communicantes. Communication rapide et permet une synchronisation efficace de l'activité neuronale

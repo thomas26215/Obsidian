@@ -25,6 +25,7 @@
   "recentFilesStore": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "filepath": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
       "timestamp": 1723463018268
     },
@@ -39,6 +40,26 @@
       "filepath": "Permanent/Programmation/SQL/Les règles de gestion.md",
       "timestamp": 1724706538532
 >>>>>>> 7f89efd (.)
+=======
+      "filepath": "Les principaux mots-clés en C.md",
+      "timestamp": 1725272199118
+    },
+    {
+      "filepath": "Permanent/Programmation/General/langage statiquement typés.md",
+      "timestamp": 1725272196738
+    },
+    {
+      "filepath": "Déclarez des variables - C.md",
+      "timestamp": 1725271853049
+    },
+    {
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Présentation.md",
+      "timestamp": 1725270815857
+    },
+    {
+      "filepath": "Permanent/Programmation/General/Compilateur.md",
+      "timestamp": 1725270814293
+>>>>>>> f2d95b3 (.)
     }
   ],
   "starredFileStore": [],
