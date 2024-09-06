@@ -90,9 +90,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "e66369700813e93b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programmation modulaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -158,6 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programmation modulaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,6 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programmation modulaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +209,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programmation modulaire.md"
+              }
             }
           },
           {
@@ -204,6 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Programmation modulaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,7 +274,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Programmation modulaire.md"
+              }
             }
           },
           {
@@ -298,8 +317,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "53910a7915126d37",
+  "active": "e66369700813e93b",
   "lastOpenFiles": [
+    "Programmation modulaire.md",
+    "To Learn/Bien-être physique par l'exercice et les pauses.md",
     "Les tableaux C.md",
     "Structures C.md",
     "Cours/R1.01/R1-01-—-Cours-02---partie-1---structures-de-contôle.pdf",
@@ -326,8 +347,6 @@
     "Permanent/Neuroscience/Les deux gros systèmes neuronaux de notre cerveau.md",
     "Une synapse.md",
     "Les commentaires.md",
-    "Les experiences.md",
-    "Inside the mind of a master procrastinator.md",
     "Recording 20240812134453.webm",
     "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
     "Permanent/Programmation/C",

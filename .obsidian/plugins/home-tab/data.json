@@ -10,11 +10,11 @@
   "wordmark": "Obsidian",
   "customFont": "interfaceFont",
   "fontSize": "4em",
-  "fontColorType": "default",
+  "fontColorType": "custom",
   "fontWeight": 600,
   "maxResults": 5,
   "showStarredFiles": false,
-  "showRecentFiles": false,
+  "showRecentFiles": true,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
   "showPath": true,
@@ -24,60 +24,23 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "filepath": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
-      "timestamp": 1723463018268
-=======
-      "filepath": "Les tableaux C.md",
-      "timestamp": 1725533639467
->>>>>>> a14d879 (.)
+      "filepath": "Programmation modulaire.md",
+      "timestamp": 1725606421458
     },
     {
-      "filepath": "Les pointeurs - C.md",
-      "timestamp": 1725533315930
+      "filepath": "To Learn/Bien-être physique par l'exercice et les pauses.md",
+      "timestamp": 1725606258480
     },
     {
-<<<<<<< HEAD
-      "filepath": "Permanent/Programmation/SQL/Les règles de gestion.md",
-      "timestamp": 1724706538532
->>>>>>> 7f89efd (.)
-=======
-      "filepath": "Les principaux mots-clés en C.md",
-      "timestamp": 1725272199118
-    },
-    {
-      "filepath": "Permanent/Programmation/General/langage statiquement typés.md",
-      "timestamp": 1725272196738
-    },
-    {
-      "filepath": "Déclarez des variables - C.md",
-      "timestamp": 1725271853049
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 3/Présentation.md",
-      "timestamp": 1725270815857
-    },
-    {
-      "filepath": "Permanent/Programmation/General/Compilateur.md",
-      "timestamp": 1725270814293
->>>>>>> f2d95b3 (.)
-=======
-      "filepath": "MOOC/Big MOCS/Cours.md",
-      "timestamp": 1725533069875
->>>>>>> a14d879 (.)
-=======
       "filepath": "Structures C.md",
       "timestamp": 1725605909606
->>>>>>> 4b565f7 (.)
     }
   ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
-  "newTabOnStart": false,
+  "newTabOnStart": true,
   "closePreviousSessionTabs": false,
-  "omnisearch": false
+  "omnisearch": false,
+  "fontColor": "#b9274c"
 }
