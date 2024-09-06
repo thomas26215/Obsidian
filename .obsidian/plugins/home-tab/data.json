@@ -10,11 +10,11 @@
   "wordmark": "Obsidian",
   "customFont": "interfaceFont",
   "fontSize": "4em",
-  "fontColorType": "custom",
+  "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 5,
   "showStarredFiles": false,
-  "showRecentFiles": true,
+  "showRecentFiles": false,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
   "showPath": true,
@@ -26,17 +26,20 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "filepath": "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
       "timestamp": 1723463018268
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 1/Initiation au développement.md",
-      "timestamp": 1723462847366
 =======
-      "filepath": "Les pointeurs - C.md",
-      "timestamp": 1724706596631
+      "filepath": "Les tableaux C.md",
+      "timestamp": 1725533639467
+>>>>>>> a14d879 (.)
     },
     {
+      "filepath": "Les pointeurs - C.md",
+      "timestamp": 1725533315930
+    },
+    {
+<<<<<<< HEAD
       "filepath": "Permanent/Programmation/SQL/Les règles de gestion.md",
       "timestamp": 1724706538532
 >>>>>>> 7f89efd (.)
@@ -60,13 +63,16 @@
       "filepath": "Permanent/Programmation/General/Compilateur.md",
       "timestamp": 1725270814293
 >>>>>>> f2d95b3 (.)
+=======
+      "filepath": "MOOC/Big MOCS/Cours.md",
+      "timestamp": 1725533069875
+>>>>>>> a14d879 (.)
     }
   ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
-  "newTabOnStart": true,
+  "newTabOnStart": false,
   "closePreviousSessionTabs": false,
-  "omnisearch": false,
-  "fontColor": "#b9274c"
+  "omnisearch": false
 }
