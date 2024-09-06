@@ -43,3 +43,5 @@ Il faut maintenant traduire ce que j'ai écrit en code machnie grâce à un [[Co
 ⇒ GCC, clang, deux compilateurs différents (donne deux codes machines [assembleur] différents mais produit le même résultat)
 
 [[Les principaux mots-clés en C]]
+[[Structure]]
+[[Les fonctions en C]]

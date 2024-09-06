@@ -13,7 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Les principaux mots-clés en C.md",
+                "file": "Les fonctions en C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4dde882bcc766a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 3/Pointeurs et adressage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44d25a35dbe2c54f",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "844d3cd8a6718034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structures C.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,8 +70,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b06c26728bbf9c9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Les pointeurs - C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53910a7915126d37",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -105,7 +158,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Les principaux mots-clés en C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +174,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Les principaux mots-clés en C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +195,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Les principaux mots-clés en C.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +204,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Les principaux mots-clés en C.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,9 +257,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Les principaux mots-clés en C.md"
-              }
+              "state": {}
             }
           },
           {
@@ -252,13 +298,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "dc4d774a49589c8d",
+  "active": "53910a7915126d37",
   "lastOpenFiles": [
-    "Les pointeurs - C.md",
-    "Permanent/Programmation/General/langage statiquement typés.md",
-    "Les principaux mots-clés en C.md",
+    "Les tableaux C.md",
+    "Structures C.md",
+    "Cours/R1.01/R1-01-—-Cours-02---partie-1---structures-de-contôle.pdf",
+    "Permanent/Cours/Cours/Semestre 3/Pointeurs et adressage.md",
     "Déclarez des variables - C.md",
+    "Les fonctions en C.md",
+    "Les pointeurs - C.md",
     "Permanent/Cours/Cours/Semestre 3/Présentation.md",
+    "Structure.md",
+    "Permanent/Cours/Cours/Semestre 2/Pile.md",
+    "Les principaux mots-clés en C.md",
+    "Permanent/Programmation/General/langage statiquement typés.md",
     "Permanent/Programmation/General/Compilateur.md",
     "Permanent/Cours/Cours/Semestre 3",
     "MOOC/Little MOCS/Les différents temps de l'anglais.md",
@@ -275,13 +328,7 @@
     "Les commentaires.md",
     "Les experiences.md",
     "Inside the mind of a master procrastinator.md",
-    "Fonctions.md",
-    "Permanent/Cours/Cours/Semestre 1/Structures de contrôle.md",
     "Recording 20240812134453.webm",
-    "Permanent/Cours/Cours/Semestre 1/Initiation au développement.md",
-    "Permanent/Programmation/Java/Afficher dans la console en Java (print et println).md",
-    "Excalidraw/Drawing 2024-08-11 13.18.25.excalidraw.md",
-    "Permanent/Programmation/Java/Afficher dans la console en Java.md",
     "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
     "Permanent/Programmation/C",
     "Pasted image 20240704155931.png",
@@ -290,7 +337,6 @@
     "Permanent/Medias/NewsLetters",
     "Adrénaline ",
     "Permanent/Personnes",
-    "Cours/R1.02/cm4.pdf",
     "Pasted image 20240628214641.png",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
