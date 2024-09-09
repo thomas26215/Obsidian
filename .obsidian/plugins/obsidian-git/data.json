@@ -16,11 +16,7 @@
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
-<<<<<<< HEAD
-  "refreshSourceControl": false,
-=======
   "refreshSourceControl": true,
->>>>>>> 4b565f7 (.)
   "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
