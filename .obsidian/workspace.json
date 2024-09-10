@@ -13,13 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/DHCP, VLAN et DNS.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "14d0d9a0e05f9f81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOOC/Big MOCS/Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "001f7dba8f7b9545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3360786ab868abe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dfd2f74d1b2bd1f",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +176,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -189,9 +229,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md"
-              }
+              "state": {}
             }
           },
           {
@@ -232,45 +270,45 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "34136d3753e37b4e",
+  "active": "5dfd2f74d1b2bd1f",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 3/Introduction.md",
+    "Permanent/Sport/Gamme offensive.md",
+    "Permanent/Cours/Cours/Semestre 3/DHCP, VLAN et DNS.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
+    "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
+    "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+    "Permanent/Cours/Cours/Semestre 2/Protocole Internet - adressage.md",
+    "Permanent/Cours/TD/Semestre 3/DHCP, VLAN et DNS 1.md",
+    "Permanent/Cours/Cours/Semestre 3/Présentation.md",
+    "Permanent/Cours/Cours/Semestre 3/Pointeurs et adressage.md",
+    "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
+    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
     "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+    "Cours/R2.01b/Rappels-UML_diagrammes_classes.pdf",
+    "Cours/R2.01b/01_introduction.pdf",
+    "Permanent/Cours/TD/Semestre 3/Untitled",
+    "Permanent/Cours/Cours/Semestre 3/Introduction.md",
     "Permanent/Cours/TD/Semestre 3",
     "Programmation modulaire.md",
     "Les pointeurs - C.md",
     "Déclarez des variables - C.md",
     "Structures C.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
     "La notion de classe en C#.md",
     "Permanent/Programmation/C#/Les différents types de données.md",
-    "Permanent/Cours/Cours/Semestre 3/Pointeurs et adressage.md",
-    "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
     "Permanent/Programmation/C#/Les variables.md",
     "Les fonctions en C.md",
     "Permanent/Programmation/C.md",
     "Permanent/Programmation/Java/Les variables en Java.md",
     "Permanent/Programmation/C#",
     "To Learn/Bien-être physique par l'exercice et les pauses.md",
-    "Les tableaux C.md",
     "Cours/R1.01/R1-01-—-Cours-02---partie-1---structures-de-contôle.pdf",
-    "Permanent/Cours/Cours/Semestre 3/Présentation.md",
-    "Structure.md",
-    "Permanent/Cours/Cours/Semestre 2/Pile.md",
-    "Les principaux mots-clés en C.md",
-    "Permanent/Programmation/General/langage statiquement typés.md",
-    "Permanent/Programmation/General/Compilateur.md",
     "Permanent/Cours/Cours/Semestre 3",
-    "MOOC/Little MOCS/Les différents temps de l'anglais.md",
-    "Permanent/Langues/Le présent progressif - Present Be-ing.md",
-    "Permanent/Langues/Le futur simple.md",
     "Recording 20240812134453.webm",
     "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
     "Permanent/Programmation/C",
     "Pasted image 20240704155931.png",
-    "Recording 20240704145318.webm",
-    "Recording 20240704145303.webm",
-    "Permanent/Medias/NewsLetters",
     "Pasted image 20240628214641.png",
     "Images/rn_image_picker_lib_temp_773d45d5-b015-4066-a7e7-11000db752ed.jpg",
     "Images/rn_image_picker_lib_temp_fd23fe38-bf96-4f3d-bd26-fc702fa27f5e.jpg",
