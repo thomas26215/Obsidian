@@ -24,6 +24,7 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+<<<<<<< HEAD
       "filepath": "Permanent/Cours/TD/Semestre 3/Untitled.md",
       "timestamp": 1725884622729
     },
@@ -42,6 +43,14 @@
     {
       "filepath": "Déclarez des variables - C.md",
       "timestamp": 1725883410494
+=======
+      "filepath": "Permanent/Sport/Untitled.md",
+      "timestamp": 1725829188805
+    },
+    {
+      "filepath": "Les tableaux C.md",
+      "timestamp": 1725829078371
+>>>>>>> dda39d4 (.)
     }
   ],
   "starredFileStore": [],
