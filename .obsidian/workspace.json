@@ -62,6 +62,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c76fdc0f22a96ae9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -114,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -281,9 +288,9 @@
   },
   "active": "26cdc2b2ada9dc16",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 3/Introduction.md",
-    "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
     "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
     "Permanent/Cours/Cours/Semestre 3/Présentation.md",
     "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
