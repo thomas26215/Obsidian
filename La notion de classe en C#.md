@@ -29,3 +29,6 @@ class Livre{
 Il est maintenant possible d'instance un objet à partir de cette classe :
 ```C
 ```
+
+
+$1-\frac{C_{75}^6}{C_{78}^6} = \frac{587}{2717} \approx 0,2160471$

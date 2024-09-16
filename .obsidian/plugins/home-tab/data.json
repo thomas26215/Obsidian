@@ -24,43 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "filepath": "Permanent/Cours/TD/Semestre 3/Untitled.md",
-      "timestamp": 1725884622729
-=======
-      "filepath": "Permanent/Cours/Cours/Semestre 3/DHCP, VLAN et DNS.md",
-      "timestamp": 1725955765202
->>>>>>> 4db5c19 (.)
+      "filepath": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+      "timestamp": 1726488526395
     },
     {
       "filepath": "MOOC/Big MOCS/Cours.md",
-      "timestamp": 1725955762930
+      "timestamp": 1726488519263
     },
     {
-      "filepath": "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-      "timestamp": 1725955758932
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Introduction.md",
+      "timestamp": 1726488516569
     },
     {
-      "filepath": "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-      "timestamp": 1725955744135
+      "filepath": "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
+      "timestamp": 1726488488095
     },
     {
-<<<<<<< HEAD
-      "filepath": "Déclarez des variables - C.md",
-      "timestamp": 1725883410494
-=======
-      "filepath": "Permanent/Sport/Untitled.md",
-      "timestamp": 1725829188805
-    },
-    {
-      "filepath": "Les tableaux C.md",
-      "timestamp": 1725829078371
->>>>>>> dda39d4 (.)
-=======
-      "filepath": "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
-      "timestamp": 1725955726653
->>>>>>> 4db5c19 (.)
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Présentation.md",
+      "timestamp": 1726488479792
     }
   ],
   "starredFileStore": [],

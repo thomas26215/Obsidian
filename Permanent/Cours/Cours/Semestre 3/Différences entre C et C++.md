@@ -109,3 +109,53 @@ int Point2d::getY() const{
 }
 ...
 ```
+
+---
+# Le cycle de vie des objets
+Un objet est alloué (on lui donne un espace mémoire). S'il a un constructeur, le constructeur va être appelé.
+
+>[!warning] Le constructeur
+>son rôle n'est pas d'alloué mais d'initialiser
+
+Voici comment se présente un constructeur :
+```Cpp
+Point2D::Point2D(int x = 0, int y = 0) : m_x(x), m_y(y){
+	...
+}
+```
+
+3 façons de fabriquer des objets :
+- statique (rarement utilisé)
+- allocation automatique : dans la pile (stack) et supprimé automatiquement à la fin du bloc d'instructions (fonction généralement) ⇒ `T nomObjet; // appel du const. par défaut s'il existe`
+- allocation dynamique : Dans le tas (pile) Ils sont crées par un appel de l'opérateur `new` et doivent êtres détruits explicitement par l'opérateur `delete`
+	- `T* pointeurObject = new T(<paramètres d'un constructeur>);`
+	- `T* pointeurObject = new T;` ⇒ Si le constructeur existe par défaut
+
+---
+Les méthodes ne modifiant pas les objets dont êtres suivies de `const` : Le pointeur `this` d'une méthode d'instance constante est de type `const T*`
+
+---
+Le rôle du destructeur est de faire du ménage : il veillera à libérer la mémoire afin d'éviter que celle-ci ne soit perdue (fuite mémoire)
+⇒ `MaClasse :: ~MaClasse()`
+
+---
+Pour qu'une classe soit bien écrite, il faut :
+- Un constructeur par défaut ⇒ `Image(const std::string & nom = "une image");`
+```cpp
+Image::image(...) : m_nom(nom), m_hauteur(hauteur), m_largeur(largeur){
+	...
+}
+```
+- Un constructeur par recopie ⇒ `Image(const Image & image);`
+```cpp
+Image::image(const Image & image){
+	if(image.m_contenu != nullptr){
+		this->m_contenu = new unsigned char(m_hauteur * m*largeur);
+		memcpy(this->m_contenu, image.m_contenu, m_hauteur * m_largeur);
+	}else{
+		this->m_contenu=nullptr;
+	}
+}
+```
+- Une opération d'affectation ⇒ `Image & operateor=(const Image & image);`
+- Un destructeur ⇒ `~Image();`

@@ -37,16 +37,22 @@ Learned: false
 **QQOQCP** :
 - **Qui :**
 	- MOA
-		- Le client → taille (grande entreprise, petite entreprise ...)  Combien ils sont ?
+		- Le client
+			- Domaine activité de l'entreprise des clients
+			- Taille de l'entreprise
+			- Combien de personnes dans l'entreprise
+			- Ressources fianncières
 		- Directeur de projet
 		- Comité de pilotage (ceux qui vérifient que objectifs atteints de manière régulière mais non continue)
 		- utilisateurs finaux
-		- Domaine activité de l'entreprise des clients
+			- Projet produit
+			- Projet ouvrage
+		
 	- MOE
 		- Le nombre de personnes 
 		- les compéteces
-		- chef
 		- Mode d'organisation
+			- chef
 	- Besoin de personnes à l'extérieur
 		- Taille : Grande entreprise, petite entreprise, particulier
 		- Compétence
@@ -57,7 +63,7 @@ Learned: false
 		-  fonction principal
 		- fonctions annexes
 	- Besoins non fonctionnels (Service utile au fonctionnement mais pas explicitement demandé par le client)
-	- De quoi j'ai besoin ?
+	- Ressources humaines, financières, techniques et matériels, la donnée
 - **Où :** 
 	- MOE (même pays / meme continent  / continent different)
 		- culture ?
@@ -74,6 +80,7 @@ Learned: false
 	- personnels/intervenant esxterne disponibles
 	- disponibilite du materiel (ex:location de machine)
 	- disponibilite du comite de pilotage / MOE ...
+	- Les jalons imposés (MOA)
 - **Comment :**
 	- moyens disponibles
 		- materiel
@@ -90,6 +97,7 @@ Learned: false
 		- humain
 		- temporel
 		- technique
+		- criticité, mitigation
 - **Pourquoi, Pour qui, Pour quoi :** 
 	- objectif de produit
 		- Projet ouvrage : projet unique pour un seul client
@@ -102,3 +110,12 @@ Learned: false
 			 - particulier
 		 - clentelle du client
 	 - besoin fonctionnel principal ⇒ demande du client
+# Question 3
+| Direction de projet                                                                                               | Management de projet                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Se concentre sur la vision globale et les objectifs à long terme du projet => **Long terme**<br>Objectifs globaux | Se concentre sur la planification et l'exécution au quotidien => **Court terme**<br>Objectifs concrets |
+| Définit les orientations stratégiques et prend les décisions importantes                                          | Gère les ressources, le budget, les délais et la qualité                                               |
+| Gère les relations avec les parties prenantes de haut niveau => **Supérieur**                                     | Coordonne l'équipe projet et les tâches => **Equipe**                                                  |
+| Assure la gouvernance du projet                                                                                   | Assure le suivi et le reporting de projet                                                              |
+| Généralement assumée par un directeur ou spondor de projet                                                        | Généralement assumé par un chef de projet                                                              |
+|                                                                                                                   |                                                                                                        |
