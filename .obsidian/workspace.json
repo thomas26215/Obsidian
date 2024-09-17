@@ -8,71 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dfd2f74d1b2bd1f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b567cfa8e9c01bb6",
+            "id": "9a9e2fa5c1ccdeac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7dd3ea5e15e1b17a",
+            "id": "2056c4b568ff8dbf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2284cc73e534449e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26cdc2b2ada9dc16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c76fdc0f22a96ae9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "home-tab-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Quoi",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md"
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md"
               }
             }
           },
@@ -188,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md"
+                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md"
               }
             }
           },
@@ -264,12 +219,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,33 +240,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "26cdc2b2ada9dc16",
+  "active": "9a9e2fa5c1ccdeac",
   "lastOpenFiles": [
+    "Permanent/Programmation/C++/Constructeur par recopie.md",
+    "Permanent/Programmation/C++/La forme canonique de Coplien.md",
+    "Permanent/Programmation/C++/Les classes.md",
+    "Permanent/Programmation/C++/Le destructeur.md",
+    "Permanent/Programmation/C++/L'appel de méthodes.md",
+    "Les fonctions.md",
+    "Permanent/Programmation/C++/Le constructeur.md",
+    "Permanent/Programmation/C++/Inline.md",
+    "Permanent/Programmation/C++/Les constantes.md",
+    "Permanent/Cours/TD/Semestre 3/SQL - 1.md",
+    "Permanent/Programmation/C++",
     "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+    "Permanent/Cours/TD/Semestre 3/TP réseaux.md",
+    "Permanent/Cours/Cours/Semestre 3/Durabilité SQL.md",
+    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
+    "Permanent/Cours/Cours/Semestre 3/PPP - CV.md",
+    "Permanent/Programmation/General/Définition - Programmation.md",
+    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
+    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "Permanent/Autre/Les métacaractères (jokers, wildcards).md",
+    "metach.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 3/Introduction.md",
     "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
     "Permanent/Cours/Cours/Semestre 3/Présentation.md",
     "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
-    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
-    "Permanent/Autre/Les conventions d'écriture pour écrire une commande.md",
-    "Les pointeurs - C.md",
-    "Permanent/Cours/Cours/Semestre 2/Protocole Internet routage et IPv6.md",
-    "Permanent/Cours/Cours/Semestre 2/Réseaux infos.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-    "Domaine de définition.md",
-    "Permanent/Cours/TD/Semestre 3/TP réseaux.md",
-    "La notion de classe en C#.md",
-    "JVM.md",
     "Pasted image 20240628214641.png",
-    "Fonctions.md",
     "Pasted image 20240704155931.png",
-    "Les experiences.md",
-    "Les commentaires.md",
-    "Untitled.md",
-    "Dérivées.md",
     "Pasted image 20240910221358.png",
     "Pasted image 20240910221355 1.png",
     "Pasted image 20240910221355.png",
@@ -321,9 +279,6 @@
     "Pasted image 20240910221353.png",
     "Pasted image 20240910221351 1.png",
     "Pasted image 20240910221351.png",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
-    "Permanent/Cours/Cours/Semestre 3/DHCP, VLAN et DNS.md",
     "Cours/R1.08/00-Gestion-des-organisations.pdf",
     "Cours/R2.05/cours_5.pdf",
     "Cours/R2.11/R2-11-liste-des-termes-partie-2.pdf",
@@ -333,7 +288,6 @@
     "Permanent/Cours/TD/Semestre 3/Untitled",
     "Permanent/Cours/TD/Semestre 3",
     "Permanent/Programmation/C#",
-    "Cours/R1.01/R1-01-—-Cours-02---partie-1---structures-de-contôle.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
