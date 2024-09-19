@@ -18,6 +18,7 @@ Classe::Classe(const Classe& autre) : m_intitule(autre.m_intitule){
 >Le but ici est de prendre un object appelé `autre` de même type que l'objet actuel. Il faut maintenant prendre tous les éléments de `autre` pour les mettres dans l'objet actuel (que l'on peut aussi nommer `this`)
 
 
+
 A partir de maintenant, je peux écrire le code suivant :
 ```Cpp
 Groupe *groupeA = new Groupe("A");

@@ -4,30 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "ac195677f0051980",
+        "id": "ab5cfc3242aa0bda",
         "type": "tabs",
         "children": [
           {
-            "id": "9a9e2fa5c1ccdeac",
+            "id": "1aaff7688f2e66e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
+                "file": "Permanent/Programmation/PHP/Les fonctions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2056c4b568ff8dbf",
+            "id": "78ce026c1d6de7c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1d36eceacd187e4",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,7 +152,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -197,9 +205,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Permanent/Programmation/C++/La forme canonique de Coplien.md"
-              }
+              "state": {}
             }
           },
           {
@@ -223,7 +229,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,42 +240,43 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "publish:Publish changes...": false,
-      "audio-recorder:Start/stop recording": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a9e2fa5c1ccdeac",
+  "active": "d1d36eceacd187e4",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
+    "Permanent/Programmation/PHP/Les fonctions.md",
+    "Permanent/Cours/TD/Semestre 3/SQL - 1.md",
+    "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
+    "Permanent/Cours/Cours/Semestre 3/Gestion des sentreprises.md",
+    "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
+    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
+    "Permanent/Cours/Cours/Semestre 3/Présentation.md",
+    "Permanent/Cours/Cours/Semestre 3/Untitled.md",
+    "Permanent/Cours/TD/Semestre 3/TP réseaux.md",
+    "Permanent/Cours/TD/Semestre 3/DNS.md",
+    "Permanent/Programmation/PHP/Les dictionnaires.md",
+    "Permanent/Programmation/PHP/PHP dans le HTML.md",
+    "Permanent/Programmation/PHP/Les variables.md",
+    "Permanent/Programmation/PHP",
     "Permanent/Programmation/C++/Constructeur par recopie.md",
     "Permanent/Programmation/C++/La forme canonique de Coplien.md",
+    "Permanent/Programmation/C++/Le constructeur.md",
+    "MOOC/Big MOCS/Cours.md",
     "Permanent/Programmation/C++/Les classes.md",
     "Permanent/Programmation/C++/Le destructeur.md",
     "Permanent/Programmation/C++/L'appel de méthodes.md",
     "Les fonctions.md",
-    "Permanent/Programmation/C++/Le constructeur.md",
     "Permanent/Programmation/C++/Inline.md",
-    "Permanent/Programmation/C++/Les constantes.md",
-    "Permanent/Cours/TD/Semestre 3/SQL - 1.md",
     "Permanent/Programmation/C++",
-    "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
-    "Permanent/Cours/TD/Semestre 3/TP réseaux.md",
-    "Permanent/Cours/Cours/Semestre 3/Durabilité SQL.md",
-    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
-    "Permanent/Cours/Cours/Semestre 3/PPP - CV.md",
-    "Permanent/Programmation/General/Définition - Programmation.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-    "Littéraire/Arrêtez d'oublier ce que vous lisez !.md",
-    "MOOC/Big MOCS/Programmation.md",
-    "Permanent/Autre/Les métacaractères (jokers, wildcards).md",
-    "metach.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 3/Introduction.md",
-    "Permanent/Cours/Cours/Semestre 2/Définition des objectifs de projet.md",
-    "Permanent/Cours/Cours/Semestre 3/Présentation.md",
-    "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
     "Pasted image 20240628214641.png",
     "Pasted image 20240704155931.png",
     "Pasted image 20240910221358.png",
@@ -287,7 +295,6 @@
     "Cours/R2.01b/01_introduction.pdf",
     "Permanent/Cours/TD/Semestre 3/Untitled",
     "Permanent/Cours/TD/Semestre 3",
-    "Permanent/Programmation/C#",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
