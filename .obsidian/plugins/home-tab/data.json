@@ -24,8 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
-      "timestamp": 1726731560750
+      "filepath": "Permanent/Programmation/C++/Constructeur par recopie.md",
+      "timestamp": 1726780553456
+    },
+    {
+      "filepath": "Permanent/Programmation/PHP/PHP dans le HTML.md",
+      "timestamp": 1726780551957
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/Surcharge d'opérateurs.md",
+      "timestamp": 1726780492746
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/Surchage d'opérateur des flux.md",
+      "timestamp": 1726779734935
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/Les constantes.md",
+      "timestamp": 1726779732343
     }
   ],
   "starredFileStore": [],

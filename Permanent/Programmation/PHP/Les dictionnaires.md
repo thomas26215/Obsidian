@@ -31,3 +31,24 @@ $output .= "</table>"
 ```
 - Cette boucle parcourt chaque élément du tableau et place pour chaque élément la clé dans la variable `$cle` et la valeur dans la variable `$valeur`
 - Il est maintenant possible d'afficher ce tableau qui est un tableau de paire clé-valeur
+
+# Vérifier la présence d'un élément
+Il est possible de vérifier si un clé existe dans un dictionnaire :
+```PHP
+$liste = array('Thomas' => 'Venouil', ...);
+
+function checkKeyInArray(string  $cle):String{
+	global $liste
+	if(array_key_exists($element, $cle)){
+		//Code
+	}
+}
+```
+
+- Nous avons notre liste `$liste`
+- Nous créons une [[Les fonctions|fonction]] qui prend en paramètres un string `$element`
+- Nous faisons `$global $liste` pour récupérer la liste qui n'est pas dans la fonction
+- Nous vérifions si une clé est présent dans la liste par la fonction `array_key_exists`
+
+>[!Warning] Eviter les erreurs
+>Généralement, nous vérifions si la clé existe dans la liste pour éviter de faire une recherche d'élément avec une clé qui n'existe pas. **C'est donc une condition préalable pour éviter de faire des erreurs**

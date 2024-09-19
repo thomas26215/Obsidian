@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/PHP/Les fonctions.md",
+                "file": "Permanent/Programmation/PHP/Récupérer des variables passés dans l'URL.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54b72e671cc95602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
+                "file": "Permanent/Programmation/PHP/PHP dans le HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,12 +47,16 @@
             "id": "d1d36eceacd187e4",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/PHP/Les dictionnaires.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md"
+              }
             }
           },
           {
@@ -152,6 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,7 +226,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Programmation/C++/Constructeur par recopie.md"
+              }
             }
           },
           {
@@ -247,10 +270,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d1d36eceacd187e4",
+  "active": "54b72e671cc95602",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
+    "Permanent/Programmation/PHP/PHP dans le HTML.md",
+    "Permanent/Programmation/C++/Constructeur par recopie.md",
+    "Permanent/Programmation/C++/Surcharge d'opérateurs.md",
+    "Permanent/Programmation/C++/Surchage d'opérateur des flux.md",
+    "Permanent/Programmation/C++/Les constantes.md",
+    "Permanent/Programmation/C++/Les classes.md",
+    "Permanent/Programmation/C++/Le destructeur.md",
+    "Permanent/Programmation/C++/Le constructeur.md",
+    "Permanent/Programmation/C++/L'appel de méthodes.md",
+    "Permanent/Programmation/C++/La forme canonique de Coplien.md",
+    "Permanent/Programmation/C++/Inline.md",
+    "Permanent/Programmation/PHP/Récupérer des variables passés dans l'URL.md",
     "Permanent/Programmation/PHP/Les fonctions.md",
+    "Permanent/Programmation/PHP/Les dictionnaires.md",
+    "Permanent/Programmation/PHP/Les variables.md",
+    "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
     "Permanent/Cours/TD/Semestre 3/SQL - 1.md",
     "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
     "Permanent/Cours/Cours/Semestre 3/Gestion des sentreprises.md",
@@ -261,21 +298,7 @@
     "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
     "Permanent/Cours/Cours/Semestre 3/Présentation.md",
     "Permanent/Cours/Cours/Semestre 3/Untitled.md",
-    "Permanent/Cours/TD/Semestre 3/TP réseaux.md",
-    "Permanent/Cours/TD/Semestre 3/DNS.md",
-    "Permanent/Programmation/PHP/Les dictionnaires.md",
-    "Permanent/Programmation/PHP/PHP dans le HTML.md",
-    "Permanent/Programmation/PHP/Les variables.md",
     "Permanent/Programmation/PHP",
-    "Permanent/Programmation/C++/Constructeur par recopie.md",
-    "Permanent/Programmation/C++/La forme canonique de Coplien.md",
-    "Permanent/Programmation/C++/Le constructeur.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Programmation/C++/Les classes.md",
-    "Permanent/Programmation/C++/Le destructeur.md",
-    "Permanent/Programmation/C++/L'appel de méthodes.md",
-    "Les fonctions.md",
-    "Permanent/Programmation/C++/Inline.md",
     "Permanent/Programmation/C++",
     "Pasted image 20240628214641.png",
     "Pasted image 20240704155931.png",

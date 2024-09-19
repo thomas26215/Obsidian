@@ -29,3 +29,6 @@ groupeA->addElement("3");
 Groupe *groupeB = new Groupe(*groupeA); //Constructeur par recopie
 groupeB->setIntitule("B") //Je peux modifier sans que cela modifie pour groupeA
 ```
+
+>[!warning] Attention pour =
+>Si vous souhaitez faire `objet1 = objet2`, il est nécessaire de faire une [[Surcharge d'opérateurs]] sur = (`void operator=(ClassObjet autre)){m_intitule = autre.m_intitule;...}`
