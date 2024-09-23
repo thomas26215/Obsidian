@@ -70,3 +70,18 @@ pour
 - **Manuel** : Opérations assurées par l'homme, sans recours à des machines. Pour petits volumes et tâches mal définies
 - **Automatisé** : Opérations assurés par un ordinateur sans intervention humaine. Pour gros volumes et travaux répétitifs
 - **Assistés** : Opérations assurées grâce à un dialogue homme-machine. Domaine de l'aide à la décision
+---
+Les 3 dimensions d'un SI 
+- Humaine
+	- Écouter et comprendre
+	- Conseiller et proposer
+	- Dialoguer et négocier
+	- Convaincre et faire adhérer au projet
+	- Conduire le changement
+- Organisation
+	- Procédures de gestion
+	- Langage de l'information
+	- Circuits d'information
+- Technologies de l'information
+Et le coût
+
