@@ -24,33 +24,8 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-<<<<<<< Updated upstream
-      "filepath": "Permanent/Programmation/C++/Constructeur par recopie.md",
-      "timestamp": 1726780553456
-    },
-    {
-      "filepath": "Permanent/Programmation/PHP/PHP dans le HTML.md",
-      "timestamp": 1726780551957
-    },
-    {
-      "filepath": "Permanent/Programmation/C++/Surcharge d'opérateurs.md",
-      "timestamp": 1726780492746
-    },
-    {
-      "filepath": "Permanent/Programmation/C++/Surchage d'opérateur des flux.md",
-      "timestamp": 1726779734935
-    },
-    {
-      "filepath": "Permanent/Programmation/C++/Les constantes.md",
-      "timestamp": 1726779732343
-=======
-      "filepath": "FeedBack.md",
-      "timestamp": 1726744915139
-    },
-    {
-      "filepath": "Permanent/Cours/Cours/Semestre 3/La dimension humaine.md",
-      "timestamp": 1726744905322
->>>>>>> Stashed changes
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
+      "timestamp": 1727734958908
     }
   ],
   "starredFileStore": [],

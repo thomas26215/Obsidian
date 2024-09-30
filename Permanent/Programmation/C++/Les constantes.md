@@ -19,4 +19,4 @@ const char MESSAGE[] = "Hello World"
 - `const int * const p` ⇒ Ni le pointeur, ni la valeur ne peuvent être modifiées
 
 `const` est utilisé pour qualifier une référence, c'est à dire une variable entière qui ne peut pas être modifiée
-Finalement, on peut l'utiliser pour indiquer qu'une fonction ne modifier pas de l'objet auquel elle s'appliquera. Nous utilisons surtout cela dans [[Les classes | les classes]]
+Finalement, on peut l'utiliser pour indiquer qu'une fonction ne modifier pas de l'objet auquel elle s'appliquera. Nous utilisons surtout cela dans [[Permanent/Programmation/C++/Les classes| les classes]]

@@ -183,7 +183,206 @@ En petit projet, un seul cahier des charges
 5. Servir de base pour l'élaboration des supports marketing
 
 # Question 6
+- <mark style="background: #BBFABBA6;">Fonctionnel</mark>
+	- Besoins et objectifs du projet
+	- Fonctionnalités attendues
+	- Contraintes fonctionnelles
+	- Scénarios d'utilisation
+	- Critères de performances
+	- Interfaces utilisateur
+	- Maintenance
+- <mark style="background: #BBFABBA6;">Technique</mark>
+	- technologies utilisées
+	- Infractructure, matériel
+	- Sécurité : Protéger les données
+	- Performances techniques
+	- Comptabilité
+- <mark style="background: #BBFABBA6;">Markting</mark>
+	- Analyse du marché
+	- Public cible
+	- Stratégie de comm
+	- Budget marketing
+	- Moyens de comms (canaux)
+	- Planning : déterminer un planning pour le marketing
 
+# Question 7
+- <mark style="background: #BBFABBA6;">Fonctionnel</mark>
+	- Actvités à mener
+		- Mise en place du projet
+		- Analyse des contraintes
+		- Définir les interfaces utilisateur (IHM)
+	- Outils à utiliser
+		- Ateliers de réunion
+		- Maquettes - Logiciel
+		- IHM
+- <mark style="background: #BBFABBA6;">Technique</mark>
+	- Activité
+		- Définir infrastructure et logiciels
+		- Modélisation
+		- Analyse des performances
+		- Mise en place de sécurité des données
+	- Outils
+		- Benchmark technique (performances)
+		- SGBD ⇒ Données et protéger
+		- Logiciels adaptés
+		- Outils de modélisation
+		- Outils collaboratifs
+- <mark style="background: #BBFABBA6;">Marketing</mark>
+	- Activité
+		- Faire la publicité
+		- Analyser concurrence et marché
+		- Stratégie de comm
+		- Planifier actions marketing
+	- Outils
+		- Plateformes pour la publicité (RS ...)
+		- Outils collaboratifs (trello ...)
+		- Modèles
+		- Outils pour la comm
+
+# Question 8
+Non, pas tjrs besoin des trois :
+1. <mark style="background: #ADCCFFA6;">Fonctionnel</mark> ⇒ Presque toujours nécessaire : définit besoins et fonctionnalités attendues. - détaillé pour projets simples
+2. <mark style="background: #ADCCFFA6;">Technique</mark> ⇒ Omis ou simplifié pour projets non techniques. Inutile pour services sans composante technique. Pour petits projets, peut être spécifié dans **fonctionnel**
+3. <mark style="background: #ADCCFFA6;">Marketing</mark> ⇒ Lancement d'un nouveau produit grand public = nécessaire ; Projet pour client unique ou projet interne à l'entreprise = non nécessaire → Réduit ; - êrtinents pour produits très techniques
+
+
+
+---
+# Feuille de route
+## Direction de projet
+- Définir les orientation stratégiques et prendre les décisions importantes
+
+- Gérer les relations avec les<mark style="background: #FF5582A6;"> parties prenantes</mark> de haut niveau
+	- Le directeur de projet assume la direction de projet
+	- <mark style="background: #FF5582A6;">Comité de pilotage</mark>
+- Gérer les relations avec entreprises extérieures 
+	- Ressources
+	- Compétences
+- MOA (Responsabilité de la maîtrise d'ouvrage) ⇒ Analyer les besoins (budget global, ressouces, contraintes, risques)
+	- Analyse des besoins
+		- Besoin du client ⇒ Besoin fonctionnel principaux
+			- Entreprise ?
+				- Domaine d'activité de l'entreprise
+				- Taille de l'entreprise
+				- Combien de personnes dans l'entreprise
+				- Ressources financières
+				- Clientelle du client
+			- Particulier ?
+				- Ressources financières
+				- Besoin du particulier
+		- Utilisateurs finaux
+			- <mark style="background: #FF5582A6;">Projet produit</mark>
+				- Personas
+				- Etude de marché
+			- <mark style="background: #FF5582A6;">Projet ouvrage</mark>
+	- Analyse des contraintes
+		- Temporel
+			- Deadline ⇒ Imposée par clients
+			- Temps que MOA alloue (autres projets en attente)
+			- Personnels/intervenants externes disponibles
+			- Disponibilité du matériel
+			- Disponibilité du comité de pilotage / MOE
+			- Jalons imposés (MOA)
+		- Cahier des charges imposé par le client
+		- Normes obligatoires
+			- Données personnelles ⇒ RGPD
+		- Humaine
+		- Technique
+	- Analyse des risques
+		- Humain
+			- Personnes disponibles
+			- Maladies
+			- Congés
+		- Temporel
+		- Technique
+		- Criticité, mitigation
+- Définir les critères de réussite
+
+# Management de projet
+- Planification et l'exécution au quotidien
+	- Elaborer un plan d'action à court terme
+	- Adapter stratégie en fonction des besoins
+- Gérer les ressourecs, le budget, les délais et la qualité
+	- <mark style="background: #BBFABBA6;">Ressources</mark> : 
+		- Humaine
+		- Matériel
+		- Technique
+	- <mark style="background: #BBFABBA6;">Budget</mark> : 
+		- Suivre dépenses
+		- Identification écart budgétaire
+	- <mark style="background: #BBFABBA6;">Délais</mark>
+		- Plannings
+		- Suivre avancement tâches
+	- <mark style="background: #BBFABBA6;">Qualité</mark>
+		- Contrôls qualité
+		- Conformité par rapport au cahier des charges
+- Coordoner l'équipe projet et les tâches / rôles
+	- Répartition tâches
+	- Gestion compétences
+	- Résolutions conflits
+	- Responsabilité des tâches en fonctions des employés et des compétences de chacun
+	- Gérer chefs d'équipe ...
+- Les personnes présentes dans le projet
+	- <mark style="background: #FF5582A6;">Le chef de projet</mark> assume généralement le projet
+	- MOE
+		- Le nombre de personnes
+		- Les compétences
+		- Mode d'organisation
+	- Besoin de personnes d'entreprise extérieur
+		- Taille
+		- compétences
+		- ressources
+		- Utilité (valider, créer, idées)
+- Comment gérer le truc ?
+	- Tactique
+	- Opérationnel
+		- Pilotage quotidien activités
+		- Prise de décisions opérationnelles rapides
+	- Accomplir de manière efficace, voir efficience
+	- gestion quasi quotidienne de l'équipe de projet
+		- Réunions régulières (pas forcément longues)
+		- Recadrer le projet si dérives
+		- Prendre informations d'avancée de chaque personnes / groupes et redistribuer le travail
+		- Motiver les équipes
+- Gestion des risques et problèmes opérationnels
+	- Déjà définits par direction de projet
+- Communication
+	- Réunions régulières
+	- Discussions avec parties prenantes
+
+## Documentation
+- Cahiers de charges
+	- Fonctionnel
+		- Objectifs
+		- Eléments à analyser
+		- Activités à mener
+		- Outils à utiliser
+	- Technique
+		- Objectifs
+		- Eléments à analyser
+		- Activités à mener
+		- Outils à utiliser
+	- Marketing
+		- Objectifs
+		- Eléments à analyser
+		- Activités à mener
+		- Outils à utiliser
+	- Sélection du cahier des charges
+
+⇒ Efficacité, efficience, besoins fonctionnels et non fonctionnels, direction projet et management de projet, Workflow, 
+1. Direction de Projet
+	1. Analyse des besoins
+	2. Contraintes
+	3. Risques
+3. Management de projet
+4. Documentation du projet
+	1. les cahiers des charges
+		1. Fonctionnel (ce que doit faire le produit)
+		2. Technique (Comment on va répondre au besoin)
+		3. Marketing (Les attentes des consommateurs ⇒ Utilisateurs finaux)
+		   → Si projet produit alors il faut savoir ce que les utilisateurs veulent
+			   Etudes de marchés
+			   Personas
 
 
 

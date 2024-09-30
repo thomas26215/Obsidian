@@ -19,3 +19,13 @@ Les bénéfices tengibles : Augmentation de la productivité, diminution des co�
 
 
 
+Progiciel = Prêt à porter de l'indormatique - Produit standard du marché
+Logiciel = Sur-mesure - Préalable, le cahier des charges
+
+ERP = logiciel de gestion qui permet d'intégrer toutes les fonctions d'une entreprise et facilite les accès simultanées à toutes les données nécessaires . Il est évolutif et personnalisable. Il peut être adapté en fonction des besoins spécifiques de chaque entreprise qu'il s'agisse d'une multinationale, d'une PME ou d'une TPE
+
+
+
+Synthèse des deux approches :
+- Fragmenté : Faible orientation client et organisation rigide
+- Intégré : Orienté par client, organisation flexible

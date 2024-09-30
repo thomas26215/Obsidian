@@ -4,59 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "ab5cfc3242aa0bda",
+        "id": "3387c93e139a221e",
         "type": "tabs",
         "children": [
           {
-            "id": "1aaff7688f2e66e4",
+            "id": "6efb92119fa6ae21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/PHP/Récupérer des variables passés dans l'URL.md",
+                "file": "MOOC/Big MOCS/Cours.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "54b72e671cc95602",
+            "id": "7949854c522348b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
+                "file": "MOOC/Big MOCS/Autre.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "78ce026c1d6de7c3",
+            "id": "4f46f9586b699282",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/PHP/PHP dans le HTML.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6878ea97ceab0175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ressources/Ressource 4/Créer un lien vers une autre page.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7cb562f4a3531e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Autre/RGPD.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3031f825c406daab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/C++/Les classes.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99f77fc58641e5a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/C#/Les variables.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5368240523b2b17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1d36eceacd187e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/PHP/Les dictionnaires.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md"
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md"
               }
             }
           },
@@ -172,7 +220,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -195,7 +243,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.12688499098488043,
+                  "scale": 0.21081518164771018,
                   "close": true
                 }
               }
@@ -227,7 +275,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md"
+                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md"
               }
             }
           },
@@ -240,7 +288,7 @@
             }
           },
           {
-            "id": "83c67d9cc1650fe2",
+            "id": "e49be7f804499e89",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -252,8 +300,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,61 +310,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
       "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "54b72e671cc95602",
+  "active": "4f46f9586b699282",
   "lastOpenFiles": [
-    "Permanent/Programmation/PHP/PHP dans le HTML.md",
-    "Permanent/Programmation/C++/Constructeur par recopie.md",
-    "Permanent/Programmation/C++/Surcharge d'opérateurs.md",
-    "Permanent/Programmation/C++/Surchage d'opérateur des flux.md",
-    "Permanent/Programmation/C++/Les constantes.md",
+    "Outils de l'agilité.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Permanent/Cours/Cours/Semestre 3/La dimension humaine.md",
+    "Pasted image 20240910221358.png",
+    "Pasted image 20240910221355.png",
+    "Pasted image 20240910221355 1.png",
+    "Pasted image 20240910221354.png",
+    "Pasted image 20240910221354 1.png",
+    "Pasted image 20240910221353.png",
+    "Pasted image 20240910221351.png",
+    "Pasted image 20240910221351 1.png",
+    "Pasted image 20240910221348.png",
+    "Pasted image 20240910221346.png",
+    "FeedBack.md",
+    "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
+    "KANBAN.md",
+    "Réussinage cu code.md",
+    "TimeBoxing.md",
+    "Planning poker.md",
+    "Pair programming.md",
+    "TDD.md",
+    "Intégration continue.md",
+    "Untitled.md",
+    "non-regression.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Programmation/C#/Les variables.md",
     "Permanent/Programmation/C++/Les classes.md",
-    "Permanent/Programmation/C++/Le destructeur.md",
+    "Permanent/Autre/RGPD.md",
+    "Ressources/Ressource 4/Créer un lien vers une autre page.md",
+    "Permanent/Autre/L'entreprise du point de vue des parties prenantes.md",
+    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Programmation/C++/Design pattern.md",
+    "Permanent/Programmation/C#/Les classes.md",
     "Permanent/Programmation/C++/Le constructeur.md",
-    "Permanent/Programmation/C++/L'appel de méthodes.md",
-    "Permanent/Programmation/C++/La forme canonique de Coplien.md",
-    "Permanent/Programmation/C++/Inline.md",
-    "Permanent/Programmation/PHP/Récupérer des variables passés dans l'URL.md",
-    "Permanent/Programmation/PHP/Les fonctions.md",
-    "Permanent/Programmation/PHP/Les dictionnaires.md",
-    "Permanent/Programmation/PHP/Les variables.md",
-    "Permanent/Cours/TD/Semestre 3/TP Gestion de projet.md",
-    "Permanent/Cours/TD/Semestre 3/SQL - 1.md",
-    "Permanent/Cours/TD/Semestre 3/Management des projets informatiques.md",
-    "Permanent/Cours/Cours/Semestre 3/Gestion des sentreprises.md",
-    "Permanent/Cours/Cours/Semestre 3/Développement Web.md",
-    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-    "Permanent/Cours/Cours/Semestre 3/Présentation.md",
-    "Permanent/Cours/Cours/Semestre 3/Untitled.md",
+    "Images/Obsidian_JE3_BE2.webp.opdownload",
+    "Cours/R2.01a/R02_01_03_TP5.pdf",
     "Permanent/Programmation/PHP",
     "Permanent/Programmation/C++",
-    "Pasted image 20240628214641.png",
-    "Pasted image 20240704155931.png",
-    "Pasted image 20240910221358.png",
-    "Pasted image 20240910221355 1.png",
-    "Pasted image 20240910221355.png",
-    "Pasted image 20240910221354 1.png",
-    "Pasted image 20240910221354.png",
-    "Pasted image 20240910221353.png",
-    "Pasted image 20240910221351 1.png",
-    "Pasted image 20240910221351.png",
     "Cours/R1.08/00-Gestion-des-organisations.pdf",
     "Cours/R2.05/cours_5.pdf",
     "Cours/R2.11/R2-11-liste-des-termes-partie-2.pdf",
     "Cours/R1.09/COURS-1-Les-acteurs-economiques.pdf",
     "Cours/R2.01b/Rappels-UML_diagrammes_classes.pdf",
     "Cours/R2.01b/01_introduction.pdf",
-    "Permanent/Cours/TD/Semestre 3/Untitled",
-    "Permanent/Cours/TD/Semestre 3",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
