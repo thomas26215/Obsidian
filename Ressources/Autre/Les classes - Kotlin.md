@@ -41,8 +41,8 @@ Et oui ! Il n'y a pas besoin de `new` ici. Cela contribue encore à la compatici
 > Même si l'objet de la classe est de type immuable, les propriétéde celui-ci pourra tout-de-même être modifié
 
 Pour les getters et setters :
-- `val` : Immuables => Uniquement [[Les classes|assesseur]]
-- `var` : Muables => [[Les classes|Assesseur]] + [[Les classes|mutateurs]]
+- `val` : Immuables => Uniquement [[Permanent/Programmation/C++/Les classes|assesseur]]
+- `var` : Muables => [[Permanent/Programmation/C++/Les classes|Assesseur]] + [[Permanent/Programmation/C++/Les classes|mutateurs]]
 Aussi, par défaut, la visibilité sera `public`
 
 Occupons-nous maintenant des `getters` et `setters` :

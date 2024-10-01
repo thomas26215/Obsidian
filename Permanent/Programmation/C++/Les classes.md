@@ -4,7 +4,7 @@ En C++, nous représentons généralement les classes dans deux fichiers distinc
 
 Voici comment se définit le fichier header :
 
-```h
+```cpp
 #ifndef POINT2D_H
 #define POINT2D_H
 #include <iostream>
@@ -28,7 +28,7 @@ private:
 #endif
 ```
 
-Voici quelques remarques :
+**Voici quelques remarques :**
 - Nous devons inclure les 3 directives suivantes : `ifndef`, `define` et `endif` afin d'empêcher l'inclusion multiple d'un même fichier en-tête dans une unité de compilation
 - Nous séparons les fonctions/attributs publics des privés (`public:` et `private:`)
 - Nous avons [[Le constructeur|le constructeur]] : `Point2D(...);` qui définit certaines choses de bases si elles ne sont pas rentrées

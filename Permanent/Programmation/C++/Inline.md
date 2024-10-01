@@ -4,7 +4,7 @@ Langage: C++
 Type: Classes
 tags:
 ---
-Nous avons vu quand pour utiliser [[Les classes|une classe]], il faut définir le prototype dans le fichier `.h` et décrire la fonction dans le fichier `.cpp`. Cependant, il se peut peut que de toutes méthode fassent très peu de lignes. On peut alors les décrire directement dans le `.h` en utilisant `inline` :
+Nous avons vu quand pour utiliser [[Permanent/Programmation/C++/Les classes|une classe]], il faut définir le prototype dans le fichier `.h` et décrire la fonction dans le fichier `.cpp`. Cependant, il se peut peut que de toutes méthode fassent très peu de lignes. On peut alors les décrire directement dans le `.h` en utilisant `inline` :
 
 ```h
 #ifndef FICHIER_H

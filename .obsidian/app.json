@@ -8,5 +8,8 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false,
+  "foldIndent": false
 }

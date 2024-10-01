@@ -19,7 +19,7 @@ $valeur = liste["Thomas"];
 // Ce que ça me retournera : "Venouil"
 ```
 
-# Boucler pour récupérer toutes le valeurs du dictionnaire
+# Boucler pour récupérer toutes  les valeurs du dictionnaire
 De la même manière qu'en Java, il est possible de faire un boucle `foreach` afin de boucler sur toutes les valeurs :
 ```PHP
 $output
@@ -51,4 +51,4 @@ function checkKeyInArray(string  $cle):String{
 - Nous vérifions si une clé est présent dans la liste par la fonction `array_key_exists`
 
 >[!Warning] Eviter les erreurs
->Généralement, nous vérifions si la clé existe dans la liste pour éviter de faire une recherche d'élément avec une clé qui n'existe pas. **C'est donc une condition préalable pour éviter de faire des erreurs**
+>Généralement, nous vérifions si  la clé existe dans la liste pour éviter de faire une recherche d'élément avec une clé qui n'existe pas. **C'est donc une condition préalable pour éviter de faire des erreurs**
