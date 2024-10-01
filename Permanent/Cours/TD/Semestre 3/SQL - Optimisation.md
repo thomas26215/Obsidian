@@ -132,3 +132,36 @@ Execution Time: 0.188 ms
 (13 rows)
 ```
 
+# Exercice 3
+
+**Question 1 :**
+> Un index n'a probablement pas été crée pour l'attribut name. Il le crée automatiquement pour les clés primaires et les contraintes uniques mais pas pour les colonnes ordinaires
+> 
+> `create index idx_towns_name on towns(name);` 
+> Un index a été crée ⇒ `Index Scan using idx_towns_name on towns`
+
+**Question 2**
+- Cas par défaut (avec les index générés par PostgreSQL) :sql
+
+`EXPLAIN ANALYZE SELECT towns.code, towns.name FROM towns, departments WHERE towns.department = departments.code AND departments.name = 'Isère';`
+
+- Sans index :  
+    Supprimer d'abord tous les index existants
+    `DROP INDEX IF EXISTS idx_departments_name; DROP INDEX IF EXISTS idx_departments_code; DROP INDEX IF EXISTS idx_towns_department; ALTER TABLE departments DROP CONSTRAINT IF EXISTS departments_pkey; ALTER TABLE towns DROP CONSTRAINT IF EXISTS towns_pkey;`
+- Index sur departments.name
+    `CREATE INDEX idx_departments_name ON departments(name);`
+- Index sur departments.code :sql
+    `DROP INDEX IF EXISTS idx_departments_name; CREATE INDEX idx_departments_code ON departments(code);`
+- Index sur departments.code et towns.department :sql
+    `CREATE INDEX idx_towns_department ON towns(department);`
+- Index sur departments.code, towns.department et departments.name :sql
+    `CREATE INDEX idx_departments_name ON departments(name);`
+
+
+
+**Exercice 4 :**
+1. **Avec égalités**
+select t.name, d.name  
+from towns t, departments d, regions r  
+where t.department = d.code and d.region = r.code  
+and r.name = 'Rhône-Alpes'  ;

@@ -22,7 +22,28 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [],
+  "recentFilesStore": [
+    {
+      "filepath": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
+      "timestamp": 1727787174828
+    },
+    {
+      "filepath": "Outils de l'agilité.md",
+      "timestamp": 1727787158937
+    },
+    {
+      "filepath": "Planning poker.md",
+      "timestamp": 1727787148754
+    },
+    {
+      "filepath": "TimeBoxing.md",
+      "timestamp": 1727787144891
+    },
+    {
+      "filepath": "Intégration continue.md",
+      "timestamp": 1727787129220
+    }
+  ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

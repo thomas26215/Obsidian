@@ -11,8 +11,12 @@
             "id": "1aaff7688f2e66e4",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md"
+              }
             }
           },
           {
@@ -143,6 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md"
+              }
             }
           },
           {
@@ -220,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,12 +250,17 @@
   },
   "active": "1aaff7688f2e66e4",
   "lastOpenFiles": [
+    "Outils de l'agilité.md",
+    "Planning poker.md",
+    "TimeBoxing.md",
+    "Intégration continue.md",
+    "MOOC/Big MOCS/Autre.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/TD/Semestre 3/SQL - Optimisation.md",
     "non-regression.md",
     "Untitled.md",
-    "TimeBoxing.md",
     "TDD.md",
     "Réussinage cu code.md",
-    "Planning poker.md",
     "Permanent/Programmation/Composition.md",
     "Permanent/Programmation/C++/Polymorphisme.md",
     "Permanent/Programmation/C++/Les listes.md",
@@ -261,11 +276,6 @@
     "Permanent/Mathématiques/Loi binomiale.md",
     "Permanent/Cours/TD/Semestre 3/ERP - PGI - Etude de cas.md",
     "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
-    "Permanent/Cours/Cours/Semestre 3/Untitled 1.md",
-    "Permanent/Cours/Cours/Semestre 3/Ssh (secure shell).md",
-    "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
-    "Permanent/Cours/Cours/Semestre 3/Cours pptimisation.md",
-    "Permanent/Cours/Cours/Semestre 3/Comm.md",
     "Pasted image 20240923145058.png",
     "Images/Pasted image 20240910221358.png",
     "Images/Pasted image 20240910221355.png",
