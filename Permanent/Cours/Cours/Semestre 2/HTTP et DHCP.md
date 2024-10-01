@@ -28,6 +28,45 @@ Les différents codes de réponse sont :
 - 4xx - Erreur du client HTTP
 - 5xx - Erreur du serveur
 Les requêtes et réponses HTTP sont transportées par TCP
+
+HTTP n'est pas sécurisé. Vulnérable a la surveillance, l'usurpation d'identité, man in the middle
+
+On passe maintenant a HTTPS
+- vérifier identité des acteurs
+- assurer la confidentialité et l'intégrité des échanges 
+=> Sécurité assuré par TLS
+
+## TLS
+TLS :
+- authentification du serveur et parfois celle du client
+- confidentialité des données échangées
+- Intégrité des données échangées 
+Plusieurs version du TLS. Client et serveur négocient pour la meilleur version dans une phase de négociation.
+
+Carte d'identité :
+- CN : Comment name
+- O : Organisation
+- Date de validité
+- Autorité de certificat
+Clé publique = chiffrement asymétrique
+Signature électronique= condensat chiffré : carte d'identité+ clé publique
+
+Assuré :
+- authentification : certificat + mac
+- chiffrement : enc
+- intégrité : mac
+Utilisé aussi pour SMTP, SMTPS, FTP, FTDP
+## Apache
+Créé en 1975, libre, multiplateforme, ipv4 et IPv6, hébergé plusieurs sites
+
+## HTTPS
+Étapes :
+1. Chiffrement : message chiffre illisible
+2. Transmission : Message envoyé sur réseau
+3. Déchiffrement : message reçu par destinataire possédant clé de déchiffrement sous sa forme originale
+
+
+
 # DHCP
 Dynamic Host Configuration Protocol (DHCP) configurer dynamiquement une station connectée au sein d'un LAN
 Sert principalement à distribuer des adresses IP sur un réseau

@@ -22,7 +22,16 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
+<<<<<<< HEAD
   "recentFilesStore": [],
+=======
+  "recentFilesStore": [
+    {
+      "filepath": "Cours/R1.01/R1-01-—-Cours-01---premières-bases.pdf",
+      "timestamp": 1727722669124
+    }
+  ],
+>>>>>>> 28b523f (.)
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
