@@ -6,3 +6,6 @@ Mise en oeuvre :
 5. Nomination si nécessaire ou obligatoire d'un DPO
 6. Privacy by design et privacy by default
 7. Mise en place de la procédure d'alerte en cas de violation de données
+
+
+![[Les sanctions du non-respect des règles du droit des données]]

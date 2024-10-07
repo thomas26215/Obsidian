@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md",
+                "file": "intégrale par partie.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a37cde844fa0a50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Littéraire/Une tehnique royale de calcul d'intégrale.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "f64a30c76d217183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ce648c1004ca805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOOC/Big MOCS/Autre.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e97fd63c7297e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Autre/La mort numérique.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ad7c3a76aaf46c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Les principes du RGPD.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Libre ",
+                "query": "mort numé",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md"
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md"
               }
             }
           },
@@ -135,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -158,7 +219,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.21081518164771018,
+                  "scale": 0.15739397447218664,
                   "close": true
                 }
               }
@@ -190,7 +251,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Programmation/C++/Agrégationet composition.md"
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md"
               }
             }
           },
@@ -232,35 +293,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9935d768cba41b5",
+  "active": "f64a30c76d217183",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 3/Untitled 2.md",
+    "Permanent/Autre/Mise en oeuvre du droit des données.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+    "Permanent/Autre/La CNIL.md",
+    "Permanent/Autre/Droit des personnes.md",
+    "Permanent/Autre/RGPD.md",
+    "Permanent/Autre/La mort numérique.md",
+    "Les principes du RGPD.md",
+    "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
+    "Intégrale définie.md",
+    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Projets/En cours/Oral communication.md",
+    "Fonction réciproque.md",
+    "intégrale par partie.md",
+    "Intégration continue.md",
+    "Projets/En cours/Stages/Lettre de motivation.md",
+    "Projets/En cours/Untitled",
+    "telephone-intelligent.png",
+    "Permanent/Programmation/C++/Inline.md",
+    "Excalidraw/Drawing 2024-10-06 15.13.33.excalidraw.md",
+    "Recording 20241006151254.webm",
+    "Recording 20241006151303.webm",
+    "Recording 20241006151250.webm",
+    "Recording 20241006151246.webm",
+    "Daily note/2024-10-06.md",
+    "Instantiation des objets.md",
+    "Permanent/Programmation/C++/Les classes.md",
+    "Permanent/Programmation/C++/Les constantes.md",
+    "Les types références.md",
     "Permanent/Cours/Cours/Semestre 3/Gueule de l'emploi.md",
-    "Permanent/Cours/Cours/Semestre 3/Analyse.md",
+    "Projets/En cours/Stages",
     "Pasted image 20241003151838.png",
     "Pasted image 20241003151829.png",
-    "Les principes du RGPD.md",
-    "Excalidraw/Exemple de processus métier.md",
-    "Permanent/Programmation/C++/Agrégationet composition.md",
-    "Permanent/Programmation/Composition.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-    "Permanent/Cours/SAE/Installation d'un poste de travail pour le développement.md",
-    "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
-    "Le droit au déréférencement.md",
-    "Hehh.md",
-    "Réussinage cu code.md",
-    "Intégration continue.md",
-    "Permanent/Cours/TD/Semestre 3/ERP - PGI - Etude de cas.md",
-    "Permanent/Cours/Cours/Semestre 3/Cours pptimisation.md",
-    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
-    "Ressources/Autre/De nombreuses techniques pour une bonne mise en page.md",
-    "intégrale indéfinie.md",
-    "Untitled 1.md",
-    "Permanent/Cours/Cours/Semestre 3/Anglais.md",
-    "Mise en oeuvre du droit des données.md",
-    "Les sanctions du non-respect des règles du droit des données.md",
-    "La mort numérique.md",
     "Images/Pasted image 20240910221358.png",
     "Images/Pasted image 20240910221355.png",
     "Images/Pasted image 20240910221355 1.png",
@@ -268,17 +337,10 @@
     "Images/Pasted image 20240910221354 1.png",
     "Images/Pasted image 20240910221353.png",
     "Images/Pasted image 20240910221351.png",
-    "Images/Pasted image 20240910221351 1.png",
     "Images/Obsidian_JE3_BE2.webp.opdownload",
     "Cours/R2.01a/R02_01_03_TP5.pdf",
     "Permanent/Programmation/PHP",
     "Permanent/Programmation/C++",
-    "Cours/R1.08/00-Gestion-des-organisations.pdf",
-    "Cours/R2.05/cours_5.pdf",
-    "Cours/R2.11/R2-11-liste-des-termes-partie-2.pdf",
-    "Cours/R1.09/COURS-1-Les-acteurs-economiques.pdf",
-    "Cours/R2.01b/Rappels-UML_diagrammes_classes.pdf",
-    "Cours/R2.01b/01_introduction.pdf",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",

@@ -47,3 +47,11 @@ Cadre légal de la protection des données personnelles dans le cadre de la coll
 
 ---
 ![[RGPD]]
+
+
+![[Droit des personnes]]
+![[La CNIL]]
+
+
+
+![[Mise en oeuvre du droit des données]]

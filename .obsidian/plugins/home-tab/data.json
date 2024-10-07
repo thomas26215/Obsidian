@@ -24,8 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Permanent/Programmation/C++/Agrégationet composition.md",
-      "timestamp": 1728031748854
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+      "timestamp": 1728338446118
+    },
+    {
+      "filepath": "Permanent/Autre/Mise en oeuvre du droit des données.md",
+      "timestamp": 1728338440201
+    },
+    {
+      "filepath": "Permanent/Autre/La CNIL.md",
+      "timestamp": 1728338414675
+    },
+    {
+      "filepath": "Permanent/Autre/Droit des personnes.md",
+      "timestamp": 1728338218591
+    },
+    {
+      "filepath": "Permanent/Autre/RGPD.md",
+      "timestamp": 1728338171300
     }
   ],
   "starredFileStore": [],

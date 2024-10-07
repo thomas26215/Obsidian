@@ -4,6 +4,9 @@ Sujet: Droit
 Type: Données personnelles
 tags:
 ---
+![[Les principes du RGPD]]
+
+
 Les axes de la réglementation :
 - **Objectifs général** : Protection de la vie privée et des personnes
 - Art.9 du code civil

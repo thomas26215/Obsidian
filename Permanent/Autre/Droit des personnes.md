@@ -1,3 +1,9 @@
+---
+MOOC: "[[Autre]]"
+Sujet: Droit
+Type: Données personnelles
+tags:
+---
 - Droit à l'information
 	- Corolaire de l'obligation de transparence
 	- Préalable à la collecte des données

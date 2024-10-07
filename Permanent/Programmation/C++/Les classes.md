@@ -2,7 +2,7 @@ En C++, nous représentons généralement les classes dans deux fichiers distinc
 - Le fichier header qui sert à indiquer les prototypes des fonction de la classe
 - Le fichier cpp qui va indiquer les corps de fonction de la classe
 
-Voici comment se définit le fichier header :
+Voici comment se définit le fichier header (`.h`) :
 
 ```cpp
 #ifndef POINT2D_H

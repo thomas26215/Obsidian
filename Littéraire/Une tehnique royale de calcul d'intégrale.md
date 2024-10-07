@@ -15,3 +15,14 @@ Ce changement de sens est aussi souvent utilisés dans la calcul de somme pour d
 **Démonstration de la propriété du Roi :**
 >$$\int_a^bf(x)dx=\stackrel{\tiny\text{x=a+b-u, dx=-du}}{\boxed{\displaystyle\int_{a+b-a}^{b+b-a} f(a+b-u) -du}}=-\int_b^af(a+b-u)du=-[-\int_b^af(a+b-u)du]=\int_a^bf(a+b-u)du=\int_a^bf(a+b-x)dx$$
 
+Comment appréhender le changement de variable ?
+> - Changement de variable proposé : $x = a + b - u$
+> - $⇔  u = a+b-x$ 
+> 	- Quand $x = a$ (borne indérieure) : $a+b-x=a+b-a=b$
+> 	- Quand $x=b$ (borne supérieure) : $a+b-x=a+b-b=a$
+> - De plus, quand $x$ augmente, $d$ diminue, donc $dx=-du$ (Quand on différencie l'équation)
+
+
+Petit corrolaire avant de se lancer dans le problème :
+> Soit $f:[0;\frac{\pi}{2}] → \mathbb{R}$ une fonction continue
+> Alors : $$\int_0^{\frac{\pi}{2}}$$
