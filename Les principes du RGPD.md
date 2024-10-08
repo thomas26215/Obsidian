@@ -10,3 +10,7 @@ tags:
 - **Exactitude des données :** Les données doivent être exactes et mises à jour régulièrement
 - **Conservation limite des données :** Les données ne doivent pas être conservées plus llongtemps que nécessaires pour les finalités déclarées
 - **Sécurité :** Les données doivent être protégéess de manière adéquat contre les risques
+
+
+
+

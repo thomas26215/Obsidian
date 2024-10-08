@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "KANBAN.md",
+      "timestamp": 1728410544978
+    },
+    {
+      "filepath": "Littéraire/Une tehnique royale de calcul d'intégrale.md",
+      "timestamp": 1728403015054
+    },
+    {
       "filepath": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-      "timestamp": 1728338446118
-    },
-    {
-      "filepath": "Permanent/Autre/Mise en oeuvre du droit des données.md",
-      "timestamp": 1728338440201
-    },
-    {
-      "filepath": "Permanent/Autre/La CNIL.md",
-      "timestamp": 1728338414675
-    },
-    {
-      "filepath": "Permanent/Autre/Droit des personnes.md",
-      "timestamp": 1728338218591
+      "timestamp": 1728402169272
     },
     {
       "filepath": "Permanent/Autre/RGPD.md",
-      "timestamp": 1728338171300
+      "timestamp": 1728402166265
+    },
+    {
+      "filepath": "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
+      "timestamp": 1728402161270
     }
   ],
   "starredFileStore": [],

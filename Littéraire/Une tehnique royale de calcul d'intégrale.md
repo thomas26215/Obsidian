@@ -25,4 +25,4 @@ Comment appréhender le changement de variable ?
 
 Petit corrolaire avant de se lancer dans le problème :
 > Soit $f:[0;\frac{\pi}{2}] → \mathbb{R}$ une fonction continue
-> Alors : $$\int_0^{\frac{\pi}{2}}$$
+> Alors : $$\int_0^{\frac{\pi}{2}}f(cos(x))dx = \int_0^\frac{\pi}{2}f(cos(\frac{\pi}{2})-x))dx$$

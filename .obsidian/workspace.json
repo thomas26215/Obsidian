@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intégrale par partie.md",
+                "file": "Intégration par partie.md",
                 "mode": "preview",
                 "source": false
               }
@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Semestre 3/SUPPLY CHAIN MANAGEMENT.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/La mort numérique.md",
+                "file": "Permanent/Programmation/Git/Remote.md",
                 "mode": "preview",
                 "source": false
               }
@@ -73,14 +73,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Les principes du RGPD.md",
-                "mode": "preview",
+                "file": "Switch between 2 FXML Scenes using JavaFX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b15f49a386de3c66",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "bea79d9419d62324",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed2781c682108da5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KANBAN.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -146,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+                "file": "KANBAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+                "file": "KANBAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md"
+                "file": "KANBAN.md"
               }
             }
           },
@@ -196,7 +224,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+                "file": "KANBAN.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -251,7 +279,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Droit des données.md"
+                "file": "KANBAN.md"
               }
             }
           },
@@ -293,40 +321,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f64a30c76d217183",
+  "active": "ed2781c682108da5",
   "lastOpenFiles": [
-    "Permanent/Autre/Mise en oeuvre du droit des données.md",
+    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
     "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+    "Permanent/Autre/RGPD.md",
+    "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
+    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Domaine de définition.md",
+    "Switch between 2 FXML Scenes using JavaFX.md",
+    "Les principes du RGPD.md",
+    "Recording 20241008153905.webm",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Programmation/Git/Remote.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Permanent/Programmation/Git/Manipuler l'historique.md",
+    "Permanent/Programmation/Git/Revenir en arrière.md",
+    "Permanent/Programmation/Git/Faire ses premiers commit.md",
+    "Permanent/Programmation/Git/Les branches.md",
+    "Permanent/Autre/La mort numérique.md",
+    "Ressources/Autre/Le shabbat d'Internet.md",
+    "Permanent/Cours/TD/Semestre 3/SUPPLY CHAIN MANAGEMENT.md",
+    "Intégration par partie.md",
+    "Permanent/Autre/Mise en oeuvre du droit des données.md",
     "Permanent/Autre/La CNIL.md",
     "Permanent/Autre/Droit des personnes.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Autre/La mort numérique.md",
-    "Les principes du RGPD.md",
-    "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
     "Intégrale définie.md",
-    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
-    "MOOC/Big MOCS/Autre.md",
     "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
-    "MOOC/Big MOCS/Cours.md",
     "Projets/En cours/Oral communication.md",
-    "Fonction réciproque.md",
-    "intégrale par partie.md",
-    "Intégration continue.md",
-    "Projets/En cours/Stages/Lettre de motivation.md",
     "Projets/En cours/Untitled",
     "telephone-intelligent.png",
-    "Permanent/Programmation/C++/Inline.md",
-    "Excalidraw/Drawing 2024-10-06 15.13.33.excalidraw.md",
     "Recording 20241006151254.webm",
     "Recording 20241006151303.webm",
     "Recording 20241006151250.webm",
     "Recording 20241006151246.webm",
-    "Daily note/2024-10-06.md",
-    "Instantiation des objets.md",
-    "Permanent/Programmation/C++/Les classes.md",
-    "Permanent/Programmation/C++/Les constantes.md",
-    "Les types références.md",
-    "Permanent/Cours/Cours/Semestre 3/Gueule de l'emploi.md",
     "Projets/En cours/Stages",
     "Pasted image 20241003151838.png",
     "Pasted image 20241003151829.png",
@@ -340,7 +369,6 @@
     "Images/Obsidian_JE3_BE2.webp.opdownload",
     "Cours/R2.01a/R02_01_03_TP5.pdf",
     "Permanent/Programmation/PHP",
-    "Permanent/Programmation/C++",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
