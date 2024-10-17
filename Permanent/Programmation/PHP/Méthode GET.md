@@ -1,0 +1,1 @@
+Contrairement à la [[Méthode POST]], les données sont ajoutées à l'URL sous forme de paramètres. Elles restent moins adaptées à la sécurité car les données sont visibles dans l'URL

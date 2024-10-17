@@ -4,7 +4,7 @@ Langage: C++
 Type: Bases
 tags:
 ---
-En C++n quand on passe un objet en référence à une fonction, il faut le passer par valeur. Ainsi, quand une procédure a besoin de modifier une valeur passer en paramètres, il lui faut un pointeur sur l'objet à modifier
+En C++ quand on passe un objet en référence à une fonction, il faut le passer par valeur. Ainsi, quand une procédure a besoin de modifier une valeur passer en paramètres, il lui faut un pointeur sur l'objet à modifier
 ```cpp
 void additionner(int a, int b, int* resultat){
 	*resultat = a + b;

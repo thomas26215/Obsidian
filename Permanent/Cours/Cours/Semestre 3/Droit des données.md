@@ -55,3 +55,26 @@ Cadre légal de la protection des données personnelles dans le cadre de la coll
 
 
 ![[Mise en oeuvre du droit des données]]
+
+
+---
+3 niveaux d'autorités de contrôle et de régulation
+Les autorités de contrôle et de régulation
+--> Niveau européen : Le comité européen de protection des données (CEPD) - Crée par RGPD en 2016
+--> Niveau national : Commission National informatique et Libertés (CNIL)
+--> Niveau local : Le délégué à la protection des données (DPD ou DPO)
+
+---
+## Autorités de contrôle et de régulation - RGPD
+### Le guichet unique
+Mise en place d'une coopération internationale
+⇒ Mise en  place du *one stop shop*
+- Parmis les entreprises opérant sur plusieurs territoires européens
+- Notion de guichet unique (autorité de protection unique dépendant du lieu du principale établissement sur le territoire )
+# DPO (DPD)
+Nomination obligatoire si
+- traitement effectué par une autorité ou un organisme public
+- activité conduit à effectuer un suivi régulier et systématique des personnes à gde échelle
+- Activité conduit à traiter des données sensibles
+Missions :
+- 
