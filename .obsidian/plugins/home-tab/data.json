@@ -23,8 +23,11 @@
   "markdownOnly": false,
   "unresolvedLinks": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "recentFilesStore": [],
 =======
+=======
+>>>>>>> Stashed changes
   "recentFilesStore": [
     {
       "filepath": "Les 5 principes de l'ouverture.md",
@@ -47,6 +50,9 @@
       "timestamp": 1729528178037
     }
   ],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "starredFileStore": [],
   "searchDelay": 0,
