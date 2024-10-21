@@ -14,7 +14,7 @@ tags:
 
 ![[TimeBoxing]]
 
-![[Réussinage cu code]]
+![[Réusinage cu code]]
 
 - User stories ⇒ <mark style="background: #FF5582A6;">Spécifications. Centré utilisateur</mark>
 

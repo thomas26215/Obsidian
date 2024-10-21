@@ -1,0 +1,1 @@
+Les 4 cases au centre du plateau

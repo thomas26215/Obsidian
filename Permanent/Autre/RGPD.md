@@ -12,7 +12,7 @@ Les axes de la réglementation :
 - Art.9 du code civil
 
 1. Création d'obligations à la charge des détenteurs de fichiers
-2. Création d'Autorités en charge de l'applciation de la loi : la CNIL, la CPDP et le DPO
+2. Création d'Autorités en charge de l'applciation de la loi : la [[La CNIL|CNIL]], la CPDP et le DPO
 3. Création de doits au bénéfice des personnes fichées
 
 Champs d'application du RGPD
@@ -26,4 +26,4 @@ Champs d'application du RGPD
 			- <mark style="background: #BBFABBA6;">Oui</mark> ⇒ Application RGPD
 			- <mark style="background: #FF5582A6;">Non</mark> ⇒ Hors champs d'application RGPD
 
-<mark style="background: #ADCCFFA6;">Personne physique</mark> : Identifiée ou identifiable directement (nom, prénom ..) ou indirectement (date et lieu de naissance, addr IP ...), de manière objective (gpe sanguin, num CB) ou subjective (avis ...) et structurée ou non
+[[Personne physique]]

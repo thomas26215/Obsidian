@@ -22,7 +22,32 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
+<<<<<<< Updated upstream
   "recentFilesStore": [],
+=======
+  "recentFilesStore": [
+    {
+      "filepath": "Les 5 principes de l'ouverture.md",
+      "timestamp": 1729528806046
+    },
+    {
+      "filepath": "Le centre.md",
+      "timestamp": 1729528793515
+    },
+    {
+      "filepath": "Le rock.md",
+      "timestamp": 1729528612927
+    },
+    {
+      "filepath": "TDD.md",
+      "timestamp": 1729528204810
+    },
+    {
+      "filepath": "MOOC/Big MOCS/Cours.md",
+      "timestamp": 1729528178037
+    }
+  ],
+>>>>>>> Stashed changes
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
