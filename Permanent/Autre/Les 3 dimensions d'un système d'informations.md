@@ -1,0 +1,11 @@
+- Humaine
+	- Écouter et comprendre
+	- Conseiller et proposer
+	- Dialoguer et négocier
+	- Convaincre et faire adhérer au projet
+	- Conduire le changement
+- Organisation
+	- Procédures de gestion
+	- Langage de l'information
+	- Circuits d'information
+- Technologies de l'information

@@ -1,0 +1,1 @@
+Une donnée est un fait brut. Je ne peux pas en faire grand chose. Par exemple, *15 poires* est une donnée. Je n'ai ni contexte, ni information sur cette donnée

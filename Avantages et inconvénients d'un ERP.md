@@ -1,0 +1,3 @@
+Un ERP est une solution globale, homogène et intégrée qui permet une amélioration de la productivité et un recentrage sur le coeur de métier. Cela permet également une meilleure maîtrise des coûts informatiques, un traçabilité de l'information et une meilleure a adaptabilité
+
+Cependant, cela entraîne une rigidité de la standardisation, des coûts et durées d'implémentations souvent sous-estimés, une nécessité de repenser tout le processus et cela ne couvre pas tous les besoins
