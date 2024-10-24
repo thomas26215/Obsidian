@@ -38,3 +38,5 @@ public class Example{
 }
 ```
 Ces interfaces fournies par le JDK sont flexibles et puissantes sans pour autant avoir à définir des interfaces personnalisées pour chaque cas d'utilisation
+
+[[Fonctions  lambda]]

@@ -12,6 +12,7 @@ Dire que CVs n'ont pas été lus alors que si
 - Gérard
 - Kevin
 	- Dit a Paul qu'il a été désagréable durant debrif
+	- Champs lexicale de la guerre, de l'agressivité
 - Paul cravate rose image du bon élève lèche cul
 - George sensible et peu sûr de lui
 - Hervé de très fortes valeur
@@ -29,6 +30,11 @@ Situtaiton écologique = situation qui pourrait être dans la vie réelle
 	1. Ne pas mettre la main dans la poche
 	2. Ne pas se tenir de dos
 	3. Ne pas dire qu'on travaille plus. On est pas esclaves
+
+
+2 personnes qui se sont levées et qui sont parties
+Test de vente d'un trobonne, alors qu'ils vendent des asssurances ... ⇒ Hors contexte
+
 
 ---
 2. Quelles sont les erreurs à ne pas commettre lors d'un entretien d'embauche ?

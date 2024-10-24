@@ -1,0 +1,1 @@
+Contrairement au [[Progiciel]], un logiciel est un logiciel est fait sur-mesure. Il doit respecter un cahier des charges spécifique sur la base des besoins du client

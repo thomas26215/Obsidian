@@ -1,0 +1,1 @@
+Un progiciel, également appelé software package, est un lgociei prêt à porter. C'est à dire que c'est un produit standard du marché et paramétrable
