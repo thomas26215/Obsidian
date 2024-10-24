@@ -1,144 +1,55 @@
 {
   "main": {
-    "id": "898dcf6e67737a0c",
+    "id": "ce56d098f8ea4dc4",
     "type": "split",
     "children": [
       {
-        "id": "3a1c293128df1f23",
+        "id": "ca3a31d1c6ad0b2d",
         "type": "tabs",
         "children": [
           {
-            "id": "e9935d768cba41b5",
+            "id": "4353c707d698b426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intégration par partie.md",
+                "file": "Projets/En cours/Oral communication.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a37cde844fa0a50e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Littéraire/Une tehnique royale de calcul d'intégrale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f64a30c76d217183",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/SUPPLY CHAIN MANAGEMENT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ce648c1004ca805",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOOC/Big MOCS/Autre.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e97fd63c7297e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/Git/Remote.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ad7c3a76aaf46c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Switch between 2 FXML Scenes using JavaFX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b15f49a386de3c66",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "bea79d9419d62324",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ed2781c682108da5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KANBAN.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d02a027293bc57a2",
+    "id": "e9ddd67412b36179",
     "type": "split",
     "children": [
       {
-        "id": "883d239ddc28720f",
+        "id": "86fa1a4a12e0c7c5",
         "type": "tabs",
         "children": [
           {
-            "id": "26930f4f00436aea",
+            "id": "d80328b2db377f0d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "9d9abe3d10c97f30",
+            "id": "a6486407ae8ae545",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "mort numé",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -147,7 +58,7 @@
             }
           },
           {
-            "id": "ee551dcfadc225ee",
+            "id": "f476f4aa1c96c60d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -158,103 +69,58 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "8c4f70df493ebba7",
+    "id": "6bfc9b3370dfebd8",
     "type": "split",
     "children": [
       {
-        "id": "b9f585d7813b0463",
+        "id": "5a9e6785849744ad",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b625bc74dc987f",
+            "id": "0905e88cad7f7bcc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KANBAN.md",
+                "file": "Projets/En cours/Oral communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "66e587d48df7a77c",
+            "id": "695e731ca03103ec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KANBAN.md",
+                "file": "Projets/En cours/Oral communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1d342e80f9fb8668",
+            "id": "1371b74886b95c22",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "35e933e1cc640cce",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "KANBAN.md"
-              }
-            }
-          },
-          {
-            "id": "ceb83811872d7ba4",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "KANBAN.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1.00155925155925,
-                  "lineSizeMultiplier": 1.77577962577963,
-                  "collapse-forces": true,
-                  "centerStrength": 0.529106029106029,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 140,
-                  "scale": 0.15739397447218664,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "44c10021f5f438fa",
+            "id": "52745c001b56fc55",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -266,48 +132,27 @@
             }
           },
           {
-            "id": "807d069a5bfee8c5",
+            "id": "69755435ac21e2b0",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a107db2f9f54918d",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
+              "type": "outline",
               "state": {
-                "file": "KANBAN.md"
+                "file": "Projets/En cours/Oral communication.md"
               }
             }
-          },
-          {
-            "id": "ae156f7290499699",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "e49be7f804499e89",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -315,69 +160,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "publish:Publish changes...": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "ed2781c682108da5",
+  "active": "4353c707d698b426",
   "lastOpenFiles": [
-    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Cours/TD/Semestre 3/Droit du numérique.md",
-    "Permanent/Cours/Cours/Semestre 3/Début du Notebook.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Domaine de définition.md",
-    "Switch between 2 FXML Scenes using JavaFX.md",
-    "Les principes du RGPD.md",
-    "Recording 20241008153905.webm",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Programmation/Git/Remote.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Permanent/Programmation/Git/Manipuler l'historique.md",
-    "Permanent/Programmation/Git/Revenir en arrière.md",
-    "Permanent/Programmation/Git/Faire ses premiers commit.md",
-    "Permanent/Programmation/Git/Les branches.md",
-    "Permanent/Autre/La mort numérique.md",
-    "Ressources/Autre/Le shabbat d'Internet.md",
-    "Permanent/Cours/TD/Semestre 3/SUPPLY CHAIN MANAGEMENT.md",
-    "Intégration par partie.md",
-    "Permanent/Autre/Mise en oeuvre du droit des données.md",
-    "Permanent/Autre/La CNIL.md",
-    "Permanent/Autre/Droit des personnes.md",
-    "Intégrale définie.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit du numérique.md",
-    "Projets/En cours/Oral communication.md",
-    "Projets/En cours/Untitled",
-    "telephone-intelligent.png",
-    "Recording 20241006151254.webm",
-    "Recording 20241006151303.webm",
-    "Recording 20241006151250.webm",
-    "Recording 20241006151246.webm",
-    "Projets/En cours/Stages",
-    "Pasted image 20241003151838.png",
-    "Pasted image 20241003151829.png",
-    "Images/Pasted image 20240910221358.png",
-    "Images/Pasted image 20240910221355.png",
-    "Images/Pasted image 20240910221355 1.png",
-    "Images/Pasted image 20240910221354.png",
-    "Images/Pasted image 20240910221354 1.png",
-    "Images/Pasted image 20240910221353.png",
-    "Images/Pasted image 20240910221351.png",
-    "Images/Obsidian_JE3_BE2.webp.opdownload",
-    "Cours/R2.01a/R02_01_03_TP5.pdf",
-    "Permanent/Programmation/PHP",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Untitled 14.canvas",
-    "Untitled 13.canvas",
-    "Untitled 12.canvas",
-    "Untitled 11.canvas",
-    "Untitled 10.canvas",
-    "Untitled 9.canvas"
+    "Dérivées.md",
+    "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",
+    "Daily note/2024-10-09.md"
   ]
 }
