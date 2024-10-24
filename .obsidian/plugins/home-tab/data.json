@@ -22,38 +22,28 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "recentFilesStore": [],
-=======
-=======
->>>>>>> Stashed changes
   "recentFilesStore": [
     {
-      "filepath": "Les 5 principes de l'ouverture.md",
-      "timestamp": 1729528806046
+      "filepath": "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
+      "timestamp": 1729761634804
     },
     {
-      "filepath": "Le centre.md",
-      "timestamp": 1729528793515
+      "filepath": "Permanent/Programmation/C++/Les exceptions.md",
+      "timestamp": 1729761529909
     },
     {
-      "filepath": "Le rock.md",
-      "timestamp": 1729528612927
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
+      "timestamp": 1729693111654
     },
     {
-      "filepath": "TDD.md",
-      "timestamp": 1729528204810
+      "filepath": "Permanent/Programmation/C++/Les listes.md",
+      "timestamp": 1729692130454
     },
     {
-      "filepath": "MOOC/Big MOCS/Cours.md",
-      "timestamp": 1729528178037
+      "filepath": "Permanent/Cours/TD/Semestre 3/ERP - PGI - Etude de cas.md",
+      "timestamp": 1729690671171
     }
   ],
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

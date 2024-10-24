@@ -80,8 +80,65 @@
               "icon": "search",
               "title": "Home tab"
             }
+          },
+          {
+            "id": "431b7ef02e630f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Les 5 principes de l'ouverture.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les 5 principes de l'ouverture"
+            }
+          },
+          {
+            "id": "c920cb0dc0a0b38a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Learn/Echec et Mat avec la Tour.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Echec et Mat avec la Tour"
+            }
+          },
+          {
+            "id": "cee204de9a5fc1bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOOC/Big MOCS/Cours.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cours"
+            }
+          },
+          {
+            "id": "f9c61625d7e107dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test unitaires avec Google Test"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -112,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MOE MOA",
+                "query": "référence",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -363,8 +420,42 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "04c00342e31e2395",
+  "active": "f9c61625d7e107dd",
   "lastOpenFiles": [
+    "Permanent/Programmation/C++/Les exceptions.md",
+    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
+    "Permanent/Programmation/C++/Les listes.md",
+    "Permanent/Cours/TD/Semestre 3/ERP - PGI - Etude de cas.md",
+    "Permanent/Cours/Cours/Semestre 3/La dimension humaine.md",
+    "CRM - Customer RelationShip Management.md",
+    "Permanent/Cours/Cours/Semestre 3/Le système d’information dans les entreprises.md",
+    "Supply Chain intégrée.md",
+    "PGI - Progiciel de Gestion Intégré.md",
+    "Différences entre Logiciel et progiciel.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Capturer des pièces non protégées.md",
+    "Screencast from 2024-10-22 13-14-14.webm",
+    "Screencast from 2024-10-22 13-08-43.webm",
+    "To Learn/Echec et Mat avec la Tour.md",
+    "Screencast from 2024-10-22 12-28-37.webm",
+    "Screencast from 2024-10-11 23-08-47.webm",
+    "Screenshot from 2024-10-22 12-26-25.png",
+    "Screenshot from 2024-10-22 12-26-13.png",
+    "Screenshot from 2024-10-22 12-26-03.png",
+    "Screenshot from 2024-10-22 12-25-52.png",
+    "Screenshot from 2024-10-22 12-25-40 1.png",
+    "Screenshot from 2024-10-22 12-25-40.png",
+    "Screenshot from 2024-10-22 12-25-33.png",
+    "Screenshot from 2024-10-22 12-25-20.png",
+    "Screenshot from 2024-10-22 12-24-57.png",
+    "Screenshot from 2024-10-22 12-24-31.png",
+    "Echec et Mat avec la Reine.md",
+    "Les 5 principes de l'ouverture.md",
+    "Permanent/Cours/TD/Semestre 3/Exercice ETL.md",
+    "Réusinage cu code.md",
+    "Personne physique.md",
+    "Le rock.md",
+    "Le centre.md",
     "Untitled.canvas",
     "Projets/Finish/S1.04/S1.056/Tableau à remplir.md",
     "Projets/Finish/S1.04/S1.056/Oral.md",
@@ -373,44 +464,11 @@
     "Projets/En cours/SAE 3.01/Untitled.md",
     "Projets/En cours/SAE 3.01",
     "Progiciel.md",
-    "Permanent/Cours/Cours/Semestre 3/Le système d’information dans les entreprises.md",
     "Permanent/Cours/Cours/Semestre 3/La gueule de l'emploi.md",
-    "Permanent/Cours/Cours/Semestre 3/Introduction aux systèmes d'informations.md",
-    "Permanent/Autre/Un processus.md",
-    "Permanent/Autre/Processus manuel.md",
-    "Permanent/Autre/Processus automatisé.md",
-    "Permanent/Autre/Processus assisté.md",
-    "Permanent/Autre/Les types de processus.md",
-    "Permanent/Autre/Les 3 dimensions d'un système d'informations.md",
-    "Permanent/Autre/Les 3 axes du cube de la qualité.md",
-    "Permanent/Autre/La systémique.md",
-    "Permanent/Autre/Information.md",
-    "Permanent/Autre/Donnée.md",
-    "Permanent/Autre/Connaissance.md",
-    "Permanent/Autre/Compétence.md",
-    "Permanent/Autre/Composition d'un processus.md",
-    "PGI - Progiciel de Gestion Intégré.md",
-    "Logiciel.md",
-    "Littéraire/Techniques de base aux échecs.md",
-    "Les principaux modules d'un ERP.md",
     "Projets/Finish/S1.056",
-    "telephone-intelligent.png",
     "smart-chats",
     "Recording 20241008153905.webm",
     "Recording 20241006151254.webm",
-    "Recording 20241006151303.webm",
-    "Recording 20241006151250.webm",
-    "Recording 20241006151246.webm",
-    "Projets/En cours/Stages",
-    "Pasted image 20241003151838.png",
-    "Pasted image 20241003151829.png",
-    "Images/Pasted image 20240910221358.png",
-    "Images/Pasted image 20240910221355.png",
-    "Images/Pasted image 20240910221355 1.png",
-    "Images/Pasted image 20240910221354.png",
-    "Images/Pasted image 20240910221354 1.png",
-    "Images/Pasted image 20240910221353.png",
-    "Images/Pasted image 20240910221351.png",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",

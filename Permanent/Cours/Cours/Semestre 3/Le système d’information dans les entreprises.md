@@ -14,3 +14,6 @@ Learned: false
 [[PGI - Progiciel de Gestion Intégré]]
 
 [[La verticalisation de l'offre]]
+
+[[Supply Chain intégrée]]
+[[CRM - Customer RelationShip Management]]
