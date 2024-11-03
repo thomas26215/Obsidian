@@ -1,3 +1,11 @@
+---
+MOOC: "[[Autre]]"
+Sujet: Droit
+Type: Données personnelles
+tags: 
+Complete: true
+Learned: true
+---
 Il faut savoir que le décès de la personne n'entraîne pas l'effacement automatique des données de la personne. Egalement, le RGPD ne s'applique pas aux données du défunt
 
 

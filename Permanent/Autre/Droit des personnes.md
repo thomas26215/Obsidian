@@ -2,7 +2,9 @@
 MOOC: "[[Autre]]"
 Sujet: Droit
 Type: Données personnelles
-tags:
+tags: 
+Complete: true
+Learned: true
 ---
 - Droit à l'information
 	- Corolaire de l'obligation de transparence
