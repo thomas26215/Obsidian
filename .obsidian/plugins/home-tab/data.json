@@ -22,7 +22,32 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
+<<<<<<< HEAD
   "recentFilesStore": [],
+=======
+  "recentFilesStore": [
+    {
+      "filepath": "Permanent/Autre/La production économique.md",
+      "timestamp": 1731538414658
+    },
+    {
+      "filepath": "Permanent/Programmation/SQL/Les cardinalités entre relations et associations.md",
+      "timestamp": 1731538394600
+    },
+    {
+      "filepath": "Permanent/Programmation/SQL/Les contraintes d'intégrité.md",
+      "timestamp": 1731538340163
+    },
+    {
+      "filepath": "Permanent/Programmation/SQL/Définition - relation.md",
+      "timestamp": 1731538337593
+    },
+    {
+      "filepath": "Permanent/Autre/Mise en oeuvre du droit des données.md",
+      "timestamp": 1731538246165
+    }
+  ],
+>>>>>>> 862b994 (.)
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
