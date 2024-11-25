@@ -23,6 +23,7 @@
   "markdownOnly": false,
   "unresolvedLinks": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "recentFilesStore": [],
 =======
   "recentFilesStore": [
@@ -48,6 +49,30 @@
     }
   ],
 >>>>>>> 862b994 (.)
+=======
+  "recentFilesStore": [
+    {
+      "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+      "timestamp": 1732541308247
+    },
+    {
+      "filepath": "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
+      "timestamp": 1732541307004
+    },
+    {
+      "filepath": "Permanent/Mathématiques/Générateur.md",
+      "timestamp": 1732541248952
+    },
+    {
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+      "timestamp": 1732540122351
+    },
+    {
+      "filepath": "Permanent/Mathématiques/Théorème d'Euler.md",
+      "timestamp": 1732538658697
+    }
+  ],
+>>>>>>> 85c4d60 (.)
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

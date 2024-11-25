@@ -2,7 +2,9 @@
 MOOC: "[[Programmation]]"
 Langage: PHP
 Type: Listes
-tags:
+tags: 
+Complete: true
+Learned: true
 ---
 Voici comment déclarer et initialiser un dictionnaire :
 ```PHP

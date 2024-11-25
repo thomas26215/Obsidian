@@ -1,0 +1,1 @@
+Le contrôleur va modifier le modèle, choisir l'affichage en fonction des paramètres ou de l'action et implémenter le graphe d'insertino avec l'application

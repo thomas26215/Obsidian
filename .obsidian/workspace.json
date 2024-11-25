@@ -4,142 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "1d390dec8ab86ac2",
+        "id": "f4497b751deff8c3",
         "type": "tabs",
         "children": [
           {
-            "id": "04c00342e31e2395",
+            "id": "9618f9239158b575",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cours"
-            }
-          },
-          {
-            "id": "b3fd0d0f0714d1de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Autre/Processus assisté.md",
+                "file": "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processus assisté"
+              "title": "Récupérer les paramètres dans l'URL"
             }
           },
           {
-            "id": "35db8cfe2b05dfb8",
+            "id": "b815960cdd3f1049",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 3/Retour sur l'agilité.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Retour sur l'agilité"
-            }
-          },
-          {
-            "id": "16ff72f856e4c9d7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "3dfa53649e55fc3e",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "431b7ef02e630f78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Les 5 principes de l'ouverture.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Les 5 principes de l'ouverture"
-            }
-          },
-          {
-            "id": "c920cb0dc0a0b38a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To Learn/Echec et Mat avec la Tour.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Echec et Mat avec la Tour"
-            }
-          },
-          {
-            "id": "cee204de9a5fc1bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOOC/Big MOCS/Cours.md",
+                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cours"
+              "title": "TD arithmétique"
             }
           },
           {
-            "id": "f9c61625d7e107dd",
+            "id": "fd88cc1326f235dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/C++/Les exceptions.md",
+                "file": "Permanent/Mathématiques/Générateur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Les exceptions"
-            }
-          },
-          {
-            "id": "c75779e3bbf3dbdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Littéraire/Une tehnique royale de calcul d'intégrale.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Une tehnique royale de calcul d'intégrale"
+              "title": "Générateur"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "référence",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "La verticalisation de l'offre.md",
+                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,21 +132,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for La verticalisation de l'offre"
-            }
-          },
-          {
-            "id": "66e587d48df7a77c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "LogBook Thomas VENOUIL - A12.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from LogBook Thomas VENOUIL - A12"
+              "title": "Backlinks for TD arithmétique"
             }
           },
           {
@@ -249,6 +146,20 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "66e587d48df7a77c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Programmation/PHP/Méthode POST.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Méthode POST"
             }
           },
           {
@@ -269,11 +180,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-21 09.45.49.excalidraw.md",
+                "file": "paperclips.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -292,12 +203,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 140,
-                  "scale": 0.22345341499981097,
+                  "scale": 0.14459894822496833,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Drawing 2024-10-21 09.45.49.excalidraw"
+              "title": "Graph of paperclips"
             }
           },
           {
@@ -396,13 +307,11 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -421,55 +330,55 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "04c00342e31e2395",
+  "active": "b815960cdd3f1049",
   "lastOpenFiles": [
-    "Screenshot from 2024-10-22 11-28-19.png",
-    "Screenshot from 2024-10-22 11-28-13.png",
-    "Screenshot from 2024-10-22 11-28-04.png",
-    "Screenshot from 2024-10-22 11-27-52.png",
-    "Screenshot from 2024-10-22 11-27-35.png",
-    "Screenshot from 2024-10-22 11-26-50.png",
+    "TD2Arithmetique.pdf",
+    "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
+    "Permanent/Mathématiques/Générateur.md",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+    "Permanent/Mathématiques/Théorème d'Euler.md",
+    "Permanent/Cours/Cours/Semestre 3/Arbres binaires.md",
+    "Permanent/Programmation/PHP/Symfony/Les contrôleurs dans Symfony.md",
+    "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
+    "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
+    "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md",
+    "Permanent/Programmation/PHP/Symfony/Définition des routes.md",
+    "Débuter avec Symfony 5.md",
+    "Permanent/Programmation/PHP/Symfony",
+    "La vague.md",
+    "Permanent/Cours/Cours/Analyse film la vague.md",
+    "Permanent/Cours/Cours/Semestre 3/Framework MVC.md",
+    "Permanent/Programmation/PHP/Le modèle MVC en PHP.md",
+    "Untitled 4.md",
+    "Inbox/Tableau d'Euclide Bézout.md",
+    "Cours Maths.md",
+    "dsqdsqdsqdsq.md",
+    "Permanent/Programmation/PHP/Méthode POST.md",
+    "Permanent/Cours/Cours/Propriété intellectuelle.md",
+    "Permanent/Programmation/PHP/Méthode GET.md",
+    "Untitled 5.md",
+    "Permanent/Programmation/PHP/La vue - MVC en PHP.md",
+    "Pasted image 20241117185833.png",
+    "Pasted image 20241117185735.png",
+    "Modèle mvc.png",
+    "Modèle générale MVC.png",
+    "Pasted image 20241117185542.png",
+    "Structure générale MVC.png",
+    "Fonctionnement général MVC.png",
+    "Pasted image 20240923145058.png",
+    "Pasted image 20241003151838.png",
+    "Pasted image 20241003151829.png",
     "Screencast from 2024-10-22 13-14-14.webm",
     "Screencast from 2024-10-22 13-08-43.webm",
     "Screencast from 2024-10-22 12-28-37.webm",
-    "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",
-    "Permanent/Cours/TD/Semestre 3/TP 4.md",
-    "Daily note/2024-10-09.md",
-    "Daily note/2024-10-02.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Autre/ETL - Extract, Transform and Load.md",
-    "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
-    "Permanent/Autre/Mise en oeuvre du droit des données.md",
-    "Permanent/Autre/La mort numérique.md",
-    "Permanent/Autre/Le droit au déréférencement.md",
-    "Permanent/Autre/Droit des personnes.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Autre/La CNIL.md",
-    "Les principes du RGPD.md",
-    "Personne physique.md",
-    "Littéraire/Une tehnique royale de calcul d'intégrale.md",
     "Images/Screencast from 2024-10-22 12-28-37.webm",
     "Images/Screencast from 2024-10-22 13-14-14.webm",
-    "CRM - Customer RelationShip Management.md",
-    "Capturer des pièces non protégées.md",
     "Images/Screencast from 2024-10-22 13-08-43.webm",
-    "Images/Screenshot from 2024-10-22 12-24-19.png",
-    "Pasted image 20241102235235.png",
-    "Permanent/Programmation/General/Les tests.md",
-    "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
-    "Permanent/Programmation/General/Les bonnes pratiques des tests.md",
-    "Permanent/Programmation/General/Le principe des tests.md",
-    "Projets/En cours/Stages/Lettre de motivation.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
     "Screencast from 2024-10-11 23-08-47.webm",
-    "Images/Screenshot from 2024-10-22 12-26-25.png",
-    "Images/Screenshot from 2024-10-22 12-26-13.png",
-    "Images/Screenshot from 2024-10-22 12-26-03.png",
     "Untitled.canvas",
     "Projets/Finish/S1.04/S1.056",
     "Projets/En cours/SAE 3.01",
-    "Projets/Finish/S1.056",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",

@@ -1,3 +1,11 @@
+---
+MOOC: "[[Programmation]]"
+Langage: PHP
+Type: Les bases
+tags: 
+Complete: true
+Learned: true
+---
 En PHP, la déclaration se fait de la manière suivante :
 ```PHP
 $variable = 10;
@@ -11,3 +19,17 @@ echo $variable;
 ```
 
 Nous avons ici utilisé la balise `echo` afin d'afficher la variable
+
+Il existe plusieurs types de données :
+- Les entiers
+- Les booléens
+- Les flottants
+- Les chaînes de caractères
+
+Nous définissons les constantes avec `define()` ou `const`
+**Exemple :**
+```php
+define("pi", 3.14159);
+const TAUX = 6.55957;
+```
+

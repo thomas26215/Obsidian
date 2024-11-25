@@ -27,6 +27,10 @@ Petit corrolaire avant de se lancer dans le problème :
 > Alors : $$\int_0^{\frac{\pi}{2}}f(cos(x))dx = \int_0^\frac{\pi}{2}f(cos(\frac{\pi}{2}-x))dx=\int_0^{\frac{\pi}{2}}f(cos(\frac{\pi}{2}cos(x)+sin(\frac{\pi}{2})sin(x))dx=\int_0^{\frac{\pi}{2}}f(sin(x))dx$$
 > **Ainsi :**
 > $$\int_0^{\frac{\pi}{2}}cos^n(x)dx=\int_0^{\frac{\pi}{2}}sin^n(x)dx\space\forall n\in\mathbb{N}$$
+> Quelques formules trigonométriques pour mieux comprendre :
+> - $cos(x)=cos(\frac{\pi}{2}-x)$ pour $x$ entre $0$ et $\frac{\pi}{2}$
+> - $cos(A-B)=cos(A)cos(B)+sin(A)sin(B)$
+> - $cos(\frac{\pi}{2})=0$ et $sin(\frac{\pi}{2})=1$
 
 
 En l'appliquant à notre problème :

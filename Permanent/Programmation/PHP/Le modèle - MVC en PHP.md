@@ -1,0 +1,1 @@
+[[Le modèle - MVC|Le modèle]] contient purement du PHP et est de préférence objet. Il va décrire tous les objets métiers de l'application
