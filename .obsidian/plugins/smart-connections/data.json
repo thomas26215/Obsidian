@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-=======
 {
   "new_user": false,
   "legacy_transformers": false,
-  "enable_mobile": false,
+  "enable_mobile": true,
   "actions": {
     "lookup": true
   },
@@ -21,4 +19,3 @@
   "language": "en",
   "version": "2.2.82"
 }
->>>>>>> 862b994 (.)

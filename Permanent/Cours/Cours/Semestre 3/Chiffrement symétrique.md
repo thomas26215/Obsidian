@@ -56,10 +56,20 @@ Ils doivents masquer les blocs clairs identiques et deux messages identiques chi
 ---
 # Cours 2
 
-[[Tableau d'Euclide Bézout]]
-[[Théorème d'Euler]]
+**Prérequis :** [[Le PGCD]], [[Tableau d'Euclide Bézout]], [[Calcul modulaire]] [[Théorème d'Euler]] et 
+[[Petit théorème de Fermat]]
 
+---
+[[Classes de congruence module n]]
+[[Addition, soustraction et multiplication modulo n]]
+
+
+
+---
+
+[[Chiffrement affine]]
 [[Générateur]]
+[[Problème du logarithme discret]]
 
 
 

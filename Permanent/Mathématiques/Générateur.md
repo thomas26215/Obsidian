@@ -1,11 +1,23 @@
 
-On note $(\mathbb{Z}/n\mathbb{Z})$ l'ensemble des éléments inversibles de $\mathbb{Z}/n\mathbb{Z}$ pour tout $n$ entier supérieur à 2. Soit $<a>$ le sous groupe constitué des éléments suivants $<a>=\{1, a, a^2, a^3\}$   
+## Notation
+On note $(\mathbb{Z}/n\mathbb{Z})^X$ l'ensemble des éléments inversibles de $\mathbb{Z}/n\mathbb{Z}$ pour tout entier $n > 2$. 
 
-**Définition :**
-- L'ordre de $a$ est défint comme le nombre d'éléments distincts de $<a>$
-- $g$ est un **générateur** de $(\mathbb{Z}/n\mathbb{Z})$ si et seulement si $<g>=(\mathbb{Z}/n\mathbb{Z})$ 
+### Sous-groupe Généré par $a$
+Soit $<a>$ le sous-groupe constitué des éléments suivants :
 
-	<mark style="background: #BBFABBA6;">Exemple Générateur</mark> : 
+$$ 
+<a> = \{ 1, a, a^2, a^3, ... \}
+$$
+
+### Définitions
+- **Ordre de $a$** : Le nombre d'éléments distincts dans $<a>$.
+- **Générateur** : Un élément $g$ est un générateur de $(\mathbb{Z}/n\mathbb{Z})^\times$ si et seulement si :
+
+$$
+<g> = (\mathbb{Z}/n\mathbb{Z})^X 
+$$
+
+<mark style="background: #BBFABBA6;">Exemple Générateur</mark> : 
 > ⇒ On se place dans $(\mathbb{Z}/15\mathbb{Z})^X$
 > $\Phi(15)=\Phi(3*5)=2*4=8$
 > $(\mathbb{Z}/15\mathbb{Z})^X=\{\bar{1}, 2, 4, 7, 8, 11, 13, 14\}$ ⇒ Tous les nombres premiers avec $15$ ⇔ $pgcd(6, 15) != 1$
