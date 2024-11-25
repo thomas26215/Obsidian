@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Permanent/Mathématiques/Problème du logarithme discret.md",
+      "timestamp": 1732556925769
+    },
+    {
       "filepath": "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
-      "timestamp": 1732556736208
+      "timestamp": 1732556840340
+    },
+    {
+      "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+      "timestamp": 1732556834973
+    },
+    {
+      "filepath": "Permanent/Autre/Le PGCD.md",
+      "timestamp": 1732556803612
     },
     {
       "filepath": "Permanent/Mathématiques/Générateur.md",
       "timestamp": 1732556702500
-    },
-    {
-      "filepath": "Permanent/Mathématiques/Chiffrement affine.md",
-      "timestamp": 1732556688294
-    },
-    {
-      "filepath": "Permanent/Mathématiques/Calcul modulaire.md",
-      "timestamp": 1732556591269
-    },
-    {
-      "filepath": "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
-      "timestamp": 1732556585899
     }
   ],
   "starredFileStore": [],
