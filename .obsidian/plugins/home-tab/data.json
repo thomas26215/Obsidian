@@ -24,6 +24,7 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+<<<<<<< HEAD
       "filepath": "Permanent/Mathématiques/Problème du logarithme discret.md",
       "timestamp": 1732556925769
     },
@@ -42,6 +43,10 @@
     {
       "filepath": "Permanent/Mathématiques/Générateur.md",
       "timestamp": 1732556702500
+=======
+      "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+      "timestamp": 1795615996963
+>>>>>>> b12f6cd (.)
     }
   ],
   "starredFileStore": [],
