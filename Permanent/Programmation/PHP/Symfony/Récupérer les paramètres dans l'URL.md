@@ -72,7 +72,7 @@ Pour s'assurer que l'identifiant est toujours un nombre, vous pouvez définir un
 
 ### Accès aux Paramètres avec Request
 
-Si vous souhaitez également récupérer d'autres informations depuis la requête, vous pouvez utiliser l'objet `Request` :
+Si vous souhaitez également récupérer d'autres informations depuis la requête, vous pouvez utiliser l'objet [[Gestion Complète des Données de Requête avec Request|Request]] :
 
 ```php
 use Symfony\Component\HttpFoundation\Request;
