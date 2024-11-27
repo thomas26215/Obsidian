@@ -2,91 +2,21 @@
   "collapse-filter": true,
   "search": "",
   "showTags": false,
-  "showAttachments": true,
-  "hideUnresolved": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:Projets  ",
-      "color": {
-        "a": 1,
-        "rgb": 13533223
-      }
-    },
-    {
-      "query": "path:Permanent/Mathématiques  ",
-      "color": {
-        "a": 1,
-        "rgb": 6443744
-      }
-    },
-    {
-      "query": "path:Permanent/Langues  ",
-      "color": {
-        "a": 1,
-        "rgb": 13425995
-      }
-    },
-    {
-      "query": "path:Permanent/Cours  ",
-      "color": {
-        "a": 1,
-        "rgb": 13194393
-      }
-    },
-    {
-      "query": "path:Permanent/Programmation  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:MOOC  ",
-      "color": {
-        "a": 1,
-        "rgb": 11548214
-      }
-    },
-    {
-      "query": "path:Inbox  ",
-      "color": {
-        "a": 1,
-        "rgb": 1531433
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -0.3,
-  "nodeSizeMultiplier": 1.21418181818182,
-  "lineSizeMultiplier": 2.95927272727273,
-  "collapse-forces": false,
-<<<<<<< Updated upstream
-  "centerStrength": 0.526604823747681,
-  "repelStrength": 9.10723562152134,
-  "linkStrength": 0.640519480519481,
-  "linkDistance": 188,
-<<<<<<< Updated upstream
-  "scale": 0.15796738517319253,
-=======
-  "scale": 0.08734026270892425,
-<<<<<<< HEAD
-  "close": false
-=======
-  "centerStrength": 0.346354166666667,
-  "repelStrength": 7.55208333333333,
-  "linkStrength": 0.690104166666667,
-  "linkDistance": 354,
-  "scale": 0.13348388671875,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.03955078125,
   "close": true
->>>>>>> Stashed changes
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-  "close": true
->>>>>>> 0c1439c3e45c1c18c80d2e6f8b7e547d221d74fc
 }

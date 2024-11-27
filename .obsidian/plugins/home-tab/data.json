@@ -24,37 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-<<<<<<< HEAD
-      "filepath": "Projets/En cours/Oral communication.md",
-      "timestamp": 1729163766789
+      "filepath": "Permanent/Programmation/C++/Constructeur par recopie.md",
+      "timestamp": 1729770795090
     },
     {
-      "filepath": "Dérivées.md",
-      "timestamp": 1729163760267
+      "filepath": "Permanent/Programmation/C++/La forme canonique de Coplien.md",
+      "timestamp": 1729770793298
     },
     {
-      "filepath": "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",
-      "timestamp": 1729163753381
-=======
       "filepath": "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
-      "timestamp": 1729761634804
+      "timestamp": 1729768139990
     },
     {
       "filepath": "Permanent/Programmation/C++/Les exceptions.md",
-      "timestamp": 1729761529909
+      "timestamp": 1729768138072
     },
     {
       "filepath": "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-      "timestamp": 1729693111654
-    },
-    {
-      "filepath": "Permanent/Programmation/C++/Les listes.md",
-      "timestamp": 1729692130454
-    },
-    {
-      "filepath": "Permanent/Cours/TD/Semestre 3/ERP - PGI - Etude de cas.md",
-      "timestamp": 1729690671171
->>>>>>> 0c1439c3e45c1c18c80d2e6f8b7e547d221d74fc
+      "timestamp": 1729768111176
     }
   ],
   "starredFileStore": [],
