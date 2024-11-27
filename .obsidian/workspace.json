@@ -1,16 +1,5 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "245aca64b265eb70",
-    "type": "split",
-    "children": [
-      {
-        "id": "10e797bca5bcc7a1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9af9c44f8cd2fcc6",
-=======
     "id": "898dcf6e67737a0c",
     "type": "split",
     "children": [
@@ -20,20 +9,28 @@
         "children": [
           {
             "id": "9618f9239158b575",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Permanent/Programmation/C++/Les exceptions.md",
-=======
-                "file": "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Récupérer les paramètres dans l'URL"
+              "title": "Droit d'auteur"
+            }
+          },
+          {
+            "id": "2542f852f35117f9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-11-27 08.38.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-27 08.38.05.excalidraw"
             }
           },
           {
@@ -42,101 +39,84 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
+                "file": "Permanent/Mathématiques/Générateur.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Les exceptions"
+              "title": "Générateur"
             }
           },
           {
-            "id": "941f45f21da33d3a",
-=======
-              "title": "Problème du logarithme discret"
+            "id": "da47c508a84324fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Oral anglais.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Oral anglais"
+            }
+          },
+          {
+            "id": "d3dd1db9be4be250",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "TD2Arithmetique.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TD2Arithmetique"
             }
           },
           {
             "id": "437c629f3c9fb8e4",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
-=======
                 "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Test unitaires avec Google Test"
-=======
               "title": "Problème du logarithme discret"
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             }
           },
           {
-            "id": "ddcdb14484efac1a",
+            "id": "1eff7d50f7a14f5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Constructeur par recopie"
-            }
-          },
-          {
-            "id": "8a11807738f4fcd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/C++/Polymorphisme.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Polymorphisme"
-            }
-          },
-          {
-            "id": "2581c5ee318c51b0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "home-tab-view",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "4b206f68ea647295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Créer un controlleur"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "dd6e4d4b88fba2e3",
-    "type": "split",
-    "children": [
-      {
-        "id": "1f640e67a2f4bf54",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "30cf367c1d506f64",
-=======
     "id": "d02a027293bc57a2",
     "type": "split",
     "children": [
@@ -146,37 +126,24 @@
         "children": [
           {
             "id": "26930f4f00436aea",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-<<<<<<< HEAD
-                "sortOrder": "alphabetical"
-=======
                 "sortOrder": "byCreatedTime"
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-<<<<<<< HEAD
-            "id": "465239b25787e498",
-=======
             "id": "9d9abe3d10c97f30",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-<<<<<<< HEAD
-                "matchingCase": false,
-=======
+                "query": "droit auteur",
                 "matchingCase": true,
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -187,11 +154,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "fd7dde088fcc2ea0",
-=======
             "id": "ee551dcfadc225ee",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -207,17 +170,6 @@
     "width": 200
   },
   "right": {
-<<<<<<< HEAD
-    "id": "30a698f26f07f601",
-    "type": "split",
-    "children": [
-      {
-        "id": "b151e616b15554cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d44922830aa9db51",
-=======
     "id": "8c4f70df493ebba7",
     "type": "split",
     "children": [
@@ -227,55 +179,25 @@
         "children": [
           {
             "id": "b0b625bc74dc987f",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Permanent/Programmation/C++/Les exceptions.md",
-=======
-                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
+                "file": "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-<<<<<<< HEAD
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Les exceptions"
-            }
-          },
-          {
-            "id": "416893f67f5ee969",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Permanent/Programmation/C++/Les exceptions.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Les exceptions"
-            }
-          },
-          {
-            "id": "a431b4aa8e16e67d",
-=======
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Problème du logarithme discret"
+              "title": "Backlinks for Droit d'auteur"
             }
           },
           {
             "id": "1d342e80f9fb8668",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -288,20 +210,17 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "14008accf532a051",
-=======
             "id": "66e587d48df7a77c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
+                "file": "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Problème du logarithme discret"
+              "title": "Outgoing links from Gestion Complète des Données de Requête avec Request"
             }
           },
           {
@@ -310,10 +229,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LogBook Thomas VENOUIL - A12.md"
+                "file": "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LogBook Thomas VENOUIL - A12"
+              "title": "Outline of Gestion Complète des Données de Requête avec Request"
             }
           },
           {
@@ -355,7 +274,6 @@
           },
           {
             "id": "44c10021f5f438fa",
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -369,25 +287,6 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "ce7b2ab56e3849dd",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/C++/Les exceptions.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Les exceptions"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-=======
             "id": "807d069a5bfee8c5",
             "type": "leaf",
             "state": {
@@ -475,8 +374,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -485,17 +384,15 @@
             "state": {
               "type": "smart-connections-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Smart Chat Conversation View"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 354.5
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -514,46 +411,37 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-<<<<<<< HEAD
-  "active": "ddcdb14484efac1a",
+  "active": "9618f9239158b575",
   "lastOpenFiles": [
-    "Permanent/Programmation/C++/La forme canonique de Coplien.md",
-    "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
-    "Permanent/Programmation/C++/Les exceptions.md",
-    "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
-    "Permanent/Programmation/C++/Polymorphisme.md"
-=======
-  "active": "437c629f3c9fb8e4",
-  "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
-    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
-    "Permanent/Autre/Le PGCD.md",
-    "Permanent/Mathématiques/Problème du logarithme discret.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Mathématiques/Chiffrement affine.md",
-    "Permanent/Mathématiques/Calcul modulaire.md",
-    "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
-    "Permanent/Mathématiques/L'arithmétique modulaire.md",
+    "php.md",
+    "Listes chaînées et récursivité.md",
+    "Bases de données PHP.md",
+    "Différents tyês de licences.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
+    "Permanent/Cours/Cours/Semestre 2/Les sources du droit subjectif.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit des données.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/TD/Semestre 3/Processus.md",
+    "Excalidraw/Drawing 2024-11-27 08.38.05.excalidraw.md",
     "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
-    "Permanent/Mathématiques/Untitled.md",
-    "Permanent/Mathématiques/Chiffrement affine.md~",
-    "Permanent/Mathématiques/Classes de congruence module n.md",
-    "Inbox/Tableau d'Euclide Bézout.md",
-    "Permanent/Mathématiques/Petit théorème de Fermat.md",
-    "smart-chats/UNTITLED CHAT 2024-11-25 16 34 32.md",
-    "TD2Arithmetique.pdf",
-    "Permanent/Mathématiques/Théorème d'Euler.md",
-    "Permanent/Cours/Cours/Semestre 3/Arbres binaires.md",
     "Permanent/Programmation/PHP/Symfony/Les contrôleurs dans Symfony.md",
-    "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
-    "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
     "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md",
-    "Permanent/Programmation/PHP/Symfony/Définition des routes.md",
+    "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
+    "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
+    "Permanent/Programmation/PHP/Méthode POST.md",
+    "Permanent/Programmation/PHP/Méthode GET.md",
     "Débuter avec Symfony 5.md",
+    "Permanent/Programmation/PHP/Envoyer des données avec des formulaires.md",
+    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
+    "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
+    "Excalidraw/Plan vidéo EV Charging points.md",
+    "Excalidraw/Drawing 2024-10-21 09.45.49.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-28 08.43.55.excalidraw.md",
+    "Projets/En cours/Oral anglais.md",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+    "TD2Arithmetique.pdf",
+    "Permanent/Mathématiques/Chiffrement affine.md~",
     "Permanent/Programmation/PHP/Symfony",
-    "La vague.md",
-    "Permanent/Cours/Cours/Analyse film la vague.md",
-    "Permanent/Cours/Cours/Semestre 3/Framework MVC.md",
     "Pasted image 20241117185833.png",
     "Pasted image 20241117185735.png",
     "Modèle mvc.png",
@@ -581,6 +469,5 @@
     "Untitled 12.canvas",
     "Untitled 11.canvas",
     "Untitled 10.canvas"
->>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
   ]
 }
