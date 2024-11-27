@@ -2,7 +2,9 @@
 MOOC: "[[Autre]]"
 Sujet: Droit
 Type: Données personnelles
-tags:
+tags: 
+Complete: true
+Learned: true
 ---
 - **Licéité, Loyauté et transparence de la collecte des données :** La collecte et le traitement des données doivent être réalisées de manière légale, loyale et transparente
 - **Finalités, déterminées, explicites et légitimes :** Les données doivent être collectées pour des finalités précises, clairement définies et légitimes

@@ -1,0 +1,1 @@
+Un ordinateur est une machine dotée d'une unité de traitement lui permettant d'exécuter des programmes enregistrés. C'est un ensemble de circuits électroniques permettant de manipuler des données sous forme binaires, ou bits. Cette machine permet de traiter des informations selon des séquences d'instructions prédéfinies, appelées aussi programmes

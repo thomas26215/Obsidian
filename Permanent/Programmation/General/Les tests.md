@@ -14,4 +14,5 @@ Si on prend l'exemple de Java, nous avons le framework [[Tests unitaires avec JU
 
 ![[Le principe des tests]]
 
-![[]]
+
+![[Pasted image 20241102235235.png]]

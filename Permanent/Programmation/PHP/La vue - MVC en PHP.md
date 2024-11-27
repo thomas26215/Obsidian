@@ -1,0 +1,1 @@
+La vue va principalement contenir du HTML mais il va également y avoir du PHP dans le HTML. En entrée, il faut des liens `<a>` avec URL ou formulaires et en sortie, le PHP sert à placer les données et à les collecter du modèle, des variables contiennet ce qu'il faut afficher

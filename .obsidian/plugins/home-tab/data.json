@@ -24,6 +24,7 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+<<<<<<< HEAD
       "filepath": "Permanent/Programmation/C++/Constructeur par recopie.md",
       "timestamp": 1729770795090
     },
@@ -42,6 +43,31 @@
     {
       "filepath": "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
       "timestamp": 1729768111176
+=======
+<<<<<<< HEAD
+      "filepath": "Permanent/Mathématiques/Problème du logarithme discret.md",
+      "timestamp": 1732556925769
+    },
+    {
+      "filepath": "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+      "timestamp": 1732556840340
+    },
+    {
+      "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+      "timestamp": 1732556834973
+    },
+    {
+      "filepath": "Permanent/Autre/Le PGCD.md",
+      "timestamp": 1732556803612
+    },
+    {
+      "filepath": "Permanent/Mathématiques/Générateur.md",
+      "timestamp": 1732556702500
+=======
+      "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+      "timestamp": 1795615996963
+>>>>>>> b12f6cd (.)
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
     }
   ],
   "starredFileStore": [],

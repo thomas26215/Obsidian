@@ -2,7 +2,9 @@
 MOOC: "[[Autre]]"
 Sujet: Droit
 Type: Données personnelles
-tags:
+tags: 
+Complete: true
+Learned: true
 ---
 ![[Les principes du RGPD]]
 

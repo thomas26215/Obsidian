@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "245aca64b265eb70",
     "type": "split",
     "children": [
@@ -9,30 +10,75 @@
         "children": [
           {
             "id": "9af9c44f8cd2fcc6",
+=======
+    "id": "898dcf6e67737a0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4497b751deff8c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9618f9239158b575",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Permanent/Programmation/C++/Les exceptions.md",
+=======
+                "file": "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Récupérer les paramètres dans l'URL"
+            }
+          },
+          {
+            "id": "b815960cdd3f1049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Les exceptions"
             }
           },
           {
             "id": "941f45f21da33d3a",
+=======
+              "title": "Problème du logarithme discret"
+            }
+          },
+          {
+            "id": "437c629f3c9fb8e4",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Permanent/Programmation/C++/Test unitaires avec Google Test.md",
+=======
+                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Test unitaires avec Google Test"
+=======
+              "title": "Problème du logarithme discret"
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             }
           },
           {
@@ -80,6 +126,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "dd6e4d4b88fba2e3",
     "type": "split",
     "children": [
@@ -89,24 +136,47 @@
         "children": [
           {
             "id": "30cf367c1d506f64",
+=======
+    "id": "d02a027293bc57a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "883d239ddc28720f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26930f4f00436aea",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
+<<<<<<< HEAD
                 "sortOrder": "alphabetical"
+=======
+                "sortOrder": "byCreatedTime"
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
+<<<<<<< HEAD
             "id": "465239b25787e498",
+=======
+            "id": "9d9abe3d10c97f30",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
+<<<<<<< HEAD
                 "matchingCase": false,
+=======
+                "matchingCase": true,
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -117,7 +187,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "fd7dde088fcc2ea0",
+=======
+            "id": "ee551dcfadc225ee",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -130,9 +204,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
+<<<<<<< HEAD
     "id": "30a698f26f07f601",
     "type": "split",
     "children": [
@@ -142,17 +217,33 @@
         "children": [
           {
             "id": "d44922830aa9db51",
+=======
+    "id": "8c4f70df493ebba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f585d7813b0463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0b625bc74dc987f",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Permanent/Programmation/C++/Les exceptions.md",
+=======
+                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+<<<<<<< HEAD
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
@@ -175,11 +266,21 @@
           },
           {
             "id": "a431b4aa8e16e67d",
+=======
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Problème du logarithme discret"
+            }
+          },
+          {
+            "id": "1d342e80f9fb8668",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
@@ -187,7 +288,74 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "14008accf532a051",
+=======
+            "id": "66e587d48df7a77c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Mathématiques/Problème du logarithme discret.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Problème du logarithme discret"
+            }
+          },
+          {
+            "id": "35e933e1cc640cce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LogBook Thomas VENOUIL - A12.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LogBook Thomas VENOUIL - A12"
+            }
+          },
+          {
+            "id": "ceb83811872d7ba4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "paperclips.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.00155925155925,
+                  "lineSizeMultiplier": 1.77577962577963,
+                  "collapse-forces": true,
+                  "centerStrength": 0.529106029106029,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 140,
+                  "scale": 0.14459894822496833,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of paperclips"
+            }
+          },
+          {
+            "id": "44c10021f5f438fa",
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -201,6 +369,7 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "ce7b2ab56e3849dd",
             "type": "leaf",
             "state": {
@@ -218,6 +387,115 @@
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
+=======
+            "id": "807d069a5bfee8c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "a107db2f9f54918d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "La verticalisation de l'offre.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for La verticalisation de l'offre"
+            }
+          },
+          {
+            "id": "ae156f7290499699",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "519b54ea16f988f7",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "27d14a6cb0c8be90",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6765a24cfa35bf74",
+            "type": "leaf",
+            "state": {
+              "type": "smart-search-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0c945ebd6f5823cf",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "2ee7c15127ff9cde",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0c8d6cc32f5dd73f",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
+            }
+          },
+          {
+            "id": "a70c1944e5261870",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Smart Chat Conversation View"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,6 +514,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
+<<<<<<< HEAD
   "active": "ddcdb14484efac1a",
   "lastOpenFiles": [
     "Permanent/Programmation/C++/La forme canonique de Coplien.md",
@@ -243,5 +522,65 @@
     "Permanent/Programmation/C++/Les exceptions.md",
     "Permanent/Cours/Cours/Semestre 3/Différences entre C et C++.md",
     "Permanent/Programmation/C++/Polymorphisme.md"
+=======
+  "active": "437c629f3c9fb8e4",
+  "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+    "Permanent/Autre/Le PGCD.md",
+    "Permanent/Mathématiques/Problème du logarithme discret.md",
+    "Permanent/Mathématiques/Générateur.md",
+    "Permanent/Mathématiques/Chiffrement affine.md",
+    "Permanent/Mathématiques/Calcul modulaire.md",
+    "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
+    "Permanent/Mathématiques/L'arithmétique modulaire.md",
+    "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
+    "Permanent/Mathématiques/Untitled.md",
+    "Permanent/Mathématiques/Chiffrement affine.md~",
+    "Permanent/Mathématiques/Classes de congruence module n.md",
+    "Inbox/Tableau d'Euclide Bézout.md",
+    "Permanent/Mathématiques/Petit théorème de Fermat.md",
+    "smart-chats/UNTITLED CHAT 2024-11-25 16 34 32.md",
+    "TD2Arithmetique.pdf",
+    "Permanent/Mathématiques/Théorème d'Euler.md",
+    "Permanent/Cours/Cours/Semestre 3/Arbres binaires.md",
+    "Permanent/Programmation/PHP/Symfony/Les contrôleurs dans Symfony.md",
+    "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
+    "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
+    "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md",
+    "Permanent/Programmation/PHP/Symfony/Définition des routes.md",
+    "Débuter avec Symfony 5.md",
+    "Permanent/Programmation/PHP/Symfony",
+    "La vague.md",
+    "Permanent/Cours/Cours/Analyse film la vague.md",
+    "Permanent/Cours/Cours/Semestre 3/Framework MVC.md",
+    "Pasted image 20241117185833.png",
+    "Pasted image 20241117185735.png",
+    "Modèle mvc.png",
+    "Modèle générale MVC.png",
+    "Pasted image 20241117185542.png",
+    "Structure générale MVC.png",
+    "Fonctionnement général MVC.png",
+    "Pasted image 20240923145058.png",
+    "Pasted image 20241003151838.png",
+    "Pasted image 20241003151829.png",
+    "Screencast from 2024-10-22 13-14-14.webm",
+    "Screencast from 2024-10-22 13-08-43.webm",
+    "Screencast from 2024-10-22 12-28-37.webm",
+    "Images/Screencast from 2024-10-22 12-28-37.webm",
+    "Images/Screencast from 2024-10-22 13-14-14.webm",
+    "Images/Screencast from 2024-10-22 13-08-43.webm",
+    "Screencast from 2024-10-11 23-08-47.webm",
+    "Untitled.canvas",
+    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
+    "Projets/En cours/Application mobile de sport/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
+    "Untitled 14.canvas",
+    "Untitled 13.canvas",
+    "Untitled 12.canvas",
+    "Untitled 11.canvas",
+    "Untitled 10.canvas"
+>>>>>>> e0efb407d831f0b2ba1d8447729335ce5a9546aa
   ]
 }

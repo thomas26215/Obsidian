@@ -1,3 +1,3 @@
 ```dataview
-TABLE Categorie from "Permanent" flatten Categorie
+TABLE Categorie from "Permanent/Productivite" flatten Categorie
 ```

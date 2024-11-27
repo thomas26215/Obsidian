@@ -1,3 +1,11 @@
+---
+MOOC: "[[Programmation]]"
+Langage: PHP
+Type: Les bases
+tags: 
+Complete: true
+Learned: true
+---
 Il est possible d'écrire du code PHP dans du code HTML. Dans la méthode suivant nous écrirons le code HTML dans un fichier PHP :
 ```PHP
 <?php
