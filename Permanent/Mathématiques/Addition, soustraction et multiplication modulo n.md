@@ -30,7 +30,7 @@ Dans $\mathbb{Z}/8\mathbb{Z}$, les éléments comme $2, 4, 6$ sont appelés **di
 - $2 \times 4 \equiv 0 \pmod{8}$,
 - $6 \times 4 \equiv 0 \pmod{8}$.
 
-Les éléments qui ne sont pas des diviseurs de zéro sont dits **inversibles**, c'est-à-dire qu'ils possèdent un inverse multiplicatif modulo $n$.
+Les éléments qui ne sont pas des diviseurs de zéro sont dits **inversibles**, c'est-à-dire qu'ils possèdent un inverse multiplicatif modulo $n$. (Fonctionne avec les [[Générateur|générateurs]])
 
 ---
 

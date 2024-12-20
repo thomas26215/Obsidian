@@ -1,0 +1,1 @@
+Le partage transparent est réalisé grâce à une architecture client-serveur où les fichiers distants apparaissent comme un sous-système monté dans le répertoire local du client. Cela nécessite une communication via un protocole réseau tel que TCP/IP ou UDP/IP.

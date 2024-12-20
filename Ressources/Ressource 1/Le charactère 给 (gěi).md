@@ -14,7 +14,7 @@ Le charactère 给 peut désigner le fait de donner ou d'offrir quelque chose
 # Le fait de faire quelque chose pour quelqu'un
 Le charactère 给 peut aussi désigner le fait de faire quelque chose pour quelqu'un
 **Exemples** :
-- *Je t'ai acheté un livre* (走给你买了一本书) : 给 désigne le fait d'avoir effectué l'achat pour quelqu'un d'autre
+- *Je t'ai acheté un livre* (走给你买了一本书) : 给 désigne le fait d'avoir effectué l'achat pour quelqu'un d'autre ([[Omission des pronoms en Chinois]])
 - *Je te téléphone* (我给你打电话) : Dans ce cas-là, 给 indique que l'on effectue l'opération de téléphoner à quelqu'un d'autre
 
 # Placement

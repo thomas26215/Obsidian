@@ -1,0 +1,1 @@
+Les contrôleurs sont des circuits électroniques qui gèrent la communication entre le système d'exploitation et les périphériques. Ils interprètent les signaux envoyés via le bus et agissent sur le matériel correspondant, comme les disques durs ou les claviers

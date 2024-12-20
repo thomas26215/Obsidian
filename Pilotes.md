@@ -1,0 +1,1 @@
+Les pilotes (drivers) sont des programmes qui permettent au système d'exploitation de communiquer avec les périphériques matériels. Chaque type de périphérique nécessite un pilote spécifique pour fonctionner correctement avec le système

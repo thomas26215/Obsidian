@@ -48,3 +48,8 @@ Voici un tableau d'exemple pour clarifier le processus :
 **Question :**
 1. Faire le tableau de Bézout à partir de $pgcd(1236, 96)$
 2. En déduire les deux entiers relatifs où $ab+uv=pgcd(a,b)$ et vérifier 
+
+---
+**Exercices** :
+- [[TD arithmétique#Exercice 2]]
+- [[TD arithmétique#Exercice 3]]

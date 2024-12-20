@@ -1,0 +1,1 @@
+Le **Virtual File System (VFS)** est une interface du système d'exploitation qui permet d'accéder à différents systèmes de fichiers via une API uniforme. Cela signifie que les opérations comme `open`, `read`, etc., peuvent être utilisées indépendamment du type sous-jacent du système de fichiers.

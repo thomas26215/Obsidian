@@ -4,6 +4,8 @@ Sujet: Systèmes d'exploitation
 Type: 
 tags: []
 ---
+Un processus est l'ex&cution d'un programme et chaque processus à un seul père unique
+
 Plusieurs utilisateurs peuvent utiliser le système simultanémet. Un utilisateur peut lancer plusieurs logiciels en même temps. L'éxecution d'un logiciel donne naissance à un tâche ou processus qui est donc un programme en train de s'éxecuter. C'est une entité dont le noyeau Linux contrôle l'état, de la vie à la mort
 - **Système à temps partagé** : Le processus est partagé entre plusieurs processus concurrents
 - **Système multi-préemptif** : L'ordonnanceur peut interrompre de force un processus pour redonner le contrôle du processeurs au noyeau Linux ou à un autre processeur

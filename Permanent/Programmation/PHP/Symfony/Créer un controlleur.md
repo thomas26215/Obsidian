@@ -46,3 +46,5 @@ class NomDuController extends AbstractController
 - Utilisez le **PascalCase** pour nommer votre contrôleur
 - Le suffixe `Controller` est une convention recommandée
 - Le contrôleur étend toujours `AbstractController`
+
+![[Pasted image 20241210162638.png]]

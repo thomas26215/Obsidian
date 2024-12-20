@@ -1,53 +1,106 @@
 {
   "main": {
-    "id": "0b961fffc46e4a4d",
+    "id": "898dcf6e67737a0c",
     "type": "split",
     "children": [
       {
-        "id": "e744ace1d10f374e",
+        "id": "8c6d15831223f810",
         "type": "tabs",
         "children": [
           {
-            "id": "3f058fd20fb71171",
+            "id": "e259b0b14494aa65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+                "file": "Permanent/Mathématiques/Générateur.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TD arithmétique"
+              "title": "Générateur"
+            }
+          },
+          {
+            "id": "a6216be805c18379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/PHP/Transformer un ensemble de données en liste.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transformer un ensemble de données en liste"
+            }
+          },
+          {
+            "id": "df5930bdd27dccdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exemple complet de POST.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exemple complet de POST"
+            }
+          },
+          {
+            "id": "71ba1a2e2a1f3ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composants d'un Système de Gestion de Fichiers.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Composants d'un Système de Gestion de Fichiers"
+            }
+          },
+          {
+            "id": "04d1be3a71ee4b76",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5b48772722593285",
+    "id": "d02a027293bc57a2",
     "type": "split",
     "children": [
       {
-        "id": "5306baa547233d3c",
+        "id": "883d239ddc28720f",
         "type": "tabs",
         "children": [
           {
-            "id": "645ef2b51bc9842b",
+            "id": "26930f4f00436aea",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "f63d70c05f1f5106",
+            "id": "9d9abe3d10c97f30",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +117,7 @@
             }
           },
           {
-            "id": "0508ef7c41507d43",
+            "id": "ee551dcfadc225ee",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,55 +130,43 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "5bca7a8f42e1a6b3",
+    "id": "8c4f70df493ebba7",
     "type": "split",
     "children": [
       {
-        "id": "f44387f8d48c7ffe",
+        "id": "b9f585d7813b0463",
         "type": "tabs",
         "children": [
           {
-            "id": "1c9db0505b62ed84",
+            "id": "b0b625bc74dc987f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+                "file": "Exemple complet de POST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TD arithmétique"
+              "title": "Backlinks for Exemple complet de POST"
             }
           },
           {
-            "id": "7d95977e48c2ae43",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "97e49046d577e606",
+            "id": "1d342e80f9fb8668",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
@@ -133,7 +174,70 @@
             }
           },
           {
-            "id": "fddf11b2f79ed410",
+            "id": "66e587d48df7a77c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TD arithmétique"
+            }
+          },
+          {
+            "id": "35e933e1cc640cce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Gestion Complète des Données de Requête avec Request"
+            }
+          },
+          {
+            "id": "ceb83811872d7ba4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Contrôleurs.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.00155925155925,
+                  "lineSizeMultiplier": 1.77577962577963,
+                  "collapse-forces": true,
+                  "centerStrength": 0.529106029106029,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 140,
+                  "scale": 0.14054852638695126,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Contrôleurs"
+            }
+          },
+          {
+            "id": "44c10021f5f438fa",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,20 +251,123 @@
             }
           },
           {
-            "id": "c0f09585e45e0922",
+            "id": "807d069a5bfee8c5",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "a107db2f9f54918d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "La verticalisation de l'offre.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for La verticalisation de l'offre"
+            }
+          },
+          {
+            "id": "ae156f7290499699",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "519b54ea16f988f7",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "27d14a6cb0c8be90",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6765a24cfa35bf74",
+            "type": "leaf",
+            "state": {
+              "type": "smart-search-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0c945ebd6f5823cf",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "2ee7c15127ff9cde",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0c8d6cc32f5dd73f",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a70c1944e5261870",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2fbdded40e767116",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,26 +386,63 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3f058fd20fb71171",
+  "active": "df5930bdd27dccdd",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 3/Processus.md",
-    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
-    "Excalidraw/Drawing 2024-11-27 08.38.05.excalidraw.md",
-    "Différents tyês de licences.md",
-    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
-    "Permanent/Mathématiques/Classes de congruence module n.md",
-    "Permanent/Mathématiques/Petit théorème de Fermat.md",
-    "Permanent/Mathématiques/Théorème d'Euler.md",
-    "Permanent/Mathématiques/Calcul modulaire.md",
-    "Inbox/Tableau d'Euclide Bézout.md",
-    "Permanent/Autre/Le PGCD.md",
-    "Permanent/Mathématiques/Chiffrement affine.md",
     "Permanent/Cours/TP/TP01 Processus - création, terminaison.md",
-    "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/TP",
-    "Permanent/Cours/Untitled.md"
+    "Permanent/Programmation/PHP/Transformer un ensemble de données en liste.md",
+    "Exemple complet de POST.md",
+    "Permanent/Programmation/PHP/Les tableaux indexés.md",
+    "Permanent/Programmation/PHP/Les listes.md",
+    "Permanent/Programmation/PHP/PDO -  Gestion de transaction.md",
+    "Permanent/Programmation/PHP/Untitled",
+    "Permanent/Programmation/PHP/PDO - Récupérer les données après un SELECT.md",
+    "Permanent/Programmation/PHP/Utilisation de SQLite avec PHP.md",
+    "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
+    "Permanent/Programmation/PHP/PDO - Exécution de requête simple.md",
+    "Permanent/Mathématiques/Générateur.md",
+    "Permanent/Programmation/PHP/PDO - Configuration et connexion.md",
+    "Permanent/Programmation/PHP/PDO - Création d'une table.md",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+    "Permanent/Autre/Le chiffrement RSA.md",
+    "Permanent/Autre/Algorithme de la clé RSA.md",
+    "Types de périphériques.md",
+    "Aspects logiciels des entrées sorties.md",
+    "Sous système E/S du Noyeau.md",
+    "Pilotes.md",
+    "Permanent/Cours/Cours/Entrées sorties.md",
+    "Aspect matériel des entrées sorties.md",
+    "Interruption et DMA.md",
+    "Contrôleurs.md",
+    "BUS de données.md",
+    "Sous système E",
+    "Pasted image 20241210162638.png",
+    "TD2Arithmetique.pdf",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md~",
+    "Pasted image 20241203215338.png",
+    "Pasted image 20241203215252.png",
+    "Pasted image 20241203215231.png",
+    "Pasted image 20241203214252.png",
+    "Pasted image 20241203180837.png",
+    "Pasted image 20241203180144.png",
+    "Pasted image 20241203214321.png",
+    "Pasted image 20241203180815.png",
+    "Pasted image 20241203180749.png",
+    "Permanent/Langues/Chinois/Untitled",
+    "Permanent/Langues/Chinois",
+    "Permanent/Programmation/VBScript",
+    "Permanent/Mathématiques/Chiffrement affine.md~",
+    "Permanent/Programmation/PHP/Symfony",
+    "Untitled.canvas",
+    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
+    "Projets/En cours/Application mobile de sport/Untitled.canvas",
+    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
+    "Untitled 14.canvas",
+    "Untitled 13.canvas",
+    "Untitled 12.canvas",
+    "Untitled 11.canvas",
+    "Untitled 10.canvas"
   ]
 }

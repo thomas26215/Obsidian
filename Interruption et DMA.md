@@ -1,0 +1,1 @@
+Les interruptions permettent une communication asynchrone, où le processeur peut être alerté par un périphérique lorsqu'il a besoin d'attention. Le **Direct Memory Access (DMA)** permet aux périphériques de transférer des données directement vers la mémoire sans passer par le CPU, améliorant ainsi l'efficacité des E/S
