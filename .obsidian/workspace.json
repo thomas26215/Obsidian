@@ -13,11 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Permanent/Mathématiques/Générateur.md",
+=======
+                "file": "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
+>>>>>>> Stashed changes
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "Générateur"
             }
           },
@@ -71,6 +76,9 @@
               "state": {},
               "icon": "search",
               "title": "Home tab"
+=======
+              "title": "Etude de faisabilité"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -147,7 +155,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Exemple complet de POST.md",
+=======
+                "file": "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,11 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
+<<<<<<< Updated upstream
               "title": "Backlinks for Exemple complet de POST"
+=======
+              "title": "Backlinks for Etude de faisabilité"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -388,6 +404,29 @@
   },
   "active": "df5930bdd27dccdd",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
+=======
+    "Pasted image 20241206153158.png",
+    "Permanent/Cours/TP/TP02 Hiérarchie mémoire.md",
+    "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
+    "Permanent/Cours/TP/ETL.md",
+    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
+    "Permanent/Cours/TD/Semestre 3/Processus.md",
+    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
+    "Excalidraw/Drawing 2024-11-27 08.38.05.excalidraw.md",
+    "Différents tyês de licences.md",
+    "Permanent/Mathématiques/Générateur.md",
+    "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
+    "Permanent/Mathématiques/Classes de congruence module n.md",
+    "Permanent/Mathématiques/Petit théorème de Fermat.md",
+    "Permanent/Mathématiques/Théorème d'Euler.md",
+    "Permanent/Mathématiques/Calcul modulaire.md",
+    "Inbox/Tableau d'Euclide Bézout.md",
+    "Permanent/Autre/Le PGCD.md",
+    "Permanent/Mathématiques/Chiffrement affine.md",
+>>>>>>> Stashed changes
     "Permanent/Cours/TP/TP01 Processus - création, terminaison.md",
     "Permanent/Cours/TP",
     "Permanent/Programmation/PHP/Transformer un ensemble de données en liste.md",

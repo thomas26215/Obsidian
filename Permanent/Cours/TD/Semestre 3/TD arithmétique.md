@@ -1,5 +1,9 @@
 ![[TD2Arithmetique.pdf]]
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ## Exercice 1
 
 Exercice 1
@@ -95,7 +99,7 @@ Question 3
 
 L'inverse de 35 dans Z/114Z est donc 101ˉ101ˉ.
 
-## Exercice 4
+
 
 1. Coder la lettre W :
    W correspond à x = 22
@@ -104,6 +108,7 @@ L'inverse de 35 dans Z/114Z est donc 101ˉ101ˉ.
    24 correspond à la lettre Y
    Donc, W est codée par Y.
 
+<<<<<<< Updated upstream
 2. Détermination de la fonction de décodage :
 
     (a) Montrer que pour tous nombres entiers relatifs x et j, on a :
@@ -490,6 +495,9 @@ $cA^u × cB^v ≡ (m^eA)^u × (m^eB)^v ≡ m^(ueA + veB) ≡ m^1 ≡ m (mod n)$
 Ainsi, Oscar peut calculer m en trouvant u et v (par l'algorithme d'Euclide étendu) et en calculant $cA^u × cB^v mod n$.
 
 ## Exercice 16
+=======
+## Exercice 18
+>>>>>>> Stashed changes
 
 Exercice 1
 

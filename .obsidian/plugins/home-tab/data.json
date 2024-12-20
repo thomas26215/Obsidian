@@ -24,6 +24,7 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
       "filepath": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
@@ -87,6 +88,14 @@
       "filepath": "Exemple complet de POST.md",
       "timestamp": 1734675870561
 >>>>>>> a85a41b (.)
+=======
+      "filepath": "Projets/En cours/SAE 3.01/Untitled 1.md",
+      "timestamp": 1733495504667
+    },
+    {
+      "filepath": "Permanent/Cours/TP/TP02 Hiérarchie mémoire.md",
+      "timestamp": 1733495429750
+>>>>>>> Stashed changes
     }
   ],
   "starredFileStore": [],
