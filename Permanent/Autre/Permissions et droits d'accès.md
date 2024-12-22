@@ -1,9 +1,10 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Systèmes d'exploitation
-Type: 
+Thème: Systèmes d'exploitation
+Sujet:
 tags:
 ---
+
 Les droits d'accès aux fichiers se divisent en trois catégories d'utilisateurs :
 
 - **u (user)** : Désigne la personne qui a créé le fichier ou le répertoire.
@@ -20,14 +21,17 @@ En combinant ces catégories d'utilisateurs et ces types de permissions, on obti
 
 Pour changer les combinaisons, il existe le logiciel `chmod`.
 ⇒ `chmod [-R] [QUI] + | - PERM ENTREE`
+
 - `QUI`
-	- A qui s'applique le changement de permissions
-	- Chaîne fabriquée avec les caractères `u` `g` `o` (ou chaîne vidéo)
+    - A qui s'applique le changement de permissions
+    - Chaîne fabriquée avec les caractères `u` `g` `o` (ou chaîne vidéo)
 - `PERM`
-	- Quelle permission on veut ajouter ou enlever
-	- Chaîne fabriquée avec les caractères `r` `w` `x` `X`
+    - Quelle permission on veut ajouter ou enlever
+    - Chaîne fabriquée avec les caractères `r` `w` `x` `X`
 
 **Exemples pour un fichier** :
+
 - `chmod g+r f1` : Autorise les membres du groupe de `f1`
 - `chmod o-w f1` : Interdit aux autre d'écrire dans `f1`
 - `chmod go-rwx` : Interdit aux non-propriétaires tous les accès à `f1`
+

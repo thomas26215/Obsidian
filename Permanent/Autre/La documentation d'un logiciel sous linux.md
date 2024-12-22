@@ -1,10 +1,12 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Systèmes d'exploitation
-Type: Linux
+Thème: Systèmes d'exploitation
+Sujet: Linux
 tags: []
 ---
+
 # Documentation du logiciel
+
 - Documentation intégrée au logiciel
 - Pages de manuel : `/usr/share/man/`
   -> Infos minimales sur logiciel
@@ -19,4 +21,5 @@ tags: []
 - Page de manuel en français : `man-fr LOGICIEL`
 - Page info : `info LOGICIEL`
 - Autre docs `less FICHIER` (pour fichier texte)
-			`zless FICHIER.gz` (pour fichier texte compressé avec gzip)
+  `zless FICHIER.gz` (pour fichier texte compressé avec gzip)
+

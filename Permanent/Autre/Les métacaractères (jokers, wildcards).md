@@ -1,16 +1,18 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Systèmes d'exploitation
-Type: 
+Thème: Systèmes d'exploitation
+Sujet:
 tags: []
 ---
+
 Ils permettent de manipuler plusieurs entrées avec une seule commande
 **Les jokers** :
+
 - `cp -r tp* /media/tot/MaCle/` : Prend tous les répertoires qui commencent par tp dans le répertoire MaCle
 - `cp -r tp* /media/tot/MaCle/` : Prend tous les fichiers qui commencent par tp et qui a un charactère en plus (tp1, tp2)
 - `cp -r tp[12] /media/tot/MaCle/` : Récupère les deux premiers tp
 
-- * Remplace une suite quelconque
+-   - Remplace une suite quelconque
 - ? Remplace un seul charactère
 - [] Remplace un charactère parmis ceux présents dans les charactères
 
@@ -22,3 +24,4 @@ Un joker peut être utilisé au début, au milieu d'un chemin ou tout seul
 - **La même commande peut donner un résultat très différent** : `cp * .txt essai*`
 - **Commande pour supprimer les fichiers de backup** : `rm *~`
 - **La même commande avec espace** : `rm * ~` <mark style="background: #FF5582A6;">NE PAS TAPER CETTE COMMANDE, CATASTROPHIQUE</mark>
+

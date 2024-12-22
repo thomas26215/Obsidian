@@ -1,14 +1,16 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Economie
-Type: 
-tags: []
+Thème: Economie
+Sujet:
+tags:
 ---
+
 Un agent économique est une personne de la vie de tous les jours. Celle-ci peut être soit physique (individu), soit morale (qui a les même droit et obligations, mais qui n'est pas matérialisée : administration publique, personne autonome) qui prend des décisions économiques.
 Il faut savoir qu'une entreprise doit avoir une comptabilité privée alors que l'Etat doit en avoir une publique
 Selon la comptabilité nationale, une agent économique est une unité institutionnelle ou un secteur institutionnelle. Il est autonome et prend des décisions
 
 La comptabilité nationale identifie 6 types d'acteur économiques :
+
 - Les ménages (ensemble de personnes d'un même logements sans forcément liens familiaux)
 - Les sociétés non financières (entreprises) - ne donnent / prêtent pas d'argent
 - Les sociétés financières (banques, assurances)
@@ -25,3 +27,4 @@ Leurs ressources principales proviennent de l’épargne collectée, des emprunt
 
 Administrations publiques fonction principale production de services non marchands pour collectivité (éducation, santé, justice, sécurité ...)
 Ressource principale = prélèvements obligatoires (impôts + cotisations sociales)
+

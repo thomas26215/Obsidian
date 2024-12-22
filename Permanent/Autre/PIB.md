@@ -1,9 +1,10 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Economie
-Type: 
-tags: []
+Thème: Economie
+Sujet:
+tags:
 ---
+
 Le PIB (produit intérieur brut) représente la valeur totale des biens et services produits par un pays sur une période donnée, généralement une année ou un trimestre. Il est la somme des dépenses de consommation, des investissements, des dépenses publiques et des exportations nettes d'un pays.
 
 Le taux de croissance du PIB peut être calculé à prix courants, qui prend en compte l'augmentation des prix (c'est-à-dire l'inflation), ou à prix constants, qui ajuste la valeur du PIB pour éliminer l'effet de l'inflation et se concentrer sur la croissance réelle.
@@ -15,7 +16,9 @@ Le PIB est un indicateur couramment utilisé pour comparer les performances éco
 En résumé, le PIB est un indicateur économique important, mais il ne mesure pas tous les aspects du bien-être économique et doit être utilisé en conjonction avec d'autres indicateurs pour une évaluation plus complète de l'économie d'un pays.
 
 ---
+
 **Questions :**
+
 1. Définir le PIB
 2. De quoi est il la somme ?
 3. Comment peut être calculé le taux de croissance ?
@@ -23,6 +26,7 @@ En résumé, le PIB est un indicateur économique important, mais il ne mesure p
 5. Les comparaisons qui peuvent être effectuées ?
 
 ---
+
 **Links :**
 [[La croissance économique]]
 [[PPA (Parité du pouvoir d'achat)]]
@@ -34,3 +38,4 @@ En résumé, le PIB est un indicateur économique important, mais il ne mesure p
 [[IBEE (Indicateur de bien-être économique)]]
 [[La répartition de la richesse produite]]
 Cours : [[La croissance économique et le PIB]]
+

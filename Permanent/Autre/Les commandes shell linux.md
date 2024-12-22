@@ -1,14 +1,16 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Systèmes d'exploitation
-Type: 
+Thème: Systèmes d'exploitation
+Sujet:
 tags: []
 ---
+
 Un shell est un interpréteur qui réalise une interface entre l'utilisateur et le système d'exploitation permettant de gérer le système de fichiers, de lancer des processus .. C'est aussi un langage de programmation qui permet d'écrire des programmes plus ou moins complexes allant de l'enchaînement automatiques de commandes sous linux à de véritables programmes structurés
 
 [[L'arborescence linux standard]]
 
-**Commandes** : 
+**Commandes** :
+
 - `ls` : Liste le contenu du répertoire courant
   ⇒ Peut aussi liste contenu d'un autre répertoire : `ls ./R1.04`
 - `ls -l` : Liste de manière détaillée le répertoire courant
@@ -29,10 +31,9 @@ Un shell est un interpréteur qui réalise une interface entre l'utilisateur et 
 - `man LOGICIEL` : Affiche le manuel du logiciel passé en paramètres
 - Pour pouvoir arrêter une commande qui a été lancée depuis le shell, il faut faire Ctrl + C
 - Pour pouvoir effacer l'écran, il faut faire Ctrl + l
- > **Sensible à la casse. Minuscule et majuscule != même**
- > **Il y a aussi de l'autocomplétion**
- 
- La composition d'une commande : Logiciel → Espace →  Eventuels arguments → Caractère de fin de ligne
+    > **Sensible à la casse. Minuscule et majuscule != même** > **Il y a aussi de l'autocomplétion**
+
+La composition d'une commande : Logiciel → Espace → Eventuels arguments → Caractère de fin de ligne
 **Exemple de commande** :
 ls (logiciel) → -l (argument a) → -a (argument 2)
 
@@ -40,4 +41,3 @@ ls (logiciel) → -l (argument a) → -a (argument 2)
 - **-l** : en format long
 - **-a** : y compris les fichiers cachés
 - Pas d'autres arguments : Liste le répertoire courant
-

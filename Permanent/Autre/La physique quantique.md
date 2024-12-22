@@ -1,9 +1,10 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Physique
-Type: Physique quantique
+Thème: Physique
+Sujet: Physique quantique
 tags:
 ---
+
 La physique quantique est une branche de la science qui étudie le comportement des particules très petites, telles que les atomes et les particules subatomiques comme les électrons et les photons. Elle décrit le monde à une échelle microscopique, là où les lois de la physique classique ne s'appliquent plus. Elle repose sur plusieurs concepts fondamentaux :
 
 1. **Dualité onde-particule** : Les particules peuvent se comporter à la fois comme des ondes et comme des particules.
@@ -23,6 +24,7 @@ Dans notre monde macroscopique, un objet ne peut pas se retrouver à deux endroi
 ### Liaison avec les [[Ordinateur quantique|ordinateurs quantiques]]
 
 La théorie physique de la mécanique quantique fournit les fondements et les principes sur lesquels reposent les ordinateurs quantiques. Voici les points clés :
+
 - **Qubits** : Les ordinateurs quantiques utilisent les qubits comme unité fondamentale d'information. Contrairement aux bits classiques, qui ne peuvent être que 0 ou 1, les qubits peuvent être dans une superposition de 0 et 1 simultanément, ce qui permet de représenter et de traiter un grand nombre d'informations simultanément.
 - **Superposition quantique** : Cette propriété permet aux qubits d'exister dans les états 0 et 1 en même temps, permettant ainsi d'effectuer des calculs parallèles sur de multiples états simultanément.
 - **Interférence quantique** : Ce phénomène permet de renforcer ou d'annuler les résultats des calculs, améliorant ainsi la précision et l'efficacité des opérations quantiques.
@@ -30,3 +32,4 @@ La théorie physique de la mécanique quantique fournit les fondements et les pr
 - **Portes quantiques** : Équivalentes aux portes logiques des ordinateurs classiques, les portes quantiques permettent de manipuler l'état des qubits, de réaliser des opérations de transformation et d'entrelacement, et de construire des circuits quantiques pour effectuer des tâches spécifiques.
 
 Les ordinateurs quantiques, en se basant sur ces principes, ont le potentiel de résoudre des problèmes complexes beaucoup plus rapidement que les ordinateurs classiques, ouvrant ainsi de nouvelles perspectives dans divers domaines tels que la cryptographie, l'optimisation et la simulation de systèmes quantiques.
+

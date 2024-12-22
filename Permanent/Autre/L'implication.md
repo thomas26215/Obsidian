@@ -1,9 +1,10 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Mathématiques
-Type: Logique
+Thème: Mathématiques
+Sujet: Logique
 tags:
 ---
+
 **L'implication**
 P ⇒ Q
 P implique Q
@@ -17,5 +18,7 @@ Pour que P soit vrai, il faut que Q le soit
 Q est une condition nécessaire pour P
 
 ---
+
 **Links :**
 [[L'équivalence]]
+

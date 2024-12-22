@@ -1,1 +1,11 @@
-Une donnée est un fait brut. Je ne peux pas en faire grand chose. Par exemple, *15 poires* est une donnée. Je n'ai ni contexte, ni information sur cette donnée
+---
+MOOC: "[[Autre]]"
+Thème:
+Sujet:
+tags:
+Complete:
+Learned:
+---
+
+Une donnée est un fait brut. Je ne peux pas en faire grand chose. Par exemple, _15 poires_ est une donnée. Je n'ai ni contexte, ni information sur cette donnée
+

@@ -22,6 +22,7 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
+<<<<<<< Updated upstream
   "recentFilesStore": [
     {
 <<<<<<< Updated upstream
@@ -98,6 +99,9 @@
 >>>>>>> Stashed changes
     }
   ],
+=======
+  "recentFilesStore": [],
+>>>>>>> Stashed changes
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

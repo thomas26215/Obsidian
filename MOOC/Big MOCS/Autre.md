@@ -1,3 +1,3 @@
 ```dataview
-TABLE Sujet, Type, Complete, Learned FROM "Permanent/Autre" SORT Sujet Asc, Type Asc, Complete Asc
+TABLE Thème, Sujet, Complete, Learned FROM "Permanent/Autre" SORT Thème Asc, Sujet Asc, Complete Asc
 ```

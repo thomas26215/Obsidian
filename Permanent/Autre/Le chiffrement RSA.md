@@ -1,13 +1,15 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Informatique
-Type: Chiffrement - RSA
+Thème: Informatique
+Sujet: Chiffrement - RSA
 tags:
 ---
+
 La cryptographie RSA a été inventé par les 3 chercheurs Rivest, Shamir et Adleman
 L'algorithme est connu de tous ; la difficulté réside dans la difficulté de factoriser de grands nombres entiers en produits de facteurs premiers
 
 ### Fonctionnement - Principe
+
 1. Clé publique + clé privée crées par la même personne (qu'on nomm Alice)
 2. Alice va donner à Bob sa clé publique
 3. Bob chiffre son message grâce à la clé publique qu'Alice lui a envoyé.
@@ -19,3 +21,4 @@ La spécificité est que la clé publique et la clé privée sont fabriquée sim
 ![[Algorithme de la clé RSA]]
 
 ![[Craquer une clé RSA]]
+

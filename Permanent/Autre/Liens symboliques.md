@@ -1,9 +1,10 @@
 ---
 MOOC: "[[Autre]]"
-Sujet: Systèmes d'exploitation
-Type: 
+Thème: Systèmes d'exploitation
+Sujet:
 tags:
 ---
+
 Les liens symboliques sont des entrées spéciales qui permettent d'accéder à un fichier ou à un répertoire en utilisant un chemin différent de celui d'origine. Ils sont reconnaissables par la lettre `l` à gauche de leur nom ou par une flèche dans la sortie de la commande `ls`, indiquant la destination ou la cible du lien symbolique.
 
 Les liens symboliques ont plusieurs caractéristiques :
@@ -15,6 +16,7 @@ Les liens symboliques ont plusieurs caractéristiques :
 - Ils sont créés à l'aide de la commande `ln -s`.
   ⇒ `ln -s ENTREE_EXISTANTE REPERTOIRE_Où_CREER_LE_LIEN`
   **Exemple :** `ln -s ../idea-IC-212-5080.55/bin/idea.sh idea`
-			⇒ Créer un lien s'appelant `idea` 
+  ⇒ Créer un lien s'appelant `idea`
 
 Les liens symboliques sont utiles pour créer des raccourcis ou des raccourcis vers des fichiers ou des répertoires.
+
