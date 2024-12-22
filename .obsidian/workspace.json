@@ -4,85 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "8c6d15831223f810",
+        "id": "5b2893c1766b4745",
         "type": "tabs",
         "children": [
           {
-            "id": "e259b0b14494aa65",
+            "id": "c82b8ba9a0c626e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Permanent/Mathématiques/Générateur.md",
-=======
-                "file": "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
->>>>>>> Stashed changes
+                "file": "Permanent/Programmation/Agrégation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "Générateur"
+              "title": "Agrégation"
             }
           },
           {
-            "id": "a6216be805c18379",
+            "id": "005e2bd6a320b573",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/PHP/Transformer un ensemble de données en liste.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transformer un ensemble de données en liste"
-            }
-          },
-          {
-            "id": "df5930bdd27dccdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exemple complet de POST.md",
+                "file": "Templates/Template autre.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exemple complet de POST"
-            }
-          },
-          {
-            "id": "71ba1a2e2a1f3ef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Composants d'un Système de Gestion de Fichiers.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Composants d'un Système de Gestion de Fichiers"
-            }
-          },
-          {
-            "id": "04d1be3a71ee4b76",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-=======
-              "title": "Etude de faisabilité"
->>>>>>> Stashed changes
+              "title": "Template autre"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -155,11 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Exemple complet de POST.md",
-=======
-                "file": "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
->>>>>>> Stashed changes
+                "file": "Permanent/Programmation/Agrégation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,11 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-<<<<<<< Updated upstream
-              "title": "Backlinks for Exemple complet de POST"
-=======
-              "title": "Backlinks for Etude de faisabilité"
->>>>>>> Stashed changes
+              "title": "Backlinks for Agrégation"
             }
           },
           {
@@ -382,8 +326,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -402,63 +345,46 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "df5930bdd27dccdd",
+  "active": "c82b8ba9a0c626e3",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-=======
-    "Pasted image 20241206153158.png",
-    "Permanent/Cours/TP/TP02 Hiérarchie mémoire.md",
     "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
+    "Permanent/Cours/TP/TP02 Hiérarchie mémoire.md",
     "Permanent/Cours/TP/ETL.md",
-    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
-    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
-    "Permanent/Cours/TD/Semestre 3/Processus.md",
-    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
-    "Excalidraw/Drawing 2024-11-27 08.38.05.excalidraw.md",
-    "Différents tyês de licences.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Mathématiques/Addition, soustraction et multiplication modulo n.md",
-    "Permanent/Mathématiques/Classes de congruence module n.md",
-    "Permanent/Mathématiques/Petit théorème de Fermat.md",
-    "Permanent/Mathématiques/Théorème d'Euler.md",
-    "Permanent/Mathématiques/Calcul modulaire.md",
-    "Inbox/Tableau d'Euclide Bézout.md",
-    "Permanent/Autre/Le PGCD.md",
-    "Permanent/Mathématiques/Chiffrement affine.md",
->>>>>>> Stashed changes
-    "Permanent/Cours/TP/TP01 Processus - création, terminaison.md",
-    "Permanent/Cours/TP",
-    "Permanent/Programmation/PHP/Transformer un ensemble de données en liste.md",
-    "Exemple complet de POST.md",
-    "Permanent/Programmation/PHP/Les tableaux indexés.md",
-    "Permanent/Programmation/PHP/Les listes.md",
-    "Permanent/Programmation/PHP/PDO -  Gestion de transaction.md",
-    "Permanent/Programmation/PHP/Untitled",
-    "Permanent/Programmation/PHP/PDO - Récupérer les données après un SELECT.md",
-    "Permanent/Programmation/PHP/Utilisation de SQLite avec PHP.md",
-    "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
-    "Permanent/Programmation/PHP/PDO - Exécution de requête simple.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Programmation/PHP/PDO - Configuration et connexion.md",
-    "Permanent/Programmation/PHP/PDO - Création d'une table.md",
-    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
-    "Permanent/Cours/Cours/Semestre 3/Chiffrement symétrique.md",
-    "Permanent/Autre/Le chiffrement RSA.md",
-    "Permanent/Autre/Algorithme de la clé RSA.md",
-    "Types de périphériques.md",
-    "Aspects logiciels des entrées sorties.md",
-    "Sous système E/S du Noyeau.md",
-    "Pilotes.md",
-    "Permanent/Cours/Cours/Entrées sorties.md",
-    "Aspect matériel des entrées sorties.md",
-    "Interruption et DMA.md",
-    "Contrôleurs.md",
-    "BUS de données.md",
-    "Sous système E",
+    "Pasted image 20241206153158.png",
+    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md~",
+    "Permanent/Autre/Variables d'environnement et variables locales à un shell.md~",
+    "Permanent/Autre/Une pression sur les ressource naturelles dût à une inégalité entre les pays.md~",
+    "Permanent/Autre/Structure matricielle.md~",
+    "Permanent/Autre/RGPD.md~",
+    "Permanent/Autre/Préparer son intervention orale.md~",
+    "Permanent/Autre/Redirection avec ajout à la fin.md~",
+    "Permanent/Autre/Structure divisionnelle.md~",
+    "Permanent/Autre/Processus achat.md~",
+    "Permanent/Autre/Négation d'une assertion.md~",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Autre/Information.md",
+    "Permanent/Autre/La fonction RH.md",
+    "Permanent/Autre/Caractériser une entreprise.md",
+    "Permanent/Autre/Entreprise en réseau.md",
+    "Permanent/Autre/Définition - Entreprise.md",
+    "Permanent/Autre/Définition - Capacité.md",
+    "Permanent/Autre/Définition - Structure.md",
+    "Permanent/Autre/Les avantages et les limites du PIB.md",
+    "Permanent/Autre/IPH (Indice de pauvreté humaine).md",
+    "Permanent/Autre/La notion de rareté en économie.md",
+    "Permanent/Autre/L'Economie.md",
+    "Permanent/Autre/PIB.md",
+    "Permanent/Autre/Les agents économiques.md",
+    "Permanent/Autre/La production économique.md",
+    "Permanent/Autre/Le pacte de stabilité.md",
+    "Permanent/Autre/Redirection de flux de données.md",
+    "Permanent/Autre/Redirection avec ajout à la fin.md",
+    "Permanent/Autre/Scripts shell.md",
+    "Permanent/Autre/Les interfaces graphiques.md",
+    "Permanent/Autre/Variables d'environnement et variables locales à un shell.md",
+    "Permanent/Autre/Redirection vers un autre processus.md",
+    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md",
     "Pasted image 20241210162638.png",
-    "TD2Arithmetique.pdf",
-    "Permanent/Cours/TD/Semestre 3/TD arithmétique.md~",
     "Pasted image 20241203215338.png",
     "Pasted image 20241203215252.png",
     "Pasted image 20241203215231.png",
@@ -467,12 +393,6 @@
     "Pasted image 20241203180144.png",
     "Pasted image 20241203214321.png",
     "Pasted image 20241203180815.png",
-    "Pasted image 20241203180749.png",
-    "Permanent/Langues/Chinois/Untitled",
-    "Permanent/Langues/Chinois",
-    "Permanent/Programmation/VBScript",
-    "Permanent/Mathématiques/Chiffrement affine.md~",
-    "Permanent/Programmation/PHP/Symfony",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
