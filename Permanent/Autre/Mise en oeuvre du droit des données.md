@@ -1,3 +1,11 @@
+---
+MOOC: "[[Autre]]"
+Thème: Droit
+Sujet: Données personnelles
+tags: 
+Complete: false
+Learned: false
+---
 Mise en oeuvre :
 1. Etablissement de règles internes de mise en conformité RGPD
 2. Etablissement du registre des traitements

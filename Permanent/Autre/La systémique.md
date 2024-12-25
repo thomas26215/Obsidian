@@ -1,3 +1,11 @@
+---
+MOOC: "[[Autre]]"
+Thème: Systémique
+Sujet: Les composants d'un système
+tags: 
+Complete: false
+Learned: false
+---
 La systémique est un ensemble d'éléments en interaction visant à atteindre un certain objectif. Cela permet de représenter quelque chose en faisant abstraction du fonctionnement. Les différents éléments sont le système de pilotage, le système d'informations et le système opérant
 
 <mark style="background: #BBFABBA6;">Par exemple</mark> : Un corps humain détient :

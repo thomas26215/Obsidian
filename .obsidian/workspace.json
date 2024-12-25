@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Agrégation.md",
-                "mode": "preview",
+                "file": "Permanent/Autre/La centralisation et la décentralisation dans une entreprise.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agrégation"
+              "title": "La centralisation et la décentralisation dans une entreprise"
             }
           },
           {
@@ -27,15 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template autre.md",
+                "file": "Permanent/Autre/La décentralisation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template autre"
+              "title": "La décentralisation"
+            }
+          },
+          {
+            "id": "ce8b4c07dfc16540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Autre/La décentralisation.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "La décentralisation"
+            }
+          },
+          {
+            "id": "b8932291f8de0ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Autre/Calcul du PIB habitant.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calcul du PIB habitant"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Programmation/Agrégation.md",
+                "file": "Permanent/Autre/Calcul du PIB habitant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +146,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agrégation"
+              "title": "Backlinks for Calcul du PIB habitant"
             }
           },
           {
@@ -139,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 3/TD arithmétique.md",
+                "file": "Permanent/Autre/La décentralisation.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TD arithmétique"
+              "title": "Outgoing links from La décentralisation"
             }
           },
           {
@@ -322,7 +351,8 @@
               "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -345,57 +375,45 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c82b8ba9a0c626e3",
+  "active": "ce8b4c07dfc16540",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Projets/En cours/SAE 3.01/Etude de faisabilité.md",
-    "Permanent/Cours/TP/TP02 Hiérarchie mémoire.md",
-    "Permanent/Cours/TP/ETL.md",
-    "Pasted image 20241206153158.png",
-=======
->>>>>>> Stashed changes
-    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md~",
-    "Permanent/Autre/Variables d'environnement et variables locales à un shell.md~",
-    "Permanent/Autre/Une pression sur les ressource naturelles dût à une inégalité entre les pays.md~",
-    "Permanent/Autre/Structure matricielle.md~",
-    "Permanent/Autre/RGPD.md~",
-    "Permanent/Autre/Préparer son intervention orale.md~",
-    "Permanent/Autre/Redirection avec ajout à la fin.md~",
-    "Permanent/Autre/Structure divisionnelle.md~",
-    "Permanent/Autre/Processus achat.md~",
-    "Permanent/Autre/Négation d'une assertion.md~",
-<<<<<<< Updated upstream
-=======
-    "Permanent/Autre/Normes de produit, de qualité et de procédés.md~",
->>>>>>> Stashed changes
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Autre/Information.md",
-    "Permanent/Autre/La fonction RH.md",
-    "Permanent/Autre/Caractériser une entreprise.md",
-    "Permanent/Autre/Entreprise en réseau.md",
-    "Permanent/Autre/Définition - Entreprise.md",
-    "Permanent/Autre/Définition - Capacité.md",
-    "Permanent/Autre/Définition - Structure.md",
-    "Permanent/Autre/Les avantages et les limites du PIB.md",
-    "Permanent/Autre/IPH (Indice de pauvreté humaine).md",
-    "Permanent/Autre/La notion de rareté en économie.md",
-    "Permanent/Autre/L'Economie.md",
+    "Permanent/Autre/La centralisation.md",
+    "Permanent/Autre/La décentralisation.md",
+    "Permanent/Autre/La centralisation et la décentralisation dans une entreprise.md",
+    "Permanent/Autre/Calcul du PIB habitant.md",
+    "Permanent/Autre/La valeur ajoutée.md",
+    "Permanent/Cours/Cours/Semestre 1/Les formulaires HTML.md",
     "Permanent/Autre/PIB.md",
-    "Permanent/Autre/Les agents économiques.md",
-    "Permanent/Autre/La production économique.md",
-    "Permanent/Autre/Le pacte de stabilité.md",
-    "Permanent/Autre/Redirection de flux de données.md",
-    "Permanent/Autre/Redirection avec ajout à la fin.md",
-    "Permanent/Autre/Scripts shell.md",
-    "Permanent/Autre/Les interfaces graphiques.md",
-    "Permanent/Autre/Variables d'environnement et variables locales à un shell.md",
-    "Permanent/Autre/Redirection vers un autre processus.md",
-    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md",
-<<<<<<< Updated upstream
-=======
-    "Permanent/Autre/Utiliser une machine à distance en mode texte.md",
     "Permanent/Autre/La répartition de la richesse produite.md",
->>>>>>> Stashed changes
+    "Permanent/Autre/PPA (Parité du pouvoir d'achat).md",
+    "Permanent/Autre/Le taux de croissance du PIB.md",
+    "Permanent/Autre/Institution sans but lucratif au service des ménages.md",
+    "Permanent/Autre/Les agents économiques.md",
+    "Permanent/Programmation/Web/Aligner sur l'axe principale avec flexbox.md",
+    "Permanent/Autre/Les ménages.md",
+    "Permanent/Autre/Administration publique.md",
+    "Permanent/Autre/Société financière.md",
+    "Permanent/Autre/Société non financière.md",
+    "Permanent/Autre/financière",
+    "Permanent/Autre/non",
+    "Permanent/Autre/Société",
+    "Permanent/Autre/Personne morale.md",
+    "Personne physique.md",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Autre/Les 2 types d'information.md",
+    "Permanent/Autre/Compétence.md",
+    "Permanent/Autre/Vocabulaire logique.md",
+    "Permanent/Autre/Vocabulaire ensembliste.md",
+    "Permanent/Autre/Mise en oeuvre du droit des données.md",
+    "Permanent/Autre/Les sanctions du non-respect des règles du droit des données.md",
+    "Permanent/Autre/Composition d'un processus.md~",
+    "Permanent/Autre/Caractériser une entreprise.md~",
+    "Permanent/Autre/Apprendre sur les centres d'intérêts de son public.md~",
+    "Permanent/Autre/Calcul du PIB habitant.md~",
+    "Permanent/Autre/Algorithme de la clé RSA.md~",
+    "Permanent/Autre/Algorithme d'Euclide.md~",
+    "Pasted image 20241206153158.png",
+    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md~",
     "Pasted image 20241210162638.png",
     "Pasted image 20241203215338.png",
     "Pasted image 20241203215252.png",
@@ -405,10 +423,6 @@
     "Pasted image 20241203180144.png",
     "Pasted image 20241203214321.png",
     "Pasted image 20241203180815.png",
-<<<<<<< Updated upstream
-=======
-    "Pasted image 20241203180749.png",
->>>>>>> Stashed changes
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",

@@ -1,9 +1,9 @@
 ---
 MOOC: "[[Autre]]"
-Thème:
-Sujet:
-tags:
-Complete:
+Thème: 
+Sujet: 
+tags: 
+Complete: true
 Learned:
 ---
 

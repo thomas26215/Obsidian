@@ -1,0 +1,1 @@
+L'information est **une source de pouvoir**. En effet, plus on monte dans la hiérarchie, plus il est possible d'accéder aux ressources informationnelles de l'entreprise, de modifier de l'information, de déselectionner ceux qui pourront accéder à l'information et d'obtenir des recherches complémentaires

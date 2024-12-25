@@ -1,3 +1,11 @@
+---
+MOOC: "[[Autre]]"
+Thème: Mathématiques
+Sujet: Logique
+tags: 
+Complete: false
+Learned: false
+---
 1. **Ensemble :** Une collection d'objets.
 2. **Élément :** Un objet qui appartient à un ensemble.
 3. **Union (∪) :** L'ensemble de tous les éléments qui appartiennent à au moins l'un des ensembles donnés.

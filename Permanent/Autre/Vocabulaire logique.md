@@ -1,3 +1,12 @@
+---
+MOOC: "[[Autre]]"
+Thème: Mathématiques
+Sujet: Logique
+tags: 
+Complete: true
+Learned: false
+Note: Ajouter des exemples
+---
 1. **Proposition :** Une déclaration qui est soit vraie, soit fausse.
     
 2. **Connecteurs logiques :** 

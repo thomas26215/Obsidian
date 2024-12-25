@@ -1,15 +1,17 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Economie
-Sujet:
-tags:
+Sujet: PIB
+tags: 
+Complete: true
+Learned: true
 ---
 
 Le PIB (produit intérieur brut) représente la valeur totale des biens et services produits par un pays sur une période donnée, généralement une année ou un trimestre. Il est la somme des dépenses de consommation, des investissements, des dépenses publiques et des exportations nettes d'un pays.
 
-Le taux de croissance du PIB peut être calculé à prix courants, qui prend en compte l'augmentation des prix (c'est-à-dire l'inflation), ou à prix constants, qui ajuste la valeur du PIB pour éliminer l'effet de l'inflation et se concentrer sur la croissance réelle.
+[[Le taux de croissance du PIB]]
 
-Le concept de valeur ajoutée est essentiel pour comprendre le PIB. Il représente la contribution réelle d'une entreprise à l'économie en soustrayant les coûts intermédiaires de la production des revenus générés. Pour calculer le PIB par habitant, on divise le PIB total par la population du pays. ❌
+Le concept de [[La valeur ajoutée]] est essentiel pour comprendre le PIB.
 
 Le PIB est un indicateur couramment utilisé pour comparer les performances économiques entre les pays, mais il présente certaines limites, notamment qu'il ne tient pas compte de [[PPA (Parité du pouvoir d'achat)|la qualité de vie]] ou de la [[La répartition de la richesse produite|distribution des revenus]].
 

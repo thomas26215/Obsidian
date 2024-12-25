@@ -1,0 +1,1 @@
+Les ISBLSM ou associations sont des syndicats ou des partits politiques

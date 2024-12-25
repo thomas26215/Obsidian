@@ -8,7 +8,7 @@
     "Date début": "date",
     "Complete": "checkbox",
     "Learned": "checkbox",
-    "Note": "number",
+    "Note": "text",
     "Déja vu": "checkbox",
     "excalidraw-plugin": "text",
     "excalidraw-export-transparent": "checkbox",
