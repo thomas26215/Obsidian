@@ -1,8 +1,10 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Developpement durable
-Sujet:
-tags:
+Sujet: 
+tags: 
+Complete: true
+Learned: false
 ---
 
 - L'empreinte écologique est un indicateur qui mesure la surface de la planète dont une population a besoin pour satisfaire sa consommation et absorber les déchets générés.

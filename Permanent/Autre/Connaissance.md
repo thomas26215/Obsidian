@@ -3,7 +3,7 @@ MOOC: "[[Autre]]"
 Thème: 
 Sujet: 
 tags: 
-Complete: false
+Complete: true
 Learned: false
 ---
 Une connaissance est une [[Information]] qui est utilisée dans le cadre de mes activités

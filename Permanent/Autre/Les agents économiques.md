@@ -1,9 +1,9 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Economie
-Sujet: 
+Sujet: Agents économiques
 tags: 
-Complete: false
+Complete: true
 Learned: true
 ---
 Un agent économique est une personne de la vie de tous les jours. Celle-ci peut être soit [[Personne physique|physique]], soit [[Personne morale|morale]] qui prend des décisions économiques.

@@ -1,22 +1,8 @@
 [
-  "table-editor-obsidian",
-  "dataview",
-  "highlightr-plugin",
-  "home-tab",
-  "obsidian-image-toolkit",
-  "obsidian-kanban",
-  "mermaid-tools",
-  "metadata-menu",
-  "mousewheel-image-zoom",
-  "note-refactor-obsidian",
-  "oz-image-plugin",
-  "periodic-notes",
-  "symbols-prettifier",
-  "tag-wrangler",
-  "obsidian-pandoc",
-  "obsidian-git",
   "obsidian-excalidraw-plugin",
-  "gladdis",
-  "smart-connections",
-  "various-complements"
+  "dataview",
+  "table-editor-obsidian",
+  "obsidian-kanban",
+  "obsidian-git",
+  "tag-wrangler"
 ]

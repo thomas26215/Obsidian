@@ -2,7 +2,9 @@
 MOOC: "[[Autre]]"
 Thème: Developpement durable
 Sujet: Actions mises en place
-tags:
+tags: 
+Complete: true
+Learned:
 ---
 
 - Les progrès techniques permettent l'apparition de nouvelles technologies et la réduction des émissions de gaz à effet de serre.

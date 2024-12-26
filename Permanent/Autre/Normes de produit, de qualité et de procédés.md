@@ -1,8 +1,10 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Developpement durable
-Sujet:
-tags:
+Sujet: 
+tags: 
+Complete: true
+Learned: false
 ---
 
 - Les normes de produit imposent certaines caractéristiques aux produits.

@@ -3,7 +3,7 @@ MOOC: "[[Autre]]"
 Thème: 
 Sujet: 
 tags: 
-Complete: false
+Complete: true
 Learned: false
 ---
 Une information est une [[Donnée]] avec du contexte

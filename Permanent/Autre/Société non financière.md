@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Autre]]"
-Thème: 
-Sujet: 
+Thème: Economie
+Sujet: Agents économiques
 tags: 
 Complete: true
 Learned: false

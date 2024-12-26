@@ -1,8 +1,10 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Developpement durable
-Sujet:
-tags:
+Sujet: 
+tags: 
+Complete: true
+Learned: false
 ---
 
 - **Pilier environnemental** : Préservation de l'environnement, de la diversité des espèces et des ressources naturelles doit être recherchée
