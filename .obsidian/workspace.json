@@ -4,80 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "5b2893c1766b4745",
+        "id": "020987fb6be85ade",
         "type": "tabs",
         "children": [
           {
-            "id": "c82b8ba9a0c626e3",
+            "id": "4e08a5960f0dd3ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/La systémique.md",
+                "file": "Les pointeurs - C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La systémique"
+              "title": "Les pointeurs - C"
             }
           },
           {
-            "id": "0951f713077849e5",
+            "id": "2fe3a046cb898173",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/L'intervention de l'action publique au niveau local.md",
-                "mode": "preview",
+                "file": "Untitled 8.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L'intervention de l'action publique au niveau local"
+              "title": "Untitled 8"
             }
           },
           {
-            "id": "005e2bd6a320b573",
+            "id": "386290e3a07b171b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/La décentralisation.md",
-                "mode": "preview",
+                "file": "Documentation Technique.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La décentralisation"
-            }
-          },
-          {
-            "id": "ce8b4c07dfc16540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Autre/La décentralisation.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "La décentralisation"
-            }
-          },
-          {
-            "id": "b8932291f8de0ef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Autre/Calcul du PIB habitant.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcul du PIB habitant"
+              "title": "Documentation Technique"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -149,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Autre/La systémique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +132,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for La systémique"
+              "title": "Backlinks"
             }
           },
           {
@@ -207,7 +180,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Contrôleurs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -235,7 +207,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Contrôleurs"
+              "title": "Graph view"
             }
           },
           {
@@ -315,16 +287,6 @@
             }
           },
           {
-            "id": "0c945ebd6f5823cf",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "2ee7c15127ff9cde",
             "type": "leaf",
             "state": {
@@ -363,12 +325,24 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "9c1d9417825c8edb",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
           }
-        ]
+        ],
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -381,37 +355,45 @@
       "audio-recorder:Start/stop recording": false,
       "publish:Publish changes...": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "smart-connections-visualizer:Open smart connections visualizer": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c82b8ba9a0c626e3",
+  "active": "386290e3a07b171b",
   "lastOpenFiles": [
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Autre/Les subventions à l'innovation verte.md",
-    "Permanent/Autre/Composition d'un processus.md",
-    "Permanent/Autre/Un processus.md",
-    "Permanent/Autre/Donnée.md",
-    "Permanent/Autre/Les processus.md",
-    "Processus.md",
-    "MOOC/Big MOCS/Productivite.md",
-    "MOOC/Big MOCS/Medias.md",
-    "Permanent/Autre/L'intervention de l'action publique au niveau local.md",
-    "Permanent/Autre/L'intervention de l'action publique au niveau européen et mondial.md",
-    "Permanent/Autre/Les trois piliers du développement durable.md",
-    "Permanent/Autre/Connaissance.md",
-    "Permanent/Autre/Compétence.md",
-    "Permanent/Autre/Information.md",
-    "Permanent/Autre/Normes de produit, de qualité et de procédés.md",
-    "Permanent/Autre/Les indicateurs environnementaux.md",
-    "Permanent/Autre/Les 3 dimensions d'un système d'informations.md",
-    "Permanent/Autre/La centralisation et la décentralisation dans une entreprise.md",
-    "Permanent/Autre/Administration publique.md",
-    "Permanent/Autre/Les agents économiques.md",
-    "Permanent/Autre/Personne morale.md",
-    "Personne physique.md",
-    "Permanent/Autre/Institution sans but lucratif au service des ménages.md",
-    "Permanent/Autre/Société financière.md",
-    "Permanent/Autre/Société non financière.md",
+    "Untitled 9.md",
+    "Documentation Technique.md",
+    "Untitled 8.md",
+    "Excalidraw/Drawing 2025-01-12 08.49.37.excalidraw.md",
+    "Les pointeurs - C.md",
+    "Fiche de Renseignements Raynet stagiaire.pdf",
+    "Pasted image 20250112084602.png",
+    "Ressources/Ressource 1/L'adverbe en Chinois.md",
+    "Permanent/Autre/Le chiffrement RSA.md",
+    "Permanent/Autre/RGPD.md",
+    "Permanent/Mathématiques/Générateur.md",
+    "Permanent/Autre/La CNIL.md",
+    "Ressources/Ressource 1/Demander le nom d'une personne.md",
+    "Ressources/Ressource 1/Le charactère 给 (gěi).md",
+    "Permanent/Programmation/Git/Le remisage.md",
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "CRM - Customer RelationShip Management.md",
+    "Projets/En cours/DM - Droit, VENOUIL Thomas, A12.md",
+    "Untitled 5.md",
+    "Permanent/Programmation/PHP/PDO - Récupérer les données après un SELECT.md",
+    "Permanent/Programmation/PHP/Utilisation de SQLite avec PHP.md",
+    "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
+    "Permanent/Programmation/PHP/PDO - Exécution de requête simple.md",
+    "Permanent/Programmation/PHP/PDO - Création d'une table.md",
+    "Permanent/Autre/Permissions et droits d'accès.md",
+    "Permanent/Autre/Droit d'accès aux fichiers.md",
+    "Permanent/Programmation/Git/Revenir en arrière.md",
+    "Permanent/Cours/Cours/Semestre 3/Untitled.md",
     "Permanent/Autre/financière",
     "Permanent/Autre/non",
     "Permanent/Autre/Société",
@@ -422,7 +404,6 @@
     "Permanent/Autre/Algorithme de la clé RSA.md~",
     "Permanent/Autre/Algorithme d'Euclide.md~",
     "Pasted image 20241206153158.png",
-    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md~",
     "Pasted image 20241210162638.png",
     "Pasted image 20241203215338.png",
     "Pasted image 20241203215252.png",
@@ -431,7 +412,6 @@
     "Pasted image 20241203180837.png",
     "Pasted image 20241203180144.png",
     "Pasted image 20241203214321.png",
-    "Pasted image 20241203180815.png",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",

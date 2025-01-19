@@ -13,7 +13,7 @@
   "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 5,
-  "showStarredFiles": false,
+  "showbookmarkedFiles": true,
   "showRecentFiles": false,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
@@ -24,14 +24,15 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "MOOC/Big MOCS/Autre.md",
-      "timestamp": 1735181559421
+      "filepath": "Documentation Technique.md",
+      "timestamp": 1737289049287
     }
   ],
-  "starredFileStore": [],
+  "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
   "newTabOnStart": false,
   "closePreviousSessionTabs": false,
-  "omnisearch": false
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true
 }

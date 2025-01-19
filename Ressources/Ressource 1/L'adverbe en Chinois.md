@@ -1,4 +1,4 @@
-Adverbes avant le verbe (exemple adverbe = beaucoup, bien ..)
+	Adverbes avant le verbe (exemple adverbe = beaucoup, bien ..)
 **Exemple** : 我很喜欢喝茶 = J'aime boire du thé (sans adverbe),
 我超级讨厌雨天 = Je déteste vraiment les jours de pluie (avec adverbe)
 → Dans la première phrase, 很 signifie très. En chinois, on dit *j'aime très boire le thé*
@@ -17,3 +17,5 @@ Les adverbes de fréquence tels que 常常 (Parfois) sont généralement placés
 Les adverbes de manière comme 慢慢的 (lentement) se place généralement après le verbe
 **Exemple :**
 - 他慢慢地走过来 ⇒ Elle vient lentement
+
+[[Pasted image 20250112084602.png]]

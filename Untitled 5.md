@@ -1,10 +1,2 @@
-Bonjour Monsieur,
-
-Je vous remercie pour votre message et pour l'opportunité d'entretien. J'ai hâte de vous rencontrer et de discuter davantage de ma candidature ainsi que du projet de stage.
-
-Je serai donc disponible de 2 décembre à 10h.
-
-Cordialement,
-
-VENOUIL Thomas
-0641527818
+Il est vrai que la compression audio et technique permettent de réduire de réduire la taille des fichiers sonores. Il est également vrai que cela a révolutionné la distribution et la consommation de musique numérique. Mais il est également vrai que cela crée des questions complexes, notamment relevant du droit d'auteur. Tliteout d'abord, la compréssion facilite la diffusion et le partage des oeuvres numériques, augmentant leur visibilité et leur accessibilité, mais la simplification de la copie et de la sitribution non autorisée est perçue comme une menace pour les ayant droits.
+Il y a eu pour cela une évolution de la jurisprudence qui a dût s'adapter pour trouver un équilibre. Par ailleurs, les tribunaux ont dût de prononcer, que ce soit sur la légalité des plateformes de streaming mais égalementsur le téléchargement utilisant des formats compressés.
