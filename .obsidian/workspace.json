@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Les pointeurs - C.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -42,15 +42,43 @@
               "type": "markdown",
               "state": {
                 "file": "Documentation Technique.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Documentation Technique"
             }
+          },
+          {
+            "id": "2131dc07017aec22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flutter Widgets.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flutter Widgets"
+            }
+          },
+          {
+            "id": "08c8a8d3806b95c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clean code.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clean code"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -335,9 +363,29 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "669c7ef872c44bc5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "2f15d84bbd54c3f6",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -364,13 +412,15 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "386290e3a07b171b",
+  "active": "2131dc07017aec22",
   "lastOpenFiles": [
-    "Untitled 9.md",
     "Documentation Technique.md",
-    "Untitled 8.md",
-    "Excalidraw/Drawing 2025-01-12 08.49.37.excalidraw.md",
+    "Flutter Widgets.md",
+    "Clean code.md",
     "Les pointeurs - C.md",
+    "Untitled 8.md",
+    "Untitled 9.md",
+    "Excalidraw/Drawing 2025-01-12 08.49.37.excalidraw.md",
     "Fiche de Renseignements Raynet stagiaire.pdf",
     "Pasted image 20250112084602.png",
     "Ressources/Ressource 1/L'adverbe en Chinois.md",
@@ -392,8 +442,6 @@
     "Permanent/Programmation/PHP/PDO - Création d'une table.md",
     "Permanent/Autre/Permissions et droits d'accès.md",
     "Permanent/Autre/Droit d'accès aux fichiers.md",
-    "Permanent/Programmation/Git/Revenir en arrière.md",
-    "Permanent/Cours/Cours/Semestre 3/Untitled.md",
     "Permanent/Autre/financière",
     "Permanent/Autre/non",
     "Permanent/Autre/Société",
