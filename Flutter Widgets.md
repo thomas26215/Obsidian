@@ -141,3 +141,123 @@ _HozirontaleListViewState extends State<HorizontalLstView> {
 	}
 }
 ```
+
+### 3.3 Container
+Le widget `Container` est un widget de mise en page qui peut contenir un seul enfant. Il peut être utilisé pour appliquer des décorations, des marges, des rembourrages, etc.
+
+Contenu possible :
+- `child` : Widget enfant
+- `child` : Widget enfant
+- `color` : Couleur de fond
+- `itemBuilder` : Fonction pour construire des éléments dynamiquement
+- `itemCount` : Nombre d'éléments pour la construction dynamique
+
+
+## 4. Widget d'affichage
+### 4.1 Text
+
+Le widget `Text` affiche du texte à l'écran. Il peut être personnalisé avec des styles
+
+**Contenu possible** :
+- `data` : Texte à afficher
+- `style` : Style du texte
+- `textAlign` : Alignement du texte
+- `maxLines` : Nombre maximum de lignes
+- `overflow` : Gestion du débordement de texte
+
+***Exemple*** :
+```dart
+Text(
+    "Bonjour",
+    style: TextStyle(
+        fontSize: 20,
+        color: Colors.blue,
+        fontWeight: FontWeight.bold,
+    ),
+)
+```
+
+### 4.2 Image
+
+Le widget `Image` affiche une image à l'écran. Il peut être chargé à partir d'une URL, d'un fichier local ou d'une ressource
+
+**Contenu possible** :
+- `image` : ImageProvider (AssetImage, NetworkImage, FileImage)
+- `width` : Largeur de l'image
+- `height` : Hauteur de l'image
+- `fit` : Mode de redimensionnement (cover, contain, fill)
+- `alignment` : Alignement de l'image
+
+***Exemple*** :
+```dart
+Image(
+    image: AssetImage("assets/image.jpg"),
+    width: 100,
+    height: 100,
+    fit: BoxFit.cover,
+)
+```
+
+## 5. Widget d'interaction
+### 5.1 Button (ElevatedButton, TextButton, OutlinedButton, OutlineButton)
+
+Les widgets `ElevatedButton`, `TextButton` et `OutlinedButton` sont des boutons interactifs qui peuvent être personnalisés avec des styles
+
+**Contenu possible** :
+- `onPressed` : Fonction appelée lors du clic
+- `child` : Widget enfant (Text, Icon)
+- `style` : Style du bouton (couleur, bordure, ombre)
+
+***Exemple*** :
+```dart
+ElevatedButton(
+    onPressed: () {},
+    child: Text("Cliquez-moi"),
+    style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all(Colors.blue),
+        padding: MaterialStateProperty.all(EdgeInsets.all(10)),
+    ),
+)
+```
+
+### 5.2 GestureDetector
+
+Le widget `GestureDetector` permet de détecter les gestes de l'utilisateur, comme les clics, les appuis longs, les balayages, etc.
+
+**Contenu possible** :
+- `child` : Widget enfant
+- **Diverses fonctions de `Callback`** :
+    - `onTap` : Clic simple
+    - `onDoubleTap` : Double clic
+    - `onLongPress` : Appui long
+    - `onPanUpdate` : Balayage
+    - `onScaleUpdate` : Zoom
+    - `onVerticalDragUpdate` : Glissement vertical
+    - `onHorizontalDragUpdate` : Glissement horizontal
+    - `onForcePressStart` : Appui fort
+    - `onForcePressEnd` : Fin d'appui fort
+    - `onForcePressPeak` : Pic d'appui fort
+    - `onForcePressUpdate` : Mise à jour d'appui fort
+    - `onSecondaryTap` : Clic droit
+    - `onSecondaryLongPress` : Appui long droit
+    - `onSecondaryPanUpdate` : Balayage droit
+    - `onSecondaryScaleUpdate` : Zoom droit
+    - `onSecondaryVerticalDragUpdate` : Glissement vertical droit
+    - `onSecondaryHorizontalDragUpdate` : Glissement horizontal droit
+    - `onSecondaryForcePressStart` : Appui fort droit
+
+***Exemple*** :
+```dart
+GestureDetector(
+    onTap: () {
+        print("Clic simple");
+    },
+    onDoubleTap: () {
+        print("Double clic");
+    },
+    onLongPress: () {
+        print("Appui long");
+    },
+    child: Text("Appuyez-moi"),
+)
+```
