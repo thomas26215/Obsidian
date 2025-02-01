@@ -48,9 +48,7 @@ ns#" xmlns:cd="http://www.recshop.fake/cd#">
 
 L'élément `<rdf:Description>` identifie une ressources aves l'attribut `rdf:about`
 ```XML
-<rdf:Description
-rdf:about="http://www.recshop.fake/cd/Empire
-Burlesque">
+<rdf:Description rdf:about="http://www.recshop.fake/cd/EmpireBurlesque">
     <cd:artist>Bob Dylan</cd:artist>
     <cd:country>USA</cd:country>
     <cd:company>Columbia</cd:company>
