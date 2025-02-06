@@ -1,5 +1,64 @@
 Les widgets sont les éléments de base pour toutes interface utilisateurs Flutter. Ils sont utilisés l'interface de l'application
 
+
+## Les principaux types de widgets
+### StatelessWidgets
+Les widgets `StatelessWidget` sont des widgets immuables qui ne peuvent pas être modifiés après leur création. Ils sont utilisés pour afficher des données statiques.
+Le `StatelessWidget`est un widget qui ne peut être reconstruit que lorsqu'il est inséré ou retiré de l'arbre des widgets.
+
+**Exemple** :
+```dart
+class MyWidget extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return Text("Bonjour");
+    }
+}
+```
+
+### StatefulWidgets
+Les widgets `StatefulWidget` sont des widgets mutables qui peuvent être modifiés après leur création. Ils sont utilisés pour afficher des données dynamiques.
+Voici le **cycle de vie** d'un `StatefulWidget` :
+- `createState` : Crée l'état du widget
+- `initState` : Initialise l'état du widget
+- **build** : Construit le widget
+- setState : Met à jour l'état du widget
+- `dispose` : Nettoie l'état du widget
+
+**Exemple** :
+```dart
+class MyWidget extends StatefulWidget {
+    @override
+    _MyWidgetState createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+    int _counter = 0;
+
+    void _incrementCounter() {
+        setState(() {
+            _counter++;
+        });
+    }
+
+    @override
+    Widget build(BuildContext context) {
+        return Column(
+            children: [
+                Text("Nombre de clics : $_counter"),
+                ElevatedButton(
+                    onPressed: _incrementCounter,
+                    child: Text("Cliquez-moi"),
+                ),
+            ],
+        );
+    }
+}
+```
+
+
+### StatefulWidgets
+
 ## 1. Widget de structure
 ### 1.1 Scaffold
 Le widget `Scaffold` fournit une structure de base pour l'écran de l'utilisateur. Il est utilisé comme widget racine pour la plupart des écrans
