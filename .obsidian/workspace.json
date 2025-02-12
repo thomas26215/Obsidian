@@ -157,13 +157,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "ecd43d894d6dc0cf",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 459.5,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -440,12 +449,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4e08a5960f0dd3ff",
+  "active": "26930f4f00436aea",
   "lastOpenFiles": [
+    "Inbox/Flutter - FullWidget.md",
     "Les pointeurs - C.md",
     "Untitled 10.md",
     "Projets/En cours/Cartographie application.md",
-    "Inbox/Flutter - FullWidget.md",
     "Permanent/Cours/Cours/Semestre 4/Analyse.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
     "Flutter Widgets.md",
