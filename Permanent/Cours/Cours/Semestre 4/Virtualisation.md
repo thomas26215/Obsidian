@@ -7,53 +7,20 @@ Enseignements précédants concernant la virtualisation
 
 
 # Introduction
-Virtualiser = Transformer ressources matérielles en ressources logiques plus faciles à gérer
-**Exemple** :
-- Installer un 2e OS dans une machine virtuelle
-- Plus simple que d'installer 2 OS sur une machine physique
-- Plus simple car l'OS virtualisé est stocké dans une image disque et pas besoin de partitionner le stockage du poste
-- Plus pratique car on peut faire tourner les 2 OS simultanéments
+[[Virtualiser]]
+[[Les VM et les conteneurs]]
 
-Le CPU fait déjà de la virtualisation : il est partagé entre les différentes applications (time-sharing, round-robing)
-[[Utilisation de la RAM comme cache|RAM]] aussi virtualisée : chaque processus voit un espace mémoire virtuel, plus grand que espace mémoire physique
-Lo stockage aussi : il est partagé entre les diffs applications installées et les fichiers peuvent être vus comme une abstraction logique des secteurs physiques du disque [[SGF - Arborescence et système de fichiers|SGF]]
-
-Machines virtuelles tournent grâce à superviseur
-- Virtualisation de serveur
-- Virtualisation de poste de travail
-Conteneurs tournent grâce à un gestionnaire de conteneurs
-- Service réseau tournant dans un conteneur
-- Applciation tournant dans un conteneur
-
-Virtualisation de stockage et de réseau
 
 ## Virtualisation de stockage
-Diffs types de stockage :
-- DAS (Direct Attached Storage) : disque dur interne (SATA, NVMe, ...)
-- SAN (Storage Area Network) : réseau de stockage. Mis à disposition sous forme de blocs (iSCSI, Fibre Channel)
-- NAS (Network Attached Storage) : stockage en réseau. Mis à disposition sous forme de fichiers (NFS, SMB)
-
-Virtualisation de stockage dans un OS classique
-- Exemple 1 : Linux et LVM2. Volumes physiques (DAS) sont regroupés en groupes de volumes, puis en volumes logiques. Ces volumes logiques sont ensuite partitionnés et formatés
-- Exemple 2 : Windows et *Storage Spaces*
-
-Exemples de virtualisation avec NAS :
-- Machine sans stockage (*diskless*) qui boote par réseau sur un SGF NFS (*Network File System*)
-
-Exemple de virtualisation avec SAN
-- Réseau de  stockage sur infrastructure de type Fibre Channel, Ethernet ou Infiniband
-- Protocole d'accès iSCSI sur IP et est le précurseur de SAS
-- Ce stockage distant est mis à disposition d'un cluster de serveur physiques ou d'hyperviseurs
+[[Les différents types de fichiers]]
+[[Comment virtualiser]]
 
 ## Virtualisation de réseau
-VPN : Virtual Private Network
-- Masque l'adresse IP réelle de l'utilisateur (privacy, contournement de restriction d'accès)
-- Travail à distance
-- Liaison sécurisée entre 2 sites distants
+[[VPN]]
 
 [[VLAN]] : Virtual Local Area Network
-- Nombre de VLAN limité à 4096 ($2^{12}$)
-- Protocole Ethernet 802.1Q
+[[XVLAN]] : Extensible [[VLAN]]
+
 
 VXLAN : Virtual Extensible LAN
 - Utilisé dans les très grands cloud

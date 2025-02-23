@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Autre]]"
-Thème: 
-Sujet: 
+Thème: Hardware
+Sujet: Gestion des fichiers
 tags: 
 Complete: true
 Learned: false

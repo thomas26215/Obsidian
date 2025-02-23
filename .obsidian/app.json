@@ -11,5 +11,10 @@
   "promptDelete": false,
   "defaultViewMode": "preview",
   "strictLineBreaks": false,
-  "foldIndent": false
+  "foldIndent": true,
+  "tabSize": 2,
+  "readableLineLength": false,
+  "propertiesInDocument": "visible",
+  "foldHeading": true,
+  "showLineNumber": true
 }

@@ -1,0 +1,1 @@
+Le DAS (Direct Attached Storage) est le stockage de fichiers sur disque dur interne ([[Interface SATA]], [[Interface NVME]], ...)

@@ -1,5 +1,5 @@
-# Partie Admin
-## Fonctionnalités Globale
+### Partie Admin
+#### Fonctionnalités Globale
 
 L'application admin gère plusieurs aspects liés aux étudiants et aux offres, notamment :
 
@@ -20,12 +20,12 @@ L'application admin gère plusieurs aspects liés aux étudiants et aux offres, 
 -  Gestion de l'état des offres => `EtatOffreController`
 - Gestion de l'état des recherches => `EtatRechercheController`
 
-## Structure commune des contrôleurs
+#### Structure commune des contrôleurs
 Chacun des contrôleurs présentés contiennent la structure et les méthodes  suivantes :
 - **Namespace** : `App\Controller\Admin`
 - **Route de base** : `/{entité}` (sauf exceptions notées)
 
-## Structure commune des méthodes
+#### Structure commune des méthodes
 Chacun des contrôleurs rassemblent un ensemble de méthodes. Chaque méthode est appelée par une route qui suit la même structure
 
 **Méthodes :**
@@ -65,7 +65,7 @@ Chacun des contrôleurs rassemblent un ensemble de méthodes. Chaque méthode es
 
 Tous les contrôleurs implémentent les opérations CRUD avec des routes et méthodes spécifiques pour chaque opération dans la section admin de l'application. Ils suivent une structure similaire, avec des différences mineures dans les noms des entités et des routes.
 
-# Partie Etudiant
+### Partie Etudiant
 Le contrôleur `DefaultControlleur`, qui est le contrôleur par défaut pour l'étudiant, a une méthode unique `index()̀` de route `/` et qui rend la vue `default/index.html.twig`. 
 
 Le contrôleur `SecurityControlleur`, qui est le contrôleur d'authentification pour l'étudiant, a une méthode `/login` de route `/login` qui rend la vue `security/login.html.twig` et une méthode `/logout` de route `/logout` qui rend la vue `security/logout.html.twig`

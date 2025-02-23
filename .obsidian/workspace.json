@@ -4,105 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "020987fb6be85ade",
+        "id": "37427ded4a28555c",
         "type": "tabs",
         "children": [
           {
-            "id": "4e08a5960f0dd3ff",
+            "id": "d9564837479f2c5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Flutter - FullWidget.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/Les bases de JS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flutter - FullWidget"
+              "title": "Les bases de JS"
             }
           },
           {
-            "id": "2fe3a046cb898173",
+            "id": "684ab55cd17b3625",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 8"
-            }
-          },
-          {
-            "id": "386290e3a07b171b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Documentation Technique.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Documentation Technique"
-            }
-          },
-          {
-            "id": "2131dc07017aec22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Analyse.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Analyse"
-            }
-          },
-          {
-            "id": "1949be1c7cc06e05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Cartographie application.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cartographie application"
-            }
-          },
-          {
-            "id": "32c3e8515e4cd110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 10.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 10"
-            }
-          },
-          {
-            "id": "08c8a8d3806b95c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clean code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clean code"
+              "title": "Algèbre linéaire"
             }
           }
         ]
@@ -137,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "StateLess",
+                "query": "élément neutre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 353.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -245,6 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Projets/En cours/SAE Applciation pour les stages/Version finale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -272,7 +203,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Version finale"
             }
           },
           {
@@ -422,11 +353,11 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
+    "width": 574.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -449,54 +380,54 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "26930f4f00436aea",
+  "active": "d9564837479f2c5c",
   "lastOpenFiles": [
-    "Inbox/Flutter - FullWidget.md",
-    "Les pointeurs - C.md",
-    "Untitled 10.md",
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+    "Permanent/Cours/Cours/Semestre 4/Les bases de JS.md",
+    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
+    "Projets/En cours/SAE Applciation pour les stages/SAE 4.Real.01 Développement d’une application complexe - Rétroconception du code.md",
+    "Pasted image 20250220203308.png",
+    "Projets/Finish/SAE2.04/Compte-rendu.md",
+    "Pasted image 20250220195523.png",
+    "Pasted image 20250220195455.png",
+    "Pasted image 20250220195448.png",
+    "Pasted image 20250220195310.png",
+    "Pasted image 20250220195257.png",
+    "Pasted image 20250220194451.png",
+    "Pasted image 20250220170606.png",
+    "Pasted image 20250220170605.png",
+    "Pasted image 20250220170603.png",
+    "Permanent/Cours/Cours/Semestre 4/Communication.md",
+    "Permanent/Cours/Cours/Semestre 1/Algèbre linéaire.md",
+    "Intégration continue.md",
+    "Outils de l'agilité.md",
+    "Permanent/Autre/VPN.md",
+    "Réusinage cu code.md",
+    "Permanent/Cours/Cours/Semestre 2/Graphes 2.md",
+    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
+    "Permanent/Cours/Cours/Semestre 1/Aithmétique.md",
+    "Cours/R1.04/cours4.pdf",
+    "Cours/R1.05/cours-ensembles.pdf",
+    "Cours/R1.08/TD2-Fonction-RH-Salaire-2023-241.pdf",
+    "Cours/R1.08/TD04-Fonction-Production.pdf",
+    "Cours/R1.05/TD3_arithmetique.pdf",
+    "Untitled 11.md",
+    "Images/DiagrammeServeurSimple.png (Image PNG, 1920 × 1080 pixels).pdf",
+    " 1",
+    "Projets/En cours/SAE Applciation pour les stages/Cartographie app mobile.md",
     "Projets/En cours/Cartographie application.md",
-    "Permanent/Cours/Cours/Semestre 4/Analyse.md",
+    "Projets/En cours/SAE Applciation pour les stages",
+    "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
-    "Flutter Widgets.md",
-    "Flutter Structure d'une application Flutter.md",
-    "Permanent/Cours/Cours/Semestre 4/Dépendances fonctionnelles.md",
-    "Permanent/Cours/Cours/Semestre 4/Tests.md",
-    "Permanent/Cours/Cours/Analyse film la vague.md",
-    "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
-    "Permanent/Cours/Cours/Entrées sorties.md",
-    "Permanent/Cours/Cours/Propriété intellectuelle.md",
-    "Flutter personnalisation et style.md",
-    "Documentation Technique.md",
-    "Clean code.md",
-    "Untitled 8.md",
-    "Untitled 9.md",
-    "Excalidraw/Drawing 2025-01-12 08.49.37.excalidraw.md",
+    "Permanent/Autre/XVLAN.md",
+    "Permanent/Cours/Cours/Semestre 2/VLAN.md",
+    "Permanent/Autre/Comment virtualiser.md",
+    "Permanent/Cours/Cours/Semestre 1/Réseau IP et travail à distance.md",
+    "Permanent/Autre/L'utilité des adresses IP.md",
+    "Permanent/Autre/Les différents types de fichiers.md",
+    "Permanent/Autre/DAS.md",
+    "Permanent/Cours/TP/Semestre 4",
     "Fiche de Renseignements Raynet stagiaire.pdf",
-    "Pasted image 20250112084602.png",
-    "Ressources/Ressource 1/L'adverbe en Chinois.md",
-    "Permanent/Autre/Le chiffrement RSA.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Autre/La CNIL.md",
-    "Ressources/Ressource 1/Demander le nom d'une personne.md",
-    "Permanent/Autre/financière",
-    "Permanent/Autre/non",
-    "Permanent/Autre/Société",
-    "Permanent/Autre/Composition d'un processus.md~",
-    "Permanent/Autre/Caractériser une entreprise.md~",
-    "Permanent/Autre/Apprendre sur les centres d'intérêts de son public.md~",
-    "Permanent/Autre/Calcul du PIB habitant.md~",
-    "Permanent/Autre/Algorithme de la clé RSA.md~",
-    "Permanent/Autre/Algorithme d'Euclide.md~",
-    "Pasted image 20241206153158.png",
-    "Pasted image 20241210162638.png",
-    "Pasted image 20241203215338.png",
-    "Pasted image 20241203215252.png",
-    "Pasted image 20241203215231.png",
-    "Pasted image 20241203214252.png",
-    "Pasted image 20241203180837.png",
-    "Pasted image 20241203180144.png",
-    "Pasted image 20241203214321.png",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
