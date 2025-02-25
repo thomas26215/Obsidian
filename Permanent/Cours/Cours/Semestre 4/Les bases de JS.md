@@ -10,6 +10,34 @@ function nomFonction(parameters){
 >[!important]
 >=> Pas besoin de spécifier le type des variables passées en paramètres !
 
+## Récupérer les éléments HTML
+Récupérer un élément par son id :
+```js
+const element = document.getElementById("id");
+```
+
+Récupérer un élément selon sa classe CSS :
+```js
+const element = document.getElementByClassName("className");
+```
+
+Récupérer un élément selon son tag :
+```js
+const element = document.getElementByTagName("p");
+```
+
+Récupérer le premier enfant correspondant :
+```js
+const element = document.querySelector(".maClasse");
+```
+
+Récupérer tous les enfants
+```js
+const element = document.querySelectorAll("p.maClasse");
+```
+
+
+
 
 ## Les formulaires
 - **Récupérer un formulaire :** `const form = document.getElementById('monForm')`
