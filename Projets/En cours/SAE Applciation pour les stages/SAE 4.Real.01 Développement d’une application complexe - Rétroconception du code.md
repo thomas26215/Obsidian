@@ -249,3 +249,5 @@ Le contrôleur `SecurityControlleur`, qui est le contrôleur d'authentification 
 # Conclusion
 
 Suite à cette phase de rétroconception, nous avons pu prendre en main le code de l’application que nous allons devoir améliorer, à l’aide de différents diagrammes et une cartographie précise des deux parties de l’application.
+
+

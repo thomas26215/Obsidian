@@ -24,12 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-      "timestamp": 1740468198825
+      "filepath": "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
+      "timestamp": 1740648788012
     },
     {
-      "filepath": "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
-      "timestamp": 1740468196946
+      "filepath": "Permanent/Programmation/C++/Constructeur par recopie.md",
+      "timestamp": 1740648486241
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/Configurer GTest pour VS Code.md",
+      "timestamp": 1740648485236
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/Classes héritage.md",
+      "timestamp": 1740648482640
+    },
+    {
+      "filepath": "Permanent/Programmation/C++/CMakeLists.txt.md",
+      "timestamp": 1740648481447
     }
   ],
   "bookmarkedFileStore": [],

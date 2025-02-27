@@ -119,3 +119,79 @@
 > Puisque la dimension de la somme est égale à cette de l'espace ambiant ($\mathbb{R}^3$), on conclut que $F+G=\mathbb{R}^3$
 > 
 > => **Ainsi, F+G=$\mathbb{R}^3$**
+
+
+# Exercice 9
+
+**Question 1**
+> $F=\{(x,y,z\in\mathbb{R}^3|x-2y+z=0\}$
+> $G=\{(x,y,z)\in\mathbb{R}^3|2x-y+2z=0\}$
+> 
+> **Base de F :** On peut exprimer $x$ en fonction de $y$ et $z$ : $x=2y-z$
+> $$\begin{pmatrix}x\\y\\z\end{pmatrix}=\begin{pmatrix}2y-z\\y\\z\end{pmatrix}=y(2,1,0)+z(-1,0,0)$$
+> Ainsi : $B_F=\{(2,1,0),(-1,0,0)\}$
+> 
+> ---
+> 
+> **Base de G :** On peut exprimer $y$ en fonction de $x$ et $z$ : $y=2x+2z$
+> $$\begin{pmatrix}x\\y\\z\\\end{pmatrix}=\begin{pmatrix}x\\2x+2z\\z\end{pmatrix}=x(1,2,0)+z(0,2,1)$$
+> Ainsi : $B_G=\{(1,2,0),(0,2,1)\}$
+
+**Question 2**
+> $dim(F) = 2$ (car la base de $F$ a deux vecteurs)
+> $dim(G)=2$ (car la base de $G$ a deux vecteurs)
+> 
+> **Calcul d'intersection :** On doit trouver un vecteur appartenant à $F$ et $G$. Un vecteur appartenant $F$ et $G$ vérifie :
+> $$\left\{\begin{array}{l}x-2y+z=0\\2x-y+z=0\end{array}\right.=\left\{\begin{array}{l}x-2y+z=0\\-3y=0 <=> y=0\end{array}\right.=\left\{\begin{array}{l}x+z=0\\y=0\end{array}\right.$$
+> Ainsi, tout vecteur est de la forme $(x,0,-x)=x(1,0,-1)$. Ainsi, $F\cap G=Vect\{(1,0,-1)\}$ => $dim(F\cap G)=1$
+> Donc, d'après la formule de Grassmann, $dim(F+G)=2+2-1=3$ et puisque $dim(F+G)=3$ et que l'espace ambiant est $\mathbb{R}^3$, $F+G=\mathbb{R}^3$
+
+**Question 3**
+> Pour que 2 sous espaces soient supplémentaires, il faut que $F+G=\mathbb{R}^3$ et que $F\cap G=\{0\}$
+> On a déjà montré que $F+G=\mathbb{R}^3$ et que $F\cap G=vect\{(1,0,-1\}$. Ainsi, l'intersection n'est pas réduite à un vecteur nul
+
+# Exercice 10
+**Question 1**
+> Pour démontrer que $vect(\vec{u_1}, \vec{u_2})=vect(\vec{v_1},\vec{v_2})$, on doit démontrer que tout vecteur de la base $(\vec{v_1,v_2})$ peut être exprimé comme une combinaison linéaire des vecteur de la base $(\vec{u_1},\vec{u_2})$ et inversement
+> 
+> On exprime $v_1$ et $v_1$ en fonction $u_1$ et $u_2$ : On cherche des scalaires $a,b,c,d$ tels que $v_1=au_1+bu_2$ et $v_2=cu_1+du_2$
+> $$\begin{Bmatrix}2a+b=3\\3a-b=7\\-a-2b=0\end{Bmatrix}\space et\space \begin{Bmatrix}2c+d=3\\3c-d=7\\-c-2d=-7\end{Bmatrix}$$
+> ---
+> **Résolution pour $v_1$ :** $\begin{Bmatrix}2a+b=3\\3a-b=7\\-a-2b=0\end{Bmatrix}\space=\begin{Bmatrix}-4b+b=3\\3a-b=7\\a=-2b\end{Bmatrix}\space$
+> => (2) $3a-b=7 <=> 3*2-(-1)=7 <=> 7=7$
+> Donc $v_1=2u_1+u_2$
+> ---
+> **Résolution pour $v_2$** : $\begin{Bmatrix}2c+d=3\\3c-d=7\\-c-2d=-7\end{Bmatrix}=\begin{Bmatrix}5c=5 <=> c = 1\\d=3c <=> d=3\\-c-2d=-7\end{Bmatrix}$
+> => $-1-2*3=-7 <=> -1-6 = -7 <=> -7 = -7$
+> Donc $v_2=u_1+3u_2$
+> ---
+> **Ainsi :** n'importe quel vecteur pouvant être écrit en combinaison linéaire de $v_1,v_2$ peut
+> également être écrit en combinaison linéaire de $u_1$ et $u_2$
+>  ---
+> **Exprimer $u_1$ et $u_2$ en fonction de $v_1$ et $v_2$ :**
+> On a déjà $\vec{v_1} = 2\vec{u_1} + \vec{u_2}$ et $\vec{v_2} = \vec{u_1} + 3\vec{u_2}$.
+> Réarrangeons la première équation : $\vec{u_2} = \vec{v_1} - 2\vec{u_1}$
+> 
+> Substituons dans la deuxième équation :  
+> $\vec{v_2} = \vec{u_1} + 3(\vec{v_1} - 2\vec{u_1})$  
+> $\vec{v_2} = \vec{u_1} + 3\vec{v_1} - 6\vec{u_1}$ 
+> $\vec{v_2} = 3\vec{v_1} - 5\vec{u_1}$
+> 
+> Réarrangeons :  
+> $5\vec{u_1} = 3\vec{v_1} - \vec{v_2}$  
+> $\vec{u_1} = \frac{3}{5}\vec{v_1} - \frac{1}{5}\vec{v_2}$
+> 
+> Maintenant, substituons cette expression de $\vec{u_1}$ dans l'équation pour $\vec{u_2}$ :  
+> $\vec{u_2} = \vec{v_1} - 2(\frac{3}{5}\vec{v_1} - \frac{1}{5}\vec{v_2})$  
+> $\vec{u_2} = \vec{v_1} - \frac{6}{5}\vec{v_1} + \frac{2}{5}\vec{v_2}$  
+> $\vec{u_2} = -\frac{1}{5}\vec{v_1} + \frac{2}{5}\vec{v_2}$
+> 
+> Ainsi, nous avons exprimé $\vec{u_1}$ et $\vec{u_2}$ en fonction de $\vec{v_1}$ et $\vec{v_2}$ :  
+> $\vec{u_1} = \frac{3}{5}\vec{v_1} - \frac{1}{5}\vec{v_2}$  
+> $\vec{u_2} = -\frac{1}{5}\vec{v_1} + \frac{2}{5}\vec{v_2}$
+> 
+> Cette correction montre que chaque vecteur de la base $(\vec{u_1}, \vec{u_2})$ peut être exprimé comme une combinaison linéaire des vecteurs de la base $(\vec{v_1}, \vec{v_2})$, complétant ainsi la démonstration que $\text{vect}(\vec{u_1}, \vec{u_2}) = \text{vect}(\vec{v_1}, \vec{v_2})$.
+>  
+
+**Question 2**
+> Soit $x=(2,-7,-7)$ et $y=(2,7,7)$. On peut vérifier si on peut les écrire comme combinaison linéaire de $*u_1$ et $u_2$

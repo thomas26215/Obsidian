@@ -86,7 +86,7 @@ graph LR
     G --> I[dateFinResa]
 ```
 
-1. a. NON. Le nom de l'hôtel et le nom de la station sont nécessaires pour identifier un hôtel unique (DF2, DF3, DF4).
+1. a. OUI uniqument s'ils ne sont pas sur la même station
     
     b. OUI. Aucune DF n'empêche un client de louer plusieurs chambres.
     
@@ -122,9 +122,9 @@ graph LR
 	G --> I[dateFinResa]
 ```
 
-1. La clé de la relation HOTEL est (numChambre, nomHotel, nomStation, dateDebResa). Cette combinaison d'attributs permet de déterminer tous les autres attributs de la relation.
+1. Les clés de la relation HOTEL sont nomHotel, numChambre, nomStation, dateRes. Chaque elt de lac lé n'est jamais en partie droite de DF et à partir de ces 4 attributs, on peut retrouver tous les autres. 
     
-6. La relation HOTEL n'est pas en 3FN car il existe des dépendances transitives. Par exemple, (numChambre, nomHotel, nomStation, dateDebResa) → (nomClient, prenomClient) → (adresse, telephone).
+2. La relation HOTEL n'est pas en 3FN car il existe des dépendances transitives. Par exemple, (numChambre, nomHotel, nomStation, dateDebResa) → (nomClient, prenomClient) → (adresse, telephone). Elle est en 1FN car que attribut représente une chose unique . Des informations qui devraient être regroupées sont séparées en plusieurs tables
     
 7. a) Il y a perte de DF. Par exemple, la DF2 (nomHotel, nomStation → categorie) n'est pas préservée dans cette décomposition.
     
