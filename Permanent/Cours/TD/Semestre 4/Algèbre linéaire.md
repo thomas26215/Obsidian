@@ -62,8 +62,8 @@
     - Sont linéairement indépendants
     - Peuvent générer tous les vecteurs de E par combinaison linéaire
 - Un choix naturel est :
-	    - v1 = (1, 1, 0, 0) : ce vecteur représente le cas où x = y = 1 et z = t = 0
-    - v2 = (0, 0, 1, 1) : ce vecteur représente le cas où x = y = 0 et z = t = 1
+	- v1 = (1, 1, 0, 0) : ce vecteur représente le cas où x = y = 1 et z = t = 0
+	- v2 = (0, 0, 1, 1) : ce vecteur représente le cas où x = y = 0 et z = t = 1
 - Ces deux vecteurs forment une base car :
     - Ils respectent les conditions x = y et z = t
     - Ils sont linéairement indépendants (aucun n'est multiple de l'autre)
@@ -195,3 +195,79 @@
 
 **Question 2**
 > Soit $x=(2,-7,-7)$ et $y=(2,7,7)$. On peut vérifier si on peut les écrire comme combinaison linéaire de $*u_1$ et $u_2$
+
+---
+
+# Questions
+D'accord, voici la reconstitution des énoncés des exercices à partir des solutions fournies dans le document `paste.txt`. Je vais reformuler les questions en utilisant les informations contenues dans les réponses.
+
+**Exercice 1**
+
+- **Question A:** Soit $u_1 = (2, 0, 1)$, $u_2 = (1, 0, 2)$, et $u_3 = (2, 2, 2)$. Calculer $2u_1 - u_2$ et $u_1 - u_2 + u_3$.
+    
+- **Question B:** Résoudre le système d'équations linéaires suivant :  
+    $\begin{cases} 2a + b + 2c = 0 \ 2c = 2 \ a + 2b + 2c = 0 \end{cases}$
+    
+
+**Exercice 3**
+
+- **Question 1:** Résoudre le système d'équations linéaires suivant :  
+    $\begin{cases} a + 3c = 0 \ 2b + 7c = 0 \ a + 2b + c = 0 \end{cases}$
+    
+- **Question 2:** Résoudre le système d'équations linéaires suivant :  
+    $\begin{cases} a + c = 0 \ b + c = 0 \ b + c = 0 \end{cases}$
+    
+- **Question 3:** Résoudre le système d'équations linéaires suivant :  
+    $\begin{cases} 2a + b + c = 0 \ -a + 2b - 8c = 0 \ 3a - b + 9c = 0 \end{cases}$
+    
+
+**Exercice 4**
+
+- **Question 1:** Soit $u_1 = (0, 1, 0)$ et $u_2 = (1, 0, 0)$. La famille ${u_1, u_2}$ est-elle libre ? Est-elle génératrice de $\mathbb{R}^3$ ?
+    
+- **Question 2:** La famille ${(1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 1)}$ est-elle libre ? Est-elle génératrice de $\mathbb{R}^3$ ?
+    
+
+**Exercice 5**
+
+- **Question 1:** Soit $F = {(x, y, z) \in \mathbb{R}^3 \mid x + y - 2z = 0}$. Montrer que F est un sous-espace vectoriel de $\mathbb{R}^3$. Déterminer une base de F.
+    
+
+**Exercice 6**
+
+- **Question 1:** Soit $E = {(x, y, z, t) \in \mathbb{R}^4 \mid x - y = 0, z - t = 0}$. Déterminer une base de E.
+    
+- **Question 2:** Compléter la base de E en une base de $\mathbb{R}^4$.
+    
+
+**Exercice 7**
+
+- **Question 1:** Soient $F = {(x, y, z) \in \mathbb{R}^3 \mid x - 2y + z = 0}$ et $G = \text{Vect}(u_1, u_2)$, où $u_1 = (1, 2, 1)$ et $u_2 = (2, 1, 3)$. Déterminer l'intersection $F \cap G$.
+    
+
+**Exercice 8**
+
+- **Question 2:** Déterminer la dimension de F, la dimension de G, la dimension de l'intersection $F \cap G$, et la dimension de la somme $F + G$. En déduire si $F + G = \mathbb{R}^3$. (Note: Cet exercice fait référence à l'Exercice 7 pour la définition de F et G)
+    
+
+**Exercice 9**
+
+- **Question 1:** Soient $F = {(x, y, z) \in \mathbb{R}^3 \mid x - 2y + z = 0}$ et $G = {(x, y, z) \in \mathbb{R}^3 \mid 2x - y + z = 0}$. Déterminer une base de F et une base de G.
+    
+- **Question 2:** Calculer la dimension de F, la dimension de G, la dimension de l'intersection $F \cap G$, et la dimension de la somme $F + G$. En déduire si $F + G = \mathbb{R}^3$.
+    
+- **Question 3:** F et G sont-ils supplémentaires ?
+    
+
+**Exercice 10**
+
+- **Question 1:** Soient $\vec{u_1} = (2, 3, -1)$ et $\vec{u_2} = (1, -1, -2)$. Soient $\vec{v_1} = (3, 7, 0)$ et $\vec{v_2} = (3, 7, -7)$. Démontrer que $\text{vect}(\vec{u_1}, \vec{u_2}) = \text{vect}(\vec{v_1}, \vec{v_2})$. (Note : Il est possible qu'il y ait une erreur dans l'énoncé de cet exercice. Voir l'analyse de l'énoncé).
+    
+- **Question 2:** Soit $x = (2, -7, -7)$ et $y = (2, 7, 7)$. Peut-on écrire $x$ et $y$ comme combinaisons linéaires de $\vec{u_1}$ et $\vec{u_2}$ ?
+    
+
+Ces énoncés ont été reconstitués au mieux à partir des réponses fournies.
+
+### Citations:
+
+1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt)
