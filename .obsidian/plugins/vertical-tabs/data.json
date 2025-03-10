@@ -1,15 +1,15 @@
 {
-  "showActiveTabs": false,
+  "showActiveTabs": true,
   "autoUncollapseGroup": false,
   "hideSidebars": true,
   "sidebarTabTypes": [
     "markdown"
   ],
   "sidebarExcludeSelf": true,
-  "trimTabNames": false,
-  "showMoreButtons": false,
+  "trimTabNames": true,
+  "showMoreButtons": true,
   "useTabEditing": true,
-  "zenMode": false,
+  "zenMode": true,
   "enableTabZoom": false,
   "enhancedKeyboardTabSwitch": false,
   "alwaysOpenInNewTab": false,

@@ -297,3 +297,223 @@ if (iteration == max_iterations) {
 
 
 ```
+
+```r
+# Hungarian Algorithm Implementation in R (Complete with Detailed Logging)
+# -------------------------------------------------------------------------
+
+# 1. Matrix Preparation Functions
+# --------------------------------
+make_square_matrix <- function(matrix) {
+  cat("\n=== Step 1: Matrix Preparation ===\n")
+  rows <- nrow(matrix)
+  cols <- ncol(matrix)
+  
+  if (rows == cols) {
+    cat("Matrix is already square (", rows, "x", cols, ")\n", sep = "")
+    return(matrix)
+  }
+  
+  size <- max(rows, cols)
+  new_matrix <- matrix(Inf, nrow = size, ncol = size)
+  new_matrix[1:rows, 1:cols] <- matrix
+  cat("Converted to square matrix (", size, "x", size, ") with Inf padding\n", sep = "")
+  return(new_matrix)
+}
+
+# 2. Matrix Reduction Functions
+# ------------------------------
+subtract_row_mins <- function(matrix) {
+  cat("\n=== Step 2: Row Reduction ===\n")
+  row_mins <- apply(matrix, 1, min, na.rm = TRUE)
+  cat("Row minima:", row_mins, "\n")
+  result <- sweep(matrix, 1, row_mins)
+  print(result)
+  return(result)
+}
+
+subtract_col_mins <- function(matrix) {
+  cat("\n=== Step 3: Column Reduction ===\n")
+  col_mins <- apply(matrix, 2, min, na.rm = TRUE)
+  cat("Column minima:", col_mins, "\n")
+  result <- sweep(matrix, 2, col_mins)
+  print(result)
+  return(result)
+}
+
+# 3. Matching and Covering Functions
+# -----------------------------------
+find_max_matching <- function(matrix) {
+  cat("\nFinding maximum matching in zero matrix...\n")
+  n <- nrow(matrix)
+  adj <- matrix == 0
+  pair_u <- rep(NA, n)
+  pair_v <- rep(NA, n)
+  dist <- rep(0, n)
+  
+  bfs <- function() {
+    queue <<- which(is.na(pair_u))
+    dist <<- rep(Inf, n)
+    dist[queue] <<- 0
+    while (length(queue) > 0) {
+      u <- queue[1]
+      queue <<- queue[-1]
+      for (v in which(adj[u, ])) {
+        if (is.na(pair_v[v]) || dist[pair_v[v]] < Inf) {
+          if (is.na(pair_v[v])) return(TRUE)
+          dist[pair_v[v]] <<- dist[u] + 1
+          queue <<- c(queue, pair_v[v])
+        }
+      }
+    }
+    FALSE
+  }
+  
+  dfs <- function(u) {
+    for (v in which(adj[u, ])) {
+      if (is.na(pair_v[v]) || (dist[pair_v[v]] == dist[u] + 1 && dfs(pair_v[v]))) {
+        pair_u[u] <<- v
+        pair_v[v] <<- u
+        return(TRUE)
+      }
+    }
+    dist[u] <<- Inf
+    FALSE
+  }
+  
+  while (bfs()) {
+    for (u in 1:n) if (is.na(pair_u[u])) dfs(u)
+  }
+  list(pair_u = pair_u, pair_v = pair_v)
+}
+
+find_min_line_cover <- function(matrix) {
+  cat("\nFinding minimum line cover...\n")
+  n <- nrow(matrix)
+  matching <- find_max_matching(matrix)
+  
+  # Konig's theorem implementation
+  mark_u <- rep(FALSE, n)
+  mark_v <- rep(FALSE, n)
+  mark_u[is.na(matching$pair_u)] <- TRUE
+  
+  repeat {
+    changed <- FALSE
+    for (u in which(mark_u)) {
+      vs <- which(matrix[u, ] == 0)
+      for (v in vs) {
+        if (!mark_v[v]) {
+          mark_v[v] <- TRUE
+          changed <- TRUE
+        }
+      }
+    }
+    
+    for (v in which(mark_v)) {
+      u <- matching$pair_v[v]
+      if (!is.na(u) && !mark_u[u]) {
+        mark_u[u] <- TRUE
+        changed <- TRUE
+      }
+    }
+    if (!changed) break
+  }
+  
+  covered_lines <- list(rows = !mark_u, cols = mark_v)
+  cat("Covered rows:", which(covered_lines$rows), "\n")
+  cat("Covered columns:", which(covered_lines$cols), "\n")
+  return(covered_lines)
+}
+
+# 4. Matrix Adjustment Function
+# ------------------------------
+adjust_matrix <- function(matrix, cover) {
+  cat("\nAdjusting matrix...\n")
+  min_val <- min(matrix[!cover$rows, !cover$cols])
+  cat("Minimum uncovered value:", min_val, "\n")
+  
+  matrix[!cover$rows, ] <- matrix[!cover$rows, ] - min_val
+  matrix[, cover$cols] <- matrix[, cover$cols] + min_val
+  
+  cat("New matrix after adjustment:\n")
+  print(matrix)
+  return(matrix)
+}
+
+# 5. Main Algorithm Function
+# ---------------------------
+hungarian_algorithm <- function(matrix) {
+  original <- matrix
+  cat("=== Initial Matrix ===\n")
+  print(matrix)
+  
+  # Step 1: Prepare matrix
+  matrix <- make_square_matrix(matrix)
+  
+  # Step 2-3: Initial reduction
+  matrix <- subtract_row_mins(matrix)
+  matrix <- subtract_col_mins(matrix)
+  
+  iteration <- 1
+  while (TRUE) {
+    cat("\n=== Iteration", iteration, "===\n")
+    
+    # Step 4: Find line cover
+    line_cover <- find_min_line_cover(matrix)
+    num_lines <- sum(line_cover$rows) + sum(line_cover$cols)
+    cat("Total lines:", num_lines, "/", nrow(matrix), "\n")
+    
+    if (num_lines == nrow(matrix)) {
+      cat("\n*** Optimal solution found! ***\n")
+      break
+    }
+    
+    # Step 5: Adjust matrix
+    matrix <- adjust_matrix(matrix, line_cover)
+    iteration <- iteration + 1
+  }
+  
+  # Final matching
+  matching <- find_max_matching(matrix)
+  assignment <- matching$pair_u
+  total_cost <- sum(original[cbind(1:nrow(original), assignment)])
+  
+  # Results formatting
+  cat("\n=== Final Assignment ===\n")
+  result_df <- data.frame(
+    Task = 1:nrow(original),
+    Agent = assignment,
+    Cost = original[cbind(1:nrow(original), assignment)]
+  )
+  print(result_df)
+  
+  list(
+    assignment = assignment,
+    total_cost = total_cost,
+    final_matrix = matrix,
+    iteration_count = iteration
+  )
+}
+
+# Example Usage
+# --------------
+cost_matrix <- matrix(c(
+  10, 19, 8, 15,
+  10, 18, 7, 17,
+  13, 16, 9, 14,
+  12, 19, 8, 18
+), nrow = 4, byrow = TRUE)
+
+result <- hungarian_algorithm(cost_matrix)
+
+# Visualisation finale
+cat("\nFinal Zero Pattern Matrix:\n")
+zero_pattern <- matrix(" ", 4, 4)
+zero_pattern[result$final_matrix == 0] <- "0"
+for (i in 1:4) zero_pattern[i, result$assignment[i]] <- "★"
+colnames(zero_pattern) <- paste("Col", 1:4)
+rownames(zero_pattern) <- paste("Row", 1:4)
+print(zero_pattern, quote = FALSE)
+
+
+```

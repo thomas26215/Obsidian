@@ -1,0 +1,9 @@
+.callout[data-callout="example"] {
+  --callout-color: 0, 196, 154 !important;
+  --callout-icon: lucide-file-text !important;
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: 169, 179, 206 !important;
+  --callout-icon: lucide-file-text !important;
+}

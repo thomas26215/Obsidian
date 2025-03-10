@@ -11,7 +11,7 @@ Learned: false
 # Espaces Vectoriels et Applications Linéaires
 
 
-![[L'espace Rn]]
+[[L'espace Rn]]
 
 ## 2. Définition d'un Espace Vectoriel
 
@@ -48,6 +48,14 @@ Une partie $F$ d'un espace vectoriel $E$ est appelée un **sous-espace vectoriel
 1. $F$ est non vide (contient le vecteur nul)
 2. $F$ est stable par addition : si $u,v \in F$, alors $u+v \in F$
 3. $F$ est stable par multiplication scalaire : si $u \in F$ et $\lambda \in \mathbb{K}$, alors $\lambda u \in F$
+
+> [!Example] <mark style="background: #00c49a;">Soit $F = {(x, y, z) \in \mathbb{R}^3 \mid x + y - 2z = 0}$. Montrer que F est un sous-espace vectoriel de $\mathbb{R}^3$</mark>
+> - $0\in F$ car $0+0-2*0=0$
+> - Soit $u_1\in(x_1,y_1,z_1)\in F$, on a $x_1+y_1-2z_1$, soit $u_1\in(x_2,y_2,z_2)\in F$, on a $x_2+y_2-2z_2$ 
+> - $u_1+u_2=(x_1+x_2,y_1+y_2,z_1+z_2)\in F$
+> - Or $(x_1+x_2)+(y_1+y_2)-2(z_1+z_2)=(x_1+y_1-2z_1)+(x_2+y_2-2z_2)=0+0=0$ donc $u_1+u_2\in F$ 
+> - $\forall \lambda\in\mathbb{R},\lambda u_1=(\lambda x_1, \lambda y_1, \lambda z_1)$ et $\lambda x_1+\lambda y_1-2\lambda z_1=\lambda(x_1+y_1-2z_1)=\lambda*0=0$ donc $\lambda u\in F$
+> => $F$ est un sous espace vectoriel de $\mathbb{R}³$ donc F est un sous espace vectoriel
 
 ### Propriété
 
@@ -105,6 +113,11 @@ Une **base** d'un espace vectoriel est un ensemble de vecteurs à la fois linéa
 - Les vecteurs sont indépendants
 - Toute combinaison linéaire possible dans l'espace peut être obtenue à partir de ces vecteurs
 
+> [!Example] <mark style="background: #00c49a;">Soit $F = {(x, y, z) \in \mathbb{R}^3 \mid x + y - 2z = 0}$. Déterminer une base de $F$.</mark>
+> On sait $x+y-2z=0 <=> x = -y+2z$. Ainsi :
+> $$F=\{\begin{pmatrix} -y+2z \\ y\\ z\end{pmatrix},y\in\mathbb{R},z\in\mathbb{R}\}=\{y\begin{pmatrix} -1 \\ 1\\0 \end{pmatrix}+z\begin{pmatrix}2 \\0 \\ 1\end{pmatrix},y\in\mathbb{R},z\in\mathbb{R}\}=vect(\{(-1, 1, 0),(2,0,1\})$$
+> De plus $(-1, 1, 0)$ n'est pas colinéaire si $(2, 0, 1)$ donc $B=\{(-1, 1, 0),(2,0,1)\}$ est une base de $F$
+
 ### Dimension
 
 La **dimension** d'un espace vectoriel correspond au nombre maximal d'éléments linéairement indépendants qu'il peut contenir. On note cette dimension par :
@@ -112,6 +125,15 @@ La **dimension** d'un espace vectoriel correspond au nombre maximal d'éléments
 $$
 \dim(E)
 $$
+Ainsi, si 1 sous-espace vectoriel contient 1 Base, et que cette base contient 2 vecteurs, alors la dimension de ce sous-espace vectoriel sera de 2
+
+### Formule de Grassmann
+La formule de Grassmann est une formule importante en algèbre linéaire exprimant la relation entre les dimensions de deux sous-espaces vectoriels, leur somme et leur intersection
+<mark style="background: #A9B3CE;"><mark style="background: #ADCCFFA6;">Définition</mark></mark> : Soient F et G deux sous-espaces vectoriels d'un même espace d'un même espace vectoriel $E$ de dimension finir. Alors : $$fim(F+G)=dim(F)+dim(G)-dim(F\cap G)$$
+> [!Example] <mark style="background: #00c49a;">On sait $dim(F) = 4, dim(G)=2, dim(F\cap G)=3$, calculer $dim(F\cap G)$</mark>
+> $dim(F+G)=dim(F)+dim(G)-dim(F\cap G)=4+3-2=7-2=5$
+
+Nous remarquons ainsi que la somme de deux sous-espaces vectoriels n'est pas simplement la somme de leurs dimensions individuelles. Il faut ainsi soustraire la dimension de leur intersection pour éviter de compter deux fois les vecteurs en communs.
 
 ## 8. Applications Linéaires
 

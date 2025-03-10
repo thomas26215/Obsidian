@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://open.spotify.com/intl-fr",
+      "displayName": "Spotify",
+      "icon": "list-music",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

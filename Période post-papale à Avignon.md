@@ -1,0 +1,3 @@
+## Période post-papale à Avignon
+
+Lorsque les papes ont quitté le palais, des dégâts et des semi-dégâts ont gouverné Avignon et le Comtat Venaissin au nom du pape. Certains appartements ont été réaménagés, tandis que d'autres éléments ont été détruits, et de nouvelles constructions ont été réalisées. En 1791, Avignon et le Comtat Venaissin ont été rattachés à la France, marquant la fin de la domination pontificale dans la région.

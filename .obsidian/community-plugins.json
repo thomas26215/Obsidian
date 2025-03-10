@@ -5,7 +5,6 @@
   "obsidian-kanban",
   "obsidian-git",
   "tag-wrangler",
-  "obsidian-annotator",
   "periodic-notes",
   "highlightr-plugin",
   "smart-connections",
@@ -23,5 +22,8 @@
   "obsidian-file-link",
   "vertical-tabs",
   "better-export-pdf",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "obsidian-vault-statistics-plugin",
+  "soundscapes",
+  "obsidian-custom-frames"
 ]

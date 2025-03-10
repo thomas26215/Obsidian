@@ -4,133 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "37427ded4a28555c",
+        "id": "595ef1c70910cf0e",
         "type": "tabs",
         "children": [
           {
-            "id": "d9564837479f2c5c",
+            "id": "c32dd63a40af7e34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Les bases de JS.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Les bases de JS"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "684ab55cd17b3625",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/SAE Applciation pour les stages/Algorithme Hongrois.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorithme Hongrois"
-            }
-          },
-          {
-            "id": "f037c9425ebde442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Automate.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Automate"
-            }
-          },
-          {
-            "id": "4e1ef0abd1ddbf1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Automate.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Automate"
-            }
-          },
-          {
-            "id": "2359b5f09ac98138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/General/La programmation asynchrone.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "La programmation asynchrone"
-            }
-          },
-          {
-            "id": "b9c2a4b6c0521085",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algèbre linéaire"
-            }
-          },
-          {
-            "id": "dcb5d20c46564b3a",
+            "id": "d0b4c455cb8a787a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Algèbre linéaire"
             }
-          },
-          {
-            "id": "c097183bc575e54d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Programmation/C++/Constructeur par recopie.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Constructeur par recopie"
-            }
-          },
-          {
-            "id": "a42fc2a3eb6e0778",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,16 +76,6 @@
             }
           },
           {
-            "id": "ee551dcfadc225ee",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
             "id": "ecd43d894d6dc0cf",
             "type": "leaf",
             "state": {
@@ -192,13 +84,23 @@
               "icon": "gallery-vertical",
               "title": "Vertical tabs"
             }
+          },
+          {
+            "id": "269f94b4b44afd4e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 233.5
   },
   "right": {
     "id": "8c4f70df493ebba7",
@@ -271,7 +173,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -299,7 +200,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Algèbre linéaire"
+              "title": "Graph view"
             }
           },
           {
@@ -354,8 +255,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           },
           {
@@ -384,8 +285,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           },
           {
@@ -394,8 +295,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           },
           {
@@ -424,8 +325,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           },
           {
@@ -434,8 +335,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -444,12 +345,12 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 17
       }
     ],
     "direction": "horizontal",
@@ -457,6 +358,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "soundscapes:Soundscapes: My Music": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -475,21 +377,35 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b9c2a4b6c0521085",
+  "active": "669c7ef872c44bc5",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
+    "Palais des papes d'Avignon.md",
+    "Projets/En cours/SAE Applciation pour les stages/Critères.md",
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+    "MOOC/Big MOCS/Autre.md",
+    "Permanent/Medias/Musées/Le Palais des Papes.md",
+    "Cathédrale.md",
+    "Cardinal.md",
+    "Consistoire.md",
+    "Organisation de la Curie pontificale médiévale.md",
+    "Période post-papale à Avignon.md",
+    "Héritage de la papauté d'Avignon.md",
+    "Grand Schisme d'Occident (1378-1417).md",
+    "Papauté d'Avignon.md",
+    "Espaces emblématiques du palais.md",
+    "Curie médiévale.md",
+    "Espaces spécifiques du palais.md",
+    "Chambre des Notaires.md",
+    "Tour de l'Audience ou de la Gâche.md",
+    "Loggia et Fenêtre de l'Indulgence.md",
+    "Magna Porta (Portail).md",
+    "Chambre de Parement.md",
+    "Studium Benedicti.md",
+    "Permanent/Autre/Définiton d'un périphérique de stockage et des partitions.md",
+    "Permanent/Cours/Cours/Semestre 1/Introduction à la récursivité.md",
     "MOOC/Big MOCS/Cours.md",
-    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
-    "Permanent/Programmation/General/La programmation asynchrone.md",
-    "Permanent/Programmation/C++/Constructeur par recopie.md",
-    "Permanent/Programmation/C++/Configurer GTest pour VS Code.md",
-    "Permanent/Programmation/C++/Classes héritage.md",
-    "Permanent/Programmation/C++/CMakeLists.txt.md",
-    "Permanent/Programmation/C++/Agrégationet composition.md",
-    "Projets/En cours/SAE Applciation pour les stages/SAE 4.Real.01 Développement d’une application complexe - Rétroconception du code.md",
-    "Projets/En cours/SAE Applciation pour les stages/Cartographie app mobile.md",
+    "Permanent/Medias/Musées",
     "Pasted image 20250220170606.png",
     "Pasted image 20250220170605.png",
     "Pasted image 20250220194451.png",
@@ -498,19 +414,6 @@
     "Pasted image 20250220195455.png",
     "Pasted image 20250220195523.png",
     "Pasted image 20250220203308.png",
-    "Pasted image 20241102235235.png.md",
-    "Untitled 12.md",
-    "Permanent/Mathématiques/L'espace Rn.md",
-    "Permanent/Autre/Le stockage en réseau.md",
-    "Permanent/Cours/Cours/Semestre 4/Automate.md",
-    "Permanent/Cours/Cours/Semestre 1/Espace disque, archivage.md",
-    "Permanent/Autre/Les différents périphériques de stockage.md",
-    "Permanent/Autre/Les différents types d'interfaces de stockage pour les machines personnelles.md",
-    "Permanent/Autre/Les avantages et les limites du PIB.md",
-    "Permanent/Cours/Cours/Semestre 1/La croissance économique et le PIB.md",
-    "Permanent/Autre/Calcul du PIB habitant.md",
-    "Permanent/Autre/PIB.md",
-    "Permanent/Cours/Cours/Semestre 1/Introduction à la récursivité.md",
     "Pasted image 20250220195257.png",
     "Pasted image 20250220170603.png",
     "Cours/R1.04/cours4.pdf",
@@ -522,7 +425,6 @@
     " 1",
     "Projets/En cours/SAE Applciation pour les stages",
     "Permanent/Cours/TP/Semestre 4",
-    "Fiche de Renseignements Raynet stagiaire.pdf",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",

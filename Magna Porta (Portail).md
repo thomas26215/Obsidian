@@ -1,0 +1,3 @@
+## Magna Porta (Portail)
+
+La Magna Porta, ou portail de la Grande Chapelle, est un exemple remarquable de sculpture médiévale. Endommagé pendant la Révolution et l'occupation militaire, il a été restauré pour combler les lacunes causées par les dommages. Ce portail présente des similitudes avec d'autres portails célèbres et inclut des éléments décoratifs comme des masques de lion et des figures symboliques.
