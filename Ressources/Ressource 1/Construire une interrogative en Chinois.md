@@ -8,19 +8,21 @@ En Chinois, pour former une interrogative, il existe plusieurs méthodes comme l
 
 # 1. La particule 吗 (ma)
 L'une des méthodes les plus courantes pour former l'interrogation est l'utilisation de la particule 吗. Il suffit de l'ajouter à la fin de la phrase affirmative pour en faire une question
-**Exemples** :
-1. 你是学生 ⇒ Tu est étudiant
+> [!Example]
+> 1. 你是学生 ⇒ Tu est étudiant
    你是学生吗 ? ⇒ Es-tu étudiant ?
-2.  你是法国人 ⇒ Tu est français
-    你是法国人吗 ⇒ Es-tu français ?
+> 2.  你是法国人 ⇒ Tu est français
+>    你是法国人吗 ⇒ Es-tu français ?
+
 
 # 2. Inverser l'ordre du sujet et du verbe
 Dans certaines phrases, il faut simplement inverser l'ordre du sujet et du verbe
-**Exemples** :
-1. 他喜欢中国菜 ⇒ Il aime la cuisine chinoise
-   喜欢中国菜吗 ? ⇒ Aime-t-il la cuisine chinoise ?
-2. 他会说英语  ⇒ Il sait parler anglais
-   会说英语吗 ? ⇒ Sait-il parler anglais ?
+
+> [!Example]
+>1. 他喜欢中国菜 ⇒ Il aime la cuisine chinoise
+ >  喜欢中国菜吗 ? ⇒ Aime-t-il la cuisine chinoise ?
+>2. 他会说英语  ⇒ Il sait parler anglais
+ >  会说英语吗 ? ⇒ Sait-il parler anglais ?
 
 # 3. Utiliser des mots interrogatifs
 Il est possible d'utiliser des mots interrogatifs spécifiques  pour poser des questions sur des détails tels que 谁 (qui), 什么 (quoi), 哪里 (où) ...
@@ -31,11 +33,11 @@ Il est possible d'utiliser des mots interrogatifs spécifiques  pour poser des q
 
 # 4. Changer l'intonation
 Dans certains cas, il est possible de former un question simplement en mettant une intonation montante à la fin de la phrase
-**Exemples** :
-1. 你明天来 ⇒ Tu viens demain
-   你明天来吗 ? ⇒ Viens-tu demain ? (Avec intonation montante à la fin)
-2. 你会说中文 ⇒ Tu sais parler chinois
-   你会说中文 ? ⇒ Sais-tu parler chinois ? (Avec intonation montante sur la fin)
+> [!Example]
+>1. 你明天来 ⇒ Tu viens demain
+ >  你明天来吗 ? ⇒ Viens-tu demain ? (Avec intonation montante à la fin)
+>2. 你会说中文 ⇒ Tu sais parler chinois
+ >  你会说中文 ? ⇒ Sais-tu parler chinois ? (Avec intonation montante sur la fin)
 
 
 

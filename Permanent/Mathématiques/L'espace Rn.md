@@ -1,7 +1,10 @@
 ---
 MOOC: "[[Mathématiques]]"
-Thématique: algèbre linéaire
-tags:
+Thème: Algèbre linéaire
+Sujet: Fondements mathématiques
+tags: 
+Complete: 
+Learned:
 ---
 L'espace $\mathbb{R}^n$ est constitué de n-uplets de réels, où chaque élément peut être interprété comme un vecteur. Par exemple :
 
