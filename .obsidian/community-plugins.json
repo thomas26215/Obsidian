@@ -15,7 +15,6 @@
   "metadata-menu",
   "mermaid-tools",
   "mousewheel-image-zoom",
-  "home-tab",
   "symbols-prettifier",
   "smart-connections-visualizer",
   "gladdis",
@@ -26,5 +25,9 @@
   "obsidian-vault-statistics-plugin",
   "soundscapes",
   "obsidian-custom-frames",
-  "obsidian-auto-link-title"
+  "obsidian-auto-link-title",
+  "callout-suggestions",
+  "dashboard-navigator",
+  "command-tracker",
+  "homepage"
 ]

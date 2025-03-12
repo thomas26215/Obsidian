@@ -1,0 +1,66 @@
+.ct-view-content {
+  padding: 1rem;
+}
+.ct-view-content .ct-first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ct-view-content .ct-first-line > button:active:hover {
+  position: relative;
+  top: 2px;
+}
+.ct-view-content .ct-view-selector {
+  font-weight: bold;
+  width: max-content;
+  max-width: 100%;
+}
+.ct-view-content .ct-table {
+  height: 100%;
+  width: 100%;
+}
+
+body.is-phone .ct-view-content {
+  overflow-y: scroll;
+}
+body.is-phone .ct-view-content .ct-view-selector {
+  width: 100%;
+}
+body.is-phone .ct-view-content .ct-table {
+  margin-bottom: 74px;
+}
+body.is-phone .ct-view-content .ct-table .ag-root-wrapper {
+  height: calc(100vh - (74px + 2rem));
+}
+
+.ct-modal .modal-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem 0;
+  gap: 0.5rem;
+}
+.ct-modal .modal-content h4 {
+  margin-top: 0;
+}
+.ct-modal .modal-content .ct-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.ct-settings .ct-delete-input {
+  width: 5rem;
+  min-width: 5rem;
+}
+.ct-settings .ct-delete-description {
+  margin-top: 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.ct-settings .ct-delete-description > ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+.ct-settings .ct-delete-description li {
+  margin: 0.25rem 0;
+}

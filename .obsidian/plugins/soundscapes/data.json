@@ -1,11 +1,39 @@
 {
-  "soundscape": "jazz",
-  "volume": 54,
+  "soundscape": "lofi",
+  "volume": 87,
   "autoplay": true,
   "scrollSongTitle": true,
-  "customSoundscapes": [],
-  "myMusicIndex": [],
-  "myMusicFolderPath": "",
+  "customSoundscapes": [
+    {
+      "id": "57314981-b1fc-4d53-9a21-1267bcac22fa",
+      "name": "Animal Crossing New Horizons",
+      "tracks": [
+        {
+          "name": "Main Theme",
+          "id": "https://www.youtube.com/watch?v=lI_C1Bjdqn4"
+        }
+      ]
+    },
+    {
+      "id": "bf6075f1-1e2e-41c6-814c-853c2c6c0a88",
+      "name": "Animal Crossing 3 hours",
+      "tracks": [
+        {
+          "name": "music",
+          "id": "https://www.youtube.com/watch?v=DkDP6-yGN-M"
+        }
+      ]
+    }
+  ],
+  "myMusicIndex": [
+    {
+      "fileName": "Its okay, dont think too much...Animal Crossing relaxing music helps you calm down to study & work.mp3",
+      "fullPath": "/home/thomas/Study musics/Its okay, dont think too much...Animal Crossing relaxing music helps you calm down to study & work.mp3",
+      "title": "Its okay, dont think too much...Animal Crossing relaxing music helps you calm down to study & work",
+      "duration": 11421.910204081632
+    }
+  ],
+  "myMusicFolderPath": "/home/thomas/Study musics",
   "reindexFrequency": "5",
   "myMusicShuffle": false,
   "currentTrackIndex": 0
