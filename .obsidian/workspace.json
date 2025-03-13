@@ -86,7 +86,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -371,7 +372,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "ecd43d894d6dc0cf",
   "lastOpenFiles": [
     "Inbox/Créer un jeu vidéo avec Unity.md",
     "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
