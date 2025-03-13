@@ -386,3 +386,64 @@ En suivant ce guide, vous devriez avoir un bouton d'invocation dynamique fonctio
 
 Réponse de Perplexity: pplx.ai/share
 
+
+
+# Les différents types de scripts dans Unity
+
+## **1. MonoBehaviour Script**
+
+- **Description** : C'est le type de script le plus couramment utilisé dans Unity. Il est dérivé de la classe `MonoBehaviour`, qui permet d'attacher le script à un GameObject dans la scène.
+    
+- **Usage** : Utilisé pour créer des comportements liés aux objets dans la scène (par exemple, déplacement, interactions).
+    
+- **Exemple** : Vous pouvez utiliser des fonctions comme `Start()`, `Update()`, et accéder aux composants du GameObject.
+    
+
+## **2. ScriptableObject Script**
+
+- **Description** : C'est un type de script dérivé de la classe `ScriptableObject`. Contrairement à `MonoBehaviour`, il n'est pas attaché à un GameObject mais utilisé pour stocker des données.
+    
+- **Usage** : Idéal pour gérer des configurations ou des objets de données partagés entre plusieurs GameObjects (comme des statistiques, inventaires ou paramètres globaux).
+    
+- **Exemple** : Créez des assets personnalisés via le menu Unity.
+    
+
+## **3. Empty C# Script**
+
+- **Description** : Un script vierge sans aucune classe prédéfinie. Il ne dérive pas automatiquement de `MonoBehaviour` ou `ScriptableObject`.
+    
+- **Usage** : Utilisé pour créer des classes utilitaires, des structures de données ou tout autre code qui n'a pas besoin d'interagir directement avec Unity.
+    
+- **Exemple** : Classes pour gérer la logique métier ou les algorithmes.
+    
+
+## **4. Playables**
+
+- **Description** : Scripts liés au système de Playables d'Unity, qui permet de créer des animations et des comportements complexes via des graphes.
+    
+- **Usage** : Utilisé principalement pour les cinématiques ou les systèmes avancés d'animation.
+    
+- **Exemple** : Contrôle d'un graphe d'animation ou gestion d'une timeline.
+    
+
+## **5. Assembly Definition / Assembly Definition Reference**
+
+- **Description** :
+    
+    - _Assembly Definition_ : Permet de créer une définition d'assemblage pour organiser votre code en modules séparés, ce qui améliore la compilation et l'organisation.
+        
+    - _Assembly Definition Reference_ : Référence une définition d'assemblage existante.
+        
+- **Usage** : Utilisé pour structurer des projets complexes, particulièrement dans les grandes équipes ou projets modulaires.
+    
+
+## Résumé
+
+|Type de Script|Usage Principal|
+|---|---|
+|MonoBehaviour Script|Comportements liés aux GameObjects dans la scène.|
+|ScriptableObject Script|Stockage et gestion de données partagées.|
+|Empty C# Script|Classes utilitaires ou logiques indépendantes.|
+|Playables|Animation et cinématiques avancées.|
+|Assembly Definition|Organisation modulaire du code.|
+
