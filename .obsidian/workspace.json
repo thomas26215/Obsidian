@@ -22,21 +22,8 @@
               "icon": "lucide-file",
               "title": "HomePage"
             }
-          },
-          {
-            "id": "87e2016caadd65b9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-13 10.18.19.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -384,11 +371,14 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "87e2016caadd65b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
+    "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
+    "Inbox/Créer un jeu vidéo avec Unity.md",
+    "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "HomePage.md",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "Projets/En cours/Game",
     "Littéraire/Techniques de base aux échecs.md",
     "Permanent/Programmation/JavaScript/La librairie assert NodeJS.md",
@@ -415,7 +405,6 @@
     "Les adverbes.md",
     "Permanent/Autre/VPN.md",
     "Templates/Template Mathématiques.md",
-    "Ressources/Ressource 1/Le charactère 给 (gěi).md",
     "Pasted image 20250310214226.png",
     "Permanent/Medias/Musées",
     "Pasted image 20250220170606.png",
@@ -424,7 +413,6 @@
     "Pasted image 20250220195310.png",
     "Pasted image 20250220195448.png",
     "Pasted image 20250220195455.png",
-    "Pasted image 20250220195523.png",
     "Cours/R1.04/cours4.pdf",
     "Cours/R1.05/cours-ensembles.pdf",
     "Cours/R1.08/TD2-Fonction-RH-Salaire-2023-241.pdf",
