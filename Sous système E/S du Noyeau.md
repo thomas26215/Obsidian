@@ -1,1 +1,0 @@
-Le noyau du système d'exploitation gère toutes les opérations d'E/S. Cela inclut la gestion des fichiers, l'allocation de ressources, et la coordination entre les processus qui demandent l'accès aux périphériques

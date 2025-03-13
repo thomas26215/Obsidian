@@ -1,29 +1,15 @@
-**Un test unitaire** : Un test unitaire est un test qui s'effectue en isolation. On distingue 2 types de test : les tests fonctionnels et les tests structurels
-**Test unitaire fonctionnel** : Un test fonctionnel est un test portant sur la fonctionnalit, il n'est donc pas nécessaire d'avoir une connaissance complète du code, ainsi seules les entrées sorties sont nécessaires (Alias - Boîte noire)
-**Test unitaire structurel** : Un test structurel porte sur le code. Ainsi, il est nécessaire d'avoir une connaissance approfondie du code (Alias - Boîte blanche)
+[[Test unitaire]]
+[[Test unitaire fonctionnel]]
+[[Test unitaire structurel]]
 
-Pour écrire un test unitaire, une convention est ***Given-When-Then*** :
-- **Given :** Construction de l'état du monde
-- **When :** Exécution du code testé
-- **Then** : Vérification du résultat obtenu (assetion, prédiction de l'oracle)
-**Exemple d'un test JavaScript** :
-```javascript
-import assert from 'node:assert';
-import Money from '../src/money.js';
-
-describe('Money', function() {
-	describe('#add()', function() {
-		it('should correctly add two moneys with the same currency', function() {
-			let m1 = new Money(10.0, 'EUR'), //Given
-				m2 = new Money(20.0, 'EUR'); //Given
-			m1.add(m2); //When
-			assert.equals(m1.amount, 30.0); //Then
-		});
-	});
-})
-```
+[[La convention Given-When-Then]]
 
 ---
+
+[[La librairie assert NodeJS]]
+
+
+
 
 Il est possible de réaliser des tests unitaires avec la libraire par défaut de `Node.JS` en utilisant la librairie d'insertion `assert`. Il faut pour cela l'importer dans notre code de test unitaires : `import assert from 'node:assert'` Voici à quoi pourrait ressembler un test :
 
