@@ -6,13 +6,13 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiImages",
+      "LiExcalidrawIcon",
+      "LiLayoutTemplate",
       "LiShare2",
       "LiHourglass",
       "LiFolderUp",
-      "LiBook",
-      "LiInbox",
-      "LiImage",
-      "LiExcalidrawIcon"
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 7,
     "rules": [],
@@ -38,7 +38,7 @@
   },
   "Cours": "LiFiles",
   "Daily note": "LiCalendar",
-  "Excalidraw": "LiExcalidrawIcon",
+  "Excalidraw": "LiImages",
   "Images": {
     "iconName": "LiImage",
     "iconColor": "#779861"
@@ -47,5 +47,6 @@
   "Littéraire": "LiBook",
   "MOOC": "LiFolderUp",
   "Permanent": "LiHourglass",
-  "Projets": "LiShare2"
+  "Projets": "LiShare2",
+  "Templates": "LiLayoutTemplate"
 }
