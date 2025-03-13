@@ -11,3 +11,8 @@ Pour le système de levelDesign, nous pouvons utiliser le TileMap
 
 > Un **tileset** est un ensemble d'images / tuiles utilisées pour créer un tilemap. Il contient toutes les tuiles nécessaires pour construire un niveau (les sols, murs ou tout autre objet décoratif)
 
+---
+
+Pour pouvoir faire une Tilemap, la première étape est d'importer un fichier **TileSheet** dans le dossier `Assets` de Unity
+> [!Information]
+>Il est conseillé classer tous ses fichiers dans des dossiers. Ainsi, créer un dossier `imports` dans le dossier `Assets` qui servira à stocker tous les fichiers importés.  Ainsi, ranger la tilesheet dans ce fichier
