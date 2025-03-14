@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "HomePage"
             }
-          },
-          {
-            "id": "5d3cf99535add1c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Créer un jeu vidéo avec Unity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Créer un jeu vidéo avec Unity"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,8 +86,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -387,10 +371,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5d3cf99535add1c2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "HomePage.md",
     "Inbox/Créer un jeu vidéo avec Unity.md",
+    "HomePage.md",
     "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
