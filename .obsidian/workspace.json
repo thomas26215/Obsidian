@@ -86,8 +86,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -372,7 +371,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "26930f4f00436aea",
   "lastOpenFiles": [
     "HomePage.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
