@@ -271,3 +271,148 @@ Ces énoncés ont été reconstitués au mieux à partir des réponses fournies.
 ### Citations:
 
 1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt)
+---
+
+D'accord, voici les corrections détaillées pour chaque exercice que j'ai donné précédemment.
+
+## Corrections des Exercices
+
+## Exercice 1 : Sous-espaces et Bases
+
+1. **Définir et Montrer :**
+    
+    - Pour montrer que $F$ est un sous-espace vectoriel de $E$, il faut vérifier trois conditions :
+        
+        1. Le vecteur nul $(0, 0, 0)$ appartient à $F$ : $0 + 0 + 0 = 0$, donc c'est vrai.
+            
+        2. $F$ est stable par addition : Si $(x_1, y_1, z_1) \in F$ et $(x_2, y_2, z_2) \in F$, alors $x_1 + y_1 + z_1 = 0$ et $x_2 + y_2 + z_2 = 0$. En additionnant, $(x_1 + x_2) + (y_1 + y_2) + (z_1 + z_2) = 0$, donc $(x_1 + x_2, y_1 + y_2, z_1 + z_2) \in F$.
+            
+        3. $F$ est stable par multiplication scalaire : Si $(x, y, z) \in F$ et $\lambda \in \mathbb{R}$, alors $x + y + z = 0$. Donc $\lambda x + \lambda y + \lambda z = \lambda(x + y + z) = 0$, donc $(\lambda x, \lambda y, \lambda z) \in F$.
+            
+    - Conclusion : $F$ est un sous-espace vectoriel de $E$.
+        
+2. **Base de F :**
+    
+    - Comme $x + y + z = 0$, on peut écrire $z = -x - y$. Donc tout vecteur de $F$ est de la forme $(x, y, -x - y) = x(1, 0, -1) + y(0, 1, -1)$.
+        
+    - La famille ${(1, 0, -1), (0, 1, -1)}$ est une base de $F$.
+        
+    - La dimension de $F$ est 2.
+        
+3. **Vecteur Spécifique :**
+    
+    - Pour $v = (1, -1, 0)$, on a $1 + (-1) + 0 = 0$, donc $v \in F$.
+        
+
+## Exercice 2 : Familles Libres et Génératrices
+
+1. **Famille Libre :**
+    
+    - On cherche à résoudre $\alpha u + \beta v + \gamma w = 0$, soit $\alpha(1, 0, 1) + \beta(0, 1, 1) + \gamma(1, 1, 2) = (0, 0, 0)$. Cela donne le système :
+        
+        - $\alpha + \gamma = 0$
+            
+        - $\beta + \gamma = 0$
+            
+        - $\alpha + \beta + 2\gamma = 0$
+            
+    - En substituant les deux premières équations dans la troisième, on obtient $(-\gamma) + (-\gamma) + 2\gamma = 0$, ce qui est toujours vrai. Donc il y a une infinité de solutions. Par exemple, $\alpha = 1$, $\beta = 1$, $\gamma = -1$.
+        
+    - Conclusion : La famille ${u, v, w}$ n'est pas libre.
+        
+2. **Famille Génératrice :**
+    
+    - Puisque la famille n'est pas libre, elle ne peut pas être une base de $\mathbb{R}^3$. Pour savoir si elle est génératrice, on peut calculer le rang de la matrice formée par les vecteurs $u$, $v$ et $w$. Si le rang est 3, alors la famille est génératrice. Sinon, elle ne l'est pas. La matrice est :
+        
+        (101011112)\begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}101011112
+    - Le déterminant de cette matrice est 0, donc le rang est inférieur à 3. La famille n'est pas génératrice.
+        
+3. **Base de E :**
+    
+    - On peut extraire une base en prenant deux vecteurs linéairement indépendants parmi ${u, v, w}$. Par exemple, ${u, v}$ est une base du sous-espace engendré par ${u, v, w}$.
+        
+
+## Exercice 3 : Indépendance Linéaire
+
+1. **Vérification :**
+    
+    - On cherche à résoudre $\alpha v_1 + \beta v_2 + \gamma v_3 = 0$, soit $\alpha(1, 0, 1, 0) + \beta(0, 1, -1, 0) + \gamma(1, 1, 1, 1) = (0, 0, 0, 0)$. Cela donne le système :
+        
+        - $\alpha + \gamma = 0$
+            
+        - $\beta + \gamma = 0$
+            
+        - $\alpha - \beta + \gamma = 0$
+            
+        - $\gamma = 0$
+            
+    - De ce système, on déduit que $\alpha = 0$, $\beta = 0$ et $\gamma = 0$.
+        
+    - Conclusion : La famille ${v_1, v_2, v_3}$ est libre.
+        
+2. **Extension :**
+    
+    - Pour compléter cette famille en une base de $\mathbb{R}^4$, on peut ajouter le vecteur $(0, 0, 0, 1)$. La famille ${v_1, v_2, v_3, (0, 0, 0, 1)}$ est une base de $\mathbb{R}^4$.
+        
+
+## Exercice 4 : Sous-espace Défini par un Système
+
+1. **Nature de F :**
+    
+    - Pour montrer que $F$ est un sous-espace vectoriel, on vérifie :
+        
+        1. $(0, 0, 0) \in F$ car $0 - 0 + 0 = 0$ et $0 + 0 - 0 = 0$.
+            
+        2. Si $(x_1, y_1, z_1) \in F$ et $(x_2, y_2, z_2) \in F$, alors $(x_1 - y_1 + z_1) + (x_2 - y_2 + z_2) = 0$ et $(x_1 + y_1 - z_1) + (x_2 + y_2 - z_2) = 0$, donc $F$ est stable par addition.
+            
+        3. Si $(x, y, z) \in F$ et $\lambda \in \mathbb{R}$, alors $\lambda x - \lambda y + \lambda z = 0$ et $\lambda x + \lambda y - \lambda z = 0$, donc $F$ est stable par multiplication scalaire.
+            
+    - Conclusion : $F$ est un sous-espace vectoriel de $\mathbb{R}^3$.
+        
+2. **Base de F :**
+    
+    - On a le système :
+        
+        - $x - y + z = 0$
+            
+        - $x + y - z = 0$
+            
+    - En additionnant les deux équations, on obtient $2x = 0$, donc $x = 0$. En substituant dans la première équation, on a $-y + z = 0$, donc $y = z$.
+        
+    - Donc $F = {(0, y, y) \mid y \in \mathbb{R}}$. Une base de $F$ est ${(0, 1, 1)}$.
+        
+
+## Exercice 5 : Combinaison Linéaire et Générateurs
+
+1. **v est-il combinaison linéaire de u1 et u2?**
+    
+    - On cherche $\alpha$ et $\beta$ tels que $v = \alpha u_1 + \beta u_2$, soit $(1, 1, 1) = \alpha(1, 2, 1) + \beta(1, 0, 2)$. Cela donne le système :
+        
+        - $\alpha + \beta = 1$
+            
+        - $2\alpha = 1$
+            
+        - $\alpha + 2\beta = 1$
+            
+    - De la deuxième équation, on a $\alpha = \frac{1}{2}$. En substituant dans la première équation, on a $\beta = \frac{1}{2}$. En substituant dans la troisième équation, on a $\frac{1}{2} + 2(\frac{1}{2}) = \frac{3}{2} \neq 1$.
+        
+    - Conclusion : $v$ ne peut pas s'écrire comme une combinaison linéaire de $u_1$ et $u_2$.
+        
+2. **Base?**
+    
+    - $u_1$ et $u_2$ ne sont pas colinéaires donc ils forment une base de vect(u1, u2), de dimension 2.
+        
+    - Pour savoir si $(u_1, u_2)$ est une base de $\mathbb{R}^3$, il faudrait que ce soit une famille libre et génératrice de $\mathbb{R}^3$. Or on a vu que ce n'est pas le cas.
+        
+    - Conclusion : $(u_1, u_2)$ n'est pas une base de $\mathbb{R}^3$
+        
+
+J'espère que ces corrections t'aideront à te préparer pour ton contrôle. N'hésite pas si tu as d'autres questions.
+
+### Citations:
+
+1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/4a0f9b34-da93-4f4c-9501-9ef2448c2bde/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/4a0f9b34-da93-4f4c-9501-9ef2448c2bde/paste.txt)
+
+---
+
+Réponse de Perplexity: pplx.ai/share
