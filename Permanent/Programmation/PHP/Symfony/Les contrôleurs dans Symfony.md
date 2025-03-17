@@ -16,8 +16,11 @@ Un **contrôleur** dans Symfony est une classe PHP qui joue un rôle central d
 [[Définition des routes]]
 [[Récupérer les paramètres dans l'URL]]
 [[Gestion Complète des Données de Requête avec Request]]
+[[Rendre une vue Twig dans une route]]
 
 # Moteur de template Twig
+[[Les templates Twig]]
+[[Récupérer des variables depuis le contrôlleur]]
 
 
 
