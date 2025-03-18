@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "0f8a7a2e26888fa0",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6e1f51738c026a73",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
+                "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "Modélisation en étoile - Qualité du relationnel et au-delà"
             }
           }
         ]
@@ -371,11 +369,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6e1f51738c026a73",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 4/Untitled.md",
+    "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
+    "Home.md",
     "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "HomePage.md",
     "VENOUIL Thomas.md",
     "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Indépendance, Générateurs et Bases.md",
@@ -394,12 +394,10 @@
     "Permanent/Programmation/SQL/Définition - Schéma d'une base de données.md",
     "Permanent/Programmation/SQL/Définition - Base de données.md",
     "Permanent/Cours/Cours/Semestre 4/Dépendance fonctoinnelle cours 2.md",
-    "Permanent/Cours/Cours/Semestre 4/Untitled.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/SAE Applciation pour les stages/BDD.md",
     "Excalidraw/Drawing 2025-03-14 15.00.13.excalidraw.md",
     "Inbox/Créer un jeu vidéo avec Unity.md",
-    "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
