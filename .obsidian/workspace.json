@@ -10,6 +10,7 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,11 +18,23 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "HomePage"
             }
+          },
+          {
+            "id": "2409fde54b98e40b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -369,13 +382,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2409fde54b98e40b",
   "lastOpenFiles": [
+    "HomePage.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Indépendance, Générateurs et Bases.md",
     "Famille génératrice.md",
-    "HomePage.md",
     "Récupérer des variables depuis le contrôlleur.md",
     "Rendre une vue Twig dans une route.md",
     "Permanent/Programmation/PHP/Symfony/Les contrôleurs dans Symfony.md",
