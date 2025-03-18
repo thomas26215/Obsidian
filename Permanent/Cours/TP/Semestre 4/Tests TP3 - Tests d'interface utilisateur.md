@@ -4,7 +4,7 @@ L'objectif est de réaliser des tests d'interface utilisateurs en utilisant *Cyp
 C'est un framework de tests fonctionnels s'appuyant sur des librairies d'assertion, en particulier `Chai`
 
 ## Installation et exécution
-Pour utiliser **Cypress** dans noter projet, il faut commencer par l'installer. Dans le répertoire de notre projet, exécuter la commande `npm install cypress --save-dev`. Cela l'installe comme une dépendance de développement du projet et ajoute une entrée dans le fichier `package.json`. L'option `--save-dev` est importante car cela spécifie que **Cypress** est utilisé pour le développement (tests)
+Pour utiliser **Cypress** dans notre projet, il faut commencer par l'installer. Dans le répertoire de notre projet, exécuter la commande `npm install cypress --save-dev`. Cela l'installe comme une dépendance de développement du projet et ajoute une entrée dans le fichier `package.json`. L'option `--save-dev` est importante car cela spécifie que **Cypress** est utilisé pour le développement (tests)
 
 Une fois installer, il faut exécuter la commande `./node_modules/.bin/cypress open` pour pouvoir lancer **Cypress**
 
@@ -66,3 +66,7 @@ D'autres fonctions existent :
 - `cy.type()` : Simuler une entrée clavier
 - `cy.intercept()` : Intercépter les requêtes réseaux et simuler les réponses
 - `cy.trigger('blur')` ou `cy.blur()` : Pour simuler la perte de focus sur un élément
+
+
+---
+
