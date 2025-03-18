@@ -196,6 +196,15 @@
 **Question 2**
 > Soit $x=(2,-7,-7)$ et $y=(2,7,7)$. On peut vérifier si on peut les écrire comme combinaison linéaire de $*u_1$ et $u_2$
 
+**Question 3**
+>$w=v_1+3v_2$   $(x_v, y_v)=(1,3)$
+>$v_1=2u_1-u_2$
+>$v_2=u_1+3u_2$
+>=> Donc $w=2u_1-u_2+3u_1+9+u_2=5u_1+8u_2$ donc $(x_u,y_u)=5,8)$ 
+>$$P=\begin{pmatrix}2 && 1\\-1 && 3\end{pmatrix}$$.
+>$$P\begin{pmatrix}x_v\\y_v\end{pmatrix}=P\begin{pmatrix}x_u\\y_u\end{pmatrix}$$
+>$B=\{u_1,u_2\}$ $B'=\{v_1,v_2\}$
+
 ---
 
 # Questions
