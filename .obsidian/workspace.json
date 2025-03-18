@@ -10,7 +10,6 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,27 +17,11 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "HomePage"
             }
-          },
-          {
-            "id": "a38ab252a6ff6fc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "La qualité informatique"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -386,8 +369,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a38ab252a6ff6fc2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "HomePage.md",
     "VENOUIL Thomas.md",
@@ -404,7 +388,6 @@
     "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
     "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
     "Débuter avec Symfony 5.md",
-    "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
     "Permanent/Cours/Cours/Semestre 4/Dépendances fonctionnelles.md",
     "Permanent/Programmation/SQL/Définition - Schéma d'une base de données.md",
     "Permanent/Programmation/SQL/Définition - Base de données.md",
