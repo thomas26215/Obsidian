@@ -205,6 +205,10 @@
 >$$P\begin{pmatrix}x_v\\y_v\end{pmatrix}=P\begin{pmatrix}x_u\\y_u\end{pmatrix}$$
 >$B=\{u_1,u_2\}$ $B'=\{v_1,v_2\}$
 
+# Exercice 11
+
+> $B=\{u_1,u_2,u_3\}$ et $B'=\{w_1,w_2,w_3\}$
+> $P_{BB'}=\begin{pmatrix}w_1&&w_2&&w_3\end{pmatrix}$
 ---
 
 # Questions

@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algèbre linéaire"
+              "title": "La qualité informatique"
             }
           }
         ],
@@ -388,9 +388,9 @@
   },
   "active": "a38ab252a6ff6fc2",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "HomePage.md",
     "VENOUIL Thomas.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Indépendance, Générateurs et Bases.md",
     "Famille génératrice.md",
