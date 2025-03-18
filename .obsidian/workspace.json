@@ -10,7 +10,6 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,7 +17,6 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "HomePage"
             }
@@ -374,6 +372,10 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
+    "Indépendance, Générateurs et Bases.md",
+    "Famille génératrice.md",
+    "HomePage.md",
     "Récupérer des variables depuis le contrôlleur.md",
     "Rendre une vue Twig dans une route.md",
     "Permanent/Programmation/PHP/Symfony/Les contrôleurs dans Symfony.md",
@@ -390,7 +392,6 @@
     "Permanent/Programmation/SQL/Définition - Base de données.md",
     "Permanent/Cours/Cours/Semestre 4/Dépendance fonctoinnelle cours 2.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled.md",
-    "HomePage.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/SAE Applciation pour les stages/BDD.md",
     "Excalidraw/Drawing 2025-03-14 15.00.13.excalidraw.md",
@@ -401,9 +402,6 @@
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
     "Projets/En cours/Game",
     "Littéraire/Techniques de base aux échecs.md",
-    "Permanent/Programmation/JavaScript/La librairie assert NodeJS.md",
-    "Templates/Template Programmation.md",
-    "Permanent/Programmation/JavaScript/Ecrire des tests JS.md",
     "Permanent/Programmation/JavaScript",
     "Pasted image 20250312135903.png",
     "Pasted image 20250312135845.png",
