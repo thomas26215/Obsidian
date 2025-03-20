@@ -29,5 +29,6 @@
   "callout-suggestions",
   "dashboard-navigator",
   "command-tracker",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-vimrc-support"
 ]
