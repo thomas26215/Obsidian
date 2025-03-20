@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:MOOC  ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.08205769866579334,
+  "scale": 0.07465026820893172,
   "close": false
 }
