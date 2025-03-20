@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "Tests TP3 - Tests d'interface utilisateur"
             }
+          },
+          {
+            "id": "b039be3a0e5babee",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -383,8 +393,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "59e92083457da46d",
+  "active": "b039be3a0e5babee",
   "lastOpenFiles": [
+    "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "Permanent/Autre/ETL - Extract, Transform and Load.md",
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
@@ -411,7 +422,6 @@
     "Permanent/Programmation/SQL/Définition - Base de données.md",
     "Permanent/Cours/Cours/Semestre 4/Dépendance fonctoinnelle cours 2.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
-    "Projets/En cours/SAE Applciation pour les stages/BDD.md",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
     "Projets/En cours/Application mobile de sport/Untitled.canvas",
