@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
+                "file": "Permanent/Medias/Gestion d'une base de données avec Sqlite en Flutter.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algèbre linéaire"
+              "title": "Gestion d'une base de données avec Sqlite en Flutter"
             }
           }
         ],
@@ -427,6 +427,9 @@
   },
   "active": "5958143ca7692d05",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+    "Permanent/Medias/Gestion d'une base de données avec Sqlite en Flutter.md",
+    "Permanent/Medias/Untitled",
     "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Applications linéaires.md",
     "Théorème du rang.md",
@@ -434,7 +437,6 @@
     "Image.md",
     "Inbox/Créer un jeu vidéo avec Unity.md",
     "Indépendance, Générateurs et Bases.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
     "Untitled 13.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
@@ -452,7 +454,6 @@
     "Les templates Twig.md",
     "Permanent/Programmation/PHP/Symfony/Récupérer les paramètres dans l'URL.md",
     "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md",
-    "Permanent/Programmation/PHP/Symfony/Définition des routes.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
@@ -473,7 +474,6 @@
     "Cours/R1.08/TD2-Fonction-RH-Salaire-2023-241.pdf",
     "Cours/R1.08/TD04-Fonction-Production.pdf",
     "Cours/R1.05/TD3_arithmetique.pdf",
-    "Images/DiagrammeServeurSimple.png (Image PNG, 1920 × 1080 pixels).pdf",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
