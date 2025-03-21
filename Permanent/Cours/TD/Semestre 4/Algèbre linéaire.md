@@ -311,9 +311,7 @@ D'accord, voici la reconstitution des énoncés des exercices à partir des solu
 
 Ces énoncés ont été reconstitués au mieux à partir des réponses fournies.
 
-### Citations:
 
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49351872/156e9d07-f23f-477a-bf17-b65ed194f29c/paste.txt)
 ---
 
 D'accord, voici les corrections détaillées pour chaque exercice que j'ai donné précédemment.
