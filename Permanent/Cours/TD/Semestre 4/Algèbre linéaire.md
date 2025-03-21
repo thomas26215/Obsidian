@@ -209,6 +209,36 @@
 
 > $B=\{u_1,u_2,u_3\}$ et $B'=\{w_1,w_2,w_3\}$
 > $P_{BB'}=\begin{pmatrix}w_1&&w_2&&w_3\end{pmatrix}$
+
+# Exercice 12
+
+Rappel : pour chaque application, il faut vérifier les deux propriétés fondamentales des application linéaires :
+- **Additivité** : $f(u+v)=f(u)+f(v)$
+- **Homogénéité** : $f(cu)=cf(u)$
+
+**Exercice 1**
+> $(x,y,z)->x,y,z-1)$
+> 
+> **Test du vecteur nul** : $f(0,0,0) = (0,0,-1 \space!= (0,0,0))$ 
+> Ainsi, non linéaire
+
+**Exercice 2**
+> **Expression matricielle** : $$\begin{pmatrix}1&0&0\\0&1&0\\-2&1&1\end{pmatrix}\begin{pmatrix}x\\y\\z\end{pmatrix}$$
+> Ainsi, linéaire car représentable comme une matrice
+
+**Exercice 3**
+> **Contre-exemple avec l'additivité** :
+> Soient $u=(1,0,0)$ et $v=(0,1,0)$
+> - $f(u)=(1,0,0)$
+> - $f(v)=(1,1,0)$
+> - $f(u+v)=f(1,1,0)=(2,2,1)$
+> - $f(u)+f(v)=(2,1,0) \space != f(u+v)$
+> Ainsi, non linéaire
+
+**Exercice 4**
+> **Expression matricielle** : $$\begin{pmatrix}1&0&-1\\1&1&0\\0&0&0\end{pmatrix}\begin{pmatrix}x\\y\\z\end{pmatrix}$$
+> Ainsi, linéaire
+
 ---
 
 # Questions

@@ -6,8 +6,5 @@ tags:
 Complete: 
 Learned:
 ---
-- L'**image** de $f$, notée $\text{Im}(f)$, est l'ensemble des valeurs atteintes par $f$ :
-
-$$
-\text{Im}(f) = \{f(x) \mid x \in V\}
-$$
+L'ensemble des vecteurs de $F$ s'écrivant comme une image d'un vecteur $u$ de $E$ s'appelle l'image de $f$ et on le note $lm(f)$. C'est un sous-espace vectoriel de $F$
+$lm(f)=\{v\in F$ tels que $\exists u\in E, v=f(u)\}$
