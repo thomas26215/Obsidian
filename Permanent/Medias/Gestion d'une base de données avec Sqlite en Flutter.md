@@ -78,14 +78,21 @@ Enfin, l'utilisation d'un Singleton simplifie considérablement la gestion de la
 
 En résumé, le pattern Singleton pour `DatabaseHelper` offre une solution élégante et efficace pour gérer les interactions avec SQLite, assurant performance, cohérence et facilité d'utilisation dans le développement d'applications Flutter.
 
-> [!Important] Mise en place
-> ```dart
-> static DatabaseHelper? _instance;
-> Future<Database> get database async {
-> 	if(_database != null) return _database!;
-> 	_database = await _initDB('dabatase.db');
-> 	return _database!;
-> }
-> 
+```dart
+static Database? _database;
+Future<Database> get database async {
+	if (_database != null) return _database!;
+	_database = await _initDB('database.db');
+	return _database!;
+}
+```
 
 Il est important de noter que cette implémentation utilise la classe `Database` fournie par le package sqflite. Cette classe offre de nombreuses méthodes pour interagir avec la base de données SQLite, telles que `execute()` pour exécuter des requêtes SQL, `insert()` pour ajouter des données, `query()` pour récupérer des informations, `update()` pour modifier des enregistrements existants, et `delete()` pour supprimer des données[](https://dev.to/arslanyousaf12/sqlite-in-flutter-the-complete-guide-11nj). Ces méthodes permettent aux développeurs de réaliser toutes les opérations CRUD (Create, Read, Update, Delete) nécessaires pour une gestion complète de la base de données dans leur application Flutter.
+
+Il faut savoir que dans la majorité des méthodes du modèle, on passe la `DatabaseHelper` sur laquelle on va pouvoir effectuer les méthodes  de `Database`.
+> [!Example]
+> ```dart
+> 
+
+
+
