@@ -146,7 +146,7 @@ Dans le localStorage, il n'est possible de stocker que des chaînes de caractèr
 ---
 
 # Les promesses en JS
-Les promesses permettent de gérer des opérations asynchrones. Une promesse peut être dans l'un des trois états suivants :
+Les promesses permettent de gérer des opérations asynchrones. Elles permettent de gérer des tâches prenant du temps à s'exécuter sans pour autant bloquer le reste du code. Une promesse peut être dans l'un des trois états suivants :
 - `pending` : En attente
 - `fulfilled` : Réalisée
 - `rejected` : Rejetée
@@ -173,3 +173,69 @@ Il est possible de chaîner les promesses avec les méthodes `then` et `catch`. 
 > 	.catch(erreur => {
 > 		console.log(erreur);
 > 	});
+
+Il est possible de chaîner plusieurs promesses permettant d'éviter le callback hell
+
+> [!Example]
+> ```javascript
+> fetch('https:/api.example.com/users')
+> 	.then(response => response.json())
+> .then(user => fetch(`https:/api.example.com/posts/${user.id}`))
+> .then(response => response.json())
+> .then(posts => console.log(posts))
+> .catch(error => console.error(error));
+> ```
+> 
+> **Explications détaillées** :
+> - On récupère les utilisateurs
+> - On récupère les posts de l'utilisateur
+> - On affiche les posts
+> - On gère les erreurs
+
+Il existe une méthode `Promise.all()` qui permet d'exécuter plusieurs promesses en parallèle et de renvoyer un tableau de résultats
+
+> [!Example]
+> ```javascript
+> Promise.all([promise1, promise2, promise3])
+> .then(resultats => {
+> 	console.log(resultats);
+> })
+> .catch(erreur => console.error(erreur));
+
+---
+
+Voici un exemple complet sur l'utilisation des promesse :
+
+```javascript
+console.log("Début du chargement du profil");
+
+const chargerProfilUtilisateur = new Promise((resolve, reject) => {
+	setTimeout(() => {
+		const utilisateur = {
+			nom: "John",
+			age: 30
+		};
+		
+		if(Math.random() < 0.5) {
+			resolve(utilisateur);
+		} else {
+			reject("Erreur lors du chargement du profil");
+		}
+	}, 3000);
+});
+
+chargerProfilUtilisateur
+	.then(utilisateur => {
+		console.log(utilisateur);
+	})
+	.catch(erreur => {
+		console.error(erreur);
+	})
+	.finally(() => {
+		console.log("Fin du chargement du profil");
+	});
+
+console.log("Chargement du profil en cours ...");
+```
+
+Ici, le script JS commence par afficher "Début du chargement du profil" puis crée une promesse `chargerProfilUtilisateur` qui simule un chargement de profil utilisateur. Si le chargement réussit, la promesse est réalisée et affiche le profil de l'utilisateur. Si le chargement échoue, la promesse est rejetée et affiche une erreur. Enfin, le script affiche "Fin du chargement du profil", même si le chargement du profil échoue.
