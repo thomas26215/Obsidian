@@ -22,7 +22,12 @@ Un **contrôleur** dans Symfony est une classe PHP qui joue un rôle central d
 [[Les templates Twig]]
 [[Récupérer des variables depuis le contrôlleur]]
 
+---
 
+[[Mise en place de traduction Symfony]]
+[[Doctrine]]
+[[Les formulaires]]
+[[La sécurité dans Symfony]]
 
 
 
