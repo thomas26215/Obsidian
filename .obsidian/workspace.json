@@ -399,6 +399,16 @@
             "id": "921d1ecd88d33f0c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "80b97e6bcc83a00b",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -406,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "horizontal",
@@ -435,7 +445,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5958143ca7692d05",
+  "active": "80b97e6bcc83a00b",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
