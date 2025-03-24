@@ -239,6 +239,69 @@ Rappel : pour chaque application, il faut vérifier les deux propriétés fondam
 > **Expression matricielle** : $$\begin{pmatrix}1&0&-1\\1&1&0\\0&0&0\end{pmatrix}\begin{pmatrix}x\\y\\z\end{pmatrix}$$
 > Ainsi, linéaire
 
+# Exercice 15
+> Pour déterminer une matrice, on applique $f$ aux vecteurs de la base canonique de $\mathbb{R}^3$ à savoir $e_1=(1,0,0), e_2=(0,1,0), e_3=(0,0,1)$
+> - f(e_1)=f(1,0,0)=(1+2*0,0,1+0)=(1,0,1)$ 
+> - f(e_2)=f(0,1,0)=(0+2*1,1,0+0)=(2,1,0)$
+> - f(e_3)=f(0,0,1)=(0+2*0,0,1+0)=(0,0,1)$
+> 
+> La matrice de $f$ dans la base canonique de $\mathbb{R}^3$ est donc : $$\begin{pmatrix}1&2&0\\0&1&0\\1&0&1\end{pmatrix}$$
+
+**Exercice 2.a**
+> Le noyeau est l'ensemble des vecteurs $v=(x,y,z)$ tels que $Av=0$. Cela revient à résoudre le système linéaire suivant :
+> $$\begin{pmatrix}1&2&0\\0&1&0\\1&0&1\end{pmatrix}\begin{pmatrix}x\\y\\z\end{pmatrix}=\begin{pmatrix}0\\0\\0\end{pmatrix}$$
+> 
+> Ce qui donne les équations suivantes :
+> - $x+2y=0$
+> - $y=0$
+> - $x+z=0$
+> En résolvant le système, on trouve que $x=0, y=0, z=0$ donc le noyeau est réduit au vecteur nul : $ker(f) = \{(x,y,z)^r:x=y=z=0\}$
+> La base du noyeau est donc $B_{ker(f)}=\{\}$
+
+**Exercice 2.b**
+> L'image est engendrée par les colonnes de la matrice $A$ : $$\begin{pmatrix}1&2&0\\0&1&0\\1&0&1\end{pmatrix}$$
+> Les colonnes sont $v_1=(1,0,1), v_2=(2,1,0), v_3=(0,0,1)$
+> On vérifie leur dépedance linéaire : $v_1+v_2+v_3=(1,0,1)+(2,1,0)+(0,0,1)=(3,1,2)$
+> Nous avons vérifié que les colonnes sont linéairement indépendantes donc une base est constitué de ces 3 vecteurs :
+> $$B_{Im(f)}=\{(1,0,1),(2,1,0),(0,0,1)\}$$
+> Comme la dimension de l'image est 3 et que la dimension de l'espace de départ est 3, on a bien $dim(Im(f))=dim(\mathbb{R}^3)=3$ et donc $f$ est surjective
+
+# Exercice 16
+**Question 1**
+> Soit $B=(e_1, e_2, e_3)$ une base de $\mathbb{R}^3$ et $T$ une application linéaire de $\mathbb{R}^3$ dans $\mathbb{R}^3$ telle que :
+> - $T(e_1)=T(e_3)=e_3$
+> - $T(e_2)=-e_1+e_2+e_3$
+> 
+> Pour trouver le noyau de $T$, on cherche les vecteurs  $v=xe_1+ye_2+ze_3$ tels que $T(v)=0$.
+> $T(v)=T(xe_1+ye_2+ze_3)=xe_3+y(-e_1+e_2+e_3)+ze_3=-ye_1+ye_2+(x+y+z)e_3$
+> Pour que $T(v)=0$, on doit avoir $-y=0$, $y=0$ et $x+y+z=0$
+> Cela implique que $x=0$, $x+z=0$ et $x=-z$. Ainsi, les vecteurs du noyau sont de la forme $xe_1-xe_3=x(e_1-e_3)$
+> Une base du noyau est donc $(e_1-e_3)$
+
+**Exercice 2**
+> La matrice A est formée des coordonnées des vecteurs $T(e_1), T(e_2), T(e_3)$ dans la base $B$.
+> - $T(e_1)=e_3=0e_1+0e_2+1e_3$
+> - $T(e_2)=-e_1+e_2+e_3=-1e_1+1e_2+1e_3$
+> - $T(e_3)=e_3=0e_1+0e_2+1e_3$
+> Donc la matrice est : $$A=\begin{pmatrix}0&-1&0\\0&1&0\\1&1&1\end{pmatrix}$$
+
+**Exercice 3.a**
+> Calculer $e_1, e_2, e_3$ en fonction de $u_1, u_2, u_3$
+> On a le système :
+> - $u_1=e_1-e_3$
+> - $u_2=e_1-e_2$
+> - $u_3=-e_1+e_2+e_3$
+> 
+> On peut exprimer $e_1, e_2, e_3$ en fonction de $u_1, u_2, u_3$ en résolvant ce système :
+> - $e_1=\frac{1}{2}(u_1+u_2-u_3)$
+> - $e_2=\frac{1}{2}(u_1+u_3)$
+> - $e_3=\frac{1}{2}(u_1-u_2+u_3)$
+> 
+> Ainsi, nous avons exprimé les vecteurs $e_1, e_2, e_3$ en fonction de $u_1, u_2, u_3$
+
+**Exercice 3.b**
+> 
+
 ---
 
 # Questions
