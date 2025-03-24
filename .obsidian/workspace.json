@@ -422,6 +422,16 @@
             "id": "119b90a4681a9b69",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "888461816f3587c3",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -429,7 +439,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "horizontal",
@@ -458,8 +468,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5958143ca7692d05",
+  "active": "888461816f3587c3",
   "lastOpenFiles": [
+    "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
+    "Inbox/Créer un jeu vidéo avec Unity.md",
+    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
+    "Projets/En cours/SAE Applciation pour les stages/Algorithme Hongrois.md",
     "Projets/En cours/Cartographie application.md",
     "La sécurité dans Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
@@ -471,7 +485,6 @@
     "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Permanent/Medias/Gestion d'une base de données avec Sqlite en Flutter.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Permanent/Medias/Untitled",
@@ -479,14 +492,11 @@
     "Théorème du rang.md",
     "Noyeau.md",
     "Image.md",
-    "Inbox/Créer un jeu vidéo avec Unity.md",
     "Indépendance, Générateurs et Bases.md",
     "Untitled 13.md",
-    "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "Permanent/Autre/ETL - Extract, Transform and Load.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled.md",
-    "Home.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
