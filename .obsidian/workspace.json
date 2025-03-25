@@ -161,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algèbre linéaire"
+              "title": "Backlinks"
             }
           },
           {
@@ -442,13 +441,24 @@
             "id": "5cba2144c4db3a37",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "64aae964894de677",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 24
       }
     ],
     "direction": "horizontal",
@@ -476,7 +486,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b0b625bc74dc987f",
+  "active": "64aae964894de677",
   "lastOpenFiles": [
     "Projets/En cours/SAE Applciation pour les stages/Algorithme Hongrois.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
