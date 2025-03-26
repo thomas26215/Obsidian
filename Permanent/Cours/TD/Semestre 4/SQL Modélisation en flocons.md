@@ -96,5 +96,15 @@ classDiagram
 	ResultatCourse-->Coureur
 	ResultatCourse-->Categorie
 	Categorie-->TrancheAge
-	
-	
+```
+
+# Exercice 2
+**Question 1**
+
+|                                  | Bac d'origine | Age | Mineur | Groupe | Semestre | Annee | Horaire | UE  | Type épreuve |
+| -------------------------------- | ------------- | --- | ------ | ------ | -------- | ----- | ------- | --- | ------------ |
+| Pourcentage d'absent             | X             | X   | X      |        |          |       |         |     |              |
+| Nombre étudiant absents          |               |     |        | X      | X        | X     |         |     |              |
+| Nombre absents                   |               |     |        |        |          |       | X       |     |              |
+| Pourcentage absents              |               |     |        |        |          |       |         | X   | X            |
+| Note moyenne / Mediane / Min max |               |     |        | X      | X        | X     |         | X   |              |
