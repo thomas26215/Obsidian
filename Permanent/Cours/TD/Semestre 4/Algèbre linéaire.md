@@ -302,6 +302,249 @@ Rappel : pour chaque application, il faut vérifier les deux propriétés fondam
 **Exercice 3.b**
 > 
 
+# Exercice 22
+**Question 2**
+> $u_2=\begin{pmatrix}1\\0\\-1\end{pmatrix}, \lambda_2=1$, nous vérifions $Au_2=\lambda_2u_2$ 
+
+**Question 3**
+> $u_3=\begin{pmatrix}-2\\1\\3\end{pmatrix}, \lambda_3=-3$, nous vérifions $Au_3=\lambda_3u_3$
+
+**Question 4**
+> $P=\begin{pmatrix}2&1&-2\\-2&0&1\\2&-1&3\end{pmatrix}$, $P^{-1}AP=D=\begin{pmatrix}2&0&0\\0&-1&0\\0&0&-3\end{pmatrix}$
+
+**Cours**
+> Une valeur propre est une nombre $\lambda$ tel que $Ax=\lambda x$ avec $x\neq 0$ et $x$ est un vecteur propre
+> Un vecteur propre est un vecteur non nul qui, lorsqu'il est transformé par cette application, ne change que d'échelle sans changer de direction. Mathématiquement, un vecteur $x$ est un vecteur propre de $A$ si $Ax=\lambda x$ avec $\lambda$ un scalaire appelé valeur propre
+> 
+> Soit $A$ la matrice de l'application linéaire $f:E->E$.
+> Sous espace propre : $$E_1=\{x\in E, Ax=\lambda x\} = \{v\in E, Av-\lambda v=\vec{0}\} = \{v\in R, (A-\lambda I)v=\vec{0}\}$$ Si $\lambda$ n'est pas une valeur propre alors $E_1=\{\vec{0}\}$
+> Si $\lambda$ est valeur propre alors $E_1$ alors $dim(E_1)>=1$
+> Soit $\lambda_1, \lambda_2, ..., \lambda_k$ les valeurs propres de $A$ si $dim(E_{\lambda_1})+dim(E_{\lambda_2})+...+dim(E_{\lambda_k})=dim(E)$ alors $A$ est diagonalisable
+> 
+> **Remarque** : $E_ {\lambda_1} + E_{\lambda_2} + ... + E_{\lambda_k}=E$
+> Soit $B_1$ une base de $E_{\lambda_1}, ..., B_k$ une base de $E_{\lambda_k}$ alors $P$ est construire à partir des bases $B_i(1, i<=k)$ 
+> 
+
+**Exercice 23**
+> Pour $\lambda = 1$
+> Soit $u=(x, y, z)$. $Av=\lambda v$ revient à résoudre le système suivant : $$A(x, y, z)=(x,y,z) <=> \left\{ \begin{array}{ll} 2y-z=x \\3x-2y=y\\-2x+2y+z=z \end{array} \right. <=> \left\{ \begin{array}{ll} -x+2y-z=0\\3x-3y=0\\-2x+2y=0 \end{array} \right. <=> \left\{ \begin{array}{ll} -x+2y-z=0\\x=y\\x=y  \end{array} \right. <=> \left\{ \begin{array}{ll} y-z=0\\x=y \end{array} \right. <=> \left\{ \begin{array}{ll} x=z\\x=y \end{array} \right.$$
+> $E_1=vect(\{(1,1,1)\}), dim E_1=1$
+> ---
+> $$(A-2I)v=\vec{0}=\left(\begin{array}{ccc|c}-2&2&-1&0\\3&-4&0&0\\-2&2&-1&0\end{array}\right)$$
+> $$E_2=\left\{ \begin{array}{ll} -2x+2y-z=0\\3x-4y=0\\-2x+2y-z=0 \end{array} \right. \Leftrightarrow \left\{ \begin{array}{ll} -2x+2y-z=0\\3x=4y\\ \end{array} \right. \Leftrightarrow \left\{ \begin{array}{ll} z = -\frac{2}{3}y\\x=\frac{4}{3}y\\ \end{array} \right. \Leftrightarrow E_2 = \text{Vect}\left\{ \begin{pmatrix} 4 \\ 3 \\ -2 \end{pmatrix} \right\}$$
+> ---
+> $$E_3=\left\{ \begin{array}{ll} 4x+2y-z=0\\3x+2y=0\\-2x+2y+5z=0 \end{array} \right. \Leftrightarrow \left\{ \begin{array}{ll} 4x+2y-z=0\\2y=-3x\\ \end{array} \right. \Leftrightarrow \left\{ \begin{array}{ll} z = x\\y=-\frac{3}{2}x\\ \end{array} \right. \Leftrightarrow E_3 = \text{Vect}\left\{ \begin{pmatrix} 2 \\ -3 \\ 2 \end{pmatrix} \right\}$$
+> 
+> La dimension de chaque sous-espace propre est 1 (car chacun est engendré par un seul vecteur). Donc : $dim⁡(E1)+dim⁡(E2)+dim⁡(E−4)=1+1+1=3$
+> Puisque la somme des dimensions des sous-espaces propres est égale à la dimension de l'espace total (3), la matrice $A$ est diagonalisable.
+> **Conclusion :** La matrice $A$ est diagonalisable car la somme des dimensions de ses sous-espaces propres est égale à la dimension de l'espace vectoriel $\mathbb{R}^3$.
+
+# Exercice 24
+
+
+
+Soit $f$ l’endomorphisme de $\mathbb{R}^3$ dont la matrice dans la base canonique est
+$$
+A = \begin{pmatrix}
+3 & 0 & -1 \\
+2 & 4 & 2 \\
+-1 & 0 & 3
+\end{pmatrix}
+$$
+
+1.  Calculer la matrice $A - 2I$. En déduire un vecteur propre associé à la valeur propre 2.
+2.  Déterminer les sous-espaces propres associés aux valeurs propres 2 et 4.
+3.  La matrice $A$ est-elle diagonalisable ?
+4.  Calculer $A^3$.
+
+
+
+**1. Calcul de la matrice $A - 2I$ et déduction d'un vecteur propre associé à la valeur propre 2.**
+
+On calcule d'abord $A - 2I$ :
+$$
+A - 2I = \begin{pmatrix}
+3-2 & 0 & -1 \\
+2 & 4-2 & 2 \\
+-1 & 0 & 3-2
+\end{pmatrix} = \begin{pmatrix}
+1 & 0 & -1 \\
+2 & 2 & 2 \\
+-1 & 0 & 1
+\end{pmatrix}
+$$
+
+Pour trouver un vecteur propre associé à la valeur propre 2, on cherche un vecteur non nul $v = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$ tel que $(A - 2I)v = 0$. Cela revient à résoudre le système d'équations :
+
+$$
+\begin{cases}
+x - z = 0 \\
+2x + 2y + 2z = 0 \\
+-x + z = 0
+\end{cases}
+$$
+
+Simplifions ce système :
+
+$$
+\begin{cases}
+x = z \\
+x + y + z = 0
+\end{cases}
+$$
+
+En substituant $z = x$ dans la seconde équation, on obtient :
+
+$$
+x + y + x = 0 \implies y = -2x
+$$
+
+Donc, les vecteurs propres associés à $\lambda = 2$ sont de la forme :
+
+$$
+v = \begin{pmatrix}
+x \\
+-2x \\
+x
+\end{pmatrix} = x \begin{pmatrix}
+1 \\
+-2 \\
+1
+\end{pmatrix}
+$$
+
+Un vecteur propre associé à la valeur propre 2 est $\begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}$.
+
+**2. Détermination des sous-espaces propres associés aux valeurs propres 2 et 4.**
+
+*   Nous avons déjà trouvé le sous-espace propre pour $\lambda = 2$ :
+
+$$
+E_2 = \text{Vect}\left\{ \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix} \right\}
+$$
+
+*   Maintenant, trouvons le sous-espace propre pour $\lambda = 4$ :
+
+On calcule $A - 4I$ :
+
+$$
+A - 4I = \begin{pmatrix}
+3-4 & 0 & -1 \\
+2 & 4-4 & 2 \\
+-1 & 0 & 3-4
+\end{pmatrix} = \begin{pmatrix}
+-1 & 0 & -1 \\
+2 & 0 & 2 \\
+-1 & 0 & -1
+\end{pmatrix}
+$$
+
+On cherche les vecteurs $v = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$ tels que $(A - 4I)v = 0$. Cela revient à résoudre le système d'équations :
+
+$$
+\begin{cases}
+-x - z = 0 \\
+2x + 2z = 0 \\
+-x - z = 0
+\end{cases}
+$$
+
+Ce système se réduit à :
+
+$$
+x + z = 0 \implies z = -x
+$$
+
+Ici, $y$ est une variable libre. Donc, les vecteurs propres associés à $\lambda = 4$ sont de la forme :
+
+$$
+v = \begin{pmatrix}
+x \\
+y \\
+-x
+\end{pmatrix} = x \begin{pmatrix}
+1 \\
+0 \\
+-1
+\end{pmatrix} + y \begin{pmatrix}
+0 \\
+1 \\
+0
+\end{pmatrix}
+$$
+
+Le sous-espace propre $E_4$ est donc engendré par les vecteurs $\begin{pmatrix} 1 \\ 0 \\ -1 \end{pmatrix}$ et $\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$. Donc,
+
+$$
+E_4 = \text{Vect}\left\{ \begin{pmatrix} 1 \\ 0 \\ -1 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \right\}
+$$
+
+**3. Diagonalisabilité de la matrice $A$.**
+
+Pour que la matrice $A$ soit diagonalisable, il faut que la somme des dimensions de ses sous-espaces propres soit égale à la dimension de l'espace total (ici, 3).
+
+Nous avons :
+
+$$
+\dim(E_2) = 1 \\
+\dim(E_4) = 2
+$$
+
+Donc :
+
+$$
+\dim(E_2) + \dim(E_4) = 1 + 2 = 3
+$$
+
+Puisque la somme des dimensions des sous-espaces propres est égale à la dimension de l'espace total, la matrice $A$ est diagonalisable.
+
+**4. Calcul de $A^3$.**
+
+Calculons directement $A^3 = A \cdot A \cdot A$.
+
+$$
+A^2 = \begin{pmatrix}
+3 & 0 & -1 \\
+2 & 4 & 2 \\
+-1 & 0 & 3
+\end{pmatrix} \begin{pmatrix}
+3 & 0 & -1 \\
+2 & 4 & 2 \\
+-1 & 0 & 3
+\end{pmatrix} = \begin{pmatrix}
+10 & 0 & -6 \\
+10 & 16 & 6 \\
+-6 & 0 & 10
+\end{pmatrix}
+$$
+
+$$
+A^3 = A \cdot A^2 = \begin{pmatrix}
+3 & 0 & -1 \\
+2 & 4 & 2 \\
+-1 & 0 & 3
+\end{pmatrix} \begin{pmatrix}
+10 & 0 & -6 \\
+10 & 16 & 6 \\
+-6 & 0 & 10
+\end{pmatrix} = \begin{pmatrix}
+36 & 0 & -28 \\
+52 & 64 & 32 \\
+-28 & 0 & 36
+\end{pmatrix}
+$$
+
+Donc,
+
+$$
+A^3 = \begin{pmatrix}
+36 & 0 & -28 \\
+52 & 64 & 32 \\
+-28 & 0 & 36
+\end{pmatrix}
+$$
+
+
 ---
 
 # Questions

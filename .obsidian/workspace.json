@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -501,10 +501,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0b72ad1fd8821e97",
+  "active": "5958143ca7692d05",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
     "Permanent/Autre/Virtualiser.md",
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
     "Permanent/Autre/Les VM et les conteneurs.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
     "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
