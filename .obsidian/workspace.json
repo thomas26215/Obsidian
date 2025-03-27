@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-                "mode": "source",
+                "file": "Permanent/Autre/Virtualiser.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtualisation - Conteneurs et docker"
+              "title": "Virtualiser"
             }
           }
         ],
@@ -503,8 +503,11 @@
   },
   "active": "0b72ad1fd8821e97",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
+    "Permanent/Autre/Virtualiser.md",
+    "Permanent/Autre/Les VM et les conteneurs.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+    "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
     "Projets/En cours/SAE Applciation pour les stages/Algorithme Hongrois.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
     "Inbox/Créer un jeu vidéo avec Unity.md",
@@ -527,9 +530,6 @@
     "Noyeau.md",
     "Image.md",
     "Indépendance, Générateurs et Bases.md",
-    "Untitled 13.md",
-    "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
-    "Permanent/Autre/ETL - Extract, Transform and Load.md",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
