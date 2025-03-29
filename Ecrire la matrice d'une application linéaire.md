@@ -27,6 +27,5 @@ La matrice d'une application linéaire est une représentation de cette applicat
 >         - (1, -1, 0) = 1 * (1, 0, 0) + (-1) * (0, 1, 0) + 0 * (0, 0, 1) -> Coordonnées : (1, -1, 0)
 > 4. **Construction de la matrice :**
 >     - On prend les coordonnées qu'on a trouvées et on les met en colonnes :
-> - text
->     `|  1  1 | |  1 -1 | |  2  0 |`
+>     $begin{pmatrix}1&1\\1&-1\\2&0\end{pmatrix}$
 > - Voilà, c'est la matrice de l'application linéaire `f` dans les bases canoniques.

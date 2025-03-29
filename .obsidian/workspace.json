@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications linéaires.md",
-                "mode": "preview",
+                "file": "Image.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applications linéaires"
+              "title": "Image"
             }
           }
         ],
@@ -517,13 +517,15 @@
   },
   "active": "5958143ca7692d05",
   "lastOpenFiles": [
-    "Applications linéaires.md",
     "Image.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "Ecrire la matrice d'une application linéaire.md",
+    "Image.md~",
+    "Applications linéaires.md",
     "Noyeau.md",
-    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
+    "Noyeau.md~",
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Ecrire la matrice d'une application linéaire.md~",
+    "Ecrire la matrice d'une application linéaire.md",
+    "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
     "Requêtes disponibles.md",
     "Projets/En cours/SAE Applciation pour les stages/Algorithme Hongrois.md",
     "Projets/En cours/SAE Applciation pour les stages/SAE 4.Real.01 Développement d’une application complexe - Rétroconception du code.md",
@@ -543,7 +545,6 @@
     "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
     "Mise en place de traduction Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
-    "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
     "Permanent/Medias/Untitled",
     "Permanent/Cours/Cours/Semestre 4/Untitled",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
@@ -562,8 +563,6 @@
     "Pasted image 20250220195448.png",
     "Cours/R1.04/cours4.pdf",
     "Cours/R1.05/cours-ensembles.pdf",
-    "Cours/R1.08/TD2-Fonction-RH-Salaire-2023-241.pdf",
-    "Cours/R1.08/TD04-Fonction-Production.pdf",
     "Untitled.canvas",
     "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
     "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
