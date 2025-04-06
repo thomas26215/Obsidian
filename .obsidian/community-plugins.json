@@ -33,5 +33,7 @@
   "obsidian-vimrc-support",
   "github-copilot",
   "advanced-cursors",
-  "slash-commander"
+  "slash-commander",
+  "sqlseal",
+  "sqlseal-charts"
 ]

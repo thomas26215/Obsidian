@@ -16,6 +16,8 @@ Learned: false
 
 [[Applications linéaires]] (+ [[Théorème du rang]])
 
+[[Ecrire la matrice d'une application linéaire]]
+
 
 ---
 # Matrice d'une application linéaire

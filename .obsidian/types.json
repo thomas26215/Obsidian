@@ -31,6 +31,7 @@
     "excalidraw-iframe-theme": "text",
     "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
-    "Outil": "multitext"
+    "Outil": "multitext",
+    "MOOC": "text"
   }
 }
