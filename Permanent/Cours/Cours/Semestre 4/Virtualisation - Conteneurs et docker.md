@@ -51,3 +51,21 @@ Au départ, certains appels système pouvaient être fait uniquement par le root
 
 # Présentation de Docker
 C'est un gestion gestionnaire de conteneurs C'est un logiciel libre écrit en **Go** et est multi-plateformes
+
+>[!Info]
+>Sur les plateformes autre que Linux, Docker tourne sur machine virtuelle
+
+Les **images** contiennent les fichiers nécessaires
+Les **conteneurs** sont une instance d'une image en train de s'exécuter. Un conteneur contient un ou plusieurs processus. Ils peuvent être crées, démarrés, arrêtés ou supprimés
+Les **volumes** servent à stocker des données que l'on veut garder de façon persistante
+
+Plusieurs conteneurs peuvent utiliser la même image mais l'espace disque n'est utilisé que seule fois. L'image est montée automatiquement dans l'arborescence des fichiers des conteneurs tournant sur cette image
+
+## Images de Docker
+Les images sont stockées dans un format appelé OCI. Les images sont immuables et si on a besoin de modifier une image, on rmpile les modifications dans une couche qui se superpose à l'image de départ. Les images sont souvent constituées de plusieurs couches. On peut utiliser des images standards ou fabriquer ses propres images avec des `Dockerfile`
+Les images localement utilisées sont téléchargées et stockées dans un cache local. On peut uploader ses images sur son propre serveur ou sur le Docker Hub.
+
+Il faut faire attention aux données écrites dans un conteneurs car elles peuvent facilement être perdues. En effet, se des processus écrivent dans une image, les écritures ne sont conservées que si le conteneur n'est pas détruit. Se pose ainsi le problème quand on veut démarrer un conteneur sur une nouvelle version d'une image
+
+# Utilisation de Docker
+Le package docker est disponible avec la commande `docker.io`. Par défaut, seul `root` peut utiliser Docker mais on peut autoriser d'autres utilisateurs en les ajoutent au groupe `docker`. Les images téléchargées sont communes à tous les utilisateurs, sans propriétaire ni contrôle d'accès. Les conteneur lancés sont communs à tous les utilisateurs sans propriétaire ni contrôle d'accès
