@@ -300,7 +300,43 @@ Rappel : pour chaque application, il faut vérifier les deux propriétés fondam
 > Ainsi, nous avons exprimé les vecteurs $e_1, e_2, e_3$ en fonction de $u_1, u_2, u_3$
 
 **Exercice 3.b**
-> 
+> On veut $T_(u_1), T_(u_2)$ et $T(u_3)$ dans la base $U=\{u_1, u_2, u_3\}$ 
+> - $T(u_1)=T(e_1-e_3)=T(e_1)-T(e_2)=e_3-e_3=0$
+> - $T(u_2)=T(e_1-e_2)=T(e_1)-T(e_2)=e_3-(-e_1+e_2+e_3)=-e_1-e_2=u_2$
+> - $T(u_3) = ...$
+> $$A=\begin{pmatrix}0&-1&0\\0&1&0\\1&1&1\end{pmatrix}$$
+> $$P_{BV}=\begin{pmatrix}1&1&-1\\0&-1&1\\-1&0&1\end{pmatrix}$$
+> $$Pˆ{-1}_{BU}=\begin{pmatrix}1&1&0\\1&0&1\\1&1&1\end{pmatrix}$$
+> $$D=\begin{pmatrix}0&0&0\\0&1&0\\0&0&1\end{pmatrix}$$
+
+# Exercice 17
+**Exercice 1**
+> La matrice est de dimension $3*2$ ce qui signifie donc qu'elle représente une équation linéaire de $\mathbb{R}ˆ3$ dans $\mathbb{R}ˆ2$ telle que $f(x, y, z) = (
+> 2x-y, y-z)$
+
+**Exercice 2**
+> La matrice est de dimension $2*3$ ce qui signifie qu'elle représente une équation linéaire de $\mathbb{R}ˆ2$ dans $\mathbb{R}ˆ3$ telle que $g(x,y,z)=(x+y, x-y, 2x+3y)$
+
+**Exercice 3**
+> $gof = g(f(x)) = g(f((x,y,z))) <=> g((2x-y, y-z) <=> (2x-y)+(y-z), (2x-y)-(y-z), 2(2x-y)-(y-z)+3(y-z) <=> 2x-y, 2x-y_0-y+z, 4x+z-3z <=> 2x-z, 2x-2y+z, 4x+y-3z$
+> Ainsi :
+> - $f(1,0,0)=(2,2,4)$
+> - $f(0,1,0)=(0, -2, 1)$
+> - $f(0,0,1)=(-1, 1, -3)$
+> Donc $$P=\begin{pmatrix}2&0&-1\\2&-2&1\\4&1&-3\end{pmatrix}$$
+
+**Exercice 4 :**
+> ![[Drawing 2025-03-25 13.47.26.excalidraw]]
+
+**Exercice 5 :**
+> $gof((x,y,z))=0<=>\begin{Bmatrix}x=\frac{z}{2}\\y=z\\0=0\end{Bmatrix}$
+> $Ker(gof)=\{(x,y,z)\in\mathbb{R}ˆ{3}; x=\frac{y}{2}, y=z\}=\{(\frac{z}{2}, z, z), z\in\mathbb{R}\}=vect(\{\frac{z}{2},1,1\})$
+>
+> $$gof((x, y, z))=(a, b, c)<=>\begin{Bmatrix}2x-z=a\\2x-2y+z=b\\4x+y-3z=c\end{Bmatrix}<=>\dots<=>\begin{Bmatrix}2x-y=a\\-2y+2z=b-a\\0=-5a+b+2c\end{Bmatrix}$$
+> $Im(gof)=\{(a,b,c)\in\mathbb{R}ˆ3, -5a+b+2c=0)\}\{(a, 5a-2c, c), a\in\mathbb{R}\}=vect(\{(1,5,0),(0,-2,1)\})$ 
+
+**Exercice 18**
+> Soit $B=\{}
 
 ---
 
