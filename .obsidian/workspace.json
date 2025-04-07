@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "La sécurité dans Symfony.md",
+                "file": "Débuter avec Symfony 5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La sécurité dans Symfony"
+              "title": "Débuter avec Symfony 5"
             }
           }
         ]
@@ -197,11 +197,14 @@
       "publish:Publish changes...": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "d733ec1e36c16c2b",
   "lastOpenFiles": [
+    "La sécurité dans Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
     "Les templates Twig.md",
     "Récupérer des variables depuis le contrôlleur.md",
@@ -212,7 +215,6 @@
     "Les formulaires.md",
     "Permanent/Programmation/PHP/Symfony/Créer un controlleur.md",
     "Mise en place de traduction Symfony.md",
-    "La sécurité dans Symfony.md",
     "Rendre une vue Twig dans une route.md",
     "Permanent/Programmation/PHP/Symfony/Structure de base d'un contrôleur.md",
     "Permanent/Cours/TP/Semestre 4/Virtualisation TP2.md",
