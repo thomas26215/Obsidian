@@ -2,6 +2,11 @@
 
 Symfony intègre un composant de construction de formulaires ("Form Builder") qui permet de créer et manipuler des formulaires HTML via des objets PHP. Les formulaires Symfony sont toujours associés à une entité PHP (généralement une entité Doctrine).
 
+Pour créer un formulaire : 
+```shell
+php bin/console make:form
+```
+
 ### Fonctionnalités principales :
 
 - Génération automatique de HTML via Twig
