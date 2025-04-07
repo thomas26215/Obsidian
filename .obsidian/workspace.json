@@ -1,110 +1,54 @@
 {
   "main": {
-    "id": "898dcf6e67737a0c",
+    "id": "3d0530359ef0ba5c",
     "type": "split",
     "children": [
       {
-        "id": "020987fb6be85ade",
+        "id": "01e2015eee30aa44",
         "type": "tabs",
         "children": [
           {
-            "id": "4e08a5960f0dd3ff",
+            "id": "d733ec1e36c16c2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Les pointeurs - C.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Les pointeurs - C"
-            }
-          },
-          {
-            "id": "2fe3a046cb898173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 8.md",
+                "file": "Permanent/Cours/TP/Semestre 4/Virtualisation TP2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 8"
-            }
-          },
-          {
-            "id": "386290e3a07b171b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Documentation Technique.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Documentation Technique"
-            }
-          },
-          {
-            "id": "2131dc07017aec22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flutter Widgets.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flutter Widgets"
-            }
-          },
-          {
-            "id": "08c8a8d3806b95c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clean code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clean code"
+              "title": "Virtualisation TP2"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d02a027293bc57a2",
+    "id": "d76bb75014304663",
     "type": "split",
     "children": [
       {
-        "id": "883d239ddc28720f",
+        "id": "7949913320d07b6f",
         "type": "tabs",
         "children": [
           {
-            "id": "26930f4f00436aea",
+            "id": "b276507554951933",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "9d9abe3d10c97f30",
+            "id": "457dcd9358414c35",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -121,7 +65,7 @@
             }
           },
           {
-            "id": "ee551dcfadc225ee",
+            "id": "3092692c53911b1f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -134,42 +78,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "8c4f70df493ebba7",
+    "id": "6a171c1bab587bb4",
     "type": "split",
     "children": [
       {
-        "id": "b9f585d7813b0463",
+        "id": "d803ea42f362ee6f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b625bc74dc987f",
+            "id": "ce9827b3e7397721",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for PDO - Exécution de requête préparée"
             }
           },
           {
-            "id": "1d342e80f9fb8668",
+            "id": "c89687a81f756db2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PDO - Exécution de requête préparée"
+            }
+          },
+          {
+            "id": "2a321e5d8ce408f1",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
@@ -177,69 +135,7 @@
             }
           },
           {
-            "id": "66e587d48df7a77c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "MOOC/Big MOCS/Autre.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Autre"
-            }
-          },
-          {
-            "id": "35e933e1cc640cce",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Gestion Complète des Données de Requête avec Request"
-            }
-          },
-          {
-            "id": "ceb83811872d7ba4",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1.00155925155925,
-                  "lineSizeMultiplier": 1.77577962577963,
-                  "collapse-forces": true,
-                  "centerStrength": 0.529106029106029,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 140,
-                  "scale": 0.14054852638695126,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "44c10021f5f438fa",
+            "id": "c0a8b33131b215a4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -253,147 +149,29 @@
             }
           },
           {
-            "id": "807d069a5bfee8c5",
+            "id": "d904ed1c15e798d8",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a107db2f9f54918d",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
+              "type": "outline",
               "state": {
-                "file": "La verticalisation de l'offre.md"
+                "file": "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md"
               },
-              "icon": "lucide-info",
-              "title": "File properties for La verticalisation de l'offre"
-            }
-          },
-          {
-            "id": "ae156f7290499699",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "519b54ea16f988f7",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "27d14a6cb0c8be90",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "6765a24cfa35bf74",
-            "type": "leaf",
-            "state": {
-              "type": "smart-search-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "2ee7c15127ff9cde",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0c8d6cc32f5dd73f",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a70c1944e5261870",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "2fbdded40e767116",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "9c1d9417825c8edb",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "669c7ef872c44bc5",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "2f15d84bbd54c3f6",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-list",
+              "title": "Outline of PDO - Exécution de requête préparée"
             }
           }
-        ],
-        "currentTab": 18
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections-visualizer:Open smart connections visualizer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -402,73 +180,47 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "publish:Publish changes...": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "smart-connections-visualizer:Open smart connections visualizer": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2131dc07017aec22",
+  "active": "d733ec1e36c16c2b",
   "lastOpenFiles": [
-    "Documentation Technique.md",
-    "Flutter Widgets.md",
-    "Clean code.md",
-    "Les pointeurs - C.md",
-    "Untitled 8.md",
-    "Untitled 9.md",
-    "Excalidraw/Drawing 2025-01-12 08.49.37.excalidraw.md",
-    "Fiche de Renseignements Raynet stagiaire.pdf",
-    "Pasted image 20250112084602.png",
-    "Ressources/Ressource 1/L'adverbe en Chinois.md",
-    "Permanent/Autre/Le chiffrement RSA.md",
-    "Permanent/Autre/RGPD.md",
-    "Permanent/Mathématiques/Générateur.md",
-    "Permanent/Autre/La CNIL.md",
-    "Ressources/Ressource 1/Demander le nom d'une personne.md",
-    "Ressources/Ressource 1/Le charactère 给 (gěi).md",
-    "Permanent/Programmation/Git/Le remisage.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "CRM - Customer RelationShip Management.md",
-    "Projets/En cours/DM - Droit, VENOUIL Thomas, A12.md",
-    "Untitled 5.md",
-    "Permanent/Programmation/PHP/PDO - Récupérer les données après un SELECT.md",
-    "Permanent/Programmation/PHP/Utilisation de SQLite avec PHP.md",
+    "Permanent/Cours/TP/Semestre 4/TP Virtualisation.md",
+    "Permanent/Cours/TP/Semestre 4/Virtualisation TP2.md",
+    "Permanent/Cours/TP/ETL.md",
     "Permanent/Programmation/PHP/PDO - Exécution de requête préparée.md",
-    "Permanent/Programmation/PHP/PDO - Exécution de requête simple.md",
-    "Permanent/Programmation/PHP/PDO - Création d'une table.md",
-    "Permanent/Autre/Permissions et droits d'accès.md",
-    "Permanent/Autre/Droit d'accès aux fichiers.md",
-    "Permanent/Autre/financière",
+    "Permanent/Cours/TP/Semestre 4",
+    "Untitled 9.md",
+    "Untitled 8.md",
+    "Projets/En cours/DM - Droit, VENOUIL Thomas, A12.md",
+    "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
+    "Permanent/Cours/TD/Semestre 4/Optimisation.md",
+    "Permanent/Cours/TD/Semestre 4",
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
+    "Permanent/Cours/Cours/Semestre 4/Tests.md",
+    "Permanent/Cours/Cours/Semestre 4/Structures de données et algorithmes.md",
+    "Permanent/Cours/Cours/Semestre 4/Semantic web.md",
+    "Permanent/Cours/Cours/Semestre 4/Semancic Web 2.md",
+    "Permanent/Cours/Cours/Semestre 4/La qualité informatique.md",
+    "Permanent/Cours/Cours/Semestre 4/JQuery.md",
+    "Permanent/Cours/Cours/Semestre 4/JQuery 2.md",
+    "Permanent/Cours/Cours/Semestre 4/Dépendances fonctionnelles.md",
+    "Permanent/Cours/Cours/Semestre 4/Digital Forensics.md",
+    "Permanent/Cours/Cours/Semestre 4/Digital Forensic 2.md",
+    "Permanent/Cours/Cours/Semestre 4/Architecture logicielle.md",
+    "Permanent/Cours/Cours/Semestre 4/Analyse.md",
+    "Permanent/Cours/Cours/Semestre 4",
     "Permanent/Autre/non",
+    "Permanent/Autre/financière",
+    "Permanent/Autre/Utilisation des partitions pour plusieurs utilisateurs ou pour ajouter du stockage.md",
+    "Permanent/Autre/Types d'interfaces pour les machines personnelles.md",
+    "Permanent/Autre/Société non financière.md",
+    "Permanent/Autre/Société financière.md",
     "Permanent/Autre/Société",
-    "Permanent/Autre/Composition d'un processus.md~",
-    "Permanent/Autre/Caractériser une entreprise.md~",
-    "Permanent/Autre/Apprendre sur les centres d'intérêts de son public.md~",
-    "Permanent/Autre/Calcul du PIB habitant.md~",
-    "Permanent/Autre/Algorithme de la clé RSA.md~",
-    "Permanent/Autre/Algorithme d'Euclide.md~",
-    "Pasted image 20241206153158.png",
-    "Pasted image 20241210162638.png",
-    "Pasted image 20241203215338.png",
-    "Pasted image 20241203215252.png",
-    "Pasted image 20241203215231.png",
-    "Pasted image 20241203214252.png",
-    "Pasted image 20241203180837.png",
-    "Pasted image 20241203180144.png",
-    "Pasted image 20241203214321.png",
-    "Untitled.canvas",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Untitled 14.canvas",
-    "Untitled 13.canvas",
-    "Untitled 12.canvas",
-    "Untitled 11.canvas",
-    "Untitled 10.canvas"
+    "Pasted image 20250112084602.png",
+    "Fiche de Renseignements Raynet stagiaire.pdf",
+    ":"
   ]
 }
