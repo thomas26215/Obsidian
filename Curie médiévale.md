@@ -1,0 +1,3 @@
+## Curie médiévale
+
+La Curie médiévale était une administration complexe dirigée par le pape. Elle comprenait divers organes tels que la Chambre apostolique, chargée de la gestion financière, la chancellerie apostolique, responsable des documents officiels, et d'autres institutions comme la pénitencerie. Chaque organe avait des fonctions spécifiques et un personnel dédié, comprenant trésoriers, notaires et scribes.

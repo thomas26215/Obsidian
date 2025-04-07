@@ -1,0 +1,14 @@
+.callout[data-callout="example"] {
+  --callout-color: 0, 196, 154 !important; /* Vert */
+  --callout-icon: lucide-file-text !important; /* Icône de fichier texte */
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: 169, 179, 206 !important; /* Bleu clair */
+  --callout-icon: lucide-ambulance !important; /* Icône de fichier texte */
+}
+
+.callout[data-callout="propriete"] {
+  --callout-color: 217, 93, 57 !important; /* Rouge orangé */
+  --callout-icon: lucide-file-text !important; /* Icône de bloc */
+}

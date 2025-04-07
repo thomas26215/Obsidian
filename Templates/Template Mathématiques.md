@@ -1,5 +1,8 @@
 ---
 MOOC: "[[Mathématiques]]"
-Thématique: 
-tags: []
+Thème: 
+Sujet: 
+tags: 
+Complete: 
+Learned:
 ---

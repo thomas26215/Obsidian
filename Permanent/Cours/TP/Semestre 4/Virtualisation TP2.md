@@ -1,4 +1,5 @@
-parititons : `/dev/sda1`, `/dev/sda2`, `/dev/sda5`
+ .
+ parititons : `/dev/sda1`, `/dev/sda2`, `/dev/sda5`
 
 # TP4
 

@@ -5,13 +5,7 @@
 [[Le charactère 给 (gěi)]]
 [[Construire une interrogative en Chinois]]
 [[Demander le nom d'une personne]]
-
-
-Adverbes avant le verbe (exemple adverbe = beaucoup, bien ..)
-**Exemple** : 我很喜欢喝茶 = J'aime boire du thé (sans adverbe),
-我超级讨厌雨天 = Je déteste vraiment les jours de pluie (avec adverbe)
-→ Dans la première phrase, 很 signifie très. En chinois, on dit *j'aime très boire le thé*
-→ La deuxième, 超级 = *hyper* et 讨厌 = *détester*. Ainsi, en chinois, on dit *J'hyper déteste la pluie*
+[[Les adverbes]]
 
 Adjectifs se placent avant le nom qu'ils décrivent
 **Exemple** : 冰啤酒 = une bière fraîche, 新房子 = une nouvelle maison

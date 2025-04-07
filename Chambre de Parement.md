@@ -1,0 +1,3 @@
+## Chambre de Parement
+
+La Chambre de Parement servait d'antichambre aux appartements privés du pape, utilisée pour des audiences privées et des réunions secrètes des cardinaux. Elle était décorée de riches tapisseries, et son nom vient de ces "parements". La salle a accueilli des cérémonies importantes, comme la remise de l'anneau et du chapeau aux cardinaux. Le faux-marbre peint au XIVe siècle est encore visible malgré des modifications militaires au XIXe siècle.

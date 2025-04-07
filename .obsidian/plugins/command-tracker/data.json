@@ -1,0 +1,11 @@
+{
+  "viewCommandTracker": {
+    "viewType": "Count per command",
+    "dateFormat": "yyyy/mm/dd",
+    "isProtectData": false,
+    "isStopTracing": false,
+    "maximumRecords": 2000,
+    "retentionPeriod": 60,
+    "version": "0.3.1"
+  }
+}

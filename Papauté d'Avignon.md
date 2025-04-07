@@ -1,0 +1,3 @@
+## Papauté d'Avignon
+
+La papauté d'Avignon s'est installée au XIVe siècle dans un contexte de troubles politiques et religieux. Les papes ont choisi Avignon pour sa position stratégique, proche de la France et au carrefour de l'Europe. Cette période a duré de 1309 à 1377, avec des papes comme Clément V, Jean XXII, Benoît XII, Clément VI, Innocent VI, Urbain V et Grégoire XI. Chacun de ces papes a contribué à façonner l'histoire de la papauté à Avignon.
