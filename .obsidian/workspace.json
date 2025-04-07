@@ -163,8 +163,19 @@
               "icon": "lucide-list",
               "title": "Outline of Les formulaires"
             }
+          },
+          {
+            "id": "4b87f4b64d7e68f9",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -172,6 +183,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "soundscapes:Soundscapes: My Music": false,
+      "dashboard-navigator:Open dashboard navigator": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
@@ -190,7 +203,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d733ec1e36c16c2b",
+  "active": "4b87f4b64d7e68f9",
   "lastOpenFiles": [
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
     "Doctrine.md",
