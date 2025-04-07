@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
+                "file": "Mise en place de traduction Symfony.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Utilisation de Symfony"
+              "title": "Mise en place de traduction Symfony"
             }
           },
           {
@@ -517,6 +517,7 @@
   },
   "active": "5958143ca7692d05",
   "lastOpenFiles": [
+    "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Excalidraw/Drawing 2025-03-25 13.47.26.excalidraw.md",
     "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
@@ -541,7 +542,6 @@
     "Inbox/Créer un jeu vidéo avec Unity.md",
     "Projets/En cours/Cartographie application.md",
     "La sécurité dans Symfony.md",
-    "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
     "Les formulaires.md",
     "Doctrine.md",
     "Permanent/Cours/Cours/Semestre 2/BD relationnelle et SQL simple.md",
