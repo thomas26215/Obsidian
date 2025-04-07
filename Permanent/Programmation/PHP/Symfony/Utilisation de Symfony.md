@@ -28,7 +28,7 @@ Un **contrôleur** dans Symfony est une classe PHP qui joue un rôle central d
 [[Doctrine]]
 [[Les formulaires]]
 [[La sécurité dans Symfony]]
-
+[[CRUD avec symfony]]
 
 
 
