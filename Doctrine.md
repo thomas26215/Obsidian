@@ -1,49 +1,53 @@
-# Doctrine ORM : Introduction et Utilisation
-
 ## Qu'est-ce que Doctrine ORM ?
 
-Doctrine ORM est une couche d'abstraction permettant de manipuler une **base de données relationnelle** en adoptant une approche orientée objet. Il permet d'éviter l'écriture de requêtes SQL complexes en offrant un système de gestion des entités en PHP.
+Doctrine ORM est une couche d'abstraction qui facilite la gestion des bases de données relationnelles en adoptant une approche orientée objet. En utilisant Doctrine, vous pouvez manipuler des objets PHP sans avoir à écrire directement des requêtes SQL. Cela simplifie les opérations CRUD (Create, Read, Update, Delete) et améliore la maintenabilité du code.
 
-Doctrine ORM résout plusieurs problèmes liés à la **persistance des données**, notamment :
+### Avantages de Doctrine ORM
+- Permet de travailler avec des objets PHP au lieu de tables SQL.
+- Simplifie les relations entre les entités (OneToOne, ManyToOne, etc.).
+- Offre des fonctionnalités avancées comme la persistance en cascade et la gestion des événements.
 
-- Récupérer les données (lecture)
-- Ajouter de nouvelles entrées
-- Mettre à jour les données existantes
-- Supprimer des éléments
+---
 
 ## Installer Doctrine ORM
 
-Pour installer Doctrine ORM avec Symfony, utiliser la commande suivante :
+Pour intégrer Doctrine dans un projet Symfony, exécutez les commandes suivantes :
 
-```shell
+```bash
 composer require symfony/orm-pack
 composer require --dev symfony/maker-bundle
 ```
 
+Ces commandes installent Doctrine ORM ainsi que l'outil MakerBundle pour générer facilement des entités et autres composants.
+
+---
+
 ## Configurer la connexion à la base de données
 
-Modifier le fichier `.env` pour définir les informations de connexion :
+Dans le fichier `.env`, configurez les informations de connexion à votre base de données :
 
 ```env
 DATABASE_URL="mysql://username:password@127.0.0.1:3306/nom_de_la_base?serverVersion=mariadb-10.4.14"
 ```
 
+Remplacez `username`, `password`, et `nom_de_la_base` par vos propres paramètres.
+
+---
+
 ## Créer une entité
 
-Une entité est une représentation d'une table de la base de données sous forme de classe PHP. Pour générer une entité, utiliser la commande suivante :
+Une entité représente une table dans la base de données sous forme de classe PHP. Pour générer une entité, utilisez la commande suivante :
 
-```shell
+```bash
 php bin/console make:entity
 ```
 
-Cette commande demandera :
+Vous serez invité à :
+- Donner un nom à l'entité.
+- Définir ses attributs (colonnes).
+- Spécifier leurs types (string, integer, etc.).
 
-- Le nom de l'entité
-- Les attributs (colonnes de la table correspondante)
-- Les types de données de ces attributs
-- Les relations éventuelles avec d'autres entités
-
-Exemple d'entité `Product` :
+### Exemple d'entité `Product`
 
 ```php
 namespace App\Entity;
@@ -66,59 +70,63 @@ class Product
 }
 ```
 
+---
+
 ## Générer et exécuter les migrations
 
-Une fois les entités créées ou modifiées, il est nécessaire de mettre à jour la structure de la base de données avec des migrations.
+Les migrations permettent de synchroniser la structure de votre base de données avec vos entités.
 
-1. Générer une migration :
-    
-    ```shell
-    php bin/console make:migration
-    ```
-    
-2. Exécuter la migration :
-    
-    ```shell
-    php bin/console doctrine:migrations:migrate
-    ```
-    
+1. **Générer une migration** :
+   ```bash
+   php bin/console make:migration
+   ```
+
+2. **Exécuter la migration** :
+   ```bash
+   php bin/console doctrine:migrations:migrate
+   ```
+
+---
 
 ## Persister une entité dans un contrôleur
 
-Une entité peut être enregistrée en base de données via un contrôleur en utilisant le **ManagerRegistry**.
+Pour enregistrer une entité en base de données, utilisez l'EntityManager fourni par Doctrine :
 
-Exemple :
+### Exemple : Créer un produit
 
 ```php
 use App\Entity\Product;
 use Symfony\Component\HttpFoundation\Response;
-use Doctrine\Persistence\ManagerRegistry;
+use Doctrine\ORM\EntityManagerInterface;
 
-public function createProduct(ManagerRegistry $doctrine): Response
+public function createProduct(EntityManagerInterface $entityManager): Response
 {
     $product = new Product();
     $product->setName('Keyboard');
     $product->setPrice(1999);
 
-    $em = $doctrine->getManager();
-    $em->persist($product);
-    $em->flush();
+    $entityManager->persist($product);
+    $entityManager->flush();
 
     return new Response('Produit créé avec succès !');
 }
 ```
 
+---
+
 ## Récupérer des données depuis la base
 
-Doctrine fournit plusieurs méthodes pour récupérer des données via le Repository d'une entité.
+Doctrine offre plusieurs méthodes pour récupérer des données via le Repository associé à chaque entité.
 
-Exemple :
+### Exemple : Récupérer un produit
 
 ```php
 $product = $doctrine->getRepository(Product::class)->find($id);
 $products = $doctrine->getRepository(Product::class)->findAll();
 $product = $doctrine->getRepository(Product::class)->findOneBy(['name' => 'Keyboard']);
 ```
+
+---
 
 ## Mettre à jour et supprimer une entité
 
@@ -128,8 +136,7 @@ $product = $doctrine->getRepository(Product::class)->findOneBy(['name' => 'Keybo
 $product = $doctrine->getRepository(Product::class)->find($id);
 if ($product) {
     $product->setPrice(2499);
-    $em = $doctrine->getManager();
-    $em->flush();
+    $entityManager->flush();
 }
 ```
 
@@ -138,22 +145,18 @@ if ($product) {
 ```php
 $product = $doctrine->getRepository(Product::class)->find($id);
 if ($product) {
-    $em = $doctrine->getManager();
-    $em->remove($product);
-    $em->flush();
+    $entityManager->remove($product);
+    $entityManager->flush();
 }
 ```
 
+---
+
 ## Relations entre entités
 
-Doctrine permet de définir des relations entre entités :
+Doctrine permet de définir des relations entre les entités pour gérer les associations entre tables.
 
-- `OneToOne`
-- `OneToMany`
-- `ManyToOne`
-- `ManyToMany`
-
-Exemple d'une relation `OneToMany` entre `Category` et `Product` :
+### Exemple : Relation OneToMany entre `Category` et `Product`
 
 ```php
 class Category
@@ -170,6 +173,46 @@ class Product
 }
 ```
 
-## Conclusion
+---
 
-Doctrine ORM est un outil puissant qui facilite la gestion des bases de données en PHP. Il permet de travailler avec une approche orientée objet, de générer automatiquement des migrations et de manipuler les entités de manière intuitive. Il est essentiel de bien comprendre son fonctionnement pour éviter les erreurs et optimiser la gestion des données.
+## Validation avant persistance
+
+Symfony Validator s'intègre parfaitement avec Doctrine pour valider les données avant leur persistance.
+
+### Exemple : Validation d'une entité `User`
+
+```php
+namespace App\Entity;
+
+use Symfony\Component\Validator\Constraints as Assert;
+
+class User
+{
+    #[Assert\NotBlank]
+    private string $name;
+
+    #[Assert\Email]
+    private string $email;
+}
+```
+
+---
+
+## Optimisation de la persistance
+
+Pour insérer ou mettre à jour un grand nombre d'entités efficacement, utilisez le traitement par lots :
+
+```php
+$batchSize = 20;
+for ($i = 1; $i setName('User ' . $i);
+
+    $entityManager->persist($user);
+
+    if (($i % $batchSize) === 0) {
+        $entityManager->flush();
+        $entityManager->clear();
+    }
+}
+$entityManager->flush();
+```
+
