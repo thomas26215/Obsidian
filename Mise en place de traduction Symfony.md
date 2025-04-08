@@ -91,4 +91,8 @@ Finalement, pour que l'utilisateur puisse changer sa langue, il faut ajouter un 
 		{{ locale }}
 	</a>
 {% endfor %}
-```}
+```
+
+---
+
+Pour appeler une route
