@@ -411,7 +411,7 @@ Ces concepts sont essentiels pour écrire un code JavaScript efficace et lisible
 
 ---
 
-### **Exemple complet avec explications**
+# **Exemple complet avec explications**
 
 Voici un exemple complet avec des commentaires détaillés :
 
@@ -555,5 +555,93 @@ document.addEventListener('DOMContentLoaded', fetchWord);
 
 L'utilisation de `.then()` ou `async/await` dépend principalement des préférences personnelles et du contexte du projet. Les deux approches permettent de gérer efficacement les appels asynchrones comme ceux effectués avec `fetch`.
 
+# Exemple 1
+
+Voici un exemple de code complet répondant à votre demande pour implémenter la méthode `getNewWordObject()` et son utilisation dans le contrôleur.
+
 ---
-Réponse de Perplexity: pplx.ai/share
+
+### **1. Méthode asynchrone `getNewWordObject()` dans le modèle**
+Cette méthode effectue une requête AJAX de type GET vers `generation.php` et retourne un objet JavaScript contenant le mot et le nombre d'essais.
+
+```javascript
+// Modèle : model.js
+async function getNewWordObject() {
+  try {
+    const response = await fetch("generation.php"); // Appel AJAX GET
+    if (!response.ok) {
+      throw new Error(`Erreur HTTP : ${response.status}`);
+    }
+    const data = await response.json(); // Conversion en objet JS
+    return data; // Exemple : { mot: "ELEPHANT", nb_essais: 6 }
+  } catch (error) {
+    console.error("Erreur lors de la récupération du mot :", error);
+    throw error; // Propagation de l'erreur pour gestion ultérieure
+  }
+}
+```
+
+---
+
+### **2. Appel de `getNewWordObject()` dans le contrôleur**
+Le contrôleur utilise la méthode asynchrone pour récupérer les données et les intégrer au jeu.
+
+```javascript
+// Contrôleur : main.js
+async function initGame() {
+  try {
+    const wordObject = await getNewWordObject(); // Appel de la méthode asynchrone
+    console.log(`Mot à deviner : ${wordObject.mot}, Nombre d'essais : ${wordObject.nb_essais}`);
+
+    // Exemple d'intégration dans le jeu
+    updateGameUI(wordObject.mot, wordObject.nb_essais);
+  } catch (error) {
+    console.error("Impossible d'initialiser le jeu :", error);
+  }
+}
+
+// Fonction pour mettre à jour l'interface utilisateur (exemple)
+function updateGameUI(mot, nbEssais) {
+  document.getElementById("word").textContent = "_ ".repeat(mot.length); // Affiche des tirets pour chaque lettre
+  document.getElementById("attempts").textContent = `Nombre d'essais restants : ${nbEssais}`;
+}
+
+// Initialisation du jeu au chargement de la page
+document.addEventListener("DOMContentLoaded", () => {
+  initGame();
+});
+```
+
+---
+
+### **3. Exemple de script PHP (`generation.php`)**
+Ce script génère un mot aléatoire parmi une liste et retourne un JSON structuré.
+
+```php
+ 5,
+    "ELEPHANT" => 6,
+    "TIGRE" => 4,
+    "GIRAFE" => 5,
+];
+
+$randomWord = array_rand($words); // Sélection aléatoire d'un mot
+$response = [
+    "mot" => $randomWord,
+    "nb_essais" => $words[$randomWord],
+];
+
+// Retourne le JSON
+header('Content-Type: application/json');
+echo json_encode($response);
+?>
+```
+
+-
+
+---
+
+### **Résumé du fonctionnement**
+1. La méthode `getNewWordObject()` envoie une requête AJAX à `generation.php` pour récupérer un mot aléatoire et le nombre d'essais disponibles.
+2. Le contrôleur (`main.js`) utilise cette méthode pour initialiser le jeu.
+3. L'interface utilisateur est mise à jour dynamiquement avec les données reçues.
+4. Le script PHP génère les données nécessaires sous forme de JSON.
