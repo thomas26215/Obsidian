@@ -411,7 +411,7 @@ Ces concepts sont essentiels pour écrire un code JavaScript efficace et lisible
 
 ---
 
-### **Exemple complet avec explications**
+# **Exemple complet avec explications**
 
 Voici un exemple complet avec des commentaires détaillés :
 

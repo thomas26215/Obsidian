@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "JavaScript"
             }
           }
         ],
@@ -219,8 +219,8 @@
   },
   "active": "3b49a5efbb281376",
   "lastOpenFiles": [
-    "La sécurité dans Symfony.md",
     "conflict-files-obsidian-git.md",
+    "La sécurité dans Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
     "Débuter avec Symfony 5.md",
     "Les templates Twig.md",
