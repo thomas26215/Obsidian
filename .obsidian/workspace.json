@@ -1,157 +1,42 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "c783af916757e930",
     "type": "split",
     "children": [
       {
-        "id": "0f8a7a2e26888fa0",
+        "id": "6782a87551fe2bf5",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1f51738c026a73",
+            "id": "3fc633330fe6c662",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Modélisation en étoile - Qualité du relationnel et au-delà"
-            }
-          },
-          {
-            "id": "59e92083457da46d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tests TP3 - Tests d'interface utilisateur"
-            }
-          },
-          {
-            "id": "b039be3a0e5babee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Créer un jeu vidéo avec Unity.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Créer un jeu vidéo avec Unity"
-            }
-          },
-          {
-            "id": "2b66442c7f17ea71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algèbre linéaire"
-            }
-          },
-          {
-            "id": "5958143ca7692d05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algèbre linéaire"
-            }
-          },
-          {
-            "id": "fb7f597814ca4cbd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Wireframe miniprojet android.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Wireframe miniprojet android"
-            }
-          },
-          {
-            "id": "0108ab1381b05314",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📱 Le cycle de vie d'une activité Android.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📱 Le cycle de vie d'une activité Android"
-            }
-          },
-          {
-            "id": "3790ae6add980e6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ecrire la matrice d'une application linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ecrire la matrice d'une application linéaire"
-            }
-          },
-          {
-            "id": "dad45a05d155a769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d02a027293bc57a2",
+    "id": "38a94be28f45d4eb",
     "type": "split",
     "children": [
       {
-        "id": "883d239ddc28720f",
+        "id": "1d32b0d9523f3301",
         "type": "tabs",
         "children": [
           {
-            "id": "26930f4f00436aea",
+            "id": "77fec8a6f7ac1018",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -159,12 +44,12 @@
             }
           },
           {
-            "id": "9d9abe3d10c97f30",
+            "id": "68a82d625e75ebea",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "indicateur",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,17 +61,7 @@
             }
           },
           {
-            "id": "ecd43d894d6dc0cf",
-            "type": "leaf",
-            "state": {
-              "type": "vertical-tabs",
-              "state": {},
-              "icon": "gallery-vertical",
-              "title": "Vertical tabs"
-            }
-          },
-          {
-            "id": "269f94b4b44afd4e",
+            "id": "3018b335471000ba",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -199,42 +74,54 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 300
   },
   "right": {
-    "id": "8c4f70df493ebba7",
+    "id": "9e6c335599bb018d",
     "type": "split",
     "children": [
       {
-        "id": "b9f585d7813b0463",
+        "id": "84b7fbd09357a208",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b625bc74dc987f",
+            "id": "72768ffd77bff0cf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📱 Le cycle de vie d'une activité Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📱 Le cycle de vie d'une activité Android"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1d342e80f9fb8668",
+            "id": "1d5c1d5d0850bb28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5d0a31ca27ee589a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -244,70 +131,7 @@
             }
           },
           {
-            "id": "66e587d48df7a77c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "La sécurité dans Symfony.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from La sécurité dans Symfony"
-            }
-          },
-          {
-            "id": "35e933e1cc640cce",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Permanent/Programmation/PHP/Symfony/Gestion Complète des Données de Requête avec Request.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Gestion Complète des Données de Requête avec Request"
-            }
-          },
-          {
-            "id": "ceb83811872d7ba4",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Permanent/Programmation/JavaScript/La librairie assert NodeJS.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1.00155925155925,
-                  "lineSizeMultiplier": 1.77577962577963,
-                  "collapse-forces": true,
-                  "centerStrength": 0.529106029106029,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 140,
-                  "scale": 0.2634921905727908,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of La librairie assert NodeJS"
-            }
-          },
-          {
-            "id": "44c10021f5f438fa",
+            "id": "c5721d7de3c1576d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -321,204 +145,21 @@
             }
           },
           {
-            "id": "807d069a5bfee8c5",
+            "id": "9ad27c7e604379ac",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JavaScript"
-            }
-          }
-        ],
-        "currentTab": 4
-=======
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline"
             }
           },
           {
-            "id": "a107db2f9f54918d",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "La verticalisation de l'offre.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for La verticalisation de l'offre"
-            }
-          },
-          {
-            "id": "ae156f7290499699",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "519b54ea16f988f7",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "27d14a6cb0c8be90",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "6765a24cfa35bf74",
-            "type": "leaf",
-            "state": {
-              "type": "smart-search-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "2ee7c15127ff9cde",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0c8d6cc32f5dd73f",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a70c1944e5261870",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "2fbdded40e767116",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "9c1d9417825c8edb",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "669c7ef872c44bc5",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "2f15d84bbd54c3f6",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "921d1ecd88d33f0c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "80b97e6bcc83a00b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "119b90a4681a9b69",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "888461816f3587c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "5cba2144c4db3a37",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "64aae964894de677",
+            "id": "455839eecb6f083e",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -527,19 +168,16 @@
               "title": "Saved Queries"
             }
           }
-        ]
->>>>>>> 67e802a541cf20736f8e7cc5b51966905cd61fd8
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
-=======
-      "soundscapes:Soundscapes: My Music": false,
->>>>>>> 67e802a541cf20736f8e7cc5b51966905cd61fd8
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -547,15 +185,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-<<<<<<< HEAD
-      "publish:Publish changes...": false
-    }
-  },
-  "active": "d904ed1c15e798d8",
-  "lastOpenFiles": [
-    "R4.A.10",
-    "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
-=======
       "publish:Publish changes...": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -563,85 +192,12 @@
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
+      "soundscapes:Soundscapes: My Music": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0108ab1381b05314",
-  "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
-    "SharedPreferences.md",
-    "RecyclerView.md",
-    "ListView.md",
-    "📱 Android – Pile d’activités & Intents.md",
-    "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
-    "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
-    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
-    "Permanent/Cours/TD/Semestre 4/Optimisation.md",
-    "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "📱 Le cycle de vie d'une activité Android.md",
-    "Daily note/2024-06-22.md",
-    "📱 Note de synthèse - Utilisation de Room en Android.md",
-    "📱 Concepts de base.md",
-    "Permanent/Cours/TD/Semestre 4/Untitled.md",
-    "Untitled 14.md",
-    "Excalidraw/Wireframe miniprojet android.md",
->>>>>>> 67e802a541cf20736f8e7cc5b51966905cd61fd8
-    "conflict-files-obsidian-git.md",
-    "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
-    "Permanent/Cours/TP/Semestre 4/Virtualisation TP2.md",
-<<<<<<< HEAD
-    "automates Regex.md",
-    "VENOUIL Thomas.md",
-    "Untitled 13.md",
-    "Untitled 12.md",
-    "Untitled 11.md",
-    "Untitled 10.md",
-    "Tour de l'Audience ou de la Gâche.md",
-    "Théorème du rang.md",
-    "Studium Benedicti.md",
-    "Projets/Finish/Stages",
-    "Projets/Finish/SAE 3.01",
-    "Projets/En cours/SAE Applciation pour les stages",
-    "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
-=======
-    "Permanent/Cours/TP/Semestre 4/TP Virtualisation.md",
-    "CRUD avec symfony.md",
-    "Mise en place de traduction Symfony.md",
-    "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
-    "Excalidraw/Drawing 2025-03-25 13.47.26.excalidraw.md",
-    "Image.md~",
-    "Noyeau.md~",
-    "Ecrire la matrice d'une application linéaire.md~",
-    "Permanent/Medias/Untitled",
-    "Permanent/Cours/Cours/Semestre 4/Untitled",
->>>>>>> 67e802a541cf20736f8e7cc5b51966905cd61fd8
-    "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
-    "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
-    "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Projets/En cours/Game",
-    "Permanent/Programmation/JavaScript",
-    "Pasted image 20250312135903.png",
-    "Pasted image 20250312135845.png",
-    "Pasted image 20250310214226.png",
-    "Permanent/Medias/Musées",
-    "Pasted image 20250220170606.png",
-    "Pasted image 20250220170605.png",
-    "Pasted image 20250220194451.png",
-    "Pasted image 20250220195310.png",
-    "Pasted image 20250220195448.png",
-    "Cours/R1.04/cours4.pdf",
-    "Cours/R1.05/cours-ensembles.pdf",
-    "Untitled.canvas",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Untitled 14.canvas",
-    "Untitled 13.canvas",
-    "Untitled 12.canvas",
-    "Untitled 11.canvas",
-    "Untitled 10.canvas"
-  ]
+  "active": "455839eecb6f083e",
+  "lastOpenFiles": []
 }
