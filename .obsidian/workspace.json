@@ -506,13 +506,24 @@
             "id": "64aae964894de677",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8c569259897e90af",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 25
       }
     ],
     "direction": "horizontal",
@@ -540,7 +551,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0108ab1381b05314",
+  "active": "8c569259897e90af",
   "lastOpenFiles": [
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "Permanent/Cours/Cours/Semestre 4/Tests.md",
