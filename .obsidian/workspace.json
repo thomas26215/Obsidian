@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📱 Le cycle de vie d'une activité Android.md",
-                "mode": "preview",
+                "file": "📱 Android – Pile d’activités & Intents.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📱 Le cycle de vie d'une activité Android"
+              "title": "📱 Android – Pile d’activités & Intents"
             }
           },
           {
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📱 Le cycle de vie d'une activité Android.md",
+                "file": "📱 Android – Pile d’activités & Intents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📱 Le cycle de vie d'une activité Android"
+              "title": "Backlinks for 📱 Android – Pile d’activités & Intents"
             }
           },
           {
@@ -543,6 +543,7 @@
   "active": "0108ab1381b05314",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
+    "📱 Le cycle de vie d'une activité Android.md",
     "SharedPreferences.md",
     "RecyclerView.md",
     "ListView.md",
@@ -553,7 +554,6 @@
     "Permanent/Cours/TD/Semestre 4/Optimisation.md",
     "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "📱 Le cycle de vie d'une activité Android.md",
     "Daily note/2024-06-22.md",
     "📱 Note de synthèse - Utilisation de Room en Android.md",
     "📱 Concepts de base.md",
