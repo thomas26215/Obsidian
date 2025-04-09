@@ -169,27 +169,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Les formulaires.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Les formulaires"
-            }
-          },
-          {
-            "id": "4b87f4b64d7e68f9",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "title": "Outline of JavaScript"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -197,11 +187,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections-visualizer:Open smart connections visualizer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -209,16 +194,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "publish:Publish changes...": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "3b49a5efbb281376",
+  "active": "d904ed1c15e798d8",
   "lastOpenFiles": [
+    "R4.A.10",
+    "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
     "conflict-files-obsidian-git.md",
     "La sécurité dans Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
@@ -243,8 +225,6 @@
     "Tour de l'Audience ou de la Gâche.md",
     "Théorème du rang.md",
     "Studium Benedicti.md",
-    "Sous-espace vectoriel.md",
-    "Sous espace engendré.md",
     "Projets/Finish/Stages",
     "Projets/Finish/SAE 3.01",
     "Projets/En cours/SAE Applciation pour les stages",
