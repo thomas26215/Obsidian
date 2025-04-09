@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
+                "file": "ListView.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📱 Android – Pile d’activités & Intents"
+              "title": "ListView"
             }
           },
           {
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "file": "ListView.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Virtualisation - Conteneurs et docker"
+              "title": "Backlinks for ListView"
             }
           },
           {
@@ -512,8 +512,7 @@
               "title": "Saved Queries"
             }
           }
-        ],
-        "currentTab": 24
+        ]
       }
     ],
     "direction": "horizontal",
@@ -543,6 +542,9 @@
   },
   "active": "0108ab1381b05314",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
+    "ListView.md",
+    "📱 Android – Pile d’activités & Intents.md",
     "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
@@ -551,9 +553,7 @@
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "📱 Le cycle de vie d'une activité Android.md",
     "Daily note/2024-06-22.md",
-    "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
     "📱 Note de synthèse - Utilisation de Room en Android.md",
-    "📱 Android – Pile d’activités & Intents.md",
     "📱 Concepts de base.md",
     "Permanent/Cours/TD/Semestre 4/Untitled.md",
     "Untitled 14.md",
@@ -569,7 +569,6 @@
     "Image.md",
     "Image.md~",
     "Applications linéaires.md",
-    "Noyeau.md",
     "Noyeau.md~",
     "Ecrire la matrice d'une application linéaire.md~",
     "Permanent/Medias/Untitled",
