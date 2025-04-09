@@ -13,7 +13,7 @@ Un `ListView` permet d’afficher une liste défilante d’éléments. Chaque é
 
 ---
 
-### 📌 1. Méthode simple : ListView + ArrayAdapter directement dans l’activité
+# 📌 1. Méthode simple : ListView + ArrayAdapter directement dans l’activité
 
 #### ✅ Quand l’utiliser ?
 
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-### 📌 2. Méthode personnalisée : ListView + Adapter personnalisé avec deux fichiers
+# 📌 2. Méthode personnalisée : ListView + Adapter personnalisé avec deux fichiers
 
 #### ✅ Quand l’utiliser ?
 
@@ -165,3 +165,159 @@ public class MainActivity extends AppCompatActivity {
 |**Adapter personnalisé**|Totalement flexible|Plus de code, plus complexe|
 
 Tu veux que je t’ajoute une version Kotlin ou une version avec `RecyclerView` aussi ?
+
+# 3. Avec fichier adapter
+## 📍 Note Complète : ListView avec Adapter personnalisé
+
+### 💡 Objectif
+
+Afficher une liste personnalisée dans une application Android à l'aide d'un `ListView` et d'un `Adapter` personnalisé, avec un layout XML pour chaque ligne, dans un fichier à part.
+
+---
+
+### 📂 Structure des fichiers
+
+1. `activity_main.xml` → layout principal (contenant le `ListView`)
+    
+2. `item_layout.xml` → layout XML de chaque élément de la liste
+    
+3. `FruitAdapter.java` → fichier Java séparé contenant l'adapter
+    
+4. `MainActivity.java` → activité principale qui connecte tout
+    
+
+---
+
+### 📅 1. Layout principal : `activity_main.xml`
+
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+```
+
+---
+
+### 📅 2. Layout d'une ligne : `item_layout.xml`
+
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+</LinearLayout>
+```
+
+---
+
+### 👨‍💼 3. Adapter personnalisé : `FruitAdapter.java`
+
+```java
+public class FruitAdapter extends BaseAdapter {
+
+    private Context context;
+    private String[] noms;
+    private int[] images;
+    private LayoutInflater inflater;
+
+    public FruitAdapter(Context context, String[] noms, int[] images) {
+        this.context = context;
+        this.noms = noms;
+        this.images = images;
+        this.inflater = LayoutInflater.from(context);
+    }
+
+    @Override
+    public int getCount() {
+        return noms.length;
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return noms[position];
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.item_layout, parent, false);
+        }
+
+        TextView texte = convertView.findViewById(R.id.texte);
+        ImageView icone = convertView.findViewById(R.id.icone);
+
+        texte.setText(noms[position]);
+        icone.setImageResource(images[position]);
+
+        return convertView;
+    }
+}
+```
+
+---
+
+### 📊 4. Activité principale : `MainActivity.java`
+
+```java
+public class MainActivity extends AppCompatActivity {
+
+    ListView liste;
+    String[] fruits = {"🍎 Pomme", "🍌 Banane", "🍍 Ananas", "🍇 Raisin"};
+    int[] images = {R.drawable.pomme, R.drawable.banane, R.drawable.ananas, R.drawable.raisin};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        liste = findViewById(R.id.liste);
+        FruitAdapter adapter = new FruitAdapter(this, fruits, images);
+        liste.setAdapter(adapter);
+    }
+}
+```
+
+---
+
+### 🚀 Résultat attendu
+
+- Un `ListView` affichant chaque fruit avec un emoji et une image (icône).
+    
+- Layout personnalisé et séparé pour chaque ligne (bonne pratique).
+    
+- Code clair, réutilisable, modulaire.
+    
+
+---
+
+### 🎓 Astuce Bonus
+
+- Tu peux ajouter un `OnItemClickListener` sur le `ListView` pour réagir aux clics.
+    
+- L'`adapter` peut être amélioré avec `ViewHolder` pour plus de performance.
+    
