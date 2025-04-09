@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
-                "mode": "source",
+                "file": "Table multiplication.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📱 Android – Pile d’activités & Intents"
+              "title": "Table multiplication"
             }
           },
           {
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
+                "file": "Table multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📱 Android – Pile d’activités & Intents"
+              "title": "Backlinks for Table multiplication"
             }
           },
           {
@@ -543,11 +543,12 @@
   "active": "0108ab1381b05314",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
+    "Table multiplication.md",
+    "📱 Android – Pile d’activités & Intents.md",
     "📱 Le cycle de vie d'une activité Android.md",
     "SharedPreferences.md",
     "RecyclerView.md",
     "ListView.md",
-    "📱 Android – Pile d’activités & Intents.md",
     "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
@@ -567,7 +568,6 @@
     "CRUD avec symfony.md",
     "Mise en place de traduction Symfony.md",
     "Permanent/Programmation/PHP/Symfony/Utilisation de Symfony.md",
-    "Excalidraw/Drawing 2025-03-25 13.47.26.excalidraw.md",
     "Image.md~",
     "Noyeau.md~",
     "Ecrire la matrice d'une application linéaire.md~",
