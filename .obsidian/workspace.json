@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtualisation"
+              "title": "Virtualisation - Conteneurs et docker"
             }
           },
           {
@@ -553,6 +553,14 @@
   },
   "active": "0108ab1381b05314",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
+    "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+    "Permanent/Autre/VPN.md",
+    "Permanent/Autre/Comment virtualiser.md",
+    "Permanent/Autre/Les différents types de fichiers.md",
+    "Permanent/Autre/Les VM et les conteneurs.md",
+    "Permanent/Autre/Virtualiser.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
     "conflict-files-obsidian-git.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
@@ -571,14 +579,6 @@
     "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
     "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
     "Daily note/2024-06-22.md",
-    "📱 Note de synthèse - Utilisation de Room en Android.md",
-    "📱 Concepts de base.md",
-    "Permanent/Cours/TD/Semestre 4/Untitled.md",
-    "Untitled 14.md",
-    "Excalidraw/Wireframe miniprojet android.md",
-    "Permanent/Cours/Cours/Semestre 4/JavaScript.md",
-    "Permanent/Cours/TP/Semestre 4/Virtualisation TP2.md",
-    "Permanent/Cours/TP/Semestre 4/TP Virtualisation.md",
     "Image.md~",
     "Noyeau.md~",
     "Ecrire la matrice d'une application linéaire.md~",
