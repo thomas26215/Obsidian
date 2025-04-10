@@ -1,124 +1,20 @@
 {
   "main": {
-    "id": "c783af916757e930",
+    "id": "c9385ae83c6eb69a",
     "type": "split",
     "children": [
       {
-        "id": "4324c73898d5982c",
+        "id": "8a44356109a1d921",
         "type": "tabs",
         "children": [
           {
-            "id": "3efebd7651587fd4",
+            "id": "9c333d1eba62f394",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tests TP3 - Tests d'interface utilisateur"
-            }
-          },
-          {
-            "id": "1b1ccaa04c18010c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Tests TP1"
-=======
-              "title": "Créer un jeu vidéo avec Unity"
-            }
-          },
-          {
-            "id": "2b66442c7f17ea71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algèbre linéaire"
-            }
-          },
-          {
-            "id": "5958143ca7692d05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algèbre linéaire"
-            }
-          },
-          {
-            "id": "fb7f597814ca4cbd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Wireframe miniprojet android.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Wireframe miniprojet android"
-            }
-          },
-          {
-            "id": "0108ab1381b05314",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtualisation - Conteneurs et docker"
-            }
-          },
-          {
-            "id": "3790ae6add980e6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ecrire la matrice d'une application linéaire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ecrire la matrice d'une application linéaire"
-            }
-          },
-          {
-            "id": "dad45a05d155a769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image"
->>>>>>> d02ed53d197086cba9a425376378b290fa895b26
+              "title": "New tab"
             }
           }
         ]
@@ -127,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "38a94be28f45d4eb",
+    "id": "f74327a396db7d65",
     "type": "split",
     "children": [
       {
-        "id": "1d32b0d9523f3301",
+        "id": "7c134863ab9c539c",
         "type": "tabs",
         "children": [
           {
-            "id": "77fec8a6f7ac1018",
+            "id": "1282753e67a8638f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -148,7 +44,7 @@
             }
           },
           {
-            "id": "68a82d625e75ebea",
+            "id": "3cecf2c46f14d92f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -165,7 +61,7 @@
             }
           },
           {
-            "id": "3018b335471000ba",
+            "id": "28d458d961de5aef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -178,24 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "9e6c335599bb018d",
+    "id": "27635c5cbfaacc8a",
     "type": "split",
     "children": [
       {
-        "id": "84b7fbd09357a208",
+        "id": "27997647f891c06d",
         "type": "tabs",
         "children": [
           {
-            "id": "72768ffd77bff0cf",
+            "id": "69b7fdb1ac700d12",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tests TP3 - Tests d'interface utilisateur"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1d5c1d5d0850bb28",
+            "id": "b6691934528e8d96",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 📱 Android – Pile d’activités & Intents"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "5d0a31ca27ee589a",
+            "id": "6637d0aeec7d2a27",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -238,7 +131,7 @@
             }
           },
           {
-            "id": "c5721d7de3c1576d",
+            "id": "85d8d8e473f8d073",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -252,32 +145,21 @@
             }
           },
           {
-            "id": "9ad27c7e604379ac",
+            "id": "68cdb001091f14ad",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📱 Android – Pile d’activités & Intents"
+              "title": "Outline"
             }
           },
           {
-            "id": "455839eecb6f083e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "00f0cd4fcc96f912",
+            "id": "3b060581429a9c8a",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -287,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -316,63 +198,6 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3efebd7651587fd4",
-  "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 4/Virtualisation.md",
-    "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
-    "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-    "Permanent/Autre/VPN.md",
-    "Permanent/Autre/Comment virtualiser.md",
-    "Permanent/Autre/Les différents types de fichiers.md",
-    "Permanent/Autre/Les VM et les conteneurs.md",
-    "Permanent/Autre/Virtualiser.md",
-    "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
-    "conflict-files-obsidian-git.md",
-    "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
-    "📱 Android – Pile d’activités & Intents.md",
-    "Table multiplication.md",
-    "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
-    "ListView.md",
-<<<<<<< HEAD
-    "📱 Note de synthèse - Utilisation de Room en Android.md"
-=======
-    "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
-    "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
-    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
-    "Permanent/Cours/TD/Semestre 4/Optimisation.md",
-    "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "Daily note/2024-06-22.md",
-    "Image.md~",
-    "Noyeau.md~",
-    "Ecrire la matrice d'une application linéaire.md~",
-    "Permanent/Medias/Untitled",
-    "Permanent/Cours/Cours/Semestre 4/Untitled",
-    "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
-    "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
-    "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Projets/En cours/Game",
-    "Permanent/Programmation/JavaScript",
-    "Pasted image 20250312135903.png",
-    "Pasted image 20250312135845.png",
-    "Pasted image 20250310214226.png",
-    "Permanent/Medias/Musées",
-    "Pasted image 20250220170606.png",
-    "Pasted image 20250220170605.png",
-    "Pasted image 20250220194451.png",
-    "Pasted image 20250220195310.png",
-    "Pasted image 20250220195448.png",
-    "Cours/R1.04/cours4.pdf",
-    "Cours/R1.05/cours-ensembles.pdf",
-    "Untitled.canvas",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Untitled 14.canvas",
-    "Untitled 13.canvas",
-    "Untitled 12.canvas",
-    "Untitled 11.canvas",
-    "Untitled 10.canvas"
->>>>>>> d02ed53d197086cba9a425376378b290fa895b26
-  ]
+  "active": "3b060581429a9c8a",
+  "lastOpenFiles": []
 }
