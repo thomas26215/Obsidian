@@ -179,6 +179,16 @@
             "id": "16c9e5727b6505cc",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2ed3c8c6ca9601d0",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -186,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -215,7 +225,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "16c9e5727b6505cc",
+  "active": "2ed3c8c6ca9601d0",
   "lastOpenFiles": [
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md"
   ]
