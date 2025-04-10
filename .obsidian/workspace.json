@@ -169,6 +169,16 @@
             "id": "455839eecb6f083e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "00f0cd4fcc96f912",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -176,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -204,6 +214,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3fc633330fe6c662",
-  "lastOpenFiles": []
+  "active": "00f0cd4fcc96f912",
+  "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
+    "ListView.md",
+    "📱 Note de synthèse - Utilisation de Room en Android.md",
+    "📱 Android – Pile d’activités & Intents.md"
+  ]
 }
