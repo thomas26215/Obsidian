@@ -156,7 +156,137 @@ startActivity(intent);
     
 - [Intent reference](https://developer.android.com/reference/android/content/Intent)
     
+# Envoyer une liste d'items
+
+Pour **envoyer une liste d’objets avec un `Intent`** en Android, tu peux procéder de différentes manières selon le type d’objet de ta liste.
 
 ---
 
-Tu veux aussi un tableau récap' ou un mémo à imprimer ?
+## ✅ 1. **Liste de types primitifs ou simples (`String`, `Integer`, etc.)**
+
+### 🔁 Exemple avec `ArrayList<String>` :
+
+**Activité A – envoi**
+
+```java
+Intent intent = new Intent(this, ActiviteB.class);
+ArrayList<String> maListe = new ArrayList<>();
+maListe.add("pomme");
+maListe.add("banane");
+
+intent.putStringArrayListExtra("fruits", maListe);
+startActivity(intent);
+```
+
+**Activité B – réception**
+
+```java
+ArrayList<String> fruits = getIntent().getStringArrayListExtra("fruits");
+```
+
+---
+
+## ✅ 2. **Liste d’objets personnalisés**
+
+L’objet doit :
+
+- Implémenter `Serializable` **ou** `Parcelable`
+    
+
+### a. 🔸 Avec `Serializable` (plus simple)
+
+**Ton objet :**
+
+```java
+public class Produit implements Serializable {
+    String nom;
+    int prix;
+
+    public Produit(String nom, int prix) {
+        this.nom = nom;
+        this.prix = prix;
+    }
+}
+```
+
+**Activité A – envoi :**
+
+```java
+ArrayList<Produit> listeProduits = new ArrayList<>();
+listeProduits.add(new Produit("Stylo", 2));
+listeProduits.add(new Produit("Classeur", 4));
+
+Intent intent = new Intent(this, ActiviteB.class);
+intent.putExtra("produits", listeProduits);
+startActivity(intent);
+```
+
+**Activité B – réception :**
+
+```java
+ArrayList<Produit> produits = (ArrayList<Produit>) getIntent().getSerializableExtra("produits");
+```
+
+---
+
+### b. 🧱 Avec `Parcelable` (plus performant, recommandé pour gros volumes)
+
+**Ton objet :**
+
+```java
+public class Produit implements Parcelable {
+    String nom;
+    int prix;
+
+    public Produit(String nom, int prix) {
+        this.nom = nom;
+        this.prix = prix;
+    }
+
+    protected Produit(Parcel in) {
+        nom = in.readString();
+        prix = in.readInt();
+    }
+
+    public static final Creator<Produit> CREATOR = new Creator<Produit>() {
+        @Override
+        public Produit createFromParcel(Parcel in) {
+            return new Produit(in);
+        }
+
+        @Override
+        public Produit[] newArray(int size) {
+            return new Produit[size];
+        }
+    };
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(nom);
+        dest.writeInt(prix);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+}
+```
+
+**Envoi (même que Serializable) :**
+
+```java
+Intent intent = new Intent(this, ActiviteB.class);
+intent.putParcelableArrayListExtra("produits", listeProduits);
+startActivity(intent);
+```
+
+**Réception :**
+
+```java
+ArrayList<Produit> produits = getIntent().getParcelableArrayListExtra("produits");
+```
+
+---
+
+Souhaites-tu un exemple complet avec interface et affichage via un `RecyclerView` aussi ?

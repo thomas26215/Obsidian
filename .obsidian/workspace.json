@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6782a87551fe2bf5",
+        "id": "4324c73898d5982c",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc633330fe6c662",
+            "id": "3efebd7651587fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
+                "file": "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📱 Android – Pile d’activités & Intents"
+              "title": "Tests TP3 - Tests d'interface utilisateur"
+            }
+          },
+          {
+            "id": "1b1ccaa04c18010c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tests TP1"
             }
           }
         ]
@@ -78,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9e6c335599bb018d",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📱 Android – Pile d’activités & Intents.md",
+                "file": "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 📱 Android – Pile d’activités & Intents"
+              "title": "Backlinks for Tests TP3 - Tests d'interface utilisateur"
             }
           },
           {
@@ -190,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,11 +230,15 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "00f0cd4fcc96f912",
+  "active": "3efebd7651587fd4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md",
+    "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
+    "📱 Android – Pile d’activités & Intents.md",
+    "Table multiplication.md",
     "Permanent/Cours/Cours/Semestre 4/Développement Android Java.md",
     "ListView.md",
-    "📱 Note de synthèse - Utilisation de Room en Android.md",
-    "📱 Android – Pile d’activités & Intents.md"
+    "📱 Note de synthèse - Utilisation de Room en Android.md"
   ]
 }

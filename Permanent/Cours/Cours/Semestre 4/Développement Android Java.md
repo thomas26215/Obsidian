@@ -6,3 +6,4 @@
 [[ListView]]
 [[RecyclerView]]
 [[SharedPreferences]]
+[[Table multiplication]]
