@@ -63,57 +63,41 @@ Nous retrouvons deux moyens de créer un test avec TestComplete :
 C'est la méthode la plus simple et la plus rapide pour écrire un test. Pour cela, il suffit de lancer l'application à tester et de cliquer sur le bouton "Enregistrer" dans TestComplete. Ensuite, il faut effectuer les actions que l'on souhaite tester dans l'application. TestComplete va enregistrer ces actions et les convertir en un test automatisé. Il est possible de modifier le test enregistré pour ajouter des assertions ou des vérifications supplémentaires.
 
 ### Barre d'enregistrement
-Bien sûr ! Voici une explication complète et structurée de toutes les fonctionnalités de la **Recording Toolbar** de TestComplete, en français et en phrases simples :
 
----
-
-## La barre d’outils d’enregistrement (Recording Toolbar) dans TestComplete
 
 Lorsque vous commencez à enregistrer un test avec TestComplete, une barre d’outils spéciale s’affiche à l’écran. Elle disparaît automatiquement quand l’enregistrement s’arrête. Cette barre vous permet de contrôler l’enregistrement et d’ajouter des actions ou des vérifications à votre test.
 
-### Les boutons principaux de la barre d’outils
+#### Les boutons principaux de la barre d’outils
 
-- **Record**  
-Ce bouton clignote pour montrer que l’enregistrement est en cours. Si vous mettez l’enregistrement en pause, ce bouton permet de le reprendre.
+- **Record** : Ce bouton clignote pour montrer que l’enregistrement est en cours. Si vous mettez l’enregistrement en pause, ce bouton permet de le reprendre.
 
-- **Pause**  
-Ce bouton met l’enregistrement en pause. Pour continuer, il suffit de cliquer à nouveau sur Record.
+- **Pause** : Ce bouton met l’enregistrement en pause. Pour continuer, il suffit de cliquer à nouveau sur Record.
 
-- **Stop**  
-Ce bouton arrête complètement l’enregistrement.
+- **Stop** : Ce bouton arrête complètement l’enregistrement.
 
-- **Next Step**  
-Ce bouton n’apparaît que si vous enregistrez des étapes de test BDD (Behavior Driven Development). Il permet d’arrêter l’enregistrement du code pour l’étape actuelle et de commencer à enregistrer l’étape suivante qui n’a pas encore de commandes de test.
+- **Next Step** : Ce bouton n’apparaît que si vous enregistrez des étapes de test BDD (Behavior Driven Development). Il permet d’arrêter l’enregistrement du code pour l’étape actuelle et de commencer à enregistrer l’étape suivante qui n’a pas encore de commandes de test.
 
-- **Add Check**  
-Ce bouton met l’enregistrement en pause pour ajouter un checkpoint (vérification). Un assistant s’ouvre pour vous aider à choisir le type de checkpoint et à définir ses propriétés. Une fois terminé, TestComplete ajoute automatiquement cette vérification à votre test.
+- **Add Check** : Ce bouton met l’enregistrement en pause pour ajouter un checkpoint (vérification). Un assistant s’ouvre pour vous aider à choisir le type de checkpoint et à définir ses propriétés. Une fois terminé, TestComplete ajoute automatiquement cette vérification à votre test.
 
-### Les boutons pour lancer des applications
+#### Les boutons pour lancer des applications
 
-- **Run App**  
-Ce bouton permet de lancer une ou plusieurs applications à tester. Vous pouvez choisir l’application dans une liste ou lancer toutes les applications définies dans le projet. Cette action est enregistrée dans le test.
+- **Run App* : Ce bouton permet de lancer une ou plusieurs applications à tester. Vous pouvez choisir l’application dans une liste ou lancer toutes les applications définies dans le projet. Cette action est enregistrée dans le test.
 
-- **Virtual Browser**  
-Ce bouton lance un émulateur de navigateur mobile. Vous pouvez choisir le navigateur à émuler. Cette action est aussi enregistrée dans le test. Pour utiliser cette fonction, il faut que Google Chrome soit installé sur votre ordinateur.
+- **Virtual Browser* : Ce bouton lance un émulateur de navigateur mobile. Vous pouvez choisir le navigateur à émuler. Cette action est aussi enregistrée dans le test. Pour utiliser cette fonction, il faut que Google Chrome soit installé sur votre ordinateur.
 
-### Les boutons pour enrichir le test
+#### Les boutons pour enrichir le test
 
-- **Add Comment**  
-Ce bouton ouvre une fenêtre pour ajouter un commentaire dans le test enregistré. Cela permet d’expliquer certaines étapes ou de donner des indications.
+- **Add Comment* : Ce bouton ouvre une fenêtre pour ajouter un commentaire dans le test enregistré. Cela permet d’expliquer certaines étapes ou de donner des indications.
 
-- **Test Type**  
-Ce bouton permet de choisir le type de test à enregistrer :
+- **Test Type** : Ce bouton permet de choisir le type de test à enregistrer :
   - Test de mots-clés (Keyword Test)
   - Script
   - Procédure bas niveau (en coordonnées d’écran ou de fenêtre)
 
-- **Custom Action**  
-Ce bouton met l’enregistrement en pause et exécute une action personnalisée, comme un checkpoint presse-papiers ou un checkpoint manuel. Ces actions sont ajoutées par des extensions de script.
+- **Custom Action** : Ce bouton met l’enregistrement en pause et exécute une action personnalisée, comme un checkpoint presse-papiers ou un checkpoint manuel. Ces actions sont ajoutées par des extensions de script.
+- **Parent and Object** : Ce bouton affiche des informations sur l’objet actuellement sous la souris et sur son parent. Cela aide à mieux comprendre la structure de l’interface testée.
 
-- **Parent and Object**  
-Ce bouton affiche des informations sur l’objet actuellement sous la souris et sur son parent. Cela aide à mieux comprendre la structure de l’interface testée.
-
-### Les options supplémentaires
+#### Les options supplémentaires
 
 - **Expand** : Ce bouton permet d’afficher tous les boutons disponibles sur la barre d’outils.
 - **Enable Quick Checkpoints** : Ce bouton active ou désactive la création rapide de checkpoints pendant l’enregistrement.
