@@ -34,7 +34,7 @@ TestComplete s’impose comme une solution complète et puissante pour l’autom
 
 
 
-# Créer des tests
+# Différents types de tests
 Il existe de nombreux types de tests dans TestComplete adaptés à différents besoins et à différents niveaux de complexité. Il existe 2 types majeurs de tests : les tests majeurs et les tests auxiliaires. Les tests majeurs sont des tests qui sont exécutés de manière autonome, tandis que les tests auxiliaires sont des tests qui sont appelés par d'autres tests. Les tests majeurs peuvent être des tests de régression, des tests de performance, des tests de sécurité, etc. Les tests auxiliaires peuvent être des fonctions ou des méthodes qui effectuent des actions spécifiques, comme la connexion à une base de données ou l'envoi d'un e-mail.
 
 ## Les tests majeurs
@@ -53,3 +53,22 @@ Une **Low-Level Procedure** est une suite d'instructions qui effectue des action
 
 ### Test unitaires
 => [[Test unitaire]]
+
+# Comment créer un test avec TestComplete
+Nous retrouvons deux moyens de créer un test avec TestComplete :
+- Enregistrement de l'application
+- Écriture de scripts
+
+## Enregistrement de l'application
+C'est la méthode la plus simple et la plus rapide pour écrire un test. Pour cela, il suffit de lancer l'application à tester et de cliquer sur le bouton "Enregistrer" dans TestComplete. Ensuite, il faut effectuer les actions que l'on souhaite tester dans l'application. TestComplete va enregistrer ces actions et les convertir en un test automatisé. Il est possible de modifier le test enregistré pour ajouter des assertions ou des vérifications supplémentaires.
+
+## Écriture de scripts
+L'écriture de scripts est la méthode la plus puissante et la plus flexible pour écrire des tests. Pour cela, il faut créer un nouveau projet dans TestComplete et écrire le code du test dans le langage de programmation de son choix (Python, VBScript, C#Script, JScript). Il est possible d'utiliser les fonctions et les méthodes de TestComplete pour interagir avec l'application à tester et effectuer des vérifications.
+
+# Plannifier les tests
+Pour pouvoir créer efficacement un test automatisé avec TestComplete, il faut :
+- **Identifer l'objectif du test** :  Identifier précisément les fonctionnalités à tester. Il faut privilégier des objectifs simples et claires. Une fois que plusieurs tests simple sont crées, on peut les organiser en tests plus complexes.
+- **Définir les étapes du test** : Déterminer les actions que doit effectuer le test (Ouverture de l'application, saisie ...). Structurer de manière séquentielle pour garantir la reproductibilité.
+- **Planifier les vérifications (checkpoints)** : Choisir les critères de réussite du test. Identifier les changements visuels ou de données à contrôler. Ajouter des points de contrôle (checkpoints) adaptés.
+- **Prévoir la consignation du test** : Consigner toutes les actions dans un journal de test. Ajouter des messages ou des images si nécessaire. Exporter, partager ou archiver les résultats. Créer un rapport de bug depuis le journal si besoin.
+
