@@ -1,83 +1,93 @@
-# Versionnage
-Nous travaillons sur 3 versions :
-- La version de production qui est la version la plus ancienne, celle où on est sûre qu'elle marche
-- La version de tests qui est la une version supérieure par rapport à la version de test
-- La version de dév qui est un version supérieure par rapport à la version de test
+Bien sûr, voici le contenu que j'ai précédemment organisé, mais cette fois intégré dans une grande partie intitulée **"Méthodes de travail et outils"**. Vous pouvez ajouter d'autres parties comme **"Présentation générale de l'entreprise"**, **"Chiffres clés"**, etc., selon vos besoins.
 
->[!Example]
-> - **Version de production** : `2.65`
-> - **Version de test** : `2.66`
-> - **Version de développement web** : `2.67`
+## Méthodes de travail et outils
 
+## Versionnage
 
-Quand La version de test est totalement testée et qu'on décide de la passer en production, chaque version prend une version supérieure :
-- **Version de production** <- Version de test
-- **Version de test** <- Version de développement
-- **Version de développement** <- `dev_version += 1`
-> [!Example]
-> En se référant à l'exemple :
-> - **Version de production** : `2.66`
-> - **Version de test** : `2.67`
-> - **Version de développement web** : `2.68`
+Nous travaillons sur trois versions distinctes du logiciel, chacune ayant un rôle spécifique dans le cycle de développement :
 
+- **Version de production** : La version la plus stable et éprouvée. Elle est utilisée en environnement réel.
+- **Version de test** : Une version intermédiaire, plus récente que la version de production, utilisée pour les tests approfondis.
+- **Version de développement** : La version la plus récente, où les nouvelles fonctionnalités et correctifs sont en cours de développement.
 
+## Cycle de mise à jour des versions
 
+Lorsque la version de test est validée et passe en production, les versions évoluent comme suit :
 
+1. La **version de production** prend la place de la version de test.
+2. La **version de test** prend la place de la version de développement.
+3. Une nouvelle **version de développement** est créée avec un incrément.
 
-# Organisation physique de l'usine
+## Exemple
+
+## Versions initiales :
+
+- Version de production : `2.65`
+- Version de test : `2.66`
+- Version de développement : `2.67`
+
+## Après mise à jour :
+
+- Nouvelle version de production : `2.66` (ancienne version de test)
+- Nouvelle version de test : `2.67` (ancienne version de développement)
+- Nouvelle version de développement : `2.68` (incrémentée).
+
+## Organisation physique de l'usine
+
+L'organisation physique d'une usine peut être représentée sous forme hiérarchique, allant du niveau global (l'usine) au niveau le plus détaillé (les postes de travail).
+
 ```mermaid
 flowchart LR
-P(Plant) --> I1(Ilot 1)
-P-->I2(Ilot 2)
-P-->I...(...)
-P-->In(Ilot n)
+P(Usine) --> I1(Ilot 1)
+P --> I2(Ilot 2)
+P --> I...(Autres Ilots)
+P --> In(Ilot n)
 
-I1-->WC1(WorkCenter 1111)
-I1-->WC2(WorkCenter 1112)
-I1-->WC...(WorkCenter ...)
-I1-->WCn(WorkCenter n)
+I1 --> WC1(WorkCenter 1111)
+I1 --> WC2(WorkCenter 1112)
+I1 --> WC...(Autres WorkCenters)
+I1 --> WCn(WorkCenter n)
 
-WC1-->WS1(Workstation 1)
-WC1-->WS2(Workstation 2)
-WC1-->WS...(...)
-WC1-->WSn(Workstation n)
+WC1 --> WS1(Poste 1)
+WC1 --> WS2(Poste 2)
+WC1 --> WS...(Autres Postes)
+WC1 --> WSn(Poste n)
 ```
 
-![[Exemple d'une Plant.excalidraw]]
+Cette structure reflète une organisation typique :
+- **Usine (Plant)** : Le site global.
+- **Ilots (Ilots)** : Regroupements d'équipements ou d'activités similaires
+- **WorkCenters** : Zones spécifiques dans un ilot où des processus précis sont effectués.
+- **Postes (Workstations)** : Les unités les plus détaillées où les tâches sont réalisées
 
-# Fonctionnement des logiciels
-3 logiciels :
-- Raypro supervision (Simuler chaîne de production)
-- Raypro machine (simuler une machine)
-- Raypro simulator (Simuler la production de quelque chose sur une machine)
+## Fonctionnement des logiciels
+Trois logiciels principaux sont utilisés pour gérer et simuler les processus industriels :
 
-## Raypro Supervision
+|Logiciel|Fonction principale|Utilisation en atelier|
+|---|---|---|
+|**Raypro Supervision**|Modélisation et optimisation des chaînes de production complètes|Oui|
+|**Raypro Simulator**|Simulation virtuelle des machines pour le développement et les tests|Non|
+|**Raypro Machine**|Suivi en temps réel des performances et du fonctionnement des machines|Oui|
 
-Ce logiciel est conçu pour paramétrer une chaîne de production complète. Il permet de modéliser les processus, les ressources et les objets impliqués dans une usine ou un atelier. Grâce à cette modélisation, les utilisateurs peuvent :
+## Détails des logiciels
 
-- Identifier les goulets d'étranglement et les inefficacités dans la chaîne de production.
-    
-- Optimiser les flux de production en se basant sur la modélisation effectuée.
-    
+## 1. **Raypro Supervision**
 
-## Raypro Simulator
+Ce logiciel est conçu pour paramétrer et modéliser une chaîne complète de production. Ses principales fonctionnalités incluent :
+- Identification des goulets d'étranglement et des inefficacités.
+- Optimisation des flux grâce à une modélisation précise des processus, ressources et objets impliqués.
 
-Ce logiciel permet de simuler la production d’un produit ou d’un objet sur une machine donnée. Il combine les capacités de Raynet Machine et Supervision pour modéliser l’ensemble du processus, depuis l’entrée des matières premières jusqu’à la sortie du produit fini. Les avantages incluent :
+## 2. **Raypro Simulator**
 
-- La vérification des performances des machines dans un environnement simulé.
-    
-- L’analyse des interactions entre différentes machines ou étapes de production.
-    
-- L’amélioration de la qualité et de l’efficacité globale du processus
+Raypro Simulator permet la simulation virtuelle d'une machine physique, utile pour le développement et les tests sans nécessiter l'accès à une machine réelle. Ses avantages :
+- Création d'un modèle virtuel précis d'une machine.
+- Test des programmes et configurations avant leur mise en œuvre réelle.
+- Réduction des coûts liés aux tests physiques.
 
-## Raypro Machine
+## 3. **Raypro Machine**
 
-Raynet Machine simule une machine physique pour les phases de développement et de test. Cela est particulièrement utile lorsque les machines ne sont pas disponibles physiquement dans le bâtiment ou lorsqu'il est coûteux ou impossible de les utiliser directement. Les fonctionnalités incluent :
-
-- La création d'un modèle virtuel précis d'une machine spécifique.
-    
-- La possibilité de tester des programmes et des configurations sur la machine simulée avant leur mise en œuvre réelle.
-    
-- Une réduction des coûts liés aux tests physiques grâce à la simulation[](https://www.cimco.com/software/cimco-machine-simulation/)
-    
+Ce logiciel est utilisé directement sur les machines pour surveiller leur fonctionnement pendant la production. Il offre :
+- Un suivi en temps réel des états des machines.
+- Une détection rapide des problèmes ou dysfonctionnements.
+- Un suivi précis des performances et délais pour chaque étape.
 

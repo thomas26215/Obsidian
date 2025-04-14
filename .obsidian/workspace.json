@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projets/En cours/Stage 2e année BUT informatique.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -273,6 +273,7 @@
   },
   "active": "5637dbe72fd84df7",
   "lastOpenFiles": [
+    "Projets/En cours/Stage 2e année BUT informatique.md~",
     "Excalidraw/Exemple d'une Plant.excalidraw.md",
     "Projets/En cours/Stage 2e année BUT informatique.md",
     "Projets/En cours/Cartographie application.md",
