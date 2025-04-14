@@ -61,7 +61,7 @@ Raynet est une entreprise dynamique alliant expertise informatique et industriel
 
 ## Versionnage
 
-Nous travaillons sur trois versions distinctes du logiciel, chacune ayant un rôl@@@@e spécifique dans le cycle de développement :
+Nous travaillons sur trois versions distinctes du logiciel, chacune ayant un rôle spécifique dans le cycle de développement :
 
 - **Version de production** : La version la plus stable et éprouvée. Elle est utilisée en environnement réel.
 - **Version de test** : Une version intermédiaire, plus récente que la version de production, utilisée pour les tests approfondis.
