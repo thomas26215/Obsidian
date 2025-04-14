@@ -1,10 +1,59 @@
 # L'entreprise Raynet
 
 ## Présentation
-L'entreprise Raynet a été crée en 2000
+L'entreprise Raynet a été créée en 2000 et vise à supporter le réseau ARaymond Information System. Elle contribue aux activités des compagnies en fournissant une expertise technique dans de nombreuses zones comme le support IT, l'infrastructure IT ou la gestion des systèmes d'information.  
+Le siège social se situe au **113 cours Berriat, 38000 Grenoble, France**. C'est une société par actions simplifiées (SAS) avec un capital social de **25 000 euros**.
 
+Raynet se concentre essentiellement sur :
+- Le développement de systèmes d'information.
+- La fourniture de solutions IT innovantes, centrées sur la création de valeur pour ses clients.
+- La gestion d'installations informatiques.
 
-Raynet est une entreprise spécialisée dans le secteur des technologies de l'informations et de la communication, notamment dans la gestion d'installations informatiques et le conseil en systèmes et logiciels informatiques. Elle est présente fortement dans le marché de l'automobile mais se diversifie notamment dans le domaine de la médecine ... Elle fabrique de 
+En parallèle, Raynet joue un rôle clé dans la fabrication et la simulation de pièces industrielles via son logiciel **Raypro**, utilisé principalement dans le domaine automobile pour concevoir, simuler et optimiser les processus de production.
+
+---
+
+## Chiffres clés
+- **Effectif** : 250 personnes dans le monde.
+- **Chiffre d'affaires** : 54 millions d'euros en 2023 (+8,52 % par rapport à 2022).
+- **Exportation** : Une part importante du chiffre d'affaires provient des marchés internationaux, représentant environ 80 % des revenus.
+
+---
+
+## Une présence mondiale
+Bien que le siège social soit à Grenoble, Raynet possède des bureaux et installations dans plusieurs pays :
+
+### **Europe**
+- **France** : Siège social à Grenoble.
+- **Allemagne** : Paderborn (siège principal), Regensburg, Ingolstadt, Berlin.
+- **Italie**, **Espagne**, **Pologne**, **Royaume-Uni**, **Turquie**.
+
+### **Amérique du Nord**
+- **États-Unis** : Schaumburg, Illinois.
+
+### **Asie**
+- **Japon** : Tokyo.  
+(Absence en Chine due à des conflits politiques.)
+
+### **Afrique du Nord**
+- **Maroc** : Casablanca.
+
+Raynet fait partie du réseau ARaymond, présent dans **21 pays sur 4 continents** avec plus de **35 filiales**, ce qui lui permet de bénéficier d'une forte implantation internationale pour répondre aux besoins variés de ses clients.
+
+---
+
+## Logiciel phare : Raypro
+Raynet développe et utilise le logiciel **Raypro**, conçu pour la construction et la simulation de pièces industrielles. Ce logiciel est particulièrement utilisé dans :
+- Le domaine automobile pour concevoir des pièces complexes.
+- Simuler leur comportement avant fabrication.
+- Optimiser les processus de production.  
+
+Raypro joue un rôle essentiel dans l'intégration des étapes de conception, prototypage et fabrication dans un flux de travail rationalisé.
+
+---
+
+Raynet est une entreprise dynamique alliant expertise informatique et industrielle, avec une forte présence mondiale et un engagement envers l'innovation technologique.
+
 
 
 
@@ -12,7 +61,7 @@ Raynet est une entreprise spécialisée dans le secteur des technologies de l'in
 
 ## Versionnage
 
-Nous travaillons sur trois versions distinctes du logiciel, chacune ayant un rôle spécifique dans le cycle de développement :
+Nous travaillons sur trois versions distinctes du logiciel, chacune ayant un rôl@@@@e spécifique dans le cycle de développement :
 
 - **Version de production** : La version la plus stable et éprouvée. Elle est utilisée en environnement réel.
 - **Version de test** : Une version intermédiaire, plus récente que la version de production, utilisée pour les tests approfondis.
