@@ -1,6 +1,14 @@
-Bien sûr, voici le contenu que j'ai précédemment organisé, mais cette fois intégré dans une grande partie intitulée **"Méthodes de travail et outils"**. Vous pouvez ajouter d'autres parties comme **"Présentation générale de l'entreprise"**, **"Chiffres clés"**, etc., selon vos besoins.
+# L'entreprise Raynet
 
-## Méthodes de travail et outils
+## Présentation
+L'entreprise Raynet a été crée en 2000
+
+
+Raynet est une entreprise spécialisée dans le secteur des technologies de l'informations et de la communication, notamment dans la gestion d'installations informatiques et le conseil en systèmes et logiciels informatiques. Elle est présente fortement dans le marché de l'automobile mais se diversifie notamment dans le domaine de la médecine ... Elle fabrique de 
+
+
+
+# Méthodes de travail et outils
 
 ## Versionnage
 
@@ -18,19 +26,19 @@ Lorsque la version de test est validée et passe en production, les versions év
 2. La **version de test** prend la place de la version de développement.
 3. Une nouvelle **version de développement** est créée avec un incrément.
 
-## Exemple
-
-## Versions initiales :
-
-- Version de production : `2.65`
-- Version de test : `2.66`
-- Version de développement : `2.67`
-
-## Après mise à jour :
-
-- Nouvelle version de production : `2.66` (ancienne version de test)
-- Nouvelle version de test : `2.67` (ancienne version de développement)
-- Nouvelle version de développement : `2.68` (incrémentée).
+> [!Example]
+>
+>## Versions initiales :
+>
+>- Version de production : `2.65`
+>- Version de test : `2.66`
+>- Version de développement : `2.67`
+>
+>## Après mise à jour :
+>
+>- Nouvelle version de production : `2.66` (ancienne version de test)
+>- Nouvelle version de test : `2.67` (ancienne version de développement)
+>- Nouvelle version de développement : `2.68` (incrémentée).
 
 ## Organisation physique de l'usine
 
@@ -63,11 +71,11 @@ Cette structure reflète une organisation typique :
 ## Fonctionnement des logiciels
 Trois logiciels principaux sont utilisés pour gérer et simuler les processus industriels :
 
-|Logiciel|Fonction principale|Utilisation en atelier|
-|---|---|---|
-|**Raypro Supervision**|Modélisation et optimisation des chaînes de production complètes|Oui|
-|**Raypro Simulator**|Simulation virtuelle des machines pour le développement et les tests|Non|
-|**Raypro Machine**|Suivi en temps réel des performances et du fonctionnement des machines|Oui|
+| Logiciel               | Fonction principale                                                    | Utilisation en atelier |
+| ---------------------- | ---------------------------------------------------------------------- | ---------------------- |
+| **Raypro Supervision** | Modélisation et optimisation des chaînes de production complètes       | Oui                    |
+| **Raypro Simulator**   | Simulation virtuelle des machines pour le développement et les tests   | Non                    |
+| **Raypro Machine**     | Suivi en temps réel des performances et du fonctionnement des machines | Oui                    |
 
 ## Détails des logiciels
 
