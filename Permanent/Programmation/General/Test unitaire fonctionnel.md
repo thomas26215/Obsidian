@@ -4,4 +4,7 @@ Langage: General
 Type: Tests Unitaires
 tags:
 ---
-Un test fonctionnel est un test portant sur la fonctionnalité, il n'est donc pas nécessaire d'avoir une connaissance complète du code, ainsi seules les entrées sorties sont nécessaires (Alias - Boîte noire)
+Les tests fonctionnels vérifient que l'unité de code produit le résultat attendu pour un ensemble donné d'entrées. Les tests se font donc en boîte noire, sans aucune connaissance du code.
+
+> [!Exemple]
+> Tester qu'une fonction addition(a, b) retourne bien la somme de a et b.
