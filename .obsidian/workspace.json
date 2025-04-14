@@ -28,11 +28,23 @@
               "type": "markdown",
               "state": {
                 "file": "Projets/En cours/Stage 2e année BUT informatique.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Stage 2e année BUT informatique"
+            }
+          },
+          {
+            "id": "033ad2b3d2af8969",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Exemple d'une Plant.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Exemple d'une Plant.excalidraw"
             }
           }
         ],
@@ -219,14 +231,23 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "7a0ed41c4bb5f0a2",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,7 +273,9 @@
   },
   "active": "5637dbe72fd84df7",
   "lastOpenFiles": [
+    "Excalidraw/Exemple d'une Plant.excalidraw.md",
     "Projets/En cours/Stage 2e année BUT informatique.md",
+    "Projets/En cours/Cartographie application.md",
     "Projets/En cours/SAE Applciation pour les stages/Plan oral.md~",
     "Permanent/Cours/TP/Semestre 4/Tests TP3 - Tests d'interface utilisateur.md"
   ]
