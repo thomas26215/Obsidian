@@ -270,6 +270,16 @@
             "id": "b4c6196d9a7765c3",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e59f5a4b0efcc943",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -277,7 +287,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -301,12 +311,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "415e7f4b04d7b9d7",
+  "active": "e59f5a4b0efcc943",
   "lastOpenFiles": [
     "Inbox/TestComplete_SmartBear.md~",
     "Projets/En cours/Stage 2e année BUT informatique.md~",
