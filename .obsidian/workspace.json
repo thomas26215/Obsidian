@@ -25,14 +25,10 @@
             "id": "5637dbe72fd84df7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projets/En cours/Stage 2e année BUT informatique.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Stage 2e année BUT informatique"
+              "title": "New tab"
             }
           },
           {
@@ -53,12 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/TestComplete_SmartBear.md",
+                "file": "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stage 2e année BUT informatique"
+            }
+          },
+          {
+            "id": "fbe7873e5b3b8b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TestComplete_SmartBear"
+              "title": "Tests TP1"
             }
           }
         ],
@@ -326,11 +336,28 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d825015acde117e7",
+  "active": "415e7f4b04d7b9d7",
   "lastOpenFiles": [
-    "Inbox/TestComplete_SmartBear.md~",
-    "Projets/En cours/Stage 2e année BUT informatique.md~",
+    "Projets/En cours/Stage 2e annee/Travail 1.md",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
+    "Inbox/TestComplete_SmartBear.md",
     "Excalidraw/Exemple d'une Plant.excalidraw.md",
+    "Excalidraw/Exo 1 Gestion de projet.md",
+    "Excalidraw/IHM Conception d'interfaces 1.md",
+    "Excalidraw/Pub projet.md",
+    "Excalidraw/Plan vidéo EV Charging points.md",
+    "Excalidraw/Pub projet 2.md",
+    "Excalidraw/TD Exercice ETL graph 1.md",
+    "Excalidraw/TD Exercice ETL graph 2.md",
+    "Excalidraw/Exemple de processus métier.md",
+    "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md~",
+    "Projets/En cours/Stage 2e annee/Travail 1.md~",
+    "Projets/En cours/Stage 2e annee",
+    "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
+    "Inbox/TestComplete_SmartBear.md~",
+    "Permanent/Programmation/General/Test unitaire.md",
+    "Projets/En cours/Stage 2e année BUT informatique.md~",
     "Projets/En cours/Stage 2e année BUT informatique.md",
     "Projets/En cours/Cartographie application.md",
     "Projets/En cours/SAE Applciation pour les stages/Plan oral.md~",

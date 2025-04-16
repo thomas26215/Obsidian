@@ -148,3 +148,19 @@ Ce logiciel est utilisé directement sur les machines pour surveiller leur fonct
 - Une détection rapide des problèmes ou dysfonctionnements.
 - Un suivi précis des performances et délais pour chaque étape.
 
+# Le travail demandé
+Au début de mon stage, je n’ai pas directement commencé le développement des tests. En effet, une phase de formation préalable était nécessaire pour bien comprendre le contexte et les outils utilisés. J’ai d’abord été formé sur le logiciel **Raypro Supervision**, afin d’en maîtriser le fonctionnement et ses spécificités. Cette étape m’a permis d’acquérir les connaissance nécessaires de l’application sur laquelle je devais travailler, ce qui est essentiel pour concevoir des tests pertinents et efficaces.
+
+Parallèlement, M. Benjamen Radoux m’a présenté l’outil **TestComplete**, qui est utilisé pour automatiser les tests. Il m’a notamment montré comment utiliser la fonction d’enregistrement, une méthode intuitive qui facilite la création de scripts de test en capturant les interactions avec l’application [[TestComplete_SmartBear##Enregistrement de l'application]]. Cette démonstration m’a aidé à comprendre les possibilités et les limites de l’outil.
+
+Durant cette phase, j’ai également bénéficié d’un accompagnement précieux de la part de mes collègues Manu et Martine Maume, qui développent régulièrement des tests pour Raypro Supervision. Leur expérience m’a permis de progresser rapidement : chaque fois que je rencontrais une difficulté ou avais une question spécifique, ils étaient disponibles pour m’apporter des conseils et des solutions. Ce soutien a été un facteur clé dans la réussite de mes premières réalisations.
+
+Afin de mieux comprendre l’entreprise et son environnement, j’ai eu l’opportunité de visiter le **musée ARhome**, situé à Grenoble, dès le troisième jour de mon stage. Ce musée privé retrace l’histoire de l’entreprise ARaymond, fondée il y a plus de 140 ans par Albert-Pierre ARaymond, inventeur du bouton-pression. Le parcours muséal, à la fois historique et sensoriel, présente l’évolution d’une entreprise familiale devenue un leader international dans le domaine de la fixation, notamment pour l’industrie automobile.
+
+La visite m’a permis de découvrir les innovations industrielles majeures, les collections liées à la ganterie grenobloise, ainsi que les nombreuses machines et brevets qui illustrent la capacité d’innovation constante d’ARaymond. Comprendre ce contexte historique et industriel m’a donné une vision plus large de l’importance de mon travail dans le cadre des activités de l’entreprise, ainsi que l’esprit d’innovation qui la caractérise.
+
+Une fois cette phase de formation et d’immersion terminée, j’ai commencé à développer des tests automatisés en utilisant la méthode d’enregistrement dans TestComplete, en m’appuyant sur différents scripts de tests qui m’ont été fournis (Exemple : [[Travail 1]]). Cette première expérience pratique m’a permis de mettre en application les connaissances acquises et de mieux comprendre l’utilisation de l’outil TestComplete.
+
+Ils m’ont également laissé explorer librement le logiciel, ce qui m’a donné l’opportunité de « bidouiller » et d’expérimenter par moi-même afin de mieux appréhender ses fonctionnalités. Pour éviter toute interférence avec la branche principale des tests, une nouvelle suite de projet a été créée spécialement pour moi dans TestComplete. Cette organisation m’a permis de travailler en toute autonomie tout en garantissant la stabilité des tests déjà en place.
+
+Cette phase d’expérimentation m’a ainsi permis d’appréhender concrètement les enjeux liés à l’automatisation des tests fonctionnels, tout en contribuant à l’amélioration continue de la qualité de l’application Raypro Supervision.

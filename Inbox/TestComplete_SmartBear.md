@@ -108,3 +108,71 @@ Pour pouvoir créer efficacement un test automatisé avec TestComplete, il faut 
 - **Planifier les vérifications (checkpoints)** : Choisir les critères de réussite du test. Identifier les changements visuels ou de données à contrôler. Ajouter des points de contrôle (checkpoints) adaptés.
 - **Prévoir la consignation du test** : Consigner toutes les actions dans un journal de test. Ajouter des messages ou des images si nécessaire. Exporter, partager ou archiver les résultats. Créer un rapport de bug depuis le journal si besoin.
 
+# Cours : Maîtriser le Référentiel de Mappage de Noms dans TestComplete
+
+Le référentiel de mappage de noms (Name Mapping) est un élément central de TestComplete. Il stocke des informations sur les objets de l'application testée utilisés dans vos tests automatisés. Chaque projet TestComplete ne peut avoir qu'un seul référentiel Name Mapping.
+
+## Ce qu'il contient :
+
+*   **Alias :** Nom descriptif et convivial utilisé dans les tests (ex : "BoutonValider").
+*   **Hiérarchie des objets :** Position de l'objet dans l'arborescence de l'application.
+*   **Critères d'identification :** Propriétés et valeurs uniques permettant à TestComplete d'identifier l'objet de manière fiable.
+*   **(Optionnel) Image :** Capture d'écran de l'objet.
+
+## Pourquoi utiliser le Name Mapping ?
+
+*   **Maintenance facilitée :**  Les modifications de l'application nécessitent uniquement des mises à jour du Name Mapping. Les tests restent inchangés.
+*   **Tests plus lisibles :**  Les alias rendent les tests plus courts, plus clairs et plus faciles à maintenir.
+
+## Fonctionnement :
+
+1.  **Ajout automatique :**  Par défaut, TestComplete ajoute les objets au Name Mapping lors de l'enregistrement des tests.
+2.  **Ajout manuel :**  Vous pouvez ajouter des objets manuellement à partir de l'écran ou de l'explorateur d'objets. Enregistrer les actions utilisateur sur les objets est une méthode simple et rapide pour mapper de nombreux objets.
+3.  **Identification unique :** Pour chaque objet, TestComplete enregistre les critères d'identification uniques.
+4.  **Exécution :** Pendant l'exécution, TestComplete utilise le Name Mapping pour localiser les objets dans l'application testée.
+5.  **Mise à jour si nécessaire :** Si TestComplete ne trouve pas un objet (propriétés modifiées, objets multiples avec mêmes propriétés), il faut mettre à jour les critères d'identification.
+
+## Ajout d'objets au Name Mapping :
+
+*   **Automatiquement :** Pendant l'enregistrement et l'édition des tests (par défaut).  Géré par l'option "Engines > Name Mapping > Map object names automatically". Désactiver cette option empêche TestComplete de mapper automatiquement les objets si vous ne souhaitez pas utiliser le Name Mapping dans votre projet.
+*   **Manuellement :**  Depuis l'écran ou l'explorateur d'objets.
+
+## Critères d'identification des objets :
+
+Les critères utilisés pour identifier les objets peuvent être :
+
+*   **Paires Propriété-Valeur :** Ex. : ObjectType=Page, URL=http://example.com
+*   **Expressions Conditionnelles :** Ex. : WndCaption = Open OR Select File
+*   **Sélecteurs (Web & Mobile) :**
+    *   **Web :** Expressions XPath (ex : `//input[@id='recherche']`) et sélecteurs CSS (ex : `#recherche`). L'utilisation de sélecteurs XPath et CSS dépend de la propriété "Use XPath and CSS selectors for web objects" de votre projet. L'identification d'objets web par propriétés n'est pas supportée quand cette propriété est activée.
+    *   **Mobile :** Nom de classe d'objet, identifiant d'accessibilité ou expression XPath (ex: `XCUIElementTypeStatusBar` ou `//*[@name="Commandes"]`)
+*   **Recherche étendue :** Recherche sur tous les niveaux de la hiérarchie.
+*   **Objets enfants requis :** Recherche d'objets avec des objets enfants spécifiques.
+Vous pouvez personnaliser les propriétés d'identification par défaut avec des modèles.
+
+## Arborescences : Objets mappés (masqués par défaut) et Alias
+
+Le Name Mapping est organisé en deux arborescences :
+
+*   **Objets mappés :** Affiche tous les objets de l'application testée. Reflète l'organisation de l'application, mais peut omettre certains niveaux pour les applications Web et mobile.
+*   **Alias :** Contient des noms conviviaux pour les objets, utilisés dans les tests.
+
+  Le nom mappé indique la position de l'objet dans l'arborescence des objets mappés et peut être utilisé dans les tests, bien que les alias soient plus pratiques.  Vous pouvez simplifier le chemin d'accès aux objets dans les tests en excluant les niveaux intermédiaires de l'arborescence des alias. Il faut cependant mettre à jour les noms dans les tests si vous modifiez l'arborescence des alias. TestComplete suggère de le faire automatiquement dans les tests par mots-clés. TestComplete génère un alias par défaut basé sur le type d'objet et sur du texte, mais vous pouvez le modifier.
+
+La hiérarchie de ces arbres doit correspondre à la hiérarchie des objets de l'application, et les objets mappés ne peuvent pas être placés au niveau supérieur (Sys ou Mobile).
+
+## Comment TestComplete trouve les objets lors de l'exécution :
+
+1.  Recherche l'alias dans l'arborescence des Alias.
+2.  Recherche l'objet correspondant dans l'arborescence des objets mappés, en utilisant les critères d'identification.
+
+## Maintien du Name Mapping à jour :
+
+Il est *crucial* de mettre à jour le Name Mapping si la hiérarchie des objets ou les valeurs des propriétés changent dans l'application. Consultez la section "Update Name Mapping" pour plus d'informations.
+
+## Objets non présents dans le Name Mapping :
+
+Il est possible d'interagir avec des objets qui ne sont pas dans le Name Mapping en utilisant la notation de l'explorateur d'objets.
+
+Activer l'option "View code completion information" permet de stocker des informations sur les propriétés et méthodes des objets mappés dans le Name Mapping, rendant celles-ci visibles dans l'éditeur même si l'application testée n'est pas en cours d'exécution. Activer "Store images" permet de stocker une capture d'écran des objets mappés.
+
