@@ -70,9 +70,23 @@
               "icon": "lucide-file",
               "title": "Tests TP1"
             }
+          },
+          {
+            "id": "ad327aaf2c310938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stage 2e année BUT informatique"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -356,10 +370,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0ec287a72c3cd688",
+  "active": "ad327aaf2c310938",
   "lastOpenFiles": [
-    "Projets/En cours/Stage 2e annee/Travail 1.md",
+    "TestComplete/_SmartBear.md",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
+    "TestComplete",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md~",
+    "Projets/En cours/Stage 2e annee/Travail 1.md",
     "Inbox/TestComplete_SmartBear.md",
     "Excalidraw/Exemple d'une Plant.excalidraw.md",
     "Excalidraw/Exo 1 Gestion de projet.md",
@@ -371,7 +388,6 @@
     "Excalidraw/TD Exercice ETL graph 2.md",
     "Excalidraw/Exemple de processus métier.md",
     "Excalidraw/Drawing 2024-05-06 00.12.26.excalidraw.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md~",
     "Projets/En cours/Stage 2e annee/Travail 1.md~",
     "Projets/En cours/Stage 2e annee",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
