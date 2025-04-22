@@ -77,12 +77,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
-                "mode": "preview",
+                "file": "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stage 2e année BUT informatique"
+              "title": "L'asynchronisme en dart"
+            }
+          },
+          {
+            "id": "7a78f16743e927bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
         ],
@@ -344,6 +356,26 @@
             "id": "4796dfe538f88144",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "81fc148e8a1ba32c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b29536e79c4dfdd4",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -351,7 +383,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -375,13 +407,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4796dfe538f88144",
+  "active": "b29536e79c4dfdd4",
   "lastOpenFiles": [
-    "TestComplete/_SmartBear.md",
+    "Permanent/Programmation/Agrégation.md",
+    "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
+    "Permanent/Programmation/Dart",
+    "Permanent/Programmation/Composition.md",
+    "Permanent/Programmation/Untitled.md",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
+    "TestComplete/_SmartBear.md",
     "TestComplete",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md~",
     "Projets/En cours/Stage 2e annee/Travail 1.md",
