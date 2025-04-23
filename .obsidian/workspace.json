@@ -78,7 +78,7 @@
               "type": "markdown",
               "state": {
                 "file": "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -376,6 +376,16 @@
             "id": "b29536e79c4dfdd4",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2fb8ee3a4ba6100a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -383,7 +393,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "horizontal",
@@ -412,7 +422,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b29536e79c4dfdd4",
+  "active": "2fb8ee3a4ba6100a",
   "lastOpenFiles": [
     "Permanent/Programmation/Agrégation.md",
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
