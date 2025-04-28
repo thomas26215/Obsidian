@@ -104,7 +104,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/Chronologie des zeldas.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -297,16 +297,6 @@
             }
           },
           {
-            "id": "7a0ed41c4bb5f0a2",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
             "id": "80c6c9df334d19f3",
             "type": "leaf",
             "state": {
@@ -415,14 +405,23 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "08a4e52bbf5bb5f5",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
         "currentTab": 20
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
