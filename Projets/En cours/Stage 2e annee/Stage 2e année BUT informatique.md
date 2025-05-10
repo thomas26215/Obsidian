@@ -161,6 +161,8 @@ Ce logiciel est utilisé directement sur les machines pour surveiller leur fonct
 
 # Le travail demandé
 
+## Période de formation
+
 Au début de mon stage, je n’ai pas directement commencé le développement des tests. En effet, une phase de formation préalable était nécessaire pour bien comprendre le contexte et les outils utilisés. J’ai d’abord été formé sur le logiciel **Raypro Supervision**, afin d’en maîtriser le fonctionnement et ses spécificités. Cette étape m’a permis d’acquérir les connaissance nécessaires de l’application sur laquelle je devais travailler, ce qui est essentiel pour concevoir des tests pertinents et efficaces.
 
 Parallèlement, M. Benjamen Radoux m’a présenté l’outil **TestComplete**, qui est utilisé pour automatiser les tests. Il m’a notamment montré comment utiliser la fonction d’enregistrement, une méthode intuitive qui facilite la création de scripts de test en capturant les interactions avec l’application [[TestComplete\_SmartBear##Enregistrement de l'application]]. Cette démonstration m’a aidé à comprendre les possibilités et les limites de l’outil.
@@ -171,9 +173,24 @@ Afin de mieux comprendre l’entreprise et son environnement, j’ai eu l’oppo
 
 La visite m’a permis de découvrir les innovations industrielles majeures, les collections liées à la ganterie grenobloise, ainsi que les nombreuses machines et brevets qui illustrent la capacité d’innovation constante d’ARaymond. Comprendre ce contexte historique et industriel m’a donné une vision plus large de l’importance de mon travail dans le cadre des activités de l’entreprise, ainsi que l’esprit d’innovation qui la caractérise.
 
-Une fois cette phase de formation et d’immersion terminée, j’ai commencé à développer des tests automatisés en utilisant la méthode d’enregistrement dans TestComplete, en m’appuyant sur différents scripts de tests qui m’ont été fournis (Exemple : [[Travail 1]]). Cette première expérience pratique m’a permis de mettre en application les connaissances acquises et de mieux comprendre l’utilisation de l’outil TestComplete.
+## L'entraînement
+
+Une fois cette phase de formation et d’immersion terminée, j’ai commencé à développer des tests automatisés en utilisant la méthode d’enregistrement dans TestComplete, en m’appuyant sur différents scripts de tests qui m’ont été fournis (Exemple : [[Travail 1]]). Cette première expérience pratique m’a permis de mettre en application les connaissances acquises et de mieux comprendre l’utilisation de l’outil TestComplete ainsi que les pratiques du nameMapping.
 
 Ils m’ont également laissé explorer librement le logiciel, ce qui m’a donné l’opportunité de « bidouiller » et d’expérimenter par moi-même afin de mieux appréhender ses fonctionnalités. Pour éviter toute interférence avec la branche principale des tests, une nouvelle suite de projet a été créée spécialement pour moi dans TestComplete. Cette organisation m’a permis de travailler en toute autonomie tout en garantissant la stabilité des tests déjà en place.
 
+Durant cette phase d’expérimentation, j’ai énormément manipulé le nameMapping, testant différentes configurations et approches pour comprendre en profondeur son fonctionnement. Sans le savoir à ce moment-là, cette exploration intensive du nameMapping allait s’avérer précieuse par la suite, car elle m’a permis d’acquérir une expertise qui me serait très utile pour améliorer de façon significative le nameMapping du logiciel de supervision.
+
 Cette phase d’expérimentation m’a ainsi permis d’appréhender concrètement les enjeux liés à l’automatisation des tests fonctionnels, tout en contribuant à l’amélioration continue de la qualité de l’application Raypro Supervision.
 
+## Passage du la solution
+
+Après cette phase d’expérimentation, j’ai commencé à travailler directement sur la solution de supervision. Lors de la création de mon premier test, je me suis rapidement rendu compte que le nameMapping existant présentait de nombreuses lacunes : les éléments n’étaient pas nommés de façon explicite, et surtout, il n’y avait aucune hiérarchie structurée. Cette absence de hiérarchie posait un problème particulier : un même élément mappé pouvait être reconnu à deux endroits différents dans l’application. Cela ne provoquait pas d’erreurs à proprement parler, mais posait un vrai souci dès que je voulais différencier, par exemple, deux boutons identiques présents sur des pages différentes. Si l’un des deux était déjà mappé, il m’était alors impossible de le distinguer ou de le modifier sans risquer d’impacter d’autres tests qui utilisaient ce même mapping.
+
+J’ai alors partagé mes constats avec Benjamin, la personne la plus expérimentée sur le sujet. Suite à notre échange, il m’a proposé de reprendre entièrement le nameMapping du logiciel de supervision afin d’en améliorer la structure et la fiabilité. J’ai ainsi consacré trois semaines complètes à cette tâche : j’ai restructuré tout le nameMapping, en définissant une hiérarchie claire et en renommant les éléments de façon cohérente. J’ai ensuite remappé tous les tests impactés pour garantir leur bon fonctionnement avec la nouvelle organisation.
+
+À l’issue de ce travail, j’ai rédigé un document de bonnes pratiques détaillant les règles à suivre pour le nameMapping. Ce guide a pour objectif d’assurer une uniformité dans la façon de nommer et d’organiser les éléments, afin que l’ensemble de l’équipe puisse travailler efficacement et maintenir la qualité des tests automatisés sur le long terme.
+
+## Les tests à faire sur Supervisions
+
+Grâce à cette refonte complète du nameMapping, j’ai finalement pu réaliser les tests que j’étais censé effectuer dès le départ. Lors de ma phase d’entraînement, j’avais développé des scripts de tests sur des environnements d’entraînement, mais je n’avais pas pu les appliquer directement sur la solution de supervision à cause des limitations du nameMapping initial. Avec une structure claire et hiérarchisée, il m’a été possible de concevoir et d’exécuter ces tests dans le contexte réel de l’application, en adaptant et enrichissant mes approches pour répondre aux spécificités du logiciel.
