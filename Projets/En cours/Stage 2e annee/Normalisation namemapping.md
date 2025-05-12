@@ -48,7 +48,6 @@ Ce fichier décrit l’organisation hiérarchique du `NameMapping` utilisé dans
 - **`GeneralPane`**  
   Utilisé comme conteneur de base pour toutes les **pages fonctionnelles** (ex. : `Plant`, `Workcenters`, `ProductionOrder`, etc.).
 
----
 
 **Exemple de structure typique d’une page fonctionnelle :**
 
@@ -128,3 +127,8 @@ Quand vous collez un nouveau `Pane`, TestComplete affiche une erreur car l'élé
 
 > [!Note]
 > Cela ne fonctionnera que si ​**les contextes de page sont compatibles**​.
+
+---
+
+## Les tableaux
+
