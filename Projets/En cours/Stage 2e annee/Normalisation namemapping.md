@@ -157,4 +157,7 @@ Il faut toujours nommer ses éléments de cette manière : `parent_typeElement_e
 
 ### Nommage des boutons
 Il faut toujours nommer ses éléments de la manière suivante : Ce que fait le bouton et sur quoi porte l'action de ce bouton.
-Exemple : `refreshPlants`
+Exemple : `refreshPlants`,  `addPlant`, `removeIslet`.
+
+>[!warning]
+>Toujours nommer le bouton en fonction du **toolTip**

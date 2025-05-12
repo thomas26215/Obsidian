@@ -13,7 +13,7 @@
   "enabledCss": false,
   "prevConfig": {
     "pageSize": "A4",
-    "marginType": "1",
+    "marginType": "2",
     "showTitle": false,
     "open": true,
     "scale": 100,
@@ -24,6 +24,8 @@
     "marginRight": "10",
     "displayHeader": true,
     "displayFooter": true,
-    "cssSnippet": "0"
+    "cssSnippet": "0",
+    "pageWidth": "220",
+    "pageHeight": "1000"
   }
 }
