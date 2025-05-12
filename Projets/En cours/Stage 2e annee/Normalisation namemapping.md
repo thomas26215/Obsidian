@@ -77,6 +77,27 @@ MainView
             └── même structure que ci-dessus
 ```
 
+![[Drawing 2025-05-12 09.58.32.excalidraw]]
+
+![[Drawing 2025-05-12 10.04.22.excalidraw]]
+
+---
+
+## Les tableaux
+
+![[Drawing 2025-05-12 09.50.04.excalidraw]]
+
+> [!warning]
+> Attention ! Quand on clique sur une cellule, ça ne référence pas automatiquement la ligne. Il faut ainsi jouer avec l'object browser pour pouvoir retrouver l'élément
+
+> [!utile]
+> Quand une ligne avec tous ces éléments ont été correctement référence, il suffit de copier coller le namemapping de la ligne et de changer **A compléter** pour que cela corresponde à la nouvelle ligne
+
+> [!utile]
+> Quand on clique sur un élément texte et non sur la cellule, ca va créer automatiquement un élément qui va être ajouté dans le namapping de la cellule
+
+
+
 ---
 
 ## 🔧 Propriétés à renseigner (DataContext, ToolTip, etc.)
@@ -130,5 +151,10 @@ Quand vous collez un nouveau `Pane`, TestComplete affiche une erreur car l'élé
 
 ---
 
-## Les tableaux
+## Convention de nommage
+### Nommage général
+Il faut toujours nommer ses éléments de cette manière : `parent_typeElement_enfant`. Exemple : `plant_button_addPlant`
 
+### Nommage des boutons
+Il faut toujours nommer ses éléments de la manière suivante : Ce que fait le bouton et sur quoi porte l'action de ce bouton.
+Exemple : `refreshPlants`
