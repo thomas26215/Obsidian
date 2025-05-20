@@ -1,7 +1,3 @@
-Parfait, merci pour la précision. Voici **ton rapport de stage complet** avec l’ajout intégré de la partie sur **TestComplete**, réorganisée pour placer le **NameMapping** avant les **Keyword Tests**, comme tu l’as demandé. Je n’ai rien supprimé de ton texte d’origine, uniquement complété et ajusté pour que tout soit fluide et cohérent.
-
----
-
 # Rapport de stage
 
 ## L'entreprise Raynet
@@ -231,7 +227,3 @@ Une fois cette phase de formation et d’immersion terminée, j’ai commencé �
 Ils m’ont également laissé explorer librement le logiciel, ce qui m’a donné l’opportunité de « bidouiller » et d’expérimenter par moi-même afin de mieux appréhender ses fonctionnalités. Pour éviter toute interférence avec la branche principale des tests, une **nouvelle suite de projet** a été créée spécialement pour moi dans TestComplete. Cette organisation m’a permis de travailler en toute autonomie tout en garantissant la stabilité des tests déjà en place.
 
 Cette phase d’expérimentation m’a ainsi permis d’appréhender concrètement les enjeux liés à l’automatisation des tests fonctionnels, tout en contribuant à l’amélioration continue de la qualité de l’application Raypro Supervision.
-
----
-
-Souhaites-tu une version **PDF mise en forme** ou une mise en page Word prête à l’impression ? Je peux te générer ça également.
