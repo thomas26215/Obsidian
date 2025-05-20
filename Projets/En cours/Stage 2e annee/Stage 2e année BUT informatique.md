@@ -250,7 +250,7 @@ Après avoir compris les enjeux de cette structure, j’ai proposé de **refaire
 
 Mon travail a consisté à :
 
-- Nettoyer le NameMapping existant : suppression des objets obsolètes, des doublons et des éléments inutiles.
+- Nettoyer le NameMapping existant : suppression des objets obsolètes et des éléments inutiles.
 
 - Améliorer la structure : j’ai réorganisé les objets selon des critères logiques (par fenêtres, modules, et composants) pour mieux refléter l’architecture de l’application.
 
@@ -262,8 +262,6 @@ Mon travail a consisté à :
 En parallèle de la refonte, j’ai également contribué à la documentation interne du projet. J’ai rédigé des sections expliquant le fonctionnement du NameMapping et détaillant les bonnes pratiques à suivre pour la création de nouveaux objets. Voici quelques points abordés dans cette documentation :
 
 - Comment identifier un objet de manière fiable (en utilisant les attributs stables et les hiérarchies appropriées).
-
-- La gestion des objets redondants et des pratiques pour éviter la duplication.
 
 - Des exemples pratiques pour illustrer les meilleures façons de structurer le NameMapping.
 
