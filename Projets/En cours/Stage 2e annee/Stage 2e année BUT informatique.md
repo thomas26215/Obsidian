@@ -210,20 +210,90 @@ Ces scripts simples m’ont permis de dépasser les limites du mode visuel tout 
 
 ---
 
-## Le travail demandé
+## 1. Phase de découverte et immersion
+Au début de mon stage, je n’ai pas immédiatement commencé à développer des tests. Une phase de formation préalable était nécessaire afin de bien comprendre le contexte fonctionnel de l’entreprise et les outils techniques utilisés.
 
-Au début de mon stage, je n’ai pas directement commencé le développement des tests. En effet, une phase de formation préalable était nécessaire pour bien comprendre le contexte et les outils utilisés. J’ai d’abord été formé sur le logiciel **Raypro Supervision**, afin d’en maîtriser le fonctionnement et ses spécificités. Cette étape m’a permis d’acquérir les connaissances nécessaires de l’application sur laquelle je devais travailler, ce qui est essentiel pour concevoir des tests pertinents et efficaces.
+### Découverte de Raypro Supervision
+J’ai d’abord été formé sur le logiciel Raypro Supervision, qui constitue le cœur de l’application à tester. Cette formation m’a permis de maîtriser les fonctionnalités principales de l’outil, son organisation, et les processus industriels qu’il modélise. Cela a été une étape essentielle pour acquérir les connaissances nécessaires à la conception de tests pertinents et adaptés aux cas métiers.
 
-Parallèlement, M. Benjamen Radoux m’a présenté l’outil **TestComplete**, qui est utilisé pour automatiser les tests. Il m’a notamment montré comment utiliser la fonction d’enregistrement, une méthode intuitive qui facilite la création de scripts de test en capturant les interactions avec l’application. Cette démonstration m’a aidé à comprendre les possibilités et les limites de l’outil.
+### Introduction à TestComplete
+En parallèle, j’ai été introduit à TestComplete, l’outil d’automatisation utilisé au sein de l’équipe. M. Benjamen Radoux m’a présenté les fonctionnalités principales du logiciel, notamment le mode d’enregistrement (record), qui permet de capturer les interactions avec l’interface pour générer automatiquement des tests, sous forme de Keyword Tests. Cette approche m’a semblé intuitive et rapide à prendre en main, bien qu’elle présente certaines limites en termes de personnalisation et de robustesse.
 
-Durant cette phase, j’ai également bénéficié d’un accompagnement précieux de la part de mes collègues Manu et Martine Maume, qui développent régulièrement des tests pour Raypro Supervision. Leur expérience m’a permis de progresser rapidement : chaque fois que je rencontrais une difficulté ou avais une question spécifique, ils étaient disponibles pour m’apporter des conseils et des solutions. Ce soutien a été un facteur clé dans la réussite de mes premières réalisations.
+### Accompagnement de l’équipe
+Durant cette période d’apprentissage, j’ai bénéficié de l’accompagnement précieux de Manu et Martine Maume, collègues expérimentés dans le développement de tests automatisés pour Raypro Supervision. Ils ont su répondre à mes nombreuses questions techniques, m’aider à surmonter les blocages que je rencontrais, et m’orienter dans mes premiers essais. Leur soutien a grandement facilité ma montée en compétence.
 
-Afin de mieux comprendre l’entreprise et son environnement, j’ai eu l’opportunité de visiter le **musée ARhome**, situé à Grenoble, dès le troisième jour de mon stage. Ce musée privé retrace l’histoire de l’entreprise ARaymond, fondée il y a plus de 140 ans par Albert-Pierre ARaymond, inventeur du bouton-pression. Le parcours muséal, à la fois historique et sensoriel, présente l’évolution d’une entreprise familiale devenue un leader international dans le domaine de la fixation, notamment pour l’industrie automobile.
+### Visite du musée ARhome
+Dans une optique d’immersion dans l’environnement de l’entreprise, j’ai eu l’opportunité de visiter, dès le troisième jour de mon stage, le musée ARhome situé à Grenoble. Ce musée retrace l’histoire du groupe ARaymond, fondé il y a plus de 140 ans par Albert-Pierre ARaymond, inventeur du bouton-pression. Le parcours muséal, à la fois historique, technique et sensoriel, m’a permis de découvrir :
 
-La visite m’a permis de découvrir les innovations industrielles majeures, les collections liées à la ganterie grenobloise, ainsi que les nombreuses machines et brevets qui illustrent la capacité d’innovation constante d’ARaymond. Comprendre ce contexte historique et industriel m’a donné une vision plus large de l’importance de mon travail dans le cadre des activités de l’entreprise, ainsi que l’esprit d’innovation qui la caractérise.
+- Les innovations majeures de l’entreprise dans le domaine de la fixation industrielle ;
 
-Une fois cette phase de formation et d’immersion terminée, j’ai commencé à développer des tests automatisés en utilisant la méthode d’enregistrement dans TestComplete, en m’appuyant sur différents scripts de tests qui m’ont été fournis. Cette première expérience pratique m’a permis de mettre en application les connaissances acquises et de mieux comprendre l’utilisation de l’outil TestComplete.
+- Des objets liés à la ganterie grenobloise ;
 
-Ils m’ont également laissé explorer librement le logiciel, ce qui m’a donné l’opportunité de « bidouiller » et d’expérimenter par moi-même afin de mieux appréhender ses fonctionnalités. Pour éviter toute interférence avec la branche principale des tests, une **nouvelle suite de projet** a été créée spécialement pour moi dans TestComplete. Cette organisation m’a permis de travailler en toute autonomie tout en garantissant la stabilité des tests déjà en place.
+- Des machines anciennes, brevets historiques et pièces emblématiques.
 
-Cette phase d’expérimentation m’a ainsi permis d’appréhender concrètement les enjeux liés à l’automatisation des tests fonctionnels, tout en contribuant à l’amélioration continue de la qualité de l’application Raypro Supervision.
+Cette visite m’a offert une vision plus large du rôle de l’entreprise dans l’histoire industrielle locale et mondiale, et m’a aidé à mieux comprendre la portée de mon travail dans un contexte plus global d’innovation continue.
+
+###Premiers essais pratiques
+À l’issue de cette phase de formation, j’ai pu débuter mes premiers tests automatisés en utilisant la méthode d’enregistrement dans TestComplete. Je me suis appuyé sur des scripts de test déjà existants pour apprendre les bonnes pratiques et comprendre la structure des projets.
+
+En parallèle, j’ai été encouragé à explorer librement le logiciel, ce qui m’a permis de "bidouiller", tester différentes approches et expérimenter les fonctionnalités de TestComplete de manière autonome.
+
+Pour ne pas interférer avec les projets existants, une nouvelle suite de projet isolée m’a été dédiée. Cela m’a offert un espace de travail sécurisé, où je pouvais expérimenter sans impacter la branche principale des tests de production.
+
+
+## 2. Refonte du NameMapping et amélioration de la documentation
+Identification du problème du NameMapping
+Au début de mon travail sur les tests automatisés, j’ai constaté que le NameMapping existant dans TestComplete n’était pas optimal. Il avait été principalement généré à l’aide de la fonctionnalité d'enregistrement, ce qui a conduit à une structure désorganisée et des objets mal identifiés. En effet, cette méthode d’enregistrement automatique avait entraîné une gestion difficile des objets, avec des noms peu explicites, des attributs non stables et des objets inutiles ou redondants.
+
+### Proposition et refonte du NameMapping
+Après avoir compris les enjeux de cette structure, j’ai proposé de **refaire complètement le NameMapping**. Ce n'était pas une tâche initialement demandée, mais j’ai jugé que cette refonte était essentielle pour garantir la stabilité et la fiabilité des tests automatisés à long terme.
+
+Mon travail a consisté à :
+
+- Nettoyer le NameMapping existant : suppression des objets obsolètes, des doublons et des éléments inutiles.
+
+- Améliorer la structure : j’ai réorganisé les objets selon des critères logiques (par fenêtres, modules, et composants) pour mieux refléter l’architecture de l’application.
+
+- Améliorer les identifiants : j’ai redéfini des noms explicites et utilisé des attributs stables (identifiants uniques, propriétés fixes) pour garantir que les objets seraient correctement identifiables.
+
+- Optimiser la hiérarchie : j’ai simplifié l’arborescence des objets pour qu’elle soit plus lisible et plus facile à maintenir.
+
+### Documentation et bonnes pratiques
+En parallèle de la refonte, j’ai également contribué à la documentation interne du projet. J’ai rédigé des sections expliquant le fonctionnement du NameMapping et détaillant les bonnes pratiques à suivre pour la création de nouveaux objets. Voici quelques points abordés dans cette documentation :
+
+- Comment identifier un objet de manière fiable (en utilisant les attributs stables et les hiérarchies appropriées).
+
+- La gestion des objets redondants et des pratiques pour éviter la duplication.
+
+- Des exemples pratiques pour illustrer les meilleures façons de structurer le NameMapping.
+
+- Ce travail de documentation a permis de rendre plus accessible et maintenable le processus de gestion des objets dans TestComplete.
+
+## 3. Réalisation des tests automatisés
+### Création des tests automatisés avec TestComplete
+Une fois la refonte du NameMapping terminée, j’ai pu commencer à développer les tests automatisés qui m’étaient attribués. Ces tests avaient pour objectif de valider les fonctionnalités de l’application Raypro Supervision et de vérifier qu’elles se comportaient correctement dans différents scénarios.
+
+- Keyword Tests avec enregistrement : j’ai utilisé principalement la méthode d’enregistrement pour créer des tests fonctionnels. Cette approche permet de capturer les interactions utilisateur avec l’interface et de les convertir en étapes de test. C’est un moyen rapide et efficace de créer des tests de validation basiques.
+
+- Pour chaque test, j’ai inclus des assertions afin de vérifier que les résultats correspondaient aux attentes définies par les spécifications. J’ai également mis en place des vérifications d’état pour confirmer que l’interface utilisateur répondait correctement après chaque action (clic, saisie, etc.).
+
+- Ajout de conditions et de répétitions : pour des scénarios plus complexes, j’ai utilisé des conditions logiques (if/else) et des boucles répétitives afin de tester plusieurs cas avec un seul script. Cela m’a permis de rendre les tests plus dynamiques et de couvrir une plus large gamme de situations.
+
+### Utilisation du VBScript
+Dans certains cas, j’ai rencontré des objets ou des éléments d’interface qui n’étaient pas correctement identifiables via le NameMapping standard. J’ai donc utilisé VBScript de manière ponctuelle pour contourner cette limitation et accéder à ces objets.
+
+Par exemple, j’ai écrit de petits scripts pour :
+
+- Accéder à des objets dynamiques dont les identifiants étaient difficiles à capturer automatiquement.
+
+- Manipuler des éléments interactifs qui n’étaient pas bien gérés par les objets de base du NameMapping.
+
+Cette approche m’a permis de compléter mes tests en traitant des cas où le NameMapping seul ne suffisait pas à assurer une reconnaissance correcte des objets.
+
+### Bilan des tests réalisés
+J’ai ainsi contribué à l’automatisation de tests fonctionnels pour l’application Raypro Supervision, en mettant l’accent sur la robustesse des scripts, leur réutilisabilité et leur maintenabilité. Ce travail a permis de gagner en efficacité dans le processus de validation, tout en assurant une couverture plus large des fonctionnalités de l’application.
+
+Conclusion du travail réalisé
+Au total, cette organisation en trois grandes étapes (formation, refonte du NameMapping, développement des tests) m’a permis de progresser rapidement tout en apportant une valeur ajoutée à l’équipe. Le fait d’avoir pris l’initiative de refaire le NameMapping, couplé à la réalisation de tests automatisés de qualité, a contribué à améliorer la stabilité et la fiabilité des tests, et à rendre l’ensemble du processus plus maintenable à long terme.
+
+
