@@ -277,8 +277,6 @@ Une fois la refonte du NameMapping terminée, j’ai pu commencer à développer
 
 - Pour chaque test, j’ai inclus des assertions afin de vérifier que les résultats correspondaient aux attentes définies par les spécifications. J’ai également mis en place des vérifications d’état pour confirmer que l’interface utilisateur répondait correctement après chaque action (clic, saisie, etc.).
 
-- Ajout de conditions et de répétitions : pour des scénarios plus complexes, j’ai utilisé des conditions logiques (if/else) et des boucles répétitives afin de tester plusieurs cas avec un seul script. Cela m’a permis de rendre les tests plus dynamiques et de couvrir une plus large gamme de situations.
-
 ### Utilisation du VBScript
 Dans certains cas, j’ai rencontré des objets ou des éléments d’interface qui n’étaient pas correctement identifiables via le NameMapping standard. J’ai donc utilisé VBScript de manière ponctuelle pour contourner cette limitation et accéder à ces objets.
 
