@@ -65,15 +65,19 @@ Des formations en ligne via **ARUniversity** complètent le dispositif, avec des
 
 ---
 
-### Logiciel phare : Raypro
+### Un outil stratégique : Raypro
+Raypro est un logiciel de supervision de production développé par Raynet, la filiale informatique du groupe ARaymond. Il s'agit d'un système MES (Manufacturing Execution System) qui joue un rôle clé dans la digitalisation des processus industriels du groupe.
 
-Raynet développe et utilise le logiciel **Raypro**, conçu pour la construction et la simulation de pièces industrielles. Ce logiciel est particulièrement utilisé dans :
+Conçu pour surveiller, piloter et optimiser les opérations de fabrication en temps réel, Raypro est notamment utilisé dans certaines usines du groupe ARaymond, comme celle de Rochester Hills aux États-Unis.
 
-* Le domaine automobile pour concevoir des pièces complexes.
-* Simuler leur comportement avant fabrication.
-* Optimiser les processus de production.
+Ses principales fonctionnalités incluent :
+- Le suivi en temps réel de la production.
+- La collecte de données machine et opérateur.
+- La gestion des incidents et des arrêts de production.
+- Le pilotage de la performance industrielle.
+- La traçabilité des opérations.
 
-Raypro joue un rôle essentiel dans l'intégration des étapes de conception, prototypage et fabrication dans un flux de travail rationalisé.
+Raypro contribue activement à l'amélioration continue, à la réduction des temps d'arrêt, et à une prise de décision plus rapide basée sur les données. Il s'inscrit pleinement dans la stratégie de transformation digitale d’ARaymond, en favorisant une meilleure coordination entre les équipes industrielles et informatiques à travers le monde.
 
 ---
 
