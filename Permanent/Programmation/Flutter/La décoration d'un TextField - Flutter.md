@@ -20,45 +20,5 @@ En flutter, il est possible de personnaliser l'apparence d'un `TextField` en uti
 > ),
 > ```
 
-[!Example] Example avancé avec style personnalisé
-```dart
-import 'package:flutter/material.dart';
-import 'package:unicons/unicons.dart';
-
-class Header extends StatelessWidget {
-    const Header({Key? key}) : super(key: key);
-
-    final String trainingName;
-    final ValueChanged<String> onChanged;
 
 
-    @override
-    Widget build(BuildContext context) {
-        return Row(
-            children: [
-                GestureDetector(
-                    onTap:() {
-                        Navigator.pop(context);
-                    },
-                    child: const Icon(
-                        UniconsLine.angle_left,
-                        color: Colors.white,
-                        size: 40,
-                    ),
-                ),
-                Expanded(
-                    child: TextField(
-                        child: TextField(
-                            style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                                color: Colors.white,
-                                fontSize: 20,
-                            ),
-                            decoration: InputDecoration(
-                                hintText: "Rechercher un entraînement",
-                                hintStyle: Theme.of(context).textTheme.displayLarge?.copyWith(Colors.white54),
-                                border: const UnderlineInputBorder(
-                                    borderSide: BorderSide(color: Colors.white),
-                                ),
-                                border: const UnderlineInputBorder(
-                                    borderSide: BorderSide(color: Colors.white),
-                                ),
