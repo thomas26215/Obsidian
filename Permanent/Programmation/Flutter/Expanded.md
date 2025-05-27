@@ -1,4 +1,4 @@
-En futter, `Expanded` est un widget qui permet à un widget enfant de prendre tout l'espace disponible edans `Row` ou `Column`
+En futter, `Expanded` est un widget qui permet à un widget enfant de prendre tout l'espace disponible dans `Row` ou `Column`
 
 **=> Exemple** :
 

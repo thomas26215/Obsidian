@@ -1,5 +1,6 @@
 {
   "nodePath": "/home/thomas/.nvm/versions/node/v22.14.0/bin/node",
+  "nodePathUpdatedToNode20": true,
   "enabled": true,
   "hotkeys": {
     "accept": "Tab",
@@ -18,5 +19,19 @@
     "nodePath"
   ],
   "useDeviceSpecificSettings": false,
-  "proxy": ""
+  "proxy": "",
+  "chatSettings": {
+    "deviceCode": "3d50b335023777486d672d266bd8276fdc2454a4",
+    "pat": null,
+    "accessToken": {
+      "token": null,
+      "expiresAt": null
+    },
+    "selectedModel": {
+      "label": "Claude 3.7 Sonnet",
+      "value": "claude-3.7-sonnet"
+    }
+  },
+  "systemPrompt": "You are GitHub Copilot, an AI assistant. You are helping the user with their tasks in Obsidian.",
+  "invertEnterSendBehavior": false
 }

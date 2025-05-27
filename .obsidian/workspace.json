@@ -129,12 +129,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md",
-                "mode": "preview",
+                "file": "Permanent/Programmation/Flutter/Scaffold - Flutter.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La décoration d'un TextField - Flutter"
+              "title": "Scaffold - Flutter"
             }
           },
           {
@@ -489,9 +489,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "0c12165199e42bbd",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "horizontal",
@@ -521,13 +531,25 @@
   },
   "active": "867ae1f40a4c1884",
   "lastOpenFiles": [
+    "Permanent/Programmation/Flutter/Récupérer la valeur d'un  TextField - Flutter.md",
+    "Permanent/Programmation/Flutter/Scaffold - Flutter.md",
+    "Permanent/Programmation/General/La notion de callback.md",
+    "Permanent/Programmation/Flutter/ValueChanged flutter.md",
+    "Permanent/Programmation/General/La notion de callback.md~",
+    "Permanent/Programmation/General/La notion de callback",
+    "Permanent/Programmation/Flutter/ValueChanged flutter.md~",
+    "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md",
+    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md~",
+    "Permanent/Programmation/Flutter/Navigator.md",
+    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
+    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector~",
+    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector",
+    "Permanent/Programmation/Flutter/Expanded.md~",
     "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md~",
     "conflict-files-obsidian-git.md",
-    "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md",
     "Permanent/Programmation/Flutter/TextField - Flutter.md",
     "Permanent/Programmation/Flutter/Navigator.pop.md",
     "Permanent/Programmation/Flutter/Expanded.md",
-    "Permanent/Programmation/Flutter/Récupérer la valeur d'un  TextField - Flutter.md",
     "Inbox/Flutter - Statefull Widget.md",
     "Permanent/Programmation/Flutter/InputDecoration.md",
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
@@ -544,18 +566,6 @@
     "Projets/En cours/Stage 2e annee/Travail 1.md",
     "Meilleures seeds balatro.md",
     "Inbox/Chronologie des zeldas.md",
-    "Permanent/Programmation/Agrégation.md",
-    "Permanent/Programmation/Dart",
-    "Permanent/Programmation/Composition.md",
-    "TestComplete/_SmartBear.md",
-    "TestComplete",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md~",
-    "Excalidraw/Exemple d'une Plant.excalidraw.md",
-    "Excalidraw/Exo 1 Gestion de projet.md",
-    "Projets/En cours/Stage 2e annee/Travail 1.md~",
-    "Projets/En cours/Stage 2e annee",
-    "Inbox/TestComplete_SmartBear.md~",
-    "Projets/En cours/Stage 2e année BUT informatique.md~",
-    "Projets/En cours/SAE Applciation pour les stages/Plan oral.md~"
+    "Permanent/Programmation/Agrégation.md"
   ]
 }
