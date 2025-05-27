@@ -3,63 +3,81 @@
 ## L'entreprise Raynet
 
 ### Présentation
+Raynet est une entreprise créée en 2000 dans le but de soutenir le réseau ARaymond Information System. Son rôle est essentiel dans la consolidation et l’évolution des infrastructures informatiques du groupe ARaymond à travers le monde. En tant qu’entité experte en technologies de l'information, Raynet intervient dans des domaines variés tels que le support IT, la gestion des infrastructures, la cybersécurité, ou encore le développement de solutions digitales adaptées aux besoins métiers.
 
-L'entreprise Raynet a été créée en 2000 et vise à supporter le réseau ARaymond Information System. Elle contribue aux activités des compagnies en fournissant une expertise technique dans de nombreuses zones comme le support IT, l'infrastructure IT ou la gestion des systèmes d'information.
-Le siège social se situe au **113 cours Berriat, 38000 Grenoble, France**. C'est une société par actions simplifiées (SAS) avec un capital social de **25 000 euros**.
+Le siège social de Raynet est situé au 113 cours Berriat, 38000 Grenoble, France. Il s’agit d’une société par actions simplifiée (SAS), dotée d’un capital social de 25 000 euros.
 
-Raynet se concentre essentiellement sur :
+Raynet concentre son activité sur trois axes principaux :
 
-* Le développement de systèmes d'information.
-* La fourniture de solutions IT innovantes, centrées sur la création de valeur pour ses clients.
-* La gestion d'installations informatiques.
+- Le développement de systèmes d’information adaptés et évolutifs.
+- La fourniture de solutions IT innovantes et durables.
+- La gestion d’environnements informatiques complexes, en étroite collaboration avec les différentes entités du groupe ARaymond.
 
-En parallèle, Raynet joue un rôle clé dans la fabrication et la simulation de pièces industrielles via son logiciel **Raypro**, utilisé principalement dans le domaine automobile pour concevoir, simuler et optimiser les processus de production.
-
----
+En complément, Raynet participe à des projets industriels à forte valeur ajoutée, notamment à travers le logiciel Raypro, qui permet la modélisation et la simulation de pièces industrielles. Cet outil est particulièrement utilisé dans le secteur automobile, où il contribue à l’optimisation des processus de fabrication.
 
 ### Chiffres clés
+- **Effectif global** : environ 250 personnes.
+- **Chiffre d’affaires** : 54 millions d’euros en 2023, en progression de +8,52 % par rapport à 2022.
+- **Part d’exportation** : environ 80 % du chiffre d’affaires est réalisé à l’international.
 
-* **Effectif** : 250 personnes dans le monde.
-* **Chiffre d'affaires** : 54 millions d'euros en 2023 (+8,52 % par rapport à 2022).
-* **Exportation** : Une part importante du chiffre d'affaires provient des marchés internationaux, représentant environ 80 % des revenus.
+### Une organisation internationale
+Raynet bénéficie d’un fort ancrage international grâce à sa présence dans plusieurs pays :
+
+#### Europe
+- **France** : Siège à Grenoble.
+- **Allemagne** : Paderborn (site principal), Regensburg, Ingolstadt, Berlin.
+- **Italie**, Espagne, Pologne, Royaume-Uni, Turquie.
+
+#### Amérique du Nord
+- **États-Unis** : Schaumburg, Illinois.
+
+#### Asie
+- **Japon** : Tokyo.
+
+#### Afrique du Nord
+- **Maroc** : Casablanca.
+
+Raynet est une composante essentielle du **réseau ARaymond**, une entreprise familiale fondée en 1865 à Grenoble et aujourd’hui présente dans **21 pays** avec plus de **35 filiales**. Le réseau ARaymond emploie **plus de 7 500 personnes** dans le monde, illustrant un modèle basé sur l’innovation, la coopération et l’entrepreneuriat.
+
+### Une entreprise avec des valeurs fortes
+Raynet, à travers le réseau ARaymond, porte un héritage et des valeurs profondément ancrées dans sa culture d’entreprise. Ces six valeurs fondamentales guident l’ensemble des collaborateurs au quotidien :
+- **Innovation** : depuis la création du premier bouton pression en 1865, ARaymond place l’innovation au cœur de ses processus. Cela reste vrai aujourd’hui, avec une recherche constante de nouvelles solutions techniques.
+- **Esprit entrepreneurial** : chaque collaborateur est encouragé à s’impliquer, à oser, et à s’adapter aux réalités locales, tout en contribuant au succès collectif.
+- **Collaboration** : essentielle dans un environnement mondial, elle repose sur la confiance, l’écoute et l’empathie. Elle permet de créer ensemble des solutions de qualité.
+- **Création de valeur** : à travers les compétences et la créativité des équipes, chaque projet vise à générer un impact positif et durable pour les clients.
+- **Respect** : vis-à-vis des personnes et de l’environnement, cette valeur constitue le socle de toutes les actions entreprises.
+- **Plaisir** : le plaisir au travail est vu comme une conséquence directe de l'application des autres valeurs, et un moteur de motivation.
+
+### L’intégration des nouveaux arrivants
+
+Chez Raynet, l'intégration des nouveaux collaborateurs est soigneusement encadrée. Un portail SharePoint dédié accompagne les premiers pas : il regroupe des informations utiles, des contacts RH, des e-learnings et des documents de gouvernance.
+
+Les premières semaines sont structurées pour faciliter l’arrivée : chaque nouveau collaborateur peut choisir un référent, un mentor chargé de l’accompagner, et un Community Leader, facilitateur des échanges au sein de sa communauté métier.
+
+Raynet fonctionne selon une approche communautaire :
+- Les **Communautés d’Expérience** assurent la qualité du parcours utilisateur.
+- Les **Communautés d’Expertise** permettent aux experts d’un même domaine de collaborer efficacement.
+- Les **Communautés de Leadership** assurent l'encadrement stratégique et opérationnel.
+
+En complément, la plateforme **OneHR** centralise l’ensemble des démarches RH, de l’onboarding à l’évaluation annuelle des performances.
+Des formations en ligne via **ARUniversity** complètent le dispositif, avec des modules sur des thématiques clés : la sécurité informatique, les valeurs de l’entreprise, la conformité (RGPD, anticorruption), et le leadership bienveillant.
+
 
 ---
 
-### Une présence mondiale
+### Un outil stratégique : Raypro
+Raypro est un logiciel de supervision de production développé par Raynet, la filiale informatique du groupe ARaymond. Il s'agit d'un système MES (Manufacturing Execution System) qui joue un rôle clé dans la digitalisation des processus industriels du groupe.
 
-Bien que le siège social soit à Grenoble, Raynet possède des bureaux et installations dans plusieurs pays :
+Conçu pour surveiller, piloter et optimiser les opérations de fabrication en temps réel, Raypro est notamment utilisé dans certaines usines du groupe ARaymond, comme celle de Rochester Hills aux États-Unis.
 
-#### **Europe**
+Ses principales fonctionnalités incluent :
+- Le suivi en temps réel de la production.
+- La collecte de données machine et opérateur.
+- La gestion des incidents et des arrêts de production.
+- Le pilotage de la performance industrielle.
+- La traçabilité des opérations.
 
-* **France** : Siège social à Grenoble.
-* **Allemagne** : Paderborn (siège principal), Regensburg, Ingolstadt, Berlin.
-* **Italie**, **Espagne**, **Pologne**, **Royaume-Uni**, **Turquie**.
-
-#### **Amérique du Nord**
-
-* **États-Unis** : Schaumburg, Illinois.
-
-#### **Asie**
-
-* **Japon** : Tokyo.
-
-#### **Afrique du Nord**
-
-* **Maroc** : Casablanca.
-
-Raynet fait partie du réseau ARaymond, présent dans **21 pays sur 4 continents** avec plus de **35 filiales**, ce qui lui permet de bénéficier d'une forte implantation internationale pour répondre aux besoins variés de ses clients.
-
----
-
-### Logiciel phare : Raypro
-
-Raynet développe et utilise le logiciel **Raypro**, conçu pour la construction et la simulation de pièces industrielles. Ce logiciel est particulièrement utilisé dans :
-
-* Le domaine automobile pour concevoir des pièces complexes.
-* Simuler leur comportement avant fabrication.
-* Optimiser les processus de production.
-
-Raypro joue un rôle essentiel dans l'intégration des étapes de conception, prototypage et fabrication dans un flux de travail rationalisé.
+Raypro contribue activement à l'amélioration continue, à la réduction des temps d'arrêt, et à une prise de décision plus rapide basée sur les données. Il s'inscrit pleinement dans la stratégie de transformation digitale d’ARaymond, en favorisant une meilleure coordination entre les équipes industrielles et informatiques à travers le monde.
 
 ---
 
