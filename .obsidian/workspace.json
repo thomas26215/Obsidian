@@ -115,26 +115,14 @@
             "id": "bfbde9d5d7ae89bf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-12 09.50.04.excalidraw"
-            }
-          },
-          {
-            "id": "867ae1f40a4c1884",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
-                "mode": "source",
+                "file": "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alignement en Flutter - mainAxisAlignment et crossAxisAlignment"
+              "title": "Cliquer sur un élément avec GestureDetector"
             }
           },
           {
@@ -176,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -539,28 +527,33 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "867ae1f40a4c1884",
+  "active": "bfbde9d5d7ae89bf",
   "lastOpenFiles": [
-    "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md~",
+    "Permanent/Programmation/Flutter/Builder pour ListView en Flutter.md",
     "Permanent/Programmation/Flutter/Column.md",
+    "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md",
+    "Permanent/Programmation/Flutter/ListView - Flutter.md",
+    "Permanent/Programmation/Flutter/ListView - Flutter.md~",
+    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.md",
+    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.md~",
     "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
+    "Permanent/Programmation/Flutter/Builder pour ListView en Flutter.md~",
+    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.dart",
+    "Permanent/Programmation/Flutter/ListView Simple en Flutter.md~",
+    "Permanent/Programmation/Flutter/ListView Simple en Flutter.md",
+    "Permanent/Programmation/Flutter/ListView Simple en Fluttermd",
+    "Permanent/Programmation/Flutter/ListView - Flutter.dart~",
+    "Permanent/Programmation/Flutter/ListView - Flutter.dart",
+    "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md~",
     "Permanent/Programmation/Flutter/Padding - Flutter.md",
     "Permanent/Programmation/Flutter/Scaffold - Flutter.md",
     "Permanent/Programmation/Flutter/Padding",
     "Permanent/Programmation/Flutter/Récupérer la valeur d'un  TextField - Flutter.md",
     "Permanent/Programmation/General/La notion de callback.md",
     "Permanent/Programmation/Flutter/ValueChanged flutter.md",
-    "Permanent/Programmation/General/La notion de callback.md~",
-    "Permanent/Programmation/General/La notion de callback",
-    "Permanent/Programmation/Flutter/ValueChanged flutter.md~",
     "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md",
-    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md~",
     "Permanent/Programmation/Flutter/Navigator.md",
     "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
-    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector~",
-    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector",
-    "Permanent/Programmation/Flutter/Expanded.md~",
-    "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md~",
     "conflict-files-obsidian-git.md",
     "Permanent/Programmation/Flutter/TextField - Flutter.md",
     "Permanent/Programmation/Flutter/Navigator.pop.md",
@@ -569,13 +562,8 @@
     "Permanent/Programmation/Flutter/InputDecoration.md",
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
     "Permanent/Programmation/Untitled.md",
-    "Permanent/Programmation/Flutter",
     "Flutter Widgets.md",
     "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
-    "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-12 09.58.32.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md",
-    "Inbox/TestComplete_SmartBear.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md"
+    "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md"
   ]
 }
