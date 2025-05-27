@@ -21,8 +21,7 @@
   "useDeviceSpecificSettings": false,
   "proxy": "",
   "chatSettings": {
-    "deviceCode": "3d50b335023777486d672d266bd8276fdc2454a4",
-    "pat": null,
+    "deviceCode": "7a1ceee885c5df3f2af9ee357837de377108ff6d",
     "accessToken": {
       "token": null,
       "expiresAt": null

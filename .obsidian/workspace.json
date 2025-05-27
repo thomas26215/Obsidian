@@ -129,12 +129,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Flutter/Scaffold - Flutter.md",
+                "file": "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scaffold - Flutter"
+              "title": "Alignement en Flutter - mainAxisAlignment et crossAxisAlignment"
             }
           },
           {
@@ -484,10 +484,10 @@
             "id": "2a9712b87c49a0f0",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -499,9 +499,19 @@
               "icon": "bot-message-square",
               "title": "Copilot Chat"
             }
+          },
+          {
+            "id": "1ce0dbdb5b2cf269",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "horizontal",
@@ -531,8 +541,13 @@
   },
   "active": "867ae1f40a4c1884",
   "lastOpenFiles": [
-    "Permanent/Programmation/Flutter/Récupérer la valeur d'un  TextField - Flutter.md",
+    "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md~",
+    "Permanent/Programmation/Flutter/Column.md",
+    "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
+    "Permanent/Programmation/Flutter/Padding - Flutter.md",
     "Permanent/Programmation/Flutter/Scaffold - Flutter.md",
+    "Permanent/Programmation/Flutter/Padding",
+    "Permanent/Programmation/Flutter/Récupérer la valeur d'un  TextField - Flutter.md",
     "Permanent/Programmation/General/La notion de callback.md",
     "Permanent/Programmation/Flutter/ValueChanged flutter.md",
     "Permanent/Programmation/General/La notion de callback.md~",
@@ -561,11 +576,6 @@
     "Excalidraw/Drawing 2025-05-12 09.58.32.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md",
     "Inbox/TestComplete_SmartBear.md",
-    "Projets/En cours/Stage 2e annee/Untitled",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
-    "Projets/En cours/Stage 2e annee/Travail 1.md",
-    "Meilleures seeds balatro.md",
-    "Inbox/Chronologie des zeldas.md",
-    "Permanent/Programmation/Agrégation.md"
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md"
   ]
 }
