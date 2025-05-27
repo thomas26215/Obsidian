@@ -522,13 +522,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
   "active": "bfbde9d5d7ae89bf",
   "lastOpenFiles": [
+    "Permanent/Programmation/Flutter/ReorderableListView.md",
     "Permanent/Programmation/Flutter/Builder pour ListView en Flutter.md",
     "Permanent/Programmation/Flutter/Column.md",
     "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md",
@@ -563,7 +562,6 @@
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
     "Permanent/Programmation/Untitled.md",
     "Flutter Widgets.md",
-    "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
-    "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md"
+    "Projets/En cours/Stage 2e annee/Normalisation namemapping.md"
   ]
 }
