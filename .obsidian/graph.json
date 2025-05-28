@@ -13,18 +13,25 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "path:Permanent/Programmation  ",
+      "color": {
+        "a": 1,
+        "rgb": 5984992
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.1,
+  "textFadeMultiplier": -1.5,
   "nodeSizeMultiplier": 0.814583333333333,
-  "lineSizeMultiplier": 5,
+  "lineSizeMultiplier": 2.24375,
   "collapse-forces": false,
   "centerStrength": 0.770833333333333,
   "repelStrength": 16.6666666666667,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.1362176572284762,
-  "close": true
+  "scale": 0.09502281885382759,
+  "close": false
 }
