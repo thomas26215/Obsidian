@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
+                "file": "Inbox/Flutter - Statefull Widget.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cliquer sur un élément avec GestureDetector"
+              "title": "Flutter - Statefull Widget"
             }
           },
           {
@@ -522,11 +522,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "bfbde9d5d7ae89bf",
   "lastOpenFiles": [
+    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
     "Permanent/Programmation/Flutter/ReorderableListView.md",
     "Permanent/Programmation/Flutter/Builder pour ListView en Flutter.md",
     "Permanent/Programmation/Flutter/Column.md",
@@ -552,7 +555,6 @@
     "Permanent/Programmation/Flutter/ValueChanged flutter.md",
     "Permanent/Programmation/Flutter/La décoration d'un TextField - Flutter.md",
     "Permanent/Programmation/Flutter/Navigator.md",
-    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
     "conflict-files-obsidian-git.md",
     "Permanent/Programmation/Flutter/TextField - Flutter.md",
     "Permanent/Programmation/Flutter/Navigator.pop.md",
