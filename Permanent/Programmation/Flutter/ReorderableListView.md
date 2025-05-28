@@ -35,3 +35,27 @@ En Flutter, un `ReorderableListView` est un widget qui permet de créer une list
 >     );
 >   }
 > }
+
+
+---
+
+> [!Example] Exemple avec un builder
+> ```dart
+> ReorderableListView.builder(
+>   itemCount: _items.length,
+>   itemBuilder: (context, index) {
+>     return ListTile(
+>       key: ValueKey(_items[index]),
+>       title: Text(_items[index]),
+>     ),
+>   },
+>   onReorder: (oldIndex, newIndex) {
+>     setState(() {
+>       if (newIndex > oldIndex) newIndex -= 1; // Ajuste l'index si on déplace vers le bas
+>       final item = _items.removeAt(oldIndex);
+>       _items.insert(newIndex, item); // Réinsère l'élément à la nouvelle position
+>     });
+>   },
+>);
+> ```
+

@@ -25,17 +25,10 @@ Raynet bénéficie d’un fort ancrage international grâce à sa présence dans
 
 #### Europe
 - **France** : Siège à Grenoble.
-- **Allemagne** : Paderborn (site principal), Regensburg, Ingolstadt, Berlin.
-- **Italie**, Espagne, Pologne, Royaume-Uni, Turquie.
+- Allemagne, Italie, Espagne, Pologne, Royaume-Uni, Turquie, Maroc, Angleterre.
+- Chine, Inde, Japon, Corée, Singapour
+- Brézil, Amérique du Nord
 
-#### Amérique du Nord
-- **États-Unis** : Schaumburg, Illinois.
-
-#### Asie
-- **Japon** : Tokyo.
-
-#### Afrique du Nord
-- **Maroc** : Casablanca.
 
 Raynet est une composante essentielle du **réseau ARaymond**, une entreprise familiale fondée en 1865 à Grenoble et aujourd’hui présente dans **21 pays** avec plus de **35 filiales**. Le réseau ARaymond emploie **plus de 7 500 personnes** dans le monde, illustrant un modèle basé sur l’innovation, la coopération et l’entrepreneuriat.
 
