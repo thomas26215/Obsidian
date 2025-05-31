@@ -290,13 +290,21 @@ En parallèle de la refonte, j’ai également contribué à la documentation in
 
 - Ce travail de documentation a permis de rendre plus accessible et maintenable le processus de gestion des objets dans TestComplete.
 
+### Présentation du NameMapping refondu
+
+Une fois le NameMapping retravaillé pour avoir une meilleure structure, Benjamein m'a proposé de présentation le résultat à l'équipe. J'ai donc expliqué comment j'avais procédé pour améliorer la lisibilité et la maintenabilité du NameMapping, ainsi que les bénéfices attendus pour les tests automatisés. J'ai présenté :
+- Les nouvelles conventions d'écriture, que ce soit lié aux tableaux, aux barres latérales ...
+- La nouvelle hiérarchies et comment la respecter
+- Les bonnes pratiques pour ajouter de nouveaux objets dans le NameMapping
+- Les extra-paramètres à utiliser pour rendre chaque élément unique : lesquels faut il mettre ou non
+
 ## 3. Réalisation des tests automatisés
 ### Création des tests automatisés avec TestComplete
 Une fois la refonte du NameMapping terminée, j’ai pu commencer à développer les tests automatisés qui m’étaient attribués. Ces tests avaient pour objectif de valider les fonctionnalités de l’application Raypro Supervision et de vérifier qu’elles se comportaient correctement dans différents scénarios.
 
-- Keyword Tests avec enregistrement : j’ai utilisé principalement la méthode d’enregistrement pour créer des tests fonctionnels. Cette approche permet de capturer les interactions utilisateur avec l’interface et de les convertir en étapes de test. C’est un moyen rapide et efficace de créer des tests de validation basiques.
+- **Keyword Tests avec enregistrement** : j’ai utilisé principalement la méthode d’enregistrement pour créer des tests fonctionnels. Cette approche permet de capturer les interactions utilisateur avec l’interface et de les convertir en étapes de test. C’est un moyen rapide et efficace de créer des tests de validation basiques.
 
-- Pour chaque test, j’ai inclus des assertions afin de vérifier que les résultats correspondaient aux attentes définies par les spécifications. J’ai également mis en place des vérifications d’état pour confirmer que l’interface utilisateur répondait correctement après chaque action (clic, saisie, etc.).
+- Pour chaque test, j’ai inclus **des assertions** afin de vérifier que les résultats correspondaient aux attentes définies par les spécifications. J’ai également mis en place des vérifications d’état pour confirmer que l’interface utilisateur répondait correctement après chaque action (clic, saisie, etc.).
 
 ### Utilisation du VBScript
 Dans certains cas, j’ai rencontré des objets ou des éléments d’interface qui n’étaient pas correctement identifiables via le NameMapping standard. J’ai donc utilisé VBScript de manière ponctuelle pour contourner cette limitation et accéder à ces objets.
@@ -314,3 +322,26 @@ J’ai ainsi contribué à l’automatisation de tests fonctionnels pour l’app
 
 Conclusion du travail réalisé
 Au total, cette organisation en trois grandes étapes (formation, refonte du NameMapping, développement des tests) m’a permis de progresser rapidement tout en apportant une valeur ajoutée à l’équipe. Le fait d’avoir pris l’initiative de refaire le NameMapping, couplé à la réalisation de tests automatisés de qualité, a contribué à améliorer la stabilité et la fiabilité des tests, et à rendre l’ensemble du processus plus maintenable à long terme.
+## Exploration de la fonctionnalité Image-Based Action dans TestComplete
+
+Au cours de mon stage, j’ai également eu l’occasion de m’intéresser à une fonctionnalité de TestComplete peu exploitée jusqu’à présent dans l’équipe : **l’Image-Based Action**. Cette approche, qui repose sur la reconnaissance visuelle des éléments de l’interface via des images, avait été très peu explorée, principalement par Manu, et de manière limitée.
+
+Benjamen m'a donc demandé d'explorer cette fonctionnalité afin d’évaluer son potentiel dans notre contexte de tests automatisés. J’ai ainsi réalisé plusieurs essais pour mieux comprendre le fonctionnement de cette méthode, ses avantages, mais aussi ses limites.
+
+### Découverte et premiers tests
+
+J’ai d’abord exploré les possibilités offertes par cette méthode, en testant des actions basées sur la détection d’images à l’écran plutôt que sur le NameMapping classique. Cette approche peut s’avérer intéressante dans certains cas où la reconnaissance d’objets via NameMapping est difficile voire impossible, notamment pour des pages ou des éléments dont les identifiants ne sont pas stables ou absents.
+
+Après cette phase d’exploration, j’ai reproduit un test déjà existant, précédemment développé sous forme de Keyword Test classique, mais cette fois en utilisant la méthode Image-Based Action. Ce test a permis de valider concrètement l’utilité de cette technique dans notre projet.
+
+### Avantages et inconvénients identifiés
+
+Parmi les avantages observés, l’Image-Based Action permet de contourner les limitations liées à l’identification des objets dans certains cas complexes. Elle offre une certaine flexibilité, en se basant uniquement sur l’apparence visuelle des éléments, ce qui peut faciliter la maintenance des tests quand le NameMapping est trop fragile.
+
+Cependant, j’ai également relevé plusieurs inconvénients importants. Cette méthode est souvent moins robuste, notamment en cas de modifications graphiques, changements de résolution, ou différences d’affichage entre les environnements de test. De plus, la mise en place et la maintenance des images référencées demandent un soin particulier pour éviter des erreurs fréquentes.
+
+### Documentation et présentation à l’équipe
+
+Pour capitaliser sur ce travail, j’ai rédigé une documentation détaillée présentant les différents aspects de la méthode Image-Based Action, ses points forts ainsi que ses limites. Je prévois de présenter prochainement cette documentation à l’équipe afin d’échanger sur la pertinence de son intégration plus systématique dans notre processus d’automatisation.
+
+L’objectif est d’ouvrir de nouvelles pistes pour optimiser la couverture et la fiabilité des tests, notamment en supprimant certains codes complexes liés à des pages où le NameMapping est inefficace, et en utilisant cette fonctionnalité comme alternative viable.
