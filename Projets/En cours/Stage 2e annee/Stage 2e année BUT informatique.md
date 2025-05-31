@@ -322,7 +322,7 @@ J’ai ainsi contribué à l’automatisation de tests fonctionnels pour l’app
 
 Conclusion du travail réalisé
 Au total, cette organisation en trois grandes étapes (formation, refonte du NameMapping, développement des tests) m’a permis de progresser rapidement tout en apportant une valeur ajoutée à l’équipe. Le fait d’avoir pris l’initiative de refaire le NameMapping, couplé à la réalisation de tests automatisés de qualité, a contribué à améliorer la stabilité et la fiabilité des tests, et à rendre l’ensemble du processus plus maintenable à long terme.
-## Exploration de la fonctionnalité Image-Based Action dans TestComplete
+## 4. Exploration de la fonctionnalité Image-Based Action dans TestComplete
 
 Au cours de mon stage, j’ai également eu l’occasion de m’intéresser à une fonctionnalité de TestComplete peu exploitée jusqu’à présent dans l’équipe : **l’Image-Based Action**. Cette approche, qui repose sur la reconnaissance visuelle des éléments de l’interface via des images, avait été très peu explorée, principalement par Manu, et de manière limitée.
 
