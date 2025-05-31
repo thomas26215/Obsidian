@@ -3,74 +3,124 @@
 ## L'entreprise Raynet
 
 ### Présentation
+
 Raynet est une entreprise créée en 2000 dans le but de soutenir le réseau ARaymond Information System. Son rôle est essentiel dans la consolidation et l’évolution des infrastructures informatiques du groupe ARaymond à travers le monde. En tant qu’entité experte en technologies de l'information, Raynet intervient dans des domaines variés tels que le support IT, la gestion des infrastructures, la cybersécurité, ou encore le développement de solutions digitales adaptées aux besoins métiers.
 
-Le siège social de Raynet est situé au 113 cours Berriat, 38000 Grenoble, France. Il s’agit d’une société par actions simplifiée (SAS), dotée d’un capital social de 25 000 euros.
+Le siège social de Raynet est situé au **113 cours Berriat, 38000 Grenoble, France**. Il s’agit d’une société par actions simplifiée (SAS), dotée d’un capital social de **25 000 euros**.
 
 Raynet concentre son activité sur trois axes principaux :
 
 - Le développement de systèmes d’information adaptés et évolutifs.
+    
 - La fourniture de solutions IT innovantes et durables.
+    
 - La gestion d’environnements informatiques complexes, en étroite collaboration avec les différentes entités du groupe ARaymond.
+    
 
-En complément, Raynet participe à des projets industriels à forte valeur ajoutée, notamment à travers le logiciel Raypro, qui permet la modélisation et la simulation de pièces industrielles. Cet outil est particulièrement utilisé dans le secteur automobile, où il contribue à l’optimisation des processus de fabrication.
+En complément, Raynet participe à des projets industriels à forte valeur ajoutée, notamment à travers le logiciel **Raypro**, qui permet la modélisation et la simulation de pièces industrielles. Cet outil est particulièrement utilisé dans le secteur automobile, où il contribue à l’optimisation des processus de fabrication.
+
+---
 
 ### Chiffres clés
+
 - **Effectif global** : environ 250 personnes.
-- **Chiffre d’affaires** : 54 millions d’euros en 2023, en progression de +8,52 % par rapport à 2022.
+    
+- **Chiffre d’affaires** : 54 millions d’euros en 2023, en progression de **+8,52 %** par rapport à 2022.
+    
 - **Part d’exportation** : environ 80 % du chiffre d’affaires est réalisé à l’international.
+    
+
+---
 
 ### Une organisation internationale
+
 Raynet bénéficie d’un fort ancrage international grâce à sa présence dans plusieurs pays :
 
-#### Europe
-- **France** : Siège à Grenoble.
-- Allemagne, Italie, Espagne, Pologne, Royaume-Uni, Turquie, Maroc, Angleterre.
-- Chine, Inde, Japon, Corée, Singapour
-- Brézil, Amérique du Nord
+#### **Europe**
 
+- **France** : Siège à Grenoble.
+    
+- **Allemagne** : Paderborn (site principal), Regensburg, Ingolstadt, Berlin.
+    
+- **Italie**, **Espagne**, **Pologne**, **Royaume-Uni**, **Turquie**.
+    
+
+#### **Amérique du Nord**
+
+- **États-Unis** : Schaumburg, Illinois.
+    
+
+#### **Asie**
+
+- **Japon** : Tokyo.
+    
+
+#### **Afrique du Nord**
+
+- **Maroc** : Casablanca.
+    
 
 Raynet est une composante essentielle du **réseau ARaymond**, une entreprise familiale fondée en 1865 à Grenoble et aujourd’hui présente dans **21 pays** avec plus de **35 filiales**. Le réseau ARaymond emploie **plus de 7 500 personnes** dans le monde, illustrant un modèle basé sur l’innovation, la coopération et l’entrepreneuriat.
 
+---
+
 ### Une entreprise avec des valeurs fortes
-Raynet, à travers le réseau ARaymond, porte un héritage et des valeurs profondément ancrées dans sa culture d’entreprise. Ces six valeurs fondamentales guident l’ensemble des collaborateurs au quotidien :
+
+Raynet, à travers le réseau ARaymond, porte un héritage et des valeurs profondément ancrées dans sa culture d’entreprise. Ces **six valeurs fondamentales** guident l’ensemble des collaborateurs au quotidien :
+
 - **Innovation** : depuis la création du premier bouton pression en 1865, ARaymond place l’innovation au cœur de ses processus. Cela reste vrai aujourd’hui, avec une recherche constante de nouvelles solutions techniques.
+    
 - **Esprit entrepreneurial** : chaque collaborateur est encouragé à s’impliquer, à oser, et à s’adapter aux réalités locales, tout en contribuant au succès collectif.
+    
 - **Collaboration** : essentielle dans un environnement mondial, elle repose sur la confiance, l’écoute et l’empathie. Elle permet de créer ensemble des solutions de qualité.
+    
 - **Création de valeur** : à travers les compétences et la créativité des équipes, chaque projet vise à générer un impact positif et durable pour les clients.
+    
 - **Respect** : vis-à-vis des personnes et de l’environnement, cette valeur constitue le socle de toutes les actions entreprises.
+    
 - **Plaisir** : le plaisir au travail est vu comme une conséquence directe de l'application des autres valeurs, et un moteur de motivation.
+    
+
+---
 
 ### L’intégration des nouveaux arrivants
 
 Chez Raynet, l'intégration des nouveaux collaborateurs est soigneusement encadrée. Un portail SharePoint dédié accompagne les premiers pas : il regroupe des informations utiles, des contacts RH, des e-learnings et des documents de gouvernance.
 
-Les premières semaines sont structurées pour faciliter l’arrivée : chaque nouveau collaborateur peut choisir un référent, un mentor chargé de l’accompagner, et un Community Leader, facilitateur des échanges au sein de sa communauté métier.
+Les premières semaines sont structurées pour faciliter l’arrivée : chaque nouveau collaborateur peut choisir un **référent**, un mentor chargé de l’accompagner, et un **Community Leader**, facilitateur des échanges au sein de sa communauté métier.
 
 Raynet fonctionne selon une approche communautaire :
+
 - Les **Communautés d’Expérience** assurent la qualité du parcours utilisateur.
+    
 - Les **Communautés d’Expertise** permettent aux experts d’un même domaine de collaborer efficacement.
+    
 - Les **Communautés de Leadership** assurent l'encadrement stratégique et opérationnel.
+    
 
 En complément, la plateforme **OneHR** centralise l’ensemble des démarches RH, de l’onboarding à l’évaluation annuelle des performances.
-Des formations en ligne via **ARUniversity** complètent le dispositif, avec des modules sur des thématiques clés : la sécurité informatique, les valeurs de l’entreprise, la conformité (RGPD, anticorruption), et le leadership bienveillant.
 
+Des formations en ligne via **ARUniversity** complètent le dispositif, avec des modules sur des thématiques clés : la sécurité informatique, les valeurs de l’entreprise, la conformité (RGPD, anticorruption), et le leadership bienveillant.
 
 ---
 
-### Un outil stratégique : Raypro
-Raypro est un logiciel de supervision de production développé par Raynet, la filiale informatique du groupe ARaymond. Il s'agit d'un système MES (Manufacturing Execution System) qui joue un rôle clé dans la digitalisation des processus industriels du groupe.
+Cette organisation témoigne d’une volonté forte d'accompagnement, de partage et de développement des talents dans un environnement international, collaboratif et innovant.
 
-Conçu pour surveiller, piloter et optimiser les opérations de fabrication en temps réel, Raypro est notamment utilisé dans certaines usines du groupe ARaymond, comme celle de Rochester Hills aux États-Unis.
+---
 
-Ses principales fonctionnalités incluent :
-- Le suivi en temps réel de la production.
-- La collecte de données machine et opérateur.
-- La gestion des incidents et des arrêts de production.
-- Le pilotage de la performance industrielle.
-- La traçabilité des opérations.
+Souhaites-tu que je développe d’autres sections de ton rapport (par exemple : missions, bilan personnel, annexes) ?
 
-Raypro contribue activement à l'amélioration continue, à la réduction des temps d'arrêt, et à une prise de décision plus rapide basée sur les données. Il s'inscrit pleinement dans la stratégie de transformation digitale d’ARaymond, en favorisant une meilleure coordination entre les équipes industrielles et informatiques à travers le monde.
+---
+
+### Logiciel phare : Raypro
+
+Raynet développe et utilise le logiciel **Raypro**, conçu pour la construction et la simulation de pièces industrielles. Ce logiciel est particulièrement utilisé dans :
+
+* Le domaine automobile pour concevoir des pièces complexes.
+* Simuler leur comportement avant fabrication.
+* Optimiser les processus de production.
+
+Raypro joue un rôle essentiel dans l'intégration des étapes de conception, prototypage et fabrication dans un flux de travail rationalisé.
 
 ---
 
@@ -106,7 +156,7 @@ Lorsque la version de test est validée et passe en production, les versions év
 * Nouvelle version de développement : 2.68 (incrémentée).
 ```
 
-### Organisation physique de l'usine
+### Organisation physique d'une usine
 
 ```mermaid
 flowchart LR
@@ -172,66 +222,7 @@ Ce logiciel est utilisé directement sur les machines pour surveiller leur fonct
 
 ---
 
-<<<<<<< HEAD
-## Période de formation
-
-Au début de mon stage, je n’ai pas directement commencé le développement des tests. En effet, une phase de formation préalable était nécessaire pour bien comprendre le contexte et les outils utilisés. J’ai d’abord été formé sur le logiciel **Raypro Supervision**, afin d’en maîtriser le fonctionnement et ses spécificités. Cette étape m’a permis d’acquérir les connaissance nécessaires de l’application sur laquelle je devais travailler, ce qui est essentiel pour concevoir des tests pertinents et efficaces.
-=======
-## Outils et techniques de test automatisé
->>>>>>> origin/master
-
-### Présentation de TestComplete
-
-Dans le cadre de mon stage, j’ai été formé à l’utilisation de **TestComplete**, un outil développé par **SmartBear**, qui permet d’automatiser des tests fonctionnels sur des applications bureautiques (desktop), web ou mobiles. Il est particulièrement adapté aux environnements de développement continu où la régression fonctionnelle doit être vérifiée rapidement à chaque mise à jour.
-
-TestComplete offre deux modes de création de tests :
-
-* **Par script**, dans différents langages (JavaScript, Python, VBScript, etc.).
-* **Par Keyword Tests**, qui permettent de créer des tests sous forme de blocs d’actions visuels, plus accessibles et lisibles.
-
-<<<<<<< HEAD
-## L'entraînement
-
-Une fois cette phase de formation et d’immersion terminée, j’ai commencé à développer des tests automatisés en utilisant la méthode d’enregistrement dans TestComplete, en m’appuyant sur différents scripts de tests qui m’ont été fournis (Exemple : [[Travail 1]]). Cette première expérience pratique m’a permis de mettre en application les connaissances acquises et de mieux comprendre l’utilisation de l’outil TestComplete ainsi que les pratiques du nameMapping.
-=======
----
->>>>>>> origin/master
-
-### Le système de NameMapping
-
-Avant de créer des tests automatisés, il est essentiel de configurer correctement le **NameMapping**, un système qui permet à TestComplete d’**identifier les objets de l’interface**. Chaque objet (champ, bouton, fenêtre...) est décrit par un ensemble de propriétés (comme `Name`, `ClassName`, `ID`, etc.) qui permettent à TestComplete de le retrouver de manière stable, même si sa position ou sa structure change dans l'application.
-
-Une attention particulière a été portée à cette phase, car un NameMapping généré uniquement par l’enregistrement automatique est souvent peu fiable : il peut contenir des références dynamiques ou non significatives (comme des index ou des chemins instables). J’ai donc appris à :
-
-* Identifier les objets avec l’inspecteur d’objet.
-* Nettoyer le mapping automatique.
-* Modifier les critères pour obtenir une hiérarchie logique et durable.
-
----
-
-### Création de tests avec les Keyword Tests et le mode Record
-
-Une fois le NameMapping en place, j’ai utilisé la fonction **Record** de TestComplete pour créer mes tests en mode **Keyword Test**. Cette méthode consiste à capturer les actions utilisateur (clics, saisies, etc.) et à les transformer automatiquement en blocs d’actions organisés. Ce système est particulièrement efficace pour construire rapidement des tests de validation.
-
-Ces Keyword Tests peuvent ensuite être enrichis avec des vérifications, des conditions, des boucles ou des appels à d’autres tests, afin de modéliser des scénarios plus complexes.
-
----
-
-### Utilisation ponctuelle de VBScript
-
-Dans certains cas, malgré un NameMapping précis, TestComplete n’arrivait pas à reconnaître certains objets à l’aide des méthodes classiques. J’ai alors eu recours, de manière **ponctuelle**, à du **code VBScript**, principalement pour :
-
-* Identifier dynamiquement des objets non mappés
-
-
-.
-
-* Parcourir la hiérarchie des objets avec des fonctions comme `FindChild`.
-* Ajouter des vérifications ou des interactions plus fines.
-
-Ces scripts simples m’ont permis de dépasser les limites du mode visuel tout en découvrant les bases de l’automatisation avancée.
-
----
+# Période de formation
 
 ## 1. Phase de découverte et immersion
 Au début de mon stage, je n’ai pas immédiatement commencé à développer des tests. Une phase de formation préalable était nécessaire afin de bien comprendre le contexte fonctionnel de l’entreprise et les outils techniques utilisés.
@@ -240,7 +231,15 @@ Au début de mon stage, je n’ai pas immédiatement commencé à développer de
 J’ai d’abord été formé sur le logiciel Raypro Supervision, qui constitue le cœur de l’application à tester. Cette formation m’a permis de maîtriser les fonctionnalités principales de l’outil, son organisation, et les processus industriels qu’il modélise. Cela a été une étape essentielle pour acquérir les connaissances nécessaires à la conception de tests pertinents et adaptés aux cas métiers.
 
 ### Introduction à TestComplete
-En parallèle, j’ai été introduit à TestComplete, l’outil d’automatisation utilisé au sein de l’équipe. M. Benjamen Radoux m’a présenté les fonctionnalités principales du logiciel, notamment le mode d’enregistrement (record), qui permet de capturer les interactions avec l’interface pour générer automatiquement des tests, sous forme de Keyword Tests. Cette approche m’a semblé intuitive et rapide à prendre en main, bien qu’elle présente certaines limites en termes de personnalisation et de robustesse.
+Une fois la formation terminée, j’ai pu commencer à manipuler TestComplete de manière plus concrète à travers une phase d’expérimentation. Pour cela, une suite de projet dédiée m’a été attribuée, ce qui m’a permis de tester librement l’outil sans impacter les projets existants. Cette phase m’a permis de prendre en main l’interface, de tester différentes approches et de mieux comprendre le fonctionnement de l’automatisation des tests.
+
+J’ai notamment utilisé la **fonction d’enregistrement** de TestComplete, qui permet de créer des tests automatiquement à partir des actions effectuées sur l’application. Chaque clic, saisie ou interaction est enregistré et converti en **Keyword Test**, une suite d’étapes visuelles simples à lire et à modifier. Cette approche m’a permis de créer rapidement mes premiers scénarios de test, sans avoir besoin de connaissances avancées en programmation.
+
+C’est également à cette occasion que j’ai découvert le concept de **Name Mapping**, un élément central dans l’élaboration de tests fiables. Le Name Mapping sert à identifier les objets de l’interface (comme les boutons, les champs de texte ou les fenêtres) et à leur attribuer des noms lisibles appelés "alias". Cela permet à TestComplete de repérer ces objets même si certains paramètres changent (comme leur position ou leur nom technique). Grâce à ce système, les tests sont plus robustes et plus faciles à maintenir, car une modification dans l’interface nécessite souvent seulement une mise à jour dans le Name Mapping, sans devoir toucher à l’ensemble des tests.
+
+Enfin, j’ai commencé à explorer les **tests scriptés**, qui permettent d’écrire les scénarios en langage Python ou JavaScript. Bien que plus complexes, les scripts offrent davantage de possibilités, notamment pour gérer des conditions, des boucles ou des données dynamiques. Cela m’a permis de mieux comprendre la différence entre les tests visuels (Keyword Tests) et les tests programmés, et de voir les avantages de chaque méthode selon le contexte.
+
+Cette phase m’a beaucoup aidé à prendre confiance avec l’outil et à me familiariser avec les bonnes pratiques de l’automatisation des tests. Elle m’a également permis de mieux comprendre les composants clés de TestComplete et leur utilité dans un projet de test à long terme.
 
 ### Accompagnement de l’équipe
 Durant cette période d’apprentissage, j’ai bénéficié de l’accompagnement précieux de Manu et Martine Maume, collègues expérimentés dans le développement de tests automatisés pour Raypro Supervision. Ils ont su répondre à mes nombreuses questions techniques, m’aider à surmonter les blocages que je rencontrais, et m’orienter dans mes premiers essais. Leur soutien a grandement facilité ma montée en compétence.
@@ -256,7 +255,8 @@ Dans une optique d’immersion dans l’environnement de l’entreprise, j’ai 
 
 Cette visite m’a offert une vision plus large du rôle de l’entreprise dans l’histoire industrielle locale et mondiale, et m’a aidé à mieux comprendre la portée de mon travail dans un contexte plus global d’innovation continue.
 
-###Premiers essais pratiques
+### Premiers essais pratiques
+
 À l’issue de cette phase de formation, j’ai pu débuter mes premiers tests automatisés en utilisant la méthode d’enregistrement dans TestComplete. Je me suis appuyé sur des scripts de test déjà existants pour apprendre les bonnes pratiques et comprendre la structure des projets.
 
 En parallèle, j’ai été encouragé à explorer librement le logiciel, ce qui m’a permis de "bidouiller", tester différentes approches et expérimenter les fonctionnalités de TestComplete de manière autonome.
@@ -265,7 +265,7 @@ Pour ne pas interférer avec les projets existants, une nouvelle suite de projet
 
 
 ## 2. Refonte du NameMapping et amélioration de la documentation
-Identification du problème du NameMapping
+
 Au début de mon travail sur les tests automatisés, j’ai constaté que le NameMapping existant dans TestComplete n’était pas optimal. Il avait été principalement généré à l’aide de la fonctionnalité d'enregistrement, ce qui a conduit à une structure désorganisée et des objets mal identifiés. En effet, cette méthode d’enregistrement automatique avait entraîné une gestion difficile des objets, avec des noms peu explicites, des attributs non stables et des objets inutiles ou redondants.
 
 ### Proposition et refonte du NameMapping
@@ -314,22 +314,3 @@ J’ai ainsi contribué à l’automatisation de tests fonctionnels pour l’app
 
 Conclusion du travail réalisé
 Au total, cette organisation en trois grandes étapes (formation, refonte du NameMapping, développement des tests) m’a permis de progresser rapidement tout en apportant une valeur ajoutée à l’équipe. Le fait d’avoir pris l’initiative de refaire le NameMapping, couplé à la réalisation de tests automatisés de qualité, a contribué à améliorer la stabilité et la fiabilité des tests, et à rendre l’ensemble du processus plus maintenable à long terme.
-
-<<<<<<< HEAD
-Durant cette phase d’expérimentation, j’ai énormément manipulé le nameMapping, testant différentes configurations et approches pour comprendre en profondeur son fonctionnement. Sans le savoir à ce moment-là, cette exploration intensive du nameMapping allait s’avérer précieuse par la suite, car elle m’a permis d’acquérir une expertise qui me serait très utile pour améliorer de façon significative le nameMapping du logiciel de supervision.
-
-Cette phase d’expérimentation m’a ainsi permis d’appréhender concrètement les enjeux liés à l’automatisation des tests fonctionnels, tout en contribuant à l’amélioration continue de la qualité de l’application Raypro Supervision.
-=======
->>>>>>> origin/master
-
-## Passage du la solution
-
-Après cette phase d’expérimentation, j’ai commencé à travailler directement sur la solution de supervision. Lors de la création de mon premier test, je me suis rapidement rendu compte que le nameMapping existant présentait de nombreuses lacunes : les éléments n’étaient pas nommés de façon explicite, et surtout, il n’y avait aucune hiérarchie structurée. Cette absence de hiérarchie posait un problème particulier : un même élément mappé pouvait être reconnu à deux endroits différents dans l’application. Cela ne provoquait pas d’erreurs à proprement parler, mais posait un vrai souci dès que je voulais différencier, par exemple, deux boutons identiques présents sur des pages différentes. Si l’un des deux était déjà mappé, il m’était alors impossible de le distinguer ou de le modifier sans risquer d’impacter d’autres tests qui utilisaient ce même mapping.
-
-J’ai alors partagé mes constats avec Benjamin, la personne la plus expérimentée sur le sujet. Suite à notre échange, il m’a proposé de reprendre entièrement le nameMapping du logiciel de supervision afin d’en améliorer la structure et la fiabilité. J’ai ainsi consacré trois semaines complètes à cette tâche : j’ai restructuré tout le nameMapping, en définissant une hiérarchie claire et en renommant les éléments de façon cohérente. J’ai ensuite remappé tous les tests impactés pour garantir leur bon fonctionnement avec la nouvelle organisation.
-
-À l’issue de ce travail, j’ai rédigé un document de bonnes pratiques détaillant les règles à suivre pour le nameMapping. Ce guide a pour objectif d’assurer une uniformité dans la façon de nommer et d’organiser les éléments, afin que l’ensemble de l’équipe puisse travailler efficacement et maintenir la qualité des tests automatisés sur le long terme.
-
-## Les tests à faire sur Supervisions
-
-Grâce à cette refonte complète du nameMapping, j’ai finalement pu réaliser les tests que j’étais censé effectuer dès le départ. Lors de ma phase d’entraînement, j’avais développé des scripts de tests sur des environnements d’entraînement, mais je n’avais pas pu les appliquer directement sur la solution de supervision à cause des limitations du nameMapping initial. Avec une structure claire et hiérarchisée, il m’a été possible de concevoir et d’exécuter ces tests dans le contexte réel de l’application, en adaptant et enrichissant mes approches pour répondre aux spécificités du logiciel.
