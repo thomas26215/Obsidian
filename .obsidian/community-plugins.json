@@ -8,7 +8,6 @@
   "periodic-notes",
   "highlightr-plugin",
   "smart-connections",
-  "obsidian-pandoc",
   "oz-image-plugin",
   "note-refactor-obsidian",
   "obsidian-image-toolkit",
@@ -35,5 +34,6 @@
   "slash-commander",
   "sqlseal",
   "sqlseal-charts",
-  "github-copilot"
+  "github-copilot",
+  "obsidian-pandoc"
 ]

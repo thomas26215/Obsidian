@@ -1,3 +1,5 @@
+![[Pasted image 20250601140945.png]]
+
 # Rapport de stage
 
 ## L'entreprise Raynet
@@ -342,6 +344,48 @@ Cependant, j’ai également relevé plusieurs inconvénients importants. Cette 
 
 ### Documentation et présentation à l’équipe
 
-Pour capitaliser sur ce travail, j’ai rédigé une documentation détaillée présentant les différents aspects de la méthode Image-Based Action, ses points forts ainsi que ses limites. Je prévois de présenter prochainement cette documentation à l’équipe afin d’échanger sur la pertinence de son intégration plus systématique dans notre processus d’automatisation.
+Pour capitaliser sur ce travail, j’ai rédigé une documentation détaillée **(Voir annexe 2)** présentant les différents aspects de la méthode Image-Based Action, ses points forts ainsi que ses limites. Je prévois de présenter prochainement cette documentation à l’équipe afin d’échanger sur la pertinence de son intégration plus systématique dans notre processus d’automatisation.
 
 L’objectif est d’ouvrir de nouvelles pistes pour optimiser la couverture et la fiabilité des tests, notamment en supprimant certains codes complexes liés à des pages où le NameMapping est inefficace, et en utilisant cette fonctionnalité comme alternative viable.
+
+## Compétences développées
+
+Au cours de mon stage chez Raynet, j’ai pu développer de nombreuses compétences, tant techniques que transversales :
+
+- **Maîtrise de l’automatisation des tests** : J’ai appris à utiliser TestComplete, en explorant à la fois les Keyword Tests et les scripts programmés, ce qui m’a permis de créer des scénarios de test robustes et adaptés aux besoins métiers.
+    
+- **Gestion du NameMapping** : J’ai acquis une compréhension approfondie de la structuration et de l’optimisation du NameMapping, élément clé pour assurer la fiabilité et la maintenabilité des tests automatisés.
+    
+- **Découverte des processus industriels** : La formation sur Raypro Supervision m’a permis de mieux appréhender les enjeux de la modélisation et de la simulation de chaînes de production dans le secteur industriel.
+    
+- **Travail en équipe** : J’ai pu collaborer efficacement avec des collègues expérimentés, échanger sur les bonnes pratiques et bénéficier de leur accompagnement pour progresser rapidement.
+    
+- **Capacité d’analyse et d’initiative** : Face à des outils ou des méthodes perfectibles, j’ai su proposer des améliorations, comme la refonte du NameMapping ou l’enrichissement de la documentation technique.
+    
+
+## Apports du stage et projet professionnel
+
+Ce stage a été une expérience très formatrice, qui m’a permis de :
+
+- **Découvrir le monde de l’automatisation des tests** et d’en comprendre les enjeux dans un contexte industriel exigeant, où la qualité et la fiabilité sont primordiales.
+    
+- **Prendre conscience de l’importance de la documentation et de la structuration des projets**, pour garantir la pérennité des outils développés et faciliter leur maintenance.
+    
+- **Élargir ma vision du secteur informatique**, en découvrant l’intégration de solutions logicielles dans des processus industriels réels.
+    
+
+## Bilan personnel
+
+Ce stage a été une étape clé dans mon parcours. J’ai particulièrement apprécié :
+
+- L’ambiance collaborative et l’accompagnement de l’équipe, qui m’a permis de progresser rapidement et de me sentir intégré dès les premiers jours.
+    
+- La diversité des missions confiées, qui m’ont permis de toucher à différents aspects du métier et de gagner en autonomie. J’ai grandement appris sur TestComplete pour la réalisation des tests, mais également sur Raypro Supervision et Raypro Machine, ce qui a été une découverte très enrichissante.
+    
+- La confiance accordée pour proposer et mettre en œuvre des améliorations, notamment sur la structuration des tests et la documentation.
+    
+- La découverte de l’histoire et des valeurs du groupe ARaymond, qui m’a permis de donner du sens à mon travail au sein d’une entreprise innovante et attachée à la qualité.
+- Il est également très agréable et motivant de savoir que le travail réalisé pendant ce stage va réellement servir à l’équipe et à l’entreprise, et qu’il aura un impact concret sur l’organisation et la qualité des projets à venir.
+    
+
+En conclusion, ce stage m’a permis de consolider mes acquis, de découvrir de nouveaux outils et méthodes, et de préciser mon orientation professionnelle. Je ressors de cette expérience motivé, enrichi et prêt à relever de nouveaux défis dans le domaine de la qualité logicielle et de l’automatisation des tests.
