@@ -484,8 +484,8 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {

@@ -15,7 +15,7 @@
 
 - Bref historique de Raynet (création, appartenance au groupe ARaymond).
     
-- Activités principales : développement de solutions logicielles industrielles, support IT, cybersécurité.
+- Activités : Filliale informatique de la société A.Raymond
     
 - Chiffres clés : effectif, chiffre d’affaires, présence à l’international.
     
