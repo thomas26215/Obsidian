@@ -23,7 +23,7 @@ Cela s’avère utile dans les cas où **les éléments de l’interface ne sont
 - **Utile quand le NameMapping échoue** ou que les éléments ne sont pas accessibles via l’arbre d’objets.
 - Permet de tester des interfaces non standardisées ou visuellement complexes.
 - Possibilité d’ajuster les critères de reconnaissance (tolérances) pour plus de flexibilité.
-- Fonctionne même sur des interfaces virtualisées ou en streaming (Citrix, RDP...).
+- Peut être plus simple au niveau des merges que le NameMapping ?
 
 ---
 
@@ -64,6 +64,12 @@ Cela s’avère utile dans les cas où **les éléments de l’interface ne sont
 - **StorageLocation** :
   - Si le texte de description passe de la ligne 1 à la ligne 2, l’image n’est plus reconnue.
   - Difficile de différencier deux éléments ayant **le même texte** dans une liste (risque de confusion).
+
+### Le merge
+Le nouveau NameMapping ne pose plus aucun problème. Chacun travaille dans son espace, et prévient quand il fait du changement dans le namamapping concernant la page pour que les autres personnes ne créent pas de conflit inutile
+
+### Et si l'écran change ?
+
 
 ---
 
