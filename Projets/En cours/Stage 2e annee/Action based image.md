@@ -69,7 +69,7 @@ Cela s’avère utile dans les cas où **les éléments de l’interface ne sont
 Le nouveau NameMapping ne pose plus aucun problème. Chacun travaille dans son espace, et prévient quand il fait du changement dans le namamapping concernant la page pour que les autres personnes ne créent pas de conflit inutile
 
 ### Et si l'écran change ?
-
+Si les boutons sur l'interface changent de place, il faut reprendre en capture tous les éléments de l'interface. Par exemple, dans le cas où il y a 5 boutons et 3 TextBox que l'on a mappé, il faut remappé 8 éléments (voir +, si on a du mappé plusieurs images pour un élément)
 
 ---
 
