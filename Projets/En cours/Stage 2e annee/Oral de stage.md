@@ -383,24 +383,3 @@
     
 - Je remercie l’équipe Raynet et mes encadrants pour leur accueil et leur accompagnement tout au long du stage1.
     
-
----
-
-N’hésite pas à personnaliser ces notes selon ton expérience et à les adapter pour un ton plus naturel à l’oral !
-
-Ajouter à la question de suivi
-
-Vérifier les sources
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/dcac669a-94c3-4cb7-9179-d49bfef7fdee/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/dcac669a-94c3-4cb7-9179-d49bfef7fdee/paste.txt)
-2. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/8712cc30-5e90-4eef-ad63-5e11e6d0f6ef/paste-2.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/8712cc30-5e90-4eef-ad63-5e11e6d0f6ef/paste-2.txt)
-3. [https://www.jeunesseenaction.fr/preparer-oral-de-stage-methode-infaillible](https://www.jeunesseenaction.fr/preparer-oral-de-stage-methode-infaillible)
-4. [https://clarolineconnect.univ-lyon1.fr/clarolinepdfplayerbundle/pdf/5275346](https://clarolineconnect.univ-lyon1.fr/clarolinepdfplayerbundle/pdf/5275346)
-5. [https://lyc-breteuil-montigny.ac-versailles.fr/IMG/pdf/savoir_prendre_des_notes_ecrit_oral_1_.pdf](https://lyc-breteuil-montigny.ac-versailles.fr/IMG/pdf/savoir_prendre_des_notes_ecrit_oral_1_.pdf)
-6. [https://clg-mare-coignieres.ac-versailles.fr/wp-content/uploads/sites/237/2013/03/Presentation_orale_du_stage.pdf](https://clg-mare-coignieres.ac-versailles.fr/wp-content/uploads/sites/237/2013/03/Presentation_orale_du_stage.pdf)
-7. [http://www.collegedescartes-tremblayenfrance.fr/ADI/files/epreuve%20orale.pdf](http://www.collegedescartes-tremblayenfrance.fr/ADI/files/epreuve%20orale.pdf)
-8. [https://college-charcot.ac-rennes.fr/sites/college-charcot.ac-rennes.fr/IMG/pdf/methodo_oral_avec_criteres_d_evaluation_2023-2024.pdf](https://college-charcot.ac-rennes.fr/sites/college-charcot.ac-rennes.fr/IMG/pdf/methodo_oral_avec_criteres_d_evaluation_2023-2024.pdf)
-9. [https://maths-v-ovieve.blog.ac-lyon.fr/wp-content/uploads/sites/24/2021/12/Oral-de-stage-3e-presentation-et-conseils.pdf](https://maths-v-ovieve.blog.ac-lyon.fr/wp-content/uploads/sites/24/2021/12/Oral-de-stage-3e-presentation-et-conseils.pdf)
-10. [https://couserans.mon-ent-occitanie.fr/lectureFichiergw.do?ID_FICHIER=1451887224824](https://couserans.mon-ent-occitanie.fr/lectureFichiergw.do?ID_FICHIER=1451887224824)
-11. [https://www.letudiant.fr/jobsstages/nos-conseils/exemple-de-plan-de-soutenance-de-stage-notre-guide-universel-quel-que-soit-votre-niveau-d-etude.html](https://www.letudiant.fr/jobsstages/nos-conseils/exemple-de-plan-de-soutenance-de-stage-notre-guide-universel-quel-que-soit-votre-niveau-d-etude.html)
-12. [https://www.stage.fr/blog/comment-pr%C3%A9parer-un-plan-de-soutenance-de-stage/](https://www.stage.fr/blog/comment-pr%C3%A9parer-un-plan-de-soutenance-de-stage/)
