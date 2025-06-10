@@ -281,6 +281,126 @@
     - Remerciements à l’équipe Raynet et aux encadrants pour leur accueil, leur accompagnement et la confiance accordée.
         
 
+
+
+# Notes
+
+
+## 1. Introduction
+
+- Bonjour, je m’appelle Thomas, étudiant en 2e année de BUT Informatique à l’IUT2 de Grenoble.
+    
+- J’ai effectué mon stage du 14 avril au 4 juillet chez Raynet, filiale du groupe ARaymond.
+    
+- Mon stage portait principalement sur l’automatisation des tests logiciels pour Raypro, la refonte du NameMapping dans TestComplete, et l’exploration de la fonctionnalité Image Based Action.
+    
+- Voici le plan de ma présentation : présentation de l’entreprise, immersion, missions réalisées, compétences acquises, et bilan/perspectives.
+    
+
 ---
 
-N’hésite pas à me dire si tu souhaites que je t’aide à rédiger un script encore plus détaillé ou avec un ton plus naturel !
+## 2. Présentation de l’entreprise Raynet
+
+- Raynet, créée en 2000 à Grenoble, est la filiale informatique du groupe ARaymond, un acteur industriel international fondé en 1865.
+    
+- Raynet développe des solutions logicielles, assure le support IT, la cybersécurité, et gère des projets internationaux pour le groupe.
+    
+- L’entreprise compte environ 250 collaborateurs, réalise un chiffre d’affaires de 54 millions d’euros, dont 80% à l’export, avec une présence dans plus de 10 pays2.
+    
+- Les valeurs fondamentales sont l’innovation, la collaboration, le respect, l’esprit entrepreneurial, la création de valeur et le plaisir au travail2.
+    
+- Raypro, leur logiciel phare, est utilisé pour la simulation et l’optimisation des processus de production industrielle, notamment dans l’automobile.
+    
+
+---
+
+## 3. Découverte et immersion
+
+- À mon arrivée, j’ai été accueilli par mon tuteur et présenté à l’équipe projet.
+    
+- J’ai suivi une formation sur les outils internes, notamment TestComplete et Raypro, et participé à des réunions d’équipe.
+    
+- L’intégration a été facilitée par un portail d’onboarding, un référent, et des modules de formation en ligne2.
+    
+- La visite du musée ARhome m’a permis de mieux comprendre l’histoire et les enjeux industriels du groupe ARaymond.
+    
+- Cette phase d’immersion a été essentielle pour comprendre le contexte du projet et m’intégrer à la culture d’entreprise.
+    
+
+---
+
+## 4. Missions réalisées
+
+**A. Automatisation des tests**
+
+- J’ai utilisé TestComplete pour automatiser les tests fonctionnels de Raypro.
+    
+- J’ai identifié les scénarios prioritaires avec l’équipe, rédigé des cas de test, puis implémenté et exécuté les scripts automatisés.
+    
+- Cette automatisation a permis une détection plus rapide des anomalies, un gain de temps pour les développeurs, et une meilleure traçabilité des tests1.
+    
+
+**B. Refonte du NameMapping**
+
+- Le NameMapping dans TestComplete sert à référencer les objets graphiques à tester.
+    
+- La structure était devenue complexe, rendant la maintenance difficile.
+    
+- J’ai analysé l’existant, proposé une nouvelle organisation hiérarchisée, et validé cette structure avec l’équipe.
+    
+- Résultat : maintenance simplifiée, fiabilité accrue des tests, et documentation claire pour l’équipe1.
+    
+
+**C. Exploration de l’Image Based Action**
+
+- J’ai exploré la fonctionnalité Image Based Action de TestComplete, qui permet de créer des tests basés sur la reconnaissance d’images.
+    
+- Cette méthode est utile quand les objets ne sont pas accessibles classiquement, mais elle est sensible aux changements graphiques.
+    
+- J’ai restitué mes résultats à l’équipe et proposé des recommandations sur les cas d’usage adaptés1.
+    
+
+---
+
+## 5. Compétences et apports du stage
+
+- Compétences techniques : automatisation de tests (TestComplete), scripting, gestion de versions (Git), rédaction de documentation technique1.
+    
+- Compétences humaines : travail en équipe internationale, communication en anglais, autonomie, capacité à expliquer des choix techniques.
+    
+- Ce stage m’a permis de découvrir concrètement les métiers de la qualité logicielle et de confirmer mon intérêt pour ce domaine1.
+    
+
+---
+
+## 6. Conclusion et perspectives
+
+- Ce stage a été très enrichissant, tant sur le plan technique qu’humain.
+    
+- Je suis fier d’avoir contribué à l’amélioration de la qualité des logiciels Raynet, notamment via l’automatisation des tests et la refonte du NameMapping.
+    
+- Cette expérience me motive à poursuivre dans le développement logiciel et la qualité, et à approfondir mes compétences en automatisation de tests.
+    
+- Je remercie l’équipe Raynet et mes encadrants pour leur accueil et leur accompagnement tout au long du stage1.
+    
+
+---
+
+N’hésite pas à personnaliser ces notes selon ton expérience et à les adapter pour un ton plus naturel à l’oral !
+
+Ajouter à la question de suivi
+
+Vérifier les sources
+
+1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/dcac669a-94c3-4cb7-9179-d49bfef7fdee/paste.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/dcac669a-94c3-4cb7-9179-d49bfef7fdee/paste.txt)
+2. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/8712cc30-5e90-4eef-ad63-5e11e6d0f6ef/paste-2.txt](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24277945/8712cc30-5e90-4eef-ad63-5e11e6d0f6ef/paste-2.txt)
+3. [https://www.jeunesseenaction.fr/preparer-oral-de-stage-methode-infaillible](https://www.jeunesseenaction.fr/preparer-oral-de-stage-methode-infaillible)
+4. [https://clarolineconnect.univ-lyon1.fr/clarolinepdfplayerbundle/pdf/5275346](https://clarolineconnect.univ-lyon1.fr/clarolinepdfplayerbundle/pdf/5275346)
+5. [https://lyc-breteuil-montigny.ac-versailles.fr/IMG/pdf/savoir_prendre_des_notes_ecrit_oral_1_.pdf](https://lyc-breteuil-montigny.ac-versailles.fr/IMG/pdf/savoir_prendre_des_notes_ecrit_oral_1_.pdf)
+6. [https://clg-mare-coignieres.ac-versailles.fr/wp-content/uploads/sites/237/2013/03/Presentation_orale_du_stage.pdf](https://clg-mare-coignieres.ac-versailles.fr/wp-content/uploads/sites/237/2013/03/Presentation_orale_du_stage.pdf)
+7. [http://www.collegedescartes-tremblayenfrance.fr/ADI/files/epreuve%20orale.pdf](http://www.collegedescartes-tremblayenfrance.fr/ADI/files/epreuve%20orale.pdf)
+8. [https://college-charcot.ac-rennes.fr/sites/college-charcot.ac-rennes.fr/IMG/pdf/methodo_oral_avec_criteres_d_evaluation_2023-2024.pdf](https://college-charcot.ac-rennes.fr/sites/college-charcot.ac-rennes.fr/IMG/pdf/methodo_oral_avec_criteres_d_evaluation_2023-2024.pdf)
+9. [https://maths-v-ovieve.blog.ac-lyon.fr/wp-content/uploads/sites/24/2021/12/Oral-de-stage-3e-presentation-et-conseils.pdf](https://maths-v-ovieve.blog.ac-lyon.fr/wp-content/uploads/sites/24/2021/12/Oral-de-stage-3e-presentation-et-conseils.pdf)
+10. [https://couserans.mon-ent-occitanie.fr/lectureFichiergw.do?ID_FICHIER=1451887224824](https://couserans.mon-ent-occitanie.fr/lectureFichiergw.do?ID_FICHIER=1451887224824)
+11. [https://www.letudiant.fr/jobsstages/nos-conseils/exemple-de-plan-de-soutenance-de-stage-notre-guide-universel-quel-que-soit-votre-niveau-d-etude.html](https://www.letudiant.fr/jobsstages/nos-conseils/exemple-de-plan-de-soutenance-de-stage-notre-guide-universel-quel-que-soit-votre-niveau-d-etude.html)
+12. [https://www.stage.fr/blog/comment-pr%C3%A9parer-un-plan-de-soutenance-de-stage/](https://www.stage.fr/blog/comment-pr%C3%A9parer-un-plan-de-soutenance-de-stage/)
