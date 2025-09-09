@@ -155,12 +155,24 @@
             "id": "3541f7e8e176f731",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "Qualité algorithmique"
+            }
+          },
+          {
+            "id": "03f203a526135d39",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -217,8 +229,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -539,8 +550,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c7c207e5865ecca5",
+  "active": "3541f7e8e176f731",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Productivite/Loi de Pareto.md",
     "Permanent/Productivite/Les habitudes et les routines.md",
     "Permanent/Productivite/Les meilleurs habitudes au matin.md",
@@ -566,7 +578,6 @@
     "Projets/En cours/Stage 2e annee/Travail 1.md",
     "Projets/Finish/S1.056/Oral.md",
     "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
-    "Permanent/Programmation/Flutter/Column.md",
     "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",
