@@ -1,4 +1,3 @@
-hfqsjlkdfhdqsjlk
 # 1. Le rôle des adverbes
 Tout comme en français, les adverbes servent à modifier ou à intensifier un verbe, un adjectif ou une autre phrase. Ils précisent le degré, la manière, le temps ou la fréquence d'une action ou d'un état
 

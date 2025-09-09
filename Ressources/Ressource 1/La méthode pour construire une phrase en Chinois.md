@@ -5,7 +5,7 @@
 [[Le charactère 给 (gěi)]]
 [[Construire une interrogative en Chinois]]
 [[Demander le nom d'une personne]]
-[[Les adverbes]]
+[[Les adverbes en Chinois]]
 
 Adjectifs se placent avant le nom qu'ils décrivent
 **Exemple** : 冰啤酒 = une bière fraîche, 新房子 = une nouvelle maison

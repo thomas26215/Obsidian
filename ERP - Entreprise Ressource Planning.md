@@ -2,6 +2,13 @@ l'ERP permet de passer d'un système d'information en silo avec des application 
 
 C'est une organisation fondée sur un SGBDr avec une gestion unique, cohérente et sécurisée des [[Donnée|données]] donnée. Il y a une modélisation de processus de l'entreprise et des modules fonctionnels (métiers)
 
-![[Les principaux modules d'un ERP]]
+On peut retrouver de nombreux modules dans un ERP :
+- FI : Finance
+- CO : Contrôle de gestion
+- MM : Gestion des achâts
+- SD : Ventes et distribution
+- PP : Production
+- HR : Ressources humaines
+
 [[Avantages et inconvénients d'un ERP]]
 [[Evolution du marché des ERP]]

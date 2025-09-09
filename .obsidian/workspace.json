@@ -35,26 +35,14 @@
             "id": "033ad2b3d2af8969",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Exemple d'une Plant.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Exemple d'une Plant.excalidraw"
-            }
-          },
-          {
-            "id": "415e7f4b04d7b9d7",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Meilleures seeds balatro.md",
+                "file": "Loi de Goodhart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meilleures seeds balatro"
+              "title": "Loi de Goodhart"
             }
           },
           {
@@ -162,9 +150,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-05-12 09.58.32.excalidraw"
             }
+          },
+          {
+            "id": "3541f7e8e176f731",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -196,7 +196,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ajouter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,12 +217,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "file": "Loi de Goodhart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +248,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Virtualisation - Conteneurs et docker"
+              "title": "Backlinks for Loi de Goodhart"
             }
           },
           {
@@ -257,12 +257,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "file": "Loi de Goodhart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Virtualisation - Conteneurs et docker"
+              "title": "Outgoing links from Loi de Goodhart"
             }
           },
           {
@@ -493,6 +493,16 @@
             "id": "1ce0dbdb5b2cf269",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c7c207e5865ecca5",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -500,7 +510,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "horizontal",
@@ -508,6 +518,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -523,12 +534,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "415e7f4b04d7b9d7",
+  "active": "c7c207e5865ecca5",
   "lastOpenFiles": [
+    "Permanent/Productivite/Loi de Pareto.md",
+    "Permanent/Productivite/Les habitudes et les routines.md",
+    "Permanent/Productivite/Les meilleurs habitudes au matin.md",
     "Loi de Goodhart.md",
+    "Listes chaînées et récursivité.md",
+    "Les pointeurs - C.md",
+    "Les adverbes en Chinois.md",
+    "Les 5 principes de l'ouverture.md",
+    "Le rock.md",
+    "ERP - Entreprise Ressource Planning.md",
+    "Les principaux modules d'un ERP.md",
+    "Les fonctions en C.md",
+    "Les fonctions d'un OS.md",
+    "Les experiences.md",
+    "Les controleurs.md",
+    "Meilleures seeds balatro.md",
     "Permanent/Neuroscience/Rééquilibrer notre niveau de dopamine - Récupérer d'une addiction.md",
     "Projets/En cours/Stage 2e annee/Oral de stage.md",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
@@ -539,7 +567,6 @@
     "Projets/Finish/S1.056/Oral.md",
     "Permanent/Programmation/Flutter/Alignement en Flutter - mainAxisAlignment et crossAxisAlignment.md",
     "Permanent/Programmation/Flutter/Column.md",
-    "Row.md",
     "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",
@@ -548,22 +575,8 @@
     "Projets/En cours/Stage 2e annee/lu853364pnr0.tmp",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.odt",
     "Pasted image 20250601140945.png",
-    "Inbox/Chronologie des zeldas.md",
-    "Permanent/Programmation/Flutter/Comprendre les Widgets dans les StateFulWIdget en Flutter.md",
     "Permanent/Programmation/Flutter/Comprendre les Widgets dans les StateFulWIdget en Flutter.md~",
-    "Permanent/Programmation/Flutter/Flutter - Statefull Widget.md",
-    "Permanent/Programmation/Flutter/Expanded.md",
-    "Inbox/Etre relaché.md",
-    "Permanent/Programmation/Flutter/Cliquer sur un élément avec GestureDetector.md",
-    "Permanent/Programmation/Flutter/ReorderableListView.md",
-    "Permanent/Programmation/Flutter/Builder pour ListView en Flutter.md",
-    "Excalidraw/Drawing 2025-05-12 09.50.04.excalidraw.md",
-    "Permanent/Programmation/Flutter/ListView - Flutter.md",
     "Permanent/Programmation/Flutter/ListView - Flutter.md~",
-    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.md",
-    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.md~",
-    "Permanent/Programmation/Flutter/ListView Simple en Flutter.md",
-    "Permanent/Programmation/Flutter/Padding - Flutter.md",
-    "Permanent/Programmation/Flutter/Scaffold - Flutter.md"
+    "Permanent/Programmation/Flutter/ListView avec des éléments de séparation en Flutter.md~"
   ]
 }
