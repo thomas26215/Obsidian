@@ -178,6 +178,18 @@
             }
           },
           {
+            "id": "6e7e94592f949ac9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
             "id": "03f203a526135d39",
             "type": "leaf",
             "state": {
@@ -188,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -245,7 +257,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -508,8 +521,8 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
             }
           },
           {
@@ -560,7 +573,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "24eb155dfcc06423",
+  "active": "6e7e94592f949ac9",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Productivite/Loi de Pareto.md",
