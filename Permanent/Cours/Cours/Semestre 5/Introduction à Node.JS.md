@@ -53,4 +53,10 @@ On peut exporter différents types de d'éléments :
 
 
 # Installer, créer et publier des packages
-**Un package** est un ou plusieurs modules groupés ensemble. Il est communément importé dans un autre package
+**Un package** est un ou plusieurs modules groupés ensemble. Il est communément importé dans un autre package.
+Node.JS s'appuie sur NPM pour installer et publier des packages. npmjs.org est le gestionnaire de package privilégié pour Node.JS
+
+# Installer un package
+Pour installer un package, il faut utiliser `npm` :
+```shell
+>>> npm install lorem-ipsum #Instal
