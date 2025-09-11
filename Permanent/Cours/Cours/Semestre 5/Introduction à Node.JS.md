@@ -56,7 +56,84 @@ On peut exporter différents types de d'éléments :
 **Un package** est un ou plusieurs modules groupés ensemble. Il est communément importé dans un autre package.
 Node.JS s'appuie sur NPM pour installer et publier des packages. npmjs.org est le gestionnaire de package privilégié pour Node.JS
 
-# Installer un package
+## Installer un package
 Pour installer un package, il faut utiliser `npm` :
 ```shell
->>> npm install lorem-ipsum #Instal
+>>> npm install lorem-ipsum #Installer le package lorem-ipsum
+```
+
+On peut installer de manière globale avec le drapeau  `-g`
+```shell
+>>> npm install -g mocha
+>>> mocha test/abc.js
+```
+
+## Utiliser un package localement
+On utiliser la même commande que pour importer un module, mais sans le chemin pour le package :
+```js
+import { LoremIpsum } from `lorem-ipsum`
+
+...
+...
+```
+
+## Les packages natifs
+Il existe des packages directement intégrés à `NodeJS` et se reconnaît pas le préfixe `node: `:
+```js
+import fs from 'node:fs'
+
+fs.writeFile('monFichier.txt', 'utf8', (err) => {
+  if (err) throw err;
+  console.log("Fichier sauvegardé");
+});
+```
+
+Il n'est pas obligatoire, mais recommandé pour éviter les risques de noms dupliqués
+
+## Créer un package
+1. Initialiser le package
+```shell
+>>> npm init
+```
+2. Installer les dépendances nécessaires
+```shell
+>>> npm i --save lorem-ipsum
+```
+3. Modifier le fichier `package.json` :
+```json
+"type" : "module"
+```
+
+
+# Génération d'un package pour créer un texte `lorem ipsum`
+```shell
+>>> npm init -y #Ajouter "type" : "module" dans le fichier json
+>>> npm install lorem-ipsum
+```
+
+Fichier JS :
+
+```js
+import { LoremIpsum } from "lorem-ipsum";
+import { writeFile } from "fs/promises";
+
+async function generateLoremIpsum() {
+    const lorem = new LoremIpsum({
+        sentencesPerParagraph: {
+            max: 8,
+            min: 4
+        },
+        wordsPerSentence: {
+            max: 16,
+            min: 4
+        }
+    });
+
+    const paragraphs = lorem.generateParagraphs(5);
+    await writeFile("lorem.txt", paragraphs, { encoding: "utf8" });
+    console.log("Lorem ipsum text generated and saved to lorem.txt");
+}
+
+generateLoremIpsum();
+
+```
