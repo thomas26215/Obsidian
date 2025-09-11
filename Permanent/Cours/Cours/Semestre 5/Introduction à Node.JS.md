@@ -50,3 +50,7 @@ On peut exporter différents types de d'éléments :
 > import { factorial } from './factorial.js';
 > console.log(factorial(4)); // ??
 > ```
+
+
+# Installer, créer et publier des packages
+**Un package** est un ou plusieurs modules groupés ensemble. Il est communément importé dans un autre package
