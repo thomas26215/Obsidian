@@ -221,12 +221,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Idées SAE.md",
-                "mode": "source",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idées SAE"
+              "title": "Introduction à Angular"
             }
           },
           {
@@ -250,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -324,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loi de Goodhart.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +334,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Loi de Goodhart"
+              "title": "Backlinks for Introduction à Angular"
             }
           },
           {
@@ -343,12 +343,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loi de Goodhart.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Loi de Goodhart"
+              "title": "Outgoing links from Introduction à Angular"
             }
           },
           {
@@ -386,13 +386,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Virtualisation - Conteneurs et docker"
+              "title": "Outline of Introduction à Angular"
             }
           },
           {
@@ -596,11 +596,12 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -625,11 +626,20 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "03f203a526135d39",
+  "active": "ffed826949eec61d",
   "lastOpenFiles": [
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
+    "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+    "Permanent/Programmation/General/SPA (Single page application).md",
+    "Permanent/Programmation/General/Le modèle - MVC.md",
+    "Permanent/Programmation/General/La vue - MVC.md",
+    "Inbox/Le modéle MVC.md",
+    "Permanent/Cours/TD/Semestre 2/MVC.md",
+    "Permanent/Programmation/General/Framework.md",
+    "Permanent/Programmation/PHP/Le framework.md",
     "Idées SAE.md",
     "Untitled 1.base",
-    "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
     "Untitled.base",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Productivite/Loi de Pareto.md",
@@ -646,15 +656,6 @@
     "Les fonctions en C.md",
     "Les fonctions d'un OS.md",
     "Les experiences.md",
-    "Les controleurs.md",
-    "Meilleures seeds balatro.md",
-    "Permanent/Neuroscience/Rééquilibrer notre niveau de dopamine - Récupérer d'une addiction.md",
-    "Projets/En cours/Stage 2e annee/Oral de stage.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
-    "Projets/En cours/Stage 2e annee/Action based image.md",
-    "Inbox/TestComplete_SmartBear.md",
-    "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
-    "Projets/En cours/Stage 2e annee/Travail 1.md",
     "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",

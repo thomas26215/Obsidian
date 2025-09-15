@@ -1,0 +1,7 @@
+Une **application web monopage**, souvent appelée **SPA** (_Single Page Application_), est une application qui ne charge qu’une seule page HTML principale au démarrage. Ensuite, tout le contenu affiché dans le navigateur est mis à jour **dynamiquement** grâce au JavaScript, sans recharger entièrement la page depuis le serveur.
+
+Contrairement aux sites web traditionnels, où chaque clic sur un lien provoque le chargement complet d’une nouvelle page, une SPA ne recharge que les éléments nécessaires. Cela rend l’utilisation plus fluide et rapide, car l’utilisateur a l’impression de naviguer dans une application installée plutôt que dans un site web.
+
+Les frameworks modernes comme **Angular**, **React** ou **Vue.js** facilitent la création de ce type d’applications. Ils gèrent l’affichage dynamique des composants, la navigation interne et la communication avec le serveur via des appels asynchrones (API, AJAX, Fetch).
+
+En résumé, une application web monopage est une application qui fonctionne directement dans le navigateur, en ne chargeant qu’une fois la page initiale et en mettant à jour uniquement les parties nécessaires, offrant ainsi une expérience proche d’une application de bureau ou mobile.
