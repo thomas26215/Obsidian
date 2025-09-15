@@ -1,7 +1,3 @@
-Parfait Thomas, voici une synthèse complète et structurée de ton application pour la gestion de projets étudiants, incluant les rôles, les fonctionnalités, la gestion des retards, le suivi individuel, et les différences entre web et mobile :
-
----
-
 ## 🧩 Structure générale de l’application
 
 ### 🎓 Rôles et permissions
@@ -20,13 +16,14 @@ Parfait Thomas, voici une synthèse complète et structurée de ton application 
 - Invitation par email, ou code d’accès.
 - Suggestions automatiques de groupes équilibrés selon les tags.
 - Feedback entre pairs en fin de projet.
+- Messagerie interne : Chat entre membres d'un groupe ou avec le prof référent
+- Planning de groupe : calendrier partagé pour organiser réunions, deadlines, rendus ...
 
 ### 🏢 Gestion des salles
 
 - Création de salles avec créneaux disponibles.
-- Réservation par les élèves avec motif obligatoire.
+- Réservation par les élèves parmis les salles mis à disposition par les enseignants en fonction des jours
 - Vue calendrier des réservations.
-- QR code pour valider la présence en salle.
 
 ### 📦 Suivi des rendus
 
@@ -37,12 +34,12 @@ Parfait Thomas, voici une synthèse complète et structurée de ton application 
 
 ---
 
-## ⏰ Gestion des retards en séance
+## ⏰ Gestion des retards en séance et vérification par les profs
 
 ### Signalement et présence
 
 - Bouton “Je vais être en retard” dans l’app mobile, avec heure estimée et motif.
-- Check-in à l’arrivée via QR code ou bouton.
+- Bouton vérification d'une salle avec la salle à vérifier. Si un groupe s'est mis présent dans une salle  ou que certains élèves ne sont pas présents alors qu'ils devraient l'être, sanction. Vérification par qr code : chaque élève à un qr code assigné et le prof scanne le qr code des élèves
 - Horodatage automatique pour mesurer le retard.
 - Historique des retards par élève.
 
@@ -77,26 +74,19 @@ Parfait Thomas, voici une synthèse complète et structurée de ton application 
 
 ## 📱 Différences Web / Mobile
 
-|Fonctionnalité|Web (desktop)|Mobile (app)|
-|---|---|---|
-|Création de groupes/salles|✔️ Interface complète|❌ Consultation uniquement|
-|Réservation de salle|✔️|✔️ Rapide via calendrier simplifié|
-|Suivi des rendus|✔️ Vue détaillée, téléchargement|✔️ Notifications, aperçu rapide|
-|Signalement de retard|✔️|✔️ Formulaire rapide et push|
-|Check-in en séance|✔️|✔️ QR code ou bouton|
-|Statistiques et exports|✔️ Tableaux, graphiques, CSV|❌ Résumé simple|
-|Feedback entre pairs|✔️ Interface complète|✔️ Saisie rapide|
+| Fonctionnalité             | Web (desktop)                    | Mobile (app)                       |
+| -------------------------- | -------------------------------- | ---------------------------------- |
+| Création de groupes/salles | ✔️ Interface complète            | ❌ Consultation uniquement          |
+| Réservation de salle       | ✔️                               | ✔️ Rapide via calendrier simplifié |
+| Suivi des rendus           | ✔️ Vue détaillée, téléchargement | ✔️ Notifications, aperçu rapide    |
+| Signalement de retard      | ✔️                               | ✔️ Formulaire rapide et push       |
+| Check-in en séance         | ✔️                               | ✔️ QR code ou bouton               |
+| Statistiques et exports    | ✔️ Tableaux, graphiques, CSV     | ❌ Résumé simple                    |
+| Feedback entre pairs       | ✔️ Interface complète            | ✔️ Saisie rapide                   |
 
 ---
 
-## 🔮 Évolutions possibles
-
-- Intégration IA : suggestion de groupes, détection de blocages, analyse de contribution.
-- Gamification : badges, scores de fiabilité, classement des groupes.
-- Mode hors-ligne : rédaction de rendus ou signalement de retard sans connexion.
-- Export PDF/Excel pour les profs.
-- Intégration avec outils externes (Google Drive, Teams, Moodle…).
-
----
-
-Si tu veux, je peux t’aider à modéliser la base de données, créer des wireframes, ou définir les priorités pour un MVP. Tu veux qu’on commence par la structure des tables ou l’interface mobile ?
+## 👜 Fourre-tout
+- Système de notifications concernant les retards, les rendus en retard ...
+- Chaque salle peut être attribué pour des besoins spécifiques (salle de réunion, salle "open-space" ...) et réservation des salles pour les travaux
+- Possibilité pour les profs de laisser la possiblité aux élèves de travailler depuis chez eux ou réservation obligatoire d'une salle

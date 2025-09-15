@@ -221,12 +221,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 15.md",
+                "file": "Idées SAE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 15"
+              "title": "Idées SAE"
             }
           },
           {
@@ -238,9 +238,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "2f182374aa39a194",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -615,9 +625,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ffed826949eec61d",
+  "active": "03f203a526135d39",
   "lastOpenFiles": [
-    "Untitled 15.md",
+    "Idées SAE.md",
     "Untitled 1.base",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
     "Untitled.base",
