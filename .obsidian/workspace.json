@@ -221,12 +221,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
-                "mode": "preview",
+                "file": "Idées SAE.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction à Angular"
+              "title": "Idées SAE"
             }
           },
           {
@@ -599,6 +599,16 @@
             "id": "20e8d156dcb43437",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e5800f787018bf3a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -606,7 +616,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "horizontal",
@@ -636,11 +646,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "20e8d156dcb43437",
+  "active": "e5800f787018bf3a",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
     "MOOC/Big MOCS/Cours.md",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
-    "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
     "Permanent/Programmation/General/SPA (Single page application).md",
     "Permanent/Programmation/General/Le modèle - MVC.md",
     "Permanent/Programmation/General/La vue - MVC.md",
