@@ -235,12 +235,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 15.md",
-                "mode": "source",
+                "file": "Will AI Make you stupid ?.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 15"
+              "title": "Will AI Make you stupid ?"
             }
           },
           {
@@ -664,15 +664,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
   "active": "6ca274c9439bbfba",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
-    "Untitled 15.md",
+    "Will AI Make you stupid ?.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
     "Permanent/Cours/TD/Semestre 4/Optimisation.md",
