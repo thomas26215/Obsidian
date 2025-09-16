@@ -149,3 +149,6 @@ Bien que $T_B$ soit meilleur asymptotiquement, pour $n < 14825$, la complexité 
 | $O$      | Borne supérieure asymptotique | $f(n) \leq c \cdot g(n)$ |
 | $\Omega$ | Borne inférieure asymptotique | $f(n) \geq c \cdot g(n)$ |
 | $\Theta$ | Borne asymptotique exacte      | $c_1 g(n) \leq f(n) \leq c_2 g(n)$ |
+
+
+

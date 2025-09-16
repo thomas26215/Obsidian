@@ -1,4 +1,6 @@
-# Relations asymptotiques
+**Cours** : [[Permanent/Cours/Cours/Semestre 5/Qualité algorithmique|Qualité algorithmique]]
+
+# 1. Relations asymptotiques
 
 ## a) $f_1(n) = n^2$, $f_2(n) = n^2 + 1$
 
@@ -66,3 +68,121 @@ Si $f_1(n)$ est un polynôme de degré $d_1$ et $f_2(n)$ est un polynôme de deg
 
 **Conclusion :** La relation dépend des degrés $d_1$ et $d_2$.
 
+
+
+# 2. Simplification asymptotique
+## a) $f(n) = 3n + 10$
+
+Le terme dominant est $3n$, donc :
+
+**Réponse :** $\Theta(n)$
+
+---
+
+## b) $f(n) = an + b$  avec $a > 0$
+
+Le terme dominant est $an$, donc :
+
+**Réponse :** $\Theta(n)$
+
+---
+
+## c) $f(n) = 3n^2 + 4n + 1$
+
+Le terme dominant est $3n^2$, donc :
+
+**Réponse :** $\Theta(n^2)$
+
+---
+
+## d) $f(n) = an^2 + bn + c$ avec $a > 0$
+
+Le terme dominant est $an^2$, donc :
+
+**Réponse :** $\Theta(n^2)$
+
+---
+
+## e) $f(n)$ est un polynôme positif de degré $d$ (coefficient de $n^d$ positif)
+
+Le terme dominant est de degré $d$, donc :
+
+**Réponse :** $\Theta(n^d)$
+
+---
+
+## f) $f(n, m) = 3n + 10m$
+
+Les deux termes sont linéaires, donc on garde le maximum :
+
+**Réponse :** $\Theta(n + m)$
+
+---
+
+## g) $f(n, m) = anm + bn + cm + d$ avec $a, b, c > 0$
+
+Le terme dominant est $anm$ (produit croisé), donc :
+
+**Réponse :** $\Theta(nm)$
+
+---
+
+## h) $f(n, m) = \dfrac{3n^2 + 4n + 1}{n + m + nm}$
+
+### Analyse asymptotique :
+
+- Numérateur : $3n^2 + 4n + 1 = \Theta(n^2)$
+- Dénominateur : $n + m + nm = \Theta(nm)$ (car $nm$ domine)
+
+Donc : $f(n, m) = \dfrac{\Theta(n^2)}{\Theta(nm)} = \Theta\left(\dfrac{n}{m}\right)$
+
+**Réponse :** $\Theta\left(\dfrac{n}{m}\right)$
+
+
+# 3) Changer la taille des données
+## a) $f(n) = \log_2 n$
+
+On utilise la propriété des logarithmes :  
+$\log_2(4n) = \log_2 4 + \log_2 n = 2 + \log_2 n$
+
+**Conclusion :** $f(4n) = f(n) + 2 \quad \Rightarrow \quad f(4n) = \Theta(f(n))$
+
+---
+
+## b) $f(n) = \sqrt{n}$
+
+$\sqrt{4n} = \sqrt{4} \cdot \sqrt{n} = 2\sqrt{n}$
+
+**Conclusion :** $f(4n) = 2f(n)$
+
+---
+
+## c) $f(n) = n$
+
+$f(4n) = 4n = 4f(n)$
+
+**Conclusion :** $f(4n) = 4f(n)$
+
+---
+
+## d) $f(n) = n^2$
+
+$f(4n) = (4n)^2 = 16n^2 = 16f(n)$
+
+**Conclusion :** $f(4n) = 16f(n)$
+
+---
+
+## e) $f(n) = n^3$
+
+$f(4n) = (4n)^3 = 64n^3 = 64f(n)$
+
+**Conclusion :** $f(4n) = 64f(n)$
+
+---
+
+## f) $f(n) = 2^n$
+
+$f(4n) = 2^{4n} = (2^n)^4 = f(n)^4$
+
+**Conclusion :** $f(4n) = f(n)^4$ (croissance exponentielle très rapide)
