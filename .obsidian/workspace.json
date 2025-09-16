@@ -608,6 +608,16 @@
             "id": "e5800f787018bf3a",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5ed8265026f18068",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -615,7 +625,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 27
       }
     ],
     "direction": "horizontal",
@@ -645,7 +655,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ffed826949eec61d",
+  "active": "5ed8265026f18068",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
     "MOOC/Big MOCS/Cours.md",
