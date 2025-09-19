@@ -264,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -321,8 +321,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -664,11 +663,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5ed8265026f18068",
+  "active": "2f182374aa39a194",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Will AI Make you stupid ?.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
@@ -697,7 +699,6 @@
     "Permanent/Productivite/Les meilleurs habitudes au matin.md",
     "Loi de Goodhart.md",
     "Listes chaînées et récursivité.md",
-    "Les pointeurs - C.md",
     "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",
