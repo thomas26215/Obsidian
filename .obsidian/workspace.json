@@ -235,24 +235,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-                "mode": "source",
-                "source": false
+                "file": "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Optimisation"
+              "title": "Programmation linéaire"
             }
           },
           {
             "id": "bf34dccbb23f3a1c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md"
+                "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-23 11.29.47.excalidraw"
+              "icon": "lucide-file",
+              "title": "Optimisation"
             }
           },
           {
@@ -337,7 +339,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -686,12 +689,12 @@
   },
   "active": "2f182374aa39a194",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
+    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-    "Excalidraw/Drawing 2025-09-23 11.29.38.excalidraw.md",
+    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-23 11.29.38.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md",

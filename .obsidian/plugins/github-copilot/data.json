@@ -3,7 +3,7 @@
   "nodePathUpdatedToNode20": true,
   "enabled": true,
   "hotkeys": {
-    "accept": "Tab",
+    "accept": "Ctrl-m",
     "cancel": "Escape",
     "request": "Cmd-Shift-/",
     "partial": "Cmd-Shift-.",
