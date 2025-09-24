@@ -91,3 +91,35 @@ Soient $x_1, x_2, x_3$ les quantités produites respectivement des produits de $
 Contraintes :
 $$\begin{Bmatrix}4x_1+2x_2+4x_3<=80\\2x_1+2x_2+3x_3<=50\\x_1+3x_2+2x_3<=40\\x_1,x_2,x_3>=0\end{Bmatrix}$$
 
+
+# Exercise 6
+
+$$c_1\;x_2=-2x_1+2$$
+$$c_1\;x_2=-\frac{1}{3}x_1+1$$
+## Méthode du simplexe
+
+Pour transformer les inégalités en égalités, on ajoute des **variables d’écart** $x_3$ et $_4$ :
+$2x_1+x_2+x_3=2$
+$x_1+3x_2+x_4=3$
+
+
+| Base  | x1  | x2  | x3  | x4  | RHS |
+| ----- | --- | --- | --- | --- | --- |
+| x_3   | 2   | 1   | 1   | 0   | 2   |
+| x_4   | 1   | 3   | 0   | 1   | 3   |
+| **Z** | -3  | -2  | 0   | 0   | 0   |
+
+On choisit ici la variable entrante $x1$ (plus grand coefficient négatif dans Z
+
+On applique par la suite le **test du rapport** :
+$$Rapport=\frac{RHS}{Coefficient\;de\;la\;colonne\;entrante}$$
+Ainsi :
+- Ligne $x_3$ : $\frac{2}{2}=1$
+- Ligne $x_4$ : $\frac{3}{1}=3$
+
+Le plus petit est 1 donc $x_3$ sort. Le pivot est donc $a_{11}=2$.
+
+On applique ensuite **l'opération du pivot** :
+1. **Normalisation du pivot** : (diviser par 2) :
+Nouvelle ligne $x_3$ : $(1,\;0.5,\;0.5,\;0\;|\;1)$
+2. ** 

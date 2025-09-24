@@ -282,7 +282,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -339,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -682,16 +681,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "2f182374aa39a194",
+  "active": "bf34dccbb23f3a1c",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 11.29.38.excalidraw.md",

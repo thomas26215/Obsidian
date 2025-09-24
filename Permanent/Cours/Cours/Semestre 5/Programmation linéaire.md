@@ -52,7 +52,7 @@ Pour une maximisation, la variable entrante est celle avec le **plus grand coeff
 
 Ensuite, on applique le **test du rapport** :  
 
-$ \text{Rapport} = \dfrac{\text{RHS}}{\text{Coefficient de la colonne entrante}} $
+$\text{Rapport} = \dfrac{\text{RHS}}{\text{Coefficient de la colonne entrante}}$
 
 - Ligne $x_4$ : $80 / 4 = 20$  
 - Ligne $x_5$ : $50 / 2 = 25$  
