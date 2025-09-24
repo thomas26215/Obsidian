@@ -251,7 +251,7 @@
               "state": {
                 "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Optimisation"
@@ -681,7 +681,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "bf34dccbb23f3a1c",
