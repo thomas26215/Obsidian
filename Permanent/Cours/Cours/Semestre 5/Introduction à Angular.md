@@ -7,210 +7,156 @@ tags:
 Complete: false
 Learned: false
 ---
-# 📘 Cours : Angular et Data Binding
-
-## 1. Introduction à Angular
-
-- **Angular** est un [[Framework]] **JavaScript côté client**.
-    
-- Il permet de développer des **[[SPA (Single page application)|applications web monopages (SPA)]]**.
-    
-- Multiplateforme, open source (licence MIT).
-    
-- Repose sur une **[[Le modèle - MVC|architecture MVC]]** et s’appuie principalement sur **TypeScript**.
-    
-
-### TypeScript
-
-- Sur-ensemble de JavaScript (ES6), rétrocompatible avec ES5.
-    
-- Ajoute des fonctionnalités avancées :
-    
-    - classes, classes abstraites
-        
-    - interfaces
-        
-    - typage statique
-        
-    - etc.
-        
-
-⚠ Ne pas confondre **Angular** (versions récentes) avec **AngularJS** (ancienne version).
+[[Concepts de base & installation]]
+[[Composants & templates]]
+[[Data Binding (liaison de données)]]
+[[Directives et pipes]]
 
 ---
 
-## 2. Les outils nécessaires
+## 5. Services & injection de dépendances
 
-- **Node.js** et son gestionnaire de paquets NPM → [nodejs.org](https://nodejs.org/)
-    
-- **IDE recommandé** : WebStorm (ou équivalent VS Code).
-    
-- **Débogage** : intégré dans le navigateur (DevTools) ou dans l’IDE.
-    
-- **Firebase** : service web pour l’hébergement et la base de données temps réel.
-    
+### Objectifs
 
----
-
-## 3. Installation d’Angular
-
-1. Installer **Node.js LTS (22.x)** + gestionnaire NPM.
+- Comprendre le rôle des services (logique métier, accès aux données)
     
-2. Recommandation : utiliser **nvm** (Node Version Manager) pour gérer plusieurs versions.  
-    → [nvm-sh](https://github.com/nvm-sh/nvm)
+- Apprendre l’injection de dépendances (`@Injectable`)
     
-3. Installer **Angular CLI (20.x)**  
-    → [angular.dev/installation](https://angular.dev/installation)
+- Séparer la logique du composant
     
 
----
+### Théorie
 
-## 4. Structure d’une application Angular
-
-Une application Angular contient :
-
-- **Point d’entrée** : script principal de lancement.
+- Les **services** sont des classes qui fournissent des fonctionnalités (ex : récupérer des données, partager des états)
     
-- **Feuille de style globale**.
+- On décore un service par `@Injectable({ providedIn: 'root' })` pour le rendre injectable partout
     
-- **Fichiers de configuration** : Angular, Node, TypeScript.
+- Dans un composant, on l’injecte via le constructeur : `constructor(private heroService: HeroService) { }`
     
-- **Sources** de l’application : composants, services, modèles.
-    
-- **Composant principal** `app`.
+- Cela encourage la séparation des préoccupations (composant = vue/interaction, service = logique/données)
     
 
----
+### Exemple concret : gestion de héros
 
-## 5. Les Composants
-
-- Un **composant** est une unité de base d’Angular.
-    
-- Création via la CLI :
-    
-    ```bash
-    ng generate component heroes
-    ```
-    
-- Cela génère un dossier avec 4 fichiers :
-    
-    - `.ts` → logique du composant
-        
-    - `.html` → template (vue)
-        
-    - `.css` → style
-        
-    - `.spec.ts` → tests unitaires
-        
-
-### Exemple d’annotation
+**hero.service.ts**
 
 ```ts
-@Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css'],
-  imports: [ … ]
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+
+export interface Hero {
+  id: number;
+  name: string;
+}
+
+const HEROES: Hero[] = [
+  { id: 1, name: 'Alpha' },
+  { id: 2, name: 'Beta' },
+  { id: 3, name: 'Gamma' }
+];
+
+@Injectable({
+  providedIn: 'root'
 })
+export class HeroService {
+  getHeroes(): Observable<Hero[]> {
+    return of(HEROES);
+  }
+  getHero(id: number): Observable<Hero | undefined> {
+    return of(HEROES.find(h => h.id === id));
+  }
+}
 ```
 
-- `selector` : balise HTML personnalisée pour utiliser le composant.
-    
-- `templateUrl` : vue associée.
-    
-- `styleUrls` : styles associés.
-    
+Dans un composant :
 
----
+```ts
+constructor(private heroService: HeroService) { }
 
-## 6. Le Data Binding
-
-Le **data binding** permet de synchroniser **modèle ↔ vue**.  
-Il existe plusieurs formes :
-
-### 1) Interpolation
-
-Affiche une donnée du modèle dans le DOM.
-
-```html
-<h2>{{ hero.name }}</h2>
-```
-
-### 2) Property Binding
-
-Lie une propriété DOM à une donnée du modèle.
-
-```html
-<li [class.selected]="hero === selectedHero"></li>
-```
-
-### 3) Event Binding
-
-Exécute une méthode lors d’un événement.
-
-```html
-<li (click)="onSelect(hero)"></li>
-```
-
-Événements possibles : `click`, `focus`, `blur`, `keydown`, etc.
-
-### 4) Two-Way Data Binding
-
-Synchronisation bidirectionnelle **modèle ↔ vue**.
-
-```html
-<input [(ngModel)]="hero.name" placeholder="name"/>
+ngOnInit() {
+  this.heroService.getHeroes().subscribe(hs => this.heroes = hs);
+}
 ```
 
 ---
 
-## 7. Les Directives Structurelles
+## 6. Routage (Router)
 
-Elles permettent de manipuler le DOM.
+### Objectifs
 
-- **Boucle (@for)**
+- Comprendre le rôle du routeur
     
-    ```html
-    @for (hero of heroes; track hero.id) {
-      <li>{{hero.name}}</li>
-    }
-    ```
+- Définir des routes
     
-- **Condition (@if / @else if / @else)**
+- Naviguer entre vues
     
-    ```html
-    @if (selectedHero) {
-      <p>{{selectedHero.name}}</p>
-    }
-    ```
+- Récupérer les paramètres de route
     
-- **Switch (@switch)**
+
+### Théorie
+
+- Le routeur Angular permet de changer de “vue” dans une SPA selon l’URL
     
-    ```html
-    @switch (role) {
-      @case ('admin') { … }
-      @default { … }
-    }
-    ```
+- On définit un tableau de `Routes` avec des chemins (`path`) et les composants associés
     
+- Dans le composant racine, on inclut `<router-outlet></router-outlet>` pour indiquer où les vues doivent s’afficher
+    
+- On utilise `routerLink` dans les templates pour naviguer
+    
+- On peut récupérer les paramètres de route via `ActivatedRoute`
+    
+
+### Exemple concret : routing basique
+
+**app.routes.ts**
+
+```ts
+import { Routes } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+
+export const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'heroes', component: HeroesComponent },
+  { path: 'hero/:id', component: HeroDetailComponent },
+];
+```
+
+**app.component.ts**
+
+```ts
+import { Component } from '@angular/core';
+import { RouterOutlet, RouterLink } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, RouterLink],
+  template: `
+    <h1>Mon App</h1>
+    <nav>
+      <a routerLink="/dashboard">Dashboard</a>
+      <a routerLink="/heroes">Heroes</a>
+    </nav>
+    <router-outlet></router-outlet>
+  `
+})
+export class AppComponent {}
+```
+
+Dans le composant `HeroDetail`, pour obtenir l’`id` :
+
+```ts
+this.route.paramMap.subscribe(params => {
+  const id = Number(params.get('id'));
+  // appeler le service pour récupérer le héros
+});
+```
 
 ---
 
-## 8. Composants imbriqués
+## Où aller ensuite ?
 
-- Un composant peut inclure un autre.
-    
-- Exemple : `hero-detail` affichant les détails d’un héros.
-    
-- Passage de données avec `@Input` :
-    
-    ```ts
-    @Input() hero: Hero;
-    ```
-    
-- Utilisation dans un autre composant :
-    
-    ```html
-    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
-    ```
-    
+Si tu veux, je peux te générer **un pack complet “cours + exemples + exercices” en fichiers Markdown** (à mettre dans Obsidian) pour toutes les sections ci-dessus (et plus). Tu pourras ensuite l’étudier dans Obsidian, lier les notes et avancer. Veux‑tu que je prépare ça pour toi maintenant ?

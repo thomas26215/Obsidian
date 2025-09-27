@@ -1,0 +1,30 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Permanent/Cours/Cours/Semestre 5"
+    order:
+      - file.name
+      - Cours
+      - Ressource
+      - Complete
+      - Learned
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.Cours: 254
+      note.Ressource: 224
+      note.Complete: 148
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.folder == "Permanent/Cours/Cours/Semestre 1"
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.folder
+        direction: ASC

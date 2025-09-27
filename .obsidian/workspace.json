@@ -11,12 +11,28 @@
             "id": "8eee44a68d5da2bb",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Directives et pipes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "Directives et pipes"
+            }
+          },
+          {
+            "id": "6dd2f0b800b01faf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction à Angular"
             }
           }
         ]
@@ -92,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cours.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +118,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Cours"
             }
           },
           {
@@ -296,12 +313,22 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "d57e3213d6dd9487",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "horizontal",
@@ -332,6 +359,16 @@
   },
   "active": "8eee44a68d5da2bb",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+    "Directives et pipes.md",
+    "Data Binding (liaison de données).md",
+    "Composants & templates.md",
+    "Concepts de base & installation.md",
+    "Permanent/Programmation/General/SPA (Single page application).md",
+    "Cours.base",
+    "Untitled 15.md",
+    "📱 Le cycle de vie d'une activité Android.md",
+    "Permanent/Cours/Cours/Semestre 1/Untitled.md",
     "Permanent/Cours/Cours/Semestre 3/Programmation Système.md",
     "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
     "Outils de l'agilité.md",
@@ -349,15 +386,6 @@
     "MOOC/Big MOCS/Medias.md",
     "Permanent/Autre/L'intervention de l'action publique au niveau local.md",
     "Permanent/Autre/L'intervention de l'action publique au niveau européen et mondial.md",
-    "Permanent/Autre/Les trois piliers du développement durable.md",
-    "Permanent/Autre/Connaissance.md",
-    "Permanent/Autre/Compétence.md",
-    "Permanent/Autre/Information.md",
-    "Permanent/Autre/Normes de produit, de qualité et de procédés.md",
-    "Permanent/Autre/Les indicateurs environnementaux.md",
-    "Permanent/Autre/Les 3 dimensions d'un système d'informations.md",
-    "Permanent/Autre/La centralisation et la décentralisation dans une entreprise.md",
-    "Permanent/Autre/Administration publique.md",
     "Permanent/Autre/financière",
     "Permanent/Autre/non",
     "Permanent/Autre/Société",
@@ -368,7 +396,6 @@
     "Permanent/Autre/Algorithme de la clé RSA.md~",
     "Permanent/Autre/Algorithme d'Euclide.md~",
     "Pasted image 20241206153158.png",
-    "Permanent/Autre/Vocabulaire de base pour les systèmes de fichiers.md~",
     "Pasted image 20241210162638.png",
     "Pasted image 20241203215338.png",
     "Pasted image 20241203215252.png",
