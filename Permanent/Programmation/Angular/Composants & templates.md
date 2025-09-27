@@ -1,3 +1,10 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Angular
+Type:
+Outil: []
+tags:
+---
 - Un composant est une unité réutilisable qui encapsule :
     1. une **classe TypeScript** (logique)
     2. un **template HTML** (vue)

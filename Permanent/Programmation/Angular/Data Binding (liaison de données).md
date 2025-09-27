@@ -1,3 +1,10 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Angular
+Type:
+Outil: []
+tags:
+---
 | Type de liaison                  | Syntaxe                     | Usage                                                           | Exemple concret                                  |
 | -------------------------------- | --------------------------- | --------------------------------------------------------------- | ------------------------------------------------ |
 | Interpolation (binding de texte) | `{{ expression }}`          | Afficher une donnée du composant dans le template               | `<h2>{{ hero.name }}</h2>`                       |

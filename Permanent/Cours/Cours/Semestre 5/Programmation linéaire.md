@@ -1,3 +1,7 @@
+---
+Complete: false
+Learned: false
+---
 # Résolution linéaire
 ## Résolution graphique
 

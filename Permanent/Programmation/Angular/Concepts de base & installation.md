@@ -1,3 +1,10 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Angular
+Type:
+Outil: []
+tags:
+---
 - Angular est un framework front-end (“full framework”) : il fournit le squelette pour construire des applications web complexes (routing, composants, services, etc.).
 - Il suit le modèle MVC / MVVM selon les usages (séparation vue / logique).
 - On code souvent en **TypeScript** (ajoute typage, classes, interfaces).

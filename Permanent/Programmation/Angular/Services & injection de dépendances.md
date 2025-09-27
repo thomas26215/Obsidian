@@ -1,3 +1,10 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Angular
+Type:
+Outil: []
+tags:
+---
 - Les **services** sont des classes qui fournissent des fonctionnalités (ex : récupérer des données, partager des états)
 - On décore un service par `@Injectable({ providedIn: 'root' })` pour le rendre injectable partout
 - Dans un composant, on l’injecte via le constructeur : `constructor(private heroService: HeroService) { }`

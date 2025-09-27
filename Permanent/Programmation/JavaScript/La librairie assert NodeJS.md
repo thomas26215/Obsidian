@@ -3,7 +3,6 @@ MOOC: "[[Programmation]]"
 Langage: NodeJS
 Type: Tests Unitaires
 Outil:
-  - assert
 tags:
 ---
 Le module `assert` de nodeJS fonctionne dans un environnement Node.js. Ce module est conçu pour être utilisé dans Node.JS et n'est pas directement compatible avec les navigateurs sans une adaptation

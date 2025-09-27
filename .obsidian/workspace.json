@@ -11,14 +11,13 @@
             "id": "8eee44a68d5da2bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
-                "mode": "source",
-                "source": false
+                "file": "MOOC/Big MOCS/Programmation.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Introduction à Angular"
+              "icon": "lucide-table",
+              "title": "Programmation"
             }
           },
           {
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours.base",
+                "file": "MOOC/Big MOCS/Programmation.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cours"
+              "title": "Backlinks for Programmation"
             }
           },
           {
@@ -140,11 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MOOC/Big MOCS/Programmation.base",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Programmation"
             }
           },
           {
@@ -328,7 +328,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -359,13 +359,29 @@
   },
   "active": "8eee44a68d5da2bb",
   "lastOpenFiles": [
-    "Services & injection de dépendances.md",
+    "MOOC/Big MOCS/Cours.base",
+    "Permanent/Programmation/Angular/Concepts de base & installation.md",
+    "Permanent/Programmation/Angular/Composants & templates.md",
+    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
+    "Permanent/Programmation/Angular/Directives et pipes.md",
+    "MOOC/Big MOCS/Programmation.base",
+    "Permanent/Programmation/Angular/Services & injection de dépendances.md",
+    "Permanent/Programmation/Angular/Le routage.md",
+    "Permanent/Programmation/VBScript/Boucles et conditions.md",
+    "Permanent/Programmation/VBScript/Comparaison de chaînes.md",
+    "MOOC/Big MOCS/Programmatio.md",
+    "MOOC/Big MOCS/Programmation.md",
+    "MOOC/Big MOCS/Sport.md",
+    "Ressources/Autre/Les classes - Kotlin.md",
+    "MOOC/Bases/Untitled.md",
+    "MOOC/Bases",
+    "MOOC/Untitled.md",
+    "Untitled 2.base",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
-    "Directives et pipes.md",
-    "Cours.base",
-    "Data Binding (liaison de données).md",
-    "Composants & templates.md",
-    "Concepts de base & installation.md",
+    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
+    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
+    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Programmation/Angular",
     "Permanent/Programmation/General/SPA (Single page application).md",
     "Untitled 15.md",
     "📱 Le cycle de vie d'une activité Android.md",
@@ -373,28 +389,11 @@
     "Permanent/Cours/Cours/Semestre 3/Programmation Système.md",
     "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
     "Outils de l'agilité.md",
-    "Permanent/Cours/Cours/Semestre 2/Adresssage.md",
-    "Permanent/Cours/Cours/Semestre 3/Pointeurs et adressage.md",
-    "Permanent/Mathématiques/Théorème d'Euler.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Autre/Les subventions à l'innovation verte.md",
-    "Permanent/Autre/Composition d'un processus.md",
-    "Permanent/Autre/Un processus.md",
-    "Permanent/Autre/Donnée.md",
-    "Permanent/Autre/Les processus.md",
-    "Processus.md",
-    "MOOC/Big MOCS/Productivite.md",
-    "MOOC/Big MOCS/Medias.md",
-    "Permanent/Autre/L'intervention de l'action publique au niveau local.md",
     "Permanent/Autre/financière",
     "Permanent/Autre/non",
     "Permanent/Autre/Société",
     "Permanent/Autre/Composition d'un processus.md~",
     "Permanent/Autre/Caractériser une entreprise.md~",
-    "Permanent/Autre/Apprendre sur les centres d'intérêts de son public.md~",
-    "Permanent/Autre/Calcul du PIB habitant.md~",
-    "Permanent/Autre/Algorithme de la clé RSA.md~",
-    "Permanent/Autre/Algorithme d'Euclide.md~",
     "Pasted image 20241206153158.png",
     "Pasted image 20241210162638.png",
     "Pasted image 20241203215338.png",

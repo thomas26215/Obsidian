@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("Permanent/Programmation")
+    order:
+      - file.name
+      - Langage
+      - Type
+    sort:
+      - property: Langage
+        direction: ASC
+      - property: Type
+        direction: ASC
+    columnSize:
+      note.Langage: 146
+      note.Type: 171

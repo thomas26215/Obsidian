@@ -1,3 +1,10 @@
+---
+MOOC: "[[Programmation]]"
+Langage: Angular
+Type:
+Outil: []
+tags:
+---
 
 - Découvrir les directives structurelles (`*ngIf`, `*ngFor`), les directives d’attribut (`ngClass`, `ngStyle`)
 - Comprendre les pipes (formatage de données comme date, uppercase, custom pipe)
