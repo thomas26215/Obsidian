@@ -1,6 +1,0 @@
-Use AI to help up with a standardised test may come at a cost despite it light the mental load. Students using ChatGPT showed lower brain activity in regions tied to creativity and attention. They also struggled to recall what they had written with AI help. Among 319 workers, AI reduced cognitive effort for most tasks. Only a fraction required real critical thinking when AI was involved. Frequent AI users scored lower on critical-thinking tests. Teachers reported similar concerns with their students. Exposure to AI ideas made participants less creative, offering less diverse solutions.
-
-Experts recommend treating AI as a **supportive assistant** rather than a substitute for thinking. - Effective strategies include:
-- Prompting AI step by step instead of asking for a complete solution.
-- Designing AI tools as **“thinking assistants”** that ask probing questions instead of giving direct answers.
-- Introducing **cognitive forcing** (e.g., requiring users to think independently before consulting AI).
