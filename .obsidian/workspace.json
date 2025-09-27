@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Directives et pipes.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Directives et pipes"
+              "title": "Introduction à Angular"
             }
           },
           {
@@ -359,13 +359,14 @@
   },
   "active": "8eee44a68d5da2bb",
   "lastOpenFiles": [
+    "Services & injection de dépendances.md",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
     "Directives et pipes.md",
+    "Cours.base",
     "Data Binding (liaison de données).md",
     "Composants & templates.md",
     "Concepts de base & installation.md",
     "Permanent/Programmation/General/SPA (Single page application).md",
-    "Cours.base",
     "Untitled 15.md",
     "📱 Le cycle de vie d'une activité Android.md",
     "Permanent/Cours/Cours/Semestre 1/Untitled.md",
@@ -385,7 +386,6 @@
     "MOOC/Big MOCS/Productivite.md",
     "MOOC/Big MOCS/Medias.md",
     "Permanent/Autre/L'intervention de l'action publique au niveau local.md",
-    "Permanent/Autre/L'intervention de l'action publique au niveau européen et mondial.md",
     "Permanent/Autre/financière",
     "Permanent/Autre/non",
     "Permanent/Autre/Société",
