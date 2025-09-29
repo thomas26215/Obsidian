@@ -38,6 +38,8 @@
 - **Baisse de cohérence scénaristique** : Plusieurs personnages, dont Usagi, agissent de manière peu crédible par rapport à leur intelligence et leur évolution dans les saisons précédentes, notamment lors de la manipulation par Ryuji ou leur retour inexplicable dans le Borderland.[reddit+2](https://www.reddit.com/r/AliceInBorderlandLive/comments/1nqv7io/reasons_why_season_3_is_horrible_and_extremely/)
     
 - **Gestion du temps floue** : Le twist des « deux minutes d’arrêt cardiaque » ne correspond pas à la longueur perçue du séjour dans le Borderland au fil des saisons 1 et 2, ce qui affaiblit l’impact et le réalisme psychologique de l’intrigue.[reddit+2](https://www.reddit.com/r/television/comments/1nqd6sr/alice_in_borderland_season_3/)
+
+- - **Pourquoi faire revenir Arisu ?** : Pourquoi Sunato essaie de faire à tout pris revenir Arisu dans le borderLand ? Et surtout pourquoi après tant de temps ? Il y a eu plusieurs année qui se sont écoulés entre la fin des jeux de la saison 2 et l'intervention de ce personnage
     
 - **Facilités scénaristiques** :
     
@@ -47,8 +49,11 @@
         
     - Introduction tardive et inattendue de l’enfant dans le dernier jeu, sans justification dans l’univers, alors qu’aucun élément équivalent n’apparaissait auparavant.[journaldugeek+1](https://www.journaldugeek.com/critique/critique-alice-in-borderland-saison-3-une-suite-au-pays-de-loseille/)
     - Au niveau du train : Ils n'ont plus assez de bouteille d'oxygène et comme par hasard, à ce moment-là, un autre train arrive, là où les autres joueurs ont déjà terminé
+
         
 - **Personnages mal exploités** : Des figures majeures comme Ann et Banda se retrouvent reléguées à de simples utilités, sans véritable rôle actif ou développement, alors qu’elles étaient stratégiques auparavant.[leclaireur.fnac+1](https://leclaireur.fnac.com/article/623996-alice-in-borderland-que-vaut-la-saison-3-notre-avis-critique/)
+
+- **Perte de mémoire** : Seul Arisu et Usagi retrouve la mémoire en revenant dans le Borderland. Pourquoi pas les autres personnages qui eux ont aussi y sont déjà allés ?
     
 - **Jeux et enjeux moins prenants** : Certains jeux manquent de clarté, de tension ou de logique stratégique — les joueurs n’exploitent pas toujours les failles ou subtilités attendues dans l’univers de Borderland.[reddit+1](https://www.reddit.com/r/television/comments/1nqd6sr/alice_in_borderland_season_3/)
     
@@ -57,7 +62,8 @@
 - **Mystère mal géré** : La résolution de la série délaisse le mystère philosophique et métaphysique qui faisait la force du précédent, optant pour des explications simples, laissant de côté la profondeur et la réflexion sur la vie et la mort.[journaldugeek+1](https://www.journaldugeek.com/critique/critique-alice-in-borderland-saison-3-une-suite-au-pays-de-loseille/)
 - **Les personnages ne sont pas développés** : On se concentre davantage aux jeux et non aux personnages. Cela à un impact sur la série notamment sur la dernière épreuve, où la porte prise définit leur avenir. On voit les choix qu'ils sont, bons ou mauvais mais nous sommes moins voir peu impactés étant donné le peu de développement qu'ils ont. Nous ne pouvons pas nous sentir autant affectés
 - **Structure des jeux étrange** : Le mécanisme de certaines jeux ne sont pas assez expliqués / incohérents par rapport à l'univers établi. Le suspens repose davantage sur l'action pure que sur la réflexion ou la stratégie
-    
+- **Usagi fermée** : Pourquoi Usagi ne peut elle pas parler de son père à Arisu ? Leur relation est trop bien pour qu'elle ne soit pas ouverte sur ses cauchemards. Arisu est littéralement thérapeute
+
 
 ## Table récapitulative
 
