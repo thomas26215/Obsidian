@@ -248,12 +248,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
-                "mode": "preview",
+                "file": "Permanent/Medias/Characters/Untitled.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Alice in Borderland saison 3"
+              "title": "Untitled"
             }
           },
           {
@@ -680,17 +680,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
   "active": "bf34dccbb23f3a1c",
   "lastOpenFiles": [
+    "Permanent/Medias/Characters/Ryohei Arisu.md",
+    "Permanent/Medias/Characters/Untitled.md",
+    "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
     "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
     "Permanent/Medias/Séries/Alice in Borderland saison 1.md",
-    "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
-    "Permanent/Medias/Characters/Ryohei Arisu.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
