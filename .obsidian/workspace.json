@@ -1,59 +1,307 @@
 {
   "main": {
-    "id": "898dcf6e67737a0c",
+    "id": "c9385ae83c6eb69a",
     "type": "split",
     "children": [
       {
-        "id": "053bf90d46e99afb",
+        "id": "8a44356109a1d921",
         "type": "tabs",
         "children": [
           {
-            "id": "8eee44a68d5da2bb",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "MOOC/Big MOCS/Programmation.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Programmation"
-            }
-          },
-          {
-            "id": "6dd2f0b800b01faf",
+            "id": "9c333d1eba62f394",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtualisation - Conteneurs et docker"
+            }
+          },
+          {
+            "id": "5637dbe72fd84df7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "033ad2b3d2af8969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loi de Goodhart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction à Angular"
+              "title": "Loi de Goodhart"
+            }
+          },
+          {
+            "id": "fbe7873e5b3b8b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tests TP1"
+            }
+          },
+          {
+            "id": "ad327aaf2c310938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L'asynchronisme en dart"
+            }
+          },
+          {
+            "id": "7a78f16743e927bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
+            "id": "41209c62805f6ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Chronologie des zeldas.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chronologie des zeldas"
+            }
+          },
+          {
+            "id": "bfbde9d5d7ae89bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/TestComplete_SmartBear.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TestComplete_SmartBear"
+            }
+          },
+          {
+            "id": "30edc5190f4870f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "2bf3200918334598",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-12 10.04.22.excalidraw"
+            }
+          },
+          {
+            "id": "b9058f8d2b8e7377",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-12 09.58.32.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-12 09.58.32.excalidraw"
+            }
+          },
+          {
+            "id": "3541f7e8e176f731",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Qualité algorithmique"
+            }
+          },
+          {
+            "id": "24eb155dfcc06423",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "6e7e94592f949ac9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "1d3e1d228552d9be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction à Node.JS"
+            }
+          },
+          {
+            "id": "2659c1a09a94ce6b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "ffed826949eec61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Qualité algorithmique"
+            }
+          },
+          {
+            "id": "2f182374aa39a194",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Programmation linéaire"
+            }
+          },
+          {
+            "id": "bf34dccbb23f3a1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Optimisation"
+            }
+          },
+          {
+            "id": "8446095b47d05d2c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-23 10.50.39.excalidraw"
+            }
+          },
+          {
+            "id": "266c7760c35af67c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-23 10.14.53.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d02a027293bc57a2",
+    "id": "f74327a396db7d65",
     "type": "split",
     "children": [
       {
-        "id": "883d239ddc28720f",
+        "id": "7c134863ab9c539c",
         "type": "tabs",
         "children": [
           {
-            "id": "26930f4f00436aea",
+            "id": "1282753e67a8638f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -61,12 +309,12 @@
             }
           },
           {
-            "id": "9d9abe3d10c97f30",
+            "id": "3cecf2c46f14d92f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ajouter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +326,7 @@
             }
           },
           {
-            "id": "ee551dcfadc225ee",
+            "id": "28d458d961de5aef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,110 +339,66 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "8c4f70df493ebba7",
+    "id": "27635c5cbfaacc8a",
     "type": "split",
     "children": [
       {
-        "id": "b9f585d7813b0463",
+        "id": "27997647f891c06d",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b625bc74dc987f",
+            "id": "69b7fdb1ac700d12",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOOC/Big MOCS/Programmation.base",
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Programmation"
+              "title": "Backlinks for Introduction à Angular"
             }
           },
           {
-            "id": "1d342e80f9fb8668",
+            "id": "b6691934528e8d96",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Introduction à Angular"
+            }
+          },
+          {
+            "id": "6637d0aeec7d2a27",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "66e587d48df7a77c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "MOOC/Big MOCS/Programmation.base",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Programmation"
-            }
-          },
-          {
-            "id": "35e933e1cc640cce",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "ceb83811872d7ba4",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1.00155925155925,
-                  "lineSizeMultiplier": 1.77577962577963,
-                  "collapse-forces": true,
-                  "centerStrength": 0.529106029106029,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 140,
-                  "scale": 0.14054852638695126,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "44c10021f5f438fa",
+            "id": "85d8d8e473f8d073",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -208,117 +412,242 @@
             }
           },
           {
-            "id": "807d069a5bfee8c5",
+            "id": "68cdb001091f14ad",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "type": "outline",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Introduction à Angular"
             }
           },
           {
-            "id": "a107db2f9f54918d",
+            "id": "3b060581429a9c8a",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-info",
-              "title": "File properties"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "ae156f7290499699",
+            "id": "16c9e5727b6505cc",
             "type": "leaf",
             "state": {
-              "type": "git-history-view",
+              "type": "empty",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "519b54ea16f988f7",
+            "id": "2ed3c8c6ca9601d0",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "27d14a6cb0c8be90",
+            "id": "4122a456c58aeabe",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-chat-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-chat-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "6765a24cfa35bf74",
+            "id": "80c6c9df334d19f3",
             "type": "leaf",
             "state": {
-              "type": "smart-search-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-search-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "0c945ebd6f5823cf",
+            "id": "b4c6196d9a7765c3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e59f5a4b0efcc943",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d825015acde117e7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "40ee05658f4aedd3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0ec287a72c3cd688",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4796dfe538f88144",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "81fc148e8a1ba32c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b29536e79c4dfdd4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2fb8ee3a4ba6100a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8712e7842d12e59a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "08a4e52bbf5bb5f5",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "2a9712b87c49a0f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
-            "id": "2ee7c15127ff9cde",
+            "id": "0c12165199e42bbd",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "github-copilot-chat-view",
               "state": {},
               "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "title": "github-copilot-chat-view"
             }
           },
           {
-            "id": "0c8d6cc32f5dd73f",
+            "id": "1ce0dbdb5b2cf269",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "a70c1944e5261870",
+            "id": "c7c207e5865ecca5",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-chat-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-chat-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "2fbdded40e767116",
+            "id": "20e8d156dcb43437",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "d57e3213d6dd9487",
+            "id": "e5800f787018bf3a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5ed8265026f18068",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -328,21 +657,15 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 27
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "smart-connections-visualizer:Open smart connections visualizer": false,
-      "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -353,66 +676,54 @@
       "publish:Publish changes...": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "smart-connections-visualizer:Open smart connections visualizer": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "dashboard-navigator:Open dashboard navigator": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "8eee44a68d5da2bb",
+  "active": "bf34dccbb23f3a1c",
   "lastOpenFiles": [
-    "MOOC/Big MOCS/Cours.base",
-    "Permanent/Programmation/Angular/Concepts de base & installation.md",
-    "Permanent/Programmation/Angular/Composants & templates.md",
-    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
-    "Permanent/Programmation/Angular/Directives et pipes.md",
-    "MOOC/Big MOCS/Programmation.base",
+    "Untitled 2.base",
+    "Untitled 15.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
     "Permanent/Programmation/Angular/Le routage.md",
-    "Permanent/Programmation/VBScript/Boucles et conditions.md",
-    "Permanent/Programmation/VBScript/Comparaison de chaînes.md",
-    "MOOC/Big MOCS/Programmatio.md",
-    "MOOC/Big MOCS/Programmation.md",
-    "MOOC/Big MOCS/Sport.md",
-    "Ressources/Autre/Les classes - Kotlin.md",
-    "MOOC/Bases/Untitled.md",
-    "MOOC/Bases",
-    "MOOC/Untitled.md",
-    "Untitled 2.base",
-    "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
-    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
-    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
-    "MOOC/Big MOCS/Cours.md",
+    "Permanent/Programmation/Angular/Directives et pipes.md",
+    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
+    "Permanent/Programmation/Angular/Concepts de base & installation.md",
+    "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Programmation/Angular",
-    "Permanent/Programmation/General/SPA (Single page application).md",
-    "Untitled 15.md",
-    "📱 Le cycle de vie d'une activité Android.md",
-    "Permanent/Cours/Cours/Semestre 1/Untitled.md",
-    "Permanent/Cours/Cours/Semestre 3/Programmation Système.md",
-    "Permanent/Cours/Cours/Semestre 3/Programmation système.md",
-    "Outils de l'agilité.md",
-    "Permanent/Autre/financière",
-    "Permanent/Autre/non",
-    "Permanent/Autre/Société",
-    "Permanent/Autre/Composition d'un processus.md~",
-    "Permanent/Autre/Caractériser une entreprise.md~",
-    "Pasted image 20241206153158.png",
-    "Pasted image 20241210162638.png",
-    "Pasted image 20241203215338.png",
-    "Pasted image 20241203215252.png",
-    "Pasted image 20241203215231.png",
-    "Pasted image 20241203214252.png",
-    "Pasted image 20241203180837.png",
-    "Pasted image 20241203180144.png",
-    "Pasted image 20241203214321.png",
-    "Pasted image 20241203180815.png",
-    "Untitled.canvas",
-    "Permanent/Cours/Cours/Semestre 2/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 2/Untitled.canvas",
-    "Projets/En cours/Application mobile de sport/Untitled.canvas",
-    "Permanent/Cours/TD/Semestre 1/La fonction production.canvas",
-    "Untitled 14.canvas",
-    "Untitled 13.canvas",
-    "Untitled 12.canvas",
-    "Untitled 11.canvas",
-    "Untitled 10.canvas"
+    "MOOC/Big MOCS/Programmation.base",
+    "MOOC/Big MOCS/Cours.base",
+    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
+    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
+    "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-23 11.29.38.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md",
+    "Will AI Make you stupid ?.md",
+    "Permanent/Cours/Cours/Entrées sorties.md",
+    "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
+    "Permanent/Cours/TD/Semestre 4/Optimisation.md",
+    "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
+    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
+    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
+    "Permanent/Cours/TD/Untitled.md",
+    "Permanent/Cours/TD/Semestre 5",
+    "MOOC/Big MOCS/Cours.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
+    "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
+    "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",
+    "Projets/En cours/Stage 2e annee/lu853364pnr6.tmp",
+    "Pasted image 20250601140945.png"
   ]
 }
