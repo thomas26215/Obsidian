@@ -7,28 +7,30 @@ tags:
 # Résumé du personnage
 **Ryohei Arisu** est le protagoniste principal de _Alice in Borderland_. Il se distingue par son intelligence analytique, sa capacité à observer chaque détail et à élaborer des stratégies complexes, ce qui fait de lui un joueur naturellement doué pour les **jeux de Carreau** (♦️), c'est-à-dire les épreuves intellectuelles et de logique.
 
+Au début de l’histoire, [[]] est un jeune homme de 18 ans, sans emploi, passionné de jeux vidéo et en rupture avec sa famille, qui le considère comme un fainéant. Il vit dans l’ombre de son frère brillant et se sent inutile, préférant fuir la réalité dans les jeux et la compagnie de ses deux amis, Karube et Chôta.
+
+Tout bascule lorsqu’il est mystérieusement transporté dans le Borderland, un Tokyo parallèle désert, où il doit participer à des jeux mortels pour survivre. Grâce à son sens de l’observation et à sa logique, Arisu parvient à comprendre les règles cachées des jeux et à élaborer des stratégies pour s’en sortir, sauvant parfois ses compagnons au prix de lourds sacrifices. La perte de ses amis dans le jeu du 7 de Cœur le plonge dans une profonde dépression, mais sa rencontre avec [[Yuzuha Usagi]], une jeune femme sportive et solitaire, lui redonne la force de continuer et de se battre pour la vie.
+
+Au fil des saisons, Arisu évolue d’un jeune homme passif et désabusé à un leader déterminé, prêt à tout pour protéger ceux qu’il aime et percer le mystère du Borderland. Il affronte des épreuves de plus en plus complexes, où ses capacités d’analyse et sa volonté de sauver les autres sont mises à rude épreuve. Sa spécialité Carreau reflète parfaitement sa personnalité : il brille dans les situations où la réflexion, la stratégie et la compréhension des autres sont essentielles à la survie. Son parcours est marqué par la culpabilité, la perte, mais aussi par l’espoir, l’amitié et la quête de sens dans un monde absurde et dangereux.
+
 # Histoire complète de Ryohei Arisu dans Alice in Borderland
-
-Voici un résumé **très complet** de l’histoire d’Arisu, en intégrant les détails du manga et de la série Netflix, jusqu’à la saison 3 (2025), en suivant son évolution, ses relations, ses épreuves et les révélations majeures.
-
----
 
 ## 1. Origines et personnalité
 
-Ryohei Arisu (Alice) est un jeune homme de 18 ans, en échec scolaire et social, vivant dans l’ombre de son frère brillant. Il souffre d’un profond mal-être, d’un sentiment d’inutilité et d’un syndrome de Peter Pan : il refuse de grandir et de s’intégrer dans la société adulte. Ses seuls amis sont Karube (ancien voyou devenu barman) et Chôta (obsédé par les filles, croyant fervent). Ensemble, ils rêvent d’un monde meilleur, loin de leurs soucis quotidiens.[nautiljon](https://www.nautiljon.com/mangas/alice+in+borderland/personnages.html)
+Ryohei Arisu (Alice) est un jeune homme de 18 ans, en échec scolaire et social, vivant dans l’ombre de son frère brillant. Il souffre d’un profond mal-être, d’un sentiment d’inutilité et d’un syndrome de Peter Pan : il refuse de grandir et de s’intégrer dans la société adulte. Ses seuls amis sont Karube (ancien voyou devenu barman) et Chôta (obsédé par les filles, croyant fervent). Ensemble, ils rêvent d’un monde meilleur, loin de leurs soucis quotidiens.
 
 ---
 
 ## 2. Arrivée dans le Borderland
 
-Un soir, après avoir assisté à un feu d’artifice, Arisu et ses amis se retrouvent mystérieusement transportés dans un Tokyo parallèle, désert et inquiétant. Ce monde, appelé **Borderland**, est régi par des jeux mortels, chacun symbolisé par une carte à jouer :
+Un soir, après avoir assisté à un feu d’artifice, Arisu et ses amis se retrouvent mystérieusement transportés dans un Tokyo parallèle, désert et inquiétant ([[Alice in Borderland saison 1|Saison 1]]). Ce monde, appelé **Borderland**, est régi par des jeux mortels, chacun symbolisé par une carte à jouer :
 
 - **Chiffre** = difficulté
     
 - **Couleur** = type de jeu (physique, intellectuel, psychologique, mixte)
     
 
-Pour survivre, il faut gagner des jeux et obtenir un « visa » qui prolonge la vie dans ce monde. Échouer ou laisser expirer son visa entraîne la mort immédiate par un laser venu du ciel.[martincid+1](https://fr.martincid.com/television-2/alice-in-borderland-de-netflix-revient-avec-lenigmatique-phase-du-joker/)
+Pour survivre, il faut gagner des jeux et obtenir un « visa » qui prolonge la vie dans ce monde. Échouer ou laisser expirer son visa entraîne la mort immédiate par un laser venu du ciel.
 
 ---
 
@@ -43,9 +45,9 @@ Pour survivre, il faut gagner des jeux et obtenir un « visa » qui prolonge la 
 
 ---
 
-## 4. Rencontre avec Usagi et quête de sens
+## 4. Rencontre avec [[Yuzuha Usagi|Usagi]] en quête de sens
 
-Arisu, brisé, rencontre **Yuzuha Usagi**, une jeune femme sportive et solitaire, elle aussi piégée dans le Borderland. Usagi devient son alliée et son soutien moral. Ensemble, ils cherchent à comprendre le sens de ce monde et à survivre aux jeux suivants.
+Arisu, brisé, rencontre **[[Yuzuha Usagi]]**, une jeune femme sportive et solitaire, elle aussi piégée dans le Borderland. Usagi devient son alliée et son soutien moral. Ensemble, ils cherchent à comprendre le sens de ce monde et à survivre aux jeux suivants.
 
 ---
 
@@ -66,7 +68,7 @@ Arisu et Usagi rejoignent la Plage, une communauté de survivants dirigée par l
 
 ## 6. Les jeux des figures (Face Cards)
 
-Après la chute de la Plage, Arisu et ses alliés affrontent les jeux des figures (Roi, Reine, Valet, etc.), encore plus dangereux et complexes :
+Dans la [[Alice in Borderland saison 2|saison 2]], après la chute de la Plage, Arisu et ses alliés affrontent les jeux des figures (Roi, Reine, Valet, etc.), encore plus dangereux et complexes :
 
 - **King of Spades** : Chasse à l’homme sanglante dans Tokyo.
     
@@ -81,18 +83,18 @@ Après la chute de la Plage, Arisu et ses alliés affrontent les jeux des figure
 
 ## 7. Révélations et choix existentiel
 
-À la fin de la saison 2, les survivants sont confrontés à un choix :
+À la fin de la [[Alice in Borderland saison 2|saison 2]], les survivants sont confrontés à un choix :
 
 - **Retourner dans le monde réel** (en oubliant Borderland)
     
-- **Rester en tant que « citoyen »** du Borderland, acceptant la violence et l’absence de règles[martincid](https://fr.martincid.com/television-2/alice-in-borderland-de-netflix-revient-avec-lenigmatique-phase-du-joker/)
+- **Rester en tant que « citoyen »** du Borderland, acceptant la violence et l’absence de règles
     
 
 Arisu et Usagi choisissent de revenir à la réalité, mais sont hantés par des souvenirs flous et des rêves troublants. Ann, Chishiya, Kuina, Aguni, Niragi et Heiya font aussi ce choix, tandis que Banda et Yaba restent citoyens.
 
 ---
 
-## 8. Saison 3 : Le Joker et le retour forcé
+## 8. [[Alice in Borderland saison 3|Saison 3]] : Le Joker et le retour forcé
 
 La saison 3 débute par une vie paisible pour Arisu et Usagi, désormais en couple, mais sans souvenir conscient du Borderland. Leur tranquillité est brisée par l’enlèvement d’Usagi par Ryuji, un érudit obsédé par l’au-delà. Arisu retourne volontairement dans le Borderland pour la sauver, affrontant de nouveaux jeux sous l’égide du Joker, une entité mystérieuse qui bouleverse les règles établies.
 
@@ -100,7 +102,7 @@ La saison 3 débute par une vie paisible pour Arisu et Usagi, désormais en coup
     
 - Ann, Banda et Yaba jouent des rôles clés, chacun incarnant une philosophie différente (retour à la réalité vs. acceptation du chaos).
     
-- Le Joker représente une nouvelle étape, où les enjeux sont plus psychologiques et existentiels que jamais.[martincid](https://fr.martincid.com/television-2/alice-in-borderland-de-netflix-revient-avec-lenigmatique-phase-du-joker/)
+- Le Joker représente une nouvelle étape, où les enjeux sont plus psychologiques et existentiels que jamais.
     
 
 ---
@@ -116,7 +118,7 @@ La saison 3 débute par une vie paisible pour Arisu et Usagi, désormais en coup
 - **Chapelier, Aguni, Niragi, etc.** = autres figures du conte
     
 
-Le récit est une réinterprétation sombre du roman de Lewis Carroll : Arisu, lassé de sa vie monotone, plonge dans un monde absurde régi par des règles illogiques, où il doit affronter des épreuves pour retrouver son identité et le sens de la vie.[reddit+1](https://www.reddit.com/r/AliceInBorderland/comments/1hvhhu9/alice_in_borderland_as_alice_in_wonderland/)
+Le récit est une réinterprétation sombre du roman de Lewis Carroll : Arisu, lassé de sa vie monotone, plonge dans un monde absurde régi par des règles illogiques, où il doit affronter des épreuves pour retrouver son identité et le sens de la vie.
 
 ---
 
@@ -146,7 +148,7 @@ Tout au long de l’histoire, Arisu évolue :
     
 - **Usagi disparaît soudainement.** Elle est enlevée par Ryuji, un érudit obsédé par l’au-delà, qui cherche à percer le secret du Borderland et de la frontière entre la vie et la mort.
     
-- **Arisu, dévasté, reçoit la visite de Banda** (un survivant du Borderland), qui lui révèle où se trouve Usagi. Pour la sauver, Arisu doit retourner dans le Borderland, malgré la peur de tout perdre à nouveau.[altselection.ouest-france+2](https://altselection.ouest-france.fr/sortie-mondiale-de-la-saison-3-de-alice-in-borderland-tous-les-horaires-a-connaitre/)
+- **Arisu, dévasté, reçoit la visite de Banda** (un survivant du Borderland), qui lui révèle où se trouve Usagi. Pour la sauver, Arisu doit retourner dans le Borderland, malgré la peur de tout perdre à nouveau.
     
 
 ---
@@ -176,7 +178,7 @@ Tout au long de l’histoire, Arisu évolue :
     
 - **Arisu et Usagi cherchent à percer le mystère du Borderland** : Qui est vraiment derrière les jeux ? Pourquoi ont-ils été choisis ? Existe-t-il un moyen de sortir définitivement ?
     
-- **Leur amour et leur détermination sont mis à l’épreuve** : Arisu doit choisir entre sauver Usagi ou sacrifier d’autres vies, tandis qu’Usagi doit affronter la possibilité de perdre Arisu à jamais.
+- **Leur amour et leur détermination sont mis à l’épreuve** : Arisu doit choisir entre sauver [[Yuzuha Usagi|Usagi]] ou sacrifier d’autres vies, tandis qu’Usagi doit affronter la possibilité de perdre Arisu à jamais.
     
 
 ---
