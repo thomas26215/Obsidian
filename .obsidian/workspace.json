@@ -249,12 +249,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-                "mode": "source",
+                "file": "Permanent/Medias/Séries/Alice in Borderland.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Optimisation"
+              "title": "Alice in Borderland"
             }
           },
           {
@@ -688,6 +688,9 @@
   },
   "active": "bf34dccbb23f3a1c",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Medias/Séries/Alice in Borderland.md",
+    "Permanent/Medias/Séries",
     "Untitled 2.base",
     "Untitled 15.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
@@ -700,7 +703,6 @@
     "MOOC/Big MOCS/Programmation.base",
     "MOOC/Big MOCS/Cours.base",
     "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
-    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
@@ -722,8 +724,6 @@
     "Untitled.base",
     "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
     "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
-    "Projets/En cours/Stage 2e annee/lu853364pnr9.tmp",
-    "Projets/En cours/Stage 2e annee/lu853364pnr6.tmp",
     "Pasted image 20250601140945.png"
   ]
 }
