@@ -1,3 +1,93 @@
+---
+MOOC: "[[Medias]]"
+Type: Série
+FullName: Alice in BorderLand
+Numero: "03"
+Categorie:
+  - Science-fiction
+  - Thriller
+  - Survival
+  - Action
+  - -psychologyque
+Auteur: Haro Asō
+Lien:
+tags:
+---
+
+**Saison précédante** : [[Alice in Borderland saison 2]]
+
+# Résumé
+
+
+## Histoire
+Après avoir survécu aux jeux mortels de Borderland pendant deux saisons, Arisu et Usagi vivent désormais une vie paisible à Tokyo. Ils sont mariés et Usagi est enceinte, avec des souvenirs du Borderland qui ne sont plus que des rêves ou des hallucinations.
+
+Cependant, Usagi est entraînée de force dans le Borderland par Ryuji, un homme obsédé par la vie après la mort, qui a développé une drogue capable de plonger une personne dans un coma temporaire et de la faire entrer dans cet univers parallèle. Arisu, dévasté par sa disparition, décide de retourner lui aussi dans Borderland pour la retrouver.
+
+À leur retour, ils sont séparés et doivent chacun affronter une série de jeux mortels et complexes, souvent plus psychologiques et stratégiques que les saisons précédentes. Usagi forme une alliance avec Ryuji, qui développe des sentiments pour elle, tandis qu'Arisu affronte des défis dangereux tels que des flèches enflammées et des courants électriques létaux.
+
+Le point culminant est le dernier jeu, un labyrinthe de 16 salles, où les joueurs disposent de points pour ouvrir des portes menant à des futurs possibles, montrant des issues souvent périlleuses. Chaque verre d'air disponible est limité, et plusieurs joueurs meurent au fil de l'épreuve. La grossesse d'Usagi ajoute une contrainte supplémentaire, car elle limite certaines possibilités de déplacement.
+
+Face à cette ultime confrontation, Arisu décide de rester volontairement en arrière, offrant sa survie aux autres. Il remporte le jeu par cet acte de sacrifice, mais le monde commence à s'effondrer autour d'eux, avec des inondations ravageant Shibuya.
+
+Arisu sauve Usagi d'un tourbillon, malgré les plans machiavéliques de Banda, qui voulait le garder prisonnier du Borderland en mettant en danger Usagi et leur enfant. Banda meurt peu après, et Arisu est défié par une mystérieuse figure à un ultime jeu de cartes, où il doit choisir entre deux cartes Joker, symbolisant une défaite assurée.
+
+Contournant le piège, Arisu obtient le droit de choisir entre revenir à la vie réelle, avec un avenir incertain, ou rester dans le monde des morts. Il choisit de revenir pour sauver Usagi. La saison se termine sur un retour à Tokyo pour plusieurs survivants, tandis que des événements surnaturels et des tremblements de terre suggèrent que Borderland est loin d'avoir disparu.
+
+Une scène finale dans un autre pays montre deux personnes abordées par une serveuse nommée Alice, laissant entendre que l'univers de Borderland pourrait s'étendre au-delà du Japon.
+
+Cette saison explore les thèmes de la résilience, du sacrifice, des liens familiaux, et des conséquences des choix humains face à des réalités alternatives mortelles.
+## Jeux
+1. **Old Maid**  
+    Un jeu de cartes classique où les joueurs tirent à tour de rôle. Celui qui tire le Joker est tué électriquement. Le dernier survivant gagne. C'est en fait une épreuve dans le monde réel pour sélectionner un candidat pour la mission dans Borderland.
+    
+2. **Sacred Fortunes**  
+    Les joueurs tirent des billets de fortune avec des questions mathématiques ou de culture générale. Une mauvaise réponse déclenche des flèches mortelles. Arisu s'en sort grâce à une stratégie d'évitement basée sur les indices sur les billets.
+    
+3. **Zombie Hunt**  
+    Jeu en équipes : humains contre zombies. Les joueurs s'affrontent en duel avec des cartes spécialisées (carte zombie, fusil à pompe, vaccin) qui changent leur état d'infecté ou protégé. Les zombies doivent dominer pour gagner la partie.
+    
+4. **Runaway Train**  
+    Les joueurs doivent progresser de wagon en wagon sur un train en mouvement, devinant si le wagon est rempli d'oxygène ou de poison. Ils ont un nombre limité de masques à gaz. Usagi sauve quelques joueurs en sautant sur un autre train.
+    
+5. **Tokyo Bingo Tower**  
+    Escalade de la Tokyo Tower pour activer des buzzers correspondant à des numéros pour compléter une ligne sur une carte de bingo. Les joueurs affrontent des chutes de billes lourdes lors de l'ascension. Usagi utilise son expérience pour réussir.
+    
+6. **Kick The Can**  
+    Dans une arène, les joueurs doivent donner un coup de pied à une boîte et la ramener au centre avant la fin du temps. Certaines boîtes sont des bombes qui explosent si le temps est dépassé. Le jeu exige agilité et stratégie.
+    
+7. **Possible Futures**  
+    Le plus complexe : 25 salles en forme de carré, les joueurs lancent des dés pour avancer dans les pièces, commençant avec 15 points. Chaque mouvement coûte des points, s'arrêter ou être bloqué aussi. Des projections au-dessus des portes montrent des futurs possibles influençant psychologiquement les décisions. Arisu sacrifie sa survie pour sauver les autres, mais c'était un piège.
+    
+8. **The Joker Card Choice**  
+    Face au Gardien final, Arisu choisit entre deux cartes retournées. Choisir un Joker signifie que le Gardien décide de son destin. Malgré le piège, Arisu gagne un choix entre retourner dans le monde réel avec douleur ou mourir. Il choisit de retourner pour sauver Usagi.
+
+
+## Personnages
+- **[Ryōhei Arisu](https://aliceinborderland.fandom.com/wiki/Ry%C5%8Dhei_Arisu)** : Le protagoniste principal, qui retourne dans Borderland pour sauver sa compagne enceinte, Usagi. Il apparaît plus mûr, stratégique et prêt à tout sacrifier face aux jeux mortels psychologiques et physiques.
+    
+- **[Yuzuha Usagi](https://aliceinborderland.fandom.com/wiki/Yuzuha_Usagi)** : Compagne d’Arisu, enceinte et plongée dans un coma lié à Borderland. Elle incarne force, fragilité maternelle, et survie instinctive, dont la grossesse complexifie grandement son épreuve.
+    
+- **[Ryuji Matsuyama](https://aliceinborderland.fandom.com/wiki/Ry%C5%ABji_Matsuyama)** : Professeur obsessionnel de la vie après la mort, créateur de la drogue provoquant l’état de coma et la plongée dans Borderland. Antagoniste complexe, il manipule les événements selon ses obsessions.
+    
+- **[An Rizuna](https://aliceinborderland.fandom.com/wiki/Rizuna_Ann_\(Netflix\))** : Personnage clé qui aide Arisu à retourner dans Borderland, agissant comme un pont entre le monde réel et le monde des jeux. Également présente comme soutien stratégique et moral.
+    
+- **[Banda Sunato](https://aliceinborderland.fandom.com/wiki/Banda_Sunato)** : Homme manipulateur antagoniste, cherchant à entraver Arisu et Usagi afin de les garder prisonniers dans Borderland à tout prix.
+    
+- **[Sachiko Makino](https://aliceinborderland.fandom.com/wiki/Sachiko_Makino)** : Femme au foyer et survivante, membre solide et protectrice de l’équipe d’Arisu, offrant un appui moral constant.
+    
+- **[Rei Morikage](https://aliceinborderland.fandom.com/wiki/Rei_Morikage)** : Étudiante calme et rationnelle, elle aide à formuler les stratégies pour survivre aux épreuves complexes.
+    
+- **[Tetsu Shimazaki](https://aliceinborderland.fandom.com/wiki/Tetsu_Shimazaki)** : Ancien toxicomane devenu un membre loyal et dévoué, surmontant ses faiblesses passées pour soutenir le groupe.
+    
+- **[Nobuaki Hida](https://aliceinborderland.fandom.com/wiki/Nobuaki_Hida)** : Jeune survivant dynamique, actif dans la progression et la réussite du groupe dans les jeux.
+    
+- **[Suguru Niragi](https://aliceinborderland.fandom.com/wiki/Suguru_Niragi)** : Ancien antagoniste violent, redevenu allié puissant et protecteur, mêlant force brute et volonté de rédemption.
+    
+- **[Morizono Aguni](https://aliceinborderland.fandom.com/wiki/Morizono_Aguni)** : Combattant expérimenté, courageux, souvent en première ligne pour défendre et soutenir Arisu lors des affrontements physiques.
+
+# Points forts et points faibles
+
 ## Points forts de la saison 3
 
 - **Visuels et mise en scène** : Les décors, arènes de jeux et effets spéciaux sont jugés impressionnants, renforçant l’immersion dans l’univers et offrant un spectacle visuel marquant à chaque épreuve.[linfotoutcourt+2](https://linfotoutcourt.com/critique-alice-in-borderland-saison-3/)

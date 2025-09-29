@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("Permanent/Medias")
+    order:
+      - file.name
+      - Type
+      - Numero
+      - Categorie
+      - Auteur
+    sort:
+      - property: Type
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: Numero
+        direction: ASC
+    columnSize:
+      note.Categorie: 445

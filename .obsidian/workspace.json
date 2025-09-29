@@ -233,14 +233,13 @@
             "id": "2f182374aa39a194",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
-                "mode": "preview",
-                "source": true
+                "file": "MOOC/Big MOCS/Media.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Programmation linéaire"
+              "icon": "lucide-table",
+              "title": "Media"
             }
           },
           {
@@ -249,12 +248,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Medias/Séries/Alice in Borderland.md",
+                "file": "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Alice in Borderland"
+              "title": "Alice in Borderland saison 3"
             }
           },
           {
@@ -688,8 +687,14 @@
   },
   "active": "bf34dccbb23f3a1c",
   "lastOpenFiles": [
+    "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
+    "Permanent/Medias/Séries/Alice in Borderland saison 1.md",
+    "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
+    "Permanent/Medias/Characters/Ryohei Arisu.md",
+    "MOOC/Big MOCS/Media.base",
+    "Permanent/Medias/Characters",
+    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-    "Permanent/Medias/Séries/Alice in Borderland.md",
     "Permanent/Medias/Séries",
     "Untitled 2.base",
     "Untitled 15.md",
@@ -702,7 +707,6 @@
     "Permanent/Programmation/Angular",
     "MOOC/Big MOCS/Programmation.base",
     "MOOC/Big MOCS/Cours.base",
-    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
@@ -715,15 +719,9 @@
     "Permanent/Cours/TD/Semestre 4/SQL Modélisation en flocons.md",
     "Permanent/Cours/TD/Semestre 4/Optimisation.md",
     "Permanent/Cours/TD/Semestre 4/Dépendances fonctionnelles.md",
-    "Permanent/Cours/TD/Semestre 4/BDD - TD2.md",
-    "Permanent/Cours/TD/Semestre 4/Algèbre linéaire.md",
-    "Permanent/Cours/TD/Untitled.md",
     "Permanent/Cours/TD/Semestre 5",
-    "MOOC/Big MOCS/Cours.md",
     "Untitled 1.base",
     "Untitled.base",
-    "Projets/En cours/Stage 2e annee/lu8635oyjk.tmp",
-    "Projets/En cours/Stage 2e annee/lu853364pnrc.tmp",
     "Pasted image 20250601140945.png"
   ]
 }
