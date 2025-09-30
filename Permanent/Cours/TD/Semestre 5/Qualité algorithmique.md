@@ -191,10 +191,47 @@ $f(4n) = 2^{4n} = (2^n)^4 = f(n)^4$
 
 ## a) Boucle simple de 0 à $n$
 - La boucle s'excute N fois
+
 => Ordre de temps : $O(N)$
 
 ## b) Boucle de $N$ à $0$ par pas de 2
 - Nombre d'itérations environ $\frac{N}{2}$ fois
-=> Ordre de temps : $0(N)$
 
-## c) 
+=> Ordre de temps : $O(N)$
+
+## c) Boucles imbriquées
+- Boucle extérieure fait $N$ itérations, boucle intérieure aussi
+- Total : $N*N=N^2$
+
+Ordre de temps : $O(N^2)$
+
+## d) 
+- Pour $I=1$ à $N$ : La boucle intérieure fait $I$ itérations
+- Total : $1+2+3+...+N=\frac{N(N+1)}{2}$
+
+=> Ordre de temps : $O(N^2)$
+
+## e)
+- Valeurs de $I$ : $1, 2, 4, 8, ..., \leq N$
+- Nombre d'itérations : $log_2N$
+
+=> Ordre de temps : $O(log\space N)$
+
+## f)
+- Valeurs de $I$ : $N, \frac{N}{2}, \frac{N}{4}, ..., 1$
+- Nombre d'itérations : $log_2N$
+
+=> Ordre de temps : $O(log\space N)$
+
+## g)
+- Pour chaque $I$, la boucle intérieure fait environ $log_2I$ itérations
+- Total : $\sum_{I=1}^Nlog\space I = NlogN$
+
+=> Ordre de temps : $O(NlogN)$
+
+## h)
+- Limite extérieure : $log_2N$ itérations (car $I$ multiplié par 2)
+- Pour $I=1, 2, 4, ..., N$, la boucle effectue  $I$ incréments
+- Total : $1+2+4+...+N=2N-1=O(N)$
+
+=> Ordre de temps  : $O(N)$
