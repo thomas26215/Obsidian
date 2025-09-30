@@ -193,4 +193,8 @@ $f(4n) = 2^{4n} = (2^n)^4 = f(n)^4$
 - La boucle s'excute N fois
 => Ordre de temps : $O(N)$
 
-## b) Boucle de $N$ à $0$
+## b) Boucle de $N$ à $0$ par pas de 2
+- Nombre d'itérations environ $\frac{N}{2}$ fois
+=> Ordre de temps : $0(N)$
+
+## c) 
