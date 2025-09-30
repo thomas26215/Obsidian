@@ -54,13 +54,13 @@ Progressivement, chaque figure est vaincue, mais au prix de nombreuses blessures
 
 ## Personnages
 
-- **[Ryōhei Arisu](https://aliceinborderland.fandom.com/wiki/Ry%C5%8Dhei_Arisu)** : Protagoniste, de plus en plus traumatisé mais mûr, déterminé à sauver ses amis et à percer le mystère du Borderland.
+- **[[Ryohei Arisu]]** : Protagoniste, de plus en plus traumatisé mais mûr, déterminé à sauver ses amis et à percer le mystère du Borderland.
     
-- **[Yuzuha Usagi](https://aliceinborderland.fandom.com/wiki/Yuzuha_Usagi)** : Compagne d'Arisu, forte et courageuse, blessée lors de l'affrontement final contre la Reine de Cœur.
+- **[[Yuzuha Usagi]]** : Compagne d'Arisu, forte et courageuse, blessée lors de l'affrontement final contre la Reine de Cœur.
     
 - **[Hikari Kuina](https://aliceinborderland.fandom.com/wiki/Hikari_Kuina)** : Ami proche de Chishiya, combative, gravement blessée dans la bataille contre le Roi de Pique.
     
-- **[Shuntarō Chishiya](https://aliceinborderland.fandom.com/wiki/Shuntaro_Chishiya)** : Stratège distant mais loyal, gagne en humanité, précieux dans les jeux de logique.
+- **[[Shuntarō Chishiya]]** : Stratège distant mais loyal, gagne en humanité, précieux dans les jeux de logique.
     
 - **[Ayaka Ann](https://aliceinborderland.fandom.com/wiki/Ayaka_Ann)** : Scientifique rationnelle, apporte analyse et soutien au groupe, blessée dans la confrontation finale.
     

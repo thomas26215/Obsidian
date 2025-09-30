@@ -1,3 +1,9 @@
+---
+MOOC: "[[Medias]]"
+Type: Character
+Oeuvre: Alice in BorderLand
+tags:
+---
 # Résumé du personnage
 **Yuzuha Usagi** est l’un des personnages principaux de _Alice in Borderland_. Elle se distingue par son incroyable agilité, sa force mentale et sa capacité à survivre dans des conditions extrêmes, ce qui fait d’elle une joueuse naturellement douée pour les **jeux de Pique** (♠️), c’est-à-dire les épreuves physiques, d’endurance et de survie.
 

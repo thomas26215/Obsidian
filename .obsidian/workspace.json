@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Medias/Characters/Untitled.md",
-                "mode": "source",
+                "file": "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Alice in Borderland saison 2"
             }
           },
           {
@@ -289,9 +289,23 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "216d2b80e27a4e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programmation linéaire"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -383,12 +397,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Medias/Characters/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
@@ -398,7 +411,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -407,106 +420,21 @@
             }
           },
           {
-            "id": "85d8d8e473f8d073",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "68cdb001091f14ad",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Introduction à Angular.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction à Angular"
+              "title": "Outline"
             }
           },
           {
             "id": "3b060581429a9c8a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "16c9e5727b6505cc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2ed3c8c6ca9601d0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4122a456c58aeabe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "80c6c9df334d19f3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "b4c6196d9a7765c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e59f5a4b0efcc943",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d825015acde117e7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -626,16 +554,6 @@
             }
           },
           {
-            "id": "c7c207e5865ecca5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "20e8d156dcb43437",
             "type": "leaf",
             "state": {
@@ -656,16 +574,6 @@
             }
           },
           {
-            "id": "5ed8265026f18068",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "20aeaf839d03cd28",
             "type": "leaf",
             "state": {
@@ -674,9 +582,23 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "d8d2682defe3a84d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
-        "currentTab": 28
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -705,19 +627,20 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "20aeaf839d03cd28",
+  "active": "216d2b80e27a4e44",
   "lastOpenFiles": [
-    "Permanent/Medias/Characters/Ryohei Arisu.md",
-    "Permanent/Medias/Characters/Untitled.md",
+    "MOOC/Big MOCS/Cours.base",
+    "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
+    "Permanent/Medias/Séries/Alice in Borderland saison 1.md",
+    "MOOC/Big MOCS/Media.base",
+    "Permanent/Medias/Characters/Shuntarō Chishiya.md",
     "Permanent/Medias/Characters/Yuzuha Usagi.md",
+    "Permanent/Medias/Characters/Ryohei Arisu.md",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
-    "MOOC/Big MOCS/Media.base",
-    "Permanent/Medias/Séries/Alice in Borderland saison 1.md",
     "Usa.md",
     "Usagi.md",
     "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
-    "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
     "Permanent/Medias/Characters",
     "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
@@ -732,14 +655,12 @@
     "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Programmation/Angular",
     "MOOC/Big MOCS/Programmation.base",
-    "MOOC/Big MOCS/Cours.base",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2025-09-23 11.29.47.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 11.29.38.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md",
-    "Will AI Make you stupid ?.md",
     "Permanent/Cours/TD/Semestre 5",
     "Untitled 1.base",
     "Untitled.base",

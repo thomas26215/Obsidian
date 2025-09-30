@@ -54,9 +54,9 @@ La saison se termine sur une scène mystérieuse avec Mira, une figure énigmati
 
 ## Personnages
 
-- **[Ryōhei Arisu](https://aliceinborderland.fandom.com/wiki/Ry%C5%8Dhei_Arisu)** : Jeune homme intelligent et stratégique, il devient le leader naturel des survivants, déterminé à comprendre et à survivre dans Borderland.
+- **[[Ryohei Arisu]]** : Jeune homme intelligent et stratégique, il devient le leader naturel des survivants, déterminé à comprendre et à survivre dans Borderland.
     
-- **[Yuzuha Usagi](https://aliceinborderland.fandom.com/wiki/Yuzuha_Usagi)** : Grimpeuse experte, alliée précieuse et soutien moral d’Arisu.
+- **[[Yuzuha Usagi]]** : Grimpeuse experte, alliée précieuse et soutien moral d’Arisu.
     
 - **[Karube Daikichi](https://aliceinborderland.fandom.com/wiki/Karube_Daikichi)** : Ami fidèle d’Arisu, fort et protecteur, prêt à se sacrifier pour le groupe.
     
