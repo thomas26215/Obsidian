@@ -186,3 +186,11 @@ $f(4n) = (4n)^3 = 64n^3 = 64f(n)$
 $f(4n) = 2^{4n} = (2^n)^4 = f(n)^4$
 
 **Conclusion :** $f(4n) = f(n)^4$ (croissance exponentielle très rapide)
+
+# 7) Petites et grandes boucles
+
+## a) Boucle simple de 0 à $n$
+- La boucle s'excute N fois
+=> Ordre de temps : $O(N)$
+
+## b) Boucle de $N$ à $0$
