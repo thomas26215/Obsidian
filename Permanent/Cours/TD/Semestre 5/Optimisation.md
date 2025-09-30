@@ -92,6 +92,95 @@ Contraintes :
 $$\begin{Bmatrix}4x_1+2x_2+4x_3<=80\\2x_1+2x_2+3x_3<=50\\x_1+3x_2+2x_3<=40\\x_1,x_2,x_3>=0\end{Bmatrix}$$
 
 
+
+# Exercice 5
+
+$x_1$ = Nombres d'unités produites avec la technique 1
+$x_2$ = Nombre d'unités produites avec la technique 2
+$x_3$ = Nombre d'unités produites avec la technique 3
+
+Maximiser la marge totale :
+$$Z=3x_1+4x_2+5x_3$$
+
+Contraintes :
+- $0,5x_1+1,5x_2+2x_3\leq12$ 
+- $2x_1+1,5x_2+0,5x_3\leq15$
+- $x_1, x_2, x_3\geq0$ 
+
+
+On ajoute les variables d'écarts :
+- $0,5x_1+1,5x_2+2x_3+x_4=12$ 
+- $2x_1+1,5x_2+0,5x_3+x_4=15$
+
+Tableau initial :
+
+| Base  | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | RHS  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ---- |
+| $x_4$ | $0,5$ | $1,5$ | $2$   | $1$   | $0$   | $12$ |
+| $x_5$ | $2$   | $1,5$ | $0,5$ | $0$   | $1$   | $15$ |
+| $Z$   | $3$   | $4$   | $5$   | $0$   | $0$   | $0$  |
+
+## 1e itération
+**Variable entrante** : $x_3$
+**Test du rapport** :
+- Ligne $x_4$ : $12/2=6$
+- Ligne $x_5$ : $15/0,5=30$
+
+Le plus petit rapport est $6$ donc $x_4$ sort
+
+**Pivot** : élément $a_{13}=2$
+
+
+Normaliser la ligne $x_4$ : diviser par $2$ :
+- $0.25x_1+0.75x_2+1x_3+0.5x_4=6$
+Eliminer $x_4$ des autres lignes (méthode de Gauss)
+
+
+| Base  | $x_1$   | $x_2$   | $x_3$ | $x_4$   | $x_5$ | RHS  |
+| ----- | ------- | ------- | ----- | ------- | ----- | ---- |
+| $x_3$ | $0,25$  | $0,75$  | $1$   | $0,5$   | $0$   | $6$  |
+| $x_5$ | $1,875$ | $1,125$ | $0$   | $-0,25$ | $1$   | $12$ |
+| $Z$   | $1,75$  | $0,25$  | $0$   | $-2,5$  | $0$   | $30$ |
+
+## 2e itération
+
+**Variable entrante** : $x_1$
+**Test du rapport** :
+- Ligne $x_3$ : $6/0,25=24$
+- Ligne $x_5=12/1,875 = 6,4$
+
+Le plus petit rapport est $6,4$ donc $x_5$ sort
+**Pivot** : élément $a_21=1,875$
+
+
+| Base  | $x_1$ | $x_2$  | $x_3$ | $x_4$    | $x_5$     | RHS    |
+| ----- | ----- | ------ | ----- | -------- | --------- | ------ |
+| $x_3$ | $0$   | $0,6$  | $1$   | $0,533$  | $0,133$   | $4,4$  |
+| $x_1$ | $1$   | $0,6$  | $0$   | $-0,133$ | $0,533$   | $6,4$  |
+| $Z$   | $0$   | $-0,8$ | $0$   | $-2,267$ | $0-0,933$ | $18,8$ |
+|       |       |        |       |          |           |        |
+
+## 3e itération
+
+**Variable entrante** : x2x2 (coefficient négatif dans Z, donc on arrête ici car on maximise et tous les coefficients sont négatifs ou nuls).
+
+## Lecture de la solution optimale
+
+Variables de base :
+
+- $x_1=6.4x_1=6.4$
+- $x_3=4.4x_3=4.4$
+- $x_2=0x_2=0$
+
+**Valeur optimale :**
+
+$$Z^*=3×6.4+4×0+5×4.4=19.2+0+22=41.2$$
+
+- **Technique 1** : 6.4 unités
+- **Technique 2** : 0 unité
+- **Technique 3** : 4.4 unités
+- **Marge maximale** : 41.2 €
+
 # Exercise 6
 
 $$c_1\;x_2=-2x_1+2$$

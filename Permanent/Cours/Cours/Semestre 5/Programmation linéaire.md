@@ -72,7 +72,7 @@ Le **pivot** est donc $a_{11} = 4$.
 1. **Normaliser la ligne pivot** (diviser par 4) :  
 
 Nouvelle ligne $x_4$ :  
-$ (1,\; 0.5,\; 1,\; 0.25,\; 0,\; 0 \;|\; 20) $
+$(1,\; 0.5,\; 1,\; 0.25,\; 0,\; 0 \;|\; 20)$
 
 2. **Éliminer la colonne $x_1$** dans les autres lignes (méthode de Gauss).  
 
@@ -161,3 +161,115 @@ $Z^* = 5 \times 16 + 3 \times 8 + 4 \times 0 = 104$
 - $x_3^* = 0$  
 - $Z^* = 104$
 
+
+
+
+# Système de phases
+
+
+Prenons ce problème où la base initiale n'est pas réalisable :
+
+**Maximiser** $Z=x1+x2Z = x_1 + x_2Z=x1+x2$
+
+Sous contraintes :
+
+$x1+x2≥2x1≤3x2≤2x1,x2≥0\begin{cases} x_1 + x_2 \geq 2 \\ x_1 \leq 3 \\ x_2 \leq 2 \\ x_1, x_2 \geq 0 \end{cases}⎩⎨⎧x1+x2≥2x1≤3x2≤2x1,x2≥0$
+
+## 1. Mise sous forme standard
+
+- Pour $≥$ : on soustrait une variable d'écart et **ajoute une variable artificielle**.
+    
+- Pour $\leq$ : on ajoute une variable d'écart.
+    
+
+On obtient :
+
+$x1+x2−x3+a1=2x1+x4=3x2+x5=2x1,x2,x3,x4,x5,a1≥0\begin{cases} x_1 + x_2 - x_3 + a_1 = 2 \\ x_1 + x_4 = 3 \\ x_2 + x_5 = 2 \\ x_1, x_2, x_3, x_4, x_5, a_1 \geq 0 \end{cases}⎩⎨⎧x1+x2−x3+a1=2x1+x4=3x2+x5=2x1,x2,x3,x4,x5,a1≥0$
+
+Variables d'écart : $x3,x4,x5x_3, x_4, x_5x3,x4,x5$
+Variable artificielle : $a1a_1a1$ 
+
+## 2. Tableau initial (Phase 1)
+
+On veut **minimiser** a1a_1a1 (fonction objectif auxiliaire : Z1=a1Z_1 = a_1Z1=a1).
+
+|Base|x1|x2|x3|x4|x5|a1|RHS|
+|---|---|---|---|---|---|---|---|
+|a1|1|1|-1|0|0|1|2|
+|x4|1|0|0|1|0|0|3|
+|x5|0|1|0|0|1|0|2|
+|Z1|0|0|0|0|0|1|0|
+
+## 3. Première itération (Phase 1)
+
+- On cherche à faire sortir a1a_1a1 de la base.
+    
+- On regarde les coefficients de la ligne Z1Z_1Z1 : ici, tous sont nuls sauf pour a1a_1a1.
+    
+- On exprime a1a_1a1 en fonction des autres variables (ligne 1) :  
+    a1=2−x1−x2+x3a_1 = 2 - x_1 - x_2 + x_3a1=2−x1−x2+x3
+    
+- Pour faire sortir a1a_1a1, on fait entrer une variable avec un coefficient négatif dans la ligne de a1a_1a1. Ici, x3x_3x3 a un coefficient de −1-1−1.
+    
+
+**Variable entrante :** x3x_3x3  
+**Variable sortante :** a1a_1a1
+
+On pivote sur la case (ligne 1, colonne x3x_3x3) :
+
+- Normaliser la ligne 1 par −1-1−1 :  
+    x3=2−x1−x2+a1x_3 = 2 - x_1 - x_2 + a_1x3=2−x1−x2+a1
+    
+
+Nouveau tableau (après pivot) :
+
+|Base|x1|x2|x3|x4|x5|a1|RHS|
+|---|---|---|---|---|---|---|---|
+|x3|-1|-1|1|0|0|1|2|
+|x4|1|0|0|1|0|0|3|
+|x5|0|1|0|0|1|0|2|
+|Z1|0|0|0|0|0|1|0|
+
+On élimine x3x_3x3 des autres lignes (méthode de Gauss). Ici, seul x3x_3x3 est dans la base, donc pas d'autres modifications immédiates.
+
+## 4. Deuxième itération (Phase 1)
+
+- On continue à faire sortir a1a_1a1 de la base si elle y est encore.
+    
+- On regarde la ligne Z1Z_1Z1 : si tous les coefficients des variables artificielles sont nuls et Z1=0Z_1 = 0Z1=0, on a fini la phase 1.
+    
+- Ici, a1a_1a1 n'est plus dans la base, et sa valeur est 0.
+    
+
+**On a donc trouvé une base réalisable pour le problème initial.**
+
+## 5. Passage à la phase 2
+
+- On retire la colonne a1a_1a1 du tableau.
+    
+- On remplace la fonction objectif par celle du problème initial : Z=x1+x2Z = x_1 + x_2Z=x1+x2.
+    
+- On continue l'algorithme du simplexe classique à partir de cette base.
+    
+
+## 6. Résumé des étapes
+
+1. **Mise sous forme standard** : Ajout de variables d'écart et artificielles.
+    
+2. **Phase 1** : Minimiser la somme des variables artificielles pour obtenir une base réalisable.
+    
+3. **Phase 2** : Optimiser la fonction objectif d'origine à partir de la base trouvée.
+    
+
+---
+
+**À retenir :**
+
+- Les variables artificielles servent uniquement à démarrer l'algorithme quand aucune base réalisable n'est évidente.
+    
+- Si, à la fin de la phase 1, la valeur minimale de la fonction auxiliaire est strictement positive, le problème n'a pas de solution réalisable.
+    
+- Sinon, on continue avec la phase 2 pour trouver la solution optimale du problème initial.
+    
+
+Veux-tu qu’on fasse ensemble la phase 2 sur cet exemple, ou que je détaille chaque pivot étape par étape ?
