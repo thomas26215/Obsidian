@@ -317,6 +317,16 @@
             "id": "7b77ed82e646ada7",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "fb8541c10721837a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -324,7 +334,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "horizontal",
@@ -354,9 +364,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7b77ed82e646ada7",
+  "active": "e34714523e19ad6c",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
     "Inbox/Chronologie des zeldas.md",
@@ -364,7 +375,6 @@
     "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 09.58.32.excalidraw.md",
     "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Media.base",
     "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md",
     "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md",

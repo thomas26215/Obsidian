@@ -134,9 +134,7 @@ Le terme dominant est $anm$ (produit croisé), donc :
 - Numérateur : $3n^2 + 4n + 1 = \Theta(n^2)$
 - Dénominateur : $n + m + nm = \Theta(nm)$ (car $nm$ domine)
 
-Donc : $f(n, m) = \dfrac{\Theta(n^2)}{\Theta(nm)} = \Theta\left(\dfrac{n}{m}\right)$
 
-**Réponse :** $\Theta\left(\dfrac{n}{m}\right)$
 
 
 # 3) Changer la taille des données
@@ -235,3 +233,83 @@ Ordre de temps : $O(N^2)$
 - Total : $1+2+4+...+N=2N-1=O(N)$
 
 => Ordre de temps  : $O(N)$
+
+# 14) 
+
+## Algorithme
+
+```
+Algorithme Devine(n)  
+	Entrée : un entier positif n  
+		if n = 1
+			return 1  
+		else
+			return Devine(n - 1) + 2 * n - 1
+```
+
+
+---
+
+## a. Équation de récurrence pour la valeur calculée
+
+On note **T(n)** la valeur retournée par `Devine(n)`.
+
+- Cas de base :  
+  $T(1) = 1$
+
+- Récurrence :  
+  $T(n) = T(n-1) + 2n - 1$, pour $n > 1$
+
+### Résolution
+$$T(n) = T(1) + \sum_{k=2}^{n} (2k - 1) = 1 + (n^2 - 1) = n^2$$
+
+✅ **Conclusion** : l’algorithme calcule $n^2$.
+
+---
+
+## b. Équation de récurrence pour les multiplications
+
+On note **M(n)** le nombre de multiplications effectuées.
+
+- Cas de base :  
+  $M(1) = 0$ (aucune multiplication)
+
+- Récurrence :  
+  $M(n) = M(n-1) + 1$
+
+### Résolution
+$$M(n) = n - 1$$
+
+---
+
+## c. Équation de récurrence pour les additions/soustractions
+
+On note **A(n)** le nombre d’additions/soustractions effectuées.
+
+- Cas de base :  
+  $A(1) = 0$
+
+- Récurrence :  
+  à chaque appel $(n > 1$) :  
+  • 1 addition $(T(n-1) + (2n - 1)$)  
+  • 1 soustraction $(2n - 1$)  
+
+Donc :
+$$A(n) = A(n-1) + 2$$
+
+### Résolution
+$$A(n) = 2(n-1)$$
+
+---
+
+## Résumé des résultats
+
+| Élément                 | Équation de récurrence              | Solution         |
+| ----------------------- | ----------------------------------- | ---------------- |
+| Valeur calculée $T(n)$ | $T(n) = T(n-1) + 2n - 1,\; T(1)=1$ | $T(n) = n^2$    |
+| Multiplications $M(n)$ | $M(n) = M(n-1) + 1,\; M(1)=0$      | $M(n) = n - 1$  |
+| Add./Soustr. $A(n)$    | $A(n) = A(n-1) + 2,\; A(1)=0$      | $A(n) = 2(n-1)$ |
+
+---
+
+✅ L’algorithme calcule donc **$n^2$** en effectuant **$n-1$** multiplications et **$2(n-1)$** additions/soustractions.
