@@ -313,3 +313,27 @@ $$A(n) = 2(n-1)$$
 ---
 
 ✅ L’algorithme calcule donc **$n^2$** en effectuant **$n-1$** multiplications et **$2(n-1)$** additions/soustractions.
+
+# 44)
+
+## 1)
+
+```java
+MinMax(tab)
+	n <- longueur(tab)
+	Si n = 1
+		Retourner(tab[0], tab[0])
+	Sinon si n = 2
+		Si tab[0] < tab[1]
+			Retourner(tab[0], tab [1])
+		Sinon
+			Retourner(tab[1], tab[0])
+	Sinon
+		Milieu = n/2
+		(minG, maxG) = MinMax(tab[0:Milieu])
+		(minD, maxD) = MinMax(tab[Milieu, n])
+		minTotal = min(minG, minD)
+		maxTotal = max(maxG, maxD)
+		return(minTotal, maxTotal)
+FinFonction
+```
