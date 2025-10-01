@@ -337,3 +337,28 @@ MinMax(tab)
 		return(minTotal, maxTotal)
 FinFonction
 ```
+
+## 2)
+- Pour 1 élément : 0 comparaisons
+- Pour 2 éléments : 1 comparaison
+- Pour n élément : Quand le tableau est divisé en 2, il faut deux appels récursifs et 2 comparaisons pour comparer les minima et maxima des deux sous tableaux. Ainsi :
+$$T[n]\begin{cases}0\space si\space n=1\\1\space si\space n=2\\T[\frac{n}{2}]+T[\frac{n}{2}]+2\space si\space n>1\end{cases}$$
+Ainsi, quand $n$ est une puissance de 2, le nombre de comparaisons son : $T(n)=\frac{3n}{2}-2$
+
+# 3)
+Ce résultat est optimal et inférieur au nombre de comparaisons du parcours (force brute) qui effectue $2n−2$ comparaisons au pire.
+
+# Tours de Hanoi
+Algorithme :
+
+```java
+Hanoi(n, source, destination, intermédiaire)
+	Si n=0
+		Retourner
+	Sinon si n=1
+		Deplacer(source, destination)
+	Sinon
+		Hanoi()
+
+
+```
