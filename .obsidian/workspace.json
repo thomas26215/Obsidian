@@ -25,12 +25,14 @@
             "id": "51bcecf83f979d55",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Changer la base d'une branche.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Changer la base d'une branche"
             }
           }
         ],
@@ -387,8 +389,15 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4caca4c96d7a1058",
+  "active": "51bcecf83f979d55",
   "lastOpenFiles": [
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Changer la base d'une branche.md",
+    "Intégration de modifications avec Git merge.md",
+    "Permanent/Programmation/Git/Revenir en arrière.md",
+    "Permanent/Programmation/Git/Manipuler l'historique.md",
+    "Permanent/Programmation/Git/Les branches.md",
+    "Permanent/Programmation/Git/Le remisage.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
@@ -410,16 +419,9 @@
     "Permanent/Medias/Characters/Ryohei Arisu.md",
     "Permanent/Cours/Cours/Semestre 5/Introduction à Node.JS.md",
     "Usa.md",
-    "Usagi.md",
-    "Permanent/Medias/Séries/Alice in Borderland saison 3.md",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
     "Untitled 2.base",
-    "Untitled 15.md",
-    "Permanent/Programmation/Angular/Services & injection de dépendances.md",
-    "Permanent/Programmation/Angular/Le routage.md",
-    "Permanent/Programmation/Angular/Directives et pipes.md",
-    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "Permanent/Programmation/Angular",
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Cours/TD/Semestre 5",
