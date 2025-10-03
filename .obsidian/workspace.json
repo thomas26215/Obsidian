@@ -352,6 +352,16 @@
             "id": "4caca4c96d7a1058",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0684f6934faf3b8f",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -359,7 +369,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "horizontal",
@@ -389,7 +399,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "51bcecf83f979d55",
+  "active": "0684f6934faf3b8f",
   "lastOpenFiles": [
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Changer la base d'une branche.md",
