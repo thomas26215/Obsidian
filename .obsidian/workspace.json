@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Changer la base d'une branche.md",
+                "file": "Permanent/Programmation/Git/Revenir en arrière.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Changer la base d'une branche"
+              "title": "Revenir en arrière"
             }
           }
         ],
@@ -399,7 +399,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0684f6934faf3b8f",
+  "active": "51bcecf83f979d55",
   "lastOpenFiles": [
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Changer la base d'une branche.md",
