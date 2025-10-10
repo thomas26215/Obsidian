@@ -3,13 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Date": "date",
-    "Date fin": "date",
-    "Date début": "date",
-    "Complete": "checkbox",
-    "Learned": "checkbox",
-    "Note": "text",
-    "Déja vu": "checkbox",
     "excalidraw-plugin": "text",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",
@@ -28,11 +21,7 @@
     "excalidraw-border-color": "text",
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
-    "excalidraw-iframe-theme": "text",
-    "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
-    "Outil": "multitext",
-    "MOOC": "text",
-    "Categorie": "multitext"
+    "excalidraw-open-md": "checkbox"
   }
 }
