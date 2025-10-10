@@ -372,6 +372,16 @@
             "id": "3cee7f829393f08d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c71b73287d6b2e6d",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -379,7 +389,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "horizontal",
@@ -409,7 +419,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "51bcecf83f979d55",
+  "active": "c71b73287d6b2e6d",
   "lastOpenFiles": [
     "Permanent/Programmation/Git/Revenir en arrière.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
