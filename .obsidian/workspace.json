@@ -417,6 +417,16 @@
             "id": "7668def25aacee12",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "61e7a77e94426061",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -424,7 +434,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "horizontal",
@@ -449,10 +459,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7668def25aacee12",
+  "active": "61e7a77e94426061",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
     "Projets/En cours/Cartographie application.md",
