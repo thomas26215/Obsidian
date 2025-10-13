@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ajouter",
+                "query": "namespac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -429,7 +430,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f5ed2214499fbfec",
+  "active": "3cecf2c46f14d92f",
   "lastOpenFiles": [
     "Permanent/Programmation/Git/Revenir en arrière.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
