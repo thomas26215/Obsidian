@@ -421,4 +421,7 @@ fonction parcoursDecroissant(noeud)
     imprimer(noeud.valeur)            // afficher la valeur du noeud
     parcoursDecroissant(noeud.gauche) // parcourir le sous-arbre gauche (valeurs petites)
 fin fonction
-```	
+```
+
+# 81)
+
