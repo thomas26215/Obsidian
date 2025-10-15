@@ -386,3 +386,8 @@ Hanoi(n, source, destination, intermédiaire)
 
 
 ```
+
+# 55)
+**Préfixé** : a - b - d - e - c - f
+**Infixé** : d - e - f - b - c - a
+**Posfixé** : a - c - f - b - e - d
