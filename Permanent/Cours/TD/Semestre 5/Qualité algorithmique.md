@@ -234,6 +234,30 @@ Ordre de temps : $O(N^2)$
 
 => Ordre de temps  : $O(N)$
 
+# 11)
+## a)
+C'est une suite aithmétique de raison $5$
+$$x(n)=5n-5 <=> 5(n-1)$$
+
+## b)
+$x(2)=12$
+$x(3)=36$
+Suite géométrique de raison $3$
+
+Ainsi, $x(n)=x(1)3^{n-1}=4*3^{n-1}$
+
+# c)
+$x(0)=0$
+$x(1)=1$
+$x(2)=3$
+$x(3)=6$
+$x(4)=10$
+
+$$\sum_{i=0}^{i=n}i=\frac{n(n+1)}{2}$$
+Ainsi : 
+$$x(n)=\frac{n(n+1)}{2}$$
+
+
 # 14) 
 
 ## Algorithme
