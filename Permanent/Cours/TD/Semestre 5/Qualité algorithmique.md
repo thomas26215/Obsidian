@@ -410,3 +410,15 @@ graph TD
 
 
 # 27)
+
+```pseudo
+fonction parcoursDecroissant(noeud)
+    si noeud == null alors
+        retourner
+    fin si
+
+    parcoursDecroissant(noeud.droite)  // parcourir le sous-arbre droit (valeurs grandes)
+    imprimer(noeud.valeur)            // afficher la valeur du noeud
+    parcoursDecroissant(noeud.gauche) // parcourir le sous-arbre gauche (valeurs petites)
+fin fonction
+```	
