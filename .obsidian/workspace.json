@@ -103,13 +103,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -475,7 +473,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c621cea8260e9daf",
+  "active": "1282753e67a8638f",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
     "Projets/En cours/Cartographie application.md",
