@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -427,6 +428,16 @@
             "id": "61e7a77e94426061",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c621cea8260e9daf",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -434,7 +445,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       }
     ],
     "direction": "horizontal",
@@ -464,7 +475,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "61e7a77e94426061",
+  "active": "c621cea8260e9daf",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
     "Projets/En cours/Cartographie application.md",
