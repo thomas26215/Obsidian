@@ -391,3 +391,22 @@ Hanoi(n, source, destination, intermédiaire)
 **Préfixé** : a - b - d - e - c - f
 **Infixé** : d - e - f - b - c - a
 **Posfixé** : a - c - f - b - e - d
+
+# 56)
+
+```mermaid
+graph TD
+    A2[2]
+    A2 --> B3[3]
+    A2 --> B8[8]
+    B3 --> C9[9]
+    B3 --> C0[0]
+    C0 --> D1[1]
+    C0 --> D4[4]
+    B8 --> C7[7]
+    B8 --> C5[5]
+    C7 --> D6[6]
+```
+
+
+# 27)
