@@ -53,13 +53,14 @@
             "id": "43a7d51a926c254f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Programmation.base",
-                "viewName": "Table"
+                "file": "Permanent/Programmation/Angular/Services & injection de dépendances.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Programmation"
+              "icon": "lucide-file",
+              "title": "Services & injection de dépendances"
             }
           }
         ],
@@ -469,6 +470,16 @@
             "id": "37cd143e5423807c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c3e6878432e17a0c",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -476,7 +487,7 @@
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 32
       }
     ],
     "direction": "horizontal",
@@ -506,8 +517,15 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "43a7d51a926c254f",
+  "active": "c3e6878432e17a0c",
   "lastOpenFiles": [
+    "MOOC/Big MOCS/Programmation.base",
+    "Permanent/Programmation/Angular/Services & injection de dépendances.md",
+    "Permanent/Programmation/Angular/Le routage.md",
+    "Permanent/Programmation/Angular/Directives et pipes.md",
+    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
+    "Permanent/Programmation/Angular/Concepts de base & installation.md",
+    "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
@@ -527,20 +545,12 @@
     "Inbox/TestComplete_SmartBear.md",
     "Excalidraw/Drawing 2025-05-12 10.04.22.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 09.58.32.excalidraw.md",
-    "Permanent/Medias/Séries/Alice in Borderland saison 2.md",
     "MOOC/Big MOCS/Media.base",
-    "Excalidraw/Drawing 2025-09-23 10.50.39.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-23 10.14.53.excalidraw.md",
-    "📱 Android – Pile d’activités & Intents.md",
-    "Permanent/Cours/Cours/Semestre 5/Programmation linéaire.md",
     "MOOC/Big MOCS/Cours.base",
-    "Permanent/Medias/Séries/Alice in Borderland saison 1.md",
-    "Permanent/Medias/Characters/Shuntarō Chishiya.md",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
     "Untitled 2.base",
     "Permanent/Programmation/Angular",
-    "MOOC/Big MOCS/Programmation.base",
     "Permanent/Cours/TD/Semestre 5",
     "Untitled 1.base",
     "Untitled.base",
