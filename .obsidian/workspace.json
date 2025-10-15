@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtualisation - Conteneurs et docker"
+              "title": "🐳 Introduction à Docker et au cycle de vie des conteneurs"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🐳 Introduction à Docker et au cycle de vie des conteneurs"
+              "title": "Untitled 1"
             }
           }
         ],
@@ -539,12 +539,14 @@
   },
   "active": "43a7d51a926c254f",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
-    "Cours.md",
+    "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
+    "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
+    "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
+    "Cours.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Le routage.md",
@@ -556,7 +558,6 @@
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
     "Projets/En cours/Cartographie application.md",
     "Permanent/Programmation/Git/Revenir en arrière.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Changer la base d'une branche.md",
     "Intégration de modifications avec Git merge.md",
@@ -565,7 +566,6 @@
     "Permanent/Programmation/Git/Le remisage.md",
     "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "Permanent/Programmation/Dart/L'asynchronisme en dart.md",
-    "Inbox/Chronologie des zeldas.md",
     "MOOC/Big MOCS/Media.base",
     "MOOC/Big MOCS/Cours.base",
     "Permanent/Medias/Characters",

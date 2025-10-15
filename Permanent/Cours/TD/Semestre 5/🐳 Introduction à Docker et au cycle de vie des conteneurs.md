@@ -201,14 +201,14 @@ echo $_ENV['NOM'];
 **Commande de lancement :**
 
 ```bash
-docker run -e NOM=Marie -p 8080:80 -v "$PWD:/var/www/html" php:apache
+docker run -e NOM=Thomas -p 8080:80 -v "$PWD:/var/www/html" php:apache
 ```
 
 Ce conteneur exécute Apache et PHP, affiche la page à l’adresse [http://localhost:8080](http://localhost:8080), et récupère la variable d’environnement `NOM` passée au lancement.  
 Le résultat visible est :
 
 ```
-Bonjour Marie
+Bonjour Thomas
 ```
 
 Cet exemple illustre parfaitement l’intérêt de Docker pour le **déploiement rapide d’applications web isolées et configurables**.
