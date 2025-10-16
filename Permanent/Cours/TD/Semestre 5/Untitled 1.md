@@ -192,24 +192,3 @@ Selon le type d’application, différents choix d’images s’imposent :
 |Serveur web|`nginx:stable` ou `apache:latest`|Configurations prêtes à l’emploi|
 |Application Python|`python:3.12-slim`|Environnement léger et adapté à l’exécution de scripts|
 |Scripts Shell personnalisés|`alpine:latest` ou `debian:stable-slim`|Images minimalistes contenant les outils standards|
-
-Le choix d’une image de base doit équilibrer **légèreté, compatibilité et sécurité**.
-
----
-
-## 🧾 Conclusion
-
-Ce TP a permis d’explorer en profondeur la **construction d’images Docker** :
-
-- comprendre la **structure d’un Dockerfile** ;
-    
-- manipuler le **cache de build** et les **couches** d’une image ;
-    
-- configurer un **entrypoint** et des **variables d’environnement** ;
-    
-- gérer la **persistance des données** via les **volumes** ;
-    
-- et exposer des **ports** pour les services en réseau.
-    
-
-Ces notions constituent la base indispensable pour concevoir des conteneurs **efficaces, modulaires et reproductibles** dans un contexte professionnel de déploiement d’applications.
