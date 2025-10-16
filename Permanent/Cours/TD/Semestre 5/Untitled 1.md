@@ -12,7 +12,13 @@ Le **Dockerfile** correspondant spécifie :
 - la **copie du fichier test** dans le conteneur (`COPY`) ;
     
 - l’**installation d’un paquet** (ici `vim`) à l’aide de `RUN apt install -y vim`.
-    
+
+```dockerfile
+FROM debian:stable
+COPY test /test
+RUN apt-get update && apt-get install -y vim
+``` 
+
 
 Une fois ce fichier rédigé, la commande suivante permet de construire l’image :
 
@@ -23,6 +29,10 @@ docker build -t monimage .
 L’option `-t monimage` permet d’attribuer un **tag** à l’image, facilitant son identification et son exécution ultérieure.
 
 Lorsqu’un conteneur est lancé à partir de cette image avec `--rm`, on peut observer que les modifications effectuées à l’intérieur (par exemple une édition du fichier `test`) ne persistent pas après l’arrêt du conteneur, car celui-ci est éphémère.
+
+```shell
+docker run --rm -it monimage
+```
 
 ---
 
@@ -52,14 +62,34 @@ Dans un nouveau répertoire (`etape-entrypoint`), un Dockerfile installe le paqu
 ENTRYPOINT ["nc", "-l", "-p", "1337"]
 ```
 
+DockerFile :
+
+```dockerfile
+# Utiliser une image de base légère
+FROM alpine:latest
+
+# Installer netcat
+RUN apk add --no-cache netcat-openbsd
+
+# Définir l'entrypoint
+ENTRYPOINT ["nc", "-l", "-p", "1337"]
+```
+
 Cette commande crée un **serveur TCP** écoutant sur le port 1337.  
 Après avoir construit et lancé le conteneur en exposant ce port (`-p 1337:1337`), on peut s’y connecter depuis l’hôte via :
 
 ```bash
+docker build -t nc-listen .
+docker run --rm -it -p 1337:1337 nc-listen
+```
+
+Sur l'autre shell :
+
+```
 nc localhost 1337
 ```
 
-Le terminal de l’hôte et celui du conteneur deviennent alors interconnectés.
+Le terminal de l’hôte et celui du conteneur deviennent alors interconnectés et peuvent communiquer
 
 ---
 
@@ -67,17 +97,31 @@ Le terminal de l’hôte et celui du conteneur deviennent alors interconnectés.
 
 Pour rendre le port configurable, on introduit une **variable d’environnement** `PORT`.  
 Cependant, la commande `ENTRYPOINT` ne peut pas interpréter directement une variable.  
-Il est donc nécessaire d’écrire un **script intermédiaire** (par exemple `start.sh`) :
+Il est donc nécessaire d’écrire un **script intermédiaire** (par exemple `entrypoint.sh`) :
 
 ```bash
-#!/bin/bash
-nc -l -p ${PORT:-1337}
+#!/bin/sh
+
+# Si PORT n'est pas défini, utiliser 1337 par défaut
+PORT=${PORT:-1337}
+
+# Lancer netcat en écoute sur le port spécifié
+exec nc -l -p "$PORT"
 ```
 
 Ce script est copié dans l’image et défini comme nouvel entrypoint :
 
 ```dockerfile
-ENTRYPOINT ["/start.sh"]
+FROM alpine:latest
+
+RUN apk add --no-cache netcat-openbsd
+
+# Copier le script dans l'image
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Définir le script comme entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
 ```
 
 Ainsi, le port d’écoute peut être personnalisé au lancement :
