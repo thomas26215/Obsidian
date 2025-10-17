@@ -53,14 +53,13 @@
             "id": "43a7d51a926c254f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Permanent/Programmation/Angular/Le routage.md",
-                "mode": "preview",
-                "source": false
+                "file": "MOOC/Big MOCS/Programmation.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Le routage"
+              "icon": "lucide-table",
+              "title": "Programmation"
             }
           }
         ],
@@ -557,8 +556,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b528431300189e0f",
+  "active": "43a7d51a926c254f",
   "lastOpenFiles": [
+    "MOOC/Big MOCS/Productivite.md",
+    "Permanent/Programmation/Angular/Le routage.md",
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Directives et pipes.md",
     "Permanent/Programmation/Angular/Composants & templates.md",
@@ -572,7 +573,6 @@
     "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
     "Cours.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
-    "Permanent/Programmation/Angular/Le routage.md",
     "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
