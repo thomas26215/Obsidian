@@ -13,6 +13,11 @@ tags:
 - Si `standalone: true`, ce composant est utilisable sans être déclaré dans un module.
 - Un composant peut importer (dans `imports: [...]`) les modules nécessaires (CommonModule, FormsModule, RouterModule, etc.) pour fonctionner dans son template.
 
+### Créer un composant
+```bash
+ng generate component nom-du-composant --standalone
+```
+
 ### Exemple concret : un composant “HelloWorld”
 
 **app/hello-world.component.ts**
