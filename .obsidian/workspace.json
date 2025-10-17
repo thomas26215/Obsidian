@@ -510,6 +510,16 @@
             "id": "3b3f4ac47a7e11c0",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b528431300189e0f",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -517,7 +527,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "horizontal",
@@ -547,7 +557,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "43a7d51a926c254f",
+  "active": "b528431300189e0f",
   "lastOpenFiles": [
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Directives et pipes.md",
