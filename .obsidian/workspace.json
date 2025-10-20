@@ -53,13 +53,14 @@
             "id": "43a7d51a926c254f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "MOOC/Big MOCS/Programmation.base",
-                "viewName": "Table"
+                "file": "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Programmation"
+              "icon": "lucide-file",
+              "title": "Data Binding (liaison de données)"
             }
           }
         ],
@@ -551,18 +552,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
   "active": "43a7d51a926c254f",
   "lastOpenFiles": [
+    "MOOC/Big MOCS/Programmation.base",
+    "Permanent/Programmation/Angular/Composants & templates.md",
+    "Permanent/Programmation/Angular/Directives et pipes.md",
+    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "MOOC/Big MOCS/Productivite.md",
     "Permanent/Programmation/Angular/Le routage.md",
-    "MOOC/Big MOCS/Programmation.base",
-    "Permanent/Programmation/Angular/Directives et pipes.md",
-    "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Programmation/Angular/Concepts de base & installation.md",
     "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
@@ -573,7 +573,6 @@
     "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
     "Cours.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
-    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
     "Projets/En cours/Cartographie application.md",
@@ -584,7 +583,6 @@
     "Permanent/Programmation/Git/Manipuler l'historique.md",
     "Permanent/Programmation/Git/Les branches.md",
     "Permanent/Programmation/Git/Le remisage.md",
-    "Permanent/Cours/TP/Semestre 4/Tests TP1.md",
     "MOOC/Big MOCS/Media.base",
     "MOOC/Big MOCS/Cours.base",
     "Permanent/Medias/Characters",
