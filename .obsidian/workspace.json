@@ -520,6 +520,16 @@
             "id": "b528431300189e0f",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4902c4646623699d",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -527,7 +537,7 @@
             }
           }
         ],
-        "currentTab": 36
+        "currentTab": 37
       }
     ],
     "direction": "horizontal",
@@ -552,10 +562,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "43a7d51a926c254f",
+  "active": "4902c4646623699d",
   "lastOpenFiles": [
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Composants & templates.md",
