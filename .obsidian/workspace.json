@@ -53,14 +53,13 @@
             "id": "43a7d51a926c254f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
-                "mode": "preview",
-                "source": false
+                "file": "MOOC/Big MOCS/Cours.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Data Binding (liaison de données)"
+              "icon": "lucide-table",
+              "title": "Cours"
             }
           }
         ],
@@ -530,6 +529,16 @@
             "id": "4902c4646623699d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "04ecab290ea455bb",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -537,7 +546,7 @@
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       }
     ],
     "direction": "horizontal",
@@ -567,12 +576,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4902c4646623699d",
+  "active": "04ecab290ea455bb",
   "lastOpenFiles": [
+    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Programmation/Angular/Directives et pipes.md",
-    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "MOOC/Big MOCS/Productivite.md",
     "Permanent/Programmation/Angular/Le routage.md",
     "Permanent/Programmation/Angular/Concepts de base & installation.md",
