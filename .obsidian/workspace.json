@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
-                "mode": "source",
+                "file": "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Droit - Rédaction concernant les noms de domaine"
+              "title": "Node de synthese juridique"
             }
           },
           {
@@ -576,8 +576,9 @@
   },
   "active": "50dc6d6ac7906d1d",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
+    "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
@@ -603,7 +604,6 @@
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Changer la base d'une branche.md",
     "Intégration de modifications avec Git merge.md",
-    "Permanent/Programmation/Git/Manipuler l'historique.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
