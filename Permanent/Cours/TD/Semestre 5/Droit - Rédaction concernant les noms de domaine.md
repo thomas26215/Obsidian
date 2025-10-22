@@ -1,4 +1,4 @@
-# Le régime juridique des noms de domaine : entre liberté de réservation et respect des droits des tiers**
+# Le régime juridique des noms de domaine : entre liberté de réservation et respect des droits des tiers
 
 ## **Introduction générale**
 
