@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Tetris
-Sujet: 6-3 Stacking
+Sujet: Empilement / Stacking
 tags:
 Complete: false
 Learned: false
@@ -11,6 +11,8 @@ La technique 6‑3, parfois appelée “6‑stacking”, est une méthode avanc�
 Le nom 6‑3 fait référence à la **répartition des colonnes** sur le plateau : 6 colonnes d’un côté, 3 colonnes de l’autre, et une colonne libre pour placer les blocs I.
 
 Cette méthode est très utilisée dans les jeux comme Tetris Effect: Connected, surtout en mode Score Attack ou multijoueur, car elle maximise les points tout en minimisant le risque de “top out” (perdre la partie à cause d’une pile trop haute).
+
+Il faut savoir que le 6-3 Stacking utilise [[Le Flat Stacking]] pour la partie de 6 colonnes mais introduit volontairement des variations dans la zone de trois colonnes pour exploiter les T‑Spins.
 
 ---
 

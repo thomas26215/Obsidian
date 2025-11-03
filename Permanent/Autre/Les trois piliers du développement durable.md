@@ -1,8 +1,8 @@
 ---
 MOOC: "[[Autre]]"
 Thème: Developpement durable
-Sujet: 
-tags: 
+Sujet:
+tags:
 Complete: true
 Learned: false
 ---

@@ -41,12 +41,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/Le T-Spin.md",
+                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
                 "mode": "preview",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Le T-Spin"
+              "title": "Empilement 6-3 (6-3 Stacking)"
             }
           }
         ],
@@ -123,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Autre/Le T-Spin.md",
+                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Le T-Spin"
+              "title": "Backlinks for Empilement 6-3 (6-3 Stacking)"
             }
           },
           {
@@ -142,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Autre/Le T-Spin.md",
+                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Le T-Spin"
+              "title": "Outgoing links from Empilement 6-3 (6-3 Stacking)"
             }
           },
           {
@@ -236,8 +246,13 @@
   },
   "active": "43a7d51a926c254f",
   "lastOpenFiles": [
-    "Permanent/Autre/Le T-Spin.md",
+    "Permanent/Autre/Le Flat Stacking.md",
     "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
+    "Permanent/Autre/Le T-Spin.md",
+    "T-Spin.md",
+    "MOOC/Big MOCS/Autre.base",
+    "Permanent/Autre/Interface NVME.md",
+    "MOOC/Big MOCS/Autre.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
@@ -260,10 +275,6 @@
     "Cours.md",
     "Permanent/Programmation/Angular/Services & injection de dépendances.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/Cours/Semestre 4/Commandes virtualisation.md",
-    "Projets/En cours/Cartographie application.md",
-    "Permanent/Programmation/Git/Revenir en arrière.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
@@ -271,7 +282,6 @@
     "Permanent/Programmation/Angular",
     "Permanent/Cours/TD/Semestre 5",
     "Untitled 1.base",
-    "Untitled.base",
     "Pasted image 20250601140945.png"
   ]
 }

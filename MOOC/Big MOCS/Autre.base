@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Permanent/Autre")
+    order:
+      - file.name
+      - Thème
+      - Sujet
+    sort:
+      - property: Thème
+        direction: ASC
+      - property: Sujet
+        direction: ASC
+    columnSize:
+      note.Thème: 227
