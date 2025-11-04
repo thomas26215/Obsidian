@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Diviser pour régner et calcul de puissance"
+              "title": "Qualité algorithmique"
             }
           }
         ],
@@ -228,6 +228,16 @@
             "id": "a3d92ebd29e1166f",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5a136e8d4a9c28c2",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -235,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -260,15 +270,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a3d92ebd29e1166f",
+  "active": "5a136e8d4a9c28c2",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Autre/Le T-Spin.md",
     "T-Spin.md",
     "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
@@ -278,7 +287,6 @@
     "MOOC/Big MOCS/Autre.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
