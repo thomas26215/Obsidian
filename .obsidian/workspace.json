@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
+                "file": "Permanent/Autre/Le T-Spin.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Empilement 6-3 (6-3 Stacking)"
+              "title": "Le T-Spin"
             }
           }
         ],
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
+                "file": "Permanent/Autre/Le T-Spin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Empilement 6-3 (6-3 Stacking)"
+              "title": "Backlinks for Le T-Spin"
             }
           },
           {
@@ -152,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
+                "file": "Permanent/Autre/Le T-Spin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Empilement 6-3 (6-3 Stacking)"
+              "title": "Outgoing links from Le T-Spin"
             }
           },
           {
@@ -213,8 +213,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "85031c216b1b9cd4",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -244,12 +255,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "43a7d51a926c254f",
+  "active": "85031c216b1b9cd4",
   "lastOpenFiles": [
-    "Permanent/Autre/Le Flat Stacking.md",
-    "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
-    "Permanent/Autre/Le T-Spin.md",
     "T-Spin.md",
+    "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
+    "Permanent/Autre/Le Flat Stacking.md",
+    "Permanent/Autre/Le T-Spin.md",
     "MOOC/Big MOCS/Autre.base",
     "Permanent/Autre/Interface NVME.md",
     "MOOC/Big MOCS/Autre.md",
