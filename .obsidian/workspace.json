@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Autre/Le T-Spin.md",
+                "file": "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Le T-Spin"
+              "title": "Diviser pour régner et calcul de puissance"
             }
           }
         ],
@@ -218,6 +218,16 @@
             "id": "85031c216b1b9cd4",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a3d92ebd29e1166f",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -225,7 +235,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -255,12 +265,14 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "85031c216b1b9cd4",
+  "active": "a3d92ebd29e1166f",
   "lastOpenFiles": [
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
+    "Permanent/Autre/Le T-Spin.md",
     "T-Spin.md",
     "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
     "Permanent/Autre/Le Flat Stacking.md",
-    "Permanent/Autre/Le T-Spin.md",
     "MOOC/Big MOCS/Autre.base",
     "Permanent/Autre/Interface NVME.md",
     "MOOC/Big MOCS/Autre.md",
@@ -284,8 +296,6 @@
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
     "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
     "Cours.md",
-    "Permanent/Programmation/Angular/Services & injection de dépendances.md",
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",

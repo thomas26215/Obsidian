@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Cours]]"
 Ressource: "R5.04 : Qualité algorithmique"
-Cours: Cours 1
+Cours: "Cours 1 :"
 Date:
 tags:
 Complete: false
