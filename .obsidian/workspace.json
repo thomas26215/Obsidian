@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+                "file": "Permanent/Autre/Le T-Spin.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Qualité algorithmique"
+              "title": "Le T-Spin"
             }
           }
         ],
@@ -248,6 +248,16 @@
             "id": "73de754bb94574e1",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "699cf6012abb1562",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -255,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -285,11 +295,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "43a7d51a926c254f",
+  "active": "699cf6012abb1562",
   "lastOpenFiles": [
-    "MOOC/Big MOCS/Cours.base",
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
+    "MOOC/Big MOCS/Cours.base",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Autre/Le T-Spin.md",
     "T-Spin.md",
