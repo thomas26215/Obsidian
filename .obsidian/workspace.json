@@ -63,12 +63,24 @@
             "id": "172efeff4944f216",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md"
+                "file": "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-05 10.28.22.excalidraw"
+              "icon": "lucide-file",
+              "title": "Qualité algorithmique"
             }
           }
         ],
@@ -280,6 +292,16 @@
             "id": "6a9f8c09166871fd",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ba0f976cde9950fc",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -287,7 +309,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -317,12 +339,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "172efeff4944f216",
+  "active": "ba0f976cde9950fc",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Cours.base",
+    "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Autre/Le T-Spin.md",
     "T-Spin.md",
@@ -347,7 +369,6 @@
     "Permanent/Programmation/Angular/Concepts de base & installation.md",
     "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "Permanent/Cours/Cours/Semestre 4/Virtualisation - Conteneurs et docker.md",
-    "Permanent/Cours/Cours/Cours anglais 12 Novembre.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
