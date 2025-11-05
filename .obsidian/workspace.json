@@ -302,6 +302,16 @@
             "id": "ba0f976cde9950fc",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5b6d5a808ba57362",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -309,7 +319,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -339,7 +349,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ba0f976cde9950fc",
+  "active": "5b6d5a808ba57362",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Cours.base",
