@@ -111,10 +111,24 @@
             "id": "9f65784c1a91b641",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 16.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 16"
             }
           }
         ],
@@ -395,6 +409,7 @@
   },
   "active": "9f65784c1a91b641",
   "lastOpenFiles": [
+    "Untitled 16.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Cours.base",
