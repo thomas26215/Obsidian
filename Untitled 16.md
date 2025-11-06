@@ -42,5 +42,4 @@ fonction supprimerPetitTas(H[1..n]) :
 
     retourner n     // nouvelle taille du tas
 fin fonction
-
 ```
