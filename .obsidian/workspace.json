@@ -82,9 +82,33 @@
               "icon": "lucide-file",
               "title": "Qualité algorithmique"
             }
+          },
+          {
+            "id": "bc3bb862357494d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Qualité algorithmique"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -312,6 +336,16 @@
             "id": "5b6d5a808ba57362",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a19084380fa0bb06",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -319,7 +353,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
@@ -349,10 +383,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5b6d5a808ba57362",
+  "active": "a19084380fa0bb06",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Cours.base",
+    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
@@ -367,7 +402,6 @@
     "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
-    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "MOOC/Big MOCS/Langues.md",
     "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
