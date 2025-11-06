@@ -370,6 +370,16 @@
             "id": "a19084380fa0bb06",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d99cf73cedeeeae8",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -377,7 +387,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -407,7 +417,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9f65784c1a91b641",
+  "active": "d99cf73cedeeeae8",
   "lastOpenFiles": [
     "Untitled 16.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
