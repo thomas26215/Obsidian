@@ -111,24 +111,12 @@
             "id": "9f65784c1a91b641",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Docker - Optimisation d'images Docker"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-11-05 10.28.22.excalidraw"
             }
           }
         ],
@@ -427,10 +415,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "dc8a985a8ef885dc",
+  "active": "9f65784c1a91b641",
   "lastOpenFiles": [
-    "Untitled 16.md",
     "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
+    "Untitled 16.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "MOOC/Big MOCS/Cours.base",
