@@ -380,6 +380,16 @@
             "id": "d99cf73cedeeeae8",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "dc8a985a8ef885dc",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -387,7 +397,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
@@ -417,7 +427,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9f65784c1a91b641",
+  "active": "dc8a985a8ef885dc",
   "lastOpenFiles": [
     "Untitled 16.md",
     "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
