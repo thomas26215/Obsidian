@@ -89,8 +89,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
-                "mode": "preview",
+                "file": "Permanent/Cours/TD/Semestre 5/Les transformations géométriques.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -104,23 +104,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Qualité algorithmique"
+              "title": "Les transformations géométriques"
+            }
+          },
+          {
+            "id": "4041335f001f24d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-11-10 10.19.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-11-10 10.19.14.excalidraw"
+            }
+          },
+          {
+            "id": "8c1d1a727274b1ac",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-11-10 10.16.33.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-11-10 10.16.33.excalidraw"
             }
           },
           {
             "id": "9f65784c1a91b641",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md"
+                "file": "Permanent/Cours/TD/Semestre 5/Les transformations géométriques.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-05 10.28.22.excalidraw"
+              "icon": "lucide-file",
+              "title": "Les transformations géométriques"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -425,11 +461,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9a7c5fe25c6e9248",
+  "active": "9f65784c1a91b641",
   "lastOpenFiles": [
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
     "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md",
+    "Permanent/Cours/TD/Semestre 5/Les transformations géométriques.md",
+    "Excalidraw/Drawing 2025-11-10 10.19.14.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-10 10.16.33.excalidraw.md",
+    "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
     "Untitled 16.md",
     "MOOC/Big MOCS/Cours.base",
@@ -444,7 +485,6 @@
     "MOOC/Big MOCS/Autre.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
-    "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Permanent/Cours/Cours/Semestre 5/Untitled.md",
     "MOOC/Big MOCS/Langues.md",
@@ -452,10 +492,6 @@
     "MOOC/Big MOCS/Programmation.base",
     "Permanent/Programmation/Angular/Composants & templates.md",
     "Permanent/Programmation/Angular/Directives et pipes.md",
-    "MOOC/Big MOCS/Productivite.md",
-    "Permanent/Programmation/Angular/Le routage.md",
-    "Permanent/Programmation/Angular/Concepts de base & installation.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
