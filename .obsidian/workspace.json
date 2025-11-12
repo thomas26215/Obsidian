@@ -111,12 +111,24 @@
             "id": "4041335f001f24d5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-11-10 10.19.14.excalidraw.md"
+                "file": "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-10 10.19.14.excalidraw"
+              "icon": "lucide-file",
+              "title": "Note de synthese juridique"
             }
           },
           {
@@ -159,16 +171,14 @@
             "id": "2b59feab12ff05ca",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -446,6 +457,16 @@
             "id": "a1cc82cd3180dd8b",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e40f29ba04386c8a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -453,7 +474,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "horizontal",
@@ -483,37 +504,37 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a1cc82cd3180dd8b",
+  "active": "e40f29ba04386c8a",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
+    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
+    "Progiciel.md",
+    "Logiciel.md",
+    "Différences entre Logiciel et progiciel.md",
+    "Permanent/Cours/Cours/Semestre 3/Le système d’information dans les entreprises.md",
+    "Supply Chain intégrée.md",
+    "CRM - Customer RelationShip Management.md",
+    "Collections Java.md",
+    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
+    "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
+    "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
+    "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
+    "Permanent/Cours/Cours/Semestre 1/Fichier des commandes.md",
+    "Permanent/Cours/TD/Cryptographie.md",
+    "Excalidraw/Drawing 2025-11-10 10.19.14.excalidraw.md",
+    "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
+    "MOOC/Big MOCS/Cours.base",
     "Excalidraw/Drawing 2025-11-05 10.28.22.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Les transformations géométriques.md",
-    "Excalidraw/Drawing 2025-11-10 10.19.14.excalidraw.md",
     "Excalidraw/Drawing 2025-11-10 10.16.33.excalidraw.md",
     "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
     "Untitled 16.md",
-    "MOOC/Big MOCS/Cours.base",
-    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
-    "Permanent/Autre/Le T-Spin.md",
-    "T-Spin.md",
-    "Permanent/Autre/Empilement 6-3 (6-3 Stacking).md",
-    "Permanent/Autre/Le Flat Stacking.md",
     "MOOC/Big MOCS/Autre.base",
-    "Permanent/Autre/Interface NVME.md",
-    "MOOC/Big MOCS/Autre.md",
-    "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
-    "Permanent/Cours/TD/Semestre 5/Node de synthese juridique.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled.md",
-    "Permanent/Cours/Cours/Semestre 5/Untitled.md",
-    "MOOC/Big MOCS/Langues.md",
-    "Permanent/Programmation/Angular/Data Binding (liaison de données).md",
     "MOOC/Big MOCS/Programmation.base",
-    "Permanent/Programmation/Angular/Composants & templates.md",
-    "Permanent/Programmation/Angular/Directives et pipes.md",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
     "Permanent/Medias/Séries",
