@@ -15,7 +15,17 @@
               "state": {
                 "file": "Permanent/Cours/TD/Semestre 5/Optimisation.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Optimisation"
@@ -108,30 +118,6 @@
             }
           },
           {
-            "id": "4041335f001f24d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Note de synthese juridique"
-            }
-          },
-          {
             "id": "8c1d1a727274b1ac",
             "type": "leaf",
             "state": {
@@ -177,8 +163,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -466,6 +451,26 @@
             "id": "e40f29ba04386c8a",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "321884d8dba186f1",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "ad62448c98756038",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -473,12 +478,11 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 21
       }
     ],
     "direction": "horizontal",
-    "width": 1007.5,
-    "collapsed": true
+    "width": 1007.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -498,15 +502,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "4041335f001f24d5",
+  "active": "ad62448c98756038",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
+    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
     "Progiciel.md",
