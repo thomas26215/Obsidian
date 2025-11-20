@@ -1,7 +1,7 @@
 ---
 MOOC: "[[Cours]]"
 Ressource: "R5.Real.12 : Infographie"
-Cours: "TP 1 : Les transformations géométriques"
+Cours: TPs
 Date:
 tags:
 Complete: false
