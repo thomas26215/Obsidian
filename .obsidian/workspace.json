@@ -458,6 +458,16 @@
             "id": "95e8e72f85fa3a96",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "573e256467df1bf1",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -465,7 +475,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "horizontal",
@@ -493,7 +503,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "95e8e72f85fa3a96",
+  "active": "573e256467df1bf1",
   "lastOpenFiles": [
     "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
     "Permanent/Autre/Le T-Spin.md",
