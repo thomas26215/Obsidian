@@ -148,9 +148,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "264058fb805e2034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Note de synthese juridique"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -468,6 +492,16 @@
             "id": "573e256467df1bf1",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c88a0067e949a02b",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -475,7 +509,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "horizontal",
@@ -503,8 +537,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "573e256467df1bf1",
+  "active": "c88a0067e949a02b",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
+    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
     "Permanent/Autre/Le T-Spin.md",
     "Combinaison linéaire et Sous-espace engendré.md",
@@ -514,7 +550,6 @@
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-    "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
@@ -525,7 +560,6 @@
     "Supply Chain intégrée.md",
     "CRM - Customer RelationShip Management.md",
     "Collections Java.md",
-    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Cours/TD/Semestre 5/Docker - Optimisation d'images Docker.md",
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",

@@ -2,72 +2,72 @@
 
 ---
 
-## 💡 Introduction
+## 💡 Mise en contexte
 
-Un **nom de domaine** est une adresse alphanumérique permettant d’accéder à un site Internet (ex : `www.exemple.fr`). Devenu l’un des piliers de l’identité numérique et du capital immatériel, il soulève une problématique essentielle :  
-**Comment concilier la liberté de réservation d’un nom de domaine avec la protection des droits des tiers, des marques, de la concurrence loyale et de l’ordre public ?**[atelierjuridique+2](https://www.atelierjuridique.fr/lencadrement-juridique-des-noms-de-domaine-reserves-enjeux-et-perspectives/)​
+Les **noms de domaine** sont aujourd’hui un élément clé de l’identité numérique. Ils simplifient l’accès aux sites en remplaçant les adresses IP par des repères lisibles, et représentent plus de **350 millions d’enregistrements** dans le monde. Leur gestion constitue donc un enjeu stratégique pour les acteurs du numérique.
+
+Le système repose sur plusieurs catégories :
+
+- les **gTLD** (.com, .org, .net) ;
+    
+- les **ccTLD** liés à un territoire (.fr, .de) ;
+    
+- les **nTLD** plus récents (.shop, .app, .tech).
+    
+
+Cette diversité accroît les possibilités d’identification mais complexifie aussi l’écosystème : concurrence entre titulaires, cybersquatting, conflits avec les marques ou saturation des noms disponibles.
+
+Dès lors, une question centrale se pose : comment concilier une **liberté de réservation large** avec la **protection des droits des tiers** et le respect de l’ordre public ? Le cadre juridique actuel — mêlant règles techniques, droit de la propriété intellectuelle et procédures de règlement des litiges — vise précisément à équilibrer ces exigences.
 
 ---
-## 1. Nature juridique du nom de domaine
+## Nature juridique du nom de domaine
 
-|Fonction principale|Nature juridique|Résultat|
-|---|---|---|
-|Identifie un site, porte l'identité numérique|Signe distinctif, pas PI au sens strict|Droit d’usage, non propriété|
-|Sert d’actif économique valorisable|Élement de patrimoine immatériel|Protégé par la jurisprudence|
-
+| Fonction principale                           | Nature juridique                                 | Résultat / Protection                                                                                                     |
+| --------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Identifie un site, porte l’identité numérique | Signe distinctif, sans constituer un droit de PI | Droit d’usage attribué au titulaire, sans droit de propriété                                                              |
+| Sert d’actif économique valorisable           | Élément du patrimoine immatériel d’une personne  | Protection jurisprudentielle fondée notamment sur l’action en **concurrence déloyale** (risque de confusion, parasitisme) |
 - Un nom de domaine **ne confère pas un titre de propriété intellectuelle** mais bénéficie d’une protection contre l’usurpation ou les usages déloyaux selon les principes du droit commun (concurrence déloyale, responsabilité civile, etc.).[irpi+1](https://www.irpi.fr/revuepi/article.asp?ART_N_ID=260)​
     
 - L’usage effectif et loyal est une condition cruciale pour bénéficier de cette protection.
-    
 
----
 
-## 2. Encadrement juridique, droit applicable et autorités compétentes
+<div style="page-break-after: always; -webkit-page-break-after: always;"></div>
+## Autorités compétentes
+
+### Cadre institutionnel et juridique
 
 |Niveau|Instance ou organisme|Rôle principal|
 |---|---|---|
-|International|ICANN, WIPO, OMPI|Attribution des TLD, gestion UDRP, arbitrages gTLD|
-|Europe|EURid (.eu), DSA|Gestion des .eu, obligations nouvelles, harmonisation|
-|France/national|AFNIC, INPI, Tribunal|Gestion des .fr (AFNIC), conflits (Syreli), contentieux|
-
-- **Code des postes et communications électroniques** (CPCE, art. L45-1 et suivants)[exprime-avocat+1](https://www.exprime-avocat.fr/enregistrer-un-nom-de-domaine-droits-et-limites/)​
-    
-- **Code de la propriété intellectuelle** (CPI, art. L711-4)
-    
-- **Syreli** : procédure spécifique française pour .fr[dreyfus+1](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)​
-    
-- **UDRP** : procédure extrajudiciaire internationale, pilotée par l’OMPI/ICANN pour les gTLD (.com, .net…)[dreyfus](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)​
-    
+|**International**|ICANN, WIPO / OMPI|Attribution et supervision des TLD, gestion de la procédure UDRP, arbitrages relatifs aux gTLD|
+|**Europe**|EURid (.eu), DSA|Gestion des .eu, obligations issues du Digital Services Act, harmonisation des règles numériques|
+|**France / national**|AFNIC, INPI, Tribunaux|Gestion des .fr (AFNIC), procédure Syreli, enregistrement des marques (INPI), contentieux judiciaires|
 
 ---
 
-## 3. La liberté de réservation : principes et restrictions
+### Textes et mécanismes juridiques applicables
 
-|Liberté reconnue|Limites posées par le droit|
-|---|---|
-|Premier arrivé, premier servi|Droits antérieurs : marque, droit au nom, dénomination|
-|Procédure simple auprès d’un registrar|Usurpation/confusion, parasitisme, typosquatting|
-|Large choix des TLD (.fr, .com, .eu, etc.)|Ordre public, bonnes mœurs, institutions publiques|
-|Absence de contrôle a priori du contenu|Extensions/secteurs régis par des règles particulières|
+- **CPCE (art. L45-1 et s.)** : encadre l’attribution, le renouvellement et le retrait des noms de domaine .fr et des extensions territoriales françaises.
+- **CPI (art. L711-4)** : sanctionne les enregistrements portant atteinte à une marque (risque de confusion, mauvaise foi…).
+- **Syreli (AFNIC)** : procédure alternative française pour résoudre rapidement les litiges sur les .fr, en ligne et sans audience.
+- **UDRP (OMPI / ICANN)** : procédure extrajudiciaire internationale pour les gTLD (.com, .net, .org…) et certaines nTLD.
+- **Registres (registries)** : opérateurs techniques et administratifs responsables d’une extension (ex. AFNIC pour .fr, Verisign pour .com, EURid pour .eu), assurant l’enregistrement, la maintenance, les règles d’éligibilité, la résolution des litiges et la coopération avec l’ICANN.
+
+---
+
+## La liberté de réservation : principes et restrictions
+
+| Liberté reconnue                           | Limites posées par le droit                            |
+| ------------------------------------------ | ------------------------------------------------------ |
+| Premier arrivé, premier servi              | Droits antérieurs : marque, droit au nom, dénomination |
+| Procédure simple auprès d’un registrar     | Usurpation/confusion, parasitisme, typosquatting       |
+| Large choix des TLD (.fr, .com, .eu, etc.) | Ordre public, bonnes mœurs, institutions publiques     |
+| Absence de contrôle a priori du contenu    | Extensions/secteurs régis par des règles particulières |
 
 **Exemple** : Il est interdit d’enregistrer un domaine « fr » reprenant le nom d’une marque déposée, d’institution publique ou portant atteinte à l’ordre public.[exprime-avocat](https://www.exprime-avocat.fr/enregistrer-un-nom-de-domaine-droits-et-limites/)​
 
----
+<div style="page-break-after: always; -webkit-page-break-after: always;"></div>
 
-```mermaid
-flowchart TD
-    D[Demande de réservation]
-    V1{Vérification par le registrar}
-    L[Refus pour limites -droits, ordre public, marques-]
-    A[Attribution du nom de domaine]
-    D --> V1
-    V1 -- "conforme" --> A
-    V1 -- "non conforme" --> L
-```
-
----
-
-## 4. Protection contentieuse et règlement des litiges
+## Protection contentieuse et règlement des litiges
 
 |Voie|Procédure|Effets possibles|
 |---|---|---|
@@ -75,13 +75,13 @@ flowchart TD
 |Judiciaire|Tribunal judiciaire, référé|Indemnisation, cessation, publication sanction|
 |Alternative|Médiation, arbitrage|Résolution amiable|
 
-- **Chiffres récents UDRP** : 85% de réussite pour les plaignants, délais de 2 à 4 mois suivant la complexité du dossier.[dreyfus](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)​
-    
-- Pour les .fr, la procédure Syreli est très utilisée et les décisions sont publiques sur le site de l’AFNIC.[afnic](https://www.afnic.fr/observatoire-ressources/agenda/rencontres-juridiques-afnic-2025/)​
-    
-- Jurisprudence 2025 : Paris, 23 avril 2025, condamnation massive du typosquatting en .fr.[legalis](https://www.legalis.net/actualite/typosquatting-blocage-judiciaire-de-39-noms-de-domaine-en-fr/)​
-    
-- Il existe une réglementation européenne pour l’ADR sur les .eu et secteurs émergents.[dreyfus](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)​
+- **Chiffres récents UDRP** : 85 % de réussite pour les plaignants, délais moyens de **2 à 4 mois** selon la complexité du dossier.
+- **Procédure SYRELI (pour les .fr)** : très utilisée ; décisions publiques sur le site de l’AFNIC. Délais :
+    - **21 jours** pour la réponse du titulaire,
+    - **Décision rendue dans un maximum de 2 mois**,
+    - Durée réelle observée : **environ 20 à 45 jours** selon les statistiques récentes.
+- **Jurisprudence 2025** : Paris, 23 avril 2025 — condamnation importante de cas de typosquatting en .fr.
+- **ADR européenne (.eu et secteurs émergents)** : existence d’un cadre harmonisé au niveau de l’Union européenne pour la résolution extrajudiciaire des litiges (procédure ADR gérée notamment par EURid).​
     
 
 ---
@@ -98,61 +98,60 @@ sequenceDiagram
 
 ```
 
----
+<div style="page-break-after: always; -webkit-page-break-after: always;"></div>
 
-## 5. Actualités récentes, doctrine et nouveaux enjeux techniques
+## Actualités récentes, doctrine et nouveaux enjeux techniques
 
-## Intelligence artificielle, automatisation et blockchain
-
-- **Blockchain** : Reconnaissance croissante de la preuve blockchain pour dater les droits d’antériorité en contentieux (ex : France/Europe 2025).[dreyfus+1](https://www.dreyfus.fr/2025/10/15/la-preuve-par-blockchain-est%E2%80%91elle-reconnue-en-matiere-de-droit-dauteur/)​
+- **Blockchain** : reconnaissance croissante de la preuve blockchain pour dater les droits d’antériorité (France/Europe 2025).[dreyfus+1](https://www.dreyfus.fr/2025/10/15/la-preuve-par-blockchain-est%E2%80%91elle-reconnue-en-matiere-de-droit-dauteur/)
     
-- **DSA européen 2024/2025** : nouvelles obligations pour les plateformes et intermédiaires : transparence, retrait accéléré, lutte contre l’automatisation abusive des réservations.[atelierjuridique+1](https://www.atelierjuridique.fr/lencadrement-juridique-des-noms-de-domaine-reserves-enjeux-et-perspectives/)​
+- **DSA européen 2024/2025** : nouvelles obligations pour plateformes et intermédiaires : transparence, retrait accéléré, lutte contre l’automatisation abusive.[atelierjuridique+1](https://www.atelierjuridique.fr/lencadrement-juridique-des-noms-de-domaine-reserves-enjeux-et-perspectives/)
     
-- **Lignes directrices CNIL/CEPD 2025** : encadrement du RGPD même pour les solutions de noms de domaine blockchainisées (privacy-by-design, souveraineté).[cnil+1](https://www.cnil.fr/fr/cepd-nouveaux-documents-certification-blockchain-ia)​
+- **CNIL/CEPD 2025** : encadrement RGPD même pour solutions blockchainisées (privacy-by-design, souveraineté).[cnil+1](https://www.cnil.fr/fr/cepd-nouveaux-documents-certification-blockchain-ia)
     
-- **IA et cybersécurité** : montée du typosquatting automatisé, réponses européennes (règlement IA, surveillance accrue).[lexbase+1](https://www.lexbase.fr/article-juridique/126027416-doctrine-le-reglement-sur-lintelligence-artificielle-et-le-droit-des-affaires)​
+- **IA & cybersécurité** : montée du typosquatting automatisé, réponses européennes (règlement IA, surveillance accrue).[lexbase+1](https://www.lexbase.fr/article-juridique/126027416-doctrine-le-reglement-sur-lintelligence-artificielle-et-le-droit-des-affaires)
     
 
 ---
 
-## 6. Jurisprudence et analyse doctrinale récentes
+## Jurisprudence et analyse doctrinale récentes
 
-- **Tribunal judiciaire de Paris, 2025** : la notoriété et l’usage antérieur d’un nom de domaine sont désormais déterminants pour caractériser la mauvaise foi ou le parasitisme du réservant.[avocat-perrine-bailliez+1](https://www.avocat-perrine-bailliez.fr/jurisprudence-revolutionnaire-ce-quil-faut-savoir-en-2025/)​
+- **TJ Paris, 2025** : notoriété et usage antérieur d’un domaine déterminants pour caractériser mauvaise foi ou parasitisme.[avocat-perrine-bailliez+1](https://www.avocat-perrine-bailliez.fr/jurisprudence-revolutionnaire-ce-quil-faut-savoir-en-2025/)
     
-- Doctrine militante : demande d’une harmonisation législative sur la force probante des ancrages blockchain et reconnaissance transnationale via l’OMPI.[consultation.avocat+1](https://consultation.avocat.fr/blog/murielle-isabelle-cahen/article-2975392-createurs-comment-la-blockchain-change-la-donne-pour-prouver-vos-droits-d-auteur.html)​
+- Doctrine militante : demande d’harmonisation législative sur force probante des ancrages blockchain et reconnaissance transnationale via l’OMPI.[consultation.avocat+1](https://consultation.avocat.fr/blog/murielle-isabelle-cahen/article-2975392-createurs-comment-la-blockchain-change-la-donne-pour-prouver-vos-droits-d-auteur.html)
     
-- Certains arrêts reconnus : revendication d’un nom de domaine par une collectivité locale, stratégie judiciaire contre le domain tasting, évolution du statut d’ayant droit.[legalis+1](https://www.legalis.net/actualite/typosquatting-blocage-judiciaire-de-39-noms-de-domaine-en-fr/)​
-    
-
----
-
-## 7. Conseils stratégiques & cas pratiques
-
-- **Déposer et maintenir son nom comme marque** à l’INPI ; surveiller les domaines connexes pour éviter l’usurpation.[exprime-avocat+1](https://www.exprime-avocat.fr/enregistrer-un-nom-de-domaine-droits-et-limites/)​
-    
-- **Bien choisir ses extensions** : .fr en priorité pour une entreprise nationale, mais aussi .com, .eu, et nouveaux TLD sectoriels pour couvrir l’ensemble de l’identité numérique.[dreyfus](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)​
-    
-- **Activer les protections techniques** : verrou DNSSEC, surveillance, mots de passe sécurisés, double authentification….[monconseildroit+1](https://www.monconseildroit.fr/la-protection-des-marques-face-a-lusurpation-de-noms-de-domaine-enjeux-juridiques-et-strategies/)​
-    
-- **Réagir vite en contentieux** : plus l’action est rapide, plus l’argumentation fondée sur l’usage effectif est solide.[afnic+1](https://www.afnic.fr/observatoire-ressources/agenda/rencontres-juridiques-afnic-2025/)​
-    
-- **Preuves numériques : tenir à jour une documentation technique et commerciale continue (certificats, blockchain, archives)**.[dreyfus+1](https://www.dreyfus.fr/2025/10/15/la-preuve-par-blockchain-est%E2%80%91elle-reconnue-en-matiere-de-droit-dauteur/)​
+- Arrêts reconnus : revendication d’un domaine par collectivité locale, stratégie contre le domain tasting, évolution statut d’ayant droit.[legalis+1](https://www.legalis.net/actualite/typosquatting-blocage-judiciaire-de-39-noms-de-domaine-en-fr/)
     
 
 ---
 
-## 8. Enjeux futurs, évolution du modèle
+## Conseils stratégiques & cas pratiques
 
-- **Valorisation économique et patrimoniale** : reconnaissance des noms comme actifs, fiscalité immatérielle.[atelierjuridique](https://www.atelierjuridique.fr/lencadrement-juridique-des-noms-de-domaine-reserves-enjeux-et-perspectives/)​
+- **Déposer et maintenir sa marque** à l’INPI ; surveiller domaines connexes.[exprime-avocat+1](https://www.exprime-avocat.fr/enregistrer-un-nom-de-domaine-droits-et-limites/)
     
-- **IA et cybersécurité** : lutte contre la réservation massive, solutions par biométrie ou scoring d’intention.[lexbase](https://www.lexbase.fr/article-juridique/126027416-doctrine-le-reglement-sur-lintelligence-artificielle-et-le-droit-des-affaires)​
+- **Choisir ses extensions** : .fr priorité nationale, .com, .eu, nouveaux TLD sectoriels.[dreyfus](https://www.dreyfus.fr/2025/08/06/guide-complet-2025-litiges-en-matiere-de-noms-de-domaine-procedure-udrp-syreli-et-alternatives-internationales/)
     
-- **Web3 et régulation internationale** : besoin d’un droit mondial de la preuve numérique/blockchain, harmonisation RGPD-DSA-IA Act.[silexo+2](https://silexo.fr/article/149/blockchain-et-rgpd-analyse-des-lignes-directrices-02-2025-du-cepd-et-enjeux-de-souverainete-numerique)​
+- **Protections techniques** : DNSSEC, surveillance, mots de passe sécurisés, double authentification.[monconseildroit+1](https://www.monconseildroit.fr/la-protection-des-marques-face-a-lusurpation-de-noms-de-domaine-enjeux-juridiques-et-strategies/)
     
-- **Montée en puissance des extensions thématiques (geo, pro, etc.) et enjeu de réputation**.[congres-uinl-paris](https://www.congres-uinl-paris.org/noms-de-domaine-regionaux-analyse-jurisprudentielle-des-extensions-territoriales/)​
+- **Réagir vite** : plus l’action est rapide, plus l’usage effectif est un argument solide.[afnic+1](https://www.afnic.fr/observatoire-ressources/agenda/rencontres-juridiques-afnic-2025/)
+    
+- **Preuves numériques** : documentation continue (certificats, blockchain, archives).[dreyfus+1](https://www.dreyfus.fr/2025/10/15/la-preuve-par-blockchain-est%E2%80%91elle-reconnue-en-matiere-de-droit-dauteur/)
     
 
 ---
+
+## Enjeux futurs, évolution du modèle
+
+- **Valorisation économique et patrimoniale** : noms comme actifs, fiscalité immatérielle.[atelierjuridique](https://www.atelierjuridique.fr/lencadrement-juridique-des-noms-de-domaine-reserves-enjeux-et-perspectives/)
+    
+- **IA & cybersécurité** : lutte contre réservation massive, solutions par biométrie ou scoring.[lexbase](https://www.lexbase.fr/article-juridique/126027416-doctrine-le-reglement-sur-lintelligence-artificielle-et-le-droit-des-affaires)
+    
+- **Web3 & régulation internationale** : droit mondial de la preuve numérique/blockchain, harmonisation RGPD-DSA-IA Act.[silexo+2](https://silexo.fr/article/149/blockchain-et-rgpd-analyse-des-lignes-directrices-02-2025-du-cepd-et-enjeux-de-souverainete-numerique)
+    
+- **Extensions thématiques et réputation** : geo, pro, etc.[congres-uinl-paris](https://www.congres-uinl-paris.org/noms-de-domaine-regionaux-analyse-jurisprudentielle-des-extensions-territoriales/)
+    
+
+<div style="page-break-after: always; -webkit-page-break-after: always;"></div>
+
 
 # 📚 Liens des sources utilisées et recommandées
 
