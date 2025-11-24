@@ -77,3 +77,73 @@ $$\begin{pmatrix}1&0&0\\0&cos\theta&sin\theta\\0&-sin\theta&cos\theta\end{pmatri
 $$\begin{pmatrix}cos\theta&-sin\theta&0\\sin\theta&cos\theta&0\\0&0&1\end{pmatrix}$$
 
 
+
+## TD 2
+
+### Partie 1
+
+**Définition** : $\begin{pmatrix}x\\y\end{pmatrix}$ coordonnées cartésiennes
+- En 2D, $(x,y,1)$ : coordonnées homogènes
+- En 3D, $(x,y,z,1)$ coordonnées homogènes en 3D
+
+**Question 3**
+> $$\begin{pmatrix}x'\\y'\\1\end{pmatrix}=\begin{pmatrix}1&0&2\\0&1&3\\0&0&1\end{pmatrix}\begin{pmatrix}x\\y\\1\end{pmatrix}$$
+
+
+### Partie B
+**Exercice**
+> $$\begin{pmatrix}a&b&c\\d&e&f\\g&h&i\end{pmatrix}\begin{pmatrix}0&2&2\\0&0&2\\1&1&1\end{pmatrix}=\begin{pmatrix}c&2a+c&2a+2b+c\\f&2d+f&2d+2e+f\\i&2g+i&2g+2h+i\end{pmatrix}=\begin{pmatrix}2&3&3\\1&1&2\\1&1&1\end{pmatrix}$$
+> => $$\left\{\begin{array}{ll}c=2\\2a+c=3\\2a+2b+c=3\\f=1\\2d+f=1\\2d+2e+f=2\\i=1\\2g+i=1\\2g+2h+i=1\end{array}\right.$$
+> ---
+>$$\left\{\begin{array}{ll}c=2\\a=\frac{1}{2}\\b=0\\f=1\\d=0\\e=\frac{1}{2}\\i=1\\g=0\\h=0\end{array}\right.$$
+>Donc $$\begin{pmatrix}\frac{1}{2}&0&2\\0&\frac{1}{2}&1\\0&0&1\end{pmatrix}$$
+
+**Question 1**
+> $(2, 6, -2)$
+
+**Question 2**
+> $(2, 6, -2, 4)$ => $(\frac{2}{4}, \frac{6}{4}, \frac{-2}{4})$ 
+
+**Question 3**
+> $(3, 1, 2)$ => $(3, 1, 2, 1)$ ou $(6, 2, 4, 2)$ ou $(-9, -3, -6, -3)$
+
+**Question 4**
+> $$\begin{pmatrix}x'\\y'\\z'\\1\end{pmatrix}=\begin{pmatrix}1&0&0&3\\0&1&0&1\\0&0&1&4\\0&0&0&1\end{pmatrix}\begin{pmatrix}x\\y\\z\\1\end{pmatrix}$$
+> $$T=\begin{pmatrix}1&0&0&-3\\0&1&0&-1\\0&0&1&-4\\0&0&0&1\end{pmatrix}$$
+
+**Question 5**
+> $$S=\begin{pmatrix}-1&0&0&0\\0&-1&0&0\\0&0&-1&0\\0&0&0&1\end{pmatrix}$$
+
+**Question 6**
+> $W=S*T$
+> $$\begin{pmatrix}-1&0&0&-3\\0&-1&0&-1\\0&0&-1&-4\\0&0&0&1\end{pmatrix}$$
+
+**Question 7**
+> $$\begin{pmatrix}-1&0&0&-3\\0&-1&0&-1\\0&0&-1&-4\\0&0&0&1\end{pmatrix}\begin{pmatrix}1&0\\2&2\\3&1\\1&1\end{pmatrix}=\begin{pmatrix}-4&-3\\-3&-3\\-7&-5\\1&1\end{pmatrix}$$
+> $B'=(-4, -3, -7)$ 
+
+
+### Problème
+
+**Question 1**
+> $$S=\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&1\end{pmatrix}$$
+
+**Question 2**
+> $$T=\begin{pmatrix}1&0&-2\\0&1&10\\0&0&1\end{pmatrix}$$
+
+**Question 2**
+> $$H=\begin{pmatrix}\frac{1}{2}&0&0\\0&\frac{1}{2}&0\\0&0&1\end{pmatrix}$$
+
+**Question 3**
+> Matrice à calculer : $H*T*S$
+> $$\begin{pmatrix}-\frac{1}{2}&0&-1\\0&-\frac{1}{2}&5\\0&0&1\end{pmatrix}$$
+
+**Question 4**
+> $$\begin{pmatrix}-\frac{1}{2}&0&-1\\0&-\frac{1}{2}&5\\0&0&1\end{pmatrix}\begin{pmatrix}1&6&-3&2\\1&2&-3&6\\1&2&-1&2\end{pmatrix}=\begin{pmatrix}-\frac{3}{2}&-5&\frac{5}{2}&-3\\-\frac{1}{2}&9&-\frac{7}{2}&7\\1&2&-1&2\end{pmatrix}$$
+
+**Question 6**
+> Pour revenir au carré initial, il faut faire $S^{-1}*T^{-1}*H^{-1}$
+> $$S^{-1}=\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&1\end{pmatrix}$$
+> $$T^{-1}\begin{pmatrix}1&0&2\\0&1&-10\\0&0&1\end{pmatrix}$$
+> $$H^{-1}=\begin{pmatrix}2&0&0\\0&-2&0\\0&0&1\end{pmatrix}$$
+> $$Matrice=\begin{pmatrix}-2&0&-2\\0&-2&10\\0&0&1\end{pmatrix}$$
