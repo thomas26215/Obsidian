@@ -220,9 +220,19 @@
               "icon": "lucide-file",
               "title": "TDD Infographie"
             }
+          },
+          {
+            "id": "ed4d0535f26ed3eb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -610,6 +620,16 @@
             "id": "5654fd9388d00d60",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "cf60f949a93c9e4e",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -617,7 +637,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       }
     ],
     "direction": "horizontal",
@@ -645,17 +665,17 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "5654fd9388d00d60",
+  "active": "cf60f949a93c9e4e",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
+    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
+    "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
     "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
     "Permanent/Autre/Le T-Spin.md",
     "Combinaison linéaire et Sous-espace engendré.md",
-    "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "Permanent/Cours/TD/Semestre 5/Untitled.md",
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
