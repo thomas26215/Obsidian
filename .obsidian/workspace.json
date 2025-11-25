@@ -600,6 +600,16 @@
             "id": "e895a90ecd14a92a",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5654fd9388d00d60",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -607,7 +617,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       }
     ],
     "direction": "horizontal",
@@ -635,7 +645,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "bfc8e46ae4a79e72",
+  "active": "5654fd9388d00d60",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
