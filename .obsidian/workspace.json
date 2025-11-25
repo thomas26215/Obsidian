@@ -566,6 +566,16 @@
             "id": "82375bebe60d1987",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e895a90ecd14a92a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -573,7 +583,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "horizontal",
@@ -601,7 +611,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "82375bebe60d1987",
+  "active": "e895a90ecd14a92a",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Permanent/Cours/TD/Semestre 5/Optimisation.md",
