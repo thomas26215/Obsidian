@@ -225,14 +225,76 @@
             "id": "ed4d0535f26ed3eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 17"
+            }
+          },
+          {
+            "id": "23472ccf70b12e64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 17"
+            }
+          },
+          {
+            "id": "efc1c70c38b15023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 17"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -665,8 +727,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "cf60f949a93c9e4e",
+  "active": "efc1c70c38b15023",
   "lastOpenFiles": [
+    "Untitled 17.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
@@ -692,7 +755,6 @@
     "Permanent/Cours/TD/Modélisation en étoile - Qualité du relationnel et au-delà.md",
     "Permanent/Cours/TD/Usages du chiffrement - certificats SSL et HTTPS.md",
     "Permanent/Cours/TD/Semestre 5/🐳 Introduction à Docker et au cycle de vie des conteneurs.md",
-    "Permanent/Cours/Cours/Semestre 1/Fichier des commandes.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
