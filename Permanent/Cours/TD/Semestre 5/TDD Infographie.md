@@ -12,4 +12,8 @@ $$R_{\pi/6}=\begin{pmatrix}cos\frac{\pi}{6}&-sin\frac{\pi}{6}\\sin\frac{\pi}{6}&
 Produit : $$\begin{pmatrix}\frac{\sqrt{3}}{2}&-\frac{1}{2}\\\frac{1}{2}&\frac{\sqrt{3}}{2}\end{pmatrix}\begin{pmatrix}1\\2\end{pmatrix}=\begin{pmatrix}\frac{\sqrt{3}}{2}-1\\\frac{1}{2}+\sqrt{3}\\1\end{pmatrix}$$
 
 
-$$$$
+
+---
+
+
+$$\lambda min=max\left\{\begin{array}{ll}\lambda_{A_1},\lambda_{A_2},\lambda_{A_3},\lambda_{A4}\end{array}\right.$$
