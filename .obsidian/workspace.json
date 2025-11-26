@@ -292,9 +292,31 @@
               "icon": "lucide-file",
               "title": "IA"
             }
+          },
+          {
+            "id": "3d61759b52e7e2ed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
+            "id": "fa12d3746c7f281c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -692,6 +714,26 @@
             "id": "cf60f949a93c9e4e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "09822ab93f056093",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "03c39171a18708b9",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -699,7 +741,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 32
       }
     ],
     "direction": "horizontal",
@@ -727,7 +769,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "efc1c70c38b15023",
+  "active": "03c39171a18708b9",
   "lastOpenFiles": [
     "IA.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
