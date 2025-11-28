@@ -322,7 +322,7 @@
               "type": "markdown",
               "state": {
                 "file": "Android ou Flutter.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -768,6 +768,16 @@
             "id": "bd763d255dcb13c1",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d442b2ec6649fb86",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -775,7 +785,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 34
       }
     ],
     "direction": "horizontal",
@@ -803,7 +813,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "bd763d255dcb13c1",
+  "active": "d442b2ec6649fb86",
   "lastOpenFiles": [
     "Android ou Flutter.md",
     "Android ou Flutter.odt",
