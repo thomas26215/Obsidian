@@ -81,14 +81,15 @@
 
 ## **4. Comparaison rapide (1 min)**
 
-|Critère|Java|Flutter|
-|---|---|---|
-|Plateformes|Android uniquement|Android + iOS + Web + Desktop|
-|UI|Verbeuse, XML/Compose|Rapide, flexible, widgets|
-|Performance|Native, optimale|Très bonne, proche du natif|
-|Multiplateforme|Non|Oui, un seul code|
-|Maintenabilité|Excellente|Élevée, architecture widgetisée|
-|Web|Non|Oui, Flutter Web|
+| Critère         | Java                  | Flutter                         |
+| --------------- | --------------------- | ------------------------------- |
+| Plateformes     | Android uniquement    | Android + iOS + Web + Desktop   |
+| UI              | Verbeuse, XML/Compose | Rapide, flexible, widgets       |
+| Performance     | Native, optimale      | Très bonne, proche du natif     |
+| Multiplateforme | Non                   | Oui, un seul code               |
+| Maintenabilité  | Excellente            | Élevée, architecture widgetisée |
+| Web             | Non                   | Oui, Flutter Web                |
+|                 |                       |                                 |
 
 ---
 

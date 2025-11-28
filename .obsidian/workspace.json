@@ -322,7 +322,7 @@
               "type": "markdown",
               "state": {
                 "file": "Android ou Flutter.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -397,7 +397,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -813,8 +814,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "d442b2ec6649fb86",
+  "active": "a7183bfdc55750e0",
   "lastOpenFiles": [
+    "Applications linéaires.md",
     "Android ou Flutter.md",
     "Android ou Flutter.odt",
     "IA.md",
