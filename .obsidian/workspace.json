@@ -779,6 +779,16 @@
             "id": "d442b2ec6649fb86",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "accd4af8827c4034",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -786,7 +796,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 35
       }
     ],
     "direction": "horizontal",
@@ -814,7 +824,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a7183bfdc55750e0",
+  "active": "accd4af8827c4034",
   "lastOpenFiles": [
     "Applications linéaires.md",
     "Android ou Flutter.md",
