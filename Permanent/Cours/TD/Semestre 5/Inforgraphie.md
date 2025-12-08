@@ -147,3 +147,43 @@ $$\begin{pmatrix}cos\theta&-sin\theta&0\\sin\theta&cos\theta&0\\0&0&1\end{pmatri
 > $$T^{-1}\begin{pmatrix}1&0&2\\0&1&-10\\0&0&1\end{pmatrix}$$
 > $$H^{-1}=\begin{pmatrix}2&0&0\\0&-2&0\\0&0&1\end{pmatrix}$$
 > $$Matrice=\begin{pmatrix}-2&0&-2\\0&-2&10\\0&0&1\end{pmatrix}$$
+
+
+# TD 3
+
+![[Drawing 2025-12-08 10.06.38.excalidraw]]
+## 1
+
+$A:(2, 1) -> O\vec{A}:(2, 1)$
+$B:(-1, 2) -> O\vec{B}:(-1, 2)$ 
+
+## 2
+$\vec{O}:\begin{pmatrix}x_0-x_A\\y_0-y_A\end{pmatrix}=(-2, -1)$ 
+## 3
+$\vec{AB}=\begin{pmatrix}-3\\1\end{pmatrix}$ 
+## 4
+$\vec{M}: \begin{pmatrix}x-2\\y-1\end{pmatrix}$. $x_1=x_0-2, y_1=y_0-1$ 
+## 5
+$\vec{M}: \begin{pmatrix}x_0+1\\y_0-2\end{pmatrix}$. $x_2=x_0+1, y_2=y=0-2$ 
+## 6
+On fait une translation de vecteurs $\vec{OA}(2, 1)$ 
+
+---
+Passage de $R_0$ à $R_1$ par la translation de vecteur $O\vec{A}:(2, 1)$ 
+$R_o -H_{01}-> R_1$ 
+$X_0=H_{01}X_1$ où $H_{01}=\begin{pmatrix}1&0&2\\0&1&1\\0&0&1\end{pmatrix}$ 
+$X_1=H^{-1}_{01}=H_{01}X_0=H_{10}X_0$ où $H_{10}=\begin{pmatrix}1&0&-2\\0&1&-1\\0&0&1\end{pmatrix}$
+
+## 7
+Translation de vecteurs $(-2, -1)$ 
+
+## Obtention de matrices de transformations géométriques quelconques
+
+Passage de $R_0$ à $R_1$
+Une translation de vecteur $\vec{OC}:(a, b)$
+$R_0 -H_{01}- R_1$ 
+$X_0=H_{01}X_1$ où $H_{01}=\begin{pmatrix}1&0&a \\0&1&b\\0&0&1\end{pmatrix}$
+Dans $R_1$, $X'_1=R{x,0}X_1$ où $R_{c, 0}=\begin{pmatrix}cos\theta&-sin\theta&0\\sin\theta&cos\theta&0\\0&0&1\end{pmatrix}$
+$X'0=H_{01}R_{c, 0}H_{10}X_0$
+
+
