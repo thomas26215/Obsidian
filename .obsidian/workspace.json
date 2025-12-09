@@ -350,9 +350,33 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-12-08 10.36.21.excalidraw"
             }
+          },
+          {
+            "id": "e80ba7958a32e326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compte rendu de réunion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Compte rendu de réunion"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -801,6 +825,16 @@
             "id": "accd4af8827c4034",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3964d9637fcc59a1",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -808,7 +842,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "horizontal",
@@ -836,10 +870,11 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a7183bfdc55750e0",
+  "active": "e80ba7958a32e326",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
+    "Compte rendu de réunion.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
+    "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
     "Excalidraw/Drawing 2025-12-08 10.06.38.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Android ou Flutter.md",
@@ -864,7 +899,6 @@
     "Permanent/Cours/Cours/Semestre 3/Le système d’information dans les entreprises.md",
     "Supply Chain intégrée.md",
     "CRM - Customer RelationShip Management.md",
-    "Collections Java.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
