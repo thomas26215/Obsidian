@@ -374,9 +374,33 @@
               "icon": "lucide-file",
               "title": "Compte rendu de réunion"
             }
+          },
+          {
+            "id": "eb9e2ae2bf34052d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 17"
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -870,9 +894,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e80ba7958a32e326",
+  "active": "eb9e2ae2bf34052d",
   "lastOpenFiles": [
     "Compte rendu de réunion.md",
+    "Untitled 17.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
     "Excalidraw/Drawing 2025-12-08 10.06.38.excalidraw.md",
@@ -898,7 +923,6 @@
     "Différences entre Logiciel et progiciel.md",
     "Permanent/Cours/Cours/Semestre 3/Le système d’information dans les entreprises.md",
     "Supply Chain intégrée.md",
-    "CRM - Customer RelationShip Management.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
