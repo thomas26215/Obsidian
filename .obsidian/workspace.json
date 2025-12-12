@@ -398,9 +398,19 @@
               "icon": "lucide-file",
               "title": "Untitled 17"
             }
+          },
+          {
+            "id": "a89570761398b31b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -869,6 +879,16 @@
             "id": "4578236df0dd8f79",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "240fc272bc8903e4",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -876,7 +896,7 @@
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       }
     ],
     "direction": "horizontal",
@@ -904,7 +924,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "4578236df0dd8f79",
+  "active": "a89570761398b31b",
   "lastOpenFiles": [
     "Compte rendu de réunion.md",
     "Untitled 17.md",
