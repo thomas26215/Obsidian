@@ -453,7 +453,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily note/2023-12-18.md",
+                "file": "Inbox/Chronologie des zeldas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -468,11 +468,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2023-12-18"
+              "title": "Chronologie des zeldas"
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -995,8 +995,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "2023f253dc2967a3",
+  "active": "6fed66c6ddde0569",
   "lastOpenFiles": [
+    "Inbox/Chronologie des zeldas.md",
+    "Daily note/2023-12-18.md",
     "Untitled 18.md",
     "Script vidéo LiftConnect.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
@@ -1022,8 +1024,6 @@
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
     "Progiciel.md",
-    "Logiciel.md",
-    "Différences entre Logiciel et progiciel.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
