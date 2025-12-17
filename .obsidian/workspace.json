@@ -403,10 +403,24 @@
             "id": "a89570761398b31b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Inforgraphie"
             }
           }
         ],
@@ -889,6 +903,16 @@
             "id": "240fc272bc8903e4",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8d0c8c8e6abc23fb",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -896,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 38
+        "currentTab": 39
       }
     ],
     "direction": "horizontal",
@@ -924,7 +948,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a89570761398b31b",
+  "active": "8d0c8c8e6abc23fb",
   "lastOpenFiles": [
     "Compte rendu de réunion.md",
     "Untitled 17.md",
