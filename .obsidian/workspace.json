@@ -960,6 +960,26 @@
             "id": "8d0c8c8e6abc23fb",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8d2ef5e2352438a5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "860c2448ca5f70cb",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -967,7 +987,7 @@
             }
           }
         ],
-        "currentTab": 39
+        "currentTab": 41
       }
     ],
     "direction": "horizontal",
@@ -995,7 +1015,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "6fed66c6ddde0569",
+  "active": "860c2448ca5f70cb",
   "lastOpenFiles": [
     "Inbox/Chronologie des zeldas.md",
     "Daily note/2023-12-18.md",
