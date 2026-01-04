@@ -109,10 +109,10 @@ $$\begin{pmatrix}cos\theta&-sin\theta&0\\sin\theta&cos\theta&0\\0&0&1\end{pmatri
 
 **Question 4**
 > $$\begin{pmatrix}x'\\y'\\z'\\1\end{pmatrix}=\begin{pmatrix}1&0&0&3\\0&1&0&1\\0&0&1&4\\0&0&0&1\end{pmatrix}\begin{pmatrix}x\\y\\z\\1\end{pmatrix}$$
-> $$T=\begin{pmatrix}1&0&0&-3\\0&1&0&-1\\0&0&1&-4\\0&0&0&1\end{pmatrix}$$
+> $$T^=\begin{pmatrix}1&0&0&-3\\0&1&0&-1\\0&0&1&-4\\0&0&0&1\end{pmatrix}$$
 
 **Question 5**
-> $$S=\begin{pmatrix}-1&0&0&0\\0&-1&0&0\\0&0&-1&0\\0&0&0&1\end{pmatrix}$$
+> $$S=S^{-1}\begin{pmatrix}-1&0&0&0\\0&-1&0&0\\0&0&-1&0\\0&0&0&1\end{pmatrix}$$
 
 **Question 6**
 > $W=S*T$
