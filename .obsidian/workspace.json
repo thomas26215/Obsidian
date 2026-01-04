@@ -477,8 +477,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
-                "mode": "source",
+                "file": "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -492,7 +492,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stage 2e année BUT informatique"
+              "title": "Inforgraphie"
             }
           }
         ],
@@ -1014,6 +1014,16 @@
             "id": "3c428506533b21c3",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5bcc38e90d8be9d5",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1021,7 +1031,7 @@
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 43
       }
     ],
     "direction": "horizontal",
@@ -1051,6 +1061,9 @@
   },
   "active": "33b0a04cf07ecf15",
   "lastOpenFiles": [
+    "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
+    "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Inbox/Chronologie des zeldas.md",
     "Daily note/2023-12-18.md",
@@ -1058,9 +1071,7 @@
     "Script vidéo LiftConnect.md",
     "Compte rendu de réunion.md",
     "Untitled 17.md",
-    "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
     "Excalidraw/Drawing 2025-12-08 10.06.38.excalidraw.md",
-    "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Android ou Flutter.md",
     "Applications linéaires.md",
     "Android ou Flutter.odt",
@@ -1077,7 +1088,6 @@
     "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
     "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
-    "Progiciel.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
