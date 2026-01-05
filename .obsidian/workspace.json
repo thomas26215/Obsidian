@@ -340,39 +340,15 @@
             }
           },
           {
-            "id": "9dcd335c377be169",
+            "id": "e80ba7958a32e326",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-01-05 10.45.22.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-08 10.36.21.excalidraw"
-            }
-          },
-          {
-            "id": "e80ba7958a32e326",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendu de réunion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Compte rendu de réunion"
+              "title": "Drawing 2026-01-05 10.45.22.excalidraw"
             }
           },
           {
@@ -472,7 +448,7 @@
             }
           },
           {
-            "id": "33b0a04cf07ecf15",
+            "id": "fe19ed20d6a022c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -496,7 +472,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -1034,6 +1010,16 @@
             "id": "2cb04ea541d75fd3",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "6ab655e3f428f30d",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1041,7 +1027,7 @@
             }
           }
         ],
-        "currentTab": 44
+        "currentTab": 45
       }
     ],
     "direction": "horizontal",
@@ -1069,17 +1055,21 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "33b0a04cf07ecf15",
+  "active": "6ab655e3f428f30d",
   "lastOpenFiles": [
-    "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
+    "Excalidraw/Drawing 2026-01-05 10.45.22.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
+    "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
+    "Compte rendu de réunion.md",
+    "Inbox/Position à 4 appuis - position du contrôle latéral.md",
     "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Inbox/Chronologie des zeldas.md",
+    "infographie.md",
+    "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Daily note/2023-12-18.md",
     "Untitled 18.md",
     "Script vidéo LiftConnect.md",
-    "Compte rendu de réunion.md",
     "Untitled 17.md",
     "Excalidraw/Drawing 2025-12-08 10.06.38.excalidraw.md",
     "Android ou Flutter.md",
@@ -1094,10 +1084,6 @@
     "Permanent/Autre/Le T-Spin.md",
     "Combinaison linéaire et Sous-espace engendré.md",
     "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled.md",
-    "Excalidraw/Drawing 2024-05-06 00.17.56.excalidraw.md",
-    "Permanent/Cours/TD/Semestre 5/Droit - Rédaction concernant les noms de domaine.md",
-    "Permanent/Cours/Cours/Semestre 3/Droit d'auteur.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",

@@ -208,3 +208,14 @@ $$\begin{pmatrix}x'\\y'\\z'\\1\end{pmatrix}\begin{pmatrix}1&0&-\frac{a}{c}&0\\0&
 
 ### Projections perspectives
 
+## Question 1
+
+
+$$SOBJ=\begin{pmatrix}1&2&2&1&2&2&1&1\\1&1&2&2&2&1&1&2\\-2&-2&-2&-2&-3&-3&-3&-3\\1&1&1&1&1&1&1&-1\end{pmatrix}$$
+## Question 2
+
+$$\begin{pmatrix}1&0&-2&0\\0&1&1&0\\0&0&0&0\\0&0&0&1\end{pmatrix}SPBJ=\begin{pmatrix}5&6&6&5&8&8&7&7\\-1&-1&0&0&-1&-2&-2&-1\\0&0&0&0&0&0&0&0\\1&1&1&1&1&1&1&1\end{pmatrix}$$
+
+## Question 3
+
+$$\begin{pmatrix}3&0&0&0\\0&3&0&0\\0&0&0&0\\0&0&-1&3\end{pmatrix}SPBJ=\begin{pmatrix}3&6&6&3&6&6&3&3\\3&3&6&6&6&3&3&6\\0&0&0&0&0&0&0&0\\5&5&5&5&6&6&6&6\end{pmatrix}=\begin{pmatrix}3/5&6/5&6/5&3/5&1&1&1/2&1/2\\3/5&3/5&6/5&6/5&1&1/2&1/2&1\end{pmatrix}$$
