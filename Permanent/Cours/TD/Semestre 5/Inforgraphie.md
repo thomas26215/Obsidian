@@ -187,3 +187,24 @@ Dans $R_1$, $X'_1=R{x,0}X_1$ où $R_{c, 0}=\begin{pmatrix}cos\theta&-sin\theta&0
 $X'0=H_{01}R_{c, 0}H_{10}X_0$
 
 
+
+
+# TD 4
+
+## Partie 1
+
+### Projections paralleles obliques
+
+Connues : $M=(x, y, z)$ et $\vec{v}(a, b, c)$ 
+On cherche $M':(x', y', z')$ et $k$
+
+$\vec{MM'}=k\vec{v}$
+$z'=0$
+
+
+$$\left\{\begin{array}{ll}x'-x=ka \\ y'-y=kb \\ z'-z=kc \\z'=0\end{array}\right.=\left\{\begin{array}{ll}x'=x-\frac{a}{c}z\\y'=y-\frac{b}{c}z\\k=-\frac{z}{c}\\z'=0\end{array}\right.$$
+
+$$\begin{pmatrix}x'\\y'\\z'\\1\end{pmatrix}\begin{pmatrix}1&0&-\frac{a}{c}&0\\0&1&-\frac{b}{c}&0\\0&0&0&0\\0&0&0&1\end{pmatrix}\begin{pmatrix}x\\y\\z\\1\end{pmatrix}$$
+
+### Projections perspectives
+
