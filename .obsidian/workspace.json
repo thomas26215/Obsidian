@@ -343,12 +343,24 @@
             "id": "e80ba7958a32e326",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-05 10.45.22.excalidraw.md"
+                "file": "Permanent/Programmation/Git/Remote.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-05 10.45.22.excalidraw"
+              "icon": "lucide-file",
+              "title": "Remote"
             }
           },
           {
@@ -1020,6 +1032,16 @@
             "id": "6ab655e3f428f30d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5850536a74480745",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1027,7 +1049,7 @@
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 46
       }
     ],
     "direction": "horizontal",
@@ -1055,8 +1077,12 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "6ab655e3f428f30d",
+  "active": "e80ba7958a32e326",
   "lastOpenFiles": [
+    "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
+    "Projets/En cours/Stage 2e annee/Oral de stage.md",
+    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Excalidraw/Drawing 2026-01-05 10.45.22.excalidraw.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
@@ -1066,7 +1092,6 @@
     "Inbox/Chronologie des zeldas.md",
     "infographie.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Daily note/2023-12-18.md",
     "Untitled 18.md",
     "Script vidéo LiftConnect.md",
@@ -1081,9 +1106,6 @@
     "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
     "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
     "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
-    "Permanent/Autre/Le T-Spin.md",
-    "Combinaison linéaire et Sous-espace engendré.md",
-    "Permanent/Cours/TD/Semestre 5/Untitled 1.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
