@@ -229,6 +229,17 @@ $$\begin{pmatrix}3&0&0&0\\0&3&0&0\\0&0&0&0\\0&0&-1&3\end{pmatrix}SPBJ=\begin{pma
 5. Face dessus : $y-1=0$ -> $\vec{n}=\begin{pmatrix}0\\1\\0\\-1\end{pmatrix}$ -> $\vec{n}=\begin{pmatrix}0\\-1\\0\\1\end{pmatrix}$
 6. Face dessous : $y=0$ -> $\vec{n}=\begin{pmatrix}0\\1\\0\\0\end{pmatrix}$
 
-## Question 2
+## Question 3
 **Question b**
 $(-1, 1, -1, 1, 1, -1)$
+
+## Question 4
+$$SOBO=\begin{pmatrix}A&B&C&D&E&F&G&H\\0&1&1&0&0&0&1&0\\1&1&1&1&0&0&0&0\\-1&-1&0&0&-1&0&0&-1\\1&1&1&1&1&1&1&1\end{pmatrix}$$
+
+$$T=\begin{pmatrix}1&0&0&1\\0&1&0&1\\0&0&1&-2\\0&0&0&1\end{pmatrix}$$
+
+$SOBO'=M_{pers}T SOBO$ où $M_{pmers}=\begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&0\\0&0&-1&1\end{pmatrix}$ 
+
+$$M_{mpers}T=\begin{pmatrix}1&0&0&1\\0&1&0&1\\0&0&0&0\\0&0&-1&3\end{pmatrix}$$
+Ainsi :
+$$M_{mpers}TSOBO=\begin{pmatrix}1&2&2&1&1&1&2&1\\2&2&2&2&1&1&1&1\\0&0&0&0&0&0&0&0\\4&4&3&3&4&3&3&4\end{pmatrix}$$
