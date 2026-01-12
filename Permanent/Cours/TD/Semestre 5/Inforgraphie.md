@@ -219,3 +219,16 @@ $$\begin{pmatrix}1&0&-2&0\\0&1&1&0\\0&0&0&0\\0&0&0&1\end{pmatrix}SPBJ=\begin{pma
 ## Question 3
 
 $$\begin{pmatrix}3&0&0&0\\0&3&0&0\\0&0&0&0\\0&0&-1&3\end{pmatrix}SPBJ=\begin{pmatrix}3&6&6&3&6&6&3&3\\3&3&6&6&6&3&3&6\\0&0&0&0&0&0&0&0\\5&5&5&5&6&6&6&6\end{pmatrix}=\begin{pmatrix}3/5&6/5&6/5&3/5&1&1&1/2&1/2\\3/5&3/5&6/5&6/5&1&1/2&1/2&1\end{pmatrix}$$
+# TD 5
+
+## Question 1
+1. Face avant : $z=0$ -> $\vec{n}=\begin{pmatrix}0\\0\\1\\0\end{pmatrix}$ -> $\vec{n}=\begin{pmatrix}0\\0\\-1\\0\end{pmatrix}$
+2. Face arrière : $z+1=0$ -> $\vec{n}=\begin{pmatrix}0\\0\\1\\1\end{pmatrix}$
+3. Face gauche : $x = 0$ -> $\vec{n}=\begin{pmatrix}1\\0\\0\\0\end{pmatrix}$
+4. Face droite : $x-1=0$ -> $\vec{n}=\begin{pmatrix}1\\0\\0\\-1\end{pmatrix}$ -> $\vec{n}=\begin{pmatrix}-1\\0\\0\\1\end{pmatrix}$
+5. Face dessus : $y-1=0$ -> $\vec{n}=\begin{pmatrix}0\\1\\0\\-1\end{pmatrix}$ -> $\vec{n}=\begin{pmatrix}0\\-1\\0\\1\end{pmatrix}$
+6. Face dessous : $y=0$ -> $\vec{n}=\begin{pmatrix}0\\1\\0\\0\end{pmatrix}$
+
+## Question 2
+**Question b**
+$(-1, 1, -1, 1, 1, -1)$
