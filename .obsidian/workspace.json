@@ -345,7 +345,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Programmation/Git/Remote.md",
+                "file": "Changer la base d'une branche.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -360,7 +360,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Remote"
+              "title": "Changer la base d'une branche"
             }
           },
           {
@@ -1042,6 +1042,16 @@
             "id": "5850536a74480745",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "69ebd0ef645a33f8",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1049,7 +1059,7 @@
             }
           }
         ],
-        "currentTab": 46
+        "currentTab": 47
       }
     ],
     "direction": "horizontal",
@@ -1077,9 +1087,13 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e80ba7958a32e326",
+  "active": "69ebd0ef645a33f8",
   "lastOpenFiles": [
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
+    "Permanent/Programmation/Git/Manipuler l'historique.md",
+    "Permanent/Programmation/Git/Le remisage.md",
+    "Permanent/Programmation/Git/Les branches.md",
+    "Permanent/Programmation/Git/Remote.md",
     "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
     "Projets/En cours/Stage 2e annee/Oral de stage.md",
     "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
@@ -1102,10 +1116,6 @@
     "Android ou Flutter.odt",
     "IA.md",
     "Permanent/Cours/TD/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/TD/Semestre 5/Optimisation.md",
-    "Permanent/Cours/TD/Semestre 5/Note de synthese juridique.md",
-    "Permanent/Cours/Cours/Semestre 5/Diviser pour régner et calcul de puissance.md",
-    "Permanent/Cours/Cours/Semestre 5/Les transformations géométriques.md",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
