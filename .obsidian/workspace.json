@@ -599,6 +599,16 @@
             "id": "69ebd0ef645a33f8",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f910b22eacd11e52",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -606,7 +616,7 @@
             }
           }
         ],
-        "currentTab": 47
+        "currentTab": 48
       }
     ],
     "direction": "horizontal",
@@ -634,7 +644,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "fe19ed20d6a022c8",
+  "active": "f910b22eacd11e52",
   "lastOpenFiles": [
     "Inbox/Chronologie des zeldas.md",
     "Script vidéo LiftConnect.md",
