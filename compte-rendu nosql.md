@@ -70,13 +70,15 @@ volumes:
 
 
 ```shell
-docker compose up -d docker compose ps
+docker compose up -d
+docker compose ps
 ```
 
 Vérification rapide (optionnelle) :
 
 ```shell
-curl http://localhost:9200 curl "http://localhost:9200/_cluster/health?pretty"
+curl http://localhost:9200
+curl "http://localhost:9200/_cluster/health?pretty"
 ```
 
 ## 1.3 Preuve de fonctionnement (Elasticvue)
@@ -228,8 +230,6 @@ curl -s "http://localhost:9200/_cat/shards/sample_flights_venouilt?v"
 ```
 
 
-
-Je peux te donner la **Partie 3 rédigée** (texte “prêt à coller” dans ton compte‑rendu) avec **toutes les requêtes** et le format de présentation attendu, mais je ne peux pas inventer tes **résultats exacts** (noms/numéros trouvés) sans que tu exécutes les requêtes chez toi. Donc ci‑dessous je te donne une version complète avec des zones **À REMPLACER** (tu colles ensuite tes valeurs), et des requêtes compatibles avec ton dataset (champs vus : `FlightNum`, `Carrier`, `OriginCountry`, `DestCountry`, `timestamp`, `OriginLocation`, etc.). Le tri se fait via `sort` sur un champ date, et la recherche géographique via `geo_distance` sur un `geo_point`.[elastic+1](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/sort-search-results)
 
 ---
 
