@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "compte-rendu nosql.md",
+                "file": "A32_venouilt_TP11-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "compte-rendu nosql"
+              "title": "A32_venouilt_TP11-12"
             }
           }
         ],
@@ -754,6 +754,16 @@
             "id": "16dea6fad9aa9b9d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "cfd7587021017553",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -761,7 +771,7 @@
             }
           }
         ],
-        "currentTab": 54
+        "currentTab": 55
       }
     ],
     "direction": "horizontal",
@@ -789,14 +799,16 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "3a507f7caa27eb75",
+  "active": "cfd7587021017553",
   "lastOpenFiles": [
+    "Pasted image 20260121231328.png",
+    "Pasted image 20260121225858.png",
     "Pasted image 20260121223837.png",
     "Pasted image 20260121223553.png",
     "Pasted image 20260121223547.png",
     "Pasted image 20260121145454.png",
     "Accroche.md",
-    "compte-rendu nosql.md",
+    "A32_venouilt_TP11-12.md",
     "Pasted image 20260121141916.png",
     "Pasted image 20260121141849.png",
     "Inbox/Chronologie des zeldas.md",

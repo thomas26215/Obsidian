@@ -22,7 +22,7 @@ services:
     container_name: conteneur_es001
     environment:
       - node.name=node_es001
-      - cluster.name=cluster_$LOGIN$
+      - cluster.name=cluster_venouilt
       - discovery.seed_hosts=es002
       - cluster.initial_master_nodes=node_es001,node_es002
       - xpack.security.enabled=false
@@ -37,7 +37,7 @@ services:
     container_name: conteneur_es002
     environment:
       - node.name=node_es002
-      - cluster.name=cluster_$LOGIN$
+      - cluster.name=cluster_venouilt
       - discovery.seed_hosts=es001
       - cluster.initial_master_nodes=node_es001,node_es002
       - xpack.security.enabled=false
@@ -169,7 +169,7 @@ curl -X PUT "http://localhost:9200/sample_flights_venouilt" \
 
 ```
 
-Créer un index avec `number_of_shards` / `number_of_replicas` se fait via `PUT /{index}` + `settings`, comme dans la doc officielle “Create an index”.
+Créer un index avec `number_of_shards` / `number_of_replicas` se fait via `PUT /{index}` + `settings`.
 
 ​  
 Le type `geo_point` est le type prévu pour stocker des coordonnées géographiques.
@@ -195,7 +195,7 @@ curl -s -H "Content-Type: application/x-ndjson" \
 ```
 
 La doc Bulk précise l’usage du format NDJSON et recommande `application/x-ndjson` (ou `application/json`) comme `Content-Type`.
-
+	
 ​
 
 ## 2.6 Vérifier que l’import est OK (13014 documents)
@@ -300,7 +300,7 @@ GET /sample_flights_venouilt/_count
 
 Le tri chronologique se fait via le paramètre `sort` sur le champ `timestamp` en ordre croissant.​
 
-text
+
 
 ```json
 GET /sample_flights_venouilt/_search
@@ -345,7 +345,7 @@ GET /sample_flights_venouilt/_search
 
 ## Requête (filtre + exclusion)
 
-text
+
 
 ```json
 GET /sample_flights_venouilt/_search
@@ -385,9 +385,9 @@ GET /sample_flights_venouilt/_search
 
 ## Requête (geo_distance + range date)
 
-La requête utilise `geo_distance` sur un champ de type `geo_point` (ici `OriginLocation`) et filtre également une plage horaire via `timestamp`.[[elastic](https://www.elastic.co/docs/reference/query-languages/query-dsl/query-dsl-geo-distance-query)]​
+La requête utilise `geo_distance` sur un champ de type `geo_point` (ici `OriginLocation`) et filtre également une plage horaire via `timestamp`.​
 
-text
+
 
 ```json
 GET /sample_flights_venouilt/_search
@@ -433,7 +433,7 @@ GET /sample_flights_venouilt/_search
 
 ## Requête (agrégation terms)
 
-text
+
 
 ```json
 GET /sample_flights_venouilt/_search
@@ -468,9 +468,9 @@ GET /sample_flights_venouilt/_search
 
 ## Requête (match + terms aggregation)
 
-Le sujet conseille `match` (recherche “texte”) et une agrégation `terms` sur les villes de départ. Pour agréger un champ `text`, on utilise en général le sous‑champ `.keyword` (si présent).[[geeksforgeeks](https://www.geeksforgeeks.org/elasticsearch/bucket-aggregation-in-elasticsearch/)]​
+Le sujet conseille `match` (recherche “texte”) et une agrégation `terms` sur les villes de départ. Pour agréger un champ `text`, on utilise en général le sous‑champ `.keyword` (si présent).​
 
-text
+
 
 ```json
 GET /sample_flights_venouilt/_search
@@ -540,9 +540,13 @@ GET /sample_flights_venouilt/_search
 - Retard ≥ 60 min : **2858**
 
 
-## Partie 4 — Configuration Kibana
+# Partie 4 — Construction de 2 Dashboards Kibana
 
-Un **Space** “Prénom NOM” a été créé dans _Stack Management → Spaces_ afin d’isoler tous les objets Kibana du TP (data views, visualisations, dashboards) dans un espace dédié.
+## 4.1 Configuration Kibana
+
+Un **Space** "Thomas Venouil” a été créé dans _Stack Management → Spaces_ afin d’isoler tous les objets Kibana du TP (data views, visualisations, dashboards) dans un espace dédié.
+
+
 Dans ce Space, une **Data View** a été créée dans _Stack Management → Data Views_ en pointant sur l’index `sample_flights_venouilt` et en sélectionnant `timestamp` comme champ temporel (activation du time picker et des analyses temporelles)
 
 ![[Pasted image 20260121223553.png]]
@@ -551,12 +555,28 @@ Les champs ont ensuite été vérifiés dans _Analytics → Discover_ en sélect
 
 ![[Pasted image 20260121223837.png]]
 
-## Partie 4 — Dashboards (Lens)
+## 4.2 Dashboards (Lens)
 
 Deux dashboards ont été créés dans _Analytics → Dashboard_ en ajoutant des panneaux via **Create visualization (Lens)**, puis en sauvegardant chaque dashboard. Kibana permet soit d’ajouter un panneau directement, soit de sauvegarder la visualisation dans la bibliothèque avant de l’ajouter
 
-**Captures à insérer (dashboards)**
+![[Pasted image 20260121225858.png]]
 
-- Capture 4.4 : dashboard “Synthèse des données” affiché (panneaux visibles).​
-    
-- Capture 4.5 : dashboard “Analyse des retards” affiché (panneaux visibles).​
+
+![[Pasted image 20260121231328.png]]
+
+
+# Conclusion
+
+Au terme des analyses réalisées, les données collectées et visualisées mettent en évidence des tendances claires, des variations significatives selon les périodes et/ou les catégories observées, ainsi que des signaux utiles pour comprendre le comportement du système (usage, performance, incidents ou événements selon le contexte du projet). La mise en forme via des indicateurs et visualisations permet de passer d’un ensemble de logs/mesures bruts à une lecture structurée, orientée décision, où l’on identifie plus rapidement les points notables (pics, anomalies, évolutions, corrélations possibles) et où l’on peut formuler des hypothèses vérifiables.
+
+Les tableaux de bord mis en place présentent plusieurs intérêts majeurs. D’abord, ils améliorent la lisibilité en centralisant l’information dans une interface unique, avec des KPI cohérents et comparables dans le temps. Ensuite, ils accélèrent le diagnostic grâce aux filtres (périodes, attributs, niveaux de gravité, sources), à l’exploration interactive et à la possibilité de “drill-down” pour passer du global au détail. Enfin, ils facilitent la communication : un tableau de bord sert de support commun entre profils techniques et non techniques, en rendant les résultats accessibles et en réduisant l’ambiguïté liée à l’interprétation de données brutes.
+
+Ces tableaux de bord ont néanmoins des limites. Leur pertinence dépend directement de la qualité des données ingérées (format, champs disponibles, cohérence, complétude) : si l’indexation est incomplète ou si les logs sont hétérogènes, les visualisations peuvent devenir trompeuses. De plus, un tableau de bord reste descriptif : il montre ce qui se passe, mais n’explique pas systématiquement pourquoi, et peut conduire à des interprétations hâtives sans analyse complémentaire. Enfin, il existe un compromis entre richesse et lisibilité : trop d’indicateurs nuisent à la compréhension, et certains traitements avancés (corrélations fines, analyses statistiques poussées, causalité) dépassent ce qu’un dashboard permet “nativement” sans conception spécifique et itérations.
+
+# Retour d’expérience (REX)
+
+Ce mini-projet a permis de comprendre concrètement la chaîne complète “données → ingestion → indexation → visualisation”, et surtout l’importance de la modélisation : nommage des champs, types (date, nombre, keyword/text), normalisation, et choix des agrégations. J’ai aussi appris qu’un bon tableau de bord se conçoit comme un produit : il faut clarifier l’objectif (surveiller, diagnostiquer, rapporter), définir quelques KPI réellement utiles, puis itérer à partir des premiers retours.
+
+Ce qui a été le plus facile à mettre en place est la création rapide de visualisations dans Kibana une fois les données correctement indexées : histogrammes temporels, répartitions, filtres et tableaux permettent d’obtenir des résultats visibles rapidement. Ce qui a été moins facile concerne surtout la préparation des données et les réglages : comprendre les mappings, gérer les champs mal typés, construire des requêtes/agrégations qui répondent précisément aux besoins, et organiser un tableau de bord clair sans surcharge. La partie “propreté des données” s’est révélée déterminante : une petite erreur de structure peut limiter fortement l’exploitation ensuite.
+
+Concernant les outils, Elasticsearch se montre très performant et flexible pour la recherche et l’agrégation, particulièrement adapté à des volumes importants et à des besoins de requêtes rapides. En contrepartie, sa courbe d’apprentissage est réelle, notamment sur la conception des index, les mappings et les impacts sur la qualité des analyses. Kibana est très efficace pour prototyper et partager des tableaux de bord interactifs, avec un bon équilibre entre puissance et rapidité de mise en œuvre. Ses limites apparaissent surtout quand on veut des analyses très spécifiques, des calculs complexes ou une mise en forme “sur-mesure” : il faut alors accepter des compromis, ou compléter avec d’autres traitements en amont.
