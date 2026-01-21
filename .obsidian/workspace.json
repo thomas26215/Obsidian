@@ -690,6 +690,16 @@
             "id": "93218a314994c9fd",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "50eec33cd00ab687",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -697,7 +707,7 @@
             }
           }
         ],
-        "currentTab": 50
+        "currentTab": 51
       }
     ],
     "direction": "horizontal",
@@ -725,7 +735,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "fff91dad50568415",
+  "active": "50eec33cd00ab687",
   "lastOpenFiles": [
     "Pasted image 20260121145454.png",
     "Accroche.md",
