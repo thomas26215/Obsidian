@@ -74,7 +74,7 @@
               "type": "markdown",
               "state": {
                 "file": "compte-rendu nosql.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -727,6 +727,7 @@
   },
   "active": "fff91dad50568415",
   "lastOpenFiles": [
+    "Pasted image 20260121145454.png",
     "Accroche.md",
     "compte-rendu nosql.md",
     "Pasted image 20260121141916.png",
