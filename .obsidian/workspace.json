@@ -30,8 +30,31 @@
               "icon": "lucide-file",
               "title": "Inforgraphie"
             }
+          },
+          {
+            "id": "6024f2728d45621c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
+            "id": "3eea8e9dfe2ece5e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -609,6 +632,16 @@
             "id": "f910b22eacd11e52",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d1d14ed3e0e44201",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -616,7 +649,7 @@
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 49
       }
     ],
     "direction": "horizontal",
@@ -644,7 +677,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f910b22eacd11e52",
+  "active": "d1d14ed3e0e44201",
   "lastOpenFiles": [
     "Inbox/Chronologie des zeldas.md",
     "Script vidéo LiftConnect.md",
