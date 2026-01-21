@@ -47,10 +47,24 @@
             "id": "3eea8e9dfe2ece5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Accroche.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Accroche"
             }
           }
         ],
@@ -677,8 +691,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "d1d14ed3e0e44201",
+  "active": "3eea8e9dfe2ece5e",
   "lastOpenFiles": [
+    "Accroche.md",
     "Inbox/Chronologie des zeldas.md",
     "Script vidéo LiftConnect.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
@@ -704,7 +719,6 @@
     "Untitled 18.md",
     "Untitled 17.md",
     "Excalidraw/Drawing 2025-12-08 10.06.38.excalidraw.md",
-    "Android ou Flutter.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
