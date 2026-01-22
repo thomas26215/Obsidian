@@ -114,9 +114,43 @@
               "icon": "lucide-file",
               "title": "A32_venouilt_TP11-12"
             }
+          },
+          {
+            "id": "1f95be23ba7825aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A32_venouilt_TP11-12.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "A32_venouilt_TP11-12"
+            }
+          },
+          {
+            "id": "6960d47f790c6f4d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -764,6 +798,26 @@
             "id": "cfd7587021017553",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3cfc8530a45942c4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "afabad616b8c89be",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -771,7 +825,7 @@
             }
           }
         ],
-        "currentTab": 55
+        "currentTab": 57
       }
     ],
     "direction": "horizontal",
@@ -799,8 +853,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "cfd7587021017553",
+  "active": "afabad616b8c89be",
   "lastOpenFiles": [
+    "A32_venouilt_TP11-12.md",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
     "Pasted image 20260121223837.png",
@@ -808,7 +863,6 @@
     "Pasted image 20260121223547.png",
     "Pasted image 20260121145454.png",
     "Accroche.md",
-    "A32_venouilt_TP11-12.md",
     "Pasted image 20260121141916.png",
     "Pasted image 20260121141849.png",
     "Inbox/Chronologie des zeldas.md",
