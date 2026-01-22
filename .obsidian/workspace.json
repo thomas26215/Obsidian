@@ -143,10 +143,24 @@
             "id": "6960d47f790c6f4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 19"
             }
           }
         ],
@@ -853,8 +867,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "afabad616b8c89be",
+  "active": "6960d47f790c6f4d",
   "lastOpenFiles": [
+    "Untitled 19.md",
     "A32_venouilt_TP11-12.md",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
