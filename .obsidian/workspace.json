@@ -162,9 +162,57 @@
               "icon": "lucide-file",
               "title": "Git"
             }
+          },
+          {
+            "id": "7d04304d3fed9c1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 19.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 19"
+            }
+          },
+          {
+            "id": "9634e48afd88c55e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 20.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 20"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -832,6 +880,16 @@
             "id": "afabad616b8c89be",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b911c4e7b2c78927",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -839,7 +897,7 @@
             }
           }
         ],
-        "currentTab": 57
+        "currentTab": 58
       }
     ],
     "direction": "horizontal",
@@ -867,8 +925,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "6960d47f790c6f4d",
+  "active": "9634e48afd88c55e",
   "lastOpenFiles": [
+    "Untitled 19.md",
+    "Untitled 20.md",
     "Git.md",
     "A32_venouilt_TP11-12.md",
     "Pasted image 20260121231328.png",
@@ -901,8 +961,6 @@
     "Inbox/Position à 4 appuis - position du contrôle latéral.md",
     "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
     "infographie.md",
-    "Daily note/2023-12-18.md",
-    "Untitled 18.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
