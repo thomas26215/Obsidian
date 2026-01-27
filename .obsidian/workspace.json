@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 20.md",
+                "file": "ex.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -208,11 +208,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 20"
+              "title": "ex"
+            }
+          },
+          {
+            "id": "ba5dc60918bf976d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-27 10.25.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-27 10.25.05.excalidraw"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -925,10 +937,11 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "9634e48afd88c55e",
+  "active": "ba5dc60918bf976d",
   "lastOpenFiles": [
+    "ex.md",
+    "Excalidraw/Drawing 2026-01-27 10.25.05.excalidraw.md",
     "Untitled 19.md",
-    "Untitled 20.md",
     "Git.md",
     "A32_venouilt_TP11-12.md",
     "Pasted image 20260121231328.png",
@@ -960,7 +973,6 @@
     "Compte rendu de réunion.md",
     "Inbox/Position à 4 appuis - position du contrôle latéral.md",
     "Excalidraw/Drawing 2025-12-08 10.36.21.excalidraw.md",
-    "infographie.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
