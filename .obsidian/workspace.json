@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Correction Concours.md",
+                "file": "Permanent/Cours/TP/Semestre 6/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -256,7 +256,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Correction Concours"
+              "title": "Untitled"
             }
           }
         ],
@@ -993,10 +993,11 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "1282753e67a8638f",
+  "active": "61c310e9087e3034",
   "lastOpenFiles": [
-    "Permanent/Cours/TP/Untitled",
     "Correction Concours.md",
+    "Permanent/Cours/TP/Semestre 6/Untitled.md",
+    "Permanent/Cours/TP/Semestre 6",
     "ex.md",
     "Excalidraw/Drawing 2026-01-27 10.25.05.excalidraw.md",
     "Untitled 19.md",
@@ -1038,7 +1039,6 @@
     "Permanent/Medias/Séries",
     "Untitled 2.base",
     "Permanent/Programmation/Angular",
-    "Permanent/Cours/TD/Semestre 5",
     "Pasted image 20250601140945.png"
   ]
 }
