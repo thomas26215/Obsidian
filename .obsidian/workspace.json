@@ -948,6 +948,16 @@
             "id": "dea3b1fc3209e704",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2859d282f5881850",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -955,7 +965,7 @@
             }
           }
         ],
-        "currentTab": 59
+        "currentTab": 60
       }
     ],
     "direction": "horizontal",
@@ -983,7 +993,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "61c310e9087e3034",
+  "active": "2859d282f5881850",
   "lastOpenFiles": [
     "Correction Concours.md",
     "ex.md",
