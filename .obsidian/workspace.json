@@ -958,6 +958,16 @@
             "id": "2859d282f5881850",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9dd1a92d093a4a1e",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -965,7 +975,7 @@
             }
           }
         ],
-        "currentTab": 60
+        "currentTab": 61
       }
     ],
     "direction": "horizontal",
@@ -993,7 +1003,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "61c310e9087e3034",
+  "active": "9dd1a92d093a4a1e",
   "lastOpenFiles": [
     "Correction Concours.md",
     "Permanent/Cours/TP/Semestre 6/Untitled.md",
