@@ -1002,6 +1002,16 @@
             "id": "a2cc1e50c5598daa",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9a4dea81ee61bcaf",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1009,7 +1019,7 @@
             }
           }
         ],
-        "currentTab": 62
+        "currentTab": 63
       }
     ],
     "direction": "horizontal",
@@ -1037,7 +1047,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a2cc1e50c5598daa",
+  "active": "9a4dea81ee61bcaf",
   "lastOpenFiles": [
     "Seconde epreuve.md",
     "Permanent/Cours/TP/Semestre 6/Untitled.md",
