@@ -306,9 +306,21 @@
               "icon": "lucide-file",
               "title": "R5.Real13"
             }
+          },
+          {
+            "id": "d990e6bb4cb5246d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notes de version 1.12.4"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -331,7 +343,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -381,7 +393,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +402,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for R5.Real13"
+              "title": "Rétroliens"
             }
           },
           {
@@ -469,7 +480,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -479,7 +490,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -489,7 +500,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -499,7 +510,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -509,7 +520,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -519,7 +530,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -529,7 +540,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -539,7 +550,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -549,7 +560,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -559,7 +570,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -569,7 +580,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -579,7 +590,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -589,7 +600,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -599,7 +610,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -609,7 +620,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -619,7 +630,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -629,7 +640,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -639,7 +650,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -649,7 +660,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -659,7 +670,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -669,7 +680,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -679,7 +690,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -689,7 +700,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -699,7 +710,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -709,7 +720,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -719,7 +730,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -729,7 +740,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -739,7 +750,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -749,7 +760,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -759,7 +770,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -769,7 +780,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -779,7 +790,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -789,7 +800,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -799,7 +810,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -809,7 +820,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -819,7 +830,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -829,7 +840,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -839,7 +850,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -849,7 +860,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -859,7 +870,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -869,7 +880,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -879,7 +890,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -889,7 +900,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -899,7 +910,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -909,7 +920,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -919,7 +930,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -929,7 +940,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -939,7 +950,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -949,7 +960,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -959,7 +970,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -969,7 +980,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -979,7 +990,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -989,7 +1000,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -999,7 +1010,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -1009,7 +1020,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -1019,7 +1030,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -1029,11 +1040,21 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           },
           {
             "id": "9a4dea81ee61bcaf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "8a04fce969a37e32",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1042,7 +1063,8 @@
               "title": "Saved Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 64
       }
     ],
     "direction": "horizontal",
@@ -1050,15 +1072,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "publish:Publish changes...": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "audio-recorder:Démarrer / arrêter l'enregistrement": false,
+      "publish:Publier les modifications": false,
+      "bases:Créer une nouvelle base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
@@ -1069,7 +1091,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "38983910aab6348b",
+  "active": "8a04fce969a37e32",
   "lastOpenFiles": [
     "Permanent/Cours/TD/Cryptographie.md",
     "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
