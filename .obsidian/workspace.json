@@ -318,9 +318,33 @@
               "icon": "lucide-book-up",
               "title": "Notes de version 1.12.4"
             }
+          },
+          {
+            "id": "a4768174fa554e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sans titre.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sans titre"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -393,6 +417,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +427,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour Sans titre"
             }
           },
           {
@@ -1091,8 +1116,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "8a04fce969a37e32",
+  "active": "a4768174fa554e1b",
   "lastOpenFiles": [
+    "Sans titre.md",
     "Permanent/Cours/TD/Cryptographie.md",
     "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
     "Permanent/Cours/TD/Semestre 6",
@@ -1128,7 +1154,6 @@
     "Permanent/Programmation/Git/Remote.md",
     "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
     "Projets/En cours/Stage 2e annee/Oral de stage.md",
-    "Projets/En cours/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
