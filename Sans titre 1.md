@@ -1,8 +1,3 @@
-# Correction Complète — Contrôle Flutter R6.05 (Riverpod)
-
----
-
-## Exercice 1 — `_changerAvis()` (StatefulWidget, inchangé)
 
 ```dart
 void _changerAvis() {
@@ -12,11 +7,6 @@ void _changerAvis() {
 }
 ```
 
-> L'exercice 1 reste avec `StatefulWidget`, pas de Riverpod ici.
-
----
-
-## Exercice 2 — Classe `ChangerAvisButton`
 
 ```dart
 class ChangerAvisButton extends StatelessWidget {
@@ -36,19 +26,15 @@ class ChangerAvisButton extends StatelessWidget {
 
 ---
 
-## Exercice 3 — `AvisNotifier` avec Riverpod
+## Exercice 3 — `AvisNotifier` avec `StateNotifier`
 
 ```dart
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// La classe AvisNotifier
-class AvisNotifier extends Notifier<bool> {
+class AvisNotifier extends StateNotifier<bool> {
   
-  // Constructeur : initialisation de l'état
-  @override
-  bool build() {
-    return true;
-  }
+  // Constructeur : initialisation de l'état à true
+  AvisNotifier() : super(true);
 
   // Méthode pour changer l'avis
   void changerAvis() {
@@ -57,8 +43,8 @@ class AvisNotifier extends Notifier<bool> {
 }
 
 // Instanciation du provider
-final avisProvider = NotifierProvider<AvisNotifier, bool>(
-  () => AvisNotifier(),
+final avisProvider = StateNotifierProvider<AvisNotifier, bool>(
+  (ref) => AvisNotifier(),
 );
 ```
 
@@ -67,13 +53,16 @@ final avisProvider = NotifierProvider<AvisNotifier, bool>(
 ## Exercice 4 — `Exercice1Page` consommatrice du provider
 
 ```dart
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 class Exercice1Page extends ConsumerWidget {
   const Exercice1Page({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // On écoute l'état du provider
-    final isAvisOui = ref.watch(avisProvider);
+    
+    // On s'abonne à l'état booléen du provider
+    final bool isAvisOui = ref.watch(avisProvider);
 
     return Scaffold(
       body: Center(
@@ -82,7 +71,7 @@ class Exercice1Page extends ConsumerWidget {
         ),
       ),
       floatingActionButton: ChangerAvisButton(
-        () => ref.read(avisProvider.notifier).changerAvis(),
+        () => ref.watch(avisProvider.notifier).changerAvis(),
       ),
     );
   }
@@ -91,9 +80,12 @@ class Exercice1Page extends ConsumerWidget {
 
 ---
 
-## Point d'entrée — `main.dart`
+## `main.dart` — Point d'entrée
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 void main() {
   runApp(
     const ProviderScope( // obligatoire avec Riverpod
@@ -107,8 +99,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const Exercice1Page(),
+    return const MaterialApp(
+      home: Exercice1Page(),
     );
   }
 }
@@ -116,17 +108,17 @@ class MyApp extends StatelessWidget {
 
 ---
 
-## Résumé Riverpod
+## Résumé final
 
-|Exercice|Élément|Riverpod|
+|Exercice|Classe|Rôle|
 |---|---|---|
-|Ex. 1|État local|`setState()`|
-|Ex. 2|Widget réutilisable|`StatelessWidget` + `VoidCallback`|
-|Ex. 3|État global|`Notifier<bool>` + `NotifierProvider`|
-|Ex. 4|Consommer le provider|`ConsumerWidget` + `ref.watch()`|
+|Ex. 1|`_Exercice1PageState`|`setState()` pour état local|
+|Ex. 2|`ChangerAvisButton`|`StatelessWidget` + `VoidCallback`|
+|Ex. 3|`AvisNotifier`|`StateNotifier<bool>` + `StateNotifierProvider`|
+|Ex. 4|`Exercice1Page`|`ConsumerWidget` + `ref.watch()`|
 
-### Les 3 règles Riverpod à retenir :
+### Les 3 règles du cours à retenir :
 
-- **`ref.watch()`** → lit l'état et **reconstruit** le widget si ça change
-- **`ref.read()`** → lit l'état **sans** reconstruire (pour les actions)
-- **`ProviderScope`** → obligatoire à la racine de l'app
+- **`StateNotifier<T>`** → gère l'état, initialisation dans `super()`
+- **`StateNotifierProvider`** → expose le notifier aux widgets
+- **`ConsumerWidget`** → widget qui consomme un provider via `ref`
