@@ -8,348 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe19ed20d6a022c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inforgraphie"
-            }
-          },
-          {
-            "id": "6024f2728d45621c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
-          },
-          {
-            "id": "3eea8e9dfe2ece5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Accroche.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Accroche"
-            }
-          },
-          {
-            "id": "fff91dad50568415",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "compte-rendu nosql.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "compte-rendu nosql"
-            }
-          },
-          {
-            "id": "3a507f7caa27eb75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A32_venouilt_TP11-12.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "A32_venouilt_TP11-12"
-            }
-          },
-          {
-            "id": "1f95be23ba7825aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A32_venouilt_TP11-12.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "A32_venouilt_TP11-12"
-            }
-          },
-          {
-            "id": "6960d47f790c6f4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Git"
-            }
-          },
-          {
-            "id": "7d04304d3fed9c1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 19.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 19"
-            }
-          },
-          {
-            "id": "9634e48afd88c55e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ex.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ex"
-            }
-          },
-          {
-            "id": "ba5dc60918bf976d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-01-27 10.25.05.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-27 10.25.05.excalidraw"
-            }
-          },
-          {
-            "id": "b6c7ada5cb92fecd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          },
-          {
-            "id": "61c310e9087e3034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TP/Semestre 6/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "0e2e506b478b2e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Seconde epreuve.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Seconde epreuve"
-            }
-          },
-          {
-            "id": "38983910aab6348b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "R5.Real13"
-            }
-          },
-          {
-            "id": "d990e6bb4cb5246d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notes de version 1.12.4"
-            }
-          },
-          {
-            "id": "a4768174fa554e1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sans titre.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sans titre"
-            }
-          },
-          {
             "id": "691a87bad2b42ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sans titre 1.md",
+                "file": "Projets/En cours/Apix Analytics/Présentation entreprise.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sans titre 1"
+              "title": "Présentation entreprise"
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -419,6 +82,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "1627b3c9aa021d12",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
             }
           }
         ]
@@ -504,8 +177,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           },
           {
@@ -519,591 +192,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Toutes les propriétés"
             }
           },
           {
-            "id": "85031c216b1b9cd4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "a3d92ebd29e1166f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5a136e8d4a9c28c2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "73de754bb94574e1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "699cf6012abb1562",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "6a9f8c09166871fd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "ba0f976cde9950fc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5b6d5a808ba57362",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "a19084380fa0bb06",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "d99cf73cedeeeae8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "dc8a985a8ef885dc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "9a7c5fe25c6e9248",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "a1cc82cd3180dd8b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "e40f29ba04386c8a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "ad62448c98756038",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "95e8e72f85fa3a96",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "573e256467df1bf1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "c88a0067e949a02b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "133c5d7926e50120",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5dbf2fd7b19efe64",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "b4ca3bdcd3a37852",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "82375bebe60d1987",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "e895a90ecd14a92a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5654fd9388d00d60",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "cf60f949a93c9e4e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "09822ab93f056093",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "03c39171a18708b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "bd763d255dcb13c1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "d442b2ec6649fb86",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "accd4af8827c4034",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "3964d9637fcc59a1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "4578236df0dd8f79",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "240fc272bc8903e4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "8d0c8c8e6abc23fb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "8d2ef5e2352438a5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "860c2448ca5f70cb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "3c428506533b21c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5bcc38e90d8be9d5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "2cb04ea541d75fd3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "6ab655e3f428f30d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "5850536a74480745",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "69ebd0ef645a33f8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "f910b22eacd11e52",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "d1d14ed3e0e44201",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "93218a314994c9fd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "50eec33cd00ab687",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "ac58560944d40a53",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "d9bf97d4c40c6b32",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "16dea6fad9aa9b9d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "cfd7587021017553",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "3cfc8530a45942c4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "afabad616b8c89be",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "b911c4e7b2c78927",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "dea3b1fc3209e704",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "2859d282f5881850",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "9dd1a92d093a4a1e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "a2cc1e50c5598daa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "9a4dea81ee61bcaf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "8a04fce969a37e32",
+            "id": "f2eec0708fba8671",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1113,11 +206,12 @@
             }
           }
         ],
-        "currentTab": 64
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 401.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1142,8 +236,16 @@
   },
   "active": "691a87bad2b42ba9",
   "lastOpenFiles": [
-    "Sans titre.md",
+    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+    "Pasted image 20260324100959.png",
+    "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
+    "Projets/En cours/Apix Analytics",
+    "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
+    "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
+    "📱 Android – Pile d’activités & Intents.md",
     "Sans titre 1.md",
+    "Sans titre.md",
     "Permanent/Cours/TD/Cryptographie.md",
     "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
     "Permanent/Cours/TD/Semestre 6",
@@ -1164,7 +266,6 @@
     "Pasted image 20260121145454.png",
     "Accroche.md",
     "Pasted image 20260121141916.png",
-    "Pasted image 20260121141849.png",
     "Inbox/Chronologie des zeldas.md",
     "Script vidéo LiftConnect.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
@@ -1174,18 +275,12 @@
     "Changer la base d'une branche.md",
     "MOOC/Little MOCS/Git - Github - Gitlab.md",
     "Permanent/Programmation/Git/Manipuler l'historique.md",
-    "Permanent/Programmation/Git/Le remisage.md",
-    "Permanent/Programmation/Git/Les branches.md",
-    "Permanent/Programmation/Git/Remote.md",
-    "Projets/En cours/Stage 2e annee/Normalisation namemapping.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
     "MOOC/Big MOCS/Media.base",
     "Permanent/Medias/Characters",
-    "Permanent/Medias/Séries",
-    "Untitled 2.base",
-    "Pasted image 20250601140945.png"
+    "Permanent/Medias/Séries"
   ]
 }
