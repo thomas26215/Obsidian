@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/Finish/Stage 2e annee/Action based image.md",
+                "file": "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Action based image"
+              "title": "Stage 2e année BUT informatique"
             }
           }
         ]
@@ -246,9 +246,11 @@
   },
   "active": "691a87bad2b42ba9",
   "lastOpenFiles": [
-    "Projets/Finish/Stage 2e annee/Normalisation namemapping.md",
     "Projets/Finish/Stage 2e annee/Oral de stage.md",
     "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
+    "Projets/Finish/Stage 2e annee/Travail 1.md",
+    "Projets/Finish/Stage 2e annee/Action based image.md",
+    "Projets/Finish/Stage 2e annee/Normalisation namemapping.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Pasted image 20260324100959.png",
@@ -283,8 +285,6 @@
     "Script vidéo LiftConnect.md",
     "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Excalidraw/Drawing 2025-11-10 10.16.33.excalidraw.md",
-    "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
-    "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
