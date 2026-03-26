@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+                "file": "Projets/Finish/Stage 2e annee/Normalisation namemapping.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Présentation entreprise"
+              "title": "Normalisation namemapping"
             }
           }
         ]
@@ -246,8 +246,10 @@
   },
   "active": "691a87bad2b42ba9",
   "lastOpenFiles": [
-    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
+    "Projets/Finish/Stage 2e annee/Oral de stage.md",
+    "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Pasted image 20260324100959.png",
     "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "Projets/En cours/Apix Analytics",
@@ -283,8 +285,6 @@
     "Permanent/Cours/Cours/Semestre 5/Qualité algorithmique.md",
     "Permanent/Cours/TD/Semestre 5/TDD Infographie.md",
     "Changer la base d'une branche.md",
-    "MOOC/Little MOCS/Git - Github - Gitlab.md",
-    "Permanent/Programmation/Git/Manipuler l'historique.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
