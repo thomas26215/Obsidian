@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
+                "file": "Projets/En cours/Apix Analytics/Présentation entreprise.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stage 2e année BUT informatique"
+              "title": "Présentation entreprise"
             }
           }
         ]
@@ -209,6 +209,26 @@
             "id": "243e1e492ac9a0c1",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "0d48c52e8e369f90",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "a827bc599cb3b048",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -216,7 +236,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -246,13 +266,13 @@
   },
   "active": "691a87bad2b42ba9",
   "lastOpenFiles": [
-    "Projets/Finish/Stage 2e annee/Oral de stage.md",
+    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
+    "Projets/Finish/Stage 2e annee/Oral de stage.md",
     "Projets/Finish/Stage 2e annee/Travail 1.md",
     "Projets/Finish/Stage 2e annee/Action based image.md",
     "Projets/Finish/Stage 2e annee/Normalisation namemapping.md",
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
-    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Pasted image 20260324100959.png",
     "Projets/En cours/Game/Drawing 2025-03-13 10.18.19.excalidraw.md",
     "Projets/En cours/Apix Analytics",
