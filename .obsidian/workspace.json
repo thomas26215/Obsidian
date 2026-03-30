@@ -11,9 +11,37 @@
             "id": "691a87bad2b42ba9",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Projets/En cours/LiftConnect/Taches.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Taches"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a3b310246b4a3b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a71dcf572983f9c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 16.md",
+                "file": "Templates/Template Kanban.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 16"
+              "title": "Template Kanban"
             }
           }
         ]
@@ -274,8 +302,18 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f40a479ae25f9b42",
+  "active": "7a71dcf572983f9c",
   "lastOpenFiles": [
+    "Projets/En cours/LiftConnect/Taches.md",
+    "Templates/Template Kanban.md",
+    "Ressources/Autre/Comment lire + de livres.md",
+    "Do not touch",
+    "Do not touch/KanbanDetails",
+    "Mise en place d'un endroit personnel pour stocker sessions et exercices.md",
+    "Projets/En cours/LiftConnect/Sans titre.md",
+    "Projets/En cours/LiftConnect/Untitled.canvas",
+    "Projets/En cours/LiftConnect/Base de données concernant toutes les activités disponibles et sélectionnables.md",
+    "Untitled 16.md",
     "Untitled 15.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
@@ -301,26 +339,17 @@
     "Permanent/Cours/TP/Semestre 6",
     "ex.md",
     "Excalidraw/Drawing 2026-01-27 10.25.05.excalidraw.md",
-    "Untitled 19.md",
-    "Git.md",
-    "A32_venouilt_TP11-12.md",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
     "Pasted image 20260121223837.png",
     "Pasted image 20260121223553.png",
     "Pasted image 20260121223547.png",
     "Pasted image 20260121145454.png",
-    "Accroche.md",
     "Pasted image 20260121141916.png",
-    "Inbox/Chronologie des zeldas.md",
-    "Script vidéo LiftConnect.md",
-    "Permanent/Cours/TD/Semestre 5/Inforgraphie.md",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
     "MOOC/Big MOCS/Programmation.base",
-    "MOOC/Big MOCS/Media.base",
-    "Permanent/Medias/Characters",
-    "Permanent/Medias/Séries"
+    "MOOC/Big MOCS/Media.base"
   ]
 }
