@@ -229,6 +229,16 @@
             "id": "a827bc599cb3b048",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "f40a479ae25f9b42",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -236,7 +246,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -264,7 +274,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "691a87bad2b42ba9",
+  "active": "f40a479ae25f9b42",
   "lastOpenFiles": [
     "Untitled 15.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
