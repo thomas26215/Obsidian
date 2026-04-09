@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Apix Analytics/Sans titre.md",
+                "file": "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "pixel api, apix tools et poc console"
             }
           }
         ]
@@ -286,8 +286,10 @@
   },
   "active": "691a87bad2b42ba9",
   "lastOpenFiles": [
+    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
+    "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/LiftConnect/Taches.md",
-    "Projets/En cours/Apix Analytics/Sans titre.md",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
     "Templates/Template Kanban.md",
     "Ressources/Autre/Comment lire + de livres.md",
@@ -299,8 +301,6 @@
     "Projets/En cours/LiftConnect/Base de données concernant toutes les activités disponibles et sélectionnables.md",
     "Untitled 16.md",
     "Untitled 15.md",
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
-    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Projets/Finish/Stage 2e annee/Oral de stage.md",
     "Projets/Finish/Stage 2e annee/Travail 1.md",
