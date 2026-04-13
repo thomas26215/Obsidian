@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "pixel api, apix tools et poc console"
             }
+          },
+          {
+            "id": "abb4662319505e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fiche Présentation Entreprise et Mission Thomas Venouil"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,10 +319,11 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "ec376f5fcd40ea4b",
+  "active": "abb4662319505e1c",
   "lastOpenFiles": [
-    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
+    "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
+    "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/LiftConnect/Taches.md",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
@@ -330,7 +356,6 @@
     "Permanent/Cours/TP/Semestre 6/Untitled.md",
     "Correction Concours.md",
     "Permanent/Cours/TP/Semestre 6",
-    "ex.md",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
     "Pasted image 20260121223837.png",
