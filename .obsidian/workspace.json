@@ -249,6 +249,16 @@
             "id": "04c636326fe6d762",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "ec376f5fcd40ea4b",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -256,7 +266,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -284,7 +294,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "691a87bad2b42ba9",
+  "active": "ec376f5fcd40ea4b",
   "lastOpenFiles": [
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
