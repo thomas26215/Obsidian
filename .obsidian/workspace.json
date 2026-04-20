@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/LiftConnect/Sans titre.md",
+                "file": "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "Fiche Présentation Entreprise et Mission Thomas Venouil"
             }
           }
         ],
@@ -329,20 +329,22 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "abb4662319505e1c",
+  "active": "1282753e67a8638f",
   "lastOpenFiles": [
+    "Projets/En cours/LiftConnect/Idées/API",
+    "Projets/En cours/LiftConnect/Idées",
+    "Projets/En cours/LiftConnect/Sans titre.md",
+    "Projets/En cours/LiftConnect/Taches.md",
     "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
-    "Projets/En cours/LiftConnect/Taches.md",
     "Projets/En cours/Game/360_F_984885079_CNzOZUgkTdwq3r4ZrbPCAX6aNBjOPAs5.jpg",
     "Templates/Template Kanban.md",
     "Ressources/Autre/Comment lire + de livres.md",
     "Do not touch",
     "Do not touch/KanbanDetails",
     "Mise en place d'un endroit personnel pour stocker sessions et exercices.md",
-    "Projets/En cours/LiftConnect/Sans titre.md",
     "Projets/En cours/LiftConnect/Untitled.canvas",
     "Projets/En cours/LiftConnect/Base de données concernant toutes les activités disponibles et sélectionnables.md",
     "Untitled 16.md",
@@ -364,7 +366,6 @@
     "Permanent/Cours/TD/Semestre 6",
     "Seconde epreuve.md",
     "Permanent/Cours/TP/Semestre 6/Untitled.md",
-    "Correction Concours.md",
     "Permanent/Cours/TP/Semestre 6",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
@@ -376,7 +377,6 @@
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
     "MOOC/Big MOCS/Autre.base",
-    "MOOC/Big MOCS/Programmation.base",
-    "MOOC/Big MOCS/Media.base"
+    "MOOC/Big MOCS/Programmation.base"
   ]
 }
