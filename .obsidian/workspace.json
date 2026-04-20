@@ -284,6 +284,16 @@
             "id": "ec376f5fcd40ea4b",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "cd83c8488415a3d2",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -291,7 +301,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -319,7 +329,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "abb4662319505e1c",
+  "active": "cd83c8488415a3d2",
   "lastOpenFiles": [
     "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
