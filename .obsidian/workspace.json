@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
+                "file": "Projets/En cours/LiftConnect/Sans titre.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fiche Présentation Entreprise et Mission Thomas Venouil"
+              "title": "Sans titre"
             }
           }
         ],
@@ -329,7 +329,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "cd83c8488415a3d2",
+  "active": "abb4662319505e1c",
   "lastOpenFiles": [
     "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
