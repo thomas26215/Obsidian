@@ -294,6 +294,16 @@
             "id": "cd83c8488415a3d2",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "e71de328a3fb3dea",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -301,7 +311,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
@@ -329,7 +339,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "1282753e67a8638f",
+  "active": "e71de328a3fb3dea",
   "lastOpenFiles": [
     "Projets/En cours/LiftConnect/Idées/API",
     "Projets/En cours/LiftConnect/Idées",
