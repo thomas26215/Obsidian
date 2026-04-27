@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Fiche Présentation Entreprise et Mission Thomas Venouil"
             }
+          },
+          {
+            "id": "4e4f50ec6f4bd91d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent/Programmation/Web/Aligner sur l'axe principale avec flexbox.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Aligner sur l'axe principale avec flexbox"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -304,6 +328,16 @@
             "id": "e71de328a3fb3dea",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "6327bfcc6821f1cc",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -311,7 +345,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -339,8 +373,13 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e71de328a3fb3dea",
+  "active": "6327bfcc6821f1cc",
   "lastOpenFiles": [
+    "LiftConnect/Features IA/📊 Analyse d'entraînement/🎯 Radar Chart Musculaire.md",
+    "LiftConnect/Features IA/📊 Analyse d'entraînement/📈 Historique des Analyses.md",
+    "LiftConnect/Features IA/💰 Système de crédits/📋 Abonnements & Pricing.md",
+    "LiftConnect/Features IA/💰 Système de crédits/INDEX.md",
+    "LiftConnect/Features IA/INDEX.md",
     "Projets/En cours/LiftConnect/Idées/API",
     "Projets/En cours/LiftConnect/Idées",
     "Projets/En cours/LiftConnect/Sans titre.md",
@@ -371,11 +410,7 @@
     "📱 Android – Pile d’activités & Intents.md",
     "Sans titre 1.md",
     "Sans titre.md",
-    "Permanent/Cours/TD/Cryptographie.md",
-    "Permanent/Cours/TD/Semestre 6/R5.Real13.md",
     "Permanent/Cours/TD/Semestre 6",
-    "Seconde epreuve.md",
-    "Permanent/Cours/TP/Semestre 6/Untitled.md",
     "Permanent/Cours/TP/Semestre 6",
     "Pasted image 20260121231328.png",
     "Pasted image 20260121225858.png",
@@ -386,7 +421,6 @@
     "Pasted image 20260121141916.png",
     "Android ou Flutter.odt",
     "MOOC/Big MOCS/Cours.base",
-    "MOOC/Big MOCS/Autre.base",
-    "MOOC/Big MOCS/Programmation.base"
+    "MOOC/Big MOCS/Autre.base"
   ]
 }
