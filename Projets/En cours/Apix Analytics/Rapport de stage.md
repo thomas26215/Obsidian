@@ -62,3 +62,29 @@ Le développement de cet outil impliquait plusieurs contraintes techniques impor
 **Complexité des données.** Le fichier `protocol.json` est particulièrement volumineux et hiérarchisé, avec plusieurs niveaux d'imbrication et des centaines d'entrées. Concevoir une interface claire et utilisable pour naviguer et éditer ces données sans surcharger l'utilisateur a représenté un véritable enjeu de conception.
 
 **Validation des données.** L'interface devait intégrer un certain niveau de validation des saisies utilisateur, afin d'éviter d'enregistrer des valeurs incohérentes dans les fichiers de configuration. Ces règles de validation s'appuyaient en partie sur des contraintes métier liées au protocole Modbus lui-même.
+
+
+
+## III. Méthodes de travail et outils
+
+### 1. Stack technique
+
+Le projet reposait sur deux environnements techniques distincts et complémentaires.
+
+Côté **backend**, le développement s'est fait en **Python**, en s'appuyant sur la codebase existante d'APIX Analytics. Les modifications portaient principalement sur trois dépôts : **Apix Tools**, qui contient les modèles de données partagés, **PixL Api**, qui expose les routes REST consommées par le frontend, et **PixL Console** (POC), qui héberge les bases de PixL Expert.
+
+Côté **frontend**, l'interface a été développée en **Vue.js**, dans le cadre du projet PixL Expert. Vue.js est un framework JavaScript progressif orienté composants, particulièrement adapté à la construction d'interfaces web dynamiques et réactives.
+
+### 2. Outils de développement
+
+**Éditeurs de code.** J'ai utilisé **VS Code** pour le développement frontend Vue.js, et **PyCharm** pour le développement backend Python. Ce choix reflète les points forts de chaque éditeur : PyCharm offre un support avancé pour Python (autocomplétion, débogage, inspection de code), tandis que VS Code est particulièrement adapté au développement web.
+
+**Versionnage.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne à APIX Analytics. Pour chacun des trois dépôts du projet (Apix Tools, PixL Api, POC Console), j'ai travaillé sur une branche personnelle dédiée, ce qui m'a permis de développer et tester mes modifications sans impacter le code principal.
+
+**Prise de notes.** J'ai utilisé **Obsidian** pour organiser mes notes personnelles tout au long du stage : documentation des concepts appris, suivi des tâches en cours, mémos techniques et points à clarifier. Cet outil m'a permis de garder une trace structurée de mon avancement et de retrouver facilement les informations importantes.
+
+### 3. Organisation et suivi du projet
+
+Le suivi du projet s'est organisé autour d'une **réunion hebdomadaire le lundi** avec ma tutrice Élodie Baral-Baron. Ces points réguliers permettaient de faire le bilan de la semaine écoulée, de clarifier les objectifs de la semaine à venir, et d'échanger sur les éventuels blocages techniques rencontrés.
+
+Entre ces réunions, le travail s'organisait de manière autonome, avec des échanges informels au fil de l'eau dans l'openspace lorsqu'une question ou un problème se présentait. Cette organisation, combinant un cadre régulier et une flexibilité quotidienne, s'est révélée bien adaptée au rythme itératif du projet.
