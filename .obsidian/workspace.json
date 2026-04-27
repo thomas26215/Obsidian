@@ -372,6 +372,16 @@
             "id": "6327bfcc6821f1cc",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "8992cc1b20b56b7e",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -379,7 +389,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
@@ -407,7 +417,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f1df3fd86b368c7c",
+  "active": "8992cc1b20b56b7e",
   "lastOpenFiles": [
     "Projets/En cours/Apix Analytics/Plan.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md",
