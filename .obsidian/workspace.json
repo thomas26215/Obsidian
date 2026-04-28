@@ -424,14 +424,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false
+      "dashboard-navigator:Open dashboard navigator": false,
+      "docx-exporter:Exporter la note actuelle en DOCX": false
     }
   },
   "active": "f1df3fd86b368c7c",
   "lastOpenFiles": [
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Plan.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.docx",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
     "Projets/En cours/Apix Analytics/Les logiciels.md",
     "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
@@ -460,7 +462,6 @@
     "Untitled 15.md",
     "Projets/Finish/Stage 2e annee/Travail 1.md",
     "Projets/Finish/Stage 2e annee/Action based image.md",
-    "Projets/Finish/Stage 2e annee/Normalisation namemapping.md",
     "Pasted image 20260324100959.png",
     "Projets/En cours/Apix Analytics",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
@@ -474,7 +475,6 @@
     "Pasted image 20260121145454.png",
     "Pasted image 20260121141916.png",
     "Android ou Flutter.odt",
-    "MOOC/Big MOCS/Cours.base",
-    "MOOC/Big MOCS/Autre.base"
+    "MOOC/Big MOCS/Cours.base"
   ]
 }
