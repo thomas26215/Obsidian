@@ -88,3 +88,32 @@ Côté **frontend**, l'interface a été développée en **Vue.js**, dans le cad
 Le suivi du projet s'est organisé autour d'une **réunion hebdomadaire le lundi** avec ma tutrice Élodie Baral-Baron. Ces points réguliers permettaient de faire le bilan de la semaine écoulée, de clarifier les objectifs de la semaine à venir, et d'échanger sur les éventuels blocages techniques rencontrés.
 
 Entre ces réunions, le travail s'organisait de manière autonome, avec des échanges informels au fil de l'eau dans l'openspace lorsqu'une question ou un problème se présentait. Cette organisation, combinant un cadre régulier et une flexibilité quotidienne, s'est révélée bien adaptée au rythme itératif du projet.
+
+
+## IV. Réalisation du projet
+
+### 6. Mise en production
+
+La mise en production d'une nouvelle version constitue l'étape finale et critique du cycle de développement. Elle mobilise l'ensemble des composants réalisés et exige une coordination précise entre les différents éléments de la PixL Suite.
+
+#### a. Processus de déploiement
+
+L'accès au serveur de production s'effectue via **MobaXTerm**, un client SSH graphique sous Windows qui combine émulation de terminal Linux et transfert de fichiers par glisser-déposer (SCP). La connexion se fait en SSH sur l'adresse IP statique de la machine hôte, avec authentification par clé ou par mot de passe.
+
+Le déploiement d'une nouvelle version suit une procédure structurée en plusieurs étapes. Les artefacts produits lors du build — wheels Python (`apix_tools-x.y.z-py3-none-linux_x86_64.whl`), paquets Debian pour le serveur Modbus, archives ZIP de l'API et de la console, et scripts de mise à jour — sont d'abord transférés vers le serveur via SCP. Une fois copiés, les scripts de mise à jour doivent recevoir les droits d'exécution (`chmod 755`), ceux-ci n'étant pas préservés lors du transfert. L'exécution successive des scripts `script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console.sh` et `script_upgrade_pixl_modbus.sh` automatise ensuite les opérations de remplacement des fichiers, de reconstruction des images Docker et de redémarrage des conteneurs.
+
+#### b. Difficultés rencontrées
+
+La mise en production a mis en lumière plusieurs catégories de problèmes caractéristiques des environnements industriels.
+
+**Gestion des permissions.** Les fichiers transférés par SCP héritaient parfois de droits inadaptés : scripts non exécutables, répertoires de logs inaccessibles en écriture. Il a fallu définir rigoureusement les droits selon la nature des fichiers — `2750` pour les répertoires (avec bit SGID pour la propagation du groupe), `0640` pour les fichiers de configuration, `0755` pour les scripts.
+
+**Orchestration Docker.** La coexistence de plusieurs conteneurs (PixL API, PixL Console, PixL Modbus) au sein du même `docker-compose.yml` a soulevé des problèmes de dépendances entre services. Le fichier `.env` centralise les numéros de version des différentes images, et une mise à jour incomplète entraîne des incompatibilités entre services. La procédure consiste à réaliser un arrêt complet (`docker-compose down`) avant de relancer les nouvelles images, afin d'éviter tout conflit de ports ou d'état résiduel.
+
+**Chemins et configurations.** Certains problèmes liés aux chemins vers les fichiers de configuration — notamment `custom.json` et les fichiers de protocole — n'apparaissaient qu'en environnement de production, les chemins relatifs valides en développement local ne l'étant plus une fois déployés. Ces situations ont renforcé l'importance de centraliser les paramètres de chemin et de les rendre configurables par environnement, ce que permettait déjà le mécanisme `CUSTOM_CONFIG_PATH` introduit dans PixL API.
+
+#### c. Résultats
+
+À l'issue des déploiements successifs, l'ensemble des composants de la PixL Suite fonctionnait correctement en production : le serveur Modbus répondait aux requêtes des équipements industriels, l'API REST exposait ses routes avec l'intégration de la wheel apix-tools opérationnelle, et la console web servait l'interface Vue.js en communiquant correctement avec l'API.
+
+Cette phase de mise en production a constitué une expérience concrète et formatrice sur les contraintes propres aux environnements industriels de production, très différentes de celles rencontrées en développement local : permissions système, orchestration multi-conteneurs, gestion des versions entre services, et vérification systématique de chaque maillon de la chaîne de déploiement.

@@ -289,56 +289,6 @@
             }
           },
           {
-            "id": "243e1e492ac9a0c1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "0d48c52e8e369f90",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "a827bc599cb3b048",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "f40a479ae25f9b42",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "04c636326fe6d762",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
             "id": "ec376f5fcd40ea4b",
             "type": "leaf",
             "state": {
@@ -399,7 +349,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -418,19 +368,17 @@
       "bases:Créer une nouvelle base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
       "soundscapes:Soundscapes: My Music": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "docx-exporter:Exporter la note actuelle en DOCX": false
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f1df3fd86b368c7c",
+  "active": "ec376f5fcd40ea4b",
   "lastOpenFiles": [
-    "Projets/En cours/Apix Analytics/Plan.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md",
+    "Projets/En cours/Apix Analytics/Plan.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.docx",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",

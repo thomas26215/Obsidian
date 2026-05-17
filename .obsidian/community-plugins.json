@@ -2,7 +2,6 @@
   "obsidian-excalidraw-plugin",
   "dataview",
   "table-editor-obsidian",
-  "obsidian-kanban",
   "obsidian-git",
   "periodic-notes",
   "highlightr-plugin",
@@ -28,6 +27,5 @@
   "advanced-cursors",
   "slash-commander",
   "sqlseal-charts",
-  "obsidian-pandoc",
-  "docx-exporter"
+  "obsidian-pandoc"
 ]

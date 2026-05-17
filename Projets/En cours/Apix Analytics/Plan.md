@@ -52,6 +52,11 @@ Voici le plan corrigé :
     - Développement de l'éditeur des éléments _(elements)_
 5. **Tests et validation**
     
+6. **Mise en production**
+    
+    - Processus de déploiement sur serveur distant
+    - Difficultés rencontrées et solutions
+    - Résultats et bilan du déploiement
 
 ---
 
