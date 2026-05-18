@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -224,16 +223,17 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "8e0050ce8b00fba9",
+  "active": "5ee5476668a96c0b",
   "lastOpenFiles": [
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.9cba4dc69ede",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.13580.cffef15785cd",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17076.acc7334592ec",
     "Projets/En cours/Apix Analytics/Les logiciels.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Plan.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.docx",
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
     "Projets/Finish/Stage 2e annee/Stage 2e année BUT informatique.md",
     "Projets/Finish/Stage 2e annee/Oral de stage.md",
@@ -271,7 +271,6 @@
     "Pasted image 20260121223553.png",
     "Pasted image 20260121223547.png",
     "Pasted image 20260121145454.png",
-    "Pasted image 20260121141916.png",
-    "Android ou Flutter.odt"
+    "Pasted image 20260121141916.png"
   ]
 }
