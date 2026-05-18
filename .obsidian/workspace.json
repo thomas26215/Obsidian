@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sans titre.md",
+                "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Sans titre"
+              "title": "Rétrolien pour Rapport de stage"
             }
           },
           {
@@ -195,13 +195,11 @@
               "title": "Saved Queries"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +221,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "5ee5476668a96c0b",
+  "active": "69b7fdb1ac700d12",
   "lastOpenFiles": [
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.699ca147af1b",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.ce4a33b17f90",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.e8fa5b77914e",
@@ -234,10 +234,7 @@
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.75aeabe927d3",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.fe300f822204",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.9cba4dc69ede",
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.13580.cffef15785cd",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17076.acc7334592ec",
     "Projets/En cours/Apix Analytics/Les logiciels.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/En cours/Apix Analytics/Plan.md",

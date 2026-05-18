@@ -174,13 +174,13 @@ Dans `protocol.json`, certaines sections présentent une structure particulière
 
 ```json
 "elements_detailed": {
-    "CAL-C2H4": {
-        "raw_value":        { "address": 100, "format": "float32", "size": 2, "factor": 1.0 },
-        "normalized_value": { "address": 102, "format": "float32", "size": 2, "factor": 1.0 },
-        "response":         { "address": 104, "format": "float32", "size": 2, "factor": 1.0 }
-    },
-    "CAL-C2H6": { "..." },
-    "H2S":      { "..." }
+		"CAL-C2H4": {
+				"raw_value":        { "address": 100, "format": "float32", "size": 2, "factor": 1.0 },
+				"normalized_value": { "address": 102, "format": "float32", "size": 2, "factor": 1.0 },
+				"response":         { "address": 104, "format": "float32", "size": 2, "factor": 1.0 }
+		},
+		"CAL-C2H6": { "..." },
+		"H2S":      { "..." }
 }
 ```
 
@@ -212,20 +212,20 @@ ModelMother
 │   └── SerialParametersList   ← liste de ports série (ModelListMother)
 │       └── SerialParameters   ← un port série (bauds, parité, bits de stop…)
 └── ProtocolParameters         ← protocole complet (protocol.json)
-    ├── HoldingRegisterParameters
-    │   └── MeasureParameters
-    │       ├── ElementsDetailedList  (ModelDictToListMother)
-    │       │   └── ElementDetailParameters  ← un élément détaillé
-    │       │       └── ElementPropertyParameters  ← raw_value, normalized_value…
-    │       └── ElementList           (ModelDictToListMother)
-    │           └── ElementParameters ← un élément simple
-    └── InputRegisterParameters
-        ├── AlarmParametersList       (ModelDictToListMother)
-        │   └── AlarmEntryParameters  ← une alarme
-        ├── MeasureParameters
-        ├── InformationParameters
-        ├── SystemParameters
-        └── CommandParameters
+		├── HoldingRegisterParameters
+		│   └── MeasureParameters
+		│       ├── ElementsDetailedList  (ModelDictToListMother)
+		│       │   └── ElementDetailParameters  ← un élément détaillé
+		│       │       └── ElementPropertyParameters  ← raw_value, normalized_value…
+		│       └── ElementList           (ModelDictToListMother)
+		│           └── ElementParameters ← un élément simple
+		└── InputRegisterParameters
+				├── AlarmParametersList       (ModelDictToListMother)
+				│   └── AlarmEntryParameters  ← une alarme
+				├── MeasureParameters
+				├── InformationParameters
+				├── SystemParameters
+				└── CommandParameters
 ```
 
 Chaque feuille de cet arbre correspond à un champ concret du JSON — une adresse de registre, un format, un facteur de conversion — et hérite de ModelMother, bénéficiant ainsi automatiquement des mécanismes de sérialisation.
@@ -248,20 +248,20 @@ Le fichier `network.json` décrit comment l'analyseur APIX expose son interface 
 
 ```json
 {
-    "data": {
-        "slave_id": 1,
-        "tcp": { "enabled": true, "port": 502 },
-        "serial": [
-            {
-                "port": "/dev/ttyS0", "bauds": 9600, "bits": 8,
-                "parity": "N", "stops": 1, "method": "rtu",
-                "timeout": 0.15, "enabled": false
-            }
-        ],
-        "zmq_command_port": 5557,
-        "zmq_data_port": 5556,
-        "zmq_ip": "localhost"
-    }
+		"data": {
+				"slave_id": 1,
+				"tcp": { "enabled": true, "port": 502 },
+				"serial": [
+						{
+								"port": "/dev/ttyS0", "bauds": 9600, "bits": 8,
+								"parity": "N", "stops": 1, "method": "rtu",
+								"timeout": 0.15, "enabled": false
+						}
+				],
+				"zmq_command_port": 5557,
+				"zmq_data_port": 5556,
+				"zmq_ip": "localhost"
+		}
 }
 ```
 
@@ -387,22 +387,20 @@ L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windo
 - Un **terminal Linux émulé** : il permet de taper des commandes shell exactement comme sur une machine Linux physique. Le développeur peut naviguer dans l'arborescence des fichiers, lancer des scripts, consulter des logs, redémarrer des services, etc.
 - Un **gestionnaire de fichiers par glisser-déposer** : MobaXTerm intègre un navigateur de fichiers qui affiche le contenu du serveur distant en temps réel. Il est possible de faire glisser un fichier depuis le poste Windows directement vers un répertoire du serveur, et inversement. En coulisse, ce transfert utilise le protocole **SCP** (Secure Copy Protocol), qui s'appuie sur SSH pour chiffrer le transfert.
 
-MobaXTerm permet également de sauvegarder les paramètres de connexion (adresse IP, utilisateur, clé d'authentification) sous forme de sessions, ce qui évite de les ressaisir à chaque connexion.
-
 #### c. Les artefacts à déployer et le flux de la wheel apix-tools
 
 Avant de lancer un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**. Ces artefacts sont produits en amont par les pipelines de build de chaque dépôt GitLab, et regroupent tout ce dont le serveur a besoin pour faire tourner la nouvelle version.
 
-Le flux complet de la wheel apix-tools jusqu'à la production est le suivant : l'alternant compile la wheel apix-tools (versions Windows pour développement et Linux pour production) et la stocke dans un dépôt partagé. Lors du lancement du pipeline CI/CD de PixL API, celui-ci récupère automatiquement la wheel apix-tools spécifiée par son numéro de version dans le fichier `requirements.txt`, et l'intègre directement dans l'archive ZIP finale. De cette façon, lorsque l'archive ZIP est extraite sur le serveur de production, la wheel apix-tools se trouve déjà à l'intérieur (dans le répertoire `whl/` de l'archive), prête à être installée. C'est le pipeline qui gère cette intégration, éliminant le besoin de transférer la wheel séparément.
+Le flux complet de la wheel apix-tools jusqu'à la production est le suivant : l'alternant ma compilé la wheel apix-tools (versions Windows pour développement et Linux pour production) et la stocke dans un dépôt partagé. Lors du lancement du pipeline CI/CD de PixL API, celui-ci récupère automatiquement la wheel apix-tools spécifiée par son numéro de version dans le fichier `requirements.txt`, et l'intègre directement dans l'archive ZIP finale. De cette façon, lorsque l'archive ZIP est extraite sur le serveur de production, la wheel apix-tools se trouve déjà à l'intérieur (dans le répertoire `whl/` de l'archive), prête à être installée. C'est le pipeline qui gère cette intégration, éliminant le besoin de transférer la wheel séparément.
 
 Pour une mise à jour de PixL API, PixL Console et PixL Modbus, les artefacts à récupérer sont les suivants :
 
 - **Les archives ZIP produites par le pipeline CI/CD** : chaque service est empaqueté par son pipeline GitLab dans une archive ZIP structurée.
-  - **PixL API** (`pixl-api-x.y.z.zip`) : contient le projet Django, ses dépendances Python, et **la wheel apix-tools déjà intégrée dans le répertoire `whl/`**. Cette intégration dans le ZIP garantit que tous les éléments nécessaires sont présents lors du déploiement.
-  - **PixL Console** (`pixl-console-x.y.z.zip`) : contient le backend Django minimal (API endpoints uniquement), ainsi que le build du frontend Vue.js, c'est-à-dire les fichiers HTML, JavaScript et CSS produits par `npm run build`, prêts à être servis.
-  - **PixL Modbus** (fourni sous forme de `.deb` ou `.tgz`) : le serveur Modbus qui dépend également de la wheel apix-tools pour ses fonctionnalités internes.
+	- **PixL API** (`pixl-api-x.y.z.zip`) : contient le projet Django, ses dépendances Python, et **la wheel apix-tools déjà intégrée dans le répertoire `whl/`**. Cette intégration dans le ZIP garantit que tous les éléments nécessaires sont présents lors du déploiement.
+	- **PixL Console** (`pixl-console-x.y.z.zip`) : contient le backend Django minimal (API endpoints uniquement), ainsi que le build du frontend Vue.js, c'est-à-dire les fichiers HTML, JavaScript et CSS produits par `npm run build`, prêts à être servis.
 
-- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console.sh`, `script_upgrade_pixl_modbus.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
+
+- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console-vue-js.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
 
 #### d. Le processus de déploiement pas à pas
 
@@ -422,11 +420,10 @@ La commande `chmod` (pour *change mode*) modifie les permissions d'un fichier so
 
 ```bash
 bash script_upgrade_pixl_api.sh     pixl-api-1.0.0.zip
-bash script_upgrade_pixl_console.sh pixl-console-1.0.0.zip
-bash script_upgrade_pixl_modbus.sh  apix-pixl-modbus-4.4.2.tgz
+bash script_upgrade_pixl_console-vue-js.sh pixl-console-1.0.0.zip
 ```
 
-Le script reçoit l'archive en paramètre afin de savoir quelle version déployer : c'est ce fichier ZIP ou TGZ, produit et versionné par le pipeline GitLab, qui fait office de source de vérité pour le déploiement. Cette conception permet de rejouer un déploiement pour n'importe quelle version passée en fournissant l'archive correspondante, sans modifier le script lui-même.
+Le script reçoit l'archive en paramètre afin de savoir quelle version déployer : c'est ce fichier ZIP, produit et versionné par le pipeline GitLab, qui fait office de source de vérité pour le déploiement. Cette conception permet de rejouer un déploiement pour n'importe quelle version passée en fournissant l'archive correspondante, sans modifier le script lui-même.
 
 Ces scripts automatisent un enchaînement d'opérations qui seraient longues et risquées à réaliser à la main : arrêt du conteneur Docker en cours d'exécution, extraction de l'archive de la nouvelle version, remplacement des anciens fichiers, mise à jour du fichier de variables d'environnement `.env` avec les nouveaux numéros de version, reconstruction de l'image Docker, et redémarrage du conteneur. L'utilisation de scripts garantit la reproductibilité du déploiement : chaque mise à jour suit exactement la même séquence d'opérations, ce qui réduit le risque d'erreur humaine et facilite le diagnostic en cas de problème.
 
@@ -453,7 +450,6 @@ Un fichier annexe, `.env`, centralise les variables d'environnement partagées p
 ```
 PIXL_API_VERSION=1.0.0
 PIXL_CONSOLE_VERSION=1.0.0
-PIXL_MODBUS_VERSION=4.4.2
 APIX_TOOLS_VERSION=3.1.0
 ```
 
