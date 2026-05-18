@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -156,9 +156,48 @@
               "icon": "lucide-tags",
               "title": "Mots-clés"
             }
+          },
+          {
+            "id": "c2d02d70cb223a33",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "d724b13cd4db09ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Rapport de stage"
+            }
+          },
+          {
+            "id": "8e0050ce8b00fba9",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -185,8 +224,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "5ee5476668a96c0b",
+  "active": "8e0050ce8b00fba9",
   "lastOpenFiles": [
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.13580.cffef15785cd",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17076.acc7334592ec",
     "Projets/En cours/Apix Analytics/Les logiciels.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
@@ -232,7 +272,6 @@
     "Pasted image 20260121223547.png",
     "Pasted image 20260121145454.png",
     "Pasted image 20260121141916.png",
-    "Android ou Flutter.odt",
-    "MOOC/Big MOCS/Cours.base"
+    "Android ou Flutter.odt"
   ]
 }

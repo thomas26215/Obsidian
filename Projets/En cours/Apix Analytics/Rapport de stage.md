@@ -100,7 +100,7 @@ La mise en production désigne le processus par lequel une nouvelle version d'un
 
 Contrairement à l'environnement de développement, qui tourne sur un poste Windows de développeur, le serveur de production est une machine sous **Linux** (distribution Debian). C'est sur cette machine que tournent en permanence tous les services de la PixL Suite, dans des conteneurs Docker isolés. Le développeur n'a pas accès physiquement à cette machine : toute interaction doit se faire à distance, via le réseau.
 
-La structure des fichiers sur ce serveur est organisée sous le répertoire `/usr/bin/apix/`, qui contient l'ensemble des services déployés, leurs fichiers de configuration persistants, leurs journaux d'activité (logs) et leur documentation. Cette organisation centralisée permet de gérer plusieurs versions de la suite sur la même machine et de retrouver facilement les fichiers pertinents lors d'un incident.
+La structure des fichiers sur ce serveur est organisée sous le répertoire apix, qui contient l'ensemble des services déployés, leurs fichiers de configuration persistants (notamment `custom.json` qui contrôle le choix du fichier de protocole), leurs journaux d'activité (logs) et leur documentation. Cette organisation centralisée permet de gérer plusieurs versions de la suite sur la même machine et de retrouver facilement les fichiers pertinents lors d'un incident.
 
 #### b. Accès au serveur distant via SSH et MobaXTerm
 
@@ -113,21 +113,26 @@ L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windo
 
 MobaXTerm permet également de sauvegarder les paramètres de connexion (adresse IP, utilisateur, clé d'authentification) sous forme de sessions, ce qui évite de les ressaisir à chaque connexion.
 
-#### c. Les artefacts à déployer
+#### c. Les artefacts à déployer et le flux de la wheel apix-tools
 
 Avant de lancer un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**. Ces artefacts sont produits en amont par les pipelines de build de chaque dépôt GitLab, et regroupent tout ce dont le serveur a besoin pour faire tourner la nouvelle version.
 
-Pour une mise à jour de PixL API et de PixL Console, les artefacts à récupérer sont les suivants :
+Le flux complet de la wheel apix-tools jusqu'à la production est le suivant : l'alternant compile la wheel apix-tools (versions Windows pour développement et Linux pour production) et la stocke dans un dépôt partagé. Lors du lancement du pipeline CI/CD de PixL API, celui-ci récupère automatiquement la wheel apix-tools spécifiée par son numéro de version dans le fichier `requirements.txt`, et l'intègre directement dans l'archive ZIP finale. De cette façon, lorsque l'archive ZIP est extraite sur le serveur de production, la wheel apix-tools se trouve déjà à l'intérieur (dans le répertoire `whl/` de l'archive), prête à être installée. C'est le pipeline qui gère cette intégration, éliminant le besoin de transférer la wheel séparément.
 
-- **Les archives ZIP produites par le pipeline CI/CD** : chaque service est empaqueté par son pipeline GitLab dans une archive ZIP structurée. Pour PixL API, l'archive contient le projet Django, ses dépendances Python pré-installées, et **la wheel apix-tools déjà intégrée** — c'est le pipeline qui se charge de la récupérer et de l'inclure dans le paquet final, de sorte que la wheel n'a jamais besoin d'être transférée séparément sur le serveur. Pour PixL Console, l'archive contient le backend Django minimal ainsi que le build du frontend Vue.js, c'est-à-dire les fichiers HTML, JavaScript et CSS produits par `npm run build`, prêts à être servis.
+Pour une mise à jour de PixL API, PixL Console et PixL Modbus, les artefacts à récupérer sont les suivants :
 
-- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
+- **Les archives ZIP produites par le pipeline CI/CD** : chaque service est empaqueté par son pipeline GitLab dans une archive ZIP structurée.
+  - **PixL API** (`pixl-api-x.y.z.zip`) : contient le projet Django, ses dépendances Python, et **la wheel apix-tools déjà intégrée dans le répertoire `whl/`**. Cette intégration dans le ZIP garantit que tous les éléments nécessaires sont présents lors du déploiement.
+  - **PixL Console** (`pixl-console-x.y.z.zip`) : contient le backend Django minimal (API endpoints uniquement), ainsi que le build du frontend Vue.js, c'est-à-dire les fichiers HTML, JavaScript et CSS produits par `npm run build`, prêts à être servis.
+  - **PixL Modbus** (fourni sous forme de `.deb` ou `.tgz`) : le serveur Modbus qui dépend également de la wheel apix-tools pour ses fonctionnalités internes.
+
+- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console.sh`, `script_upgrade_pixl_modbus.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
 
 #### d. Le processus de déploiement pas à pas
 
 Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées. Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
 
-**Étape 1 — Transfert des fichiers vers le serveur.** À l'aide du gestionnaire de fichiers intégré de MobaXTerm, les artefacts préparés sont glissés-déposés depuis le poste Windows vers un répertoire temporaire sur le serveur, typiquement un sous-répertoire dédié aux mises à jour sous `/usr/bin/apix/`. Cette opération utilise SCP en arrière-plan et chiffre les fichiers pendant le transfert, ce qui garantit qu'ils ne peuvent pas être interceptés ou altérés sur le réseau.
+**Étape 1 — Transfert des fichiers vers le serveur.** À l'aide du gestionnaire de fichiers intégré de MobaXTerm, les artefacts préparés sont glissés-déposés depuis le poste Windows vers un répertoire temporaire sur le serveur, typiquement un sous-répertoire dédié aux mises à jour sous `/usr/bin/apix/updates/`. Cette opération utilise SCP en arrière-plan et chiffre les fichiers pendant le transfert, ce qui garantit qu'ils ne peuvent pas être interceptés ou altérés sur le réseau.
 
 **Étape 2 — Attribution des droits d'exécution aux scripts.** Sous Linux, un fichier n'est pas exécutable par défaut : il faut explicitement lui accorder ce droit. Or, lors d'un transfert SCP depuis Windows, les permissions Linux des fichiers ne sont pas toujours préservées correctement. Il est donc nécessaire d'exécuter manuellement la commande suivante dans le terminal SSH pour rendre les scripts exécutables :
 
@@ -137,24 +142,27 @@ chmod 755 script_upgrade_*.sh
 
 La commande `chmod` (pour *change mode*) modifie les permissions d'un fichier sous Linux. La valeur `755` est une notation octale qui signifie : lecture, écriture et exécution pour le propriétaire du fichier (`7`), et lecture et exécution uniquement pour les autres utilisateurs (`5`). Sans cette étape, Linux refuserait de lancer les scripts avec une erreur *Permission denied*.
 
-**Étape 3 — Exécution des scripts de mise à jour.** Une fois les permissions correctement définies, les scripts de mise à jour sont exécutés dans le terminal SSH. Chaque script prend en argument l'archive ZIP récupérée depuis le pipeline CI/CD :
+**Étape 3 — Exécution des scripts de mise à jour.** Une fois les permissions correctement définies, les scripts de mise à jour sont exécutés dans le terminal SSH. Chaque script prend en argument l'archive récupérée depuis le pipeline CI/CD :
 
 ```bash
-/scripts/script_upgrade_pixl_api.sh     pixl-api-x.y.z.zip
-/scripts/script_upgrade_pixl_console.sh poc-console-x.y.z.zip
+bash script_upgrade_pixl_api.sh     pixl-api-1.0.0.zip
+bash script_upgrade_pixl_console.sh pixl-console-1.0.0.zip
+bash script_upgrade_pixl_modbus.sh  apix-pixl-modbus-4.4.2.tgz
 ```
 
-Le script reçoit l'archive en paramètre afin de savoir quelle version déployer : c'est ce fichier ZIP, produit et versionné par le pipeline GitLab, qui fait office de source de vérité pour le déploiement. Cette conception permet de rejouer un déploiement pour n'importe quelle version passée en fournissant l'archive correspondante, sans modifier le script lui-même.
+Le script reçoit l'archive en paramètre afin de savoir quelle version déployer : c'est ce fichier ZIP ou TGZ, produit et versionné par le pipeline GitLab, qui fait office de source de vérité pour le déploiement. Cette conception permet de rejouer un déploiement pour n'importe quelle version passée en fournissant l'archive correspondante, sans modifier le script lui-même.
 
-Ces scripts automatisent un enchaînement d'opérations qui seraient longues et risquées à réaliser à la main : arrêt du conteneur Docker en cours d'exécution, extraction de l'archive ZIP de la nouvelle version, remplacement des anciens fichiers, mise à jour du fichier de variables d'environnement `.env` avec le nouveau numéro de version, reconstruction de l'image Docker, et redémarrage du conteneur. L'utilisation de scripts garantit la reproductibilité du déploiement : chaque mise à jour suit exactement la même séquence d'opérations, ce qui réduit le risque d'erreur humaine et facilite le diagnostic en cas de problème.
+Ces scripts automatisent un enchaînement d'opérations qui seraient longues et risquées à réaliser à la main : arrêt du conteneur Docker en cours d'exécution, extraction de l'archive de la nouvelle version, remplacement des anciens fichiers, mise à jour du fichier de variables d'environnement `.env` avec les nouveaux numéros de version, reconstruction de l'image Docker, et redémarrage du conteneur. L'utilisation de scripts garantit la reproductibilité du déploiement : chaque mise à jour suit exactement la même séquence d'opérations, ce qui réduit le risque d'erreur humaine et facilite le diagnostic en cas de problème.
 
 **Étape 4 — Vérification de l'état des services.** Une fois les scripts exécutés, il est indispensable de vérifier que chaque service a bien démarré et fonctionne correctement. Cette vérification se fait via des commandes Docker dans le terminal SSH :
 
 ```bash
 docker ps -a
+docker-compose logs pixl-api
+docker-compose logs pixl-console
 ```
 
-Cette commande liste tous les conteneurs Docker présents sur la machine, qu'ils soient en cours d'exécution ou arrêtés, avec leur état, leur nom, et les ports réseau qu'ils exposent. Un conteneur dont le statut affiche `Up` est en fonctionnement normal ; un statut `Exited` ou `Restarting` indique un problème qui nécessite d'aller consulter les logs du conteneur concerné.
+La commande `docker ps -a` liste tous les conteneurs Docker présents sur la machine, qu'ils soient en cours d'exécution ou arrêtés, avec leur état, leur nom, et les ports réseau qu'ils exposent. Un conteneur dont le statut affiche `Up` est en fonctionnement normal ; un statut `Exited` ou `Restarting` indique un problème qui nécessite d'aller consulter les logs du conteneur via `docker-compose logs [service_name]`.
 
 #### e. Architecture Docker et orchestration des services
 
@@ -162,29 +170,33 @@ Il est important de comprendre comment les différents services de la PixL Suite
 
 Chaque composant de la suite — PixL API, PixL Console et le serveur Modbus — tourne dans un **conteneur Docker** séparé. Un conteneur Docker est un environnement d'exécution isolé qui embarque le code de l'application, son interpréteur Python (ou tout autre runtime), ses bibliothèques et ses fichiers de configuration, de manière totalement indépendante du système hôte. L'analogie courante est celle d'un appartement dans un immeuble : chaque conteneur dispose de son propre espace, de ses propres ressources, et les défaillances d'un conteneur n'affectent pas directement les autres.
 
-Ces conteneurs sont orchestrés par **Docker Compose**, un outil qui permet de définir et de gérer plusieurs conteneurs comme un ensemble cohérent à l'aide d'un unique fichier de configuration : `docker-compose.yml`. Ce fichier décrit pour chaque service l'image Docker à utiliser, les ports réseau à exposer, les volumes de données à monter (pour que les fichiers de configuration persistent entre les redémarrages), et les dépendances entre services (par exemple, PixL Console dépend de PixL API pour fonctionner).
+Ces conteneurs sont orchestrés par **Docker Compose**, un outil qui permet de définir et de gérer plusieurs conteneurs comme un ensemble cohérent à l'aide d'un unique fichier de configuration : `docker-compose.yml`. Ce fichier décrit pour chaque service l'image Docker à utiliser, les ports réseau à exposer, les volumes de données à monter (pour que les fichiers de configuration, notamment `custom.json`, persistent entre les redémarrages), et les dépendances entre services (par exemple, PixL Console dépend de PixL API pour fonctionner).
 
-Un fichier annexe, `.env`, centralise les variables d'environnement partagées par tous les services, dont en particulier les numéros de version de chaque image Docker. Ce découplage entre la définition de l'architecture (`docker-compose.yml`) et les valeurs concrètes (`.env`) permet de mettre à jour une version sans toucher à la structure du déploiement.
+Un fichier annexe, `.env`, centralise les variables d'environnement partagées par tous les services :
+
+```
+PIXL_API_VERSION=1.0.0
+PIXL_CONSOLE_VERSION=1.0.0
+PIXL_MODBUS_VERSION=4.4.2
+APIX_TOOLS_VERSION=3.1.0
+```
+
+Ce découplage entre la définition de l'architecture (`docker-compose.yml`) et les valeurs concrètes (`.env`) permet de mettre à jour une version sans toucher à la structure du déploiement. Les scripts de mise à jour modifient automatiquement ces variables dans le fichier `.env` pour refléter les nouvelles versions déployées.
 
 #### f. Difficultés rencontrées
 
-La mise en production a mis en lumière plusieurs catégories de problèmes qui ne se manifestent pas en développement local et qui sont caractéristiques des environnements de production industriels.
+La mise en production a mis en lumière plusieurs problèmes qui ne se manifestent pas en développement local.
 
-**Gestion des permissions Linux.** Linux dispose d'un système de permissions granulaire qui définit, pour chaque fichier et répertoire, qui peut le lire, le modifier ou l'exécuter. Les fichiers transférés depuis Windows par SCP héritaient parfois de permissions inadaptées au contexte de production : des scripts non exécutables bloquaient le déploiement, des répertoires de logs étaient inaccessibles en écriture par les processus applicatifs, ou des fichiers de configuration étaient lisibles par des utilisateurs non autorisés. Il a fallu définir rigoureusement les droits selon la nature de chaque fichier. Les répertoires recevaient la valeur `2750` : la lecture et l'exécution pour le groupe (mais pas l'écriture), et le bit SGID (le chiffre `2`) qui force les nouveaux fichiers créés dans le répertoire à hériter automatiquement du groupe parent. Les fichiers de configuration recevaient `0640` (lecture-écriture pour le propriétaire, lecture seule pour le groupe, aucun droit pour les autres), et les scripts `0755`.
+**Erreur de version en cascade : mauvaise référence dans le fichier `.env`.** La principale difficulté rencontrée lors de la mise en production était une incohérence entre les numéros de version spécifiés dans le fichier `.env` et les archives réellement déployées. Concrètement, lors du déploiement de PixL Console, le script d'installation avait mis à jour `PIXL_CONSOLE_VERSION` avec le nouveau numéro de version, mais n'avait pas correctement mis à jour `APIX_TOOLS_VERSION` pour refléter la nouvelle version de la wheel apix-tools intégrée dans le ZIP. Résultat : au démarrage du conteneur PixL API, celui-ci tentait de charger la wheel apix-tools en se basant sur le numéro de version spécifié dans `.env` (l'ancienne version), ne la trouvait pas, et échouait avec une erreur `ModuleNotFoundError: No module named 'apix_tools'`. La wheel était bien présente sur le serveur avec le nouveau numéro de version — mais `.env` n'avait pas été mis à jour pour le refléter.
 
-**Orchestration Docker et conflits d'état.** Un problème récurrent lors des mises à jour consistait en des conflits entre l'ancien et le nouvel état des conteneurs. Si un conteneur de l'ancienne version occupait encore un port réseau au moment où le nouveau tentait de démarrer, ce dernier échouait avec une erreur de conflit de port. La solution est de toujours effectuer un arrêt complet de l'ensemble des services avant de lancer la nouvelle version :
+Pour identifier ce bug, nous avons consulté les logs du conteneur via `docker-compose logs pixl-api`, qui affichait l'erreur de module introuvable, puis comparé le numéro de version dans `.env` (`APIX_TOOLS_VERSION=3.0.0`) avec la version réelle du fichier wheel présent dans l'archive (`apix_tools-3.1.0-py3-none-linux_x86_64.whl`). Une fois l'incohérence constatée, il a suffi de corriger manuellement `.env` avec le bon numéro de version et de redémarrer le conteneur via `docker-compose restart pixl-api`.
 
-```bash
-docker-compose down
-```
+Ce type de bug est particulièrement difficile à diagnostiquer en production : le script de déploiement s'exécute sans signaler d'erreur explicite, mais le conteneur échoue au démarrage avec un message qui pointe vers la wheel manquante plutôt que vers le véritable problème — l'absence de mise à jour de `.env`.
 
-Cette commande arrête proprement tous les conteneurs définis dans le `docker-compose.yml` et libère les ressources réseau associées, évitant ainsi tout conflit lors du redémarrage. De même, une mise à jour incomplète du fichier `.env` — par exemple, si la version de PixL API était mise à jour mais pas celle de PixL Console — entraînait des incompatibilités entre services, car ils ne partageaient plus les mêmes formats de données ou les mêmes protocoles de communication internes.
-
-**Divergence entre environnement de développement et de production.** Certains problèmes ne se manifestaient qu'en production et étaient absents en développement local. Le cas le plus représentatif concerne les chemins vers les fichiers de configuration. En développement, les fichiers `custom.json` et les fichiers de protocole se trouvaient dans des répertoires relatifs au projet, facilement accessibles. En production, la structure des répertoires est différente : les fichiers de configuration sont dans `/usr/bin/apix/Settings/`, séparés des exécutables. Des chemins codés en dur dans le code source, qui fonctionnaient en local, pointaient vers des emplacements inexistants en production. Ces situations ont mis en évidence l'importance de ne jamais coder en dur des chemins de fichiers dans le code source, et de toujours les rendre configurables via des variables d'environnement ou des paramètres, ce que le mécanisme `CUSTOM_CONFIG_PATH` introduit dans PixL API permettait précisément de faire.
-
+**Migrations Django dans un état incohérent.** Un deuxième ensemble de problèmes est apparu en raison des migrations Django. Dans Django, les migrations sont des fichiers qui décrivent l'évolution du schéma de la base de données au fil du temps. Lorsqu'un conteneur démarre, Django exécute automatiquement les migrations en attente avant de pouvoir servir des requêtes. En raison du refactoring important de PixL Console — passage d'un backend Django monolithique à une API REST couplée à un frontend Vue.js — certaines migrations anciennement créées n'étaient plus applicables à la nouvelle structure du code, créant un état incohérent qui bloquait le démarrage du conteneur. Il a fallu identifier les migrations problématiques en analysant les logs Django, corriger leur état, et vérifier la cohérence entre la base de données et les migrations restantes.
 
 #### g. Résultats et apports
 
-À l'issue des déploiements successifs, l'ensemble des composants de la PixL Suite fonctionnait correctement en production. Le serveur Modbus répondait aux requêtes des équipements industriels connectés ; l'API REST exposait ses routes avec la wheel apix-tools correctement intégrée, permettant la lecture et l'écriture dynamiques des fichiers de protocole ; la console web servait l'interface Vue.js et communiquait correctement avec l'API.
+À l'issue des déploiements successifs et après correction des problèmes identifiés, l'ensemble des composants de la PixL Suite fonctionnait correctement en production. Le serveur Modbus répondait aux requêtes des équipements industriels connectés ; l'API REST exposait ses routes avec la wheel apix-tools correctement intégrée, permettant la lecture et l'écriture dynamiques des fichiers de protocole définis dans `custom.json` ; la console web servait l'interface Vue.js et communiquait correctement avec l'API.
 
-Au-delà du résultat technique, cette phase de mise en production a constitué une expérience particulièrement formatrice. Elle m'a confronté à une réalité de l'ingénierie logicielle souvent sous-estimée en formation : la distance qui sépare un code qui fonctionne en développement local d'un code qui fonctionne de manière fiable et durable en production. Les contraintes sont d'une nature différente — permissions système, isolation des conteneurs, gestion des versions entre services interdépendants, vérification systématique de chaque maillon de la chaîne — et ne peuvent s'appréhender pleinement qu'en les rencontrant concrètement.
+Au-delà du résultat technique, cette phase de mise en production a constitué une expérience formatrice sur la rigueur qu'exige un environnement de production. Des erreurs en apparence anodines — un numéro de version mal synchronisé dans `.env`, des migrations dans un état incohérent — peuvent bloquer complètement un déploiement ou produire un comportement incorrect difficile à diagnostiquer à première vue. Cette expérience m'a appris l'importance de vérifier systématiquement chaque étape après exécution, de valider la cohérence entre les variables d'environnement et les artefacts réellement présents, et de ne pas considérer qu'un script qui « ne produit pas d'erreur » a nécessairement produit le résultat attendu. En production, le silence n'est pas synonyme de succès : il faut toujours valider activement l'état final du système.
