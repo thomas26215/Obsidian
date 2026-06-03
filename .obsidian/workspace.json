@@ -59,14 +59,52 @@
             "id": "0deaa5b26158221d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sans titre 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Sans titre 2"
+            }
+          },
+          {
+            "id": "0e99404b1877560f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dc"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,6 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour dc"
             }
           },
           {
@@ -266,8 +305,10 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "0deaa5b26158221d",
+  "active": "0e99404b1877560f",
   "lastOpenFiles": [
+    "dc.md",
+    "Sans titre 2.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
@@ -304,7 +345,6 @@
     "Untitled 16.md",
     "Untitled 15.md",
     "Projets/Finish/Stage 2e annee/Travail 1.md",
-    "Projets/Finish/Stage 2e annee/Action based image.md",
     "Pasted image 20260324100959.png",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Pasted image 20260121231328.png",
