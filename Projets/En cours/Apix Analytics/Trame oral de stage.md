@@ -103,30 +103,7 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - **1 difficulté marquante** : bug `ModuleNotFoundError` dû à `APIX_TOOLS_VERSION` non synchronisé dans `.env` → leçon « en production, le silence ≠ succès »
 - 🖼️ **Schéma du flux de déploiement** : poste Windows → SCP/SSH → serveur Linux → conteneurs Docker
 
-```mermaid
-flowchart LR
-    subgraph WIN["💻 Poste Windows (dev)"]
-        A["Code + fichiers<br/>de déploiement"]
-        M["MobaXTerm"]
-    end
 
-    subgraph LNX["🐧 Serveur Linux / Debian"]
-        direction TB
-        F["Fichiers transférés<br/>(.env, docker-compose)"]
-        subgraph DOCK["🐳 Docker Compose"]
-            direction TB
-            O["Orchestrateur"]
-            API["PixL API"]
-            MOD["Module Modbus"]
-            WEB["Interfaces web"]
-            DB[("PostgreSQL")]
-        end
-        F -->|"docker compose up"| DOCK
-    end
-
-    A -->|"SCP (copie fichiers)"| F
-    M -->|"SSH (connexion / commandes)"| LNX
-```
 
 - 🖼️ **Capture du terminal MobaXTerm** (logs `docker ps -a` ou l'erreur `ModuleNotFoundError`)
 

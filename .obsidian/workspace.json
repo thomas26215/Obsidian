@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sans titre 3.md",
+                "file": "Untitled 15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sans titre 3"
+              "title": "Untitled 15"
             }
           }
         ],
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27635c5cbfaacc8a",
@@ -341,7 +340,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "3234c4be2b374655",
+  "active": "f94816c6a68240be",
   "lastOpenFiles": [
     "Sans titre 3.md",
     "Littéraire/Untitled.md",
