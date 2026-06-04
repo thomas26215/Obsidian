@@ -12,11 +12,11 @@
 - Nom, formation, dates du stage (fin mars → fin juin 2026)
 - APIX Analytics — tutrice : Élodie Baral-Baron
 - 🖼️ **Logo APIX** en grand + éventuellement photo d'un analyseur CHROMPIX/GREENPIX en fond ou en coin
-- 🖼️ Logo de ton école/formation
+- 🖼️ Logo de l'école/formation
 
 ## Slide 2 — Plan *(~30 s)*
-Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → bilan.
-- 🖼️ **Sommaire visuel** : 4 blocs/icônes numérotés (entreprise 🏢 / besoin ❓ / réalisation 🛠️ / bilan ✅), pas juste du texte
+Annoncer les 4 temps : l'entreprise → le besoin → la réalisation → bilan.
+- 🖼️ **Sommaire visuel** : 4 blocs/icônes numérotés (entreprise 🏢 / besoin ❓ / réalisation 🛠️ / bilan ✅)
 
 ---
 
@@ -32,10 +32,9 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - 🖼️ Petit **schéma chromatographie** : mélange gazeux → colonne → composants séparés → concentrations (très simplifié)
 
 ### Slide 4 — La PixL Suite
-- **PixL Expert** (Vue.js) qui remplace l'ancienne interface full Django → c'est là que je travaille
+- **PixL Expert** (Vue.js) qui remplace l'ancienne interface full Django → périmètre du stage
 - 🖼️ **Schéma d'architecture** : PC embarqué (cadre) contenant des conteneurs Docker → orchestrateur / PixL API / module Modbus / interfaces web + base PostgreSQL
-- 🖼️ Mettre en surbrillance/encadrer **PixL Expert** pour montrer où se situe ton travail
-- 🖼️ **Capture d'écran de PixL Expert** (vue d'ensemble de l'interface)
+- 🖼️ Mettre en surbrillance/encadrer **PixL Expert** pour montrer où se situe le travail réalisé
 
 ---
 
@@ -52,7 +51,6 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - Travail **full-stack** : backend Python (routes API) + frontend Vue.js
 - Projet **itératif, sans cahier des charges formel** → point de méthode à souligner
 - 🖼️ **Schéma avant → après** : JSON brut à gauche → interface graphique à droite (flèche entre les deux)
-- 🖼️ Bandeau **logos de la stack** (Python, Django, Vue.js) pour annoncer le full-stack
 
 ---
 
@@ -69,8 +67,6 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - Frontend : Vue.js 3, Pinia, Axios, AG Grid
 - Git/GitLab + CI/CD, réunion hebdo du lundi, méthode agile
 - 🖼️ **Logos** des technologies organisés en 2 colonnes (backend / frontend)
-- 🖼️ **Schéma des 3 dépôts** GitLab et leurs dépendances (Apix Tools → PixL Api / PixL Console)
-- 🖼️ Petite **frise/icône** réunion hebdo du lundi (optionnel)
 
 ### Slide 9 — Architecture backend : ModelMother
 - Le problème : sérialiser / désérialiser objets Python ↔ JSON
@@ -129,46 +125,14 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 
 ### Slide 17 — Remerciements / Questions
 - 🖼️ **Logo APIX** + « Merci de votre attention »
-- 🖼️ Tes **coordonnées** (mail) en pied de slide
+- 🖼️ **Coordonnées** (mail) en pied de slide
 
 ---
 
 ## Conseils de présentation
-- **Garder l'équilibre** : ne pas passer 10 min sur l'entreprise. Le jury attend surtout **ce que TU as fait** → parties 3 et 4.
-- **Privilégier les visuels au texte** : sur chaque slide, une image/schéma vaut mieux qu'un paragraphe. Tu commentes à l'oral, la slide illustre.
+- **Garder l'équilibre** : ne pas passer 10 min sur l'entreprise. Le jury attend surtout **la réalisation** → parties 3 et 4.
+- **Privilégier les visuels au texte** : sur chaque slide, une image/schéma vaut mieux qu'un paragraphe. Commenter à l'oral pendant que la slide illustre.
 - **Préparer LA démo ou capture** du conflit d'adresses et de l'éditeur protocole : résultat le plus visuel.
 - **Anticiper les questions** : pourquoi AG Grid ? pourquoi une liste plate plutôt que l'arbre ? différence holding/input register ? comment valider sans cahier des charges ?
 - Viser **~1 min par slide** ; les slides 11 et 13 méritent un peu plus.
 
-## Visuels à préparer en amont (checklist)
-- [ ] Logo APIX (HD) + logo école
-- [ ] Photo d'un analyseur CHROMPIX/GREENPIX
-- [ ] Schéma chromatographie simplifié
-- [ ] Schéma d'architecture PixL Suite (PC embarqué + conteneurs Docker)
-- [ ] Capture d'ensemble de PixL Expert
-- [ ] Extrait brut de `protocol.json` (effet « illisible »)
-- [ ] Schéma avant → après (JSON brut → interface)
-- [ ] Schéma maître/esclave Modbus
-- [ ] Schéma registres (float32 sur 2 cases)
-- [ ] Logos de la stack technique
-- [ ] Schéma des 3 dépôts GitLab
-- [ ] Schéma sérialisation ModelMother + arbre des classes
-- [ ] Schéma dict ⇄ list
-- [ ] Capture ModbusPart.vue (onglets ports série)
-- [ ] Capture tableau AG Grid (RegisterMapPart.vue)
-- [ ] Capture fenêtre modale d'édition
-- [ ] Capture conflit d'adresses détecté (★ la plus importante)
-- [ ] GIF/capture du drag & drop
-- [ ] Schéma flux de déploiement
-- [ ] Capture terminal MobaXTerm (erreur / logs Docker)
-- [ ] Extrait `.env` avec version incohérente
-- [ ] Capture finale de l'interface aboutie
-
-## Questions probables du jury (à préparer)
-- [ ] Pourquoi avoir choisi AG Grid plutôt qu'un tableau maison ?
-- [ ] Pourquoi convertir la hiérarchie en liste plate côté frontend ?
-- [ ] Quelle différence entre holding register et input register ?
-- [ ] Comment as-tu géré l'absence de cahier des charges formel ?
-- [ ] Qu'est-ce que la configuration-driven UI t'apporte concrètement ?
-- [ ] Comment fonctionne la détection de conflits d'adresses ?
-- [ ] Qu'aurais-tu fait différemment / quelles évolutions possibles ?
