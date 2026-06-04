@@ -297,6 +297,16 @@
             "id": "de63a9beb73ea6d2",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "3234c4be2b374655",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -304,7 +314,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -331,7 +341,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f94816c6a68240be",
+  "active": "3234c4be2b374655",
   "lastOpenFiles": [
     "Sans titre 3.md",
     "Littéraire/Untitled.md",

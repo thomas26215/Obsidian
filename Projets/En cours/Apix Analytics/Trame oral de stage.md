@@ -85,8 +85,6 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - Idée réutilisable : **route générique d'énumérations** `/settings/enums/<enum_name>/` (importlib)
 - Gestion des ports série en onglets dynamiques
 - 🖼️ **Capture d'écran de ModbusPart.vue** (le formulaire réseau avec les onglets de ports série)
-- 🖼️ **Mini-schéma de la route générique** : frontend → `/settings/enums/baud_rate_enum/` → liste déroulante remplie
-- 🖼️ Extrait visuel d'un **message de validation** (ex. port hors plage)
 
 ### Slide 11 — Éditeur `protocol.json` (RegisterMapPart.vue) *(le plus complexe — insister)*
 - Structure hiérarchique → liste plate pour l'affichage
@@ -94,22 +92,43 @@ Annoncer les 4 temps : l'entreprise → le besoin → ce que j'ai réalisé → 
 - Tableau **AG Grid** avec drag & drop
 - **Détection de conflits d'adresses** (calcul des plages occupées)
 - 🖼️ **Capture du tableau AG Grid** (colonnes Register / Address / Source / Name / Format / Factor)
-- 🖼️ **Schéma config-driven UI** : backend `/protocol/formats` → dicte les champs/colonnes au frontend
 - 🖼️ **Capture de la fenêtre modale** d'ajout/édition (formulaire dynamique selon la sous-section)
 
 ### Slide 12 — Démo / captures d'écran
-- Mini-démo en direct si possible, sinon captures commentées
-- 🖼️ **Capture du conflit d'adresses détecté** (lignes signalées visuellement) → ton résultat le plus parlant
 - 🖼️ **Capture avant/après** ou GIF court du drag & drop pour réordonner les registres
-- 🖼️ Si démo live : prévoir une **capture de secours** au cas où la démo échoue
 
 ### Slide 13 — Tests & mise en production
 - Tests manuels : cas nominaux + cas limites, vérification du JSON généré
 - Déploiement : serveur Linux/Debian, SSH/MobaXTerm, Docker Compose, `.env`
 - **1 difficulté marquante** : bug `ModuleNotFoundError` dû à `APIX_TOOLS_VERSION` non synchronisé dans `.env` → leçon « en production, le silence ≠ succès »
 - 🖼️ **Schéma du flux de déploiement** : poste Windows → SCP/SSH → serveur Linux → conteneurs Docker
+
+```mermaid
+flowchart LR
+    subgraph WIN["💻 Poste Windows (dev)"]
+        A["Code + fichiers<br/>de déploiement"]
+        M["MobaXTerm"]
+    end
+
+    subgraph LNX["🐧 Serveur Linux / Debian"]
+        direction TB
+        F["Fichiers transférés<br/>(.env, docker-compose)"]
+        subgraph DOCK["🐳 Docker Compose"]
+            direction TB
+            O["Orchestrateur"]
+            API["PixL API"]
+            MOD["Module Modbus"]
+            WEB["Interfaces web"]
+            DB[("PostgreSQL")]
+        end
+        F -->|"docker compose up"| DOCK
+    end
+
+    A -->|"SCP (copie fichiers)"| F
+    M -->|"SSH (connexion / commandes)"| LNX
+```
+
 - 🖼️ **Capture du terminal MobaXTerm** (logs `docker ps -a` ou l'erreur `ModuleNotFoundError`)
-- 🖼️ **Extrait du fichier `.env`** mettant en évidence le numéro de version incohérent
 
 ---
 
