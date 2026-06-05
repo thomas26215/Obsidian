@@ -1,0 +1,19 @@
+/* Justifie le texte des notes ayant la cssclass "justify" (lecture, édition, PDF) */
+.justify.markdown-preview-view p,
+.justify.markdown-preview-view li,
+.justify.markdown-rendered p,
+.justify.markdown-rendered li,
+.justify .markdown-preview-view p,
+.justify .markdown-preview-view li,
+.justify .markdown-rendered p,
+.justify .markdown-rendered li,
+.justify.markdown-source-view.is-live-preview .cm-line {
+  text-align: justify;
+}
+
+@media print {
+  .justify p,
+  .justify li {
+    text-align: justify;
+  }
+}

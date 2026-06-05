@@ -1,3 +1,7 @@
+---
+cssclasses:
+  - justify
+---
 ![[Pasted image 20250601140945.png]]
 
 # Rapport de stage
