@@ -93,8 +93,6 @@ Le développement de cet outil impliquait plusieurs contraintes techniques impor
 
 ### 1. Stack technique
 
-> 🖼️ *À insérer — Logos des technologies en 2 colonnes : backend (Python, Django, DRF) / frontend (Vue.js 3, Pinia, Axios, AG Grid).*
-
 Le projet reposait sur deux environnements techniques distincts et complémentaires, dont la maîtrise simultanée constituait l'une des exigences principales du stage.
 
 Côté **backend**, le développement s'est fait en **Python**, avec le framework **Django** et son extension **Django REST Framework**. Django est l'un des frameworks web Python les plus répandus : il fournit une structure d'application claire, un système de routage des requêtes HTTP, et de nombreux outils prêts à l'emploi pour la gestion des données et des utilisateurs. Django REST Framework complète Django pour la construction d'API REST, en simplifiant la sérialisation des données et la gestion des formats de réponse. Les modifications portaient sur trois dépôts distincts : **Apix Tools**, qui contient les modèles de données et utilitaires partagés, **PixL Api**, qui expose les routes REST consommées par le frontend, et **PixL Console** (POC), qui héberge le projet Vue.js de PixL Expert.
@@ -527,8 +525,3 @@ Au-delà du résultat technique, cette phase de mise en production a constitué 
 
 ![[modbus-maitre-esclave.png|400]]
 *Schéma simplifié du modèle maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
-
-### Annexe B — Hiérarchie des classes de modèles (vue alternative)
-
-![[modelmother-hierarchie-2.png|700]]
-*Vue alternative de l'arborescence des classes héritant de `ModelMother`.*
