@@ -26,7 +26,7 @@ La suite se compose de plusieurs logiciels aux rôles complémentaires :
 
 - **L'orchestrateur général** coordonne l'ensemble des composants embarqués, pilote les cycles d'analyse et gère les états du système.
 - **PixL API** est une API REST sécurisée qui sert de passerelle entre le PC embarqué et le monde extérieur. C'est l'interface par laquelle les opérateurs et les systèmes tiers accèdent aux données et aux fonctions de configuration de l'analyseur.
-- **Le module Modbus** assure la communication avec les automates industriels et les systèmes SCADA environnants, selon le protocole standard Modbus (TCP et série). C'est ce module qui lit les fichiers de configuration `network.json` et `protocol.json` pour construire la table des registres qu'il expose.
+- **Le module Modbus** assure la communication avec les automates industriels environnants, selon le protocole standard Modbus (TCP et série). C'est ce module qui lit les fichiers de configuration `network.json` et `protocol.json` pour construire la table des registres qu'il expose.
 - **Les interfaces web** permettent aux opérateurs de visualiser les données de mesure en temps réel, configurer l'appareil et diagnostiquer les alarmes depuis un navigateur, sans accès physique à la machine.
 
 Parmi ces interfaces figure **PixL Expert**, une application web nouvelle génération développée en Vue.js, actuellement en cours de développement actif pour moderniser et remplacer l'interface existante — qui était développée en full Django, avec rendu des pages côté serveur via le système de templates Django. La transition vers PixL Expert vise à découpler clairement l'interface utilisateur du backend, à améliorer l'ergonomie et à faciliter les évolutions futures. C'est dans ce logiciel que s'inscrit directement mon travail de stage.
@@ -48,11 +48,11 @@ L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu 
 
 ### 1. Problématique : la configuration Modbus dans PixL Expert
 
-Le PixlExpert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP, permet à des automates ou des systèmes SCADA d'interroger l'analyseur et de récupérer ses mesures en temps réel.
+Le PixlExpert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP, permet à des automates ou des systèmes industriels tiers d'interroger l'analyseur et de récupérer ses mesures en temps réel.
 
 La configuration de cette communication repose sur deux fichiers JSON : `network.json`, qui définit les paramètres réseau de la connexion, et `protocol.json`, qui recense l'intégralité des registres Modbus exposés par l'appareil. Pour chaque registre, `protocol.json` décrit non seulement ses caractéristiques techniques (adresse, format, taille, facteur de conversion), mais aussi quelle information concrète est remontée via ce registre — nom du composant mesuré, type de valeur, catégorie d'alarme. C'est donc ce fichier qui fait le lien entre les adresses Modbus abstraites et les données métier de l'analyseur.
 
-Avant mon stage, il n'existait pas d'interface dédiée à l'édition de ces fichiers dans PixL Expert. Les opérateurs et techniciens devaient modifier directement les fichiers JSON à la main. Cette approche représentait deux catégories de problèmes. D'une part, un risque élevé d'erreurs : une faute de frappe dans une adresse, un mauvais format ou un facteur de conversion erroné peuvent rendre un registre illisible par le système SCADA sans qu'aucun message d'erreur ne le signale immédiatement. D'autre part, une perte de temps significative : sur un fichier comme `protocol.json`, qui peut recenser plusieurs centaines de registres répartis en de nombreuses catégories et niveaux d'imbrication, la navigation et la modification manuelles du JSON deviennent rapidement fastidieuses, même pour un développeur expérimenté. Construire une interface dédiée visait donc à la fois à fiabiliser les modifications et à réduire le temps nécessaire pour configurer ou adapter un protocole.
+Avant mon stage, il n'existait pas d'interface dédiée à l'édition de ces fichiers dans PixL Expert. Les opérateurs et techniciens devaient modifier directement les fichiers JSON à la main. Cette approche représentait deux catégories de problèmes. D'une part, un risque élevé d'erreurs : une faute de frappe dans une adresse, un mauvais format ou un facteur de conversion erroné peuvent rendre un registre illisible par le système qui l'interroge sans qu'aucun message d'erreur ne le signale immédiatement. D'autre part, une perte de temps significative : sur un fichier comme `protocol.json`, qui peut recenser plusieurs centaines de registres répartis en de nombreuses catégories et niveaux d'imbrication, la navigation et la modification manuelles du JSON deviennent rapidement fastidieuses, même pour un développeur expérimenté. Construire une interface dédiée visait donc à la fois à fiabiliser les modifications et à réduire le temps nécessaire pour configurer ou adapter un protocole.
 
 ### 2. Objectifs du stage
 
@@ -113,7 +113,7 @@ Avant de me lancer dans le développement, il était essentiel de maîtriser le 
 
 **Origine et adoption.** Modbus a été conçu en 1979 par la société Modicon pour permettre la communication entre ses automates programmables industriels. Malgré son âge, il reste aujourd'hui l'un des protocoles les plus répandus dans les environnements industriels, en raison de sa simplicité, de sa robustesse, et de la très large base d'équipements qui le supportent. On le retrouve dans les usines, les réseaux de distribution d'énergie, les stations de traitement des eaux, et naturellement dans les systèmes d'analyse de gaz industriels comme ceux d'APIX Analytics.
 
-**Modèle maître / esclave.** Modbus repose sur un modèle de communication dit maître/esclave. Dans ce modèle, un seul équipement — le maître — a le droit d'initier les échanges. Les autres équipements — les esclaves — attendent passivement les requêtes du maître et y répondent. Concrètement, dans le contexte d'APIX, un automate industriel ou un système SCADA joue le rôle de maître : il interroge régulièrement l'analyseur APIX — qui joue le rôle d'esclave Modbus — pour récupérer ses mesures. L'analyseur ne transmet jamais de données de manière spontanée ; il se contente de répondre aux questions qui lui sont posées.
+**Modèle maître / esclave.** Modbus repose sur un modèle de communication dit maître/esclave. Dans ce modèle, un seul équipement — le maître — a le droit d'initier les échanges. Les autres équipements — les esclaves — attendent passivement les requêtes du maître et y répondent. Concrètement, dans le contexte d'APIX, un automate industriel joue le rôle de maître : il interroge régulièrement l'analyseur APIX — qui joue le rôle d'esclave Modbus — pour récupérer ses mesures. L'analyseur ne transmet jamais de données de manière spontanée ; il se contente de répondre aux questions qui lui sont posées.
 
 **Les registres Modbus.** L'échange d'informations via Modbus se fait à travers des registres, que l'on peut assimiler à des cases mémoire numérotées situées dans l'esclave. Chaque registre porte un numéro d'adresse unique et contient une valeur numérique. Le maître lit ou écrit dans ces registres en envoyant des requêtes standardisées. Il existe plusieurs types de registres selon la nature de la donnée :
 
@@ -148,29 +148,24 @@ Cette analyse n'était pas purement technique : ma tutrice m'a expliqué la sign
 
 #### a. Le problème que résout ModelMother
 
-Pour comprendre le rôle de ModelMother, il faut d'abord comprendre le problème qu'il résout.
+Le backend Python manipule les données de configuration sous forme d'objets — des structures en mémoire regroupant données et comportements, selon le paradigme orienté objet. Ainsi, un objet `ProtocolParameters` contient un `HoldingRegisterParameters`, qui contient lui-même des collections d'`ElementParameters` et d'`AlarmEntryParameters`. Pratiques à manipuler en Python, ces objets ne peuvent pourtant pas être directement stockés dans un fichier ou transmis via une API : ils n'existent que le temps où le programme tourne en mémoire.
 
-Le backend Python manipule les données de configuration sous forme d'objets — des structures en mémoire qui regroupent des données et des comportements, selon le paradigme de la programmation orientée objet. Par exemple, un objet `ProtocolParameters` contient un objet `HoldingRegisterParameters`, qui contient lui-même des collections d'`ElementParameters` et d'`AlarmEntryParameters`. Ces objets sont pratiques à manipuler en Python, mais ils ne peuvent pas être directement stockés dans un fichier ou transmis via une API : ils n'existent que le temps où le programme tourne en mémoire.
-
-Pour les stocker ou les transmettre, il faut les **sérialiser** : convertir l'objet en une représentation textuelle standard — ici, du JSON. Et pour les recharger depuis le fichier, il faut les **désérialiser** : reconstruire l'objet Python à partir du dictionnaire JSON lu. Ces deux opérations constituent le cœur du problème de persistance des données.
-
-Sans mécanisme commun, chaque développeur qui crée une nouvelle classe devrait réécrire manuellement cette logique de conversion, au risque d'introduire des inconsistances entre les différentes parties du projet. C'est ce que ModelMother évite en centralisant ce mécanisme.
+Pour les conserver, il faut les **sérialiser** (convertir l'objet en JSON) puis les **désérialiser** (reconstruire l'objet Python à partir du JSON lu). Sans mécanisme commun, chaque nouvelle classe devrait réécrire cette logique de conversion, au risque d'introduire des inconsistances dans le projet. ModelMother évite cela en centralisant le mécanisme.
 
 #### b. Principe et rôle de la classe de base
 
-ModelMother est une classe de base définie dans le module `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base est une classe dont d'autres classes héritent : elle définit des comportements communs que toutes ses sous-classes partagent automatiquement, sans avoir à les réécrire.
+ModelMother est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
 
-ModelMother expose deux méthodes fondamentales :
-- `get_attributes_as_dict()` est la méthode de sérialisation. Elle parcourt l'ensemble des attributs de l'objet et les convertit en un dictionnaire Python — une structure native équivalente au JSON. Pour chaque attribut, elle adapte la conversion à son type : une valeur simple (entier, flottant, chaîne de caractères, booléen) est copiée directement ; un objet héritant lui-même de ModelMother est sérialisé récursivement en appelant sa propre méthode `get_attributes_as_dict()` ; une liste est parcourue élément par élément ; une énumération est convertie en sa valeur textuelle. ModelMother gère également un mécanisme d'attributs exclus (`excluded_attributes`) : certains attributs de l'objet, utiles en mémoire pour le fonctionnement interne mais non pertinents dans le fichier de configuration, sont déclarés dans cette liste et ignorés lors de la sérialisation. Par exemple, les attributs d'état temps réel d'une alarme (`level`, `metrological`, `critical`) sont présents dans la classe Python mais absents du JSON persisté.
-- `set_attributes_from_dict()` est la méthode de désérialisation. Elle prend un dictionnaire en entrée et remplit les attributs de l'objet de manière récursive : pour chaque clé du dictionnaire, elle identifie le type de l'attribut correspondant dans la classe Python et effectue la conversion inverse. Si l'attribut est lui-même un objet ModelMother, la méthode l'instancie et appelle récursivement `set_attributes_from_dict()` sur lui. Elle effectue également des contrôles de validité lors du chargement — par exemple, elle vérifie que les valeurs d'énumération présentes dans le JSON appartiennent bien aux valeurs autorisées — et peut déclencher une méthode de validation métier spécifique à chaque classe, `model_sanity_check()`, que les sous-classes peuvent surcharger.
+- `get_attributes_as_dict()` (sérialisation) parcourt les attributs de l'objet et les convertit en dictionnaire Python en adaptant la conversion à chaque type : valeur simple copiée directement, objet héritant de ModelMother sérialisé récursivement, liste parcourue élément par élément, énumération convertie en sa valeur textuelle. Un mécanisme d'attributs exclus (`excluded_attributes`) ignore les attributs utiles en mémoire mais non pertinents dans le fichier — par exemple les états temps réel d'une alarme (`level`, `metrological`, `critical`), présents dans la classe Python mais absents du JSON.
+- `set_attributes_from_dict()` (désérialisation) remplit récursivement les attributs à partir d'un dictionnaire : pour chaque clé, elle identifie le type de l'attribut et effectue la conversion inverse, instanciant et récursant sur les objets ModelMother imbriqués. Elle contrôle aussi la validité des données au chargement (valeurs d'énumération autorisées) et peut déclencher une validation métier propre à chaque classe, `model_sanity_check()`, surchargeable par les sous-classes.
 
-Grâce à cette récursivité, une seule instruction suffit à charger l'intégralité d'un fichier JSON hiérarchisé en un arbre d'objets Python parfaitement typés, quelle que soit la profondeur d'imbrication.
+Grâce à cette récursivité, une seule instruction charge l'intégralité d'un fichier JSON hiérarchisé en un arbre d'objets Python typés, quelle que soit la profondeur d'imbrication.
 
 #### c. La problématique du dictionnaire dans le dictionnaire : ModelDictToListMother
 
-C'est ici qu'intervient une limitation que j'ai rencontrée concrètement lors du développement, et que ma tutrice a résolue en étendant le framework.
+C'est ici qu'intervient une limitation rencontrée concrètement lors du développement, que ma tutrice a résolue en étendant le framework.
 
-Dans `protocol.json`, certaines sections présentent une structure particulière : au lieu d'une liste JSON classique, les éléments y sont stockés sous forme d'un dictionnaire dont les clés sont les noms des éléments. Par exemple, la section `elements_detailed` du holding register ressemble à ceci :
+Dans `protocol.json`, certaines sections stockent leurs éléments non pas dans une liste JSON, mais dans un dictionnaire dont les clés sont les noms des éléments. Par exemple, la section `elements_detailed` du holding register ressemble à ceci :
 
 ```json
 "elements_detailed": {
@@ -184,16 +179,16 @@ Dans `protocol.json`, certaines sections présentent une structure particulière
 }
 ```
 
-Ce format — un dictionnaire de dictionnaires — est courant dans les fichiers de configuration car il permet d'accéder directement à un élément par son nom. Mais il pose un problème lors de la manipulation en Python : pour parcourir tous les éléments, les trier, en ajouter ou en supprimer, une liste est bien plus pratique et naturelle qu'un dictionnaire. Or, ModelMother dans sa version d'origine ne gérait pas la conversion entre ces deux formes.
+Ce format — un dictionnaire de dictionnaires — permet d'accéder directement à un élément par son nom, mais complique la manipulation en Python : pour parcourir, trier, ajouter ou supprimer des éléments, une liste est bien plus naturelle. Or ModelMother, dans sa version d'origine, ne gérait pas la conversion entre ces deux formes.
 
-Ma tutrice a donc créé une nouvelle classe, `ModelDictToListMother`, accompagnée de deux fonctions récursives : `dictToList` et `fromDictToList`. Ces deux fonctions assurent la conversion bidirectionnelle entre les deux représentations :
+Ma tutrice a donc créé la classe `ModelDictToListMother`, accompagnée de deux fonctions récursives assurant la conversion bidirectionnelle :
 
-- `dictToList` parcourt le dictionnaire JSON indexé par nom et le convertit en une liste Python d'objets, en attachant le nom de la clé comme attribut de chaque objet. Ainsi, `"CAL-C2H4": { ... }` devient un objet `ElementDetailParameters` dont l'attribut `name` vaut `"CAL-C2H4"`.
-- `fromDictToList` effectue l'opération inverse lors de la sérialisation : elle reparcourt la liste Python et reconstruit le dictionnaire JSON indexé par nom à partir de l'attribut `name` de chaque objet.
+- `dictToList` convertit le dictionnaire JSON indexé par nom en liste Python d'objets, en attachant la clé comme attribut. Ainsi, `"CAL-C2H4": { ... }` devient un objet `ElementDetailParameters` dont l'attribut `name` vaut `"CAL-C2H4"`.
+- `fromDictToList` effectue l'opération inverse à la sérialisation : elle reconstruit le dictionnaire indexé par nom à partir de l'attribut `name` de chaque objet.
 
-La récursivité de ces fonctions est indispensable car la structure peut être profondément imbriquée : un élément détaillé contient lui-même plusieurs propriétés (`raw_value`, `normalized_value`, `response`, etc.), qui sont elles-mêmes des objets. `dictToList` et `fromDictToList` traversent tous ces niveaux sans que le code appelant ait à s'en préoccuper.
+La récursivité est indispensable car la structure peut être profondément imbriquée : un élément détaillé contient lui-même plusieurs propriétés (`raw_value`, `normalized_value`, `response`…), elles-mêmes des objets. Ces deux fonctions traversent tous les niveaux sans que le code appelant ait à s'en préoccuper.
 
-Cette extension a été intégrée dans le framework ModelMother de sorte que la méthode `get_attributes_as_dict()` reconnaisse automatiquement les objets `ModelDictToListMother` et leur applique `fromDictToList`, et que `set_attributes_from_dict()` leur applique `dictToList`. L'ajout de ce mécanisme était transparent pour le reste du code : les classes de modèles n'ont eu qu'à déclarer leurs attributs de type `ModelDictToListMother` pour bénéficier automatiquement de cette conversion.
+Cette extension a été intégrée à ModelMother de sorte que `get_attributes_as_dict()` applique automatiquement `fromDictToList` aux objets `ModelDictToListMother`, et `set_attributes_from_dict()` leur applique `dictToList`. L'ajout était transparent pour le reste du code : les classes de modèles n'ont eu qu'à déclarer leurs attributs de ce type pour en bénéficier.
 
 #### d. Hiérarchie des classes de modèles
 
@@ -389,11 +384,11 @@ L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windo
 
 #### c. Les artefacts à déployer et le flux de la wheel apix-tools
 
-Avant de lancer un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**. Ces artefacts sont produits en amont par les pipelines de build de chaque dépôt GitLab, et regroupent tout ce dont le serveur a besoin pour faire tourner la nouvelle version.
+Avant de lancer un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**. Produits en amont par les pipelines de build de chaque dépôt GitLab, ils regroupent tout ce dont le serveur a besoin pour faire tourner la nouvelle version.
 
-Le flux complet de la wheel apix-tools jusqu'à la production est le suivant : l'alternant ma compilé la wheel apix-tools (versions Windows pour développement et Linux pour production) et la stocke dans un dépôt partagé. Lors du lancement du pipeline CI/CD de PixL API, celui-ci récupère automatiquement la wheel apix-tools spécifiée par son numéro de version dans le fichier `requirements.txt`, et l'intègre directement dans l'archive ZIP finale. De cette façon, lorsque l'archive ZIP est extraite sur le serveur de production, la wheel apix-tools se trouve déjà à l'intérieur (dans le répertoire `whl/` de l'archive), prête à être installée. C'est le pipeline qui gère cette intégration, éliminant le besoin de transférer la wheel séparément.
+La wheel apix-tools suit un flux particulier jusqu'à la production : compilée par l'alternant (versions Windows pour le développement et Linux pour la production) puis stockée dans un dépôt partagé, elle est automatiquement récupérée par le pipeline CI/CD de PixL API à partir du numéro de version indiqué dans `requirements.txt`, puis intégrée à l'archive ZIP finale. Elle se retrouve ainsi déjà présente dans le répertoire `whl/` lors de l'extraction sur le serveur, sans qu'il soit nécessaire de la transférer séparément.
 
-Pour une mise à jour de PixL API, PixL Console et PixL Modbus, les artefacts à récupérer sont les suivants :
+Pour une mise à jour de PixL Api, PixL Console et PixL Modbus, les artefacts à récupérer sont les suivants :
 
 - **Les archives ZIP produites par le pipeline CI/CD** : chaque service est empaqueté par son pipeline GitLab dans une archive ZIP structurée.
 	- **PixL API** (`pixl-api-x.y.z.zip`) : contient le projet Django, ses dépendances Python, et **la wheel apix-tools déjà intégrée dans le répertoire `whl/`**. Cette intégration dans le ZIP garantit que tous les éléments nécessaires sont présents lors du déploiement.

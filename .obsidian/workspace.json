@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projets/En cours/Apix Analytics/Trame oral de stage.md",
+                "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trame oral de stage"
+              "title": "Rapport de stage"
             }
           }
         ],
@@ -306,6 +306,16 @@
             "id": "3234c4be2b374655",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "bd0adb9eb5869aa3",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -313,7 +323,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -342,6 +352,7 @@
   },
   "active": "f94816c6a68240be",
   "lastOpenFiles": [
+    "Projets/En cours/Apix Analytics/Trame oral de stage.md",
     "Untitled 15.md",
     "Sans titre 3.md",
     "Littéraire/Untitled.md",
@@ -379,7 +390,6 @@
     "Ressources/Autre/Comment lire + de livres.md",
     "Mise en place d'un endroit personnel pour stocker sessions et exercices.md",
     "Projets/En cours/LiftConnect/Untitled.canvas",
-    "Projets/En cours/LiftConnect/Base de données concernant toutes les activités disponibles et sélectionnables.md",
     "Pasted image 20260324100959.png",
     "Projets/En cours/Game/1000_F_983238279_2IA3HEGRXWKd6f3s68WIoOVjrOfJOJAM.jpg",
     "Pasted image 20260121231328.png",
