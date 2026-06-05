@@ -10,6 +10,8 @@ cssclasses:
 
 ### 1. APIX Analytics — contexte et activité
 
+> 🖼️ *À insérer — Photo d'un analyseur APIX (CHROMPIX / GREENPIX) + schéma simplifié de la chromatographie en phase gazeuse : mélange gazeux → colonne → composants séparés → concentrations.*
+
 APIX Analytics est une entreprise grenobloise spécialisée dans la conception et la commercialisation d'analyseurs de gaz chromatographiques industriels. Elle développe intégralement, en interne, l'ensemble de la suite logicielle **PixL Suite** qui pilote ses analyseurs — les **CHROMPIX** et **GREENPIX** — depuis la collecte des données brutes jusqu'à la présentation des résultats aux utilisateurs finaux. Le fait que logiciel et matériel soient développés par la même équipe est un atout clé : cela permet une intégration poussée entre les deux, et une réactivité totale pour adapter le logiciel aux évolutions de l'analyseur.
 
 Pour comprendre l'activité d'APIX Analytics, il est utile de saisir ce qu'est un analyseur de gaz chromatographique. La chromatographie en phase gazeuse est une technique analytique qui permet de déterminer précisément la composition d'un mélange gazeux : elle sépare les différents composants du gaz en les faisant circuler à travers une colonne spécialisée, puis mesure la concentration de chacun. Cette technique est notamment utilisée pour analyser la composition du gaz naturel sur les réseaux de distribution — une exigence réglementaire et commerciale, car la valeur énergétique du gaz facturé dépend directement de sa composition. Les analyseurs APIX sont ainsi déployés sur des sites industriels critiques, où fiabilité, précision et continuité de service ne sont pas négociables.
@@ -21,6 +23,9 @@ APIX Analytics est une PME à taille humaine : l'équipe de développement est c
 ---
 
 ### 2. Le produit — La PixL Suite
+
+![[pixl-suite-architecture.png|700]]
+*Figure — Architecture de la PixL Suite : PixLModbus, PixLCore, PixLAPI et la base PixLDB communiquent entre eux ; **PixLExpert** (en jaune), l'interface Vue.js, constitue le périmètre du stage.*
 
 La **PixL Suite** est un ensemble de logiciels interdépendants qui pilotent intégralement les analyseurs APIX. Elle couvre l'intégralité de la chaîne de traitement, depuis l'acquisition des signaux physiques bruts produits par le détecteur chromatographique, jusqu'à la présentation des résultats aux opérateurs et à la communication avec les systèmes industriels environnants.
 
@@ -52,6 +57,8 @@ L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu 
 
 ### 1. Problématique : la configuration Modbus dans PixL Expert
 
+> 🖼️ *À insérer — Capture d'un extrait brut de `protocol.json` (volumineux, imbriqué) illustrant le caractère illisible de l'édition manuelle qui justifie le projet.*
+
 Le PixlExpert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP, permet à des automates ou des systèmes industriels tiers d'interroger l'analyseur et de récupérer ses mesures en temps réel.
 
 La configuration de cette communication repose sur deux fichiers JSON : `network.json`, qui définit les paramètres réseau de la connexion, et `protocol.json`, qui recense l'intégralité des registres Modbus exposés par l'appareil. Pour chaque registre, `protocol.json` décrit non seulement ses caractéristiques techniques (adresse, format, taille, facteur de conversion), mais aussi quelle information concrète est remontée via ce registre — nom du composant mesuré, type de valeur, catégorie d'alarme. C'est donc ce fichier qui fait le lien entre les adresses Modbus abstraites et les données métier de l'analyseur.
@@ -59,6 +66,8 @@ La configuration de cette communication repose sur deux fichiers JSON : `network
 Avant mon stage, il n'existait pas d'interface dédiée à l'édition de ces fichiers dans PixL Expert. Les opérateurs et techniciens devaient modifier directement les fichiers JSON à la main. Cette approche représentait deux catégories de problèmes. D'une part, un risque élevé d'erreurs : une faute de frappe dans une adresse, un mauvais format ou un facteur de conversion erroné peuvent rendre un registre illisible par le système qui l'interroge sans qu'aucun message d'erreur ne le signale immédiatement. D'autre part, une perte de temps significative : sur un fichier comme `protocol.json`, qui peut recenser plusieurs centaines de registres répartis en de nombreuses catégories et niveaux d'imbrication, la navigation et la modification manuelles du JSON deviennent rapidement fastidieuses, même pour un développeur expérimenté. Construire une interface dédiée visait donc à la fois à fiabiliser les modifications et à réduire le temps nécessaire pour configurer ou adapter un protocole.
 
 ### 2. Objectifs du stage
+
+> 🖼️ *À insérer — Schéma avant → après : `protocol.json` brut à gauche, interface graphique d'édition à droite, flèche entre les deux.*
 
 L'objectif de mon stage était de concevoir et développer un outil d'édition des paramètres Modbus intégré directement dans l'interface web PixL Expert. Cet outil devait permettre à un utilisateur de visualiser, modifier et sauvegarder les paramètres contenus dans les fichiers `network.json` et `protocol.json` sans avoir à manipuler ces fichiers directement.
 
@@ -83,6 +92,8 @@ Le développement de cet outil impliquait plusieurs contraintes techniques impor
 ## III. Méthodes de travail et outils
 
 ### 1. Stack technique
+
+> 🖼️ *À insérer — Logos des technologies en 2 colonnes : backend (Python, Django, DRF) / frontend (Vue.js 3, Pinia, Axios, AG Grid).*
 
 Le projet reposait sur deux environnements techniques distincts et complémentaires, dont la maîtrise simultanée constituait l'une des exigences principales du stage.
 
@@ -112,6 +123,9 @@ Entre les réunions hebdomadaires, le travail s'organisait de manière autonome,
 ### 1. Architecture de PixL Suite
 
 #### a. Le protocole Modbus
+
+![[Pasted image 20260324100959.png]]
+*Figure — Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
 
 Avant de me lancer dans le développement, il était essentiel de maîtriser le socle technique sur lequel repose tout le projet : le protocole Modbus. Un protocole de communication est un ensemble de règles et de conventions qui permettent à deux équipements numériques de s'échanger des informations de manière structurée et fiable — à la manière d'une langue commune que deux interlocuteurs doivent maîtriser pour se comprendre. Modbus est l'un de ces protocoles, spécifiquement conçu pour les environnements industriels.
 
@@ -158,6 +172,8 @@ Pour les conserver, il faut les **sérialiser** (convertir l'objet en JSON) puis
 
 #### b. Principe et rôle de la classe de base
 
+> 🖼️ *À insérer — Schéma de sérialisation : objet Python ⇄ JSON, avec les deux flèches `get_attributes_as_dict()` (sérialisation) et `set_attributes_from_dict()` (désérialisation).*
+
 ModelMother est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
 
 - `get_attributes_as_dict()` (sérialisation) parcourt les attributs de l'objet et les convertit en dictionnaire Python en adaptant la conversion à chaque type : valeur simple copiée directement, objet héritant de ModelMother sérialisé récursivement, liste parcourue élément par élément, énumération convertie en sa valeur textuelle. Un mécanisme d'attributs exclus (`excluded_attributes`) ignore les attributs utiles en mémoire mais non pertinents dans le fichier — par exemple les états temps réel d'une alarme (`level`, `metrological`, `critical`), présents dans la classe Python mais absents du JSON.
@@ -166,6 +182,8 @@ ModelMother est une classe de base définie dans `apix_tools/apix_framework/mode
 Grâce à cette récursivité, une seule instruction charge l'intégralité d'un fichier JSON hiérarchisé en un arbre d'objets Python typés, quelle que soit la profondeur d'imbrication.
 
 #### c. La problématique du dictionnaire dans le dictionnaire : ModelDictToListMother
+
+> 🖼️ *À insérer — Schéma dict ⇄ list : `{"CAL-C2H4": { ... }}` → objet `ElementDetailParameters` dont l'attribut `name` vaut `"CAL-C2H4"`.*
 
 C'est ici qu'intervient une limitation rencontrée concrètement lors du développement, que ma tutrice a résolue en étendant le framework.
 
@@ -195,6 +213,9 @@ La récursivité est indispensable car la structure peut être profondément imb
 Cette extension a été intégrée à ModelMother de sorte que `get_attributes_as_dict()` applique automatiquement `fromDictToList` aux objets `ModelDictToListMother`, et `set_attributes_from_dict()` leur applique `dictToList`. L'ajout était transparent pour le reste du code : les classes de modèles n'ont eu qu'à déclarer leurs attributs de ce type pour en bénéficier.
 
 #### d. Hiérarchie des classes de modèles
+
+![[modelmother-hierarchie.png|700]]
+*Figure — Hiérarchie des classes de modèles : `ModelMother` est la classe de base dont héritent `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`), elles-mêmes décomposées en sous-objets typés.*
 
 La hiérarchie des classes reflète directement la structure des fichiers JSON, organisée autour de trois classes de conteneurs :
 
@@ -274,6 +295,9 @@ La route `POST /metrological/settings/modbus/networks` reçoit les données modi
 
 #### c. Développement côté frontend — ModbusPart.vue
 
+![[network-editeur-formulaire.png|650]]
+*Figure — Éditeur `network.json` (`ModbusPart.vue`) : configuration du port TCP et des ports série, chaque port série étant géré dans un onglet dynamique (baud rate, bits de données, parité, bits de stop, méthode RTU/ASCII, timeout).*
+
 L'interface d'édition de `network.json` a été développée dans le composant `ModbusPart.vue`, intégré dans la section Remote Access des paramètres généraux de PixL Expert.
 
 **Chargement des données et route d'énumérations générique.** Au montage du composant (`onMounted`), deux appels API sont effectués : un premier pour charger la configuration actuelle du réseau, et un second pour charger les énumérations disponibles — les listes de valeurs autorisées pour chaque champ à choix multiples (vitesses de transmission, parités, méthodes, etc.).
@@ -325,6 +349,12 @@ La route `GET /metrological/settings/modbus/protocol` lit le fichier `protocol.j
 La route `POST /metrological/settings/modbus/protocol` reçoit la nouvelle version du protocole modifiée par le frontend et la réécrit dans le fichier. Elle invoque une méthode de vérification de cohérence, `_check_protocol_coherence()`, qui parcourt l'ensemble des entrées du protocole et vérifie la cohérence entre le format déclaré et la taille en registres (`size`) associée — car chaque format impose une taille fixe (un `float32` occupe toujours 2 registres, un `sint16` en occupe toujours 1). Les incohérences détectées sont retournées sous forme d'avertissements, permettant à l'interface de les signaler à l'utilisateur sans bloquer la sauvegarde.
 
 #### d. Développement côté frontend — RegisterMapPart.vue
+
+![[protocole-editeur-tableau.png|650]]
+*Figure — Éditeur `protocol.json` (`RegisterMapPart.vue`) : tableau AG Grid listant les registres (type HR/IR, adresse, source, nom, format, facteur), avec tri, filtres et réordonnancement par glisser-déposer.*
+
+![[protocole-editeur-modale.png|450]]
+*Figure — Fenêtre modale d'ajout/édition d'un registre : le formulaire s'adapte dynamiquement à la sous-section choisie (ici un `Measure` → `Elements Detailed`), avec un aperçu en direct du nom généré.*
 
 L'interface d'édition de `protocol.json` a été développée dans le composant `RegisterMapPart.vue`. La complexité de ce composant est significativement plus élevée que `ModbusPart.vue`, en raison de la richesse de la structure de données à manipuler.
 
@@ -379,6 +409,8 @@ La structure des fichiers sur ce serveur est organisée sous le répertoire apix
 
 #### b. Accès au serveur distant via SSH et MobaXTerm
 
+> 🖼️ *À insérer — Capture du terminal MobaXTerm (logs `docker ps -a` ou l'erreur `ModuleNotFoundError`).*
+
 Pour interagir avec une machine Linux distante depuis Windows, on utilise le protocole **SSH** (Secure Shell). SSH est un protocole réseau chiffré qui permet d'ouvrir un terminal de commande sur une machine distante comme si l'on était physiquement devant elle. Concrètement, une fois connecté en SSH, le développeur tape des commandes Linux qui s'exécutent sur le serveur de production, à plusieurs centaines de kilomètres de son poste.
 
 L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windows. Il offre deux fonctionnalités essentielles :
@@ -402,6 +434,9 @@ Pour une mise à jour de PixL Api, PixL Console et PixL Modbus, les artefacts à
 - **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_console-vue-js.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
 
 #### d. Le processus de déploiement pas à pas
+
+![[flux-deploiement.png|700]]
+*Figure — Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
 
 Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées. Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
 
@@ -470,4 +505,30 @@ Ce type de bug est particulièrement difficile à diagnostiquer en production : 
 
 À l'issue des déploiements successifs et après correction des problèmes identifiés, l'ensemble des composants de la PixL Suite fonctionnait correctement en production. Le serveur Modbus répondait aux requêtes des équipements industriels connectés ; l'API REST exposait ses routes avec la wheel apix-tools correctement intégrée, permettant la lecture et l'écriture dynamiques des fichiers de protocole définis dans `custom.json` ; la console web servait l'interface Vue.js et communiquait correctement avec l'API.
 
+---
+
+## V. Conclusion
+
+Ce stage avait pour objectif de concevoir et développer un outil d'édition des paramètres Modbus intégré à l'interface web PixL Expert, afin de remplacer la modification manuelle des fichiers `network.json` et `protocol.json` par une interface fiable et guidée. Cet objectif a été atteint : l'outil livré permet de visualiser, modifier, valider et sauvegarder ces configurations sans manipuler directement le JSON, et il a été déployé en production au sein de la PixL Suite.
+
+Le projet a couvert l'ensemble de la chaîne de développement, du backend au frontend. Côté Python, il a fallu comprendre et exploiter le système de sérialisation maison ModelMother, exposer les données de configuration via des routes API, et intégrer des règles de validation issues des contraintes métier du protocole Modbus. Côté Vue.js, il a fallu construire des interfaces d'édition claires pour des données volumineuses et fortement hiérarchisées, tout en respectant l'architecture et les conventions existantes du projet. La phase de mise en production a enfin permis d'aborder des aspects plus opérationnels — déploiement par scripts, conteneurisation Docker, diagnostic d'erreurs en environnement réel — qui ne se rencontrent pas en développement local.
+
+Sur le plan technique, ce stage a été l'occasion de monter en compétence sur une stack complète et largement utilisée en milieu professionnel (Python, Django, Vue.js, Docker, Modbus), et de découvrir les exigences propres au développement logiciel en entreprise : intégration dans une codebase existante, lecture et réutilisation du code d'autrui, validation rigoureuse des données, et diagnostic de problèmes en production. Le travail dans un cadre itératif, sans cahier des charges formel, a par ailleurs renforcé ma capacité d'adaptation, d'autonomie et de communication, les objectifs se précisant au fil des échanges avec ma tutrice.
+
+Au-delà des compétences acquises, ce stage a confirmé mon intérêt pour le développement logiciel appliqué à des problématiques industrielles concrètes, où la fiabilité et la rigueur ne sont pas négociables. L'outil développé constitue une base extensible : il pourra être enrichi de nouveaux types de registres, de validations supplémentaires ou d'une ergonomie affinée à mesure que les besoins des utilisateurs évolueront.
+
 Au-delà du résultat technique, cette phase de mise en production a constitué une expérience formatrice sur la rigueur qu'exige un environnement de production. Des erreurs en apparence anodines — un numéro de version mal synchronisé dans `.env`, des migrations dans un état incohérent — peuvent bloquer complètement un déploiement ou produire un comportement incorrect difficile à diagnostiquer à première vue. Cette expérience m'a appris l'importance de vérifier systématiquement chaque étape après exécution, de valider la cohérence entre les variables d'environnement et les artefacts réellement présents, et de ne pas considérer qu'un script qui « ne produit pas d'erreur » a nécessairement produit le résultat attendu. En production, le silence n'est pas synonyme de succès : il faut toujours valider activement l'état final du système.
+
+---
+
+## VI. Annexes
+
+### Annexe A — Modèle de communication Modbus maître/esclave
+
+![[modbus-maitre-esclave.png|400]]
+*Schéma simplifié du modèle maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
+
+### Annexe B — Hiérarchie des classes de modèles (vue alternative)
+
+![[modelmother-hierarchie-2.png|700]]
+*Vue alternative de l'arborescence des classes héritant de `ModelMother`.*
