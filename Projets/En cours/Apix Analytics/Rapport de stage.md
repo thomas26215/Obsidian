@@ -2,7 +2,84 @@
 cssclasses:
   - justify
 ---
-![[Pasted image 20250601140945.png]]
+<div align="center" style="margin-top:2em;">
+
+**DÉPARTEMENT INFORMATIQUE — IUT 2 GRENOBLE**
+
+<br>
+
+Année universitaire 2025–2026
+
+<br><br>
+
+<span style="font-size:1.7em;">**RAPPORT DE STAGE**</span>
+
+<br><br>
+
+<span style="font-size:1.3em;">**Développement d'un outil d'édition des paramètres Modbus<br>dans l'interface web PixL Expert**</span>
+
+<br>
+
+**APIX Analytics**
+
+<br>
+
+![[apix.png|220]]
+
+<br><br>
+
+Présenté par
+**Thomas Venouil**
+
+<br>
+
+**Jury**
+IUT : M. _________________________
+IUT : Mme _________________________
+Société : Mme Élodie Baral-Baron
+
+<br><br>
+
+![[Pasted image 20250601140945.png|180]]
+
+</div>
+
+<div style="page-break-after: always;"></div>
+
+## Déclaration de respect des droits d'auteur
+
+Par la présente, je déclare être le seul auteur de ce rapport et assure qu'aucune autre ressource que celles indiquées n'ont été utilisées pour la réalisation de ce travail. Tout emprunt (citation ou référence) littéral ou non à des documents publiés ou inédits est référencé comme tel et tout usage à un outil doté d'IA a été mentionné et sera de ma responsabilité.
+
+Je suis informé qu'en cas de flagrant délit de fraude, les sanctions prévues dans le règlement des études en cas de fraude aux examens par application du décret 92-657 du 13 juillet 1992 peuvent s'appliquer. Elles seront décidées par la commission disciplinaire de l'UGA.
+
+À _________________ &nbsp;&nbsp;&nbsp; Le _________________ &nbsp;&nbsp;&nbsp; Signature :
+
+<div style="page-break-after: always;"></div>
+
+## Remerciements
+
+Je tiens à remercier l'ensemble de l'équipe d'APIX Analytics pour son accueil et la confiance accordée tout au long de ce stage.
+
+Je remercie tout particulièrement ma tutrice de stage, Mme Élodie Baral-Baron, pour son accompagnement, sa disponibilité et les nombreux échanges qui ont guidé et enrichi mon travail.
+
+Mes remerciements vont également à [_alternant / collègues_] pour leur aide précieuse, notamment sur les aspects de build et de déploiement, ainsi qu'à mon tuteur IUT, [_M./Mme …_], pour son suivi et ses conseils.
+
+Enfin, je remercie l'ensemble des personnes ayant contribué, de près ou de loin, au bon déroulement de ce stage.
+
+<div style="page-break-after: always;"></div>
+
+## Table des figures
+
+- **Figure 1** — Architecture de la PixL Suite *(§ I.2)*
+- **Figure 2** — Architecture Modbus TCP chez APIX *(§ IV.1)*
+- **Figure 3** — Hiérarchie des classes de modèles *(§ IV.2)*
+- **Figure 4** — Éditeur `network.json` (`ModbusPart.vue`) *(§ IV.3)*
+- **Figure 5** — Éditeur `protocol.json` : tableau AG Grid *(§ IV.4)*
+- **Figure 6** — Fenêtre modale d'ajout/édition d'un registre *(§ IV.4)*
+- **Figure 7** — Flux de déploiement *(§ IV.6)*
+- **Figure 8** — Modèle de communication Modbus maître/esclave *(Annexe A)*
+
+<div style="page-break-after: always;"></div>
 
 # Rapport de stage
 
@@ -10,7 +87,6 @@ cssclasses:
 
 ### 1. APIX Analytics — contexte et activité
 
-> 🖼️ *À insérer — Photo d'un analyseur APIX (CHROMPIX / GREENPIX) + schéma simplifié de la chromatographie en phase gazeuse : mélange gazeux → colonne → composants séparés → concentrations.*
 
 APIX Analytics est une entreprise grenobloise spécialisée dans la conception et la commercialisation d'analyseurs de gaz chromatographiques industriels. Elle développe intégralement, en interne, l'ensemble de la suite logicielle **PixL Suite** qui pilote ses analyseurs — les **CHROMPIX** et **GREENPIX** — depuis la collecte des données brutes jusqu'à la présentation des résultats aux utilisateurs finaux. Le fait que logiciel et matériel soient développés par la même équipe est un atout clé : cela permet une intégration poussée entre les deux, et une réactivité totale pour adapter le logiciel aux évolutions de l'analyseur.
 
@@ -25,7 +101,7 @@ APIX Analytics est une PME à taille humaine : l'équipe de développement est c
 ### 2. Le produit — La PixL Suite
 
 ![[pixl-suite-architecture.png|700]]
-*Figure — Architecture de la PixL Suite : PixLModbus, PixLCore, PixLAPI et la base PixLDB communiquent entre eux ; **PixLExpert** (en jaune), l'interface Vue.js, constitue le périmètre du stage.*
+*Figure 1 — Architecture de la PixL Suite : PixLModbus, PixLCore, PixLAPI et la base PixLDB communiquent entre eux ; **PixLExpert** (en jaune), l'interface Vue.js, constitue le périmètre du stage.*
 
 La **PixL Suite** est un ensemble de logiciels interdépendants qui pilotent intégralement les analyseurs APIX. Elle couvre l'intégralité de la chaîne de traitement, depuis l'acquisition des signaux physiques bruts produits par le détecteur chromatographique, jusqu'à la présentation des résultats aux opérateurs et à la communication avec les systèmes industriels environnants.
 
@@ -123,7 +199,7 @@ Entre les réunions hebdomadaires, le travail s'organisait de manière autonome,
 #### a. Le protocole Modbus
 
 ![[Pasted image 20260324100959.png]]
-*Figure — Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
+*Figure 2 — Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
 
 Avant de me lancer dans le développement, il était essentiel de maîtriser le socle technique sur lequel repose tout le projet : le protocole Modbus. Un protocole de communication est un ensemble de règles et de conventions qui permettent à deux équipements numériques de s'échanger des informations de manière structurée et fiable — à la manière d'une langue commune que deux interlocuteurs doivent maîtriser pour se comprendre. Modbus est l'un de ces protocoles, spécifiquement conçu pour les environnements industriels.
 
@@ -213,7 +289,7 @@ Cette extension a été intégrée à ModelMother de sorte que `get_attributes_a
 #### d. Hiérarchie des classes de modèles
 
 ![[modelmother-hierarchie.png|700]]
-*Figure — Hiérarchie des classes de modèles : `ModelMother` est la classe de base dont héritent `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`), elles-mêmes décomposées en sous-objets typés.*
+*Figure 3 — Hiérarchie des classes de modèles : `ModelMother` est la classe de base dont héritent `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`), elles-mêmes décomposées en sous-objets typés.*
 
 La hiérarchie des classes reflète directement la structure des fichiers JSON, organisée autour de trois classes de conteneurs :
 
@@ -294,7 +370,7 @@ La route `POST /metrological/settings/modbus/networks` reçoit les données modi
 #### c. Développement côté frontend — ModbusPart.vue
 
 ![[network-editeur-formulaire.png|650]]
-*Figure — Éditeur `network.json` (`ModbusPart.vue`) : configuration du port TCP et des ports série, chaque port série étant géré dans un onglet dynamique (baud rate, bits de données, parité, bits de stop, méthode RTU/ASCII, timeout).*
+*Figure 4 — Éditeur `network.json` (`ModbusPart.vue`) : configuration du port TCP et des ports série, chaque port série étant géré dans un onglet dynamique (baud rate, bits de données, parité, bits de stop, méthode RTU/ASCII, timeout).*
 
 L'interface d'édition de `network.json` a été développée dans le composant `ModbusPart.vue`, intégré dans la section Remote Access des paramètres généraux de PixL Expert.
 
@@ -349,10 +425,10 @@ La route `POST /metrological/settings/modbus/protocol` reçoit la nouvelle versi
 #### d. Développement côté frontend — RegisterMapPart.vue
 
 ![[protocole-editeur-tableau.png|650]]
-*Figure — Éditeur `protocol.json` (`RegisterMapPart.vue`) : tableau AG Grid listant les registres (type HR/IR, adresse, source, nom, format, facteur), avec tri, filtres et réordonnancement par glisser-déposer.*
+*Figure 5 — Éditeur `protocol.json` (`RegisterMapPart.vue`) : tableau AG Grid listant les registres (type HR/IR, adresse, source, nom, format, facteur), avec tri, filtres et réordonnancement par glisser-déposer.*
 
 ![[protocole-editeur-modale.png|450]]
-*Figure — Fenêtre modale d'ajout/édition d'un registre : le formulaire s'adapte dynamiquement à la sous-section choisie (ici un `Measure` → `Elements Detailed`), avec un aperçu en direct du nom généré.*
+*Figure 6 — Fenêtre modale d'ajout/édition d'un registre : le formulaire s'adapte dynamiquement à la sous-section choisie (ici un `Measure` → `Elements Detailed`), avec un aperçu en direct du nom généré.*
 
 L'interface d'édition de `protocol.json` a été développée dans le composant `RegisterMapPart.vue`. La complexité de ce composant est significativement plus élevée que `ModbusPart.vue`, en raison de la richesse de la structure de données à manipuler.
 
@@ -434,7 +510,7 @@ Pour une mise à jour de PixL Api, PixL Console et PixL Modbus, les artefacts à
 #### d. Le processus de déploiement pas à pas
 
 ![[flux-deploiement.png|700]]
-*Figure — Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
+*Figure 7 — Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
 
 Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées. Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
 
@@ -519,9 +595,52 @@ Au-delà du résultat technique, cette phase de mise en production a constitué 
 
 ---
 
-## VI. Annexes
+## Glossaire
+
+- **Modbus** — protocole de communication industriel (1979) reposant sur un modèle maître/esclave, supporté en mode série (RTU/ASCII) et TCP/IP.
+- **Registre (holding / input)** — case mémoire adressable exposée par un équipement Modbus. Les *holding registers* sont accessibles en lecture/écriture, les *input registers* en lecture seule.
+- **Sérialisation / désérialisation** — conversion d'un objet en mémoire vers un format textuel persistant (ici JSON), et inversement.
+- **JSON** *(JavaScript Object Notation)* — format textuel d'échange de données structuré en paires clé/valeur, listes et objets imbriqués.
+- **ModelMother** — classe de base maison du framework APIX assurant la sérialisation/désérialisation récursive des modèles Python.
+- **Wheel (`.whl`)** — format d'archive de distribution d'un paquet Python prêt à être installé.
+- **Conteneur / Docker** — environnement d'exécution isolé embarquant une application et ses dépendances, indépendamment du système hôte.
+- **Docker Compose** — outil d'orchestration de plusieurs conteneurs décrits dans un fichier `docker-compose.yml`.
+- **CI/CD** — intégration et livraison continues : automatisation du build, des tests et du packaging à chaque modification du code.
+- **SSH / SCP** — protocoles d'accès distant sécurisé à un serveur (SSH) et de copie de fichiers chiffrée (SCP).
+- **AG Grid** — bibliothèque JavaScript de tableaux de données interactifs (tri, filtres, glisser-déposer) utilisée côté frontend.
+- **DRF** *(Django REST Framework)* — extension de Django pour exposer des API REST.
+
+<div style="page-break-after: always;"></div>
+
+## Références bibliographiques et webographiques
+
+[1] Modbus Organization. *MODBUS Application Protocol Specification V1.1b3* [en ligne]. Disponible sur : https://modbus.org/specs.php (consulté le 08/06/2026)
+[2] Vue.js. *Documentation officielle — Guide* [en ligne]. Disponible sur : https://vuejs.org/guide/ (consulté le 08/06/2026)
+[3] Django Software Foundation. *Django documentation* [en ligne]. Disponible sur : https://docs.djangoproject.com/ (consulté le 08/06/2026)
+[4] Encode. *Django REST Framework* [en ligne]. Disponible sur : https://www.django-rest-framework.org/ (consulté le 08/06/2026)
+[5] Docker Inc. *Docker documentation* [en ligne]. Disponible sur : https://docs.docker.com/ (consulté le 08/06/2026)
+[6] AG Grid Ltd. *AG Grid — Documentation* [en ligne]. Disponible sur : https://www.ag-grid.com/documentation/ (consulté le 08/06/2026)
+[7] Université Grenoble Alpes. *Règlement des études BUT Informatique* [en ligne]. (consulté le 08/06/2026)
+
+<div style="page-break-after: always;"></div>
+
+## Annexes
 
 ### Annexe A — Modèle de communication Modbus maître/esclave
 
 ![[modbus-maitre-esclave.png|400]]
-*Schéma simplifié du modèle maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
+*Figure 8 — Modèle de communication Modbus maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
+
+<div style="page-break-after: always;"></div>
+
+## Résumé
+
+Ce stage, réalisé chez APIX Analytics, fabricant grenoblois d'analyseurs de gaz chromatographiques industriels, a porté sur le développement d'un outil d'édition des paramètres Modbus intégré à l'interface web PixL Expert. Auparavant, la configuration de la communication Modbus de l'analyseur, décrite dans les fichiers `network.json` et `protocol.json`, devait être éditée à la main, au prix d'un risque d'erreurs élevé et d'une perte de temps importante. Le travail réalisé, de nature full-stack, a consisté à exposer ces données via des routes API en Python (Django / DRF) et à construire les interfaces d'édition correspondantes en Vue.js, avec validation des saisies, détection des conflits d'adresses et affichage tabulaire des registres. L'outil a été testé puis déployé en production via Docker. Il fiabilise la configuration des analyseurs et réduit sensiblement le temps nécessaire pour adapter un protocole.
+
+**Mots clés :** Modbus, configuration, full-stack, Vue.js, Python, Django, API REST, Docker
+
+## Abstract
+
+This internship, carried out at APIX Analytics — a Grenoble-based manufacturer of industrial chromatographic gas analysers — focused on developing a Modbus parameter editor integrated into the PixL Expert web interface. Previously, the analyser's Modbus communication settings, stored in the `network.json` and `protocol.json` files, had to be edited by hand, which was error-prone and time-consuming. The full-stack work consisted of exposing this data through Python API endpoints (Django / DRF) and building the matching editing interfaces in Vue.js, with input validation, address-conflict detection and a tabular view of the registers. The tool was tested and deployed to production using Docker. It makes analyser configuration more reliable and significantly reduces the time needed to adapt a protocol.
+
+**Keywords:** Modbus, configuration, full-stack, Vue.js, Python, Django, REST API, Docker
