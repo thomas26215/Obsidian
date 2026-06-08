@@ -2,85 +2,85 @@
 cssclasses:
   - justify
 ---
-<div align="center" style="margin-top:2em;">
 
-**DÉPARTEMENT INFORMATIQUE — IUT 2 GRENOBLE**
+<div style="text-align: center; font-weight: bold; font-size: 1.6em;">DEPARTEMENT INFORMATIQUE - IUT 2 GRENOBLE</div>
 
-<br>
 
-Année universitaire 2025–2026
 
-<br><br>
-
-<span style="font-size:1.7em;">**RAPPORT DE STAGE**</span>
-
-<br><br>
-
-<span style="font-size:1.3em;">**Développement d'un outil d'édition des paramètres Modbus<br>dans l'interface web PixL Expert**</span>
-
-<br>
-
-**APIX Analytics**
-
-<br>
-
-![[apix.png|220]]
-
-<br><br>
-
-Présenté par
-**Thomas Venouil**
-
-<br>
-
-**Jury**
-IUT : M. _________________________
-IUT : Mme _________________________
-Société : Mme Élodie Baral-Baron
-
-<br><br>
+<div style="text-align: center;">
 
 ![[Pasted image 20250601140945.png|180]]
 
 </div>
 
+
+**Année Universitaire : 2026**
+**RAPPORT DE STAGE OU D’ALTERNANCE**
+
+---
+
+
+<div style="text-align: center; font-weight: bold; font-size: 2em;">DEVELOPPEMENT D'UNE INTERFACE POUR MODIFIER LES PARAMETRES MODBUS</div>
+
+<div style="text-align: center; font-size: 1.5em;">Apix Analytics</div>
+
+<div style="text-align: center;">
+
+![[apix.png|220]]
+
+
+
+
+</div>
+
+---
+<div style="text-align: center;">
+
+
+**Présenté par**
+
+Jean Dupont
+
+**Jury**
+
+IUT : M. X<br>
+IUT : Mme. Y<br>
+Société : Mme. Baral-Baron
+
+</div>
+
 <div style="page-break-after: always;"></div>
 
-## Déclaration de respect des droits d'auteur
 
-Par la présente, je déclare être le seul auteur de ce rapport et assure qu'aucune autre ressource que celles indiquées n'ont été utilisées pour la réalisation de ce travail. Tout emprunt (citation ou référence) littéral ou non à des documents publiés ou inédits est référencé comme tel et tout usage à un outil doté d'IA a été mentionné et sera de ma responsabilité.
 
-Je suis informé qu'en cas de flagrant délit de fraude, les sanctions prévues dans le règlement des études en cas de fraude aux examens par application du décret 92-657 du 13 juillet 1992 peuvent s'appliquer. Elles seront décidées par la commission disciplinaire de l'UGA.
+Par la présente, je déclare être le seul auteur de ce rapport et assure qu’aucune autre ressource que celles indiquées n’ont été utilisées pour la réalisation de ce travail. Tout emprunt (citation ou référence) littéral ou non à des documents publiés ou inédits est référencé comme tel et tout usage à un outil doté d’IA a été mentionné et sera de ma responsabilité. 
 
-À _________________ &nbsp;&nbsp;&nbsp; Le _________________ &nbsp;&nbsp;&nbsp; Signature :
+Je suis informé qu’en cas de flagrant délit de fraude, les sanctions prévues dans le règlement des études en cas de fraude aux examens par application du décret 92-657 du 13 juillet 1992 peuvent s’appliquer. Elles seront décidées par la commission disciplinaire de l’UGA. 
 
-<div style="page-break-after: always;"></div>
-
-## Remerciements
-
-Je tiens à remercier l'ensemble de l'équipe d'APIX Analytics pour son accueil et la confiance accordée tout au long de ce stage.
-
-Je remercie tout particulièrement ma tutrice de stage, Mme Élodie Baral-Baron, pour son accompagnement, sa disponibilité et les nombreux échanges qui ont guidé et enrichi mon travail.
-
-Mes remerciements vont également à [_alternant / collègues_] pour leur aide précieuse, notamment sur les aspects de build et de déploiement, ainsi qu'à mon tuteur IUT, [_M./Mme …_], pour son suivi et ses conseils.
-
-Enfin, je remercie l'ensemble des personnes ayant contribué, de près ou de loin, au bon déroulement de ce stage.
+A			 	Le   					 Signature
 
 <div style="page-break-after: always;"></div>
 
-## Table des figures
+# Remerciements
 
-- **Figure 1** — Architecture de la PixL Suite *(§ I.2)*
-- **Figure 2** — Architecture Modbus TCP chez APIX *(§ IV.1)*
-- **Figure 3** — Hiérarchie des classes de modèles *(§ IV.2)*
-- **Figure 4** — Éditeur `network.json` (`ModbusPart.vue`) *(§ IV.3)*
-- **Figure 5** — Éditeur `protocol.json` : tableau AG Grid *(§ IV.4)*
-- **Figure 6** — Fenêtre modale d'ajout/édition d'un registre *(§ IV.4)*
-- **Figure 7** — Flux de déploiement *(§ IV.6)*
-- **Figure 8** — Modèle de communication Modbus maître/esclave *(Annexe A)*
+Je tiens tout d'abord à remercier l'ensemble de l'équipe d'APIX Analytics pour son accueil chaleureux et la confiance accordée tout au long de ce stage. L'environnement de travail, à la fois bienveillant et stimulant, m'a permis de m'intégrer rapidement et de monter en compétences dans de bonnes conditions.
+
+Je remercie tout particulièrement ma tutrice entreprise, Mme. Baral-Baron, pour sa disponibilité, ses conseils avisés et l'autonomie qu'elle m'a accordée. Son accompagnement a été déterminant dans la réussite du projet de développement d'une interface de modification des paramètres Modbus qui m'a été confié.
+
+Mes remerciements vont également à mon tuteur IUT, M. X, pour son suivi attentif et ses retours constructifs tout au long de cette période de stage.
+
+Enfin, je remercie l'ensemble des collaborateurs avec qui j'ai eu l'occasion d'échanger, pour leur disponibilité et le partage de leur expérience, qui ont largement contribué à enrichir ce stage tant sur le plan technique qu'humain.
 
 <div style="page-break-after: always;"></div>
 
+<div style="font-size: 0.7em;">
+
+```toc
+```
+
+</div>
+
+<div style="page-break-after: always;"></div>
 # Rapport de stage
 
 ## I. Présentation de l'entreprise
@@ -92,9 +92,9 @@ APIX Analytics est une entreprise grenobloise spécialisée dans la conception e
 
 Pour comprendre l'activité d'APIX Analytics, il est utile de saisir ce qu'est un analyseur de gaz chromatographique. La chromatographie en phase gazeuse est une technique analytique qui permet de déterminer précisément la composition d'un mélange gazeux : elle sépare les différents composants du gaz en les faisant circuler à travers une colonne spécialisée, puis mesure la concentration de chacun. Cette technique est notamment utilisée pour analyser la composition du gaz naturel sur les réseaux de distribution — une exigence réglementaire et commerciale, car la valeur énergétique du gaz facturé dépend directement de sa composition. Les analyseurs APIX sont ainsi déployés sur des sites industriels critiques, où fiabilité, précision et continuité de service ne sont pas négociables.
 
-Son activité s'inscrit donc dans un contexte industriel exigeant, où les logiciels développés doivent fonctionner en continu, sans interruption, dans des environnements parfois difficiles. Une erreur de mesure ou une défaillance logicielle peut avoir des conséquences directes sur la facturation, la sécurité ou la conformité réglementaire des clients.
+Son activité s'inscrit donc dans un contexte industriel exigeant : les logiciels doivent fonctionner en continu, dans des environnements parfois difficiles, car une erreur de mesure ou une défaillance peut avoir des conséquences directes sur la facturation, la sécurité ou la conformité réglementaire des clients.
 
-APIX Analytics est une PME à taille humaine : l'équipe de développement est composée de moins de cinq personnes, ce qui implique une organisation agile et une forte polyvalence. Chaque développeur est amené à intervenir sur l'ensemble de la pile logicielle, du bas niveau embarqué jusqu'aux interfaces utilisateur web, et à prendre en charge des sujets très variés d'une semaine à l'autre. Cette diversité est à la fois une richesse formatrice et une contrainte : elle exige de bonnes capacités d'adaptation et une communication efficace au sein de l'équipe.
+APIX Analytics est une PME à taille humaine, dont l'équipe de développement compte moins de cinq personnes. Cette petite taille implique une forte polyvalence : chaque développeur intervient sur l'ensemble de la pile logicielle, du bas niveau embarqué jusqu'aux interfaces web, et change régulièrement de sujet. Une diversité à la fois formatrice et exigeante en capacités d'adaptation.
 
 ---
 
@@ -122,9 +122,9 @@ Parmi ces interfaces figure **PixL Expert**, une application web nouvelle géné
 
 Mon stage s'est déroulé de fin mars à fin juin 2026 dans les locaux d'APIX Analytics à Grenoble, au sein d'un openspace partagé avec l'ensemble de l'équipe de développement, mais également avec les personnes en charge de la configuration analytique des chromatographes. Cette proximité entre développeurs et utilisateurs métier est caractéristique d'une petite structure : elle favorise les échanges directs, permet de comprendre rapidement les besoins concrets des utilisateurs, et évite les malentendus qui surviennent souvent quand les équipes techniques et fonctionnelles sont trop éloignées.
 
-L'équipe de développement est composée de moins de cinq personnes, dont un alternant qui travaille en parallèle sur l nouveau PixL Expert. Cette organisation en petite équipe implique que chaque membre porte une responsabilité large et que la communication est continue et directe.
+L'équipe de développement compte moins de cinq personnes, dont un alternant qui travaille en parallèle sur le nouveau PixL Expert. Chaque membre y porte une responsabilité large, et la communication est continue et directe.
 
-Ma tutrice de stage est **Élodie Baral-Baron**, qui a assuré le suivi de mon travail et m'a accompagné de manière active tout au long du stage. Loin de me laisser seul face aux difficultés, elle a pris le temps de m'expliquer les aspects techniques du projet au fur et à mesure de mon avancement : le fonctionnement du protocole Modbus, la structure des fichiers de configuration, la signification des différents attributs des registres, les conventions propres à la codebase d'APIX, ou encore les règles de cohérence métier qui ne figurent dans aucune documentation formelle mais sont indispensables pour concevoir une interface correcte. Cet encadrement m'a permis de monter en compétence efficacement et d'aborder chaque nouvelle tâche avec une bonne compréhension du contexte. J'ai également bénéficié du soutien de **Sébastien Rattier**, chef de produit au sein de l'équipe, dont l'aide — notamment sur la compréhension des besoins fonctionnels et des attentes des utilisateurs — a complété cet accompagnement.
+Ma tutrice de stage est **Élodie Baral-Baron**, qui a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la codebase d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien de **Sébastien Rattier**, chef de produit, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
 
 L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu quand j'en avais besoin, mais libre dans la manière d'organiser et de mener mon travail au quotidien. Cette autonomie encadrée, dans un environnement où il est facile de poser une question à la personne assise en face, s'est révélée particulièrement formatrice.
 
@@ -133,17 +133,15 @@ L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu 
 
 ### 1. Problématique : la configuration Modbus dans PixL Expert
 
-> 🖼️ *À insérer — Capture d'un extrait brut de `protocol.json` (volumineux, imbriqué) illustrant le caractère illisible de l'édition manuelle qui justifie le projet.*
 
 Le PixlExpert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP, permet à des automates ou des systèmes industriels tiers d'interroger l'analyseur et de récupérer ses mesures en temps réel.
 
 La configuration de cette communication repose sur deux fichiers JSON : `network.json`, qui définit les paramètres réseau de la connexion, et `protocol.json`, qui recense l'intégralité des registres Modbus exposés par l'appareil. Pour chaque registre, `protocol.json` décrit non seulement ses caractéristiques techniques (adresse, format, taille, facteur de conversion), mais aussi quelle information concrète est remontée via ce registre — nom du composant mesuré, type de valeur, catégorie d'alarme. C'est donc ce fichier qui fait le lien entre les adresses Modbus abstraites et les données métier de l'analyseur.
 
-Avant mon stage, il n'existait pas d'interface dédiée à l'édition de ces fichiers dans PixL Expert. Les opérateurs et techniciens devaient modifier directement les fichiers JSON à la main. Cette approche représentait deux catégories de problèmes. D'une part, un risque élevé d'erreurs : une faute de frappe dans une adresse, un mauvais format ou un facteur de conversion erroné peuvent rendre un registre illisible par le système qui l'interroge sans qu'aucun message d'erreur ne le signale immédiatement. D'autre part, une perte de temps significative : sur un fichier comme `protocol.json`, qui peut recenser plusieurs centaines de registres répartis en de nombreuses catégories et niveaux d'imbrication, la navigation et la modification manuelles du JSON deviennent rapidement fastidieuses, même pour un développeur expérimenté. Construire une interface dédiée visait donc à la fois à fiabiliser les modifications et à réduire le temps nécessaire pour configurer ou adapter un protocole.
+Avant mon stage, PixL Expert ne proposait aucune interface dédiée à l'édition de ces fichiers : opérateurs et techniciens devaient modifier le JSON à la main. Cette approche posait deux problèmes. D'une part, un **risque d'erreurs élevé** : une faute de frappe dans une adresse, un mauvais format ou un facteur erroné peut rendre un registre illisible sans qu'aucun message ne le signale. D'autre part, une **perte de temps** : sur un fichier comme `protocol.json`, qui peut recenser plusieurs centaines de registres imbriqués, l'édition manuelle devient vite fastidieuse, même pour un développeur expérimenté. Construire une interface dédiée visait donc à la fois à fiabiliser les modifications et à accélérer la configuration d'un protocole.
 
 ### 2. Objectifs du stage
 
-> 🖼️ *À insérer — Schéma avant → après : `protocol.json` brut à gauche, interface graphique d'édition à droite, flèche entre les deux.*
 
 L'objectif de mon stage était de concevoir et développer un outil d'édition des paramètres Modbus intégré directement dans l'interface web PixL Expert. Cet outil devait permettre à un utilisateur de visualiser, modifier et sauvegarder les paramètres contenus dans les fichiers `network.json` et `protocol.json` sans avoir à manipuler ces fichiers directement.
 
@@ -179,17 +177,17 @@ Côté **frontend**, l'interface a été développée en **Vue.js 3**, avec l'AP
 
 **Éditeurs de code.** J'ai utilisé **VS Code** pour le développement frontend Vue.js, et **PyCharm** pour le développement backend Python. Ce choix reflète les points forts de chaque éditeur : PyCharm offre un support avancé pour Python (autocomplétion intelligente, débogage intégré, inspection de code statique), tandis que VS Code est particulièrement adapté au développement web grâce à son écosystème d'extensions — notamment Volar pour Vue.js, qui fournit la coloration syntaxique et l'autocomplétion dans les fichiers `.vue`.
 
-**Versionnage et intégration continue.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne à APIX Analytics. Pour chacun des trois dépôts du projet (Apix Tools, PixL Api, POC Console), j'ai travaillé sur une branche personnelle dédiée, ce qui m'a permis de développer et tester mes modifications sans impacter le code principal. GitLab héberge également les pipelines de **CI/CD** (intégration et déploiement continus) associés à chaque dépôt : à chaque push sur certaines branches, le pipeline se déclenche automatiquement pour compiler le projet, exécuter les tests, et produire les artefacts de déploiement (wheels Python, archives ZIP). Cette automatisation élimine les erreurs d'assemblage manuel et garantit que les artefacts déployés sont toujours cohérents avec le code source.
+**Versionnage et intégration continue.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne. Pour chacun des trois dépôts (Apix Tools, PixL Api, POC Console), j'ai travaillé sur une branche dédiée, afin de développer et tester mes modifications sans impacter le code principal. GitLab héberge aussi les pipelines de **CI/CD** (intégration et déploiement continus) : à chaque push sur certaines branches, le pipeline compile le projet, exécute les tests et produit automatiquement les artefacts de déploiement (wheels Python, archives ZIP). Cette automatisation évite les erreurs d'assemblage manuel et garantit des artefacts toujours cohérents avec le code source.
 
 **Prise de notes.** J'ai utilisé **Obsidian** pour organiser mes notes personnelles tout au long du stage : documentation des concepts appris, suivi des tâches en cours, mémos techniques et points à clarifier. Cet outil m'a permis de garder une trace structurée de mon avancement et de retrouver facilement les informations importantes, notamment lors de la reprise d'un sujet laissé en suspens d'une semaine à l'autre.
 
 ### 3. Organisation et suivi du projet
 
-Le suivi du projet s'est organisé autour d'une **réunion hebdomadaire le lundi** avec ma tutrice Élodie Baral-Baron. Ces points réguliers structuraient la semaine : ils permettaient de faire le bilan de ce qui avait été accompli, d'identifier les éventuels blocages rencontrés, de clarifier les objectifs de la semaine à venir, et d'ajuster les priorités en fonction de l'avancement global du projet. Cette cadence régulière évitait de s'engager trop longtemps dans une mauvaise direction sans retour : si une approche technique s'avérait inadaptée, elle était identifiée et corrigée dès le lundi suivant plutôt que de se prolonger pendant plusieurs semaines.
+Le suivi s'est organisé autour d'une **réunion hebdomadaire le lundi** avec ma tutrice. Ces points faisaient le bilan de la semaine écoulée, identifiaient les blocages et fixaient les objectifs suivants. Cette cadence évitait de s'engager trop longtemps dans une mauvaise direction : une approche inadaptée était corrigée dès le lundi suivant plutôt que de se prolonger sur plusieurs semaines.
 
-Le projet n'ayant pas de cahier des charges formalisé en amont, les fonctionnalités à développer ont été définies progressivement, par itérations successives. Chaque fonctionnalité livrée faisait l'objet d'une démonstration ou d'une vérification commune, dont les retours alimentaient directement les objectifs de la semaine suivante. Cette approche itérative, proche des méthodes agiles, est bien adaptée à un projet de développement en petite équipe où les besoins évoluent et se précisent au fur et à mesure que l'outil prend forme.
+Le projet n'ayant pas de cahier des charges formalisé, les fonctionnalités ont été définies progressivement, par itérations : chaque livraison faisait l'objet d'une démonstration dont les retours alimentaient les objectifs suivants. Cette approche itérative, proche des méthodes agiles, est bien adaptée à une petite équipe où les besoins se précisent à mesure que l'outil prend forme.
 
-Entre les réunions hebdomadaires, le travail s'organisait de manière autonome, avec des échanges informels au fil de l'eau dans l'openspace lorsqu'une question précise ou un blocage technique surgissait. La proximité physique de l'équipe rendait ces échanges spontanés et rapides, sans nécessiter de formalisme particulier. Cette organisation, combinant un cadre régulier et une flexibilité quotidienne, s'est révélée bien adaptée au rythme du stage.
+Entre les réunions, le travail s'organisait de manière autonome, avec des échanges informels dans l'openspace dès qu'une question ou un blocage surgissait. La proximité de l'équipe rendait ces échanges rapides, sans formalisme. Ce mélange de cadre régulier et de flexibilité quotidienne s'est révélé bien adapté au rythme du stage.
 
 
 ## IV. Réalisation du projet
@@ -246,7 +244,6 @@ Pour les conserver, il faut les **sérialiser** (convertir l'objet en JSON) puis
 
 #### b. Principe et rôle de la classe de base
 
-> 🖼️ *À insérer — Schéma de sérialisation : objet Python ⇄ JSON, avec les deux flèches `get_attributes_as_dict()` (sérialisation) et `set_attributes_from_dict()` (désérialisation).*
 
 ModelMother est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
 
@@ -257,7 +254,6 @@ Grâce à cette récursivité, une seule instruction charge l'intégralité d'un
 
 #### c. La problématique du dictionnaire dans le dictionnaire : ModelDictToListMother
 
-> 🖼️ *À insérer — Schéma dict ⇄ list : `{"CAL-C2H4": { ... }}` → objet `ElementDetailParameters` dont l'attribut `name` vaut `"CAL-C2H4"`.*
 
 C'est ici qu'intervient une limitation rencontrée concrètement lors du développement, que ma tutrice a résolue en étendant le framework.
 
@@ -483,7 +479,6 @@ La structure des fichiers sur ce serveur est organisée sous le répertoire apix
 
 #### b. Accès au serveur distant via SSH et MobaXTerm
 
-> 🖼️ *À insérer — Capture du terminal MobaXTerm (logs `docker ps -a` ou l'erreur `ModuleNotFoundError`).*
 
 Pour interagir avec une machine Linux distante depuis Windows, on utilise le protocole **SSH** (Secure Shell). SSH est un protocole réseau chiffré qui permet d'ouvrir un terminal de commande sur une machine distante comme si l'on était physiquement devant elle. Concrètement, une fois connecté en SSH, le développeur tape des commandes Linux qui s'exécutent sur le serveur de production, à plusieurs centaines de kilomètres de son poste.
 
@@ -581,7 +576,33 @@ Ce type de bug est particulièrement difficile à diagnostiquer en production : 
 
 ---
 
-## V. Conclusion
+## V. Impact environnemental et sociétal
+
+### 1. Impact environnemental de mes déplacements
+
+Les déplacements constituent l'un des principaux postes d'émission de gaz à effet de serre associés à une activité professionnelle. Durant ce stage, qui s'est déroulé du **23 mars au 27 juin 2026** (environ 14 semaines), j'ai effectué l'intégralité de mes trajets domicile-travail en **tramway**, sur une distance d'environ **16 km aller-retour**, à raison de **5 jours par semaine**. En tenant compte des jours fériés, cela représente près de **65 jours travaillés**, soit environ **1 040 km** parcourus sur l'ensemble de la période.
+
+Le tramway étant un transport en commun électrique, il s'agit de l'un des modes de déplacement les moins émetteurs en milieu urbain. À l'aide de l'outil d'estimation mis à disposition par l'ADEME [8], ces trajets représentent une émission estimée à environ **4 kg équivalent CO₂** sur toute la période — un impact très faible comparé aux quelque **225 kg CO₂** qu'aurait générés le même trajet en voiture individuelle, soit un rapport d'environ 1 à 55. Ce choix de transport a ainsi permis d'éviter l'émission de près de **220 kg de CO₂** sur la durée du stage.
+
+Le stage n'a par ailleurs occasionné **aucun déplacement professionnel**, l'activité ayant été réalisée intégralement sur site, ce qui a limité d'autant l'empreinte carbone liée à la mobilité.
+
+### 2. Démarche environnementale et sociale de l'entreprise
+
+Au-delà de mon activité individuelle, il est intéressant de considérer la démarche d'APIX Analytics en matière d'aspects écologiques et sociaux. Le cœur de métier de l'entreprise s'inscrit lui-même dans une logique environnementale : la gamme **GREENPIX** est dédiée à l'analyse des gaz renouvelables (biométhane, biogaz), une activité qui accompagne directement la transition énergétique en permettant le contrôle qualité nécessaire à l'injection de gaz « verts » dans les réseaux.
+
+Sur le plan des pratiques internes, plusieurs éléments observés durant le stage témoignent d'une démarche responsable au quotidien. La taille réduite de la structure favorise naturellement la sobriété : les échanges privilégient l'oral et le numérique plutôt que l'impression papier, et le travail s'appuie largement sur des outils dématérialisés (dépôts Git, documentation en ligne, communication interne). Le tri des déchets est en place dans les locaux, et l'implantation de l'entreprise en centre-ville de Grenoble, bien desservie par les transports en commun, facilite le recours aux mobilités douces par les collaborateurs.
+
+Sur le plan social, l'organisation en petite équipe se traduit par des conditions de travail favorables, que j'ai pu constater tout au long du stage : une communication directe et bienveillante, un accompagnement attentif des nouveaux arrivants, une réelle autonomie laissée à chacun, et une ambiance d'équipe propice à l'entraide grâce à la proximité physique dans l'openspace. L'entreprise a par ailleurs mis en place une politique de télétravail partiel, qui offre aux collaborateurs une flexibilité appréciable dans l'organisation de leur travail et contribue, accessoirement, à réduire les déplacements domicile-travail. Cet environnement de travail, à la fois exigeant techniquement et humainement accueillant, contribue au bien-être et à la montée en compétence des membres de l'équipe.
+
+### 3. Impact sociétal du projet
+
+Le projet réalisé durant ce stage présente également des retombées sociétales, principalement liées à l'utilisation directe de l'outil produit. En remplaçant la modification manuelle des fichiers de configuration `network.json` et `protocol.json` par une interface guidée et validée, l'outil réduit significativement le risque d'erreur humaine lors du paramétrage des équipements Modbus. Cette fiabilité accrue améliore les conditions de travail des techniciens et intégrateurs, qui manipulent désormais une interface claire plutôt qu'un fichier JSON brut, et limite les interventions correctives consécutives à une mauvaise configuration.
+
+Plus largement, l'outil s'intègre à la PixL Suite, qui pilote des analyseurs de gaz industriels. En contribuant à la fiabilité de ces analyseurs — notamment ceux dédiés au contrôle des gaz renouvelables — le projet participe indirectement à un système ayant un impact environnemental positif : un paramétrage correct et sûr des équipements est une condition de la qualité des mesures sur lesquelles reposent la surveillance des procédés industriels et le suivi des émissions.
+
+---
+
+## VI. Conclusion
 
 Ce stage avait pour objectif de concevoir et développer un outil d'édition des paramètres Modbus intégré à l'interface web PixL Expert, afin de remplacer la modification manuelle des fichiers `network.json` et `protocol.json` par une interface fiable et guidée. Cet objectif a été atteint : l'outil livré permet de visualiser, modifier, valider et sauvegarder ces configurations sans manipuler directement le JSON, et il a été déployé en production au sein de la PixL Suite.
 
@@ -591,7 +612,7 @@ Sur le plan technique, ce stage a été l'occasion de monter en compétence sur 
 
 Au-delà des compétences acquises, ce stage a confirmé mon intérêt pour le développement logiciel appliqué à des problématiques industrielles concrètes, où la fiabilité et la rigueur ne sont pas négociables. L'outil développé constitue une base extensible : il pourra être enrichi de nouveaux types de registres, de validations supplémentaires ou d'une ergonomie affinée à mesure que les besoins des utilisateurs évolueront.
 
-Au-delà du résultat technique, cette phase de mise en production a constitué une expérience formatrice sur la rigueur qu'exige un environnement de production. Des erreurs en apparence anodines — un numéro de version mal synchronisé dans `.env`, des migrations dans un état incohérent — peuvent bloquer complètement un déploiement ou produire un comportement incorrect difficile à diagnostiquer à première vue. Cette expérience m'a appris l'importance de vérifier systématiquement chaque étape après exécution, de valider la cohérence entre les variables d'environnement et les artefacts réellement présents, et de ne pas considérer qu'un script qui « ne produit pas d'erreur » a nécessairement produit le résultat attendu. En production, le silence n'est pas synonyme de succès : il faut toujours valider activement l'état final du système.
+La mise en production, enfin, a été particulièrement formatrice sur la rigueur qu'exige un tel environnement. Des erreurs en apparence anodines — un numéro de version mal synchronisé dans `.env`, des migrations dans un état incohérent — peuvent bloquer un déploiement ou produire un comportement difficile à diagnostiquer. J'en retiens qu'il faut vérifier chaque étape après exécution et ne jamais considérer qu'un script « sans erreur » a forcément produit le résultat attendu : en production, le silence n'est pas synonyme de succès.
 
 ---
 
@@ -621,6 +642,7 @@ Au-delà du résultat technique, cette phase de mise en production a constitué 
 [5] Docker Inc. *Docker documentation* [en ligne]. Disponible sur : https://docs.docker.com/ (consulté le 08/06/2026)
 [6] AG Grid Ltd. *AG Grid — Documentation* [en ligne]. Disponible sur : https://www.ag-grid.com/documentation/ (consulté le 08/06/2026)
 [7] Université Grenoble Alpes. *Règlement des études BUT Informatique* [en ligne]. (consulté le 08/06/2026)
+[8] ADEME. *Calculateur d'émissions carbone des trajets — Agir pour la transition écologique* [en ligne]. Disponible sur : https://agirpourlatransition.ademe.fr/particuliers/bureau/deplacements/calculer-emissions-carbone-trajets (consulté le 08/06/2026)
 
 <div style="page-break-after: always;"></div>
 

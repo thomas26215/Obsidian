@@ -17,3 +17,12 @@
     text-align: justify;
   }
 }
+
+/* Ne pas justifier le contenu explicitement centré (page de titre, etc.) */
+[align="center"],
+[align="center"] p,
+[align="center"] li,
+div[style*="text-align:center"] p,
+div[style*="text-align: center"] p {
+  text-align: center !important;
+}

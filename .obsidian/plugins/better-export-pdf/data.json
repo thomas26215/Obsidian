@@ -1,9 +1,9 @@
 {
   "showTitle": true,
   "maxLevel": "6",
-  "displayHeader": true,
+  "displayHeader": false,
   "displayFooter": true,
-  "headerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"title\"></span></div>",
+  "headerTemplate": "  \"headerTemplate\": \"<div style=\\\"width:100vw;font-size:9px;padding:0 1cm;display:grid;grid-template-columns:1fr 2fr 1fr;align-items:center;color:#000;\\\"><span style=\\\"text-align:left;\\\">Thomas Venouil</span><span style=\\\"text-align:center;\\\">Développement d'une interface pour modifier les paramètres Modbus</span><span style=\\\"text-align:right;\\\">Année : 2026</span></div>\",\n",
   "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></div>",
   "printBackground": false,
   "generateTaggedPDF": false,

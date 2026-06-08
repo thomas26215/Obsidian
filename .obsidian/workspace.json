@@ -129,6 +129,27 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "8f5d3e2d735c43c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed4dd5ce70e30d98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Rapport de stage"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -360,18 +381,24 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "41d06eb4c4f55e6c",
+  "active": "f94816c6a68240be",
   "lastOpenFiles": [
-    "Images/apix.png",
-    "Images/image.png",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.1c3e54f0860e",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.cb1542bd65c6",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.5301d91e9315",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.3694578ea7bd",
-    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.9543588041e0",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.c524a734b621",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.620908bd162f",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.380c45ff2e13",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.760059fddcba",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.a13cb879e42b",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.8eda6cc834ba",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.d867132ac0a3",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.ce8ada602b95",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.3487754f4cf7",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.06b4a269d714",
     "Projets/En cours/Apix Analytics/Trame oral de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.10e56884bfe6",
+    "Images/apix.png",
+    "Images/image.png",
+    "Projets/En cours/Apix Analytics/Présentation entreprise.md",
     "Images/flux-deploiement.png",
     "Images/{FA9990B3-2E4F-4065-86CF-A90728924D38}.png",
     "Images/modbus-maitre-esclave.png",
@@ -380,18 +407,12 @@
     "Images/network-editeur-formulaire.png",
     "Images/protocole-editeur-tableau.png",
     "Images/protocole-editeur-modale.png",
-    "Images/pixl-suite-architecture.png",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.ac9541d4324d",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.1b953b2993c0",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.7c08d893296f",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.16328.2627e99b107f",
     "Untitled 15.md",
     "Sans titre 3.md",
     "Littéraire/Untitled.md",
     "dc.md",
     "Sans titre 2.md",
     "Projets/En cours/Apix Analytics/Fonctionnement serveur Modbus.md",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.15388.699ca147af1b",
     "Projets/En cours/Apix Analytics/Les logiciels.md",
     "Projets/En cours/Apix Analytics/Plan.md",
     "Projets/En cours/Apix Analytics/pixel api, apix tools et poc console.md",
