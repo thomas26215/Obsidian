@@ -384,16 +384,18 @@ Plutôt que de créer une route dédiée pour chaque enum du projet, j'ai dével
 
 #### a. Analyse de la structure du fichier
 
-Le fichier `protocol.json` est structurellement bien plus complexe que `network.json`. Il s'organise en deux grandes branches correspondant aux deux types de registres Modbus utilisés.
+Le fichier `protocol.json` est structurellement bien plus complexe que `network.json`. Son contenu s'organise autour de deux types de registres Modbus — le `holding_register` et l'`input_register`.
 
-**Le holding register** expose les mesures principales de l'analyseur. Il contient une section `measure`, elle-même divisée en deux sous-sections :
+Le point déterminant pour la conception de l'éditeur est que ces deux registres ne se distinguent pas par leur contenu mais par le type de registre Modbus auquel ils correspondent : le holding register est accessible en lecture/écriture, l'input register en lecture seule. Pour le reste, les deux partagent exactement le même schéma d'organisation et regroupent leurs entrées dans les mêmes sous-sections : `measure` (mesures), `alarm` (alarmes), `information` (informations sur l'appareil), `system` (état du système) et `command` (registres de commande). Une même catégorie de sous-section peut donc apparaître indifféremment dans l'un ou l'autre registre.
 
-- `elements_detailed` : les éléments avec mesures détaillées, typiquement les composants mesurés par chromatographie. Chaque entrée est un dictionnaire keyed par le nom du composant (ex. `"CAL-C2H4"`, `"H2S"`). Elle peut contenir jusqu'à cinq types de propriétés, chacune occupant un ou plusieurs registres consécutifs : `raw_value` (valeur brute du détecteur), `normalized_value` (valeur normalisée), `response` (réponse du pic), `peak_start` (début du pic en temps), `peak_end` (fin du pic). Chaque propriété précise son adresse de registre, son format de données (toujours `float32` pour les éléments détaillés, occupant 2 registres), et son facteur de conversion.
-- `elements` : les éléments simples, représentant une mesure unique par un seul groupe de registres. Chaque entrée possède une adresse, un format (`float16`, `float32`, etc.), une taille en registres (`size`), et un facteur de conversion.
+Au sein de la sous-section `measure`, deux niveaux de représentation coexistent :
 
-**L'input register** regroupe les données en lecture seule, organisées en cinq sous-sections : `alarm` (les alarmes), `measure` (mesures supplémentaires), `information` (informations générales sur l'appareil), `system` (état du système), et `command` (registres de commande). La sous-section `alarm` est structurée de la même manière que les éléments : un dictionnaire keyed par nom d'alarme, chaque entrée décrivant l'adresse du registre de statut, son format (toujours `sint16` pour les alarmes, occupant 1 registre), ainsi que des codes de catégorie et de code d'erreur utilisés par le système de gestion des alarmes.
+- Les **mesures simples**, déclarées chacune par une entrée unique (ex. `data_validity`, `injection_time`), avec une adresse, un format et une taille en registres (`size`).
+- Les **éléments détaillés**, regroupés sous `elements_detailed` : un dictionnaire keyed par le nom du composant (ex. `"CAL-C2H4"`, `"H2S"`), typiquement les composants mesurés par chromatographie. Chaque composant porte jusqu'à cinq propriétés — `raw_value` (valeur brute du détecteur), `normalized_value` (valeur normalisée), `response` (réponse du pic), `peak_start` (début du pic) et `peak_end` (fin du pic) — chacune occupant ses propres registres, toujours au format `float32` (2 registres), avec un facteur de conversion.
 
-La combinaison de cette imbrication à plusieurs niveaux et du grand nombre d'entrées possibles représentait le principal défi de conception de l'éditeur.
+Les autres sous-sections suivent la même logique de dictionnaire keyed par nom. Dans `alarm`, chaque entrée décrit l'adresse de son registre de statut et son format (toujours `sint16`, 1 registre). Dans `information`, les entrées mélangent des formats variés : `str` de taille variable pour les versions de firmware et les sommes de contrôle, `sint16`/`sint32` pour les états et les dates.
+
+La combinaison de cette imbrication à plusieurs niveaux, du partage du même schéma entre registres et du grand nombre d'entrées possibles représentait le principal défi de conception de l'éditeur.
 
 #### b. La route GET /protocol/formats — configuration dynamique de l'interface
 
