@@ -134,7 +134,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projets/En cours/Apix Analytics/Rapport de stage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "Rapport de stage"
             }
+          },
+          {
+            "id": "3c72b4c328d51598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sans titre 4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sans titre 4"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "8f5d3e2d735c43c1",
@@ -425,8 +449,13 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "359489b2409e56a4",
+  "active": "3c72b4c328d51598",
   "lastOpenFiles": [
+    "Sans titre 4.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.c39bff62e961",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.f6d3dbf1c218",
+    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.2eec6c98b459",
     "Projets/En cours/Apix Analytics/Trame oral de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17960.0914e175f868",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17960.4a11b44711fa",
@@ -435,10 +464,6 @@
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.620908bd162f",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.380c45ff2e13",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.760059fddcba",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.a13cb879e42b",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.8eda6cc834ba",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.d867132ac0a3",
-    "Projets/En cours/Apix Analytics/Rapport de stage.md",
     "Images/apix.png",
     "Images/image.png",
     "Projets/En cours/Apix Analytics/Présentation entreprise.md",
