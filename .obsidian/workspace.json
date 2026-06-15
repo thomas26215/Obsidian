@@ -158,7 +158,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sans titre 4.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -451,12 +451,17 @@
   },
   "active": "3c72b4c328d51598",
   "lastOpenFiles": [
+    "Pasted image 20260121223837.png",
+    "Pasted image 20260121225858.png",
+    "Pasted image 20260121231328.png",
+    "Pasted image 20260324100959.png",
     "Sans titre 4.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md",
+    "Untitled 4.md",
+    "Projets/En cours/Apix Analytics/Trame oral de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.c39bff62e961",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.f6d3dbf1c218",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.18228.2eec6c98b459",
-    "Projets/En cours/Apix Analytics/Trame oral de stage.md",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17960.0914e175f868",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.17960.4a11b44711fa",
     "Projets/En cours/Apix Analytics/Rapport de stage.md.tmp.22660.9543588041e0",
@@ -472,9 +477,6 @@
     "Images/modbus-maitre-esclave.png",
     "Images/{94B47FA1-B956-43A3-A0D5-932EDAE8D241}.png",
     "Images/modelmother-hierarchie.png",
-    "Images/network-editeur-formulaire.png",
-    "Images/protocole-editeur-tableau.png",
-    "Images/protocole-editeur-modale.png",
     "Untitled 15.md",
     "Sans titre 3.md",
     "Littéraire/Untitled.md",
@@ -495,8 +497,6 @@
     "Projets/En cours/LiftConnect/Sans titre.md",
     "Projets/En cours/LiftConnect/Taches.md",
     "Fiche Présentation Entreprise et Mission Thomas Venouil.md",
-    "Templates/Template Kanban.md",
-    "Ressources/Autre/Comment lire + de livres.md",
     "Projets/En cours/LiftConnect/Untitled.canvas"
   ]
 }
