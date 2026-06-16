@@ -14,7 +14,7 @@ cssclasses:
 </div>
 
 
-**Année Universitaire : 2026**
+**Année Universitaire : 2025-2026**
 **RAPPORT DE STAGE OU D’ALTERNANCE**
 
 ---
@@ -39,7 +39,7 @@ cssclasses:
 
 **Présenté par**
 
-Jean Dupont
+Thomas Venouil
 
 **Jury**
 
@@ -85,7 +85,7 @@ Enfin, je remercie l'ensemble des collaborateurs avec qui j'ai eu l'occasion d'�
 
 ## Introduction
 
-Du 23 mars au 27 juin 2026, j'ai réalisé mon stage de fin d'études au sein d'APIX Analytics, une PME grenobloise spécialisée dans la conception, la fabrication et la commercialisation d'analyseurs de gaz chromatographiques industriels. Déployés sur des sites industriels critiques, ces analyseurs communiquent avec les systèmes de leurs clients via le protocole Modbus, un standard de communication industriel. La configuration de cette communication repose sur deux fichiers de paramètres au format JSON, `network.json` et `protocol.json`, qui devaient jusqu'alors être édités manuellement — une opération à la fois longue et propice aux erreurs.
+Du 23 mars au 27 juin 2026, j'ai réalisé mon stage de fin d'études au sein d'APIX Analytics, une PME (petite et moyenne entreprise) grenobloise spécialisée dans la conception, la fabrication et la commercialisation d'analyseurs de gaz chromatographiques industriels. Déployés sur des sites industriels critiques, ces analyseurs communiquent avec les systèmes de leurs clients via le protocole Modbus (cf. glossaire), un standard de communication industriel. La configuration de cette communication repose sur deux fichiers de paramètres au format JSON, `network.json` et `protocol.json`, qui devaient jusqu'alors être édités manuellement — une opération à la fois longue et propice aux erreurs.
 
 Le sujet de mon stage a consisté à concevoir et développer un outil d'édition de ces paramètres Modbus, intégré à l'interface web PixL Expert, afin de remplacer cette édition manuelle par une interface fiable, guidée et validée. Ce travail, de nature *full-stack*, a mobilisé le développement backend en Python (Django et Django REST Framework), le développement frontend en Vue.js, ainsi que le déploiement de la solution en production.
 
@@ -132,11 +132,11 @@ C'est ce signal brut — la suite des pics détectés — qui alimente toute la 
 #### c. Le logiciel : la PixL Suite
 
 ![[pixl-suite-architecture.png|700]]
-*Figure 1 — Architecture de la PixL Suite : PixL Modbus, PixL Core, PixL API et la base PixL DB communiquent entre eux ; **PixL Expert** (en jaune), l'interface Vue.js, constitue le périmètre du stage.*
+*Figure 1 : Architecture de la PixL Suite : PixL Modbus, PixL Core, PixL API et la base PixL DB communiquent entre eux ; **PixL Expert** (en jaune), l'interface Vue.js, constitue le périmètre du stage.*
 
-La **PixL Suite** est un ensemble de logiciels interdépendants qui pilotent intégralement les analyseurs APIX. Elle couvre l'intégralité de la chaîne de traitement, depuis l'acquisition des signaux physiques bruts produits par le détecteur chromatographique, jusqu'à la présentation des résultats aux opérateurs et à la communication avec les systèmes industriels environnants.
+La **PixL Suite** (voir Figure 1) est un ensemble de logiciels interdépendants qui pilotent intégralement les analyseurs APIX. Elle couvre l'intégralité de la chaîne de traitement, depuis l'acquisition des signaux physiques bruts produits par le détecteur chromatographique, jusqu'à la présentation des résultats aux opérateurs et à la communication avec les systèmes industriels environnants.
 
-L'ensemble de la suite est déployé sur un **PC embarqué** dédié, sur lequel tournent simultanément tous les composants logiciels. Ces composants sont déployés sous forme de conteneurs Docker, ce qui garantit leur isolation et simplifie les mises à jour sans redémarrage complet du système. Une base de données PostgreSQL assure la persistance des mesures et des configurations.
+L'ensemble de la suite est déployé sur un **PC embarqué** dédié, sur lequel tournent simultanément tous les composants logiciels. Ces composants sont déployés sous forme de conteneurs Docker (cf. glossaire), ce qui garantit leur isolation et simplifie les mises à jour sans redémarrage complet du système. Une base de données PostgreSQL assure la persistance des mesures et des configurations.
 
 La suite se compose de plusieurs logiciels aux rôles complémentaires :
 
@@ -155,7 +155,7 @@ Mon stage s'est déroulé de fin mars à fin juin 2026 dans les locaux d'APIX An
 
 L'équipe de développement compte moins de cinq personnes, dont un alternant qui travaille en parallèle sur le nouveau PixL Expert. Chaque membre y porte une responsabilité large, et la communication est continue et directe.
 
-Ma tutrice de stage est **Élodie Baral-Baron**, qui a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la codebase d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien de **Sébastien Rattier**, chef de produit, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
+Ma tutrice de stage, **Mme Baral-Baron**, a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la codebase d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien du **chef de produit**, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
 
 L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu quand j'en avais besoin, mais libre dans la manière d'organiser et de mener mon travail au quotidien. Cette autonomie encadrée, dans un environnement où il est facile de poser une question à la personne assise en face, s'est révélée particulièrement formatrice.
 
@@ -165,7 +165,7 @@ L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu 
 ### 1. Problématique : la configuration Modbus dans PixL Expert
 
 
-PixL Expert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP, permet à des automates ou des systèmes industriels tiers d'interroger l'analyseur et de récupérer ses mesures en temps réel.
+PixL Expert communique avec des systèmes industriels tiers via le protocole **Modbus**, un standard largement répandu dans l'industrie pour l'échange de données entre équipements. Ce protocole, supporté à la fois en mode série et en mode TCP/IP (Transmission Control Protocol / Internet Protocol, la pile de protocoles standard des réseaux), permet à des automates ou des systèmes industriels tiers d'interroger l'analyseur et de récupérer ses mesures en temps réel.
 
 La configuration de cette communication repose sur deux fichiers JSON : `network.json`, qui définit les paramètres réseau de la connexion, et `protocol.json`, qui recense l'intégralité des registres Modbus exposés par l'appareil. Pour chaque registre, le `protocol.json` décrit ses caractéristiques techniques (adresse, format, taille, facteur de conversion), ainsi que la nature de l'information concrète remontée par ce registre — nom du composant mesuré, type de valeur, catégorie d'alarme. C'est donc ce fichier qui fait le lien entre les adresses Modbus abstraites et les données métier de l'analyseur.
 
@@ -186,7 +186,7 @@ Le développement de cet outil impliquait plusieurs contraintes techniques impor
 
 **Intégration dans la codebase existante.** PixL Expert disposait déjà d'une architecture Vue.js établie, avec des composants réutilisables et des conventions de développement propres au projet. Il fallait s'y conformer : certains composants existants ont pu être réutilisés, d'autres ont dû être créés de toutes pièces en respectant les mêmes patterns. De même côté backend, certaines routes API étaient déjà en place et ont pu être exploitées, tandis que d'autres ont dû être développées spécifiquement pour les besoins du projet.
 
-**Maîtrise du système de modèles Python.** Le backend repose sur un système de sérialisation/désérialisation développé en interne, appelé `ModelMother`, qui permet de convertir automatiquement les objets Python en JSON et inversement. Comprendre et utiliser correctement ce mécanisme était indispensable pour développer les routes backend de manière cohérente avec le reste du projet. Ce système sera détaillé dans la partie IV.
+**Maîtrise du système de modèles Python.** Le backend repose sur un système de sérialisation/désérialisation (cf. glossaire) développé en interne, appelé `ModelMother`, qui permet de convertir automatiquement les objets Python en JSON et inversement. Comprendre et utiliser correctement ce mécanisme était indispensable pour développer les routes backend de manière cohérente avec le reste du projet. Ce système sera détaillé dans la partie IV.
 
 **Complexité des données.** Le fichier `protocol.json` est particulièrement volumineux et hiérarchisé, avec plusieurs niveaux d'imbrication et des centaines d'entrées. Concevoir une interface claire et utilisable pour naviguer et éditer ces données sans surcharger l'utilisateur a représenté un véritable enjeu de conception.
 
@@ -200,7 +200,7 @@ Le développement de cet outil impliquait plusieurs contraintes techniques impor
 
 Le projet reposait sur deux environnements techniques distincts et complémentaires, dont la maîtrise simultanée constituait l'une des exigences principales du stage.
 
-Côté **backend**, le développement s'est fait en **Python**, avec le framework **Django** et son extension **Django REST Framework**. Django est l'un des frameworks web Python les plus répandus : il fournit une structure d'application claire, un système de routage des requêtes HTTP, et de nombreux outils prêts à l'emploi pour la gestion des données et des utilisateurs. Django REST Framework complète Django pour la construction d'API REST, en simplifiant la sérialisation des données et la gestion des formats de réponse. Les modifications portaient sur trois dépôts distincts : **Apix Tools**, qui contient les modèles de données et utilitaires partagés, **PixL API**, qui expose les routes REST consommées par le frontend, et **PixL Expert**, qui héberge le projet Vue.js de la nouvelle interface web.
+Côté **backend**, le développement s'est fait en **Python**, avec le framework **Django** et son extension **Django REST Framework** (DRF, cf. glossaire). Django est l'un des frameworks web Python les plus répandus : il fournit une structure d'application claire, un système de routage des requêtes HTTP (HyperText Transfer Protocol, le protocole d'échange de données du web), et de nombreux outils prêts à l'emploi pour la gestion des données et des utilisateurs. Django REST Framework complète Django pour la construction d'API REST, en simplifiant la sérialisation des données et la gestion des formats de réponse. Les modifications portaient sur trois dépôts distincts : **Apix Tools**, qui contient les modèles de données et utilitaires partagés, **PixL API**, qui expose les routes REST consommées par le frontend, et **PixL Expert**, qui héberge le projet Vue.js de la nouvelle interface web.
 
 Côté **frontend**, l'interface a été développée en **Vue.js 3**, avec l'API Composition et le système de réactivité associé. Vue.js est un framework JavaScript progressif orienté composants : l'interface est découpée en blocs autonomes réutilisables (les composants), chacun encapsulant sa propre logique, son template HTML et ses styles. Ce découpage facilite la maintenance et la réutilisation du code, ce qui est particulièrement important dans un projet comme PixL Expert qui a vocation à s'enrichir continuellement de nouveaux éditeurs et de nouvelles vues. La gestion de l'état partagé entre composants était assurée par **Pinia**, le store officiel de Vue.js 3, et les appels HTTP vers l'API Python étaient effectués via **Axios**.
 
@@ -208,7 +208,7 @@ Côté **frontend**, l'interface a été développée en **Vue.js 3**, avec l'AP
 
 **Éditeurs de code.** J'ai utilisé **VS Code** pour le développement frontend Vue.js, et **PyCharm** pour le développement backend Python. Ce choix reflète les points forts de chaque éditeur : PyCharm offre un support avancé pour Python (autocomplétion intelligente, débogage intégré, inspection de code statique), tandis que VS Code est particulièrement adapté au développement web grâce à son écosystème d'extensions — notamment Volar pour Vue.js, qui fournit la coloration syntaxique et l'autocomplétion dans les fichiers `.vue`.
 
-**Versionnage et intégration continue.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne. Pour chacun des trois dépôts (Apix Tools, PixL API, Pixl Expert), j'ai travaillé sur une branche dédiée, afin de développer et tester mes modifications sans impacter le code principal. GitLab héberge aussi les pipelines de **CI/CD** (intégration et déploiement continus) : à chaque push, le pipeline compile le projet et exécute les tests, mais la production des artefacts de déploiement (wheels Python, archives ZIP) n'est déclenchée que par la **pose d'un tag** sur un commit. Ce tag, qui porte le numéro de version, sert ainsi de marqueur de release : seules les versions explicitement étiquetées donnent lieu à un artefact livrable. Cette automatisation évite les erreurs d'assemblage manuel et garantit des artefacts toujours cohérents avec le code source et sa version.
+**Versionnage et intégration continue.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne. Pour chacun des trois dépôts (Apix Tools, PixL API, Pixl Expert), j'ai travaillé sur une branche dédiée, afin de développer et tester mes modifications sans impacter le code principal. GitLab héberge aussi les pipelines de **CI/CD** (intégration et déploiement continus ; cf. glossaire) : à chaque push, le pipeline compile le projet et exécute les tests, mais la production des artefacts de déploiement (wheels Python, archives ZIP) n'est déclenchée que par la **pose d'un tag** sur un commit. Ce tag, qui porte le numéro de version, sert ainsi de marqueur de release : seules les versions explicitement étiquetées donnent lieu à un artefact livrable. Cette automatisation évite les erreurs d'assemblage manuel et garantit des artefacts toujours cohérents avec le code source et sa version.
 
 **Prise de notes.** J'ai utilisé **Obsidian** pour organiser mes notes personnelles tout au long du stage : documentation des concepts appris, suivi des tâches en cours, mémos techniques et points à clarifier. Cet outil m'a permis de garder une trace structurée de mon avancement et de retrouver facilement les informations importantes, notamment lors de la reprise d'un sujet laissé en suspens d'une semaine à l'autre.
 
@@ -228,26 +228,26 @@ Entre les réunions, le travail s'organisait de manière autonome, avec des éch
 #### a. Le protocole Modbus
 
 ![[Pasted image 20260324100959.png]]
-*Figure 2 — Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
+*Figure 2 : Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
 
 Avant de me lancer dans le développement, il était essentiel de maîtriser le socle technique du projet : le protocole Modbus, un protocole de communication — c'est-à-dire un ensemble de conventions permettant à deux équipements d'échanger des informations de manière structurée et fiable — spécifiquement conçu pour les environnements industriels. Conçu en 1979 par Modicon pour ses automates programmables, il reste, malgré son âge, l'un des plus répandus dans l'industrie pour sa simplicité, sa robustesse et la très large base d'équipements qui le supportent.
 
-**Modèle maître / esclave.** Modbus repose sur un modèle maître/esclave : seul le maître initie les échanges, les esclaves se contentant de répondre à ses requêtes. Dans le contexte d'APIX, un automate industriel joue le rôle de maître et interroge régulièrement l'analyseur — l'esclave — pour récupérer ses mesures ; l'analyseur ne transmet jamais de données de façon spontanée.
+**Modèle maître / esclave.** Modbus repose sur un modèle maître/esclave (voir Figure 8, en annexe A) : seul le maître initie les échanges, les esclaves se contentant de répondre à ses requêtes. Dans le contexte d'APIX, un automate industriel joue le rôle de maître et interroge régulièrement l'analyseur — l'esclave — pour récupérer ses mesures ; l'analyseur ne transmet jamais de données de façon spontanée.
 
-**Les registres Modbus.** Les échanges se font à travers des registres, des cases mémoire numérotées situées dans l'esclave, chacune identifiée par une adresse unique et contenant une valeur numérique. On en distingue deux types selon la donnée :
+**Les registres Modbus.** Les échanges se font à travers des registres, des cases mémoire numérotées situées dans l'esclave, chacune identifiée par une adresse unique et contenant une valeur numérique (voir Figure 2). On en distingue deux types selon la donnée (cf. glossaire) :
 
 - Les **holding registers**, accessibles en lecture et en écriture : l'analyseur APIX y expose ses mesures principales (concentrations, valeurs détaillées de chromatographie) ainsi que les commandes.
 - Les **input registers**, en lecture seule : ils portent les alarmes, les états système, les informations de commande et les informations générales.
 
-**Supports de communication.** Modbus fonctionne sur deux types de liaisons : Modbus RTU (liaison série RS-485, trames binaires compactes) et Modbus TCP (mêmes trames encapsulées dans des paquets réseau Ethernet). L'analyseur APIX supporte les deux simultanément, chacun étant configurable via `network.json`.
+**Supports de communication.** Modbus fonctionne sur deux types de liaisons : Modbus RTU (Remote Terminal Unit, liaison série sur bus RS-485 — une norme de transmission série différentielle —, trames binaires compactes) et Modbus TCP (mêmes trames encapsulées dans des paquets réseau Ethernet). L'analyseur APIX supporte les deux simultanément, chacun étant configurable via `network.json`.
 
-**Formats de données et facteur de conversion.** Un registre étant encodé sur 16 bits, représenter des types plus précis impose d'en utiliser plusieurs consécutifs : un flottant Float32 (IEEE 754) occupe ainsi deux registres. Certaines valeurs nécessitent par ailleurs un facteur de conversion (`factor`) : une concentration de 12,34 % est stockée sous la valeur entière 1234, avec un facteur de 0,01. Ces formats (`float32`, `float16`, `sint16`, etc.) et ces facteurs sont consignés pour chaque registre dans `protocol.json`.
+**Formats de données et facteur de conversion.** Un registre étant encodé sur 16 bits, représenter des types plus précis impose d'en utiliser plusieurs consécutifs : un flottant Float32 (norme IEEE 754, le standard de représentation des nombres à virgule flottante) occupe ainsi deux registres. Certaines valeurs nécessitent par ailleurs un facteur de conversion (`factor`) : une concentration de 12,34 % est stockée sous la valeur entière 1234, avec un facteur de 0,01. Ces formats (`float32`, `float16`, `sint16`, etc.) et ces facteurs sont consignés pour chaque registre dans `protocol.json`.
 
 #### b. Prise en main de la codebase PixL Expert existante
 
 Une fois le contexte technique assimilé, la deuxième étape a consisté à explorer et comprendre le code existant. Cette phase est toujours délicate dans un stage : il faut naviguer dans un ensemble de fichiers écrits par d'autres personnes, souvent sans documentation exhaustive, et comprendre non seulement ce que fait le code, mais aussi pourquoi il est structuré ainsi. Pour cette partie du stage, ma tutrice de stage était présente pour m'expliquer les points compliqués dans le code.
 
-**La bibliothèque Apix Tools.** Ce module constitue le socle partagé du projet. Il contient les classes Python communes utilisées par l'ensemble des composants de la PixL Suite : les modèles de données, les utilitaires de sérialisation et notamment le système ModelMother. Apix Tools est distribué sous forme de wheel Python — un format d'empaquetage standard qui permet d'installer une bibliothèque Python comme n'importe quel paquet tiers, via la commande `pip install`. Chaque autre dépôt du projet le déclare comme dépendance dans son fichier `requirements.txt`.
+**La bibliothèque Apix Tools.** Ce module constitue le socle partagé du projet. Il contient les classes Python communes utilisées par l'ensemble des composants de la PixL Suite : les modèles de données, les utilitaires de sérialisation et notamment le système ModelMother. Apix Tools est distribué sous forme de wheel Python (cf. glossaire) — un format d'empaquetage standard qui permet d'installer une bibliothèque Python comme n'importe quel paquet tiers, via la commande `pip install`. Chaque autre dépôt du projet le déclare comme dépendance dans son fichier `requirements.txt`.
 
 **L'application PixL API.** Ce composant contient l'API REST du projet, développée avec le framework Django et son extension Django REST Framework. Une API REST (Representational State Transfer) est une interface de communication entre applications, qui expose des données et des opérations via des URLs standardisées — appelées routes ou endpoints — interrogeables en HTTP. Par exemple, une route `GET /api/modbus/networks` retourne les paramètres réseau Modbus actuels, et une route `POST /api/modbus/networks` permet de les modifier. C'est via ces routes que le frontend Vue.js communique avec le backend Python.
 
@@ -257,7 +257,7 @@ Django impose une organisation précise du code : les applications métier sont 
 
 #### c. Compréhension des fichiers de configuration JSON
 
-Le comportement Modbus de l'analyseur APIX est entièrement piloté par deux fichiers de configuration au format JSON : `network.json`, qui définit les paramètres réseau des liaisons Modbus RTU et TCP, et `protocol.json`, qui décrit l'ensemble des registres exposés par l'analyseur — leur adresse, leur type, leur format et leur facteur de conversion. Ces deux fichiers ont fait l'objet d'une analyse approfondie dès les premiers jours du stage, car ils constituent le point central autour duquel s'articule toute l'interface de configuration à développer. JSON (JavaScript Object Notation) est un format textuel d'échange de données, extrêmement répandu en développement web et dans les API REST. Il représente les données sous forme de paires clé/valeur, de listes ordonnées et de structures imbriquées.
+Le comportement Modbus de l'analyseur APIX est entièrement piloté par deux fichiers de configuration au format JSON : `network.json`, qui définit les paramètres réseau des liaisons Modbus RTU et TCP, et `protocol.json`, qui décrit l'ensemble des registres exposés par l'analyseur — leur adresse, leur type, leur format et leur facteur de conversion. Ces deux fichiers ont fait l'objet d'une analyse approfondie dès les premiers jours du stage, car ils constituent le point central autour duquel s'articule toute l'interface de configuration à développer. JSON (JavaScript Object Notation, cf. glossaire) est un format textuel d'échange de données, extrêmement répandu en développement web et dans les API REST. Il représente les données sous forme de paires clé/valeur, de listes ordonnées et de structures imbriquées.
 
 Cette analyse n'était pas purement technique : ma tutrice m'a expliqué la signification métier de chaque champ et les règles de cohérence à respecter. Ces règles, absentes des fichiers eux-mêmes, étaient indispensables pour concevoir une interface qui guide l'utilisateur sans lui permettre de saisir des données incohérentes — deux registres ne peuvent par exemple pas partager la même adresse, et le format d'un registre détermine strictement le nombre de cases mémoire qu'il occupe (`size`), ce qui conditionne à son tour l'adressage de tous les registres suivants.
 
@@ -274,7 +274,7 @@ Pour les conserver, il faut les **sérialiser** (convertir l'objet en JSON) puis
 #### b. Principe et rôle de la classe de base
 
 
-ModelMother est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
+ModelMother (cf. glossaire) est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
 
 - `get_attributes_as_dict()` (sérialisation) parcourt les attributs de l'objet et les convertit en dictionnaire Python en adaptant la conversion à chaque type : valeur simple copiée directement, objet héritant de ModelMother sérialisé récursivement, liste parcourue élément par élément, énumération convertie en sa valeur textuelle. Un mécanisme d'attributs exclus (`excluded_attributes`) ignore les attributs utiles en mémoire mais non pertinents dans le fichier — par exemple les états temps réel d'une alarme (`level`, `metrological`, `critical`), présents dans la classe Python mais absents du JSON.
 - `set_attributes_from_dict()` (désérialisation) remplit récursivement les attributs à partir d'un dictionnaire : pour chaque clé, elle identifie le type de l'attribut et effectue la conversion inverse, instanciant et récursant sur les objets ModelMother imbriqués. Elle contrôle aussi la validité des données au chargement (valeurs d'énumération autorisées) et peut déclencher une validation métier propre à chaque classe, `model_sanity_check()`, surchargeable par les sous-classes.
@@ -314,13 +314,13 @@ Cette extension a été intégrée à ModelMother de sorte que `get_attributes_a
 #### d. Hiérarchie des classes de modèles
 
 ![[modelmother-hierarchie.png|700]]
-*Figure 3 — Hiérarchie des classes de modèles : `ModelMother` est la classe de base dont héritent `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`), elles-mêmes décomposées en sous-objets typés.*
+*Figure 3 : Hiérarchie des classes de modèles : `ModelMother` est la classe de base dont héritent `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`), elles-mêmes décomposées en sous-objets typés.*
 
-La hiérarchie des classes reflète directement la structure des fichiers JSON, organisée autour de trois classes de conteneurs :
+La hiérarchie des classes (voir Figure 3) reflète directement la structure des fichiers JSON, organisée autour de trois classes de conteneurs :
 
 - `ModelMother` : classe de base pour tous les objets sérialisables atomiques.
 - `ModelListMother` : conteneur pour les listes JSON simples (listes de ports série dans `network.json`).
-- `ModelDictToListMother` : conteneur pour les dictionnaires JSON keyed by name, convertis en listes Python (`elements_detailed`, `elements`, `alarm`).
+- `ModelDictToListMother` : conteneur pour les dictionnaires JSON indexés par nom, convertis en listes Python (`elements_detailed`, `elements`, `alarm`).
 
 Voici la hiérarchie concrète des classes de modèles du projet :
 
@@ -395,9 +395,9 @@ La route `POST /metrological/settings/modbus/networks` reçoit les données modi
 #### c. Développement côté frontend — ModbusPart.vue
 
 ![[network-editeur-formulaire.png|650]]
-*Figure 4 — Éditeur `network.json` (`ModbusPart.vue`) : configuration du port TCP et des ports série, chaque port série étant géré dans un onglet dynamique (baud rate, bits de données, parité, bits de stop, méthode RTU/ASCII, timeout).*
+*Figure 4 : Éditeur `network.json` (`ModbusPart.vue`) : configuration du port TCP et des ports série, chaque port série étant géré dans un onglet dynamique (baud rate, bits de données, parité, bits de stop, méthode RTU/ASCII, timeout).*
 
-L'interface d'édition de `network.json` a été développée dans le composant `ModbusPart.vue`, intégré dans la section Remote Access des paramètres généraux de PixL Expert.
+L'interface d'édition de `network.json` a été développée dans le composant `ModbusPart.vue` (voir Figure 4), intégré dans la section Remote Access des paramètres généraux de PixL Expert.
 
 **Chargement des données et route d'énumérations générique.** Au montage du composant (`onMounted`), deux appels API sont effectués : un premier pour charger la configuration actuelle du réseau, et un second pour charger les énumérations disponibles — les listes de valeurs autorisées pour chaque champ à choix multiples (vitesses de transmission, parités, méthodes, etc.).
 
@@ -420,9 +420,9 @@ Le point déterminant pour la conception de l'éditeur est que ces deux registre
 Au sein de la sous-section `measure`, deux niveaux de représentation coexistent :
 
 - Les **mesures simples**, déclarées chacune par une entrée unique (ex. `data_validity`, `injection_time`), avec une adresse, un format et une taille en registres (`size`).
-- Les **éléments détaillés**, regroupés sous `elements_detailed` : un dictionnaire keyed par le nom du composant (ex. `"CAL-C2H4"`, `"H2S"`), typiquement les composants mesurés par chromatographie. Chaque composant porte jusqu'à cinq propriétés — `raw_value` (valeur brute du détecteur), `normalized_value` (valeur normalisée), `response` (réponse du pic), `peak_start` (début du pic) et `peak_end` (fin du pic) — chacune occupant ses propres registres, toujours au format `float32` (2 registres), avec un facteur de conversion.
+- Les **éléments détaillés**, regroupés sous `elements_detailed` : un dictionnaire indexé par le nom du composant (ex. `"CAL-C2H4"`, `"H2S"`), typiquement les composants mesurés par chromatographie. Chaque composant porte jusqu'à cinq propriétés — `raw_value` (valeur brute du détecteur), `normalized_value` (valeur normalisée), `response` (réponse du pic), `peak_start` (début du pic) et `peak_end` (fin du pic) — chacune occupant ses propres registres, toujours au format `float32` (2 registres), avec un facteur de conversion.
 
-Les autres sous-sections suivent la même logique de dictionnaire keyed par nom. Dans `alarm`, chaque entrée décrit l'adresse de son registre de statut et son format (toujours `sint16`, 1 registre). Dans `information`, les entrées mélangent des formats variés : `str` de taille variable pour les versions de firmware et les sommes de contrôle, `sint16`/`sint32` pour les états et les dates.
+Les autres sous-sections suivent la même logique de dictionnaire indexé par nom. Dans `alarm`, chaque entrée décrit l'adresse de son registre de statut et son format (toujours `sint16`, 1 registre). Dans `information`, les entrées mélangent des formats variés : `str` de taille variable pour les versions de firmware et les sommes de contrôle, `sint16`/`sint32` pour les états et les dates.
 
 La combinaison de cette imbrication à plusieurs niveaux, du partage du même schéma entre registres et du grand nombre d'entrées possibles représentait le principal défi de conception de l'éditeur.
 
@@ -452,20 +452,20 @@ La route `POST /metrological/settings/modbus/protocol` reçoit la nouvelle versi
 #### d. Développement côté frontend — RegisterMapPart.vue
 
 ![[protocole-editeur-tableau.png|650]]
-*Figure 5 — Éditeur `protocol.json` (`RegisterMapPart.vue`) : tableau AG Grid listant les registres (type HR/IR, adresse, source, nom, format, facteur), avec tri, filtres et réordonnancement par glisser-déposer.*
+*Figure 5 : Éditeur `protocol.json` (`RegisterMapPart.vue`) : tableau AG Grid listant les registres (type HR/IR, adresse, source, nom, format, facteur), avec tri, filtres et réordonnancement par glisser-déposer.*
 
 ![[protocole-editeur-modale.png|450]]
-*Figure 6 — Fenêtre modale d'ajout/édition d'un registre : le formulaire s'adapte dynamiquement à la sous-section choisie (ici un `Measure` → `Elements Detailed`), avec un aperçu en direct du nom généré.*
+*Figure 6 : Fenêtre modale d'ajout/édition d'un registre : le formulaire s'adapte dynamiquement à la sous-section choisie (ici un `Measure` → `Elements Detailed`), avec un aperçu en direct du nom généré.*
 
-L'interface d'édition de `protocol.json` a été développée dans le composant `RegisterMapPart.vue`. La complexité de ce composant est significativement plus élevée que `ModbusPart.vue`, en raison de la richesse de la structure de données à manipuler.
+L'interface d'édition de `protocol.json` a été développée dans le composant `RegisterMapPart.vue` (voir Figure 5). La complexité de ce composant est significativement plus élevée que `ModbusPart.vue`, en raison de la richesse de la structure de données à manipuler.
 
 **Chargement et initialisation.** Au montage, trois appels API sont effectués successivement : la configuration des formats et champs (`/protocol/formats`), les données du protocole actuel (`/protocol`), et les données de la configuration du registre map. Ces données permettent de construire l'état interne du composant : une liste plate d'entrées de registres (`registerMap.entries`), plus facile à afficher et à manipuler dans un tableau qu'une hiérarchie imbriquée.
 
-**La grille AG Grid.** Le cœur de l'interface est un tableau interactif réalisé avec AG Grid, une bibliothèque JavaScript spécialisée dans les tableaux de données complexes. Chaque ligne du tableau représente un registre ou un groupe de registres, avec les colonnes suivantes : le type de registre (Register : holding ou input), l'adresse (Address), la source (Source : la sous-section `measure`, `alarm`, etc.), le nom (Name), le format (Format), et le facteur de conversion (Factor).
+**La grille AG Grid.** Le cœur de l'interface est un tableau interactif réalisé avec AG Grid (cf. glossaire), une bibliothèque JavaScript spécialisée dans les tableaux de données complexes. Chaque ligne du tableau représente un registre ou un groupe de registres, avec les colonnes suivantes : le type de registre (Register : holding ou input), l'adresse (Address), la source (Source : la sous-section `measure`, `alarm`, etc.), le nom (Name), le format (Format), et le facteur de conversion (Factor).
 
 AG Grid a été choisi pour ses fonctionnalités avancées, en particulier le glisser-déposer (drag & drop) des lignes pour réordonner les entrées lorsque le tableau est trié par adresse croissante. Cette fonctionnalité permet à l'utilisateur de visualiser et d'ajuster l'ordre des registres dans la table d'adressage Modbus de manière intuitive. La bibliothèque n'était pas nouvelle dans le projet : un collègue l'avait déjà intégrée dans d'autres parties de PixL Expert et avait développé un fichier utilitaire centralisant la configuration commune des tableaux (définition des options par défaut, gestion des événements récurrents, helpers de formatage). Cela m'a permis d'utiliser AG Grid directement sans avoir à en maîtriser tous les détails d'initialisation, en m'appuyant sur ce socle déjà éprouvé.
 
-**Le formulaire d'ajout et d'édition.** L'ajout d'une nouvelle entrée ou la modification d'une entrée existante (via un bouton Edit en fin de ligne) ouvre une fenêtre modale contenant un formulaire dynamique. Ce formulaire est dit dynamique car son contenu varie selon la sous-section sélectionnée par l'utilisateur, pilotée par la configuration retournée par la route `/protocol/formats` :
+**Le formulaire d'ajout et d'édition.** L'ajout d'une nouvelle entrée ou la modification d'une entrée existante (via un bouton Edit en fin de ligne) ouvre une fenêtre modale contenant un formulaire dynamique (voir Figure 6). Ce formulaire est dit dynamique car son contenu varie selon la sous-section sélectionnée par l'utilisateur, pilotée par la configuration retournée par la route `/protocol/formats` :
 
 - Pour la sous-section `alarm` : le formulaire présente uniquement un sélecteur de nom d'alarme (parmi les alarmes disponibles dans le système, fournies sous forme d'énumération). Le format est imposé à `sint16` et non modifiable, car toutes les alarmes Modbus ont le même format.
 - Pour la sous-section `elements` : le formulaire présente un sélecteur de nom d'élément et un champ de facteur de conversion. Le format peut être choisi parmi les formats acceptés pour cette sous-section.
@@ -473,7 +473,7 @@ AG Grid a été choisi pour ses fonctionnalités avancées, en particulier le gl
 
 **La détection de conflits d'adresses.** Une fonctionnalité importante de l'éditeur est la détection de chevauchements d'adresses entre registres. Comme chaque format occupe un nombre précis de registres consécutifs (un `float32` occupe les registres à l'adresse N et N+1, un `float16` occupe uniquement le registre N), il est possible que deux entrées se chevauchent si leurs plages d'adresses se recoupent. L'éditeur calcule la plage occupée par chaque entrée à partir de son adresse et de la taille imposée par son format, et signale visuellement dans le tableau toute collision détectée.
 
-**La sauvegarde.** Lors de la sauvegarde, le composant reconstruit la structure hiérarchique de `protocol.json` à partir de la liste plate d'entrées. Cette opération consiste à regrouper les entrées par section (`holding_register` / `input_register`), puis par sous-section (`measure`, `alarm`, etc.), puis par sous-sous-section (`elements`, `elements_detailed`), et enfin à reconstruire les dictionnaires keyed by name attendus par le backend. La structure reconstruite est ensuite envoyée via `POST /metrological/settings/modbus/protocol`.
+**La sauvegarde.** Lors de la sauvegarde, le composant reconstruit la structure hiérarchique de `protocol.json` à partir de la liste plate d'entrées. Cette opération consiste à regrouper les entrées par section (`holding_register` / `input_register`), puis par sous-section (`measure`, `alarm`, etc.), puis par sous-sous-section (`elements`, `elements_detailed`), et enfin à reconstruire les dictionnaires indexés par nom attendus par le backend. La structure reconstruite est ensuite envoyée via `POST /metrological/settings/modbus/protocol`.
 
 ---
 
@@ -526,7 +526,7 @@ La structure des fichiers sur ce serveur est organisée sous le répertoire apix
 #### b. Accès au serveur distant via SSH et MobaXTerm
 
 
-Pour interagir avec une machine Linux distante depuis Windows, on utilise le protocole **SSH** (Secure Shell). SSH est un protocole réseau chiffré qui permet d'ouvrir un terminal de commande sur une machine distante comme si l'on était physiquement devant elle. Concrètement, une fois connecté en SSH, le développeur tape des commandes Linux qui s'exécutent sur le serveur de production, à plusieurs centaines de kilomètres de son poste.
+Pour interagir avec une machine Linux distante depuis Windows, on utilise le protocole **SSH** (Secure Shell ; SSH et SCP, cf. glossaire). SSH est un protocole réseau chiffré qui permet d'ouvrir un terminal de commande sur une machine distante comme si l'on était physiquement devant elle. Concrètement, une fois connecté en SSH, le développeur tape des commandes Linux qui s'exécutent sur le serveur de production, à plusieurs centaines de kilomètres de son poste.
 
 L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windows. Il offre deux fonctionnalités essentielles :
 
@@ -551,9 +551,9 @@ Pour une mise à jour de PixL API, PixL Expert et PixL Modbus, les artefacts à 
 #### d. Le processus de déploiement pas à pas
 
 ![[flux-deploiement.png|700]]
-*Figure 7 — Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
+*Figure 7 : Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
 
-Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées. Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
+Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées (voir Figure 7). Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
 
 **Étape 1 — Transfert des fichiers vers le serveur.** À l'aide du gestionnaire de fichiers intégré de MobaXTerm, les artefacts préparés sont glissés-déposés depuis le poste Windows vers un répertoire temporaire sur le serveur, typiquement un sous-répertoire dédié aux mises à jour sous `/usr/bin/apix/updates/`. Cette opération utilise SCP en arrière-plan et chiffre les fichiers pendant le transfert, ce qui garantit qu'ils ne peuvent pas être interceptés ou altérés sur le réseau.
 
@@ -592,7 +592,7 @@ Il est important de comprendre comment les différents services de la PixL Suite
 
 Chaque composant de la suite — PixL API, PixL Expert et le serveur Modbus — tourne dans un **conteneur Docker** séparé. Un conteneur Docker est un environnement d'exécution isolé qui embarque le code de l'application, son interpréteur Python (ou tout autre runtime), ses bibliothèques et ses fichiers de configuration, de manière totalement indépendante du système hôte. L'analogie courante est celle d'un appartement dans un immeuble : chaque conteneur dispose de son propre espace, de ses propres ressources, et les défaillances d'un conteneur n'affectent pas directement les autres.
 
-Ces conteneurs sont orchestrés par **Docker Compose**, un outil qui permet de définir et de gérer plusieurs conteneurs comme un ensemble cohérent à l'aide d'un unique fichier de configuration : `docker-compose.yml`. Ce fichier décrit pour chaque service l'image Docker à utiliser, les ports réseau à exposer, les volumes de données à monter (pour que les fichiers de configuration, notamment `custom.json`, persistent entre les redémarrages), et les dépendances entre services (par exemple, PixL Expert dépend de PixL API pour fonctionner).
+Ces conteneurs sont orchestrés par **Docker Compose** (cf. glossaire), un outil qui permet de définir et de gérer plusieurs conteneurs comme un ensemble cohérent à l'aide d'un unique fichier de configuration : `docker-compose.yml`. Ce fichier décrit pour chaque service l'image Docker à utiliser, les ports réseau à exposer, les volumes de données à monter (pour que les fichiers de configuration, notamment `custom.json`, persistent entre les redémarrages), et les dépendances entre services (par exemple, PixL Expert dépend de PixL API pour fonctionner).
 
 Un fichier annexe, `.env`, centralise les variables d'environnement partagées par tous les services :
 
@@ -688,6 +688,12 @@ La mise en production, enfin, a été particulièrement formatrice sur la rigueu
 ## Glossaire
 
 - **Modbus** — protocole de communication industriel (1979) reposant sur un modèle maître/esclave, supporté en mode série (RTU/ASCII) et TCP/IP.
+- **RTU** *(Remote Terminal Unit)* — mode série de Modbus, transmettant des trames binaires compactes, généralement sur un bus RS-485.
+- **RS-485** — norme de transmission série différentielle multipoints, support physique du Modbus série.
+- **TCP/IP** *(Transmission Control Protocol / Internet Protocol)* — pile de protocoles standard des réseaux informatiques, support du Modbus TCP.
+- **HTTP** *(HyperText Transfer Protocol)* — protocole d'échange de données du web, utilisé par les API REST.
+- **IEEE 754** — norme standard de représentation des nombres à virgule flottante en informatique (ici le format `float32`).
+- **PME** *(petite et moyenne entreprise)* — entreprise de moins de 250 salariés.
 - **Registre (holding / input)** — case mémoire adressable exposée par un équipement Modbus. Les *holding registers* sont accessibles en lecture/écriture, les *input registers* en lecture seule.
 - **Sérialisation / désérialisation** — conversion d'un objet en mémoire vers un format textuel persistant (ici JSON), et inversement.
 - **JSON** *(JavaScript Object Notation)* — format textuel d'échange de données structuré en paires clé/valeur, listes et objets imbriqués.
@@ -720,7 +726,7 @@ La mise en production, enfin, a été particulièrement formatrice sur la rigueu
 ### Annexe A — Modèle de communication Modbus maître/esclave
 
 ![[modbus-maitre-esclave.png|400]]
-*Figure 8 — Modèle de communication Modbus maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
+*Figure 8 : Modèle de communication Modbus maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
 
 <div style="page-break-after: always;"></div>
 
