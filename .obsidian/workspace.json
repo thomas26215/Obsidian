@@ -415,6 +415,16 @@
             "id": "26e0f241c9ec85a8",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "3c7d44b7459407e1",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -422,7 +432,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -449,7 +459,7 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "3c72b4c328d51598",
+  "active": "3c7d44b7459407e1",
   "lastOpenFiles": [
     "Pasted image 20260121223837.png",
     "Pasted image 20260121225858.png",

@@ -58,7 +58,7 @@ C'est dans PixL Expert que se situe mon travail. Cette interface est en cours de
 
 ### Slide 6 — La problématique *(~1 min)*
 
-L'analyseur APIX peut être connecté à des systèmes de supervision industriels — automates, SCADA — via le protocole Modbus. Pour que cette communication fonctionne, il faut configurer précisément quelles données sont exposées, à quelle adresse, et dans quel format.
+L'analyseur APIX peut être connecté à des systèmes de supervision industriels — automates, SCADA     — via le protocole Modbus. Pour que cette communication fonctionne, il faut configurer précisément quelles données sont exposées, à quelle adresse, et dans quel format.
 
 Avant mon stage, cette configuration se faisait **à la main**, en éditant directement des fichiers JSON.
 
@@ -117,8 +117,6 @@ J'y ai contribué en ajoutant un mécanisme manquant pour gérer un cas particul
 Voici le résultat concret : le tableau des registres avec le drag & drop, et la modale d'édition. À gauche, ce qu'il fallait éditer à la main avant ; à droite, l'interface que j'ai développée.
 
 ### Slide 12 — Tests et mise en production *(~1 min 30)*
-
-J'ai testé l'outil manuellement, en couvrant les cas nominaux et les cas limites : adresses dupliquées, format incompatible, champs vides. À chaque test, je vérifiais le JSON généré pour m'assurer qu'il correspondait exactement à ce qu'attend PixL Modbus.
 
 Pour le déploiement, le processus consistait à transférer les fichiers par SCP vers un serveur Linux distant, puis à relancer les conteneurs Docker.
 
