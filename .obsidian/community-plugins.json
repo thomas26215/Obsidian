@@ -28,5 +28,6 @@
   "slash-commander",
   "sqlseal-charts",
   "obsidian-pandoc",
-  "obsidian-enhancing-export"
+  "obsidian-enhancing-export",
+  "docx-exporter"
 ]
