@@ -98,15 +98,11 @@ Ce rapport rend compte de cette expérience et de la démarche suivie pour y par
 ### 1. APIX Analytics — contexte et activité
 
 
-APIX Analytics est une entreprise grenobloise spécialisée dans la conception, la fabrication et la commercialisation d'analyseurs de gaz chromatographiques industriels. Sa particularité tient à une intégration verticale complète : elle maîtrise à la fois le matériel — l'analyseur et son détecteur chromatographique — et le logiciel qui le pilote, l'ensemble de la PixL Suite étant développé en interne. Ce développement conjoint par la même équipe constitue un atout différenciant : il permet une intégration poussée et une grande réactivité pour adapter le logiciel aux évolutions de l'analyseur.
+APIX Analytics est une entreprise grenobloise spécialisée dans la conception, la fabrication et la commercialisation d'analyseurs de gaz chromatographiques industriels. Sa particularité tient à une intégration verticale complète : elle maîtrise à la fois le matériel — l'analyseur et son détecteur chromatographique — et le logiciel qui le pilote, l'ensemble de la PixL Suite étant développé en interne. PME à taille humaine (moins de cinq développeurs), elle impose une forte polyvalence : chacun intervient sur toute la pile logicielle, du bas niveau embarqué jusqu'aux interfaces web — une diversité à la fois formatrice et exigeante.
 
-Il s'agit d'une PME à taille humaine, dont l'équipe de développement compte moins de cinq personnes. Cette taille réduite implique une forte polyvalence : chaque développeur intervient sur l'ensemble de la pile logicielle, du bas niveau embarqué jusqu'aux interfaces web, et change régulièrement de sujet — une diversité à la fois formatrice et exigeante en capacités d'adaptation.
+L'activité répond à un besoin précis : déterminer en continu et avec précision la composition d'un mélange gazeux directement sur le terrain. L'application principale est l'analyse du gaz naturel sur les réseaux de transport et de distribution, où la composition détermine la valeur énergétique du gaz (pouvoir calorifique, indice de Wobbe) dont dépend la facturation — une exigence à la fois commerciale et réglementaire. S'y ajoutent le contrôle qualité des gaz renouvelables (biométhane, biogaz) avant injection dans le réseau, porté par la gamme GREENPIX et par la transition énergétique, ainsi que la surveillance de procédés industriels. Dans tous les cas, ces analyseurs équipent des sites industriels critiques, où la fiabilité, la précision et la continuité de service ne sont pas négociables : une erreur de mesure peut avoir des conséquences directes sur la facturation, la sécurité ou la conformité réglementaire.
 
-L'activité de l'entreprise répond à un besoin précis : déterminer en continu et avec précision la composition d'un mélange gazeux directement sur le terrain. Cette mesure trouve plusieurs applications. La principale est l'analyse du gaz naturel sur les réseaux de transport et de distribution, où la composition du gaz détermine sa valeur énergétique — pouvoir calorifique, indice de Wobbe — dont dépend directement la facturation, ce qui en fait une exigence à la fois commerciale et réglementaire. À cela s'ajoute le contrôle qualité des gaz renouvelables, biométhane et biogaz, avant leur injection dans le réseau : une application en pleine croissance, portée par la transition énergétique et adressée par la gamme dédiée GREENPIX. Plus largement, les analyseurs servent aussi à la surveillance de procédés industriels nécessitant un suivi de composition gazeuse en ligne.
-
-Dans tous les cas, ces analyseurs sont déployés sur des sites industriels critiques, où ils fonctionnent en continu et dans des environnements parfois difficiles ; la fiabilité, la précision et la continuité de service n'y sont pas négociables, car une erreur de mesure ou une défaillance peut avoir des conséquences directes sur la facturation, la sécurité ou la conformité réglementaire. Les clients d'APIX sont ainsi principalement des opérateurs de réseaux de transport et de distribution de gaz naturel, des producteurs et injecteurs de gaz renouvelables (biométhane, biogaz), ainsi que des industriels exploitant des procédés qui nécessitent un suivi en ligne de la composition gazeuse.
-
-Le marché de l'analyse de gaz par chromatographie en ligne est historiquement occupé par de grands groupes généralistes de l'instrumentation industrielle, qui proposent ces analyseurs au sein de catalogues très étendus. Face à eux, APIX Analytics se positionne comme un acteur spécialisé et agile, dont les principaux facteurs de différenciation sont la maîtrise intégrée du matériel et du logiciel, la capacité à faire évoluer rapidement ses produits et l'investissement sur les gaz renouvelables.
+Sur un marché historiquement occupé par de grands groupes généralistes de l'instrumentation, APIX se positionne comme un acteur spécialisé et agile, dont les facteurs de différenciation sont la maîtrise intégrée du matériel et du logiciel, la réactivité produit et l'investissement sur les gaz renouvelables.
 
 ---
 
@@ -153,7 +149,7 @@ Parmi ces interfaces figure **PixL Expert**, une application web nouvelle géné
 
 Mon stage s'est déroulé de fin mars à fin juin 2026 dans les locaux d'APIX Analytics à Grenoble, au sein d'un openspace partagé avec l'ensemble de l'équipe de développement, mais également avec les personnes en charge de la configuration analytique des chromatographes. Cette proximité entre développeurs et utilisateurs métier est caractéristique d'une petite structure : elle favorise les échanges directs, permet de comprendre rapidement les besoins concrets des utilisateurs, et évite les malentendus qui surviennent souvent quand les équipes techniques et fonctionnelles sont trop éloignées.
 
-L'équipe de développement compte moins de cinq personnes, dont un alternant qui travaille en parallèle sur le nouveau PixL Expert. Chaque membre y porte une responsabilité large, et la communication est continue et directe.
+L'équipe compte notamment un alternant qui travaille en parallèle sur le nouveau PixL Expert. Chaque membre y porte une responsabilité large, et la communication est continue et directe.
 
 Ma tutrice de stage, **Mme Baral-Baron**, a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la codebase d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien du **chef de produit**, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
 
@@ -322,30 +318,7 @@ La hiérarchie des classes (voir Figure 3) reflète directement la structure des
 - `ModelListMother` : conteneur pour les listes JSON simples (listes de ports série dans `network.json`).
 - `ModelDictToListMother` : conteneur pour les dictionnaires JSON indexés par nom, convertis en listes Python (`elements_detailed`, `elements`, `alarm`).
 
-Voici la hiérarchie concrète des classes de modèles du projet :
-
-```
-ModelMother
-├── NetworkParameters          ← paramètres réseau complets (network.json)
-│   ├── TcpParameters          ← port TCP, flag enabled
-│   └── SerialParametersList   ← liste de ports série (ModelListMother)
-│       └── SerialParameters   ← un port série (bauds, parité, bits de stop…)
-└── ProtocolParameters         ← protocole complet (protocol.json)
-		├── HoldingRegisterParameters
-		│   └── MeasureParameters
-		│       ├── ElementsDetailedList  (ModelDictToListMother)
-		│       │   └── ElementDetailParameters  ← un élément détaillé
-		│       │       └── ElementPropertyParameters  ← raw_value, normalized_value…
-		│       └── ElementList           (ModelDictToListMother)
-		│           └── ElementParameters ← un élément simple
-		└── InputRegisterParameters
-				├── AlarmParametersList       (ModelDictToListMother)
-				│   └── AlarmEntryParameters  ← une alarme
-				├── MeasureParameters
-				├── InformationParameters
-				├── SystemParameters
-				└── CommandParameters
-```
+La hiérarchie concrète des classes de modèles du projet est détaillée, sous forme d'arbre, en annexe B (voir Annexe B).
 
 Chaque feuille de cet arbre correspond à un champ concret du JSON — une adresse de registre, un format, un facteur de conversion — et hérite de ModelMother, bénéficiant ainsi automatiquement des mécanismes de sérialisation.
 
@@ -365,24 +338,7 @@ Le fichier `network.json` décrit comment l'analyseur APIX expose son interface 
 
 **La configuration ZMQ.** ZMQ (ZeroMQ) est un protocole de messagerie interne utilisé par les différents composants de la PixL Suite pour communiquer entre eux sur la même machine, en dehors du protocole Modbus. Deux ports ZMQ sont configurés : un port de données (`zmq_data_port`, par défaut 5556) et un port de commande (`zmq_command_port`, par défaut 5557), ainsi que l'adresse IP locale (`zmq_ip`).
 
-```json
-{
-		"data": {
-				"slave_id": 1,
-				"tcp": { "enabled": true, "port": 502 },
-				"serial": [
-						{
-								"port": "/dev/ttyS0", "bauds": 9600, "bits": 8,
-								"parity": "N", "stops": 1, "method": "rtu",
-								"timeout": 0.15, "enabled": false
-						}
-				],
-				"zmq_command_port": 5557,
-				"zmq_data_port": 5556,
-				"zmq_ip": "localhost"
-		}
-}
-```
+Un exemple complet illustrant ces quatre sections est fourni en annexe C (voir Annexe C).
 
 #### b. Développement côté backend
 
@@ -679,6 +635,8 @@ Le projet a couvert l'ensemble de la chaîne de développement, du backend au fr
 
 Sur le plan technique, ce stage a été l'occasion de monter en compétence sur une stack complète et largement utilisée en milieu professionnel (Python, Django, Vue.js, Docker, Modbus), et de découvrir les exigences propres au développement logiciel en entreprise : intégration dans une codebase existante, lecture et réutilisation du code d'autrui, validation rigoureuse des données, et diagnostic de problèmes en production. Le travail dans un cadre itératif, sans cahier des charges formel, a par ailleurs renforcé ma capacité d'adaptation, d'autonomie et de communication, les objectifs se précisant au fil des échanges avec ma tutrice.
 
+Ce stage a également prolongé et mis en pratique, dans un contexte professionnel réel, les compétences développées au cours du BUT Informatique. Le développement full-stack de l'outil a directement mobilisé la compétence « Réaliser un développement d'application », tant côté backend que frontend. La manipulation et la validation des fichiers de configuration structurés ont fait appel aux compétences « Gérer des données de l'information » et « Optimiser des applications ». La phase de déploiement par conteneurs sur un serveur Linux distant a prolongé les enseignements de systèmes et réseaux, en lien avec la compétence « Administrer des systèmes informatiques communicants complexes ». Enfin, l'organisation itérative du projet et le travail au sein d'une petite équipe ont concrétisé les compétences « Conduire un projet » et « Travailler dans une équipe informatique ». Ce stage a ainsi constitué une application intégrée de l'ensemble du référentiel de compétences du BUT3.
+
 Au-delà des compétences acquises, ce stage a confirmé mon intérêt pour le développement logiciel appliqué à des problématiques industrielles concrètes, où la fiabilité et la rigueur ne sont pas négociables. L'outil développé constitue une base extensible : il pourra être enrichi de nouveaux types de registres, de validations supplémentaires ou d'une ergonomie affinée à mesure que les besoins des utilisateurs évolueront.
 
 La mise en production, enfin, a été particulièrement formatrice sur la rigueur qu'exige un tel environnement. Des erreurs en apparence anodines — un numéro de version mal synchronisé dans `.env`, des migrations dans un état incohérent — peuvent bloquer un déploiement ou produire un comportement difficile à diagnostiquer. J'en retiens qu'il faut vérifier chaque étape après exécution et ne jamais considérer qu'un script « sans erreur » a forcément produit le résultat attendu : en production, le silence n'est pas synonyme de succès.
@@ -727,6 +685,60 @@ La mise en production, enfin, a été particulièrement formatrice sur la rigueu
 
 ![[modbus-maitre-esclave.png|400]]
 *Figure 8 : Modèle de communication Modbus maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
+
+<div style="page-break-after: always;"></div>
+
+### Annexe B — Hiérarchie complète des classes de modèles
+
+*Arbre complet des classes de modèles du projet, complément de la Figure 3 (cf. IV.2.d). Chaque feuille hérite de `ModelMother` et bénéficie automatiquement des mécanismes de sérialisation.*
+
+```
+ModelMother
+├── NetworkParameters              ← paramètres réseau complets (network.json)
+│   ├── TcpParameters              ← port TCP, flag enabled
+│   └── SerialParametersList       ← liste de ports série (ModelListMother)
+│       └── SerialParameters       ← un port série (bauds, parité, bits de stop…)
+└── ProtocolParameters             ← protocole complet (protocol.json)
+    ├── HoldingRegisterParameters
+    │   └── MeasureParameters
+    │       ├── ElementsDetailedList                (ModelDictToListMother)
+    │       │   └── ElementDetailParameters         ← un élément détaillé
+    │       │       └── ElementPropertyParameters   ← raw_value, normalized_value…
+    │       └── ElementList                         (ModelDictToListMother)
+    │           └── ElementParameters               ← un élément simple
+    └── InputRegisterParameters
+        ├── AlarmParametersList     (ModelDictToListMother)
+        │   └── AlarmEntryParameters ← une alarme
+        ├── MeasureParameters
+        ├── InformationParameters
+        ├── SystemParameters
+        └── CommandParameters
+```
+
+<div style="page-break-after: always;"></div>
+
+### Annexe C — Structure complète du fichier `network.json`
+
+*Exemple complet illustrant les quatre sections décrites en IV.3.a (identifiant d'esclave, configuration TCP, ports série, configuration ZMQ).*
+
+```json
+{
+  "data": {
+    "slave_id": 1,
+    "tcp": { "enabled": true, "port": 502 },
+    "serial": [
+      {
+        "port": "/dev/ttyS0", "bauds": 9600, "bits": 8,
+        "parity": "N", "stops": 1, "method": "rtu",
+        "timeout": 0.15, "enabled": false
+      }
+    ],
+    "zmq_command_port": 5557,
+    "zmq_data_port": 5556,
+    "zmq_ip": "localhost"
+  }
+}
+```
 
 <div style="page-break-after: always;"></div>
 
