@@ -1,17 +1,8 @@
----
-cssclasses:
-  - justify
----
-
-<div style="text-align: center; font-weight: bold; font-size: 1.6em;">DEPARTEMENT INFORMATIQUE - IUT 2 GRENOBLE</div>
 
 
 
-<div style="text-align: center;">
 
 ![[Pasted image 20250601140945.png|180]]
-
-</div>
 
 
 **Année Universitaire : 2025-2026**
@@ -20,36 +11,24 @@ cssclasses:
 ---
 
 
-<div style="text-align: center; font-weight: bold; font-size: 2em;">DEVELOPPEMENT D'UNE INTERFACE POUR MODIFIER LES PARAMETRES MODBUS</div>
+**DÉVELOPPEMENT D'UNE INTERFACE POUR MODIFIER LES PARAMÈTRES MODBUS**
 
-<div style="text-align: center; font-size: 1.5em;">Apix Analytics</div>
-
-<div style="text-align: center;">
+Apix Analytics
 
 ![[apix.png|220]]
 
-
-
-
-</div>
-
 ---
-<div style="text-align: center;">
-
-
 **Présenté par**
 
 Thomas Venouil
 
 **Jury**
 
-IUT : M. X<br>
-IUT : Mme. Y<br>
+IUT : M. X
+
+IUT : Mme. Y
+
 Société : Mme. Baral-Baron
-
-</div>
-
-<div style="page-break-after: always;"></div>
 
 
 
@@ -58,8 +37,6 @@ Par la présente, je déclare être le seul auteur de ce rapport et assure qu’
 Je suis informé qu’en cas de flagrant délit de fraude, les sanctions prévues dans le règlement des études en cas de fraude aux examens par application du décret 92-657 du 13 juillet 1992 peuvent s’appliquer. Elles seront décidées par la commission disciplinaire de l’UGA. 
 
 A			 	Le   					 Signature
-
-<div style="page-break-after: always;"></div>
 
 # Remerciements
 
@@ -71,16 +48,9 @@ Mes remerciements vont également à mon tuteur IUT, M. X, pour son suivi attent
 
 Enfin, je remercie l'ensemble des collaborateurs avec qui j'ai eu l'occasion d'échanger, pour leur disponibilité et le partage de leur expérience, qui ont largement contribué à enrichir ce stage tant sur le plan technique qu'humain.
 
-<div style="page-break-after: always;"></div>
-
-<div style="font-size: 0.7em;">
-
 ```toc
 ```
 
-</div>
-
-<div style="page-break-after: always;"></div>
 # Rapport de stage
 
 ## Introduction
@@ -90,8 +60,6 @@ Du 23 mars au 27 juin 2026, j'ai réalisé mon stage de fin d'études au sein d'
 Le sujet de mon stage a consisté à concevoir et développer un outil d'édition de ces paramètres Modbus, intégré à l'interface web PixL Expert, afin de remplacer cette édition manuelle par une interface fiable, guidée et validée. Ce travail, de nature *full-stack*, a mobilisé le développement backend en Python (Django et Django REST Framework), le développement frontend en Vue.js, ainsi que le déploiement de la solution en production.
 
 Ce rapport rend compte de cette expérience et de la démarche suivie pour y parvenir. La première partie présente l'entreprise et son produit. La deuxième précise le contexte et les enjeux du projet. La troisième décrit les méthodes de travail et les outils mobilisés. La quatrième, cœur du rapport, détaille la réalisation technique — de l'architecture logicielle au déploiement en production — puis propose une analyse critique des choix effectués, des difficultés rencontrées et des limites de la solution. La cinquième aborde l'impact environnemental et sociétal du stage et du projet. La conclusion dresse enfin le bilan des compétences acquises et des perspectives d'évolution de l'outil.
-
-<div style="page-break-after: always;"></div>
 
 ## I. Présentation de l'entreprise
 
@@ -123,7 +91,7 @@ Chaque analyseur est un équipement autonome, conçu pour être installé sur si
 
 Au cœur de chaque analyseur se trouve un chromatographe en phase gazeuse. La **chromatographie en phase gazeuse** est une technique analytique qui détermine précisément la composition d'un mélange gazeux : un échantillon de gaz est injecté puis entraîné à travers une colonne de séparation spécialisée, qui retient plus ou moins longtemps chaque composant selon sa nature. Les composants en ressortent ainsi les uns après les autres et sont mesurés par un **détecteur**, qui produit pour chacun un pic ; la position du pic identifie le composant, et son amplitude permet d'en déduire la concentration.
 
-C'est ce signal brut — la suite des pics détectés — qui alimente toute la chaîne logicielle décrite ci-dessous : à partir de ces mesures physiques, le logiciel reconstruit la composition complète du gaz et les grandeurs dérivées (concentrations, valeur énergétique), puis les met à disposition des opérateurs et des systèmes tiers. Les notions de valeur brute, valeur normalisée et réponse du pic, que l'on retrouvera plus loin dans la structure du fichier `protocol.json`, proviennent directement de cette étape de mesure.
+C'est ce signal brut — la suite des pics — qui alimente la chaîne logicielle : à partir de ces mesures, le logiciel reconstruit la composition du gaz et les grandeurs dérivées (concentrations, valeur énergétique). Les notions de valeur brute, valeur normalisée et réponse du pic, que l'on retrouvera dans `protocol.json`, proviennent directement de cette étape de mesure.
 
 #### c. Le logiciel : la PixL Suite
 
@@ -132,7 +100,7 @@ C'est ce signal brut — la suite des pics détectés — qui alimente toute la 
 
 La **PixL Suite** (voir Figure 1) est un ensemble de logiciels interdépendants qui pilotent intégralement les analyseurs APIX. Elle couvre l'intégralité de la chaîne de traitement, depuis l'acquisition des signaux physiques bruts produits par le détecteur chromatographique, jusqu'à la présentation des résultats aux opérateurs et à la communication avec les systèmes industriels environnants.
 
-L'ensemble de la suite est déployé sur un **PC embarqué** dédié, sur lequel tournent simultanément tous les composants logiciels. Ces composants sont déployés sous forme de conteneurs Docker (cf. glossaire), ce qui garantit leur isolation et simplifie les mises à jour sans redémarrage complet du système. Une base de données PostgreSQL assure la persistance des mesures et des configurations.
+L'ensemble de la suite tourne sur un **PC embarqué** dédié, où les composants sont déployés en conteneurs Docker (cf. glossaire) — isolation et mises à jour sans redémarrage complet — avec une base PostgreSQL pour la persistance des mesures et des configurations.
 
 La suite se compose de plusieurs logiciels aux rôles complémentaires :
 
@@ -141,17 +109,17 @@ La suite se compose de plusieurs logiciels aux rôles complémentaires :
 - **Le serveur Modbus** assure la communication avec les automates industriels environnants, selon le protocole standard Modbus (TCP et série). C'est ce module qui lit les fichiers de configuration `network.json` et `protocol.json` pour construire la table des registres qu'il expose.
 - **Les interfaces web** permettent aux opérateurs de visualiser les données de mesure en temps réel, configurer l'appareil et diagnostiquer les alarmes depuis un navigateur, sans accès physique à la machine.
 
-Parmi ces interfaces figure **PixL Expert**, une application web nouvelle génération développée en Vue.js, actuellement en cours de développement actif pour moderniser et remplacer l'interface existante — qui était développée en full Django, avec rendu des pages côté serveur via le système de templates Django. La transition vers PixL Expert vise à découpler clairement l'interface utilisateur du backend, à améliorer l'ergonomie et à faciliter les évolutions futures. C'est dans ce logiciel que s'inscrit directement mon travail de stage.
+Parmi ces interfaces figure **PixL Expert**, application web nouvelle génération en Vue.js, en développement actif pour remplacer l'interface existante (développée entièrement en Django, avec rendu des pages côté serveur). Cette transition vise à découpler l'interface du backend, améliorer l'ergonomie et faciliter les évolutions. C'est dans ce logiciel que s'inscrit mon travail de stage.
 
 ---
 
 ### 3. L'équipe et mon environnement de travail
 
-Mon stage s'est déroulé de fin mars à fin juin 2026 dans les locaux d'APIX Analytics à Grenoble, au sein d'un openspace partagé avec l'ensemble de l'équipe de développement, mais également avec les personnes en charge de la configuration analytique des chromatographes. Cette proximité entre développeurs et utilisateurs métier est caractéristique d'une petite structure : elle favorise les échanges directs, permet de comprendre rapidement les besoins concrets des utilisateurs, et évite les malentendus qui surviennent souvent quand les équipes techniques et fonctionnelles sont trop éloignées.
+Mon stage s'est déroulé de fin mars à fin juin 2026 dans les locaux d'APIX Analytics à Grenoble, au sein d'un espace de travail partagé avec l'ensemble de l'équipe de développement, mais également avec les personnes en charge de la configuration analytique des chromatographes. Cette proximité entre développeurs et utilisateurs métier est caractéristique d'une petite structure : elle favorise les échanges directs, permet de comprendre rapidement les besoins concrets des utilisateurs, et évite les malentendus qui surviennent souvent quand les équipes techniques et fonctionnelles sont trop éloignées.
 
 L'équipe compte notamment un alternant qui travaille en parallèle sur le nouveau PixL Expert. Chaque membre y porte une responsabilité large, et la communication est continue et directe.
 
-Ma tutrice de stage, **Mme Baral-Baron**, a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la codebase d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien du **chef de produit**, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
+Ma tutrice de stage, **Mme Baral-Baron**, a assuré un suivi actif tout au long du stage. Plutôt que de me laisser seul face aux difficultés, elle m'a expliqué au fil de l'eau les aspects techniques du projet : le protocole Modbus, la structure des fichiers de configuration, la signification des attributs des registres, les conventions de la base de code d'APIX, et surtout les règles de cohérence métier — absentes de toute documentation formelle mais indispensables pour concevoir une interface correcte. J'ai également bénéficié du soutien du **chef de produit**, notamment pour comprendre les besoins fonctionnels et les attentes des utilisateurs.
 
 L'organisation du stage reflète bien l'esprit de l'équipe : guidé et soutenu quand j'en avais besoin, mais libre dans la manière d'organiser et de mener mon travail au quotidien. Cette autonomie encadrée, dans un environnement où il est facile de poser une question à la personne assise en face, s'est révélée particulièrement formatrice.
 
@@ -180,9 +148,9 @@ Le projet s'est construit de manière itérative, sans cahier des charges formel
 
 Le développement de cet outil impliquait plusieurs contraintes techniques importantes.
 
-**Intégration dans la codebase existante.** PixL Expert disposait déjà d'une architecture Vue.js établie, avec des composants réutilisables et des conventions de développement propres au projet. Il fallait s'y conformer : certains composants existants ont pu être réutilisés, d'autres ont dû être créés de toutes pièces en respectant les mêmes patterns. De même côté backend, certaines routes API étaient déjà en place et ont pu être exploitées, tandis que d'autres ont dû être développées spécifiquement pour les besoins du projet.
+**Intégration dans la base de code existante.** PixL Expert disposait déjà d'une architecture Vue.js établie, avec ses composants réutilisables et ses conventions ; il fallait s'y conformer, en réutilisant les composants et routes API existants ou en créant de nouveaux dans le même esprit.
 
-**Maîtrise du système de modèles Python.** Le backend repose sur un système de sérialisation/désérialisation (cf. glossaire) développé en interne, appelé `ModelMother`, qui permet de convertir automatiquement les objets Python en JSON et inversement. Comprendre et utiliser correctement ce mécanisme était indispensable pour développer les routes backend de manière cohérente avec le reste du projet. Ce système sera détaillé dans la partie IV.
+**Maîtrise du système de modèles Python.** Le backend repose sur un système de sérialisation/désérialisation (cf. glossaire) interne, `ModelMother`, qui convertit automatiquement les objets Python en JSON et inversement ; le maîtriser était indispensable pour développer des routes cohérentes avec le reste du projet (détaillé en partie IV).
 
 **Complexité des données.** Le fichier `protocol.json` est particulièrement volumineux et hiérarchisé, avec plusieurs niveaux d'imbrication et des centaines d'entrées. Concevoir une interface claire et utilisable pour naviguer et éditer ces données sans surcharger l'utilisateur a représenté un véritable enjeu de conception.
 
@@ -198,15 +166,15 @@ Le projet reposait sur deux environnements techniques distincts et complémentai
 
 Côté **backend**, le développement s'est fait en **Python**, avec le framework **Django** et son extension **Django REST Framework** (DRF, cf. glossaire). Django est l'un des frameworks web Python les plus répandus : il fournit une structure d'application claire, un système de routage des requêtes HTTP (HyperText Transfer Protocol, le protocole d'échange de données du web), et de nombreux outils prêts à l'emploi pour la gestion des données et des utilisateurs. Django REST Framework complète Django pour la construction d'API REST, en simplifiant la sérialisation des données et la gestion des formats de réponse. Les modifications portaient sur trois dépôts distincts : **Apix Tools**, qui contient les modèles de données et utilitaires partagés, **PixL API**, qui expose les routes REST consommées par le frontend, et **PixL Expert**, qui héberge le projet Vue.js de la nouvelle interface web.
 
-Côté **frontend**, l'interface a été développée en **Vue.js 3**, avec l'API Composition et le système de réactivité associé. Vue.js est un framework JavaScript progressif orienté composants : l'interface est découpée en blocs autonomes réutilisables (les composants), chacun encapsulant sa propre logique, son template HTML et ses styles. Ce découpage facilite la maintenance et la réutilisation du code, ce qui est particulièrement important dans un projet comme PixL Expert qui a vocation à s'enrichir continuellement de nouveaux éditeurs et de nouvelles vues. La gestion de l'état partagé entre composants était assurée par **Pinia**, le store officiel de Vue.js 3, et les appels HTTP vers l'API Python étaient effectués via **Axios**.
+Côté **frontend**, l'interface a été développée en **Vue.js 3** (API Composition). Vue.js est un framework JavaScript orienté composants : l'interface est découpée en blocs réutilisables encapsulant chacun sa logique, son template HTML et ses styles — un découpage qui facilite la maintenance, précieux pour un projet appelé à s'enrichir continuellement. L'état partagé entre composants était géré par **Pinia** (le gestionnaire d'état officiel de Vue.js 3) et les appels HTTP vers l'API par **Axios**.
 
 ### 2. Outils de développement
 
-**Éditeurs de code.** J'ai utilisé **VS Code** pour le développement frontend Vue.js, et **PyCharm** pour le développement backend Python. Ce choix reflète les points forts de chaque éditeur : PyCharm offre un support avancé pour Python (autocomplétion intelligente, débogage intégré, inspection de code statique), tandis que VS Code est particulièrement adapté au développement web grâce à son écosystème d'extensions — notamment Volar pour Vue.js, qui fournit la coloration syntaxique et l'autocomplétion dans les fichiers `.vue`.
+**Éditeurs de code.** J'ai utilisé **VS Code** pour le frontend Vue.js (extension Volar) et **PyCharm** pour le backend Python (autocomplétion, débogage et inspection de code avancés), chacun étant le mieux adapté à son langage.
 
-**Versionnage et intégration continue.** Le code était versionné avec **Git**, hébergé sur un **GitLab** interne. Pour chacun des trois dépôts (Apix Tools, PixL API, Pixl Expert), j'ai travaillé sur une branche dédiée, afin de développer et tester mes modifications sans impacter le code principal. GitLab héberge aussi les pipelines de **CI/CD** (intégration et déploiement continus ; cf. glossaire) : à chaque push, le pipeline compile le projet et exécute les tests, mais la production des artefacts de déploiement (wheels Python, archives ZIP) n'est déclenchée que par la **pose d'un tag** sur un commit. Ce tag, qui porte le numéro de version, sert ainsi de marqueur de release : seules les versions explicitement étiquetées donnent lieu à un artefact livrable. Cette automatisation évite les erreurs d'assemblage manuel et garantit des artefacts toujours cohérents avec le code source et sa version.
+**Versionnage et intégration continue.** Le code était versionné avec **Git** sur un **GitLab** interne, chaque dépôt étant développé sur une branche dédiée. GitLab héberge aussi les pipelines de **CI/CD** (intégration et déploiement continus ; cf. glossaire) : à chaque push, le pipeline compile le projet et exécute les tests, mais la production des artefacts livrables (wheels Python, archives ZIP) n'est déclenchée que par la pose d'un **tag** de version sur un commit. Cette automatisation garantit des artefacts toujours cohérents avec le code et sa version.
 
-**Prise de notes.** J'ai utilisé **Obsidian** pour organiser mes notes personnelles tout au long du stage : documentation des concepts appris, suivi des tâches en cours, mémos techniques et points à clarifier. Cet outil m'a permis de garder une trace structurée de mon avancement et de retrouver facilement les informations importantes, notamment lors de la reprise d'un sujet laissé en suspens d'une semaine à l'autre.
+**Prise de notes.** J'ai utilisé **Obsidian** pour organiser mes notes tout au long du stage (concepts appris, suivi des tâches, mémos techniques), ce qui m'a aidé à reprendre facilement un sujet laissé en suspens d'une semaine à l'autre.
 
 ### 3. Organisation et suivi du projet
 
@@ -214,7 +182,7 @@ Le suivi s'est organisé autour d'une **réunion hebdomadaire le lundi** avec ma
 
 Le projet n'ayant pas de cahier des charges formalisé, les fonctionnalités ont été définies progressivement, par itérations : chaque livraison faisait l'objet d'une démonstration dont les retours alimentaient les objectifs suivants. Cette approche itérative, proche des méthodes agiles, est bien adaptée à une petite équipe où les besoins se précisent à mesure que l'outil prend forme.
 
-Entre les réunions, le travail s'organisait de manière autonome, avec des échanges informels dans l'openspace dès qu'une question ou un blocage surgissait. La proximité de l'équipe rendait ces échanges rapides, sans formalisme. Ce mélange de cadre régulier et de flexibilité quotidienne s'est révélé bien adapté au rythme du stage.
+Entre les réunions, le travail s'organisait de manière autonome, avec des échanges informels dans l'espace de travail partagé dès qu'une question ou un blocage surgissait. La proximité de l'équipe rendait ces échanges rapides, sans formalisme. Ce mélange de cadre régulier et de flexibilité quotidienne s'est révélé bien adapté au rythme du stage.
 
 
 ## IV. Réalisation du projet
@@ -226,7 +194,7 @@ Entre les réunions, le travail s'organisait de manière autonome, avec des éch
 ![[Pasted image 20260324100959.png]]
 *Figure 2 : Architecture Modbus TCP chez APIX : le serveur APIX (esclave) répond aux requêtes du client automate (maître). Les Input Registers sont en lecture seule, les Holding Registers en lecture/écriture ; une valeur `float32` occupe deux registres consécutifs.*
 
-Avant de me lancer dans le développement, il était essentiel de maîtriser le socle technique du projet : le protocole Modbus, un protocole de communication — c'est-à-dire un ensemble de conventions permettant à deux équipements d'échanger des informations de manière structurée et fiable — spécifiquement conçu pour les environnements industriels. Conçu en 1979 par Modicon pour ses automates programmables, il reste, malgré son âge, l'un des plus répandus dans l'industrie pour sa simplicité, sa robustesse et la très large base d'équipements qui le supportent.
+Avant de développer, il était essentiel de maîtriser le socle technique du projet. Le protocole Modbus, conçu en 1979 par Modicon pour ses automates programmables, reste l'un des standards de communication industriels les plus répandus, pour sa simplicité et sa robustesse.
 
 **Modèle maître / esclave.** Modbus repose sur un modèle maître/esclave (voir Figure 8, en annexe A) : seul le maître initie les échanges, les esclaves se contentant de répondre à ses requêtes. Dans le contexte d'APIX, un automate industriel joue le rôle de maître et interroge régulièrement l'analyseur — l'esclave — pour récupérer ses mesures ; l'analyseur ne transmet jamais de données de façon spontanée.
 
@@ -239,21 +207,19 @@ Avant de me lancer dans le développement, il était essentiel de maîtriser le 
 
 **Formats de données et facteur de conversion.** Un registre étant encodé sur 16 bits, représenter des types plus précis impose d'en utiliser plusieurs consécutifs : un flottant Float32 (norme IEEE 754, le standard de représentation des nombres à virgule flottante) occupe ainsi deux registres. Certaines valeurs nécessitent par ailleurs un facteur de conversion (`factor`) : une concentration de 12,34 % est stockée sous la valeur entière 1234, avec un facteur de 0,01. Ces formats (`float32`, `float16`, `sint16`, etc.) et ces facteurs sont consignés pour chaque registre dans `protocol.json`.
 
-#### b. Prise en main de la codebase PixL Expert existante
+#### b. Prise en main de la base de code PixL Expert existante
 
-Une fois le contexte technique assimilé, la deuxième étape a consisté à explorer et comprendre le code existant. Cette phase est toujours délicate dans un stage : il faut naviguer dans un ensemble de fichiers écrits par d'autres personnes, souvent sans documentation exhaustive, et comprendre non seulement ce que fait le code, mais aussi pourquoi il est structuré ainsi. Pour cette partie du stage, ma tutrice de stage était présente pour m'expliquer les points compliqués dans le code.
+Une fois le contexte technique assimilé, l'étape suivante a consisté à explorer le code existant — un exercice délicat : naviguer dans des fichiers écrits par d'autres, souvent peu documentés, et comprendre non seulement ce que fait le code, mais pourquoi il est ainsi structuré. Ma tutrice m'a accompagné sur les points les plus complexes.
 
 **La bibliothèque Apix Tools.** Ce module constitue le socle partagé du projet. Il contient les classes Python communes utilisées par l'ensemble des composants de la PixL Suite : les modèles de données, les utilitaires de sérialisation et notamment le système ModelMother. Apix Tools est distribué sous forme de wheel Python (cf. glossaire) — un format d'empaquetage standard qui permet d'installer une bibliothèque Python comme n'importe quel paquet tiers, via la commande `pip install`. Chaque autre dépôt du projet le déclare comme dépendance dans son fichier `requirements.txt`.
 
-**L'application PixL API.** Ce composant contient l'API REST du projet, développée avec le framework Django et son extension Django REST Framework. Une API REST (Representational State Transfer) est une interface de communication entre applications, qui expose des données et des opérations via des URLs standardisées — appelées routes ou endpoints — interrogeables en HTTP. Par exemple, une route `GET /api/modbus/networks` retourne les paramètres réseau Modbus actuels, et une route `POST /api/modbus/networks` permet de les modifier. C'est via ces routes que le frontend Vue.js communique avec le backend Python.
+**L'application PixL API.** Ce composant contient l'API REST (Representational State Transfer) du projet, développée avec Django et Django REST Framework. Une API REST expose données et opérations via des URLs standardisées — les routes (ou *endpoints*) — interrogeables en HTTP : par exemple, `GET /api/modbus/networks` retourne les paramètres réseau, `POST` les modifie. C'est par ces routes que le frontend communique avec le backend. Django impose une organisation en *apps*, chacune avec ses vues (`views.py`, logique de traitement) et son fichier de routes (`urls.py`, qui associe chaque URL à une vue).
 
-Django impose une organisation précise du code : les applications métier sont regroupées en apps, chacune contenant ses propres vues (`views.py`) — qui contiennent la logique de traitement des requêtes — et son propre fichier de routes (`urls.py`) qui associe chaque URL à une vue.
-
-**L'application PixL Expert.** Ce dépôt héberge le projet Vue.js de la nouvelle interface web, celle sur laquelle j'allais travailler — la nouvelle génération d'interface, en Vue.js, destinée à remplacer l'ancienne interface développée en Python/Django. Vue.js est un framework JavaScript progressif orienté composants : l'interface est découpée en blocs autonomes appelés composants, chacun encapsulant sa structure HTML, sa logique JavaScript et ses styles CSS dans un unique fichier `.vue`. Ces composants sont assemblés pour former des vues — les pages de l'application — et communiquent entre eux selon des conventions bien définies.
+**L'application PixL Expert.** Ce dépôt héberge le projet Vue.js de la nouvelle interface, destinée à remplacer l'ancienne (développée en Python/Django). Comme indiqué en III.1, l'interface y est découpée en composants — fichiers `.vue` encapsulant structure HTML, logique JavaScript et styles CSS — assemblés en vues, les pages de l'application.
 
 #### c. Compréhension des fichiers de configuration JSON
 
-Le comportement Modbus de l'analyseur APIX est entièrement piloté par deux fichiers de configuration au format JSON : `network.json`, qui définit les paramètres réseau des liaisons Modbus RTU et TCP, et `protocol.json`, qui décrit l'ensemble des registres exposés par l'analyseur — leur adresse, leur type, leur format et leur facteur de conversion. Ces deux fichiers ont fait l'objet d'une analyse approfondie dès les premiers jours du stage, car ils constituent le point central autour duquel s'articule toute l'interface de configuration à développer. JSON (JavaScript Object Notation, cf. glossaire) est un format textuel d'échange de données, extrêmement répandu en développement web et dans les API REST. Il représente les données sous forme de paires clé/valeur, de listes ordonnées et de structures imbriquées.
+Le comportement Modbus de l'analyseur est entièrement piloté par deux fichiers de configuration au format JSON (JavaScript Object Notation, cf. glossaire) : `network.json`, qui définit les paramètres réseau des liaisons RTU et TCP, et `protocol.json`, qui décrit l'ensemble des registres exposés (adresse, type, format, facteur de conversion). Ces deux fichiers ont été analysés en profondeur dès les premiers jours, car ils constituent le point central autour duquel s'articule toute l'interface à développer.
 
 Cette analyse n'était pas purement technique : ma tutrice m'a expliqué la signification métier de chaque champ et les règles de cohérence à respecter. Ces règles, absentes des fichiers eux-mêmes, étaient indispensables pour concevoir une interface qui guide l'utilisateur sans lui permettre de saisir des données incohérentes — deux registres ne peuvent par exemple pas partager la même adresse, et le format d'un registre détermine strictement le nombre de cases mémoire qu'il occupe (`size`), ce qui conditionne à son tour l'adressage de tous les registres suivants.
 
@@ -263,14 +229,14 @@ Cette analyse n'était pas purement technique : ma tutrice m'a expliqué la sign
 
 #### a. Le problème que résout ModelMother
 
-Le backend Python manipule les données de configuration sous forme d'objets — des structures en mémoire regroupant données et comportements, selon le paradigme orienté objet. Ainsi, un objet `ProtocolParameters` contient un `HoldingRegisterParameters`, qui contient lui-même des collections d'`ElementParameters` et d'`AlarmEntryParameters`. Pratiques à manipuler en Python, ces objets ne peuvent pourtant pas être directement stockés dans un fichier ou transmis via une API : ils n'existent que le temps où le programme tourne en mémoire.
+Le backend Python manipule les données de configuration sous forme d'objets : un `ProtocolParameters` contient un `HoldingRegisterParameters`, lui-même composé de collections d'`ElementParameters` et d'`AlarmEntryParameters`. Pratiques à manipuler, ces objets n'existent qu'en mémoire et ne peuvent pas être directement stockés dans un fichier ou transmis via une API.
 
 Pour les conserver, il faut les **sérialiser** (convertir l'objet en JSON) puis les **désérialiser** (reconstruire l'objet Python à partir du JSON lu). Sans mécanisme commun, chaque nouvelle classe devrait réécrire cette logique de conversion, au risque d'introduire des inconsistances dans le projet. ModelMother évite cela en centralisant le mécanisme.
 
 #### b. Principe et rôle de la classe de base
 
 
-ModelMother (cf. glossaire) est une classe de base définie dans `apix_tools/apix_framework/model/model_mother.py`. En programmation orientée objet, une classe de base définit des comportements communs que toutes ses sous-classes héritent automatiquement, sans avoir à les réécrire. Elle expose deux méthodes fondamentales :
+ModelMother (cf. glossaire) est la classe de base, définie dans `apix_tools/apix_framework/model/model_mother.py`, dont toutes les sous-classes héritent les comportements de conversion. Elle expose deux méthodes fondamentales :
 
 - `get_attributes_as_dict()` (sérialisation) parcourt les attributs de l'objet et les convertit en dictionnaire Python en adaptant la conversion à chaque type : valeur simple copiée directement, objet héritant de ModelMother sérialisé récursivement, liste parcourue élément par élément, énumération convertie en sa valeur textuelle. Un mécanisme d'attributs exclus (`excluded_attributes`) ignore les attributs utiles en mémoire mais non pertinents dans le fichier — par exemple les états temps réel d'une alarme (`level`, `metrological`, `critical`), présents dans la classe Python mais absents du JSON.
 - `set_attributes_from_dict()` (désérialisation) remplit récursivement les attributs à partir d'un dictionnaire : pour chaque clé, elle identifie le type de l'attribut et effectue la conversion inverse, instanciant et récursant sur les objets ModelMother imbriqués. Elle contrôle aussi la validité des données au chargement (valeurs d'énumération autorisées) et peut déclencher une validation métier propre à chaque classe, `model_sanity_check()`, surchargeable par les sous-classes.
@@ -318,9 +284,7 @@ La hiérarchie des classes (voir Figure 3) reflète directement la structure des
 - `ModelListMother` : conteneur pour les listes JSON simples (listes de ports série dans `network.json`).
 - `ModelDictToListMother` : conteneur pour les dictionnaires JSON indexés par nom, convertis en listes Python (`elements_detailed`, `elements`, `alarm`).
 
-La hiérarchie concrète des classes de modèles du projet est détaillée, sous forme d'arbre, en annexe B (voir Annexe B).
-
-Chaque feuille de cet arbre correspond à un champ concret du JSON — une adresse de registre, un format, un facteur de conversion — et hérite de ModelMother, bénéficiant ainsi automatiquement des mécanismes de sérialisation.
+La hiérarchie concrète des classes du projet est détaillée, sous forme d'arbre, en annexe B (voir Annexe B) : chaque feuille y correspond à un champ concret du JSON (adresse, format, facteur) et hérite de ModelMother, bénéficiant automatiquement des mécanismes de sérialisation.
 
 ---
 
@@ -332,11 +296,11 @@ Le fichier `network.json` décrit comment l'analyseur APIX expose son interface 
 
 **L'identifiant d'esclave (`slave_id`).** C'est un entier compris entre 1 et 247 qui identifie de manière unique l'analyseur sur le bus Modbus. Lorsque plusieurs esclaves coexistent sur le même réseau RS-485, le maître utilise cet identifiant pour s'adresser à un équipement précis.
 
-**La configuration TCP (`tcp`).** Elle contient un flag `enabled` (booléen activant ou désactivant le mode Modbus TCP) et un numéro de port réseau. Un port est un numéro entre 0 et 65535 qui identifie un service sur une machine réseau — à la manière d'un numéro d'appartement dans un immeuble. Le port standard de Modbus TCP est 502.
+**La configuration TCP (`tcp`).** Un drapeau `enabled` (activant le mode Modbus TCP) et un numéro de port réseau (0–65535) ; le port standard de Modbus TCP est 502.
 
-**La configuration des ports série (`serial`).** Contrairement aux deux sections précédentes, celle-ci est une liste : l'analyseur peut exposer son interface Modbus sur plusieurs liaisons série simultanément. Chaque entrée de la liste correspond à un port physique et possède ses propres paramètres : le chemin du périphérique sous Linux (Exemple : `/dev/ttyS0`), la vitesse de transmission en bauds (baud rate), le nombre de bits de données (data bits, typiquement 8), la parité (parity : N pour aucune, E pour paire, O pour impaire), le nombre de bits de stop (stop bits, 1 ou 2), le mode de communication (`rtu`), et un délai d'attente de réponse (timeout). Tous ces paramètres doivent être identiques sur l'ensemble des équipements connectés au même bus RS-485 pour que la communication fonctionne.
+**Les ports série (`serial`).** Contrairement aux sections précédentes, c'est une liste : l'analyseur peut exposer son interface sur plusieurs liaisons série simultanément. Chaque entrée décrit un port physique et ses paramètres : chemin du périphérique (ex. `/dev/ttyS0`), vitesse en bauds, bits de données, parité (N/E/O), bits de stop, mode (`rtu`) et délai d'attente (timeout). Ces paramètres doivent être identiques sur tous les équipements du même bus RS-485.
 
-**La configuration ZMQ.** ZMQ (ZeroMQ) est un protocole de messagerie interne utilisé par les différents composants de la PixL Suite pour communiquer entre eux sur la même machine, en dehors du protocole Modbus. Deux ports ZMQ sont configurés : un port de données (`zmq_data_port`, par défaut 5556) et un port de commande (`zmq_command_port`, par défaut 5557), ainsi que l'adresse IP locale (`zmq_ip`).
+**La configuration ZMQ.** ZMQ (ZeroMQ) est un protocole de messagerie interne entre composants de la PixL Suite sur la même machine. Trois paramètres sont configurés : un port de données (`zmq_data_port`, 5556), un port de commande (`zmq_command_port`, 5557) et l'adresse IP locale (`zmq_ip`).
 
 Un exemple complet illustrant ces quatre sections est fourni en annexe C (voir Annexe C).
 
@@ -357,9 +321,9 @@ L'interface d'édition de `network.json` a été développée dans le composant 
 
 **Chargement des données et route d'énumérations générique.** Au montage du composant (`onMounted`), deux appels API sont effectués : un premier pour charger la configuration actuelle du réseau, et un second pour charger les énumérations disponibles — les listes de valeurs autorisées pour chaque champ à choix multiples (vitesses de transmission, parités, méthodes, etc.).
 
-Plutôt que de créer une route dédiée pour chaque enum du projet, j'ai développé une route générique réutilisable : `GET /settings/enums/<enum_name>/`. Elle prend le nom d'un module d'enum en paramètre d'URL — par exemple `/settings/enums/serial_parity_enum/` — et l'importe dynamiquement depuis Apix Tools à l'aide du module Python `importlib`. Ce module permet d'importer un fichier Python à l'exécution à partir de son nom sous forme de chaîne de caractères, sans que ce nom soit connu à l'avance lors de l'écriture du code. La route parcourt ensuite les valeurs de l'enum trouvé et les retourne sous forme de liste de paires `value` / `displayName`. Ainsi, `ModbusPart.vue` appelle successivement `/settings/enums/baud_rate_enum/`, `/settings/enums/serial_parity_enum/`, `/settings/enums/serial_method_enum/`, etc., pour alimenter chacune de ses listes déroulantes — sans route spécifique à créer pour chacune.
+Plutôt qu'une route dédiée par énumération, j'ai développé une route générique réutilisable, `GET /settings/enums/<enum_name>/` : elle reçoit le nom d'un module d'enum en paramètre d'URL, l'importe dynamiquement depuis Apix Tools via `importlib` (import d'un module à l'exécution à partir de son nom), puis retourne ses valeurs sous forme de paires `value`/`displayName`. `ModbusPart.vue` l'appelle ainsi pour chacune de ses listes déroulantes (vitesses, parités, méthodes…), sans route spécifique à créer.
 
-**Gestion des ports série.** La partie la plus complexe de l'interface concerne la liste variable de ports série. Comme le fichier peut en contenir plusieurs, l'interface présente un système d'onglets dynamiques : chaque port série dispose de son propre onglet, et des boutons permettent d'en ajouter de nouveaux ou de supprimer l'onglet courant. Chaque onglet présente un formulaire avec les champs du port correspondant : chemin du périphérique (liste déroulante `port_enum`), vitesse de transmission (`baud_rate_enum`), bits de données (`data_bits_enum`), parité (`serial_parity_enum`), bits de stop (`stop_bits_enum`), méthode (`serial_method_enum`), et délai d'attente (champ numérique avec validation).
+**Gestion des ports série.** La liste variable de ports série, partie la plus complexe de l'interface, est gérée par un système d'onglets dynamiques : un onglet par port, avec des boutons d'ajout et de suppression. Chaque onglet présente le formulaire du port (chemin, vitesse, bits de données, parité, bits de stop, méthode — chacun en liste déroulante alimentée par la route d'énumérations — et délai d'attente avec validation).
 
 **Sauvegarde.** À la soumission, les données de l'état local Vue.js sont structurées et envoyées via un POST à la route `/metrological/settings/modbus/networks`. Un retour visuel confirme la sauvegarde ou signale les erreurs retournées par le backend.
 
@@ -371,7 +335,7 @@ Plutôt que de créer une route dédiée pour chaque enum du projet, j'ai dével
 
 Le fichier `protocol.json` est structurellement bien plus complexe que `network.json`. Son contenu s'organise autour de deux types de registres Modbus — le `holding_register` et l'`input_register`.
 
-Le point déterminant pour la conception de l'éditeur est que ces deux registres ne se distinguent pas par leur contenu mais par le type de registre Modbus auquel ils correspondent : le holding register est accessible en lecture/écriture, l'input register en lecture seule. Pour le reste, les deux partagent exactement le même schéma d'organisation et regroupent leurs entrées dans les mêmes sous-sections : `measure` (mesures), `alarm` (alarmes), `information` (informations sur l'appareil), `system` (état du système) et `command` (registres de commande). Une même catégorie de sous-section peut donc apparaître indifféremment dans l'un ou l'autre registre.
+Le point déterminant pour l'éditeur est que ces deux registres ne diffèrent pas par leur contenu mais par leur type Modbus (le holding register en lecture/écriture, l'input register en lecture seule) : ils partagent le même schéma et regroupent leurs entrées dans les mêmes sous-sections — `measure` (mesures), `alarm` (alarmes), `information` (infos appareil), `system` (état système) et `command` (commandes). Une même sous-section peut donc apparaître dans l'un ou l'autre registre.
 
 Au sein de la sous-section `measure`, deux niveaux de représentation coexistent :
 
@@ -384,9 +348,7 @@ La combinaison de cette imbrication à plusieurs niveaux, du partage du même sc
 
 #### b. La route GET /protocol/formats — configuration dynamique de l'interface
 
-Un point architectural notable du projet est l'existence d'une troisième route, `GET /metrological/settings/modbus/protocol/formats`, qui ne retourne pas de données de configuration mais une description de l'interface elle-même. Cette approche, appelée parfois *configuration-driven UI* (interface pilotée par la configuration), permet au backend de dicter au frontend comment se comporter sans que le frontend ait à connaître en dur les règles métier du protocole Modbus.
-
-Contrairement aux listes déroulantes de `ModbusPart.vue`, alimentées par la route générique `/settings/enums/<enum_name>/`, `RegisterMapPart.vue` ne pouvait pas s'appuyer sur ce mécanisme : une partie des options qu'il doit afficher — notamment les noms des alarmes disponibles dans les listes déroulantes — dépend du contenu du fichier `protocol.json` actuellement chargé sur le serveur, qui varie d'une installation à l'autre. Une route dédiée était donc nécessaire.
+Un point architectural notable est une troisième route, `GET …/protocol/formats`, qui ne retourne pas de données de configuration mais une description de l'interface elle-même. Cette approche, dite *configuration-driven UI* (interface pilotée par la configuration), permet au backend de dicter au frontend son comportement sans que celui-ci connaisse en dur les règles métier Modbus. Elle était nécessaire car une partie des options à afficher — notamment les noms d'alarmes disponibles — dépend du `protocol.json` chargé sur le serveur, qui varie d'une installation à l'autre, et ne pouvait donc pas passer par la route générique d'énumérations utilisée dans `ModbusPart.vue`.
 
 Cette route retourne notamment :
 
@@ -415,11 +377,11 @@ La route `POST /metrological/settings/modbus/protocol` reçoit la nouvelle versi
 
 L'interface d'édition de `protocol.json` a été développée dans le composant `RegisterMapPart.vue` (voir Figure 5). La complexité de ce composant est significativement plus élevée que `ModbusPart.vue`, en raison de la richesse de la structure de données à manipuler.
 
-**Chargement et initialisation.** Au montage, trois appels API sont effectués successivement : la configuration des formats et champs (`/protocol/formats`), les données du protocole actuel (`/protocol`), et les données de la configuration du registre map. Ces données permettent de construire l'état interne du composant : une liste plate d'entrées de registres (`registerMap.entries`), plus facile à afficher et à manipuler dans un tableau qu'une hiérarchie imbriquée.
+**Chargement et initialisation.** Au montage, trois appels API successifs récupèrent la configuration des formats et champs (`/protocol/formats`), le protocole actuel (`/protocol`) et la configuration du registre map. Ils servent à construire l'état interne : une liste plate d'entrées (`registerMap.entries`), plus simple à afficher et à trier qu'une hiérarchie imbriquée.
 
 **La grille AG Grid.** Le cœur de l'interface est un tableau interactif réalisé avec AG Grid (cf. glossaire), une bibliothèque JavaScript spécialisée dans les tableaux de données complexes. Chaque ligne du tableau représente un registre ou un groupe de registres, avec les colonnes suivantes : le type de registre (Register : holding ou input), l'adresse (Address), la source (Source : la sous-section `measure`, `alarm`, etc.), le nom (Name), le format (Format), et le facteur de conversion (Factor).
 
-AG Grid a été choisi pour ses fonctionnalités avancées, en particulier le glisser-déposer (drag & drop) des lignes pour réordonner les entrées lorsque le tableau est trié par adresse croissante. Cette fonctionnalité permet à l'utilisateur de visualiser et d'ajuster l'ordre des registres dans la table d'adressage Modbus de manière intuitive. La bibliothèque n'était pas nouvelle dans le projet : un collègue l'avait déjà intégrée dans d'autres parties de PixL Expert et avait développé un fichier utilitaire centralisant la configuration commune des tableaux (définition des options par défaut, gestion des événements récurrents, helpers de formatage). Cela m'a permis d'utiliser AG Grid directement sans avoir à en maîtriser tous les détails d'initialisation, en m'appuyant sur ce socle déjà éprouvé.
+AG Grid a été retenu pour ses fonctionnalités avancées, notamment le glisser-déposer des lignes pour réordonner intuitivement les entrées quand le tableau est trié par adresse. La bibliothèque était déjà présente dans le projet : un collègue l'avait intégrée ailleurs et avait développé un utilitaire centralisant la configuration commune des tableaux, ce qui m'a permis de l'utiliser sans en maîtriser tous les détails d'initialisation.
 
 **Le formulaire d'ajout et d'édition.** L'ajout d'une nouvelle entrée ou la modification d'une entrée existante (via un bouton Edit en fin de ligne) ouvre une fenêtre modale contenant un formulaire dynamique (voir Figure 6). Ce formulaire est dit dynamique car son contenu varie selon la sous-section sélectionnée par l'utilisateur, pilotée par la configuration retournée par la route `/protocol/formats` :
 
@@ -427,9 +389,9 @@ AG Grid a été choisi pour ses fonctionnalités avancées, en particulier le gl
 - Pour la sous-section `elements` : le formulaire présente un sélecteur de nom d'élément et un champ de facteur de conversion. Le format peut être choisi parmi les formats acceptés pour cette sous-section.
 - Pour la sous-section `elements_detailed` : le formulaire présente un sélecteur de nom d'élément, un sélecteur de type de propriété (`raw_value`, `normalized_value`, `response`, `peak_start`, `peak_end`), et un champ de facteur. Le format est imposé à `float32`.
 
-**La détection de conflits d'adresses.** Une fonctionnalité importante de l'éditeur est la détection de chevauchements d'adresses entre registres. Comme chaque format occupe un nombre précis de registres consécutifs (un `float32` occupe les registres à l'adresse N et N+1, un `float16` occupe uniquement le registre N), il est possible que deux entrées se chevauchent si leurs plages d'adresses se recoupent. L'éditeur calcule la plage occupée par chaque entrée à partir de son adresse et de la taille imposée par son format, et signale visuellement dans le tableau toute collision détectée.
+**La détection de conflits d'adresses.** Comme chaque format occupe un nombre précis de registres consécutifs (un `float32` occupe N et N+1, un `float16` le seul registre N), deux entrées peuvent se chevaucher. L'éditeur calcule la plage occupée par chaque entrée et signale visuellement toute collision dans le tableau.
 
-**La sauvegarde.** Lors de la sauvegarde, le composant reconstruit la structure hiérarchique de `protocol.json` à partir de la liste plate d'entrées. Cette opération consiste à regrouper les entrées par section (`holding_register` / `input_register`), puis par sous-section (`measure`, `alarm`, etc.), puis par sous-sous-section (`elements`, `elements_detailed`), et enfin à reconstruire les dictionnaires indexés par nom attendus par le backend. La structure reconstruite est ensuite envoyée via `POST /metrological/settings/modbus/protocol`.
+**La sauvegarde.** À la sauvegarde, le composant reconstruit la structure hiérarchique de `protocol.json` à partir de la liste plate : regroupement par section (`holding_register`/`input_register`), sous-section puis sous-sous-section (`elements`, `elements_detailed`), et reconstruction des dictionnaires indexés par nom attendus par le backend, avant l'envoi via `POST …/protocol`.
 
 ---
 
@@ -447,22 +409,22 @@ Les **cas limites et cas d'erreur** : port TCP hors plage, timeout série infér
 
 #### b. Vérification de la cohérence des fichiers générés
 
-Après chaque cycle de modification et de sauvegarde, les fichiers JSON résultants étaient inspectés directement dans l'éditeur de code. Les points vérifiés incluaient : la présence de toutes les clés attendues, l'absence de clés parasites ou dupliquées, la correction des types de valeurs (en JSON, `"1"` et `1` sont deux valeurs différentes — l'une est une chaîne de caractères, l'autre un entier — et une confusion entre les deux peut provoquer un comportement inattendu côté serveur Modbus), et la conformité de la structure imbriquée avec le schéma attendu.
+Après chaque sauvegarde, les fichiers JSON étaient inspectés dans l'éditeur de code : présence de toutes les clés attendues, absence de clés parasites ou dupliquées, exactitude des types (en JSON, la chaîne `"1"` et l'entier `1` diffèrent, et la confusion peut perturber le serveur Modbus) et conformité de la structure imbriquée.
 
 La vérification était particulièrement minutieuse pour `protocol.json` : la reconstruction de la structure hiérarchique depuis la liste plate du frontend comportait plusieurs étapes susceptibles d'introduire des erreurs (groupement incorrect des entrées, perte d'une sous-section vide, confusion entre `holding_register` et `input_register`).
 
 #### c. Tests unitaires automatisés sur Apix Tools
 
-Au-delà des tests manuels, j'ai écrit une série de **tests unitaires automatisés** sur la bibliothèque Apix Tools, à l'aide du framework **pytest**. Un test unitaire est un petit programme qui exécute une portion de code isolée avec des entrées connues, puis vérifie automatiquement que le résultat obtenu correspond au résultat attendu ; pytest exécute l'ensemble de ces tests d'une seule commande et signale immédiatement toute vérification qui échoue.
+Au-delà des tests manuels, j'ai écrit une série de **tests unitaires automatisés** sur Apix Tools avec le framework **pytest**, qui rejoue d'une seule commande un ensemble de vérifications et signale immédiatement tout échec.
 
-J'ai concentré cet effort de test sur Apix Tools pour une raison précise : cette bibliothèque constitue le **socle partagé** de toute la PixL Suite (modèles de données, ModelMother, logique de sérialisation). Une régression introduite à ce niveau ne se limiterait pas à un composant, mais se propagerait à l'ensemble des services qui en dépendent. C'est aussi la couche qui porte la logique la plus délicate du projet — la conversion entre JSON et objets Python — et donc celle qui bénéficie le plus d'une vérification systématique et reproductible. J'ai écrit ces tests pour les deux modèles sur lesquels portait mon travail : `NetworkParameters` (`network.json`) et `ProtocolParameters` (`protocol.json`).
+J'ai concentré cet effort sur Apix Tools car cette bibliothèque est le **socle partagé** de toute la PixL Suite (modèles, ModelMother, sérialisation) : une régression à ce niveau se propagerait à tous les services qui en dépendent, et c'est la couche qui porte la logique la plus délicate — la conversion JSON ↔ objets Python. Les tests portent sur les deux modèles concernés par mon travail, `NetworkParameters` et `ProtocolParameters`.
 
 Le principe de ces tests repose sur des **fichiers JSON de référence** versionnés aux côtés du code : pour chaque modèle, un fichier valide contenant un jeu de paramètres corrects (`network_valid.json`, et son équivalent pour le protocole) et un fichier volontairement erroné contenant des valeurs invalides (`network_invalid.json`). Les tests chargent ces fichiers via les modèles d'Apix Tools et confrontent le résultat aux valeurs attendues. Ils couvrent quatre familles de vérifications :
 
-- **Valeurs par défaut.** À l'instanciation d'un objet `NetworkParameters` neuf, avant tout chargement, les tests vérifient que les valeurs par défaut sont correctes (port TCP à 502, ports ZMQ à 5556/5557, identifiant d'esclave à 1, liste de ports série vide).
-- **Désérialisation.** Après chargement du fichier valide, les tests vérifient que l'arbre d'objets Python a été correctement reconstruit jusqu'aux niveaux imbriqués : pour `network.json`, les trois ports série avec la valeur de chacune de leurs énumérations (vitesse, parité, méthode RTU/ASCII, bits de données et de stop) ; pour `protocol.json`, les sous-sections indexées par nom (`elements_detailed`, `alarm`) correctement transformées en listes d'objets typés. Cela valide à la fois la désérialisation récursive de ModelMother et la conversion dictionnaire→liste de `ModelDictToListMother` (cf. IV.2.c).
-- **Sérialisation (round-trip).** À l'inverse, `get_attributes_as_dict()` sur l'objet chargé doit reproduire fidèlement le fichier d'origine : énumérations reconverties en leur valeur brute (`"rtu"` et non l'objet énumération), et, pour le protocole, listes Python reconstruites en dictionnaires indexés par nom. Ce « va-et-vient » garantit qu'un fichier chargé puis resauvegardé reste identique à lui-même.
-- **Cas d'erreur.** Plusieurs tests vérifient le comportement face à des entrées invalides : dossier inexistant, chemin non renseigné, fichier introuvable, et valeurs d'énumération non autorisées (`network_invalid.json`). Dans chaque cas, le chargement doit échouer proprement en retournant un statut d'échec et un message d'erreur explicite, plutôt que de lever une exception non maîtrisée. Certains tests vont jusqu'à comparer le message d'erreur au texte exact attendu, produit par la classe centralisée `LogErrorMessages`.
+- **Valeurs par défaut** : à l'instanciation d'un `NetworkParameters` neuf, les valeurs par défaut attendues (port TCP 502, ports ZMQ 5556/5557, identifiant d'esclave 1, liste série vide).
+- **Désérialisation** : après chargement du fichier valide, reconstruction correcte de l'arbre jusqu'aux niveaux imbriqués (ports série et leurs énumérations pour `network.json` ; sous-sections indexées par nom transformées en listes typées pour `protocol.json`), validant à la fois ModelMother et `ModelDictToListMother` (cf. IV.2.c).
+- **Sérialisation (round-trip)** : `get_attributes_as_dict()` doit reproduire fidèlement le fichier d'origine (énumérations reconverties en valeur brute, listes Python re-converties en dictionnaires indexés par nom) — garantie qu'un fichier chargé puis resauvegardé reste identique.
+- **Cas d'erreur** : dossier inexistant, chemin non renseigné, fichier introuvable, valeurs d'énumération invalides ; le chargement doit échouer proprement (statut d'échec et message explicite, comparé au texte attendu via `LogErrorMessages`) plutôt que de lever une exception non maîtrisée.
 
 Cette automatisation présente un double intérêt par rapport aux tests manuels : elle est **rapide** (l'ensemble des cas est rejoué en quelques secondes) et surtout **non régressive** — toute modification ultérieure d'Apix Tools qui casserait la sérialisation serait immédiatement détectée, sans avoir à reproduire les scénarios à la main.
 
@@ -471,68 +433,50 @@ Cette automatisation présente un double intérêt par rapport aux tests manuels
 
 ### 6. Mise en production
 
-La mise en production désigne le processus par lequel une nouvelle version d'un logiciel, développée et testée en environnement local, est installée et rendue opérationnelle sur le serveur réel utilisé par les clients ou par l'entreprise. C'est l'étape finale et critique du cycle de développement : elle mobilise l'ensemble des composants réalisés et exige une coordination précise entre tous les éléments de la PixL Suite. Une erreur à ce stade peut rendre les analyseurs industriels inopérants, ce qui en fait une phase qui demande rigueur et méthode.
+La mise en production consiste à installer et rendre opérationnelle, sur le serveur réel, une version développée et testée en local. C'est l'étape finale et critique du cycle : elle mobilise l'ensemble des composants et exige une coordination précise, car une erreur peut rendre les analyseurs inopérants.
 
 #### a. L'environnement de production
 
-Contrairement à l'environnement de développement, qui tourne sur un poste Windows de développeur, le serveur de production est une machine sous **Linux** (distribution Debian). C'est sur cette machine que tournent en permanence tous les services de la PixL Suite, dans des conteneurs Docker isolés. Le développeur n'a pas accès physiquement à cette machine : toute interaction doit se faire à distance, via le réseau.
-
-La structure des fichiers sur ce serveur est organisée sous le répertoire apix, qui contient l'ensemble des services déployés, leurs fichiers de configuration persistants (notamment `custom.json` qui contrôle le choix du fichier de protocole), leurs journaux d'activité (logs) et leur documentation. Cette organisation centralisée permet de gérer plusieurs versions de la suite sur la même machine et de retrouver facilement les fichiers pertinents lors d'un incident.
+Contrairement à l'environnement de développement (poste Windows), le serveur de production est une machine **Linux** (Debian) sur laquelle tournent en permanence tous les services de la PixL Suite, dans des conteneurs Docker isolés. Le développeur n'y a pas accès physique : toute interaction se fait à distance. Les fichiers y sont organisés sous le répertoire `apix`, qui regroupe les services déployés, leurs configurations persistantes (notamment `custom.json`, qui contrôle le choix du fichier de protocole), leurs journaux (logs) et leur documentation — une organisation centralisée qui permet de gérer plusieurs versions sur la même machine.
 
 #### b. Accès au serveur distant via SSH et MobaXTerm
 
-
-Pour interagir avec une machine Linux distante depuis Windows, on utilise le protocole **SSH** (Secure Shell ; SSH et SCP, cf. glossaire). SSH est un protocole réseau chiffré qui permet d'ouvrir un terminal de commande sur une machine distante comme si l'on était physiquement devant elle. Concrètement, une fois connecté en SSH, le développeur tape des commandes Linux qui s'exécutent sur le serveur de production, à plusieurs centaines de kilomètres de son poste.
-
-L'outil utilisé pour cela est **MobaXTerm**, un client SSH graphique pour Windows. Il offre deux fonctionnalités essentielles :
-
-- Un **terminal Linux émulé** : il permet de taper des commandes shell exactement comme sur une machine Linux physique. Le développeur peut naviguer dans l'arborescence des fichiers, lancer des scripts, consulter des logs, redémarrer des services, etc.
-- Un **gestionnaire de fichiers par glisser-déposer** : MobaXTerm intègre un navigateur de fichiers qui affiche le contenu du serveur distant en temps réel. Il est possible de faire glisser un fichier depuis le poste Windows directement vers un répertoire du serveur, et inversement. En coulisse, ce transfert utilise le protocole **SCP** (Secure Copy Protocol), qui s'appuie sur SSH pour chiffrer le transfert.
+L'accès distant repose sur le protocole **SSH** (Secure Shell ; SSH et SCP, cf. glossaire), qui ouvre un terminal de commande chiffré sur la machine distante. L'outil utilisé est **MobaXTerm**, un client SSH graphique pour Windows offrant deux fonctions clés : un terminal Linux émulé (navigation, scripts, consultation des logs, redémarrage de services) et un gestionnaire de fichiers par glisser-déposer, qui transfère les fichiers entre le poste et le serveur via **SCP** (Secure Copy Protocol, chiffré sur SSH).
 
 #### c. Les artefacts à déployer et le flux de la wheel apix-tools
 
-Avant de lancer un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**. Produits en amont par les pipelines de build de chaque dépôt GitLab, ils regroupent tout ce dont le serveur a besoin pour faire tourner la nouvelle version.
+Avant un déploiement, il faut préparer les fichiers à transférer, appelés **artefacts**, produits par les pipelines de build des dépôts GitLab. La wheel apix-tools suit un flux particulier : compilée par l'alternant (versions Windows et Linux) et stockée dans un dépôt partagé, elle est automatiquement récupérée par le pipeline CI/CD de PixL API d'après le numéro de version de `requirements.txt`, puis intégrée à l'archive ZIP finale — elle est donc déjà présente dans le répertoire `whl/` à l'extraction, sans transfert séparé.
 
-La wheel apix-tools suit un flux particulier jusqu'à la production : compilée par l'alternant (versions Windows pour le développement et Linux pour la production) puis stockée dans un dépôt partagé, elle est automatiquement récupérée par le pipeline CI/CD de PixL API à partir du numéro de version indiqué dans `requirements.txt`, puis intégrée à l'archive ZIP finale. Elle se retrouve ainsi déjà présente dans le répertoire `whl/` lors de l'extraction sur le serveur, sans qu'il soit nécessaire de la transférer séparément.
+Les artefacts à récupérer pour une mise à jour sont :
 
-Pour une mise à jour de PixL API, PixL Expert et PixL Modbus, les artefacts à récupérer sont les suivants :
-
-- **Les archives ZIP produites par le pipeline CI/CD** : chaque service est empaqueté par son pipeline GitLab dans une archive ZIP structurée.
-	- **PixL API** (`pixl-api-x.y.z.zip`) : contient le projet Django, ses dépendances Python, et **la wheel apix-tools déjà intégrée dans le répertoire `whl/`**. Cette intégration dans le ZIP garantit que tous les éléments nécessaires sont présents lors du déploiement.
-	- **PixL Expert** (`pixl-expert-x.y.z.zip`) : contient le backend Django minimal (API endpoints uniquement), ainsi que le build du frontend Vue.js, c'est-à-dire les fichiers HTML, JavaScript et CSS produits par `npm run build`, prêts à être servis.
-
-
-- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_expert-vue-js.sh`) : ce sont des scripts shell Bash qui automatisent toutes les opérations de déploiement pour chaque service. Leur rôle est détaillé dans la section suivante.
+- **Les archives ZIP** produites par le pipeline : `pixl-api-x.y.z.zip` (projet Django, dépendances Python et wheel apix-tools intégrée dans `whl/`) et `pixl-expert-x.y.z.zip` (backend Django minimal et build du frontend Vue.js, soit les fichiers HTML/JS/CSS produits par `npm run build`).
+- **Les scripts de mise à jour** (`script_upgrade_pixl_api.sh`, `script_upgrade_pixl_expert-vue-js.sh`), scripts Bash qui automatisent le déploiement de chaque service.
 
 #### d. Le processus de déploiement pas à pas
 
 ![[flux-deploiement.png|700]]
 *Figure 7 : Flux de déploiement : depuis le poste Windows, le code et les fichiers de déploiement sont transférés par SCP/SSH (MobaXTerm) vers le serveur Linux/Debian, puis `docker compose up` démarre l'ensemble des conteneurs (orchestrateur, PixLAPI, module Modbus, interface web, PostgreSQL).*
 
-Le déploiement d'une nouvelle version se déroule en plusieurs étapes successives et ordonnées (voir Figure 7). Chaque étape doit être validée avant de passer à la suivante, car une erreur non détectée peut se propager et rendre le diagnostic plus difficile.
+Le déploiement se déroule en étapes ordonnées (voir Figure 7), chacune validée avant la suivante.
 
-**Étape 1 — Transfert des fichiers vers le serveur.** À l'aide du gestionnaire de fichiers intégré de MobaXTerm, les artefacts préparés sont glissés-déposés depuis le poste Windows vers un répertoire temporaire sur le serveur, typiquement un sous-répertoire dédié aux mises à jour sous `/usr/bin/apix/updates/`. Cette opération utilise SCP en arrière-plan et chiffre les fichiers pendant le transfert, ce qui garantit qu'ils ne peuvent pas être interceptés ou altérés sur le réseau.
+**Étape 1 — Transfert des fichiers.** Les artefacts sont glissés-déposés depuis Windows vers un répertoire temporaire du serveur (`/usr/bin/apix/updates/`) ; MobaXTerm utilise SCP, qui chiffre le transfert.
 
-**Étape 2 — Attribution des droits d'exécution aux scripts.** Sous Linux, un fichier n'est pas exécutable par défaut : il faut explicitement lui accorder ce droit. Or, lors d'un transfert SCP depuis Windows, les permissions Linux des fichiers ne sont pas toujours préservées correctement. Il est donc nécessaire d'exécuter manuellement la commande suivante dans le terminal SSH pour rendre les scripts exécutables :
+**Étape 2 — Droits d'exécution.** Sous Linux, un fichier transféré n'est pas exécutable par défaut, et SCP ne préserve pas toujours les permissions ; il faut donc les accorder :
 
 ```bash
 chmod 755 script_upgrade_*.sh
 ```
 
-La commande `chmod` (pour *change mode*) modifie les permissions d'un fichier sous Linux. La valeur `755` est une notation octale qui signifie : lecture, écriture et exécution pour le propriétaire du fichier (`7`), et lecture et exécution uniquement pour les autres utilisateurs (`5`). Sans cette étape, Linux refuserait de lancer les scripts avec une erreur *Permission denied*.
-
-**Étape 3 — Exécution des scripts de mise à jour.** Une fois les permissions correctement définies, les scripts de mise à jour sont exécutés dans le terminal SSH. Chaque script prend en argument l'archive récupérée depuis le pipeline CI/CD :
+**Étape 3 — Exécution des scripts.** Chaque script prend en argument l'archive à déployer :
 
 ```bash
 bash script_upgrade_pixl_api.sh     pixl-api-1.0.0.zip
 bash script_upgrade_pixl_expert-vue-js.sh pixl-expert-1.0.0.zip
 ```
 
-Le script reçoit l'archive en paramètre afin de savoir quelle version déployer : c'est ce fichier ZIP, produit et versionné par le pipeline GitLab, qui fait office de source de vérité pour le déploiement. Cette conception permet de rejouer un déploiement pour n'importe quelle version passée en fournissant l'archive correspondante, sans modifier le script lui-même.
+L'archive ZIP, versionnée par le pipeline, fait office de source de vérité : on peut rejouer n'importe quelle version sans modifier le script. Ces scripts enchaînent automatiquement des opérations longues et risquées à la main — arrêt du conteneur, extraction de l'archive, remplacement des fichiers, mise à jour des numéros de version dans `.env`, reconstruction de l'image Docker et redémarrage — ce qui garantit la reproductibilité et réduit le risque d'erreur humaine.
 
-Ces scripts automatisent un enchaînement d'opérations qui seraient longues et risquées à réaliser à la main : arrêt du conteneur Docker en cours d'exécution, extraction de l'archive de la nouvelle version, remplacement des anciens fichiers, mise à jour du fichier de variables d'environnement `.env` avec les nouveaux numéros de version, reconstruction de l'image Docker, et redémarrage du conteneur. L'utilisation de scripts garantit la reproductibilité du déploiement : chaque mise à jour suit exactement la même séquence d'opérations, ce qui réduit le risque d'erreur humaine et facilite le diagnostic en cas de problème.
-
-**Étape 4 — Vérification de l'état des services.** Une fois les scripts exécutés, il est indispensable de vérifier que chaque service a bien démarré et fonctionne correctement. Cette vérification se fait via des commandes Docker dans le terminal SSH :
+**Étape 4 — Vérification des services.** On contrôle enfin que chaque service a démarré :
 
 ```bash
 docker ps -a
@@ -540,17 +484,11 @@ docker-compose logs pixl-api
 docker-compose logs pixl-expert
 ```
 
-La commande `docker ps -a` liste tous les conteneurs Docker présents sur la machine, qu'ils soient en cours d'exécution ou arrêtés, avec leur état, leur nom, et les ports réseau qu'ils exposent. Un conteneur dont le statut affiche `Up` est en fonctionnement normal ; un statut `Exited` ou `Restarting` indique un problème qui nécessite d'aller consulter les logs du conteneur via `docker-compose logs [service_name]`.
+`docker ps -a` liste les conteneurs et leur état : `Up` (fonctionnement normal) ou `Exited`/`Restarting` (problème, à diagnostiquer via les logs).
 
 #### e. Architecture Docker et orchestration des services
 
-Il est important de comprendre comment les différents services de la PixL Suite coexistent sur le même serveur, car cela conditionne directement la façon dont le déploiement est géré.
-
-Chaque composant de la suite — PixL API, PixL Expert et le serveur Modbus — tourne dans un **conteneur Docker** séparé. Un conteneur Docker est un environnement d'exécution isolé qui embarque le code de l'application, son interpréteur Python (ou tout autre runtime), ses bibliothèques et ses fichiers de configuration, de manière totalement indépendante du système hôte. L'analogie courante est celle d'un appartement dans un immeuble : chaque conteneur dispose de son propre espace, de ses propres ressources, et les défaillances d'un conteneur n'affectent pas directement les autres.
-
-Ces conteneurs sont orchestrés par **Docker Compose** (cf. glossaire), un outil qui permet de définir et de gérer plusieurs conteneurs comme un ensemble cohérent à l'aide d'un unique fichier de configuration : `docker-compose.yml`. Ce fichier décrit pour chaque service l'image Docker à utiliser, les ports réseau à exposer, les volumes de données à monter (pour que les fichiers de configuration, notamment `custom.json`, persistent entre les redémarrages), et les dépendances entre services (par exemple, PixL Expert dépend de PixL API pour fonctionner).
-
-Un fichier annexe, `.env`, centralise les variables d'environnement partagées par tous les services :
+Chaque composant de la suite — PixL API, PixL Expert et le serveur Modbus — tourne dans un **conteneur Docker** séparé (cf. glossaire). Ces conteneurs sont orchestrés par **Docker Compose** (cf. glossaire) via un unique fichier `docker-compose.yml`, qui décrit pour chaque service son image, ses ports, ses volumes (pour que `custom.json` persiste entre les redémarrages) et ses dépendances (PixL Expert dépend ainsi de PixL API). Un fichier annexe `.env` centralise les variables d'environnement partagées :
 
 ```
 PIXL_API_VERSION=1.0.0
@@ -564,17 +502,13 @@ Ce découplage entre la définition de l'architecture (`docker-compose.yml`) et 
 
 La mise en production a mis en lumière plusieurs problèmes qui ne se manifestent pas en développement local.
 
-**Erreur de version en cascade : mauvaise référence dans le fichier `.env`.** La principale difficulté rencontrée lors de la mise en production était une incohérence entre les numéros de version spécifiés dans le fichier `.env` et les archives réellement déployées. Concrètement, lors du déploiement de PixL Expert, le script d'installation avait mis à jour `PIXL_EXPERT_VERSION` avec le nouveau numéro de version, mais n'avait pas correctement mis à jour `APIX_TOOLS_VERSION` pour refléter la nouvelle version de la wheel apix-tools intégrée dans le ZIP. Résultat : au démarrage du conteneur PixL API, celui-ci tentait de charger la wheel apix-tools en se basant sur le numéro de version spécifié dans `.env` (l'ancienne version), ne la trouvait pas, et échouait avec une erreur `ModuleNotFoundError: No module named 'apix_tools'`. La wheel était bien présente sur le serveur avec le nouveau numéro de version — mais `.env` n'avait pas été mis à jour pour le refléter.
+**Erreur de version en cascade dans `.env`.** La principale difficulté fut une incohérence entre les versions déclarées dans `.env` et les archives réellement déployées : lors du déploiement de PixL Expert, le script avait mis à jour `PIXL_EXPERT_VERSION` mais pas `APIX_TOOLS_VERSION`. Au démarrage, PixL API cherchait donc la wheel apix-tools à l'ancien numéro de version, ne la trouvait pas et échouait sur `ModuleNotFoundError: No module named 'apix_tools'` — alors que la wheel était bien présente, mais sous un autre numéro. Le diagnostic a consisté à lire les logs (`docker-compose logs pixl-api`), comparer `APIX_TOOLS_VERSION=3.0.0` à la wheel réelle (`apix_tools-3.1.0-…whl`), corriger `.env` et redémarrer le conteneur. Ce bug est sournois : le script s'exécute sans erreur, mais le message pointe vers la wheel manquante plutôt que vers la vraie cause, l'oubli de mise à jour de `.env`.
 
-Pour identifier ce bug, nous avons consulté les logs du conteneur via `docker-compose logs pixl-api`, qui affichait l'erreur de module introuvable, puis comparé le numéro de version dans `.env` (`APIX_TOOLS_VERSION=3.0.0`) avec la version réelle du fichier wheel présent dans l'archive (`apix_tools-3.1.0-py3-none-linux_x86_64.whl`). Une fois l'incohérence constatée, il a suffi de corriger manuellement `.env` avec le bon numéro de version et de redémarrer le conteneur via `docker-compose restart pixl-api`.
-
-Ce type de bug est particulièrement difficile à diagnostiquer en production : le script de déploiement s'exécute sans signaler d'erreur explicite, mais le conteneur échoue au démarrage avec un message qui pointe vers la wheel manquante plutôt que vers le véritable problème — l'absence de mise à jour de `.env`.
-
-**Migrations Django dans un état incohérent.** Un deuxième ensemble de problèmes est apparu en raison des migrations Django. Dans Django, les migrations sont des fichiers qui décrivent l'évolution du schéma de la base de données au fil du temps. Lorsqu'un conteneur démarre, Django exécute automatiquement les migrations en attente avant de pouvoir servir des requêtes. En raison du refactoring important de PixL Expert — passage d'un backend Django monolithique à une API REST couplée à un frontend Vue.js — certaines migrations anciennement créées n'étaient plus applicables à la nouvelle structure du code, créant un état incohérent qui bloquait le démarrage du conteneur. Il a fallu identifier les migrations problématiques en analysant les logs Django, corriger leur état, et vérifier la cohérence entre la base de données et les migrations restantes.
+**Migrations Django incohérentes.** Dans Django, les migrations décrivent l'évolution du schéma de base de données et sont jouées automatiquement au démarrage du conteneur. Le refactoring de PixL Expert (passage d'un backend Django monolithique à une API REST couplée à un frontend Vue.js) avait rendu certaines anciennes migrations inapplicables, créant un état incohérent qui bloquait le démarrage. Il a fallu identifier les migrations fautives dans les logs, corriger leur état et vérifier la cohérence avec la base.
 
 #### g. Résultats et apports
 
-À l'issue des déploiements successifs et après correction des problèmes identifiés, l'ensemble des composants de la PixL Suite fonctionnait correctement en production. Le serveur Modbus répondait aux requêtes des équipements industriels connectés ; l'API REST exposait ses routes avec la wheel apix-tools correctement intégrée, permettant la lecture et l'écriture dynamiques des fichiers de protocole définis dans `custom.json` ; PixL Expert servait l'interface Vue.js et communiquait correctement avec l'API.
+Après ces corrections, l'ensemble de la PixL Suite fonctionnait correctement en production : le serveur Modbus répondait aux équipements connectés, l'API REST exposait ses routes avec la wheel correctement intégrée (lecture/écriture des protocoles définis dans `custom.json`), et PixL Expert servait l'interface Vue.js en dialoguant avec l'API.
 
 ---
 
@@ -584,7 +518,7 @@ Au-delà de la description des solutions développées, il me paraît important 
 
 #### a. Distinguer ma contribution de la base existante
 
-Le projet s'est inscrit dans une codebase déjà conséquente, dont je n'ai écrit qu'une partie. L'architecture générale de la PixL Suite, le framework de sérialisation ModelMother, le socle de configuration commun d'AG Grid et les conventions Vue.js du projet préexistaient à mon arrivée ; l'extension `ModelDictToListMother` (cf. IV.2.c) a par ailleurs été réalisée par ma tutrice pour débloquer une limitation que j'avais rencontrée. Mon apport personnel a porté sur l'ensemble suivant : la conception et le développement des deux éditeurs (`ModbusPart.vue` et `RegisterMapPart.vue`), les routes backend de chargement, de validation et de sauvegarde des deux fichiers, la route générique d'énumérations, la logique de détection des conflits d'adresses, la reconstruction de la structure hiérarchique de `protocol.json` à partir de la liste plate manipulée par le frontend, ainsi que les tests unitaires sur Apix Tools. J'ai donc avant tout construit des fonctionnalités autonomes et identifiables en m'appuyant sur des fondations existantes — un exercice qui m'a demandé de comprendre du code écrit par d'autres avant de pouvoir m'y greffer sans en rompre la cohérence.
+Le projet s'est inscrit dans une base de code déjà conséquente, dont je n'ai écrit qu'une partie. L'architecture générale de la PixL Suite, le framework de sérialisation ModelMother, le socle de configuration commun d'AG Grid et les conventions Vue.js du projet préexistaient à mon arrivée ; l'extension `ModelDictToListMother` (cf. IV.2.c) a par ailleurs été réalisée par ma tutrice pour débloquer une limitation que j'avais rencontrée. Mon apport personnel a porté sur l'ensemble suivant : la conception et le développement des deux éditeurs (`ModbusPart.vue` et `RegisterMapPart.vue`), les routes backend de chargement, de validation et de sauvegarde des deux fichiers, la route générique d'énumérations, la logique de détection des conflits d'adresses, la reconstruction de la structure hiérarchique de `protocol.json` à partir de la liste plate manipulée par le frontend, ainsi que les tests unitaires sur Apix Tools. J'ai donc avant tout construit des fonctionnalités autonomes et identifiables en m'appuyant sur des fondations existantes — un exercice qui m'a demandé de comprendre du code écrit par d'autres avant de pouvoir m'y greffer sans en rompre la cohérence.
 
 #### b. Retour sur les principaux choix techniques
 
@@ -613,15 +547,15 @@ Le stage n'a par ailleurs occasionné **aucun déplacement professionnel**, l'ac
 
 ### 2. Démarche environnementale et sociale de l'entreprise
 
-Au-delà de mon activité individuelle, il est intéressant de considérer la démarche d'APIX Analytics en matière d'aspects écologiques et sociaux. Le cœur de métier de l'entreprise s'inscrit lui-même dans une logique environnementale : la gamme **GREENPIX** est dédiée à l'analyse des gaz renouvelables (biométhane, biogaz), une activité qui accompagne directement la transition énergétique en permettant le contrôle qualité nécessaire à l'injection de gaz « verts » dans les réseaux.
+La démarche d'APIX en matière écologique et sociale mérite aussi d'être considérée. Son cœur de métier s'inscrit déjà dans une logique environnementale : la gamme **GREENPIX**, dédiée aux gaz renouvelables (biométhane, biogaz), accompagne directement la transition énergétique en permettant le contrôle qualité nécessaire à l'injection de gaz « verts » dans les réseaux.
 
-Sur le plan des pratiques internes, plusieurs éléments observés durant le stage témoignent d'une démarche responsable au quotidien. La taille réduite de la structure favorise naturellement la sobriété : les échanges privilégient l'oral et le numérique plutôt que l'impression papier, et le travail s'appuie largement sur des outils dématérialisés (dépôts Git, documentation en ligne, communication interne). Le tri des déchets est en place dans les locaux, et l'implantation de l'entreprise en centre-ville de Grenoble, bien desservie par les transports en commun, facilite le recours aux mobilités douces par les collaborateurs.
+Sur le plan des pratiques internes, plusieurs éléments témoignent d'une démarche responsable : la petite taille favorise la sobriété (échanges oraux et numériques plutôt que papier, outils dématérialisés), le tri des déchets est en place, et l'implantation en centre-ville de Grenoble, bien desservie, facilite les mobilités douces.
 
-Sur le plan social, l'organisation en petite équipe se traduit par des conditions de travail favorables, que j'ai pu constater tout au long du stage : une communication directe et bienveillante, un accompagnement attentif des nouveaux arrivants, une réelle autonomie laissée à chacun, et une ambiance d'équipe propice à l'entraide grâce à la proximité physique dans l'openspace. L'entreprise a par ailleurs mis en place une politique de télétravail partiel, qui offre aux collaborateurs une flexibilité appréciable dans l'organisation de leur travail et contribue, accessoirement, à réduire les déplacements domicile-travail. Cet environnement de travail, à la fois exigeant techniquement et humainement accueillant, contribue au bien-être et à la montée en compétence des membres de l'équipe.
+Sur le plan social, l'organisation en petite équipe offre des conditions de travail favorables : communication directe et bienveillante, accompagnement des nouveaux arrivants, autonomie réelle et entraide favorisée par la proximité dans l'espace de travail partagé. Une politique de télétravail partiel apporte en outre de la flexibilité et réduit les déplacements. Cet environnement, exigeant techniquement et humainement accueillant, contribue au bien-être et à la montée en compétence de l'équipe.
 
 ### 3. Impact sociétal du projet
 
-Le projet réalisé durant ce stage présente également des retombées sociétales, principalement liées à l'utilisation directe de l'outil produit. En remplaçant la modification manuelle des fichiers de configuration `network.json` et `protocol.json` par une interface guidée et validée, l'outil réduit significativement le risque d'erreur humaine lors du paramétrage des équipements Modbus. Cette fiabilité accrue améliore les conditions de travail des techniciens et intégrateurs, qui manipulent désormais une interface claire plutôt qu'un fichier JSON brut, et limite les interventions correctives consécutives à une mauvaise configuration.
+Le projet a aussi des retombées sociétales, liées à l'usage de l'outil. En remplaçant l'édition manuelle de `network.json` et `protocol.json` par une interface guidée et validée, il réduit nettement le risque d'erreur humaine lors du paramétrage Modbus, améliore les conditions de travail des techniciens et intégrateurs — qui manipulent une interface claire plutôt qu'un JSON brut — et limite les interventions correctives.
 
 Plus largement, l'outil s'intègre à la PixL Suite, qui pilote des analyseurs de gaz industriels. En contribuant à la fiabilité de ces analyseurs — notamment ceux dédiés au contrôle des gaz renouvelables — le projet participe indirectement à un système ayant un impact environnemental positif : un paramétrage correct et sûr des équipements est une condition de la qualité des mesures sur lesquelles reposent la surveillance des procédés industriels et le suivi des émissions.
 
@@ -633,7 +567,7 @@ Ce stage avait pour objectif de concevoir et développer un outil d'édition des
 
 Le projet a couvert l'ensemble de la chaîne de développement, du backend au frontend. Côté Python, il a fallu comprendre et exploiter ModelMother, le système de sérialisation interne du projet, exposer les données de configuration via des routes API, et intégrer des règles de validation issues des contraintes métier du protocole Modbus. Côté Vue.js, il a fallu construire des interfaces d'édition claires pour des données volumineuses et fortement hiérarchisées, tout en respectant l'architecture et les conventions existantes du projet. La phase de mise en production a enfin permis d'aborder des aspects plus opérationnels — déploiement par scripts, conteneurisation Docker, diagnostic d'erreurs en environnement réel — qui ne se rencontrent pas en développement local.
 
-Sur le plan technique, ce stage a été l'occasion de monter en compétence sur une stack complète et largement utilisée en milieu professionnel (Python, Django, Vue.js, Docker, Modbus), et de découvrir les exigences propres au développement logiciel en entreprise : intégration dans une codebase existante, lecture et réutilisation du code d'autrui, validation rigoureuse des données, et diagnostic de problèmes en production. Le travail dans un cadre itératif, sans cahier des charges formel, a par ailleurs renforcé ma capacité d'adaptation, d'autonomie et de communication, les objectifs se précisant au fil des échanges avec ma tutrice.
+Sur le plan technique, ce stage a été l'occasion de monter en compétence sur une stack complète et largement utilisée en milieu professionnel (Python, Django, Vue.js, Docker, Modbus), et de découvrir les exigences propres au développement logiciel en entreprise : intégration dans une base de code existante, lecture et réutilisation du code d'autrui, validation rigoureuse des données, et diagnostic de problèmes en production. Le travail dans un cadre itératif, sans cahier des charges formel, a par ailleurs renforcé ma capacité d'adaptation, d'autonomie et de communication, les objectifs se précisant au fil des échanges avec ma tutrice.
 
 Ce stage a également prolongé et mis en pratique, dans un contexte professionnel réel, les compétences développées au cours du BUT Informatique. Le développement full-stack de l'outil a directement mobilisé la compétence « Réaliser un développement d'application », tant côté backend que frontend. La manipulation et la validation des fichiers de configuration structurés ont fait appel aux compétences « Gérer des données de l'information » et « Optimiser des applications ». La phase de déploiement par conteneurs sur un serveur Linux distant a prolongé les enseignements de systèmes et réseaux, en lien avec la compétence « Administrer des systèmes informatiques communicants complexes ». Enfin, l'organisation itérative du projet et le travail au sein d'une petite équipe ont concrétisé les compétences « Conduire un projet » et « Travailler dans une équipe informatique ». Ce stage a ainsi constitué une application intégrée de l'ensemble du référentiel de compétences du BUT3.
 
@@ -664,8 +598,6 @@ La mise en production, enfin, a été particulièrement formatrice sur la rigueu
 - **AG Grid** — bibliothèque JavaScript de tableaux de données interactifs (tri, filtres, glisser-déposer) utilisée côté frontend.
 - **DRF** *(Django REST Framework)* — extension de Django pour exposer des API REST.
 
-<div style="page-break-after: always;"></div>
-
 ## Références bibliographiques et webographiques
 
 [1] Modbus Organization. *MODBUS Application Protocol Specification V1.1b3* [en ligne]. Disponible sur : https://modbus.org/specs.php (consulté le 08/06/2026)
@@ -677,16 +609,12 @@ La mise en production, enfin, a été particulièrement formatrice sur la rigueu
 [7] Université Grenoble Alpes. *Règlement des études BUT Informatique* [en ligne]. (consulté le 08/06/2026)
 [8] ADEME. *Calculateur d'émissions carbone des trajets — Agir pour la transition écologique* [en ligne]. Disponible sur : https://agirpourlatransition.ademe.fr/particuliers/bureau/deplacements/calculer-emissions-carbone-trajets (consulté le 08/06/2026)
 
-<div style="page-break-after: always;"></div>
-
 ## Annexes
 
 ### Annexe A — Modèle de communication Modbus maître/esclave
 
 ![[modbus-maitre-esclave.png|400]]
 *Figure 8 : Modèle de communication Modbus maître/esclave : l'automate maître envoie une requête, l'analyseur APIX (esclave) y répond. L'esclave ne transmet jamais de données spontanément.*
-
-<div style="page-break-after: always;"></div>
 
 ### Annexe B — Hiérarchie complète des classes de modèles
 
@@ -715,8 +643,6 @@ ModelMother
         └── CommandParameters
 ```
 
-<div style="page-break-after: always;"></div>
-
 ### Annexe C — Structure complète du fichier `network.json`
 
 *Exemple complet illustrant les quatre sections décrites en IV.3.a (identifiant d'esclave, configuration TCP, ports série, configuration ZMQ).*
@@ -739,8 +665,6 @@ ModelMother
   }
 }
 ```
-
-<div style="page-break-after: always;"></div>
 
 ## Résumé
 
